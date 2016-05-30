@@ -46,7 +46,7 @@ splash(
 #
 
 fontresload( "0", "ttf/Roboto-Regular.ttf;ttf/DroidSansArabic.ttf;ttf/DroidSansFallback.ttf;", "12" ); #-- Use sets of font (Font Family)
-theme("material_red");
+theme("touchwiz");
 
 ##
 # SHOW LANGUAGE SELECTION
