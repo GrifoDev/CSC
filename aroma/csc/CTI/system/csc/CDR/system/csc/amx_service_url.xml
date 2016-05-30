@@ -1,0 +1,10 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+
+	<AMXService>
+		<PortalMovilURL>http://z.clarodo.mobi/clarodo-cw.qpass.com/ndmns/index</PortalMovilURL>
+		<iMStoreURL>http://m.claromusica.com</iMStoreURL>
+		<operatorURL>http://www.claro.com.do/wps/portal/do/sc/personas/movil/planes-de-voz-datos</operatorURL>
+	</AMXService>
+
+</CustomerData>

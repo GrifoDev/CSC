@@ -1,0 +1,83 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED003</Version>
+  <Country>INDIA</Country>
+  <CountryISO>IN</CountryISO>
+  <SalesCode>INU</SalesCode>
+  <FeatureSet>
+   <CscFeature_SyncML_SwUpdateActionDuringRoaming>roaminginfo</CscFeature_SyncML_SwUpdateActionDuringRoaming>
+   <CscFeature_VoiceCall_DisableGeoDescription>TRUE</CscFeature_VoiceCall_DisableGeoDescription>
+   <CscFeature_Message_ConfigImeiTracker>+919560345888</CscFeature_Message_ConfigImeiTracker> 
+   <CscFeature_Web_EnableAutoSimHomeUrlInProfile>FALSE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+   <CscFeature_Web_ConfigDomainKeepIdleConnection>digilocker.gov.in</CscFeature_Web_ConfigDomainKeepIdleConnection>
+   <CscFeature_Web_EnableDataCompressionProxy>TRUE</CscFeature_Web_EnableDataCompressionProxy>
+   <CscFeature_RIL_CurrentPlmnIndCheck>TRUE</CscFeature_RIL_CurrentPlmnIndCheck>
+   <CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>
+   <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+   <CscFeature_Framework_EnableHarfbuzz>TRUE</CscFeature_Framework_EnableHarfbuzz>
+   <CscFeature_FMRadio_RecordingVolumeAs>11</CscFeature_FMRadio_RecordingVolumeAs>
+   <CscFeature_RIL_SupportUssdWithSharpChar>TRUE</CscFeature_RIL_SupportUssdWithSharpChar>
+   <CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>
+   <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+   <CscFeature_Web_DisableMostVisitedHomepage>TRUE</CscFeature_Web_DisableMostVisitedHomepage>
+   <CscFeature_SNote_AddOnFontConfig>SWA</CscFeature_SNote_AddOnFontConfig>
+   <CscFeature_VoiceCall_TunnigCallWaitingToneAs>80,80,22,80,80,80,22,80</CscFeature_VoiceCall_TunnigCallWaitingToneAs> 
+   <CscFeature_Contact_RemoveActionBarTitle>TRUE</CscFeature_Contact_RemoveActionBarTitle>
+   <CscFeature_Contact_ConfigImsOpStyle>INU</CscFeature_Contact_ConfigImsOpStyle>
+   <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+
+   <CscFeature_Setting_HideApnList>ims,IMS</CscFeature_Setting_HideApnList>
+   <CscFeature_RIL_ForceConnectIMS>TRUE</CscFeature_RIL_ForceConnectIMS>
+   <CscFeature_RIL_DisableEons>TRUE</CscFeature_RIL_DisableEons>
+   <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
+
+    <!-- IMS -->
+    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
+    <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
+
+    <!-- Networkmode for RJIL -->
+    <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
+
+    <CscFeature_mCommerce_WalletMgrConfig>Disable</CscFeature_mCommerce_WalletMgrConfig>
+    <CscFeature_Web_ConfigQuickAccessUcWebIntegration>UCWebNavigation</CscFeature_Web_ConfigQuickAccessUcWebIntegration>
+    <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+    <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Message_EnableBlackList>TRUE</CscFeature_Message_EnableBlackList>
+    <CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+    <CscFeature_Message_EnableSaveRestoreSDCard>TRUE</CscFeature_Message_EnableSaveRestoreSDCard>
+    <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
+    <CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+    <CscFeature_SystemUI_SupportAssistanceAppChooser>TRUE</CscFeature_SystemUI_SupportAssistanceAppChooser>
+    <CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+    <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+    <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
+
+   <CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
+   <CscFeature_RIL_UssdRoutingPolicy>ims</CscFeature_RIL_UssdRoutingPolicy>
+   <CscFeature_RIL_SupportVolteVtCall>TRUE</CscFeature_RIL_SupportVolteVtCall>
+   <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+   <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+   <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+   <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+   <CscFeature_RIL_SetVolteAudioPath>TRUE</CscFeature_RIL_SetVolteAudioPath>
+   <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
+   
+    <!-- Newly added request by RIL TG, JinHone Seol -->
+   <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
+   <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
+   <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+   <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+   <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>INU_4G</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+   <CscFeature_Setting_ReplaceLabel4DualSim>Smart dual SIM</CscFeature_Setting_ReplaceLabel4DualSim>
+  </FeatureSet>
+</SamsungMobileFeauture>

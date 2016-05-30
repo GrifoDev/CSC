@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FXSA</CSCName>
+	<CSCVersion>1APDN</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/XSA/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

@@ -1,0 +1,31 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FVFG</CSCName>
+	<CSCVersion>1APD2</CSCVersion>
+	<NbCustomer>20</NbCustomer>
+	<CustomerData src="/Customer/ATL/customer.xml" />
+	<CustomerData src="/Customer/AVF/customer.xml" />
+	<CustomerData src="/Customer/CNX/customer.xml" />
+	<CustomerData src="/Customer/CYV/customer.xml" />
+	<CustomerData src="/Customer/MOB/customer.xml" />
+	<CustomerData src="/Customer/MTL/customer.xml" />
+	<CustomerData src="/Customer/OMN/customer.xml" />
+	<CustomerData src="/Customer/PRO/customer.xml" />
+	<CustomerData src="/Customer/SIM/customer.xml" />
+	<CustomerData src="/Customer/SWC/customer.xml" />
+	<CustomerData src="/Customer/TCL/customer.xml" />
+	<CustomerData src="/Customer/VD2/customer.xml" />
+	<CustomerData src="/Customer/VDC/customer.xml" />
+	<CustomerData src="/Customer/VDF/customer.xml" />
+	<CustomerData src="/Customer/VDH/customer.xml" />
+	<CustomerData src="/Customer/VDI/customer.xml" />
+	<CustomerData src="/Customer/VGR/customer.xml" />
+	<CustomerData src="/Customer/VIP/customer.xml" />
+	<CustomerData src="/Customer/VOD/customer.xml" />
+	<CustomerData src="/Customer/XFV/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

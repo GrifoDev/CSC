@@ -1,0 +1,7 @@
+/system/app/ap_PaymentFramework_spay_stub_M_release/ap_PaymentFramework_spay_stub_M_release.apk
+/system/priv-app/ContenedorGlobalV8110F021115VC163/ContenedorGlobalV8110F021115VC163.apk
+/system/priv-app/MiClaro_CTI_v1.0.3-6/MiClaro_CTI_v1.0.3-6.apk
+/system/priv-app/OnStartNotification_MM_v12/OnStartNotification_MM_v12.apk
+/system/priv-app/Portal/Portal.apk
+/system/priv-app/SVoiceLang_PortuguesePack_BR-release/SVoiceLang_PortuguesePack_BR-release.apk
+/system/priv-app/SVoiceLang_SpanishPack_US-release/SVoiceLang_SpanishPack_US-release.apk

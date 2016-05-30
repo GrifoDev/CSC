@@ -1,0 +1,56 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED0001</Version>
+  <Country>UNITED KINGDOM</Country>
+  <CountryISO>GB</CountryISO>
+  <SalesCode>BTU</SalesCode>
+  <FeatureSet>
+    <CscFeature_VoiceCall_EnableVmsNumberAsDefaultInCallForwarding>TRUE</CscFeature_VoiceCall_EnableVmsNumberAsDefaultInCallForwarding>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Wifi_UseDefaultSecurityAs>WPA2/PSK</CscFeature_Wifi_UseDefaultSecurityAs>
+    <CscFeature_Message_UserAgent>SAMSUNG-ANDROID-MMS/uaprof</CscFeature_Message_UserAgent>
+    <CscFeature_Message_UaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</CscFeature_Message_UaProfUrl>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_Contact_ConfigImsOpStyle>BTU</CscFeature_Contact_ConfigImsOpStyle>
+    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_EnableLTEVideoCall>FALSE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
+    <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off/234</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+    <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Message_EnableBlackList>TRUE</CscFeature_Message_EnableBlackList>
+    <CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+    <CscFeature_Message_EnableSaveRestoreSDCard>TRUE</CscFeature_Message_EnableSaveRestoreSDCard>
+    <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
+    <CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+    <CscFeature_SystemUI_SupportAssistanceAppChooser>TRUE</CscFeature_SystemUI_SupportAssistanceAppChooser>
+    <CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+    <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+    <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
+  </FeatureSet>
+</SamsungMobileFeauture>

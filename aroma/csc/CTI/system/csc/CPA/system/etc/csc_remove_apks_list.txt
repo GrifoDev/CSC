@@ -1,0 +1,10 @@
+/system/app/UserManual/UserManual.apk
+/system/priv-app/MiClaro_CDR_v4.0/MiClaro_CDR_v4.0.apk
+/system/priv-app/MiClaro_CTI_v1.0.3-6/MiClaro_CTI_v1.0.3-6.apk
+/system/priv-app/MiClaro_ECO_v3.5.1/MiClaro_ECO_v3.5.1.apk
+/system/priv-app/SVoiceLang_EnglishPack_GB_1.0/SVoiceLang_EnglishPack_GB_1.0.apk
+/system/priv-app/SVoiceLang_FrenchPack_1.0/SVoiceLang_FrenchPack_1.0.apk
+/system/priv-app/SVoiceLang_GermanPack_DE_1.0/SVoiceLang_GermanPack_DE_1.0.apk
+/system/priv-app/SVoiceLang_ItalianPack_IT_1.0/SVoiceLang_ItalianPack_IT_1.0.apk
+/system/priv-app/SVoiceLang_RussianPack_RU_1.0/SVoiceLang_RussianPack_RU_1.0.apk
+/system/priv-app/SVoiceLang_SpanishPack_ES_1.0/SVoiceLang_SpanishPack_ES_1.0.apk

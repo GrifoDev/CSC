@@ -1,0 +1,2 @@
+/system/app/ap_PaymentFramework_spay_stub_M_release/ap_PaymentFramework_spay_stub_M_release.apk
+/system/app/mysasktel-stub-may7/mysasktel-stub-may7.apk

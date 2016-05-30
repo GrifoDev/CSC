@@ -1,0 +1,17 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FODD</CSCName>
+	<CSCVersion>1APE9</CSCVersion>
+	<NbCustomer>6</NbCustomer>
+	<CustomerData src="/Customer/INU/customer.xml" />
+	<CustomerData src="/Customer/INS/customer.xml" />
+	<CustomerData src="/Customer/BNG/customer.xml" />
+	<CustomerData src="/Customer/SLK/customer.xml" />
+	<CustomerData src="/Customer/SLI/customer.xml" />
+	<CustomerData src="/Customer/NPL/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

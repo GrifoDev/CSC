@@ -1,0 +1,4 @@
+/system/app/ap_PaymentFramework_spay_stub_M_release/ap_PaymentFramework_spay_stub_M_release.apk
+/system/app/Netco-Sports_J5-JDM_Stub_Android_2016-01-22/Netco-Sports_J5-JDM_Stub_Android_2016-01-22.apk
+/system/app/Netco-Sports_J5-JDQ_Stub_Android_2016-01-22/Netco-Sports_J5-JDQ_Stub_Android_2016-01-22.apk
+/system/app/PortailVideotron_1.0.4-android23/PortailVideotron_1.0.4-android23.apk

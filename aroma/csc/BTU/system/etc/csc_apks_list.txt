@@ -1,0 +1,2 @@
+/system/app/mygalaxy_app-release-SDK_23_150116/mygalaxy_app-release-SDK_23_150116.apk
+/system/priv-app/IPsecService/IPsecService.apk

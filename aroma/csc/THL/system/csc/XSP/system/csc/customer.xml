@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0005</CSCEdition>
+    <Country>SINGAPORE</Country>
+    <CountryISO>SG</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>XSP</SalesCode>
+    <NbNetworkInfo>9</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52503</MCCMNC>
+      <NetworkName>SGP-M1</NetworkName>
+      <SPName>SGP-M1</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52501</MCCMNC>
+      <NetworkName>Singtel (Postpaid)</NetworkName>
+      <SPName>Singtel</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52502</MCCMNC>
+      <NetworkName>Singtel (Postpaid)</NetworkName>
+      <SPName>Singtel</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52501</MCCMNC>
+      <NetworkName>Singtel (Prepaid)</NetworkName>
+      <SPName>Singtel</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52502</MCCMNC>
+      <NetworkName>Singtel (Prepaid)</NetworkName>
+      <SPName>Singtel</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52505</MCCMNC>
+      <NetworkName>StarHub (Postpaid)</NetworkName>
+      <SPName>StarHub</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52505</MCCMNC>
+      <NetworkName>StarHub (Prepaid)</NetworkName>
+      <SPName>StarHub</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52802</MCCMNC>
+      <NetworkName>B-Mobile</NetworkName>
+      <SPName>B-Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52811</MCCMNC>
+      <NetworkName>DSTCom</NetworkName>
+      <SPName>DSTCom</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbMaxPDP>4</NbMaxPDP>
+        <MaxPDP>
+          <NetworkName>Singtel (Postpaid)</NetworkName>
+          <MaxPDP2G>13</MaxPDP2G>
+        </MaxPDP>
+        <MaxPDP>
+          <NetworkName>Singtel (Prepaid)</NetworkName>
+          <MaxPDP2G>13</MaxPDP2G>
+        </MaxPDP>
+        <MaxPDP>
+          <NetworkName>B-Mobile</NetworkName>
+          <MaxPDP2G>13</MaxPDP2G>
+        </MaxPDP>
+        <MaxPDP>
+          <NetworkName>DSTCom</NetworkName>
+          <MaxPDP2G>13</MaxPDP2G>
+        </MaxPDP>
+        <NbFastDormancy>4</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Singtel (Postpaid)</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Singtel (Prepaid)</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>StarHub (Postpaid)</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>SGP-M1</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>StarHub (Postpaid)</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+      </Sound>
+      <Phone>
+        <DefLanguage>en_GB</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <ContactSort>firstname</ContactSort>
+    </Contact>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>automatic</CharSupport>
+        <PreviewMessage>on</PreviewMessage>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Yahoo!</BookmarkName>
+        <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>Singtel (Postpaid)</NetworkName>
+      <WifiSSID>Singtel WIFI</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <Connections>
+      <NbProfileHandle>7</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Singtel (Postpaid)</NetworkName>
+        <ProfBrowser>Singtel (Postpaid)</ProfBrowser>
+        <ProfMMS>IDEAS MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>STM-UT</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Singtel (Prepaid)</NetworkName>
+        <ProfBrowser>Singtel (Prepaid)</ProfBrowser>
+        <ProfMMS>hiCard MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>SGP-M1</NetworkName>
+        <ProfBrowser>M1 E-mail</ProfBrowser>
+        <ProfMMS>M1_MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>StarHub (Postpaid)</NetworkName>
+        <ProfBrowser>SH Data Postpaid</ProfBrowser>
+        <ProfMMS>SH MMS Postpaid</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>StarHub (Prepaid)</NetworkName>
+        <ProfBrowser>SH Data Prepaid</ProfBrowser>
+        <ProfMMS>SH MMS Prepaid</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>B-Mobile</NetworkName>
+        <ProfBrowser>B-Mobile</ProfBrowser>
+        <ProfMMS>B-Mobile MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>DSTCom</NetworkName>
+        <ProfBrowser>DSTInternet</ProfBrowser>
+        <ProfMMS>DSTMMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>18</NbProfile>
+      <Profile>
+        <NetworkName>Singtel (Postpaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IDEAS MMS</ProfileName>
+        <URL>http://mms.singtel.com:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>165.21.42.84</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>e-ideas</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Singtel (Postpaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Singtel (Postpaid)</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>e-ideas</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Singtel (Postpaid)</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Singtel (Postpaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>STM-UT</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>stm-ut</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Singtel (Prepaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Singtel (Prepaid)</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>hicard</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Singtel (Prepaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>hiCard MMS</ProfileName>
+        <URL>http://mms.singtel.com:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>165.21.42.84</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>hicard</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SGP-M1</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>M1 E-mail</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sunsurf</APN>
+          <UserId>65</UserId>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SGP-M1</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>M1_MMS</ProfileName>
+        <URL>http://mmsgw:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.14.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>miworld</APN>
+          <UserId>65</UserId>
+          <Password>user123</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SGP-M1</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub (Postpaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SH Data Postpaid</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>shwap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub (Postpaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SH MMS Postpaid</ProfileName>
+        <URL>http://mms.starhubgee.com.sg:8002/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.1.80</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>shmms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub (Postpaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub (Prepaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SH Data Prepaid</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.1.2</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>shppd</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>StarHub (Prepaid)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SH MMS Prepaid</ProfileName>
+        <URL>http://mms.starhubgee.com.sg:8002/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.1.80</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>shppd</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>B-Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>B-Mobile</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>bmobilewap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>B-Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>B-Mobile MMS</ProfileName>
+        <URL>http://mms.bmobile.com.bn/was</URL>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>129.9.10.20</ServAddr>
+          <Port>6500</Port>
+        </Proxy>
+        <PSparam>
+          <APN>bmobilemms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DSTCom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DSTInternet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>dst.internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DSTCom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DSTMMS</ProfileName>
+        <URL>http://mms.dst.com.bn/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>10.100.6.101</ServAddr>
+          <Port>3130</Port>
+        </Proxy>
+        <PSparam>
+          <APN>dst.mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+    </Connections>
+    <IMSSetting>
+      <NbSetting>3</NbSetting>
+      <Setting>
+        <NetworkName>Singtel (Postpaid)</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Starhub (Postpaid)</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>SGP-M1</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
+  </Settings>
+</CustomerData>

@@ -1,0 +1,9 @@
+8
+CatchFavorites_M.apk
+FlipboardBriefing.apk
+NaverTvCast.apk
+SamsungPayStub.apk
+CnnPanel.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk

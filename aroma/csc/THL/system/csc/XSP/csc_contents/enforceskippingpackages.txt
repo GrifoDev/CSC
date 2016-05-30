@@ -1,0 +1,6 @@
+5
+AxelSpringer.apk
+MSSkype_stub.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk

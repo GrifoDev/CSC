@@ -1,0 +1,5 @@
+/system/app/GL_stub_SDK23_rev2/GL_stub_SDK23_rev2.apk
+/system/app/Kaiti/Kaiti.apk
+/system/app/Miao/Miao.apk
+/system/app/mySamsung_stub-release/mySamsung_stub-release.apk
+/system/app/ShaoNv/ShaoNv.apk

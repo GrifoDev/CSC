@@ -1,0 +1,14 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FDDX</CSCName>
+	<CSCVersion>1APC2</CSCVersion>
+	<NbCustomer>3</NbCustomer>
+	<CustomerData src="/Customer/DTM/customer.xml" />
+	<CustomerData src="/Customer/DCO/customer.xml" />
+	<CustomerData src="/Customer/DDE/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

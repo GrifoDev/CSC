@@ -1,0 +1,39 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FOJV</CSCName>
+	<CSCVersion>1APD2</CSCVersion>
+	<NbCustomer>28</NbCustomer>
+	<CustomerData src="/Customer/ACR/customer.xml" />
+	<CustomerData src="/Customer/AFG/customer.xml" />
+	<CustomerData src="/Customer/AFR/customer.xml" />
+	<CustomerData src="/Customer/BTC/customer.xml" />
+	<CustomerData src="/Customer/DKR/customer.xml" />
+	<CustomerData src="/Customer/DRC/customer.xml" />
+	<CustomerData src="/Customer/ECT/customer.xml" />
+	<CustomerData src="/Customer/EGY/customer.xml" />
+	<CustomerData src="/Customer/KSA/customer.xml" />
+	<CustomerData src="/Customer/LYS/customer.xml" />
+	<CustomerData src="/Customer/MAT/customer.xml" />
+	<CustomerData src="/Customer/MID/customer.xml" />
+	<CustomerData src="/Customer/MRT/customer.xml" />
+	<CustomerData src="/Customer/MRU/customer.xml" />
+	<CustomerData src="/Customer/MTZ/customer.xml" />
+	<CustomerData src="/Customer/MWD/customer.xml" />
+	<CustomerData src="/Customer/PAK/customer.xml" />
+	<CustomerData src="/Customer/SMG/customer.xml" />
+	<CustomerData src="/Customer/THR/customer.xml" />
+	<CustomerData src="/Customer/TMC/customer.xml" />
+	<CustomerData src="/Customer/TUN/customer.xml" />
+	<CustomerData src="/Customer/TUR/customer.xml" />
+	<CustomerData src="/Customer/WTL/customer.xml" />
+	<CustomerData src="/Customer/XFA/customer.xml" />
+	<CustomerData src="/Customer/XFE/customer.xml" />
+	<CustomerData src="/Customer/XFM/customer.xml" />
+	<CustomerData src="/Customer/XFU/customer.xml" />
+	<CustomerData src="/Customer/XSG/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

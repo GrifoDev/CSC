@@ -1,0 +1,9 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+
+	<AMXService>
+		<PortalMovilURL>http://z.claropr.mobi/claropr-cw.qpass.com/ndmns/index</PortalMovilURL>
+		<operatorURL>http://contenidos.clarotodo.com/wps/portal/pr/pc/personas/movil/banda_ancha_4g/pr.personas.movil.banda_ancha_4g.planes/paquete-internet-movil</operatorURL>
+	</AMXService>
+
+</CustomerData>

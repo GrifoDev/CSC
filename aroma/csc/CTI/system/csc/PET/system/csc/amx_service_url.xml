@@ -1,0 +1,11 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+
+	<AMXService>
+		<PortalMovilURL>http://wap.claro.com.pe/</PortalMovilURL>
+		<iMStoreURL>http://m.claromusica.com</iMStoreURL>
+		<operatorURL>http://www.internetclaro.com.pe</operatorURL>
+	</AMXService>
+
+	
+</CustomerData>

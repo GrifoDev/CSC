@@ -1,0 +1,4 @@
+/hidden/app/app-accessorystore-release-unsigned_02-11-2015-15-14-49_AndroidVFSigned-aligned.apk
+/hidden/app/MeinVodafonesigned4.6.apk
+/hidden/app/secure_net_wifi_1.7.5_prod_unsigned_11-01-2016-14-44-07_AndroidVFSigned_zipaligned.apk
+/hidden/app/VodafoneStart-4.11.1-prod-release-AndroidVFSigned_zipaligned.apk

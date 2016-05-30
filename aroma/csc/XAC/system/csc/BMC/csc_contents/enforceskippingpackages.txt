@@ -1,0 +1,7 @@
+6
+AxelSpringer.apk
+SamsungPayStub.apk
+CoreApps.apk
+SimpleSharing.apk
+SamsungUpdates.apk
+OMCAgent.apk

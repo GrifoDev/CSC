@@ -1,0 +1,2 @@
+/hidden/app/app-directaccessories-release-unsigned_30-11-2015-11-45-44_AndroidVFSigned-aligned.apk
+/hidden/app/VodafoneStart-4.11.1-prod-release-AndroidVFSigned_zipaligned.apk

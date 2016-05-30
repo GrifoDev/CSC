@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935S</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935SSKC</CSCName>
+	<CSCVersion>1APDA</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/SKC/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

@@ -1,0 +1,10 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+
+	<AMXService>
+		<PortalMovilURL>http://wap.ideasclaro.com</PortalMovilURL>
+		<iMStoreURL>http://m.claromusica.com</iMStoreURL>
+		<operatorURL>http://internet.claro.cr</operatorURL>
+	</AMXService>
+
+</CustomerData>

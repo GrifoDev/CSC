@@ -1,0 +1,474 @@
+﻿########################################################## AROMA CONFIG ##########################################################
+
+##
+# Fix Colorspace Issue
+# You can use one of following values:
+#   "rgba", "abgr", "argb", "bgra"
+
+ini_set("force_colorspace","rgba");
+
+##
+# Screen Resolution
+#
+
+# ini_set("dp","1"); #-- LDPI ( 240x320 / QVGA )
+# ini_set("dp","2"); #-- MDPI ( 340x480 / HVGA )
+# ini_set("dp","3"); #-- HDPI ( 480x800 / WVGA )
+# ini_set("dp","4"); #-- XHDPI ( 1280x720 / WVGA )
+# ini_set("dp","5"); #-- XXHDPI ( 1920x1080 / WVGA )
+
+##
+# Initializing Information
+#
+
+ini_set("rom_name",             "CSC Selection™ ");
+ini_set("rom_version",          "V1.0");
+ini_set("rom_author",           "Tkkg1994");
+ini_set("rom_device",           "SM-G930F/SM-G935F");
+ini_set("rom_date",             "30.05.2016");
+
+##
+# Show Simple Splash
+#
+
+splash(
+  #-- Duration 4000ms / 4 seconds
+    4000,
+  
+  #-- <AROMA Resource Dir>/SPLASH.png
+    "SPLASH"
+);
+
+
+
+##
+# Font and Theme Selection
+#
+
+fontresload( "0", "ttf/Roboto-Regular.ttf;ttf/DroidSansArabic.ttf;ttf/DroidSansFallback.ttf;", "12" ); #-- Use sets of font (Font Family)
+theme("material_red");
+
+##
+# SHOW LANGUAGE SELECTION
+#
+
+selectbox(
+  #-- Title
+    "Select Language",
+  
+  #-- Sub Title
+    "Please select installer language that you want to use while Installing ROM",
+  
+  #-- Icon:
+    "@default",
+  
+  #-- Will be saved in /tmp/aroma/lang.prop
+    "lang.prop",
+  
+    "English",            "Welcome to Installer",                                        1,      #-- selected.0 = 1
+    "Indonesian",         "Selamat datang di Installer",                                 0,      #-- selected.0 = 2
+    "Espanol",            "Bienvenido al Instalador",                                    0,      #-- selected.0 = 3
+    "Simplified Chinesse","欢迎到安装",                                                   0,      #-- selected.0 = 4
+    "Arabic",             "مرحبا بكم في المثبت",                                         0,      #-- selected.0 = 5        
+    "French",             "Bienvenue dans l'installateur",                               0,      #-- selected.0 = 6
+    "Russian",            "Добро пожаловать в установщик",                               0,      #-- selected.0 = 7
+    "Italian",            "Benvenuti Installer",                                         0,      #-- selected.0 = 8
+    "Hebrew",             "ברוכים הבאים להתקנה",							    	     0,		 #-- selected.0 = 9
+    "Germany",            "Willkommen bei Installer",									 0 		 #-- selected.0 = 10
+
+);
+
+##
+# SET LANGUAGE & FONT FAMILY
+#
+
+if prop("lang.prop","selected.0")=="1" then
+  loadlang("langs/en.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" ); #-- "0" = Small Font ( Look at Fonts & UNICODE Demo Below )
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" ); #-- "1" = Big Font
+endif;
+
+if prop("lang.prop","selected.0")=="2" then
+  loadlang("langs/id.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="3" then
+  loadlang("langs/es.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="4" then
+  loadlang("langs/cn.lang");
+  fontresload( "0", "ttf/DroidSansFallback.ttf;ttf/Roboto-Regular.ttf", "12" ); 
+  fontresload( "1", "ttf/DroidSansFallback.ttf;ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="5" then
+  loadlang("langs/ar.lang");
+  fontresload( "0", "ttf/DroidSansArabic.ttf;ttf/Roboto-Regular.ttf", "12" ); 
+  fontresload( "1", "ttf/DroidSansArabic.ttf;ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="6" then
+  loadlang("langs/fr.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="7" then
+  loadlang("langs/ru.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="8" then
+  loadlang("langs/it.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="9" then
+  loadlang("langs/he.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="10" then
+  loadlang("langs/de.lang");
+  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+##
+#   SHOW ROM/Mod INFORMATION
+#
+
+viewbox(
+  #-- Title
+    "<~welcome.title>",
+  
+  #-- Text
+    "<~welcome.text1> <b>"+
+	  #-- Get Config Value
+	  ini_get("rom_name")+
+	"</b> <~common.for> <b>"+ini_get("rom_device")+"</b>.\n\n"+
+    
+    "<~welcome.text2>\n\n"+
+	
+      "  <~welcome.version>\t: <b><#selectbg_g>"+ini_get("rom_version")+"</#></b>\n"+
+      "  <~welcome.codename>\t\t: <b><#selectbg_g> </#></b>\n"+
+      "  <~welcome.updated>\t: <b><#selectbg_g>"+ini_get("rom_date")+"</#></b>\n\n\n"+
+
+    "<~welcome.next>",
+  
+  #-- Icon
+    "@welcome"
+);
+
+##
+# LICENSE
+#
+
+agreebox(
+  #-- Title
+    "SuperMan-Rom™",
+  
+  #-- Subtitle / Description
+    "Read Carefully",
+  
+  #-- Icon:
+    "@license",
+  
+  #-- Text Content 
+    resread("license.txt"),
+  
+  #-- Checkbox Text
+    "Have you really read it and are agree?",
+  
+  #-- Unchecked Alert Message
+    "You've to agree!"
+);
+
+##
+# MAIN MENU- INSTALLER n MISC
+#
+menubox(
+  #-- Title
+    "SuperMan-Rom™ Menu",
+  
+  #-- Sub Title
+    "Please select from the Menu Below to Modify the required features",
+  
+  #-- Icon
+    "@apps",
+    
+  #-- Will be saved in /tmp/aroma/menu.prop
+    "menu.prop",
+    
+     #-------------------------+-----------------[ Menubox Items ]-------------------------+---------------#
+     # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
+     #-------------------------+-----------------------------------------------------------+---------------#	
+	
+    "Installation",        "ROM Installation with Various Features - RECOMMENDED",      "@install",      #-- selected = 1
+    "System Info",                "Get and show device/partition informations",                "@info",         #-- selected = 2
+    "ChangeLog",                  "SuperMan ChangeLog",                                         "@agreement",    #-- selected = 3
+    "Quit Install",               "Leaving perfect LP Setup and trying another ROM :(",     "@install"       #-- selected = 4
+
+);
+
+##
+# System Info 
+#
+
+if prop("menu.prop","selected")=="2" then
+
+  #-- Show Please Wait
+  pleasewait("Getting System Information...");
+
+  #-- Fetch System Information
+  setvar(
+    #-- Variable Name
+      "sysinfo",
+    
+    #-- Variable Value
+      "<@center><b>Your Device System Information</b></@>\n\n"+
+      
+      "Device Name\t\t: <#469>Galaxy S7/S7 edge</#>\n"+
+      "Board Name\t\t: <#469>SM-G930F/G935F</#>\n"+
+      "Manufacturer\t\t: <#469>Samsung</#>\n"+
+	  
+	  "\n"+
+	  
+      "System Size\t\t: <b><#selectbg_g>"+getdisksize("/system","m")+" MB</#></b>\n"+
+        "\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/system","m")+" MB</#></b>\n\n"+
+      "Data Size\t\t: <b><#selectbg_g>"+getdisksize("/data","m")+" MB</#></b>\n"+
+        "\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/data","m")+" MB</#></b>\n\n"+
+      "SDCard Size\t\t: <b><#selectbg_g>"+getdisksize("/sdcard","m")+" MB</#></b>\n"+
+        "\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/sdcard","m")+" MB</#></b>\n\n"+
+
+      ""
+  );
+  
+  #-- Show Textbox
+  textbox(
+    #-- Title
+      "System Information",
+    
+    #-- Subtitle
+      "Current system Information on your S7",
+    
+    #-- Icon
+      "@info",
+    
+    #-- Text
+      getvar("sysinfo")
+  );
+  
+  #-- Show Alert
+  alert(
+    #-- Alert Title
+      "Finished",
+    
+    #-- Alert Text
+      "You will be back to Menu",
+    
+    #-- Alert Icon
+      "@alert"
+  );
+  
+  #-- Back to Menu ( 2 Wizard UI to Back )
+  back("2");
+  
+endif;
+
+##
+# CHANGELOG DISPLAY
+#
+
+if prop("menu.prop","selected")=="3" then
+
+    #-- TextDialog 
+ textdialog(
+    #-- Title
+    "CSC Changelog",
+	#-- Text
+    resread("changelog.txt"),
+    #-- Custom OK Button Text (Optional)
+    "Close"
+ );
+ 
+  #-- Back to Menu ( 2 Wizard UI to Back )
+  back("1");
+  
+endif;
+
+##
+# QUIT INSTALLER
+#
+
+if prop("menu.prop","selected")=="4" then
+
+#-- Exit
+	if
+	  confirm(
+		#-- Title
+		  "Exit",
+		#-- Text
+		  "Are you sure want to exit the Installer?",
+		#-- Icon (Optional)
+		  "@alert"
+	  )=="yes"
+	then
+	  #-- Exit 
+	  exit("");
+	endif;
+
+endif;
+
+
+##
+#  Select Type of Install
+#
+
+if prop("menu.prop","selected")=="1" then
+
+alert( "Alert", "I'm not responsible for any bloatware you may get on your phone, depending on which csc you choose!");
+
+##
+# Sub Window 8
+#
+
+selectbox(
+  #-- Title
+	"CSC",
+	  
+  #-- Sub Title
+    "Select here which CSC Variant you want to install to your device",
+	  
+  #-- Icon:
+     "icons/install",
+	 
+  #-- Will be saved in /tmp/aroma/window8.prop
+	"window8.prop",
+
+  
+	  #----------------------------------[ Selectbox With Groups ]-----------------------------------#
+	  # TITLE            |  SUBTITLE                                                 | Initial Value #
+	  #------------------+-----------------------------------------------------------+---------------#  
+	
+	"Select One",			"",		2,	#-- Group 1. key = "selected.1"
+	"ATO",	"Austria Open unbranded",									0,	#-- selected.1 = 1
+	"AUT",	"Switzerland unbranded (used in all previous versions!)",					1,	#-- selected.1 = 2
+	"BRI",	"Taiwan unbranded",										0,      #-- selected.1 = 3
+	"BTU",	"United Kingdom unbranded",									0,      #-- selected.1 = 4
+	"CTI",	"Argentina Multi-CSC contains: CDR, CHL, COM, CPA, CRC, CTI, CTP, CTU, ECO, PCT, PET, PGU",	0,      #-- selected.1 = 5
+	"DBT",	"Germany unbranded",										0,      #-- selected.1 = 6
+	"DDE",	"Germany Multi-CSC contains: DCO, DDE, DTM",							0,      #-- selected.1 = 7
+	"ETL",	"Czech Republic unbranded",									0,      #-- selected.1 = 8
+	"EUR",	"Greece unbranded",										0,      #-- selected.1 = 9
+	"INS",	"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",				0,      #-- selected.1 = 10
+	"ITV",	"Italian unbranded",										0,      #-- selected.1 = 11
+	"IUS",	"Mexican unbranded",										0,      #-- selected.1 = 12
+	"LUX",	"Luxembourg unbranded",										0,      #-- selected.1 = 13
+	"NEE",	"Nordic Countries unbranded",									0,      #-- selected.1 = 14
+	"PHN",	"Netherlands unbranded",									0,      #-- selected.1 = 15
+	"SER",	"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",						0,      #-- selected.1 = 16
+	"SKC",	"Korea unbranded",										0,      #-- selected.1 = 17
+	"TEL",	"Telstra branded",										0,      #-- selected.1 = 18
+	"THL",	"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",	0,      #-- selected.1 = 19
+	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 20
+	"VAU",	"Australia Vodafone branded",									0,      #-- selected.1 = 21
+	"VD2",	"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",														0,      #-- selected.1 = 22
+	"VDS",	"Sweden unbranded",										0,      #-- selected.1 = 23
+	"XAC",	"Canada Multi-CSC (W8) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",	0,      #-- selected.1 = 24
+	"XEF",	"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				0,      #-- selected.1 = 25
+	"XEO",	"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	0,      #-- selected.1 = 26
+	"XSA",	"Australia unbranded",										0,      #-- selected.1 = 27
+	"XSG",	"Arabish Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",								0,      #-- selected.1 = 28
+	"ZTO",	"Brazil unbranded",										0       #-- selected.1 = 29
+
+	  #--------[ Initial Value = 0: Unselected, 1: Selected, 2: Group Item, 3: Not Visible ]---------#
+
+);
+
+# Installation UI
+
+ini_set("text_next", "Install Now");
+ini_set("icon_next", "@installbutton");
+  
+viewbox(
+  #-- Title
+    "Ready to Install",
+
+  #-- Text
+    "SuperMan-Rom is ready to be installed.\n\n"+
+	"Press <b>Install ROM</b> to begin the installation.\n\n"+
+	"To review or change any of your installation settings, press <b>Back</b>.\n\n"+
+	"Press Menu -> Quit Installation to quit.",
+
+  #-- Icon
+    "@install"
+);
+
+alert( "Alert", "Installation will begin now...");
+endif;
+
+##
+# INSTALLATION PROCESS
+#
+
+if prop("menu.prop","selected")== "1" 
+then
+
+ini_set("text_next", "Next");
+ini_set("icon_next", "@next");
+
+install(
+  "SuperMan-Rom™ Installation",
+  getvar("rom_name") + "\n" +
+  "Please wait while SuperMan-Rom is conquering your phone" +
+  "",
+  "icons/install"
+);
+
+ini_set("text_next", "Finish");
+ini_set("icon_next", "@finish");
+
+checkviewbox(
+  #-- Title
+    "Installation Completed",
+	
+  #-- Text
+    "<#selectbg_g><b>Congrats...</b></#>\n\n"+
+    "<b>"+ini_get("rom_name")+"</b> has been installed into your device.\n\n",
+    
+  #-- Icon
+    "@welcome",
+
+  #-- Checkbox Text
+    "Reboot your device now. (Don't use this yet, may cause problems with stuck at boot!)",
+
+  #-- Initial Checkbox value ( 0=unchecked, 1=checked ) -  (Optional, default:0)
+    "0",
+
+  #-- Save checked value in variable "reboot_it" (Optional)
+    "reboot_it"
+);
+endif;
+
+###
+# Check if reboot checkbox was checked
+
+if
+  getvar("reboot_it")=="1"
+then
+  #
+  # reboot("onfinish");   - Reboot if anything finished
+  # reboot("now");        - Reboot Directly
+  # reboot("disable");    - If you set reboot("onfinish") before, use this command to revert it.
+  #
+  reboot("onfinish");
+endif;
