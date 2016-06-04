@@ -1,0 +1,16 @@
+15
+NaverTvCast.apk
+AxelSpringer.apk
+CnnPanel.apk
+FBAppManager.apk
+FBInstaller.apk
+FBInstagram_stub.apk
+FBMessenger_stub.apk
+Facebook_stub.apk
+WhatsAppDownloader.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk
+ImsTelephonyService.apk
+SamsungUpdates.apk
+OMCAgent.apk
