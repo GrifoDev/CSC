@@ -1,0 +1,21 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FTCE</CSCName>
+	<CSCVersion>1APE9</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/TCE/customer.xml" />
+	</CustomerDataSet>
+	<HandData>
+		<NbApprovalVer>1</NbApprovalVer>
+		<ApprovalVer>
+		<Customer>TCE</Customer>
+			<CodeFullVersion>G935FXXU0APAI</CodeFullVersion>
+			<ModemFullVersion>G935FXXU0APAI</ModemFullVersion>
+			<CSCFullVersion>G935FTCE0APAI</CSCFullVersion>
+		</ApprovalVer>
+	</HandData>
+</SW-Configuration>

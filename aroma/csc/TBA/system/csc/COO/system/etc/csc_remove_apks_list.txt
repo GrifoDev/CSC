@@ -1,0 +1,11 @@
+/system/app/app-pre-install-samsungclub/app-pre-install-samsungclub.apk
+/system/app/CLUB_23/CLUB_23.apk
+/system/app/samsung_club_uy_access_release_v1_3/samsung_club_uy_access_release_v1_3.apk
+/system/app/VivaElFutbol110/VivaElFutbol110.apk
+/system/priv-app/IPsecService/IPsecService.apk
+/system/priv-app/SVoiceLang_EnglishPack_GB_1.0/SVoiceLang_EnglishPack_GB_1.0.apk
+/system/priv-app/SVoiceLang_FrenchPack_1.0/SVoiceLang_FrenchPack_1.0.apk
+/system/priv-app/SVoiceLang_GermanPack_DE_1.0/SVoiceLang_GermanPack_DE_1.0.apk
+/system/priv-app/SVoiceLang_ItalianPack_IT_1.0/SVoiceLang_ItalianPack_IT_1.0.apk
+/system/priv-app/SVoiceLang_RussianPack_RU_1.0/SVoiceLang_RussianPack_RU_1.0.apk
+/system/priv-app/SVoiceLang_SpanishPack_ES_1.0/SVoiceLang_SpanishPack_ES_1.0.apk
