@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V1.0");
+ini_set("rom_version",          "V1.1");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "30.05.2016");
+ini_set("rom_date",             "05.06.2016");
 
 ##
 # Show Simple Splash
@@ -174,7 +174,7 @@ viewbox(
 
 agreebox(
   #-- Title
-    "SuperMan-Rom™",
+    "CSC-Selection™",
   
   #-- Subtitle / Description
     "Read Carefully",
@@ -197,7 +197,7 @@ agreebox(
 #
 menubox(
   #-- Title
-    "SuperMan-Rom™ Menu",
+    "CSC-Selection™ Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Modify the required features",
@@ -214,7 +214,7 @@ menubox(
 	
     "Installation",        "ROM Installation with Various Features - RECOMMENDED",      "@install",      #-- selected = 1
     "System Info",                "Get and show device/partition informations",                "@info",         #-- selected = 2
-    "ChangeLog",                  "SuperMan ChangeLog",                                         "@agreement",    #-- selected = 3
+    "ChangeLog",                  "CSC-Selection ChangeLog",                                         "@agreement",    #-- selected = 3
     "Quit Install",               "Leaving perfect LP Setup and trying another ROM :(",     "@install"       #-- selected = 4
 
 );
@@ -408,7 +408,7 @@ viewbox(
     "Ready to Install",
 
   #-- Text
-    "SuperMan-Rom is ready to be installed.\n\n"+
+    "CSC-Selection is ready to be installed.\n\n"+
 	"Press <b>Install ROM</b> to begin the installation.\n\n"+
 	"To review or change any of your installation settings, press <b>Back</b>.\n\n"+
 	"Press Menu -> Quit Installation to quit.",
@@ -431,9 +431,9 @@ ini_set("text_next", "Next");
 ini_set("icon_next", "@next");
 
 install(
-  "SuperMan-Rom™ Installation",
+  "CSC-Selection™ Installation",
   getvar("rom_name") + "\n" +
-  "Please wait while SuperMan-Rom is conquering your phone" +
+  "Please wait while CSC-Selection is conquering your phone" +
   "",
   "icons/install"
 );
