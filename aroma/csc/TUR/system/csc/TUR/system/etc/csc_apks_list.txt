@@ -1,0 +1,3 @@
+/system/app/Batman_M/Batman_M.apk
+/system/priv-app/DeezerTROffer/DeezerTROffer.apk
+/system/priv-app/IPsecService/IPsecService.apk

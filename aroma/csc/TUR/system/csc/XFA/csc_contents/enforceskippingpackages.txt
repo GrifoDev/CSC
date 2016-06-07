@@ -1,0 +1,9 @@
+8
+NaverTvCast.apk
+smartcallprovider-open-release.apk
+AxelSpringer.apk
+SamsungPayStub.apk
+MSSkype_stub.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk
