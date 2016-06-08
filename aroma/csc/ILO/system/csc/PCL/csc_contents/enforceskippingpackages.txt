@@ -1,0 +1,13 @@
+12
+NaverTvCast.apk
+AxelSpringer.apk
+SamsungPayStub.apk
+CnnPanel.apk
+OneNote.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk
+ImsTelephonyService.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk

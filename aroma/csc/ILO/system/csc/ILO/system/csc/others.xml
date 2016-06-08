@@ -1,0 +1,51 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>ISRAEL</Country>
+  <CountryISO>IL</CountryISO>
+  <SalesCode>ILO</SalesCode>
+  <FeatureSet>
+    <CscFeature_Framework_HyperLinkDigit>9</CscFeature_Framework_HyperLinkDigit>
+    <CscFeature_SyncML_EnableNotiDeltaBinarySizeBeforeDownload>TRUE</CscFeature_SyncML_EnableNotiDeltaBinarySizeBeforeDownload>
+    <CscFeature_Common_EnableUiDisplayMirroring>FALSE</CscFeature_Common_EnableUiDisplayMirroring>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Framework_EnableBidirection>TRUE</CscFeature_Framework_EnableBidirection>
+    <CscFeature_Sip_ReplaceLocalCurrencyAs>ISL</CscFeature_Sip_ReplaceLocalCurrencyAs>
+    <CscFeature_Launcher_TotalPageCount>2</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
+    <CscFeature_Launcher_ConfigMagazineHome>off</CscFeature_Launcher_ConfigMagazineHome>
+    <CscFeature_Calendar_SetColorOfDays>XXXXBRX</CscFeature_Calendar_SetColorOfDays>
+    <CscFeature_Message_SetDefaultFocusToMessageBody>TRUE</CscFeature_Message_SetDefaultFocusToMessageBody>
+    <CscFeature_Email_AlignmentForRTL>TRUE</CscFeature_Email_AlignmentForRTL>
+    <CscFeature_Web_SupportHebrewFileName>TRUE</CscFeature_Web_SupportHebrewFileName>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Web_SetQuickAccessAs>OJK</CscFeature_Web_SetQuickAccessAs>
+    <CscFeature_GMS_DisableSetupWizard>FALSE</CscFeature_GMS_DisableSetupWizard>
+    <CscFeature_GMS_ReplaceGMailBrandForGermany>FALSE</CscFeature_GMS_ReplaceGMailBrandForGermany>
+    <CscFeature_Setting_ShortcutListInLockScreen>Phone,Internet,Camera,New message</CscFeature_Setting_ShortcutListInLockScreen>
+    <CscFeature_Common_Vibration4NotiDuringCall>TRUE</CscFeature_Common_Vibration4NotiDuringCall>
+    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_Setting_OperatorSpecificPreConfigKeyString>*#israel#</CscFeature_Setting_OperatorSpecificPreConfigKeyString>
+    <CscFeature_Setting_DefConfigFingerAirView>off</CscFeature_Setting_DefConfigFingerAirView>
+    <CscFeature_Message_ConfigFreeMessage>on</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+    <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Message_EnableBlackList>TRUE</CscFeature_Message_EnableBlackList>
+    <CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+    <CscFeature_Message_EnableSaveRestoreSDCard>TRUE</CscFeature_Message_EnableSaveRestoreSDCard>
+    <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
+    <CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+    <CscFeature_SystemUI_SupportAssistanceAppChooser>TRUE</CscFeature_SystemUI_SupportAssistanceAppChooser>
+    <CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+    <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+    <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+  </FeatureSet>
+</SamsungMobileFeauture>
