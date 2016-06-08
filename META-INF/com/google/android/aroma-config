@@ -361,7 +361,7 @@ selectbox(
 	
 	"Select One",			"",		2,	#-- Group 1. key = "selected.1"
 	"ATO",	"Austria Open unbranded",									0,	#-- selected.1 = 1
-	"AUT",	"Switzerland unbranded (used in all previous versions!)",					0,	#-- selected.1 = 2
+	"AUT",	"Switzerland unbranded",									0,	#-- selected.1 = 2
 	"BRI",	"Taiwan unbranded",										0,      #-- selected.1 = 3
 	"BTU",	"United Kingdom unbranded",									0,      #-- selected.1 = 4
 	"CTI",	"Argentina Multi-CSC contains: CDR, CHL, COM, CPA, CRC, CTI, CTP, CTU, ECO, PCT, PET, PGU",	0,      #-- selected.1 = 5
@@ -421,7 +421,6 @@ viewbox(
     "@install"
 );
 
-alert( "Alert", "Installation will begin now...");
 endif;
 
 ##
