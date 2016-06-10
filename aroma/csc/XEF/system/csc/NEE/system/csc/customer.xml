@@ -1,16 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0010</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
     <SalesCode>NEE</SalesCode>
     <NbNetworkInfo>42</NbNetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>90112</MCCMNC>
-      <NetworkName>MCP</NetworkName>
-    </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24414</MCCMNC>
       <NetworkName>Ålcom</NetworkName>
@@ -45,11 +41,11 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24202</MCCMNC>
-      <NetworkName>NetCom</NetworkName>
+      <NetworkName>Telia N</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24205</MCCMNC>
-      <NetworkName>Mobile Norway</NetworkName>
+      <NetworkName>OneCall</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24007</MCCMNC>
@@ -187,6 +183,10 @@
       <NetworkName>Tal</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>90112</MCCMNC>
+      <NetworkName>MCP</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>22201</MCCMNC>
       <NetworkName>Nova</NetworkName>
       <SPName>NOVA</SPName>
@@ -195,7 +195,6 @@
   <Settings>
     <Main>
       <Security>
-        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>64</NbNetworkLock>
         <NetworkLock>460BB</NetworkLock>
         <NetworkLock>454BB</NetworkLock>
@@ -268,15 +267,6 @@
           <NetworkName>default</NetworkName>
           <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
-        <AutoProfile>on</AutoProfile>
-        <AutoVoicemail>off</AutoVoicemail>
-        <AutoEmailAccount>off</AutoEmailAccount>
-        <AutoBookmark>off</AutoBookmark>
-        <AutoLink>off</AutoLink>
-        <AutoSyncML>off</AutoSyncML>
-        <AutoFastDormancy>off</AutoFastDormancy>
-        <AutoWbAmr>off</AutoWbAmr>
-        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <TouchTone>off</TouchTone>
@@ -304,12 +294,9 @@
       <SMS>
         <DeliveryReport>off</DeliveryReport>
         <CharSupport>automatic</CharSupport>
-        <PreviewMessage>on</PreviewMessage>
       </SMS>
       <MMS>
         <MmsSending>
-          <ReqDeliveryRep>off</ReqDeliveryRep>
-          <ReqReadRep>off</ReqReadRep>
           <CreationMode>free</CreationMode>
         </MmsSending>
         <MmsReceiving>
@@ -318,11 +305,6 @@
         </MmsReceiving>
       </MMS>
     </Messages>
-    <Multimedia>
-      <Camera>
-        <ShutterSound>off</ShutterSound>
-      </Camera>
-    </Multimedia>
     <Browser>
       <NbBookmark>2</NbBookmark>
       <Bookmark>
@@ -428,10 +410,12 @@
         <ProfMMS>MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Telenor DK</NetworkName>
         <ProfBrowser>Telenor Internet</ProfBrowser>
         <ProfMMS>Telenor MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>xcap</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -459,15 +443,15 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>NetCom</NetworkName>
-        <ProfBrowser>NetCom Mobil</ProfBrowser>
-        <ProfMMS>NetCom MMS</ProfMMS>
+        <NetworkName>Telia N</NetworkName>
+        <ProfBrowser>Telia Mobil</ProfBrowser>
+        <ProfMMS>Telia MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>Mobile Norway</NetworkName>
-        <ProfBrowser>NwN Internet</ProfBrowser>
-        <ProfMMS>NwN MMS</ProfMMS>
+        <NetworkName>OneCall</NetworkName>
+        <ProfBrowser>OneCall Internett</ProfBrowser>
+        <ProfMMS>OneCall MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -542,10 +526,12 @@
         <ProfMMS>3mms</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Telenor</NetworkName>
         <ProfBrowser>Telenor</ProfBrowser>
         <ProfMMS>Telenor MMS</ProfMMS>
+        <ProfIMS>Telenor IMS</ProfIMS>
+        <ProfXCAP>Telenor XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -570,17 +556,7 @@
         <NetworkName>MCP</NetworkName>
         <ProfBrowser>internet</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>70</NbProfile>
-      <Profile>
-        <NetworkName>MCP</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>internet</ProfileName>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
+      <NbProfile>74</NbProfile>
       <Profile>
         <NetworkName>Ålcom</NetworkName>
         <Editable>yes</Editable>
@@ -1194,20 +1170,46 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>NetCom</NetworkName>
+        <NetworkName>Telenor</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>NetCom Mobil</ProfileName>
+        <ProfileName>Telenor IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telenor</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telenor XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telia N</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telia Mobil</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>netcom</APN>
+          <APN>telia</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>NetCom</NetworkName>
+        <NetworkName>Telia N</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>NetCom MMS</ProfileName>
+        <ProfileName>Telia MMS</ProfileName>
         <URL>http://mm</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -1218,13 +1220,13 @@
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>netcom</APN>
+          <APN>telia</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Mobile Norway</NetworkName>
+        <NetworkName>OneCall</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>NwN Internet</ProfileName>
+        <ProfileName>OneCall Internett</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -1233,9 +1235,9 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Mobile Norway</NetworkName>
+        <NetworkName>OneCall</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>NwN MMS</ProfileName>
+        <ProfileName>OneCall MMS</ProfileName>
         <URL>http://mms.nwn.no</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -1633,45 +1635,108 @@
           <APN>IMS</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Telenor DK</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telenor DK</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>xcap</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MCP</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>internet</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
+      <NbSetting>4</NbSetting>
+      <Setting>
+        <NetworkName>Telenor DK</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
       <Setting>
         <NetworkName>Tele2comviq</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+        <Setting>
+        <NetworkName>Telenor</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>test bed</NetworkName>
         <Version>2.0</Version>
         <EnableIMS>TRUE</EnableIMS>
         <VoLTE>
             <EnableVoLTE>TRUE</EnableVoLTE>
             <EnableVideocall>FALSE</EnableVideocall>
-            <EnableVoLTEindicator>FALSE</EnableVoLTEindicator>
-            <EnableEPDG>FALSE</EnableEPDG>
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-            <SMSoIP_Domain>CS</SMSoIP_Domain>
-            <SS_PS_Control_Preference>N/R</SS_PS_Control_Preference>
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-            <SS_CSFBwithIMSerror>N/R</SS_CSFBwithIMSerror>
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-        </VoLTE>
-        <RCS>
-            <EnableRCS>FALSE</EnableRCS>
-        </RCS>
-      </Setting>
-      <Setting>
-        <NetworkName>test bed</NetworkName>
-       <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
-        <VoLTE>
-            <EnableVoLTE>TRUE</EnableVoLTE>
-            <EnableVideocall>FALSE</EnableVideocall>
             <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-            <EnableEPDG>FALSE</EnableEPDG>
             <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
+            <Emregencycall_Domain>PS</Emregencycall_Domain>
             <SMSoIP_Domain>CS</SMSoIP_Domain>
-            <SS_PS_Control_Preference>N/R</SS_PS_Control_Preference>
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-            <SS_CSFBwithIMSerror>N/R</SS_CSFBwithIMSerror>
+            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
+            <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
+            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
             <USSD_Domain_Preference>CS</USSD_Domain_Preference>
         </VoLTE>
         <RCS>

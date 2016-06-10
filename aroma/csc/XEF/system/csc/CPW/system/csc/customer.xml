@@ -6,7 +6,7 @@
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
     <SalesCode>CPW</SalesCode>
-    <NbNetworkInfo>24</NbNetworkInfo>
+    <NbNetworkInfo>26</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>23410</MCCMNC>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
@@ -94,6 +94,14 @@
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
       <NetworkName>TalkTalk</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26201</MCCMNC>
+      <NetworkName>Telekom.de</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26202</MCCMNC>
+      <NetworkName>Vodafone.de</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>00101</MCCMNC>
@@ -379,7 +387,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>20</NbProfileHandle>
+      <NbProfileHandle>22</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Vodafone Contract</NetworkName>
@@ -647,7 +655,24 @@
         <ProfIntSharing>TalkTalk WAP</ProfIntSharing>
         <ProfChatOn>TalkTalk WAP</ProfChatOn>
       </ProfileHandle>
-      <NbProfile>42</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Telekom.de</NetworkName>
+        <ProfBrowser>Telekom Internet</ProfBrowser>
+        <ProfMMS>T-Mobile MMS</ProfMMS>
+        <ProfXCAP>Telekom Internet</ProfXCAP>
+        <ProfIMS>Telekom IMS</ProfIMS>
+        <ProfEpdg>Telekom EPDG</ProfEpdg>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Vodafone.de</NetworkName>
+        <ProfBrowser>Vodafone Internet</ProfBrowser>
+        <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Vodafone Internet</ProfXCAP> 
+      </ProfileHandle>
+      <NbProfile>49</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <Editable>no</Editable>
@@ -1362,9 +1387,157 @@
           <APN>3ireland.ie</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Telekom.de</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom Internet</ProfileName>
+        <URL>http://mobileinfo.samsung.de</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.telekom</APN>
+          <UserId>telekom</UserId>
+          <Password>telekom</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom.de</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>T-Mobile MMS</ProfileName>
+        <URL>http://mms.t-mobile.de/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>109.237.176.193</ServAddr>
+          <Port>8008</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet.telekom</APN>
+          <UserId>telekom</UserId>
+          <Password>telekom</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom.de</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom IMS</ProfileName>
+        <URL>http://mobileinfo.samsung.de</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom.de</NetworkName>
+        <ProfileName>Telekom EPDG</ProfileName>
+        <URL>http://mobileinfo.samsung.de</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Bearer>iwlan</Bearer>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>109.237.176.193</ServAddr>
+          <Port>8008</Port>
+        </Proxy>
+        <PSparam>
+          <APN>HOS</APN>
+          <UserId>telekom</UserId>
+          <Password>telekom</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone.de</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone Internet</ProfileName>
+        <URL>http://mobileinfo.samsung.de</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.vodafone.de</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone.de</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://139.7.24.1/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>139.7.29.17</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>event.vodafone.de</APN>
+          <UserId>VDF2</UserId>
+          <Password>MMS</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone.de</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
+      <NbSetting>4</NbSetting>
+      <Setting>
+        <NetworkName>Vodafone.de</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>TRUE</EnableVoLTE>
+          <EnableEPDG>false</EnableEPDG>
+          <EnableVideocall>false</EnableVideocall>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>PS</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Telekom.de</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>TRUE</EnableVoLTE>
+          <EnableEPDG>false</EnableEPDG>
+          <EnableVideocall>false</EnableVideocall>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>PS</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
       <Setting>
         <NetworkName>GCFTest</NetworkName>
         <Version>2.0</Version>

@@ -1,0 +1,11 @@
+10
+smartcallprovider-open-release.apk
+AxelSpringer.apk
+SamsungPayStub.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk
+ImsTelephonyService.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk

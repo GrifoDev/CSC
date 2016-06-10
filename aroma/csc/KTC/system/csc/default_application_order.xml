@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright (C) 2009 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <!-- Screen [0] -->
+    <!-- KT고객지원 -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="KT고객지원" >
+            <!-- 올레 멤버십 -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.olleh.android.oc2" 
+                launcher:className="com.olleh.android.oc2.OllehActivity" />
+           <!-- 스마트 명세서 -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.show.greenbill" 
+                launcher:className="com.show.greenbill.view.Intro" />
+            <!-- 올레 패밀리박스 -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.kt.ollehfamilybox" 
+                launcher:className="com.kt.ollehfamilybox.IntroActivity" />
+            <!-- 올레 WiFi접속 -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.kt.wificm" 
+                launcher:className="com.kt.wificm.tab.FragmentTabs" />
+            <!-- 후후 -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.ktcs.whowho" 
+                launcher:className="com.ktcs.whowho.atv.main.AtvIntro" />
+            <!-- 알약 -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.estsoft.alyac" 
+                launcher:className="com.estsoft.alyac.ui.AYLauncherActivity" />
+    </folder> 
+
+    <!-- Samsung -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Samsung" >
+            <!-- 연락처 -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.android.contacts" 
+                launcher:className="com.android.contacts.activities.PeopleActivity" />
+            <!-- 이메일 -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.samsung.android.email.provider" 
+                launcher:className="com.samsung.android.email.ui.activity.MessageListXL" />
+            <!-- DMB -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.sec.android.app.dmb" 
+                launcher:className="com.sec.android.app.dmb.activity.DMBFullScreenView" />
+            <!-- 메모 -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.samsung.android.app.memo" 
+                launcher:className="com.samsung.android.app.memo.Main" />
+            <!-- Galaxy Apps -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.sec.android.app.samsungapps" 
+                launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" />
+            <!-- Galaxy Care -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.samsung.android.voc" 
+                launcher:className="com.samsung.android.voc.LauncherActivity" />
+            <!-- Samsung Gear -->
+            <favorite
+                launcher:screen="6" 
+                launcher:packageName="com.samsung.android.app.watchmanager" 
+                launcher:className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+            <!-- S헬스 -->
+            <favorite
+                launcher:screen="7" 
+                launcher:packageName="com.sec.android.app.shealth" 
+                launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" />
+            <!-- 계산기 -->
+            <favorite
+                launcher:screen="8" 
+                launcher:packageName="com.sec.android.app.popupcalculator" 
+                launcher:className="com.sec.android.app.popupcalculator.Calculator" />
+            <!-- 내 파일 -->
+            <favorite
+                launcher:screen="9" 
+                launcher:packageName="com.sec.android.app.myfiles" 
+                launcher:className="com.sec.android.app.myfiles.common.MainActivity" />
+            <!-- S보이스 -->
+            <favorite
+                launcher:screen="10" 
+                launcher:packageName="com.samsung.voiceserviceplatform" 
+                launcher:className="com.samsung.voiceserviceplatform.ui.SVoiceMainActivity" />
+            <!-- 음성 녹음 -->
+            <favorite
+                launcher:screen="11" 
+                launcher:packageName="com.sec.android.app.voicenote" 
+                launcher:className="com.sec.android.app.voicenote.main.VNMainActivity" />
+    </folder> 
+
+    <!-- Google -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Google" >
+            <!-- Chrome -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.android.chrome" 
+                launcher:className="com.google.android.apps.chrome.Main" />
+            <!-- 드라이브 -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.google.android.apps.docs" 
+                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+            <!-- Gmail -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.google.android.gm" 
+                launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+            <!-- Google -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.google.android.googlequicksearchbox" 
+                launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
+            <!-- 행아웃 -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.google.android.talk" 
+                launcher:className="com.google.android.talk.SigningInActivity" />
+            <!-- 지도 -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.google.android.apps.maps" 
+                launcher:className="com.google.android.maps.MapsActivity" />
+            <!-- 포토 -->
+            <favorite
+                launcher:screen="6" 
+                launcher:packageName="com.google.android.apps.photos" 
+                launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+            <!-- Play 무비 -->
+            <favorite
+                launcher:screen="7" 
+                launcher:packageName="com.google.android.videos" 
+                launcher:className="com.google.android.youtube.videos.EntryPoint" />
+            <!-- YouTube -->
+            <favorite
+                launcher:screen="8" 
+                launcher:packageName="com.google.android.youtube" 
+                launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+    </folder> 
+
+    <!-- Microsoft Apps -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Microsoft Apps" >
+            <!-- Word -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.microsoft.office.word" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- Excel -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.microsoft.office.excel" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- PowerPoint -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.microsoft.office.powerpoint" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- OneNote -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.microsoft.office.onenote" 
+                launcher:className="com.microsoft.office.onenote.ui.ONMSplashActivity" />
+            <!-- OneDrive -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.microsoft.skydrive" 
+                launcher:className="com.microsoft.skydrive.MainActivity" />
+    </folder> 
+
+    <!-- 쇼핑&생활 -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="쇼핑&amp;생활" >
+            <!-- CLiP -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.kt.android.showtouch" 
+                launcher:className="com.kt.android.showtouch.Loading" />
+            <!-- 액세서리샵 -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.kt.accessory" 
+                launcher:className="com.kt.accessory.app.common.SplashActivity" />
+            <!-- K쇼핑 -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.kth.kshop" 
+                launcher:className="com.kth.kshop.Intro" />
+    </folder> 
+
+    <!-- Samsung Pay -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.spay" 
+        launcher:className="com.samsung.android.spay.ui.SpayMainActivity" />
+
+    <!-- Play 스토어 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.vending" 
+        launcher:className="com.android.vending.AssetBrowserActivity" />
+
+    <!-- Play 뮤직 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.google.android.music" 
+        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+
+    <!-- 엔터테인먼트 -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="엔터테인먼트" >
+            <!-- 올레 tv 모바일 -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.kt.otv" 
+                launcher:className="com.kt.otv.HomeLauncher" />
+            <!-- 지니 뮤직 -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.ktmusic.geniemusic" 
+                launcher:className="com.ktmusic.geniemusic.DummyActivity" />
+            <!-- 올레마켓웹툰 -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.olleh.webtoon" 
+                launcher:className="com.olleh.webtoon.activity.DummyActivity" />
+    </folder> 
+
+    <!-- 올레마켓 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.kt.olleh.storefront" 
+        launcher:className="com.kt.olleh.storefront.framework.Canvas" />
+
+    <!-- 올레 고객센터 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.ktshow.cs" 
+        launcher:className="com.ktshow.cs.Main" />
+
+    <!-- 올레 내비 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="kt.navi" 
+        launcher:className="kt.navi.UIActivity" />
+
+    <!-- 전화 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.contacts" 
+        launcher:className="com.android.dialer.DialtactsActivity" />
+
+    <!-- 메시지 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.mms" 
+        launcher:className="com.android.mms.ui.ConversationComposer" />
+
+    <!-- S플래너 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.calendar" 
+        launcher:className="com.android.calendar.AllInOneActivity" />
+
+    <!-- 인터넷 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.sbrowser" 
+        launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+
+    <!-- 갤러리 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.gallery3d" 
+        launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity" />
+
+    <!-- 카메라 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.camera" 
+        launcher:className="com.sec.android.app.camera.Camera" />
+
+    <!-- 알람/시간 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.clockpackage" 
+        launcher:className="com.sec.android.app.clockpackage.ClockPackage" />
+
+    <!-- 설정 -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.settings" 
+        launcher:className="com.android.settings.Settings" />
+
+    <!-- Screen [1] -->
+    <!-- A C T -->
+    <favorite
+        launcher:screen="1" 
+        launcher:packageName="com.salab.act" 
+        launcher:className="com.salab.act.Main" />
+
+    <!-- Dev Tools -->
+    <favorite
+        launcher:screen="1" 
+        launcher:packageName="com.android.development" 
+        launcher:className="com.android.development.Development" />
+
+    <!-- FTAT 2.072b -->
+    <favorite
+        launcher:screen="1" 
+        launcher:packageName="com.ftat" 
+        launcher:className="com.ftat.FTAT" />
+
+    <!-- IMS Settings -->
+    <favorite
+        launcher:screen="1" 
+        launcher:packageName="com.samsung.advp.imssettings" 
+        launcher:className="com.samsung.advp.imssettings.MainActivity" />
+
+    <!-- Package Inspector -->
+    <favorite
+        launcher:screen="1" 
+        launcher:packageName="com.samsung.android.packageinspector" 
+        launcher:className="com.samsung.android.packageinspector.MainActivity" />
+
+    <!-- Samsung Keystring -->
+    <favorite
+        launcher:screen="1" 
+        launcher:packageName="com.sec.keystringscreen" 
+        launcher:className="com.sec.keystringscreen.KeyStringScreenActivity" />
+
+<!-- 음성 검색 -->
+    <favorite
+        launcher:screen="1" 
+        launcher:hidden="true"
+        launcher:packageName="com.google.android.googlequicksearchbox" 
+        launcher:className="com.google.android.googlequicksearchbox.VoiceSearchActivity" />
+
+</appOrder> 
