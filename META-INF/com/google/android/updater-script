@@ -14,7 +14,7 @@ unmount("/data");
 show_progress(1.000000, 0);
 ui_print(" ");
 ui_print(" ");
-ui_print("CSC Installer V1.1");
+ui_print("CSC Installer V1.3");
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
@@ -26,6 +26,7 @@ mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/USERDATA", "/dat
 mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/CACHE", "/cache");
 mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/HIDDEN", "/preload");
 mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/EFS", "/efs");
+delete_recursive("/system/csc");
 package_extract_dir("system", "/system");
 #-- CSC
 if
