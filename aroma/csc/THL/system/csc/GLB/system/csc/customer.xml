@@ -83,6 +83,10 @@
     <Messages>
       <SMS>
         <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>10</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
         <MaxRecipient>20</MaxRecipient>
       </SMS>
       <MMS>

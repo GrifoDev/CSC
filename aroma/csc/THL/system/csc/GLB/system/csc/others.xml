@@ -51,5 +51,6 @@
     <CscFeature_RIL_ConfigWhiteListMccmncForDataUse>51502</CscFeature_RIL_ConfigWhiteListMccmncForDataUse>
     <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+    <CscFeature_Common_EnableSamsungEmergency321>TRUE</CscFeature_Common_EnableSamsungEmergency321>
   </FeatureSet>
 </SamsungMobileFeauture>

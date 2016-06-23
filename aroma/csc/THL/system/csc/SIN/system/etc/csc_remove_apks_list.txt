@@ -1,1 +1,2 @@
+/system/app/GalaxyGiftStubHERO/GalaxyGiftStubHERO.apk
 /system/app/QuaTangGalaxyStub/QuaTangGalaxyStub.apk

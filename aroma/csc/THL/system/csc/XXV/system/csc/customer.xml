@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>VIETNAM</Country>
     <CountryISO>VN</CountryISO>
     <Region>SEA</Region>
@@ -70,6 +70,10 @@
       </PushMsg>
       <SMS>
         <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>13</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
         <CharSupport>automatic</CharSupport>
       </SMS>
       <MMS>

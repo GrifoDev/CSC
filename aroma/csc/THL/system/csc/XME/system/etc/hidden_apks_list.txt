@@ -1,2 +1,3 @@
 /hidden/app/iflix_v2.1.7.0.apk
 /hidden/app/MILK_AU.apk
+/hidden/app/mySamsung_stub-release.apk

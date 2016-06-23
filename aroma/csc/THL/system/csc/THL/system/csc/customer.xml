@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>THAILAND</Country>
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
@@ -123,10 +123,11 @@
         <ProfMMS>AIS MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>AIS 3G2100</NetworkName>
         <ProfBrowser>AIS Internet</ProfBrowser>
         <ProfMMS>AIS MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -148,23 +149,25 @@
         <ProfMMS>True GPRS MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>True Move H</NetworkName>
         <ProfBrowser>TRUE-H INTERNET</ProfBrowser>
         <ProfMMS>TRUE-H MMS</ProfMMS>
+        <ProfIMS>TRUE-H IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Real Future</NetworkName>
         <ProfBrowser>TRUE-H INTERNET</ProfBrowser>
         <ProfMMS>TRUE-H MMS</ProfMMS>
+        <ProfIMS>TRUE-H IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>CAT</NetworkName>
         <ProfBrowser>my</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>16</NbProfile>
+      <NbProfile>19</NbProfile>
       <Profile>
         <NetworkName>AIS</NetworkName>
         <Editable>yes</Editable>
@@ -419,14 +422,60 @@
           <APN>internet</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>AIS 3G2100</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>True Move H</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>TRUE-H IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Real Future</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>TRUE-H IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>1</NbSetting>
+      <NbSetting>4</NbSetting>
       <Setting>
         <NetworkName>dtac TriNet</NetworkName>
         <Version>2.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
@@ -436,7 +485,57 @@
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>True Move H</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Real Future</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>AIS 3G2100</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>
     </IMSSetting>

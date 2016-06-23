@@ -79,5 +79,6 @@
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
 	<CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,VoLte,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>
   </FeatureSet>
 </SamsungMobileFeauture>

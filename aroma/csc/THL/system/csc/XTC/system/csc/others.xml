@@ -46,5 +46,6 @@
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Framework_SupportDataModeSwitchGlobalAction>TRUE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
+    <CscFeature_Common_EnableSamsungEmergency321>TRUE</CscFeature_Common_EnableSamsungEmergency321>
   </FeatureSet>
 </SamsungMobileFeauture>

@@ -39,6 +39,8 @@
     <CscFeature_Wifi_CountryCodeDefaultFromCsc>TRUE</CscFeature_Wifi_CountryCodeDefaultFromCsc>   
     <CscFeature_Wifi_RemovableDefaultAP>TRUE</CscFeature_Wifi_RemovableDefaultAP>
     <CscFeature_Wifi_EapMethodSetting>SIM, SingTel, Singtel WIFI</CscFeature_Wifi_EapMethodSetting>
+    <CscFeature_Wifi_ConfigOpBranding>SingTel</CscFeature_Wifi_ConfigOpBranding>
+    <CscFeature_Wifi_ConfigVendorSsidList>Singtel WIFI</CscFeature_Wifi_ConfigVendorSsidList>
     <CscFeature_RIL_ConfigAlwaysOnApn>cbs</CscFeature_RIL_ConfigAlwaysOnApn>
     <CSCFeature_VoiceCall_OpenApiCallActiveStatus>TRUE</CSCFeature_VoiceCall_OpenApiCallActiveStatus>
     <CscFeature_Contact_IgnoreSpaceDuringSearch>TRUE</CscFeature_Contact_IgnoreSpaceDuringSearch>
@@ -69,5 +71,6 @@
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
 	<CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,VoLte,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_Wifi_ConfigOpBranding>SingTel</CscFeature_Wifi_ConfigOpBranding>
   </FeatureSet>
 </SamsungMobileFeauture>

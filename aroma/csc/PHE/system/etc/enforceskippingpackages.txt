@@ -1,0 +1,6 @@
+5
+NaverTvCast.apk
+AxelSpringer.apk
+CnnPanel.apk
+SamsungUpdates.apk
+OMCAgent.apk

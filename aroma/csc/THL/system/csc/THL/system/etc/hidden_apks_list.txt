@@ -1,0 +1,2 @@
+/hidden/app/mySamsung_stub-release.apk
+/hidden/app/SamsungPlaybackHERO.apk

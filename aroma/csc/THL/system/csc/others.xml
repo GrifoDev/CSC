@@ -56,5 +56,6 @@
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn> 
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,VoLte,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_52001_52003_52074_52054_52005;,ShowPrefModeMenuSim_52003_52001_52074_52054;</CscFeature_RIL_ConfigEpdgExtraFunction>
   </FeatureSet>
 </SamsungMobileFeauture>

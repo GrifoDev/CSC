@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0009</CSCEdition>
+    <CSCEdition>ED0015</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -368,6 +368,34 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
+    <NbWifiProfile>4</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi.1x</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>Wifi+</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>4</WifiPriority>
+    </WifiProfile>
     <Connections>
       <NbProfileHandle>30</NbProfileHandle>
       <ProfileHandle>
@@ -1136,7 +1164,6 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
-          <Port>80</Port>
         </Proxy>
         <PSparam>
           <APN>three.co.uk</APN>
