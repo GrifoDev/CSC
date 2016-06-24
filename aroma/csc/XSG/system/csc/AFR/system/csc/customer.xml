@@ -130,14 +130,14 @@
         <ProfMMS>Zain MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Smile UG</NetworkName>
-        <ProfBrowser>Smile</ProfBrowser>
+        <ProfBrowser>Smile</ProfBrowser>        <ProfIMS>IMS</ProfIMS>        <ProfXCAP>internet</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Smile TZ</NetworkName>
-        <ProfBrowser>Smile</ProfBrowser>
+        <ProfBrowser>Smile</ProfBrowser>        <ProfIMS>IMS</ProfIMS>        <ProfXCAP>internet</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -168,7 +168,7 @@
         <NetworkName>Zain Sudan</NetworkName>
         <ProfBrowser>zain Sudan</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>15</NbProfile>
+      <NbProfile>17</NbProfile>
       <Profile>
         <NetworkName>Zain</NetworkName>
         <ProfileName>Zain WAP</ProfileName>
@@ -199,28 +199,7 @@
           <Password>wap</Password>
         </PSparam>
       </Profile>
-      <Profile>
-        <NetworkName>Smile UG</NetworkName>
-        <ProfileName>Smile</ProfileName>
-        <URL>smile.co.ug</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Smile TZ</NetworkName>
-        <ProfileName>Smile</ProfileName>
-        <URL>Smile.co.tz</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
+     <Profile>        <NetworkName>SMILE UG</NetworkName>        <Editable>yes</Editable>        <ProfileName>internet</ProfileName>        <URL>http://content.samsung.com</URL>        <Auth>normal</Auth>        <Protocol>http</Protocol>        <MTUSize>1300</MTUSize>        <PSparam>          <APN>internet</APN>        </PSparam>      </Profile>      <Profile>        <NetworkName>SMILE UG</NetworkName>        <Editable>no</Editable>        <ProfileName>IMS</ProfileName>        <Auth>none</Auth>        <Protocol>http</Protocol>        <MTUSize>1300</MTUSize>        <PSparam>          <APN>ims</APN>        </PSparam>      </Profile>      <Profile>        <NetworkName>SMILE TZ</NetworkName>        <Editable>yes</Editable>        <ProfileName>internet</ProfileName>        <URL>http://content.samsung.com</URL>        <Auth>normal</Auth>        <Protocol>http</Protocol>        <MTUSize>1300</MTUSize>        <PSparam>          <APN>internet</APN>        </PSparam>      </Profile>      <Profile>        <NetworkName>SMILE TZ</NetworkName>        <Editable>no</Editable>        <ProfileName>IMS</ProfileName>        <Auth>none</Auth>        <Protocol>http</Protocol>        <MTUSize>1300</MTUSize>        <PSparam>          <APN>ims</APN>        </PSparam>      </Profile>
       <Profile>
         <NetworkName>Safaricom</NetworkName>
         <ProfileName>Safaricom Browse</ProfileName>
@@ -230,8 +209,6 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>172.22.2.38</ServAddr>
-          <Port>8080</Port>
         </Proxy>
         <PSparam>
           <APN>Safaricom</APN>
@@ -374,6 +351,6 @@
           <APN>internet</APN>
         </PSparam>
       </Profile>
-    </Connections>
+    </Connections>    <IMSSetting>      <NbSetting>2</NbSetting>      <Setting>        <NetworkName>SMILE TZ</NetworkName>        <Version>2.0</Version>        <EnableIMS>true</EnableIMS>        <RCS>          <EnableRCS>false</EnableRCS>        </RCS>        <VoLTE>          <SMSoIP_Domain>ps</SMSoIP_Domain>          <EnableVoLTE>true</EnableVoLTE>          <EnableVideocall>true</EnableVideocall>          <EnableVoLTEindicator>true</EnableVoLTEindicator>          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>          <Emregencycall_Domain>cs</Emregencycall_Domain>          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>          <USSD_Domain_Preference>cs</USSD_Domain_Preference>        </VoLTE>      </Setting>      <Setting>        <NetworkName>SMILE UG</NetworkName>        <Version>2.0</Version>        <EnableIMS>true</EnableIMS>        <RCS>          <EnableRCS>false</EnableRCS>        </RCS>        <VoLTE>          <SMSoIP_Domain>ps</SMSoIP_Domain>          <EnableVoLTE>true</EnableVoLTE>          <EnableVideocall>true</EnableVideocall>          <EnableVoLTEindicator>true</EnableVoLTEindicator>          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>          <Emregencycall_Domain>cs</Emregencycall_Domain>          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>          <USSD_Domain_Preference>cs</USSD_Domain_Preference>        </VoLTE>      </Setting>    </IMSSetting>
   </Settings>
 </CustomerData>

@@ -46,7 +46,7 @@
     <CscFeature_RIL_ConfigAlwaysOnApn>ims</CscFeature_RIL_ConfigAlwaysOnApn> 
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>DefaultOnSIM_65507</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>DefaultOnSim_65507</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
   </FeatureSet>
 </SamsungMobileFeauture>

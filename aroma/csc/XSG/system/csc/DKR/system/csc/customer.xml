@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Senegal</Country>
     <CountryISO>SN</CountryISO>
     <Region>MEA</Region>
     <SalesCode>DKR</SalesCode>
-    <NbNetworkInfo>5</NbNetworkInfo>
+    <NbNetworkInfo>6</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>63902</MCCMNC>
       <NetworkName>Safaricom</NetworkName>
@@ -26,6 +26,10 @@
     <NetworkInfo>
       <MCCMNC>64004</MCCMNC>
       <NetworkName>Vodacom</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60801</MCCMNC>
+      <NetworkName>Orange SN</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -68,7 +72,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>4</NbProfileHandle>
+      <NbProfileHandle>5</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Orange</NetworkName>
@@ -89,11 +93,17 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Orange SN</NetworkName>
+        <ProfBrowser>Orange Web SN</ProfBrowser>
+        <ProfMMS>Orange MMS SN</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>Vodacom</NetworkName>
         <ProfBrowser>Vodacom WAP</ProfBrowser>
         <ProfMMS>Vodacom MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>8</NbProfile>
+      <NbProfile>10</NbProfile>
       <Profile>
         <NetworkName>Zain</NetworkName>
         <ProfileName>Zain WAP</ProfileName>
@@ -155,6 +165,33 @@
           <APN>Safaricom</APN>
           <UserId>saf</UserId>
           <Password>data</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange SN</NetworkName>
+        <ProfileName>Orange Web SN</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>internet</UserId>
+          <Password>internet</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange SN</NetworkName>
+        <ProfileName>Orange MMS SN</ProfileName>
+        <URL>http://mmsalize/servlets/mms</URL>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>172.16.30.9</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
         </PSparam>
       </Profile>
       <Profile>

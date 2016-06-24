@@ -370,7 +370,7 @@ selectbox(
 	"ETL",	"Czech Republic unbranded",									0,      #-- selected.1 = 8
 	"EUR",	"Greece unbranded",										0,      #-- selected.1 = 9
 	"GBL",	"Bulgaria unbranded",										0,      #-- selected.1 = 10
-	"HTS",	"Sweden unbranded",										0,      #-- selected.1 = 11
+	"HTS",	"Sweden Mitt3 branded",										0,      #-- selected.1 = 11
 	"ILO",	"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",						0,      #-- selected.1 = 12
 	"INS",	"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",				0,      #-- selected.1 = 13
 	"ITV",	"Italian unbranded",										0,      #-- selected.1 = 14
