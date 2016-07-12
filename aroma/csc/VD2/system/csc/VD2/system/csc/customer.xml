@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>Germany</Country>
     <CountryISO>DE</CountryISO>
     <Region>EUR</Region>
@@ -11,10 +11,10 @@
       <MCCMNC>26202</MCCMNC>
       <NetworkName>Vodafone.de</NetworkName>
     </NetworkInfo>
-    <NetworkInfo>
+	<NetworkInfo>
       <MCCMNC>45001</MCCMNC>
       <NetworkName>test bed</NetworkName>          
-    </NetworkInfo>    
+    </NetworkInfo> 
   </GeneralInfo>
   <Settings>
     <Main>
@@ -63,7 +63,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <Security />
     </Main>
     <Calendar>
       <StartDay>monday</StartDay>
@@ -96,7 +95,7 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
+        <NbMMSView>1</NbMMSView>		
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -127,7 +126,7 @@
         </Account>
       </Email>
     </Messages>
-    <ActiveSync>
+	<ActiveSync>
       <EasEmail>
         <SizeEmail>300K</SizeEmail>
       </EasEmail>
@@ -193,9 +192,9 @@
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>Vodafone.de</NetworkName>
         <ProfBrowser>VF DE Web</ProfBrowser>
-        <ProfXCAP>VF DE Web</ProfXCAP>        
         <ProfMMS>VF DE MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>VF DE Web</ProfXCAP>
       </ProfileHandle>
       <NbProfile>3</NbProfile>
       <Profile>
@@ -245,12 +244,13 @@
       <Setting>
         <NetworkName>Vodafone.de</NetworkName>
         <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-		  <SMSoIP_Domain>ps</SMSoIP_Domain>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
@@ -262,12 +262,13 @@
       <Setting>
         <NetworkName>test bed</NetworkName>
         <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-		  <SMSoIP_Domain>ps</SMSoIP_Domain>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
@@ -275,7 +276,7 @@
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
         </VoLTE>
-      </Setting>     
+      </Setting>
     </IMSSetting>
   </Settings>
 </CustomerData>

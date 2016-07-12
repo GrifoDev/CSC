@@ -183,57 +183,23 @@
       <FotaBearer>wifi_dedicated</FotaBearer>
     </FOTA>
     <Browser>
-      <NbBookmark>10</NbBookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Vodafone MyWeb</BookmarkName>
-        <URL>http://myweb.vodafone.ie</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Search</BookmarkName>
-        <URL>http://live.vodafone.com/search</URL>
-      </Bookmark>
+      <NbBookmark>3</NbBookmark>
       <Bookmark>
         <NetworkName>vodafone IE</NetworkName>
         <BookmarkName>My Vodafone</BookmarkName>
-        <URL>http://live.vodafone.com/myvodafone</URL>
+        <URL>https://www.vodafone.ie/myv/services/login/index.jsp?redirect=/myv/index.jsp</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Ringtones</BookmarkName>
-        <URL>http://live.vodafone.com/ringtonedownload</URL>
+        <BookmarkName>Vodafone Start</BookmarkName>
+        <URL>http://start.vodafone.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Pictures</BookmarkName>
-        <URL>http://live.vodafone.com/picturedownload</URL>
+        <BookmarkName>Vodafone Ireland</BookmarkName>
+        <URL>http://www.vodafone.ie</URL>
       </Bookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Games</BookmarkName>
-        <URL>http://live.vodafone.com/games</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>News</BookmarkName>
-        <URL>http://live.vodafone.com/news</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Sport</BookmarkName>
-        <URL>http://live.vodafone.com/sport</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>TV</BookmarkName>
-        <URL>http://live.vodafone.com/tv</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>vodafone IE</NetworkName>
-        <BookmarkName>Music</BookmarkName>
-        <URL>http://live.vodafone.com/music</URL>
-      </Bookmark>      <eManual>
+      <eManual>
         <URL>http://www.samsung.com/m-manual/voda</URL>
       </eManual>
     </Browser>

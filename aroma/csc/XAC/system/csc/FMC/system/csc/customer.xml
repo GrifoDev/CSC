@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -90,6 +90,7 @@
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
         <CharSupport>automatic</CharSupport>
+        <CellBroadcast>on</CellBroadcast>
       </SMS>
       <MMS>
         <MmsSending>

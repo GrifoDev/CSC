@@ -10,7 +10,7 @@
   <CscFeature_Setting_BlockToSelectDunApnType>TRUE</CscFeature_Setting_BlockToSelectDunApnType>
   <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
   <CscFeature_VoiceCall_EnableCallButtonInFdnList>TRUE</CscFeature_VoiceCall_EnableCallButtonInFdnList>
-  <CscFeature_Message_EnableSendingEmptySms>TRUE</CscFeature_Message_EnableSendingEmptySms>
+  <CscFeature_Message_EnableSendingEmptySms>FALSE</CscFeature_Message_EnableSendingEmptySms>
   <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
   <CscFeature_Message_GalleryView4SingleImageMms>imagetext</CscFeature_Message_GalleryView4SingleImageMms>
   <CscFeature_Email_UseFixedSmtpPortAs>25</CscFeature_Email_UseFixedSmtpPortAs>

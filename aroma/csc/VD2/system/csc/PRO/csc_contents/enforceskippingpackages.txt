@@ -1,4 +1,4 @@
-18
+14
 NaverTvCast.apk
 smartcallprovider-open-release.apk
 AxelSpringer.apk
@@ -10,10 +10,6 @@ FBInstagram_stub.apk
 FBMessenger_stub.apk
 Facebook_stub.apk
 WhatsAppDownloader.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
 GalaxyCare.apk
 SamsungUpdates.apk
 OMCAgent.apk

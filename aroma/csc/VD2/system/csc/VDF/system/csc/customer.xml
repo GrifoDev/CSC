@@ -63,7 +63,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <Security />
     </Main>
     <Messages>
       <NbVoicemail>1</NbVoicemail>
@@ -142,12 +141,12 @@
       <Bookmark>
         <NetworkName>vodafone NL</NetworkName>
         <BookmarkName>My Vodafone</BookmarkName>
-        <URL>https://www.vodafone.nl/my</URL>
+        <URL>http://www.vodafone.nl/my</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>vodafone NL</NetworkName>
         <BookmarkName>Vodafone Start</BookmarkName>
-        <URL>https://start.vodafone.com</URL>
+        <URL>http://start.vodafone.com/ssp/homepage/NL?source=embed</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/voda</URL>
@@ -172,17 +171,19 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>vodafone NL</NetworkName>
         <ProfBrowser>Vodafone Internet</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Vodafone Internet</ProfXCAP>		
       </ProfileHandle>
-      <NbProfile>2</NbProfile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>vodafone NL</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Vodafone Internet</ProfileName>
-        <URL>https://www.vodafone.nl</URL>
+        <URL>http://start.vodafone.com/ssp/homepage/NL?source=embed</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -211,6 +212,42 @@
           <Password>vodafone</Password>
         </PSparam>
       </Profile>
+	  <Profile>
+        <NetworkName>vodafone NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>vodafone NL</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+		<RCS>
+          <EnableRCS>TRUE</EnableRCS>
+        </RCS>
+        <VoLTE>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>	
   </Settings>
 </CustomerData>

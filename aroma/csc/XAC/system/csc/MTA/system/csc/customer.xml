@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0010</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
     <SalesCode>MTA</SalesCode>
-    <NbNetworkInfo>10</NbNetworkInfo>
+    <NbNetworkInfo>11</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>302660</MCCMNC>
       <NetworkName>MTA</NetworkName>
@@ -54,7 +54,13 @@
     <NetworkInfo>
       <MCCMNC>302320</MCCMNC>
       <NetworkName>Mobilicity</NetworkName>
-      <SubsetCode>52</SubsetCode>
+      <SubsetCode>82</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>302720</MCCMNC>
+      <NetworkName>ztar</NetworkName>
+      <SubsetCode>212</SubsetCode>
+      <SPCode>98</SPCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -130,6 +136,7 @@
       <SMS>
         <DeliveryReport>off</DeliveryReport>
         <CharSupport>automatic</CharSupport>
+        <CellBroadcast>on</CellBroadcast>
       </SMS>
       <MMS>
         <MmsSending>
@@ -541,7 +548,7 @@
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>rogers-core-app1.apn</APN>
+          <APN>rogers-core-appl1.apn</APN>
           <TrafficClass>subscribed</TrafficClass>
         </PSparam>
       </Profile>
@@ -562,7 +569,7 @@
           <Port>80</Port>
         </Proxy>
         <PSparam>
-          <APN>rogers-core-app1.apn</APN>
+          <APN>rogers-core-appl1.apn</APN>
           <TrafficClass>subscribed</TrafficClass>
         </PSparam>
       </Profile>

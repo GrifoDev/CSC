@@ -23,7 +23,7 @@
   <CscFeature_SyncML_DeleteCpAfterTryingToInstall>TRUE</CscFeature_SyncML_DeleteCpAfterTryingToInstall>
   <CscFeature_RIL_UssdConnectToCall>45,46,132,153</CscFeature_RIL_UssdConnectToCall>
   <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
-  <CscFeature_RIL_ConfigAlwaysOnApn>bip</CscFeature_RIL_ConfigAlwaysOnApn>
+  <CscFeature_RIL_ConfigAlwaysOnApn>bip,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
   <CscFeature_Setting_SendTerminateSetupWizardBroadCast>TRUE</CscFeature_Setting_SendTerminateSetupWizardBroadCast>
   <CscFeature_NFC_DefStatus>ON</CscFeature_NFC_DefStatus>
   <CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>TRUE</CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>
@@ -31,7 +31,7 @@
   <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
   <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
   <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
-  <CscFeature_IMS_EnableVoLTE>FALSE</CscFeature_IMS_EnableVoLTE>
+  <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
   <CscFeature_IMS_EnableLTEVideoCall>FALSE</CscFeature_IMS_EnableLTEVideoCall>
   <CscFeature_IMS_EnableRCSPresence>FALSE</CscFeature_IMS_EnableRCSPresence>
   <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
@@ -55,5 +55,22 @@
   <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
   <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
   <CscFeature_Message_CMASOperator>tnl</CscFeature_Message_CMASOperator>
+  <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+  <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+  <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+  <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+  <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
+  <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+  <CscFeature_RIL_E911RoutingPolicy>csprefer</CscFeature_RIL_E911RoutingPolicy>
+  <CscFeature_RIL_ConfigVolteRedialPolicy>VD2</CscFeature_RIL_ConfigVolteRedialPolicy>
+  <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+  <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+  <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
+  <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+  <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>  
+  <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>  
+  <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+  <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefNoSimCheck,ShowPrefModeMenuNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>
+  <CscFeature_Setting_HideApnList>IMS,ims</CscFeature_Setting_HideApnList>
  </FeatureSet>
 </SamsungMobileFeauture>

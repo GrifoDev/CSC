@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0020</Version>
+  <Version>ED0022</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>GLW</SalesCode>
@@ -55,14 +55,14 @@
     <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON, Google, Internet, Camera</CscFeature_Setting_ShortcutListInLockScreen>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
     <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
-    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>FALSE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
     <CscFeature_Setting_ConfigAirView>+Webpage</CscFeature_Setting_ConfigAirView>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
-    <CscFeature_Calendar_EnableShiftedWeekNumber>TRUE</CscFeature_Calendar_EnableShiftedWeekNumber>
+    <CscFeature_Calendar_EnableShiftedWeekNumber>FALSE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>

@@ -1,4 +1,3 @@
-/system/app/ap_PaymentFramework_spay_stub_M_release/ap_PaymentFramework_spay_stub_M_release.apk
 /system/app/AppWidget-1.0_2612-release/AppWidget-1.0_2612-release.apk
 /system/app/BellMobileTVStub/BellMobileTVStub.apk
 /system/app/MyAccount_StubApp_5_Feb/MyAccount_StubApp_5_Feb.apk

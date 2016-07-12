@@ -1,2 +1,1 @@
 /system/app/android-23-signed-1.0.9/android-23-signed-1.0.9.apk
-/system/app/ap_PaymentFramework_spay_stub_M_release/ap_PaymentFramework_spay_stub_M_release.apk

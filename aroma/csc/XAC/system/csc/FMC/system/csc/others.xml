@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0022</Version>
+  <Version>ED0023</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>FMC</SalesCode>
@@ -34,7 +34,7 @@
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
-    <CscFeature_Calendar_EnableShiftedWeekNumber>TRUE</CscFeature_Calendar_EnableShiftedWeekNumber>
+    <CscFeature_Calendar_EnableShiftedWeekNumber>FALSE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>

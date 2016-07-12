@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -109,53 +109,33 @@
       </MMS>
     </Messages>
     <Wifi>
-      <WifiEnableStatus>off</WifiEnableStatus>
+      <WifiEnableStatus>on</WifiEnableStatus>
     </Wifi>
     <Browser>
-      <NbBookmark>6</NbBookmark>
+      <NbBookmark>2</NbBookmark>
       <Bookmark>
         <NetworkName>WIND Mobile</NetworkName>
         <Editable>no</Editable>
         <Index>1</Index>
-        <BookmarkName>WINDmobile</BookmarkName>
-        <URL>http://m.windmobile.ca</URL>
+        <BookmarkName>WIND Mobile</BookmarkName>
+        <URL>http://www.windmobile.ca</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>WIND Mobile</NetworkName>
         <Editable>no</Editable>
         <Index>2</Index>
-        <BookmarkName>Facebook</BookmarkName>
-        <URL>http://m.facebook.com</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>WIND Mobile</NetworkName>
-        <Editable>no</Editable>
-        <Index>3</Index>
-        <BookmarkName>Twitter</BookmarkName>
-        <URL>http://m.twitter.com</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>WIND Mobile</NetworkName>
-        <Editable>no</Editable>
-        <Index>4</Index>
-        <BookmarkName>YouTube</BookmarkName>
-        <URL>http://m.youtube.com</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>WIND Mobile</NetworkName>
-        <Editable>no</Editable>
-        <Index>5</Index>
-        <BookmarkName>WindMobile Blog</BookmarkName>
-        <URL>http://windmobileblog.com/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>WIND Mobile</NetworkName>
-        <Editable>no</Editable>
-        <Index>6</Index>
         <BookmarkName>Yahoo</BookmarkName>
         <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
       </Bookmark>
     </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>WIND Mobile</NetworkName>
+      <WifiSSID>ShawPasspoint</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>aka</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>

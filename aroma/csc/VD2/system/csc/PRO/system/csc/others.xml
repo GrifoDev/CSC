@@ -22,7 +22,7 @@
     <CscFeature_Message_GalleryView4SingleImageMms>TRUE</CscFeature_Message_GalleryView4SingleImageMms>
     <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
     <CscFeature_RIL_ExtendTransmitChannelTimeout>TRUE</CscFeature_RIL_ExtendTransmitChannelTimeout>
-    <CscFeature_RIL_ConfigAlwaysOnApn>bip</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigAlwaysOnApn>bip,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_SyncML_DiscardInvalidNetwpinCp>true</CscFeature_SyncML_DiscardInvalidNetwpinCp>
     <CscFeature_SyncML_DeleteCpAfterTryingToInstall>true</CscFeature_SyncML_DeleteCpAfterTryingToInstall> 
     <CscFeature_Web_DisableMostVisitedHomepage>TRUE</CscFeature_Web_DisableMostVisitedHomepage>
@@ -43,6 +43,22 @@
     <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
+
+    <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_EnableLTEVideoCall>true</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
+    <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
+
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+    <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
   </FeatureSet>
 
 </SamsungMobileFeauture>
