@@ -76,6 +76,7 @@
     <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>TRUE</CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>VAU</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
