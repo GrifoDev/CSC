@@ -1,0 +1,22 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FUUB</CSCName>
+	<CSCVersion>1APEQ</CSCVersion>
+	<NbCustomer>11</NbCustomer>
+	<CustomerData src="/Customer/ARO/customer.xml" />
+	<CustomerData src="/Customer/BVO/customer.xml" />
+	<CustomerData src="/Customer/CHO/customer.xml" />
+	<CustomerData src="/Customer/COO/customer.xml" />
+	<CustomerData src="/Customer/EON/customer.xml" />
+	<CustomerData src="/Customer/TPA/customer.xml" />
+	<CustomerData src="/Customer/TTT/customer.xml" />
+	<CustomerData src="/Customer/UPO/customer.xml" />
+	<CustomerData src="/Customer/UYO/customer.xml" />
+	<CustomerData src="/Customer/PCW/customer.xml" />
+	<CustomerData src="/Customer/ALE/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

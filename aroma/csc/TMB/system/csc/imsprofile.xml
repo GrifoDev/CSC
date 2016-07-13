@@ -1,0 +1,4169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  pcscf_pref
+      0 : PCO
+      1 : ISIM
+      2 : manual
+      3 : auto config
+      4 : if only RCS, from auto config. otherwise, PCO
+ -->
+<profiles profile_version="6.0">
+    <default
+        closed_group_chat="0"
+        subscribe_for_reg="1"
+        use_precondition="0"
+        precondtion_initial_sendrecv="1"
+        session_expires="1800"
+        ringing_timer="30"
+        ringback_timer="32"
+        subscriber_timer="600000"
+        useragent="Samsung IMS 6.0"
+        reg_expires="600000"
+        invite_timeout="180"
+        enable_mwi="0"
+        mwi_subscribe_expiry="7200"
+        udp_keep_alive="30"
+        enable_gruu="1"
+        self_port="5060"
+        sip_mobility="0"
+        session_refresh_method="1"
+        min_se="90"
+        session_refresher="none"
+
+        remote_uri_type="sip"
+        conference_uri="sip:mmtel@conf-factory.ims.mncXXX.mccXXX.3gppnetwork.org"
+        conference_subscribe="1"
+        conference_dialog_type="0"
+        pulling_server_uri=""
+        reg_retry_base_time="30"
+        reg_retry_max_time="1800"
+        need_naptr_dns="false"
+
+        publish_timer="0"
+        publish_expiry="3600"
+        subscription_expiry="3600"
+        extended_publish_timer="86400"
+        enable_gzip="0"
+        expire_header="1"
+        set_default_uri="0"
+        subscribe_list_sync_enabled="0"
+        add_phone_extension="0"
+        add_pres_list_dummy="null"
+        anonymous_fetch="0"
+        bad_event_expiry="0"
+        cap_cache_exp="0"
+        cap_poll_interval="0"
+        src_throttle_publish="60"
+        subscribe_max_entry="500"
+        avail_cache_exp="0"
+        publish_err_retry_timer="21600"
+        poll_list_sub_exp="3"
+        cap_discovery="1"
+        xdm_enable="1"
+
+        audio_capabilities="0"
+        audio_codec_mode="2"
+        dtmf_mode="0"
+        video_capabilities="0"
+        enable_g711="0"
+        custom_codecs=""
+        display_format="vga-port"
+        framerate="7"
+        log_rtppackets_to_file="0"
+        bitrate="1"
+        rtp_timeout="20"
+        rtcp_timeout="20"
+        audio_port_start="1234"
+        audio_port_end="0"
+        video_port_start="1574"
+        video_port_end="0"
+        text_port="49158"
+        amrnb_mode=""
+        amrwb_mode=""
+        amr_bundle_rate="6"
+        enable_cp_audio_path="1"
+        audio_video_tx="1"
+        jitter_buffer="2"
+        emm="1"
+        loopback="0"
+        external_gtty="0"
+        audio_avpf="0"
+        audio_srtp="0"
+        video_avpf="0"
+        video_srtp="0"
+        video_as="384"
+        video_rs="4800"
+        video_rr="14400"
+        audio_as="38"
+        audio_rs="375"
+        audio_rr="1125"
+        amrnbbe_payload="118"
+        amrnboa_payload="96"
+        amrwbbe_payload="116"
+        amrwboa_payload="107"
+        h264_vga_payload="116"
+        h264_vgal_payload="121"
+        h264_qvga_payload="118"
+        h264_qvgal_payload="103"
+        h263_qcif_payload="34"
+        dtmf_nb_payload="110"
+        dtmf_wb_payload="111"
+        video_codec="H264,H263"
+        audio_codec="AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF"
+        packetization_mode="1"
+        dtmf_codec_mode="0"
+        enable_bwm="1"
+        enable_bwm_default="1"
+        mdmn_type="NotSupport"
+        enable_scr="1"
+        enable_cstty="0"
+        ptime="20"
+        maxptime="240"
+        audio_rtcpxr="0"
+        video_rtcpxr="0"
+        enable_evs_codec="0"
+        evs_discontinuous_transmission="1"
+        evs_dtx_recv="1"
+        evs_header_full="0"
+        evs_mode_switch="0"
+        evs_channel_send="0"
+        evs_channel_recv="0"
+        evs_channel_aware_receive="-1"
+        evs_codec_mode_request="0"
+        evs_bit_rate_send="9.6-24.4"
+        evs_bit_rate_receive="9.6-24.4"
+        evs_bandwidth_send="nb-swb"
+        evs_bandwidth_receive="nb-swb"
+        evs_payload="112"
+        evs_default_bandwidth="nb-swb"
+        evs_default_bitrate="24.4"
+        />
+
+    <!-- FIXME: remove sales_code -->
+    <profile
+        name="Samsung Testbed"
+        mccmnc="45001"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="false"
+        conference_uri="sip:conf-factory.testlab.samsung.com"
+        conference_subscribe="0"
+        need_omadm_config="false"
+        reregi_on_ratchange="on_service_change">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="CU Mobile VoLTE/RCS"
+        mccmnc="46001"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="aes-cbc"
+        ipver="ipv4"
+        password=""
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        need_autoconfig="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred">
+        <network type="lte" services="mmtel,mmtel-video,smsip,im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <!-- Voda for Germany
+    * IMS: VoLTE (including VoWiFi with ePDG)
+    * Internet: RCS
+    * WiFi: RCS -->
+    <profile
+        name="VODA IMS VoLTE"
+        mccmnc="26202,26209,00101:VD2:VDR,nosim:VD2:VDR"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        enable_gruu="1"
+        use_precondition="1"
+        conference_uri="sip:mmtel@conf-factory.ims.mnc002.mcc262.3gppnetwork.org"
+        conference_subscribe="1"
+        secure_client_port="6000"
+        secure_server_port="5000">
+       <network type="lte" services="mmtel,smsip"/>
+       <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="VODA Default RCS"
+        mccmnc="26202,26209,00101:VD2:VDR,nosim:VD2:VDR"
+        port="5060"
+        pcscf_pref="3"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="default"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        secure_client_port="6000"
+        secure_server_port="5000"
+        need_autoconfig="true"
+        need_naptr_dns="true"
+        support_roaming="true">
+        <network type="lte" services="im,ft,ft_http,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,ft_http,is,vs,options,euc"/>
+        <network type="edge" services="im,ft,ft_http,options,euc"/>
+        <network type="gprs" services="im,options,euc"/>
+        <network type="gsm" services="im,ft,ft_http,options,euc"/>
+        <network type="hspa" services="im,ft,ft_http,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,ft_http,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,ft_http,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,ft_http,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,ft_http,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="CMCC Mobile VoLTE"
+        mccmnc="46000,46002,46007,46008,46010,46020,46030,00101:CHM:CHC"
+        auth_algo="both"
+        authname=""
+        enc_algo="all"
+        ipver="ipv4v6"
+        network="lte"
+        password=""
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        use_precondition="1"
+        mss_size="1300">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="CMCC Internet RCS"
+        mccmnc="46000,46002,46007,46008,46010,46020,46030,00101:CHM:CHC"
+        auth_algo="both"
+        authname=""
+        enc_algo="all"
+        ipver="ipv4"
+        network="lte"
+        password="123456"
+        pcscf="120.197.90.65"
+        pcscf_pref="3"
+        pdn="internet"
+        port="5260"
+        priority="0"
+        regi_algo="none"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_ipsec="false"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="tcp"
+        mss_size="1300"
+        support_roaming="true"
+        need_autoconfig="true">
+        <network type="lte" services="slm,im,ft,options,euc,gls,profile"/>
+        <network type="tdscdma" services="slm,im,ft,options,euc,gls,profile"/>
+        <network type="edge" services="slm,im,ft,options,euc,gls,profile"/>
+        <network type="gprs" services="slm,im,ft,options,euc,gls,profile"/>
+        <network type="wifi" services="slm,im,ft,options,euc,gls,profile"/>
+    </profile>
+
+    <profile
+        name="CMCC Emergency"
+        mccmnc="46000,46002,46007,46008,46010,46020,46030,00101:CHM:CHC"
+        auth_algo="both"
+        authname=""
+        emergency_support="true"
+        enc_algo="all"
+        ipver="ipv4v6"
+        network="lte"
+        password=""
+        pcscf_pref="0"
+        pdn="emergency"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="EE UK"
+        mccmnc="23430,23433,23486,00101:EVR"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="EE UK E911"
+        mccmnc="23433,23486,00101:EVR"
+        pdn="emergency"
+        ipver="ipv6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        transport="udp-preferred"
+        mss_size="1300"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="T-Mobile VoLTE/RCS"
+        mccmnc="310260,310210,310800,00101:TMB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="1"
+        support_ipsec="true"
+        need_autoconfig="true"
+        useragent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        emergency_support="false"
+        ringing_timer="110"
+        ringback_timer="120"
+        invite_timeout="120"
+
+        conference_uri="sip:8881112663@msg.pc.t-mobile.com"
+        conference_subscribe="1"
+        conference_dialog_type="1"
+
+        video_capabilities="1"
+        rtp_timeout="60"
+        rtcp_timeout="60"
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        audio_rs="600"
+        audio_rr="2400"
+        amrnbbe_payload="102"
+        amrnboa_payload="115"
+        amrwbbe_payload="114"
+        amrwboa_payload="113"
+        h264_qvga_payload="118"
+        h264_vga_payload="116"
+        dtmf_nb_payload="101"
+        dtmf_wb_payload="105"
+        display_format="qvga-port"
+        video_port_start="49152"
+        framerate="15"
+
+        publish_expiry="21600"
+        anonymous_fetch="1"
+        subscription_expiry="120"
+        subscribe_max_entry="150"
+        sip_mobility="1"
+        enable_cstty="1"
+        reregi_on_ratchange="on">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,im,ft,euc"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip,presence,im,ft,euc"/>
+    </profile>
+
+    <profile
+        name="T-Mobile Jansky LTE/WiFi"
+        mccmnc="310260,310210,310800,00101:TMB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="1"
+        support_ipsec="true"
+        need_autoconfig="true"
+        useragent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        emergency_support="false"
+        ringing_timer="110"
+        ringback_timer="120"
+        invite_timeout="120"
+
+        conference_uri="sip:8881112663@msg.pc.t-mobile.com"
+        conference_subscribe="1"
+        conference_dialog_type="1"
+
+        video_capabilities="1"
+        rtp_timeout="30"
+        rtcp_timeout="30"
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        audio_rs="600"
+        audio_rr="2400"
+        amrnbbe_payload="102"
+        amrnboa_payload="115"
+        amrwbbe_payload="114"
+        amrwboa_payload="113"
+        audio_codec="EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF"
+        h264_qvga_payload="118"
+        h264_vga_payload="116"
+        dtmf_nb_payload="101"
+        dtmf_wb_payload="105"
+        display_format="qvga-port"
+        video_port_start="49152"
+        framerate="15"
+
+        enable_evs_codec="1"
+        evs_channel_aware_receive="2"
+        evs_bit_rate_send="5.9-13.2"
+        evs_bit_rate_receive="5.9-13.2"
+        evs_default_bitrate="13.2"
+        evs_payload="127"
+        evs_bandwidth_send="nb-wb"
+        evs_bandwidth_receive="nb-wb"
+        evs_default_bandwidth="nb-wb"
+
+        publish_expiry="21600"
+        anonymous_fetch="1"
+        subscription_expiry="120"
+        sip_mobility="1"
+        enable_cstty="1"
+        reregi_on_ratchange="on">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,im,ft,slm,euc,cms"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip,presence,im,ft,slm,euc,cms"/>
+    </profile>
+
+    <profile
+        name="T-Mobile Jansky 3G"
+        mccmnc="310260,310210,310800,00101:TMB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="internet"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        support_ipsec="true"
+        need_autoconfig="true"
+        useragent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="false"
+        publish_expiry="21600"
+        anonymous_fetch="1"
+        subscription_expiry="120"
+        sip_mobility="1"
+        enable_cstty="1"
+        reregi_on_ratchange="on_service_change">
+        <network type="edge" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="gsm" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="gprs" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="umts" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hspa" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hspa+" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hsdpa" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hsupa" services="cdpn,presence,im,ft,slm,euc"/>
+    </profile>
+
+    <profile
+        name="T-Mobile E911"
+        mccmnc="310260,310210,310800,00101:TMB,nosim:TMB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        support_ipsec="true"
+        enable_gruu="0"
+        useragent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]"
+        enable_cstty="1"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        audio_codec="EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF"
+        enable_evs_codec="1"
+        evs_channel_aware_receive="2"
+        evs_bit_rate_send="5.9-13.2"
+        evs_bit_rate_receive="5.9-13.2"
+        evs_default_bitrate="13.2"
+        evs_payload="127"
+        evs_bandwidth_send="nb-wb"
+        evs_bandwidth_receive="nb-wb"
+        evs_default_bandwidth="nb-wb"
+        rtp_timeout="30"
+        rtcp_timeout="30"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="T-Mobile Jansky LTE/WiFi Lab"
+        mccmnc="310310,310300"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="1"
+        support_ipsec="true"
+        need_autoconfig="true"
+        useragent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        emergency_support="false"
+        ringing_timer="110"
+        ringback_timer="120"
+        invite_timeout="120"
+
+        conference_uri="sip:8881112663@msg.pc.t-mobile.com"
+        conference_subscribe="1"
+        conference_dialog_type="1"
+
+        video_capabilities="1"
+        rtp_timeout="30"
+        rtcp_timeout="30"
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        audio_rs="600"
+        audio_rr="2400"
+        amrnbbe_payload="102"
+        amrnboa_payload="115"
+        amrwbbe_payload="114"
+        amrwboa_payload="113"
+        audio_codec="EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF"
+        h264_qvga_payload="118"
+        h264_vga_payload="116"
+        dtmf_nb_payload="101"
+        dtmf_wb_payload="105"
+        display_format="qvga-port"
+        video_port_start="49152"
+        framerate="15"
+
+        enable_evs_codec="1"
+        evs_channel_aware_receive="2"
+        evs_bit_rate_send="5.9-13.2"
+        evs_bit_rate_receive="5.9-13.2"
+        evs_default_bitrate="13.2"
+        evs_payload="127"
+        evs_bandwidth_send="nb-wb"
+        evs_bandwidth_receive="nb-wb"
+        evs_default_bandwidth="nb-wb"
+
+        publish_expiry="21600"
+        anonymous_fetch="1"
+        subscription_expiry="120"
+        sip_mobility="1"
+        enable_cstty="1"
+        reregi_on_ratchange="on">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,im,ft,slm,euc,cms"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip,presence,im,ft,slm,euc,cms"/>
+    </profile>
+
+    <profile
+        name="T-Mobile Jansky 3G Lab"
+        mccmnc="310310,310300"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="internet"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        support_ipsec="true"
+        need_autoconfig="true"
+        useragent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="false"
+        publish_expiry="21600"
+        anonymous_fetch="1"
+        subscription_expiry="120"
+        sip_mobility="1"
+        enable_cstty="1"
+        reregi_on_ratchange="on_service_change">
+        <network type="edge" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="gsm" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="umts" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hspa" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hspa+" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hsdpa" services="cdpn,presence,im,ft,slm,euc"/>
+        <network type="hsupa" services="cdpn,presence,im,ft,slm,euc"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="T-Mobile VoLTE/RCS Lab"
+        mccmnc="310310"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        support_ipsec="true"
+        need_autoconfig="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="false"
+        anonymous_fetch="1"
+        subscribe_max_entry="150"
+        enable_cstty="1"
+        reregi_on_ratchange="on">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,im,ft,slm,euc"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip,presence,im,ft,slm,euc"/>
+    </profile>
+
+    <profile
+        name="T-Mobile E911 Lab"
+        mccmnc="310310,310300"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        evs_channel_aware_receive="2"
+        evs_bit_rate_send="5.9-13.2"
+        evs_bit_rate_receive="5.9-13.2"
+        evs_default_bitrate="13.2"
+        evs_payload="127"
+        evs_bandwidth_send="nb-wb"
+        evs_bandwidth_receive="nb-wb"
+        evs_default_bandwidth="nb-wb"
+        support_ipsec="true"
+        enable_gruu="0"
+        enable_cstty="1"
+        rtp_timeout="30"
+        rtcp_timeout="30"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <!-- Softphone Communication Client Requirement(10-10)
+    * reg_expires : The SCC must include a registration interval of 6 hours in the Expires header
+    *  -->
+    <profile
+        enabled="manual"
+        name="AT&amp;T Softphone"
+        mccmnc="310999"
+        session_expires="2280"
+        reg_expires="21600"
+        audio_srtp="1"
+        video_avpf="1"
+        video_srtp="1"
+        port="5061"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="default"
+        timer="1:500,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="tls"
+        priority="1"
+        mdmn_type="Softphone"
+        need_autoconfig="true"
+        sip_mobility="2"
+        support_ipsec="false"
+        enable_cstty="1"
+        support_roaming="true"
+        display_format="qvga-port"
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        framerate="15"
+        conference_uri="sip:n-way_voice@one.att.net"
+        pulling_server_uri="sip:pull-VoLTE-active@one.att.net">
+        <network type="lte" services="mmtel,mmtel-video,presence"/>
+        <network type="wifi" services="mmtel,mmtel-video,presence"/>
+        <network type="umts" services="mmtel,mmtel-video,presence"/>
+        <network type="edge" services="mmtel,mmtel-video,presence"/>
+        <network type="gsm" services="mmtel,mmtel-video,presence"/>
+        <network type="hspa" services="mmtel,mmtel-video,presence"/>
+        <network type="hspa+" services="mmtel,mmtel-video,presence"/>
+        <network type="hsdpa" services="mmtel,mmtel-video,presence"/>
+        <network type="hsupa" services="mmtel,mmtel-video,presence"/>
+    </profile>
+
+    <profile
+        name="AT&amp;T VoLTE"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,00101:ATT,25851:ATT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        mss_size="1230"
+        priority="1"
+        support_ipsec="true"
+        enable_gruu="0"
+        bad_event_expiry="259200"
+        conference_uri="sip:n-way_voice@one.att.net"
+        subscribe_max_entry="150"
+        need_autoconfig="true"
+        enable_cstty="1"
+
+        session_expires="0"
+        min_se="90"
+        reg_expires="600000"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        ringing_timer="45"
+        ringback_timer="180"
+
+        display_format="qvga-port"
+        framerate="15"
+        rtp_timeout="20"
+        rtcp_timeout="20"
+        audio_port_start="50000"
+        audio_port_end="0"
+        video_port_start="7012"
+        video_port_end="0"
+        amr_bundle_rate="12"
+        video_capabilities="1"
+        video_codec="H264"
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        audio_rs="600"
+        audio_rr="2400"
+        amrnbbe_payload="97"
+        amrnboa_payload="115"
+        amrwbbe_payload="116"
+        amrwboa_payload="107"
+        h264_qvga_payload="120"
+        h264_vga_payload="118"
+        dtmf_nb_payload="110"
+        dtmf_wb_payload="111"
+        packetization_mode="1"
+
+        expire_header="0"
+        publish_expiry="21600"
+        cap_poll_interval="0"
+        src_throttle_publish="30"
+        subscription_expiry="60"
+        reg_retry_base_time="120"
+        support_roaming="true"
+        reg_retry_max_time="7200">
+        <network type="wifi" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="lte" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="umts" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="edge" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="gsm" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="hspa" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="hspa+" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="hsdpa" services="mmtel,smsip,mmtel-video,presence"/>
+        <network type="hsupa" services="mmtel,smsip,mmtel-video,presence"/>
+    </profile>
+
+    <profile
+        name="AT&amp;T E911"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,00101:ATT,25851:ATT"
+        pdn="emergency"
+        ipver="ipv6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        transport="udp-preferred"
+        mss_size="1230"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        session_expires="0"
+        min_se="90"
+        support_ipsec="true"
+        enable_gruu="0"
+        enable_cstty="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Sprint IMS"
+        mccmnc="310000,310120,311490,311870,312530,00101:SPR:BST:VMU:XAS,45001:SPR:BST:VMU:XAS,45005:SPR:BST:VMU:XAS,nosim:SPR:BST:VMU:XAS"
+        sales_code="SPR,BST,VMU,XAS"
+        port="5060"
+        impi="MDM@vowifi2.ims.spcssticdns.net"
+        impu="sip:MDM@vowifi2.ims.spcssticdns.net"
+        domain="vowifi2.ims.spcssticdns.net"
+        conference_uri="sip:conf@vowifi2.ims.spcsdns.net"
+        audio_codec="AMRBE-WB,AMR-WB,AMRBE,AMR,PCMU,PCMA,DTMFWB,DTMF"
+        amrnbbe_payload="102"
+        amrnboa_payload="108"
+        amrwbbe_payload="104"
+        amrwboa_payload="110"
+        dtmf_nb_payload="101"
+        dtmf_wb_payload="105"
+        pcscf="10.77.153.28"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv2-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="0"
+        conference_dialog_type="1"
+        support_ipsec="false"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="false"
+        enable_cp_audio_path="0"
+        enable_mwi="1">
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="VZW VoLTE"
+        mccmnc="311480,311270,310028,311390,20404:VZW,00101:VZW,001010:VZW,00101f:VZW"
+        port="5060"
+        password="12345678"
+        pcscf_pref="0"
+        domain="vzims.com"
+        ipver="ipv6"
+        regi_algo="AKAv2-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:3000,2:16000,4:17000,A:3000,B:44000,C:72000,D:32000,E:3000,F:30000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        mss_size="1228"
+        remote_uri_type="tel"
+        enable_cstty="0"
+
+        session_expires="300"
+        min_se="300"
+        use_precondition="0"
+        ringback_timer="60"
+        ringing_timer="55"
+        invite_timeout="60"
+        video_capabilities="1"
+        audio_as="30"
+        audio_rs="375"
+        audio_rr="1125"
+        video_as="384"
+        video_rs="4800"
+        video_rr="14400"
+        audio_port_start="49158"
+        video_port_start="50158"
+        text_port="51158"
+        display_format="qvga-port"
+        framerate="15"
+        rtp_timeout="10"
+        rtcp_timeout="10"
+        amrwb_mode="2"
+        amrnb_mode="7"
+        dtmf_mode="5"
+        amr_bundle_rate="12"
+        video_codec="H264"
+        amrnbbe_payload="102"
+        amrnboa_payload="108"
+        amrwbbe_payload="104"
+        amrwboa_payload="110"
+        h264_qvga_payload="118"
+        h264_vga_payload="116"
+        dtmf_nb_payload="100"
+        dtmf_wb_payload="105"
+        packetization_mode="1"
+                audio_rtcpxr="0"
+        video_rtcpxr="0"
+
+        priority="1"
+        anonymous_fetch="1"
+        enable_gzip="1"
+        conference_uri="sip:confserver@vzims.com"
+        conference_subscribe="1"
+        useragent="Samsung---[PRODUCT_MODEL]---[BUILD_VERSION]"
+        cap_poll_interval="625000"
+        subscribe_max_entry="150"
+        reregi_on_ratchange="on_service_change"
+        need_autoconfig="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence"/>
+        <network type="ehrpd" services="smsip,presence" dereg_timeout="4000"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip,presence"/>
+    </profile>
+
+    <profile
+        name="VzW E911"
+        mccmnc="311480,311270,310028,311390,20404:VZW,00101:VZW,001010:VZW,00101f:VZW"
+        pdn="emergency"
+        ipver="ipv6"
+        password="12345678"
+        pcscf_pref="0"
+        port="5060"
+        domain="vzims.com"
+        regi_algo="AKAv2-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        timer="1:3000,2:16000,4:17000,A:3000,B:44000,C:72000,D:32000,E:3000,F:30000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        transport="udp-preferred"
+        remote_uri_type="tel"
+        mss_size="1228"
+        enable_cstty="0"
+
+        session_expires="300"
+        min_se="300"
+        use_precondition="0"
+        ringback_timer="60"
+        ringing_timer="55"
+        invite_timeout="60"
+        video_capabilities="1"
+        audio_as="30"
+        audio_rs="375"
+        audio_rr="1125"
+        audio_port_start="49158"
+        text_port="51158"
+        rtp_timeout="10"
+        rtcp_timeout="10"
+        amrwb_mode="2"
+        amrnb_mode="7"
+        dtmf_mode="5"
+        amr_bundle_rate="12"
+        amrnbbe_payload="102"
+        amrnboa_payload="108"
+        amrwbbe_payload="104"
+        amrwboa_payload="110"
+        dtmf_nb_payload="100"
+        dtmf_wb_payload="105"
+        packetization_mode="1"
+        enable_gruu="0"
+        useragent="Samsung---[PRODUCT_MODEL]---[BUILD_VERSION]">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed VoLTE/RCS"
+        mccmnc="testbed"
+        sales_code="test"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        impi=""
+        impu=""
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        support_ipsec="true">
+        <network type="lte" services="smsip"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed WiFi RCS"
+        mccmnc="testbed"
+        impi=""
+        impu=""
+        pdn="wifi"
+        priority="1">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed E911"
+        mccmnc="testbed"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="emergency"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        emergency_support="true"
+        enable_gruu="0"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="USCC VoLTE/RCS"
+        mccmnc="311580:USC,311225:USC,311390:USC,00101:USC"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        enable_cstty="1"
+        enable_mwi="1"
+
+        conference_uri="sip:conference@conference.ims.groupb.uscellular.com"
+        conference_subscribe="0"
+
+        cap_poll_interval="625000"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        publish_timer="21600">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence"/>
+        <network type="ehrpd" services="mmtel,smsip"/>
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="USCC E911"
+        mccmnc="311580:USC,311225:USC,311390:USC,00101:USC"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        enable_gruu="0"
+        enable_cstty="1"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Singapore:Open/XSP for SIN
+    * IMS: VoLTE
+    * Internet: non (Use CS on Open(XSP)) -->
+    <profile
+        name="SIN-Open(XSP) VoLTE for SIN"
+        mccmnc="52501,52502,00101:XSP"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+        <network type="umts" services="mmtel"/>
+        <network type="edge" services="mmtel"/>
+        <network type="gprs" services="mmtel"/>
+        <network type="gsm" services="mmtel"/>
+        <network type="hspa" services="mmtel"/>
+        <network type="hspa+" services="mmtel"/>
+        <network type="hsdpa" services="mmtel"/>
+        <network type="hsupa" services="mmtel"/>
+    </profile>
+
+    <!-- Singapore:Open/XSP for STH
+    * IMS: VoLTE
+    * Internet: non (Use CS on Open(XSP)) -->
+    <profile
+        name="SIN-Open(XSP) VoLTE for STH"
+        mccmnc="52505"
+        pcscf="10.254.44.36"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+<!-- Singapre:Open/XSP for MM1
+   * IMS: VoLTE
+   * Internet: SS  -->
+   <profile
+        enabled="on"
+        name="SIN-Open (XSP) VoLTE for MM1"
+        mccmnc="52503"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+       <network type="lte" services="mmtel"/>
+    </profile>
+
+<!-- Singapore:SingTel/SIN
+    * IMS: VoLTE
+    * Internet: SS -->
+    <profile
+        name="Singtel VoLTE"
+        mccmnc="52596,52598,52599,52801,52501,52502,00101:SININ"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+       <network type="lte" services="mmtel"/>
+       <network type="umts" services="mmtel"/>
+       <network type="edge" services="mmtel"/>
+       <network type="gprs" services="mmtel"/>
+       <network type="gsm" services="mmtel"/>
+       <network type="hspa" services="mmtel"/>
+       <network type="hspa+" services="mmtel"/>
+       <network type="hsdpa" services="mmtel"/>
+       <network type="hsupa" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Singtel RCS Internet"
+        mccmnc="52501,52502,nosim:SIN"
+        port="5061"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="internet"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="false"
+        need_autoconfig="true">
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="edge" services="im,ft,is,vs,options,euc"/>
+        <network type="gprs" services="im,ft,is,vs,options,euc"/>
+        <network type="gsm" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="Singtel RCS Wifi"
+        mccmnc="52501,52502,nosim:SIN"
+        port="5061"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="wifi"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="false"
+        need_autoconfig="true">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <!-- Singapore:StarHub/STH
+    * IMS: VoLTE
+    * Internet: non (Use CS on StarHub)
+    -->
+    <profile
+        name="StarHub VoLTE"
+        mccmnc="52505,00101:STH"
+        pcscf="10.254.44.36"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+<!-- Singapore:Mobile1/MM1
+    * IMS: VoLTE
+    * Internet: SS   -->
+    <profile
+        enabled="on"
+        name="M1 VoLTE"
+        mccmnc="52503,00101:MM1"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Telefonica VoLTE"
+        mccmnc="26207,26208,00101:VIA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="6000"
+        secure_server_port="5000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Telefonica VoLTE Internet"
+        mccmnc="26207,26208,00101:VIA"
+        port="5060"
+        pcscf_pref="3"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="internet"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="tcp"
+        mss_size="1300"
+        priority="1"
+        secure_client_port="6000"
+        secure_server_port="5000"
+        need_autoconfig="true">
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="edge" services="im,ft,is,options,euc"/>
+        <network type="gprs" services="im,ft,is,options,euc"/>
+        <network type="gsm" services="im,ft,is,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="Telefonica RCS wifi"
+        mccmnc="26207,26208,00101:VIA"
+        port="5060"
+        pcscf_pref="3"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="wifi"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="tcp"
+        mss_size="1300"
+        priority="1"
+        secure_client_port="6000"
+        secure_server_port="5000"
+        need_autoconfig="true">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="TLS VoLTE"
+        mccmnc="302220,302221,00101:TLS:TLA"
+        authname="111.ims.mnc221.mcc302.3gppnetwork.org"
+        password="12345678"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:8000,C:180000,D:32000,E:2000,F:16000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        conference_uri="sip:factory@conference.ims.mncXXX.mccXXX.3gppnetwork.org"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        self_port="5062"
+        audio_codec="AMR-WB,AMR,DTMFWB,DTMF"
+        display_format="qvga-port"
+        framerate="15"
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        audio_rs="600"
+        audio_rr="2400"
+        amrwb_mode="8"
+        rtcp_timeout="14"
+        rtp_timeout="14"
+        ringing_timer="90"
+        ringback_timer="90">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="umts" services="smsip"/>
+        <network type="hspa" services="smsip"/>
+        <network type="hspa+" services="smsip"/>
+        <network type="hsdpa" services="smsip"/>
+        <network type="hsupa" services="smsip"/>
+    </profile>
+
+    <profile
+        name="TLS E911"
+        mccmnc="302220,302221,00101:TLS:TLA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="emergency"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Imported date : 2015.10.23  -->
+    <profile
+        name="BMC VoLTE/RCS"
+        mccmnc="302610,302640,302780,00101:BMA:BMC:BMR:BMW:VMC"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="none"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        useragent="Samsung [SUPPORT] IMS [BUILD_VERSION]"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="false"
+        enable_gruu="0"
+        anonymous_fetch="1"
+
+        use_precondition="1"
+        session_expires="1800"
+        ringback_timer="50"
+        reg_expires="14400"
+        conference_uri="sip:conf@ims.bell.ca"
+        conference_subscribe="1"
+
+        publish_timer="3600"
+        publish_expiry="3600"
+        subscription_expiry="60"
+        src_throttle_publish="30"
+        subscribe_max_entry="10"
+        need_autoconfig="true"
+
+        audio_codec_mode="2"
+        amrwb_mode="0,1,2"
+
+        display_format="qvga-port"
+        audio_codec="AMR-WB,AMR,DTMFWB,DTMF"
+        video_codec="H264"
+        framerate="15"
+        video_as="440"
+        video_rs="5500"
+        video_rr="16500"
+        audio_as="38"
+        audio_rs="375"
+        audio_rr="1125"
+
+        enable_bwm="0"
+        emm="1">
+
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence"/>
+    </profile>
+
+    <profile
+        name="BMC E911"
+        mccmnc="302610,302640,302780,00101:BMA:BMC:BMR:BMW:VMC"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="none"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="false"
+        enable_gruu="0"
+        useragent="Samsung [SUPPORT] IMS [BUILD_VERSION]"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="VTR VoLTE"
+        mccmnc="302500,00101:VTA:VTR"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip,im,ft"/>
+    </profile>
+
+    <profile
+        name="VTR Testbed VoLTE"
+        mccmnc="262800"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        need_autoconfig="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip,im,ft"/>
+    </profile>
+
+    <profile
+        name="VTR Testbed E911"
+        mccmnc="262800"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        transport="udp-preferred"
+        mss_size="1230"
+        use_precondition="1"
+        precondtion_initial_sendrecv="1"
+        session_expires="0"
+        min_se="90"
+        support_ipsec="true"
+        enable_gruu="0"
+        enable_cstty="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Imported date : 2015.10.23  -->
+    <profile
+        name="RWC VoLTE"
+        mccmnc="30272,302720,302370,00101:RWA:RWC:FMC:RWW"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        enable_gruu="0"
+        use_precondition="1"
+        session_expires="1800"
+        ringback_timer="50"
+        reg_expires="14400"
+        conference_uri="sip:mmtel@conf-factory.ims.mnc720.mcc302.3gppnetwork.org"
+        conference_subscribe="1"
+        self_port="5062"
+
+        publish_timer="3600"
+        publish_expiry="3600"
+        subscription_expiry="60"
+        src_throttle_publish="30"
+        subscribe_max_entry="10"
+        need_autoconfig="true"
+
+        display_format="qvga-port"
+        framerate="15"
+        video_as="512"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        audio_rs="600"
+        audio_rr="2400"
+        rtcp_timeout="86400"
+        enable_bwm="0"
+        reregi_on_ratchange="on_service_change">
+
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip"/>
+        <network type="edge" services="smsip"/>
+        <network type="umts" services="smsip"/>
+        <network type="gprs" services="smsip"/>
+        <network type="gsm" services="smsip"/>
+        <network type="hspa" services="smsip"/>
+        <network type="hspa+" services="smsip"/>
+        <network type="hsdpa" services="smsip"/>
+        <network type="hsupa" services="smsip"/>
+    </profile>
+
+    <!-- Sweden:Tele2/NEE
+    * IMS: VoLTE/VT
+    * IMS: SS -->
+    <profile
+        name="Tele2 VoLTE"
+        mccmnc="24007[000-600,700-999],00101:NEE"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Netherland:Tele2/PHN
+    * IMS: VoLTE/VT/VoWIFI
+    * IMS: SS -->
+    <profile
+        name="Tele2 VoLTE"
+        mccmnc="20402[700,750,800,850,900-906],24007[608,602-603,610-611,613-618],00101:PHN"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- Germany:DTR/DTM
+    * DTR: Open TMobile Germany IOT profile
+    * DTM: Open TMobile Germany profile -->
+
+    <profile
+        name="Open TMobile Germany IMS"
+        mccmnc="26201"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,smsip"/>
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="Open TMobile Germany Internet"
+        mccmnc="26201"
+        port="5060"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        pdn="default"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="false"
+        need_autoconfig="true"
+        support_roaming="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="edge" services="im,ft,options,euc"/>
+        <network type="gprs" services="im,ft,options,euc"/>
+        <network type="gsm" services="im,ft,options,euc"/>
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="Open TMobile Germany Emergency"
+        mccmnc="26201"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        emergency_support="true"
+        transport="udp-preferred"
+        priority="0"
+         mss_size="1300"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Czech:DCZ/TMZ
+    * DCZ: Open TMobile Germany IOT profile
+    * TMZ: Open TMobile Germany profile -->
+
+    <profile
+        name="Open TMobile Czech IMS"
+        mccmnc="23001,00101:TMZ"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel"/>
+     </profile>
+
+    <profile
+        name="Open TMobile Czech Emergency"
+        mccmnc="23001,00101:TMZ,00101:DCZ"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        emergency_support="true"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Open TMobile Czech IMS/VoWifi IOT"
+        mccmnc="23001,00101:DCZ"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>
+     </profile>
+
+    <profile
+        name="SWISS Swisscom IMS PDN"
+        mccmnc="22801,00101:SWC"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="null"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="Ericsson NVIODT IMS"
+        mccmnc="26280"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:128000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Ericsson NVIODT Wifi"
+        mccmnc="26280"
+        port="5060"
+        pcscf_pref="2"
+        pcscf="192.168.1.2"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="wifi"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="false"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000">
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Ericsson NVIODT Emergency"
+        mccmnc="26280"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        emergency_support="true"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="ORANGE VoLTE"
+        mccmnc="20801,34001,64700"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="ORANGE VoLTE Internet"
+        mccmnc="20801,34001,64700"
+        port="5060"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="default"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_roaming="true"
+        need_autoconfig="true">
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="edge" services="im,options,euc"/>
+        <network type="gprs" services="im,options,euc"/>
+        <network type="gsm" services="im,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="Orange E911"
+        mccmnc="20801,34001,64700"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        transport="udp-preferred"
+        mss_size="1300"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Vodafone E911"
+        mccmnc="00101:VDF"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        transport="udp-preferred"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="AIS VOLTE"
+        mccmnc="52003,nosim:THL"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="DTAC VoLTE"
+        mccmnc="52005,nosim:THL"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="TRUEMOVE VoLTE"
+        mccmnc="52004,52000,nosim:THL"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- Vodafone/IT
+    * IMS: VoLTE / SMS
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="VODAFONE VoLTE for OMN"
+        mccmnc="22210"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        enable_gruu="1"
+        use_precondition="1"
+        conference_uri="sip:40770@ims.mnc010.mcc222.3gppnetwork.org"
+        conference_subscribe="1"
+        conference_dialog_type="0"
+        support_ipsec="true">
+     <network type="lte" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="VODAFONE RCS for OMN Internet"
+        mccmnc="22210"
+        port="5060"
+        pcscf_pref="3"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="default"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        secure_client_port="6000"
+        secure_server_port="5000"
+        need_naptr_dns="true"
+        need_autoconfig="true">
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="edge" services="im,ft,options,euc"/>
+        <network type="gprs" services="im,options,euc"/>
+        <network type="gsm" services="im,ft,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <!-- Vodafone/UK
+    * IMS: VoLTE/
+    * INT: RCS, SS -
+    * EMR: - -->
+    <profile
+        name="VODAFONE IMS VoLTE for VOD"
+        mccmnc="23415"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        enable_gruu="1"
+        use_precondition="1"
+        conference_uri="sip:mmtel@conf-factory.ims.mnc015.mcc234.3gppnetwork.org"
+        conference_subscribe="1"
+        conference_dialog_type="0"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="VODAFONE RCS for VOD Internet"
+        mccmnc="23415,45001:VOD:VOP,45005:VOD:VOP,nosim:VOD:VOP"
+        port="5060"
+        pcscf_pref="3"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="default"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        secure_client_port="6000"
+        secure_server_port="5000"
+        need_naptr_dns="true"
+        need_autoconfig="true">
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="edge" services="im,ft,options,euc"/>
+        <network type="gprs" services="im,options,euc"/>
+        <network type="gsm" services="im,ft,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <!-- Vodafone/Spain
+    * IMS: VoLTE/
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="VODAFONE VoLTE for ATL"
+        mccmnc="21401,45001:ATL:ATX,45005:ATL:ATX,nosim:ATL:ATX"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1500"
+        priority="1"
+        enable_gruu="1"
+        use_precondition="1"
+        conference_uri="sip:mmtel@conf-factory.ims.mnc001.mcc214.3gppnetwork.org"
+        conference_subscribe="1"
+        conference_dialog_type="0"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Vodafone/Spain
+    * IMS: VoLTE/
+    * INT: SS
+    * EMR: - -->
+
+    <profile
+        name="VODAFONE RCS Internet for ATL"
+        mccmnc="21401,45001:ATL:ATX,45005:ATL:ATX,nosim:ATL:ATX"
+        port="5060"
+        pcscf_pref="3"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="default"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1500"
+        priority="1"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        need_naptr_dns="true"
+        need_autoconfig="true">
+        <network type="lte" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="edge" services="im,ft,options,euc"/>
+        <network type="gprs" services="im,options,euc"/>
+        <network type="gsm" services="im,ft,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+        <network type="hsupa" services="im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <!-- Telekom/Slovenia
+    * IMS: VoLTE / SMS
+    * INT: -
+    * EMR: - -->
+
+    <profile
+        name="TELEKOM VoLTE"
+        mccmnc="29341,45001:MOT,45005:MOT,nosim:MOT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="TELEKOM Wi-Fi VoLTE"
+        mccmnc="29341,45001:MOT,45005:MOT,nosim:MOT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="wifi"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+<!-- RJIL/Reliance - India
+    * IMS: VoLTE/ViLTE/SMS
+    * WIFI: VoLTE/ViLTE/SMS
+    * INT: SS  - -->
+    <profile
+        name="RJIL VoLTE"
+        mccmnc="405874,405840,405854,405855,405856,405857,405858,405859,405860,405861,405862,405863,405864,405865,405866,405867,405868,405869,405870,405871,405872,405873,40587,405780,40578,406977,406978,406981,406994,406999"
+        auth_algo="hmac-md5-96"
+        enc_algo="aes-cbc"
+        ipver="IPv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="1"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="tcp"
+        mss_size="1300"
+        need_autoconfig="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip,im,ft,is,vs,options,euc"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip"/>
+        <network type="edge" services="im,ft,is,vs,options,euc"/>
+        <network type="gprs" services="im,ft,is,vs,options,euc"/>
+        <network type="gsm" services="im,ft,is,vs,options,euc"/>
+        <network type="umts" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa" services="im,ft,is,vs,options,euc"/>
+        <network type="hspa+" services="im,ft,is,vs,options,euc"/>
+        <network type="hsdpa" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="RJIL WiFi"
+        mccmnc="405874,405840,405854,405855,405856,405857,405858,405859,405860,405861,405862,405863,405864,405865,405866,405867,405868,405869,405870,405871,405872,405873,40587,405780,40578,406977,406978,406981,406994,406999"
+        auth_algo="hmac-md5-96"
+        enc_algo="aes-cbc"
+        ipver="IPv6"
+        pcscf_pref="0"
+        pdn="wifi"
+        port="5060"
+        priority="1"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="tcp"
+        mss_size="1300">
+        <network type="wifi" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- Vodacom/South Africa
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="VODACOM VoLTE"
+        mccmnc="65501,45001:XFV,45005:XFV,nosim:XFV"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <!-- Ministry of Interior
+    * IMS: VoLTE/VT
+    * EMR: E911 -->
+
+    <profile
+        name="MOI Qatar VoLTE"
+        mccmnc="42706"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+    <profile
+        name="MOI Qatar E911"
+        mccmnc="42706"
+        pdn="emergency"
+        ipver="ipv4"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- VIVA Kuwait
+    * IMS: VoLTE/VT -->
+    <profile
+        name="VIVA Kuwait VoLTE"
+        mccmnc="41904,45001:XSG,45005:XSG,nosim:XSG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="false"
+        pdn="ims"
+        mss_size="10000"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+    <!-- TDC Denmark
+    * IMS: VoLTE/VT
+    * INT: SS -->
+    <profile
+        enabled="on"
+        name="TDC DK VoLTE"
+        mccmnc="23801:NEE,23810:NEE,nosim:NEE"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="aes-cbc"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Telenor Denmark
+    * IMS: VoLTE
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="Telenor DK VoLTE"
+        mccmnc="23802,23877"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        mss_size="1300"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Etisalat UAE
+    * IMS: VoLTE/VT -->
+    <profile
+        name="Etisalat VoLTE"
+        mccmnc="42402,45001:XSG,45005:XSG,nosim:XSG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        mss_size="10000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,sms"/>
+    </profile>
+
+    <!-- DU UAE
+    * IMS: VoLTE/VT
+    * INT: SS-->
+    <profile
+        name="DU VoLTE"
+        mccmnc="42403,45001:XSG,45005:XSG,nosim:XSG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- Zain Kuwait
+    * IMS: VoLTE/VT
+    * INT: SS  -->
+    <profile
+        name="Zain VoLTE"
+        mccmnc="41902,45001:XSG,45005:XSG,nosim:XSG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        mss_size="1500"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Ooredoo Kuwait
+    * IMS: VoLTE/VT
+    * INT: SS-->
+    <profile
+        name="Ooredoo Kuwait VoLTE"
+        mccmnc="41903,45001:XSG,45005:XSG,nosim:XSG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- A1 Austria
+    * IMS: VoLTE/VoWIFI -->
+    <profile
+        name="A1 Austria VoLTE"
+        mccmnc="23201,45001:MOB,45005:MOB,nosim:MOB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="all"
+        support_ipsec="true"
+        pdn="ims"
+        mss_size="10000"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,smsip"/>
+        <network type="wifi" services="mmtel,smsip"/>
+   </profile>
+    <!-- MEA STC
+    * IMS: VoLTE/VT -->
+    <profile
+        name="MEA STC VoLTE"
+        mccmnc="42001:KSA,45001:KSA,45005:KSA,nosim:KSA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- MEA MOBILY
+    * IMS: VoLTE/VT
+    * INT: SS -->
+    <profile
+        name="MEA MOBILY VoLTE"
+        mccmnc="42003:KSA,45001:KSA,45005:KSA,nosim:KSA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="true"
+        pdn="ims"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Tanzania SMILE VoLTE"
+        mccmnc="64011"
+        port="4060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="false"
+        pdn="ims"
+        transport="tcp"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Uganda SMILE VoLTE"
+        mccmnc="64133"
+        port="4060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="false"
+        pdn="ims"
+        transport="tcp"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Nigeria SMILE VoLTE"
+        mccmnc="62127"
+        port="4060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        support_ipsec="false"
+        pdn="ims"
+        transport="tcp"
+        priority="1"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- NOS/Portugal
+    * IMS: VoLTE / ViLTE
+    * INT: SS
+    * Wifi: Wifi Calling
+    * EMR: Support -->
+
+    <profile
+        name="NOS VoLTE"
+        mccmnc="26803,26899,45001:OPT,45005:OPT,nosim:OPT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="NOS Wi-Fi VoLTE"
+        mccmnc="26803,26899,45001:OPT,45005:OPT,nosim:OPT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="wifi"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="NOS E911"
+        mccmnc="26803,26899,45001:OPT,45005:OPT,nosim:OPT"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        transport="udp-preferred"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="SMARTONE Mobile VoLTE"
+        mccmnc="45406"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="umts" services="smsip"/>
+        <network type="edge" services="smsip"/>
+        <network type="gprs" services="smsip"/>
+        <network type="gsm" services="smsip"/>
+        <network type="hspa" services="smsip"/>
+        <network type="hspa+" services="smsip"/>
+        <network type="hsdpa" services="smsip"/>
+        <network type="hsupa" services="smsip"/>
+    </profile>
+
+    <profile
+        name="FET Mobile VoLTE"
+        mccmnc="46601,45001:BRI,nosim:BRI"
+        auth_algo="both"
+        enc_algo="all"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="both"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="umts" services="smsip"/>
+        <network type="edge" services="smsip"/>
+        <network type="gprs" services="smsip"/>
+        <network type="gsm" services="smsip"/>
+        <network type="hspa" services="smsip"/>
+        <network type="hspa+" services="smsip"/>
+        <network type="hsdpa" services="smsip"/>
+        <network type="hsupa" services="smsip"/>
+    </profile>
+
+    <profile
+        name="APT Mobile VoLTE"
+        mccmnc="46605"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="both"
+        support_ipsec="false">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+    <profile
+        name="TWM Mobile VoLTE"
+        mccmnc="46697"
+        auth_algo="both"
+        enc_algo="none"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="both"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+    <profile
+        name="TSTAR Mobile VoLTE"
+        mccmnc="46689"
+        auth_algo="both"
+        enc_algo="all"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="both"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Dcm VoLTE"
+        mccmnc="44010,00101:DCM,45001:DCM,45005:DCM,nosim:DCM"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:10000,C:180000,D:128000,E:2000,F:30000,G:2000,H:128000,I:17000,J:30000,K:17000"
+        transport="udp-preferred"
+        mss_size="10000"
+        priority="1"
+        support_ipsec="true"
+        support_roaming="true"
+        secure_client_port="6000"
+        secure_server_port="5000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Kddi VoLTE"
+        mccmnc="44050,44051,00101:KDI,45001:KDI,45005:KDI,nosim:KDI"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:3000,2:16000,4:17000,A:3000,B:10000,C:180000,D:128000,E:3000,F:30000,G:3000,H:30000,I:17000,J:30000,K:17000"
+        transport="udp-preferred"
+        mss_size="10000"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="6000"
+        secure_server_port="5000">
+        <network type="lte" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="Softbank VoLTE"
+        mccmnc="44020,00101:SBM,45001:SBM,45005:SBM,nosim:SBM"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="6000"
+        secure_server_port="5000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Softbank ECALL"
+        mccmnc="44020,44120,00101:SBM,45001:SBM,45005:SBM,nosim:SBM"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="none"
+        pdn="emergency"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="6000"
+        secure_server_port="5000"
+    emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="SKT VoLTE"
+        mccmnc="45005,45003,00101:SKT,45001:SKT,nosim:SKT"
+        pdn="ims"
+        priority="1"
+        authname="sip:registrar.sktims.net"
+        password="12345678"
+        pcscf="220.103.220.10:5060,[2001:2d8:00e0:0220::10]:5060"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        session_expires="180"
+        session_refresher="uac"
+        ringback_timer="180"
+        ringing_timer="90"
+        invite_timeout="90"
+        support_ipsec="false"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="aes-cbc"
+        emergency_support="false"
+        domain="sktims.net"
+        useragent="TTA-VoLTE/2.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone SKT"
+        remote_uri_type="tel"
+        conference_uri="sip:conference-factory@sktims.net"
+        enable_gruu="0"
+        framerate="15"
+        video_rs="0"
+        video_rr="2500"
+        audio_rs="0"
+        audio_rr="2500"
+        amrwboa_payload="97"
+        amrwbbe_payload="98"
+        amrnboa_payload="100"
+        amrnbbe_payload="101"
+        h264_vga_payload="103"
+        h264_vgal_payload="121"
+        h264_qvga_payload="104"
+        h264_qvgal_payload="116"
+        h263_qcif_payload="34"
+        maxptime="120"
+        need_omadm_config="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="umts" services="mmtel-video"/>
+        <network type="edge" services="mmtel-video"/>
+        <network type="gprs" services="mmtel-video"/>
+        <network type="gsm" services="mmtel-video"/>
+        <network type="hspa" services="mmtel-video"/>
+        <network type="hspa+" services="mmtel-video"/>
+        <network type="hsdpa" services="mmtel-video"/>
+        <network type="hsupa" services="mmtel-video"/>
+    </profile>
+
+    <profile
+        name="SKT E911"
+        mccmnc="45005,45003,00101:SKT,45001:SKT,nosim:SKT"
+        pdn="emergency"
+        priority="1"
+        authname="sip:registrar.sktims.net"
+        password="12345678"
+        pcscf="220.103.220.10:5060,[2001:2d8:00e0:0220::10]:5060"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        support_ipsec="false"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="aes-cbc"
+        emergency_support="true"
+        domain="sktims.net"
+        useragent="TTA-VoLTE/2.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone SKT"
+        remote_uri_type="tel"
+        enable_gruu="0"
+        video_rs="0"
+        video_rr="2500"
+        audio_rs="0"
+        audio_rr="2500"
+        need_omadm_config="false">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="umts" services="mmtel-video"/>
+        <network type="edge" services="mmtel-video"/>
+        <network type="gprs" services="mmtel-video"/>
+        <network type="gsm" services="mmtel-video"/>
+        <network type="hspa" services="mmtel-video"/>
+        <network type="hspa+" services="mmtel-video"/>
+        <network type="hsdpa" services="mmtel-video"/>
+        <network type="hsupa" services="mmtel-video"/>
+    </profile>
+
+    <profile
+        name="KT VoLTE"
+        mccmnc="45008,00101:KTT,45001:KTT,nosim:KTT"
+        pdn="ims"
+        priority="1"
+        authname="111@ims.mnc008.mcc450.3gppnetwork.org"
+        password="12345678"
+        pcscf="volte.imskt.com"
+        pcscf_pref="0"
+        port="5080"
+        transport="udp"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        session_expires="360"
+        session_refresher="uac"
+        ringback_timer="180"
+        ringing_timer="180"
+        invite_timeout="180"
+        support_ipsec="false"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="aes-cbc"
+        emergency_support="false"
+        domain="ims.mnc008.mcc450.3gppnetwork.org"
+        useragent="TTA-VoLTE/2.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone KT"
+        remote_uri_type="tel"
+        enable_gruu="0"
+        video_rs="0"
+        video_rr="2500"
+        audio_rs="0"
+        audio_rr="2500"
+        amrwboa_payload="97"
+        amrwbbe_payload="98"
+        amrnboa_payload="100"
+        amrnbbe_payload="101"
+        h264_vga_payload="103"
+        h264_vgal_payload="121"
+        h264_qvga_payload="104"
+        h264_qvgal_payload="116"
+        h263_qcif_payload="34"
+        framerate="15"
+        maxptime="120"
+        need_omadm_config="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="umts" services="mmtel-video"/>
+        <network type="edge" services="mmtel-video"/>
+        <network type="gprs" services="mmtel-video"/>
+        <network type="gsm" services="mmtel-video"/>
+        <network type="hspa" services="mmtel-video"/>
+        <network type="hspa+" services="mmtel-video"/>
+        <network type="hsdpa" services="mmtel-video"/>
+        <network type="hsupa" services="mmtel-video"/>
+    </profile>
+
+    <profile
+        name="KT E911"
+        mccmnc="45008,00101:KTT,45001:KTT,nosim:KTT"
+        pdn="emergency"
+        priority="1"
+        authname="111@ims.mnc008.mcc450.3gppnetwork.org"
+        password="12345678"
+        pcscf="volte.imskt.com"
+        pcscf_pref="0"
+        port="5080"
+        transport="udp"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        support_ipsec="false"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="aes-cbc"
+        emergency_support="true"
+        domain="ims.mnc008.mcc450.3gppnetwork.org"
+        useragent="TTA-VoLTE/2.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone KT"
+        remote_uri_type="tel"
+        enable_gruu="0"
+        video_rs="0"
+        video_rr="2500"
+        audio_rs="0"
+        audio_rr="2500"
+        amrwboa_payload="97"
+        amrwbbe_payload="98"
+        amrnboa_payload="100"
+        amrnbbe_payload="101"
+        framerate="15"
+        need_omadm_config="false">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="umts" services="mmtel-video"/>
+        <network type="edge" services="mmtel-video"/>
+        <network type="gprs" services="mmtel-video"/>
+        <network type="gsm" services="mmtel-video"/>
+        <network type="hspa" services="mmtel-video"/>
+        <network type="hspa+" services="mmtel-video"/>
+        <network type="hsdpa" services="mmtel-video"/>
+        <network type="hsupa" services="mmtel-video"/>
+    </profile>
+
+    <profile
+        name="LGU VoLTE"
+        mccmnc="45006,00101:LGT,45001:LGT,nosim:LGT"
+        pdn="ims"
+        priority="1"
+        authname="sip:lte-lguplus.co.kr"
+        password="12345678"
+        pcscf="pcscf1.lteims.co.kr"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:8000,4:9000,A:2000,B:32000,C:120000,D:128000,E:2000,F:16000,G:2000,H:32000,I:9000,J:128000,K:9000"
+        session_expires="3600"
+        session_refresher="uac"
+        ringback_timer="120"
+        ringing_timer="120"
+        invite_timeout="60"
+        support_ipsec="false"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="aes-cbc"
+        emergency_support="false"
+        domain="lte-lguplus.co.kr"
+        useragent="TTA-VoLTE/2.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone LGU"
+        remote_uri_type="tel"
+        conference_uri="sip:conference-factory@lguplus.co.kr"
+        conference_subscribe="1"
+        conference_dialog_type="1"
+        enable_gruu="0"
+        framerate="15"
+        video_rs="0"
+        video_rr="2500"
+        audio_rs="0"
+        audio_rr="2500"
+        amrwboa_payload="97"
+        amrwbbe_payload="98"
+        amrnboa_payload="100"
+        amrnbbe_payload="101"
+        h264_vga_payload="103"
+        h264_vgal_payload="121"
+        h264_qvga_payload="104"
+        h264_qvgal_payload="116"
+        h263_qcif_payload="34"
+        maxptime="120"
+        need_omadm_config="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="LGU E911"
+        mccmnc="45006,00101:LGT,45001:LGT,nosim:LGT"
+        pdn="emergency"
+        priority="1"
+        authname="sip:lte-lguplus.co.kr"
+        password="12345678"
+        pcscf="pcscf1.lteims.co.kr"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:8000,4:9000,A:2000,B:32000,C:120000,D:128000,E:2000,F:16000,G:2000,H:32000,I:9000,J:128000,K:9000"
+        support_ipsec="false"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="aes-cbc"
+        emergency_support="true"
+        domain="lte-lguplus.co.kr"
+        useragent="TTA-VoLTE/2.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone LGU"
+        remote_uri_type="tel"
+        enable_gruu="0"
+        video_rs="0"
+        video_rr="2500"
+        audio_rs="0"
+        audio_rr="2500"
+        need_omadm_config="false">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- VIP/Serbia
+    * IMS: VoLTE / ViLTE / SMSIP
+    * INT: SS
+    * Wifi: Wifi Calling
+    * EMR: Support -->
+    <profile
+        name="VIP VoLTE"
+        mccmnc="22005,45001:SEE,45005:SEE,nosim:SEE"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="VIP Wi-Fi VoLTE"
+        mccmnc="22005,45001:SEE,45005:SEE,nosim:SEE"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="wifi"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="VIP E911"
+        mccmnc="22005,45001:SEE,45005:SEE,nosim:SEE"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        transport="udp-preferred"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+    <!-- MTS /Russia
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="MTS VoLTE"
+        mccmnc="25001,45001:SER,45005:SER,nosim:SER"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Beeline /Russia
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="Beeline VoLTE"
+        mccmnc="25099,45001:SER,45005:SER,nosim:SER"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Megafone /Russia
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="Megafone VoLTE"
+        mccmnc="25002,25050,45001:SER,45005:SER,nosim:SER"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Bouygues /France
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="BOG VoLTE"
+        mccmnc="20820,45001:BOG,45005:BOG,nosim:BOG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="umts" services="mmtel"/>
+        <network type="edge" services="mmtel"/>
+        <network type="gprs" services="mmtel"/>
+        <network type="gsm" services="mmtel"/>
+        <network type="hspa" services="mmtel"/>
+        <network type="hspa+" services="mmtel"/>
+        <network type="hsdpa" services="mmtel"/>
+        <network type="hsupa" services="mmtel"/>
+    </profile>
+
+    <!-- Orange/Switzerland
+    * IMS: Call, VoWIFI, SMSIP
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="ORANGE Switzerland IMS PDN Profile"
+        mccmnc="22803,45001:ORG,45005:ORG,nosim:ORG"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,smsip"/>
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+    <!-- Telenor/Norway
+    * IMS: VoWIFI, VoLTE
+    * INT: SS
+    * EMR: E911 -->
+    <profile
+        name="Telenor Norway"
+        mccmnc="24201,45001:TEN,45005:TEN,nosim:TEN"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+        <network type="lte" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="Telenor Norway E911"
+        mccmnc="24201,45001:TEN,45005:TEN,nosim:TEN"
+        pdn="emergency"
+        ipver="ipv6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        transport="udp-preferred"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Sonera Finland
+    * IMS: VoWIFI
+    * INT:
+    * EMR: - -->
+    <profile
+        name="FIN SONERA"
+        mccmnc="24491,24801"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Vodafone/Romania
+    * IMS: VoWIFI
+    * INT:
+    * EMR: - -->
+    <profile
+        name="VODA VoLTE"
+        mccmnc="22601,45001:CNX,45005:CNX,nosim:CNX"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- Vodafone/Portugal
+    * IMS: VoWIFI
+    * INT:
+    * EMR: - -->
+    <profile
+        name="VODA VoLTE"
+        mccmnc="26801,45001:TCL,45005:TCL,nosim:TCL"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:500,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- HUI /Italy
+    * IMS: VoLTE/ViLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="3IT VoLTE"
+        mccmnc="22299,45001:HUI,45005:HUI,nosim:HUI"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Altel/Kazakhstan
+    * IMS: VoWIFI
+    * INT:
+    * EMR: - -->
+    <profile
+        name="ALTEL VoLTE"
+        mccmnc="40107,45001:SKZ,45005:SKZ,nosim:SKZ"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="10000"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- PLS /Plus
+    * IMS: VoLTE/ViLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="Plus VoLTE"
+        mccmnc="26001,45001:PLS,45005:PLS,nosim:PLS"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- PRT /Play
+    * IMS: VoLTE/ViLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="Play VoLTE"
+        mccmnc="26006,26098,45001:PRT,45005:PRT,nosim:PRT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- O2/Czech
+    * IMS: VoLTE / ViLTE
+    * INT:
+    * Wifi: Wifi Calling
+    * EMR: - -->
+    <profile
+        name="O2 Czech IMS"
+        mccmnc="23002,45001:O2C,45005:O2C,nosim:O2C"
+        port="5060"
+        pcscf_pref="2"
+        pcscf="10.82.30.8"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        password="123456"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="false"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        domain="ims.mnc002.mcc230.3gppnetwork.org">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="O2 Czech Wi-Fi"
+        mccmnc="23002,45001:O2C,45005:O2C,nosim:O2C"
+        port="5060"
+        pcscf_pref="2"
+        ipver="ipv4"
+        regi_algo="MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="wifi"
+        password="123456"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="false"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        domain="ims.mnc002.mcc230.3gppnetwork.org">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Touch/Lebanon
+    * IMS: VoWIFI
+    * INT:
+    * EMR: - -->
+    <profile
+        name="TOUCH VoLTE"
+        mccmnc="41503,45001:MID,45005:MID,nosim:MID"
+        port="5060"
+        pcscf="volte.corp.mtclebanon.com.lb"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- HTS / Sweden
+    * IMS: VoLTE/ViLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="3SE VoLTE"
+        mccmnc="24002,45001:HTS,45005:HTS,nosim:HTS"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- HTD / Denmark
+    * IMS: VoLTE/ViLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="3DK VoLTE"
+        mccmnc="23806,45001:HTD,45005:HTD,nosim:HTD"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+    <!-- OPS /Aus
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="OPS VoLTE"
+        mccmnc="50502,45001:OPS,45005:OPS,nosim:OPS"
+        pdn="ims"
+        priority="0"
+        password="password"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp-preferred"
+        mss_size="1300"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        support_ipsec="true"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        emergency_support="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Vodafone/Turkey
+    * IMS: VoWIFI, VoLTE, ViLTE
+    * INT:
+    * EMR: - -->
+    <profile
+        name="Vodafone Turkey"
+        mccmnc="28602,45001:TUR,45005:TUR,nosim:TUR"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="wifi" services="mmtel,mmtel-video"/>
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- H3G / UK
+    * IMS: Call, SMS
+    * INT: SS
+    * EMR: E911 -->
+    <profile
+        name="H3G VoLTE"
+        mccmnc="23420,23594,00101:H3G,45001:H3G,45005:H3G,nosim:H3G"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="tcp"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,smsip"/>
+    </profile>
+
+    <profile
+        name="H3G VoLTE 911"
+        mccmnc="23420,23594,00101:H3G,45001:H3G,45005:H3G,nosim:H3G"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        emergency_support="true"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-sha-1-96"
+        enc_algo="none"
+        pdn="emergency"
+        timer="1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        enable_gruu="0"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+     <!-- Vodafone /France
+    * IMS: VoLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="Vodafone France VoLTE"
+        mccmnc="20810,20811,20844,45001:SFR,45005:SFR,nosim:SFR"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        conference_uri="sip:conference@sfr.net"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Proximus/Belgium
+    * IMS: VoLTE, ViLTE, SMSIP
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="Proximus VoLTE"
+        mccmnc="20601,45001:PRO,45005:PRO,nosim:PRO"
+        port="5060"
+        pcscf="10.91.244.12"
+        pcscf_pref="0"
+        ipver="ipv4"
+        password="volte"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="false"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <!-- VNZ /NZ
+    * IMS: VoLTE/ViLTE/VoWIFI
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="VNZ VoLTE"
+        mccmnc="53001,45001:VNZ,45005:VNZ,nosim:VNZ"
+        pdn="ims"
+        priority="1"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp-preferred"
+        ipver="ipv4"
+        password="12345678"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        support_ipsec="true"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        emergency_support="false"
+        domain="ims.mnc001.mcc530.3gppnetwork.org">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- VAU /Aus
+    * IMS: VoLTE
+    * INT: -
+    * EMR: - -->
+    <profile
+        name="VAU VoLTE"
+        mccmnc="50503,45001:VAU,45005:VAU,nosim:VAU"
+        pdn="ims"
+        priority="0"
+        pcscf_pref="0"
+        port="5060"
+        transport="udp-preferred"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        support_ipsec="true"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        emergency_support="true"
+        domain="ims.mnc003.mcc505.3gppnetwork.org">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- TEL /Aus
+    * IMS: VoLTE
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="TEL VoLTE"
+        mccmnc="50501,45001:TEL,45005:TEL,nosim:TEL"
+        pdn="ims"
+        priority="0"
+        pcscf_pref="0"
+        support_roaming="false"
+        port="5060"
+        transport="udp-preferred"
+        mss_size="1300"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        timer="1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        support_ipsec="true"
+        secure_server_port="6000"
+        secure_client_port="5000"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        emergency_support="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="wifi" services="mmtel,mmtel-video"/>
+        <network type="umts" services="mmtel,mmtel-video"/>
+        <network type="edge" services="mmtel,mmtel-video"/>
+        <network type="gprs" services="mmtel,mmtel-video"/>
+        <network type="gsm" services="mmtel,mmtel-video"/>
+        <network type="hspa" services="mmtel,mmtel-video"/>
+        <network type="hspa+" services="mmtel,mmtel-video"/>
+        <network type="hsdpa" services="mmtel,mmtel-video"/>
+        <network type="hsupa" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- MAX Telekom/Bulgaria
+    * IMS: VoLTE
+    * INT:
+    * EMR: - -->
+    <profile
+        name="Max Telekom VoLTE"
+        mccmnc="28413,45001:BGL,45005:BGL,nosim:BGL"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel"/>
+    </profile>
+    <!-- KPN / Netherland
+    * IMS: Call, Video call
+    * INT:  -
+    * EMR: - -->
+    <profile
+        name="KPN VoLTE"
+        mccmnc="20408"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="10000"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- VODAFONE-IRELAND
+    * IMS: VoLTE
+    * INT:
+    * EMR: - -->
+    <profile
+        name="Vodafone Ireland IMS VoLTE"
+        mccmnc="27201,45001:VDI,nosim:VDI"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        conference_uri="sip:teleconferenceuri-factory@vodafone.ie"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- MEO / Portugal
+    * IMS: VoLTE/VoWIFI
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="MEO PORTUGAL IMS VoLTE"
+        mccmnc="26806,45001:MEO,nosim:MEO"
+        port="5060"
+        pcscf="88,214,177,238"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <!-- TIM-Italy
+    * IMS: VoLTE, ViLTE
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="TIM Italy IMS"
+        mccmnc="22201,45001:TIM,45005:TIM,nosim:TIM"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        mss_size="1300"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <!-- Cambodia:SEATEL/CAM
+    * IMS: VoLTE  -->
+    <profile
+        name="Seatel VoLTE"
+        mccmnc="45611,45601,00101:CAM,nosim:CAM"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="Seatel Emergency"
+        mccmnc="45611,45601,00101:CAM,nosim:CAM"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        transport="udp-preferred"
+        support_ipsec="true"
+        enable_gruu="0"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        emergency_support="true">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <!-- Indonesia:Telkomsel
+    * IMS: VoWIFI
+    * INT:
+    * EMR: - -->
+    <profile
+        name="Telkomsel VoWIFI"
+        mccmnc="51010,nosim:XSE:XID"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true">
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+
+    <!-- EMT-Latvia
+    * IMS: VoLTE, ViLTE
+    * INT: SS
+    * EMR: - -->
+    <profile
+        name="EMT Latvia IMS"
+        mccmnc="24801,45001:SEB,45005:SEB,nosim:SEB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="none"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp-preferred"
+        priority="1"
+        support_ipsec="true"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true">
+        <network type="lte" services="mmtel,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="GENERAL IMS"
+        mccmnc="00101:GCF"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp-preferred"
+        mss_size="1200"
+        priority="1"
+        support_ipsec="true"
+        timer="1:500,2:4000,4:5000,A:500,B:32000,C:180000,D:32000,E:500,F:32000,G:500,H:32000,I:5000,J:32000,K:5000"
+
+        precondtion_initial_sendrecv="1"
+        emergency_support="false"
+        invite_timeout="120"
+
+        conference_dialog_type="1"
+
+        enable_gruu="1"
+        use_precondition="1"
+        ringing_timer="120"
+        ringback_timer="130"
+        conference_uri="sip:mmtel@conf-factory.ims.mnc001.mcc262.3gppnetwork.org"
+        conference_subscribe="1"
+        audio_codec_mode="0"
+        emm="0"
+        rtcp_timeout="86400"
+
+        rtp_timeout="60"
+
+        video_as="416"
+        video_rs="4000"
+        video_rr="12000"
+        audio_as="49"
+        amrnbbe_payload="102"
+        amrnboa_payload="115"
+        amrwbbe_payload="114"
+        amrwboa_payload="113"
+        h264_qvga_payload="118"
+        h264_vga_payload="116"
+        dtmf_nb_payload="101"
+        dtmf_wb_payload="105">
+        <network type="lte" services="mmtel,smsip,mmtel-video"/>
+        <network type="umts" services="mmtel,smsip,mmtel-video"/>
+        <network type="edge" services="mmtel,smsip,mmtel-video"/>
+        <network type="gsm" services="mmtel,smsip,mmtel-video"/>
+        <network type="hspa" services="mmtel,smsip,mmtel-video"/>
+        <network type="hspa+" services="mmtel,smsip,mmtel-video"/>
+        <network type="hsdpa" services="mmtel,smsip,mmtel-video"/>
+        <network type="hsupa" services="mmtel,smsip,mmtel-video"/>
+    </profile>
+
+    <profile
+        name="GENERAL Emergency"
+        mccmnc="00101:GCF"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4v6"
+        domain="test.3gpp.com"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        emergency_support="true"
+        transport="udp-preferred"
+        priority="0"
+        support_ipsec="true"
+        use_precondition="1"
+        timer="1:500,2:4000,4:5000,A:500,B:32000,C:180000,D:32000,E:500,F:32000,G:500,H:32000,I:5000,J:32000,K:5000">
+        <network type="lte" services="mmtel,mmtel-video"/>
+        <network type="umts" services="mmtel,mmtel-video"/>
+        <network type="edge" services="mmtel,mmtel-video"/>
+        <network type="gsm" services="mmtel,mmtel-video"/>
+        <network type="hspa" services="mmtel,mmtel-video"/>
+        <network type="hspa+" services="mmtel,mmtel-video"/>
+        <network type="hsdpa" services="mmtel,mmtel-video"/>
+        <network type="hsupa" services="mmtel,mmtel-video"/>
+    </profile>
+</profiles>

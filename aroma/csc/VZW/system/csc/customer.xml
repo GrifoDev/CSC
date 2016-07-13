@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>VZW</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <SubsetCode>BAE0000000000000</SubsetCode>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <NbPreInstalledContact>7</NbPreInstalledContact>
+      <PreInstalledContact>
+        <TelName>#DATA - Data Used</TelName>
+        <TelNum>#3282</TelNum>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>#BAL - Check Balance</TelName>
+        <TelNum>#225</TelNum>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>#MIN - Minutes Used</TelName>
+        <TelNum>#646</TelNum>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>#PMT - Make a Payment</TelName>
+        <TelNum>#768</TelNum>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>#UPG - Upgrade Eligibility</TelName>
+        <TelNum>#874</TelNum>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>#Warranty Center</TelName>
+        <TelNum>866-406-5154</TelNum>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>VZ Roadside Assistance</TelName>
+        <TelNum>877-623-7433</TelNum>
+      </PreInstalledContact>
+    </Contact>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>7</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>20</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1.2m</MessageSize>
+          <ImageResizeResolution>qsxga</ImageResizeResolution>
+          <MaxRecipientMMS>20</MaxRecipientMMS>
+        </MmsSending>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>samg935v</MessageUserAgent>
+          <MessageUaProfUrl>http://uaprof.vtext.com/sam/samg935v/samg935v.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <GPS>
+      <GPSActivation>off</GPSActivation>
+    </GPS>
+    <ActiveSync>
+      <SyncSms>off</SyncSms>
+      <Signature>Sent from my Verizon, Samsung Galaxy smartphone</Signature>
+    </ActiveSync>
+    <Browser>
+      <NbBookmark>4</NbBookmark>
+      <Bookmark>
+        <NetworkName>VZW</NetworkName>
+        <Editable>no</Editable>
+        <Index>1</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>VZW</NetworkName>
+        <Editable>no</Editable>
+        <Index>2</Index>
+        <BookmarkName>Mobile Web</BookmarkName>
+        <URL>http://smart.myvzw.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>VZW</NetworkName>
+        <Editable>no</Editable>
+        <Index>3</Index>
+        <BookmarkName>Mobile Living</BookmarkName>
+        <URL>http://www.verizonwireless.com/mobile-living/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>VZW</NetworkName>
+        <Editable>no</Editable>
+        <Index>4</Index>
+        <BookmarkName>Verizon Accessories</BookmarkName>
+        <URL>http://www.verizonwireless.com/accessories/</URL>
+      </Bookmark>
+    </Browser>
+  </Settings>
+</CustomerData>

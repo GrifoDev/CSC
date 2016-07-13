@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <home>
+        <!--  screen [2]  -->
+        <!-- .SearchWidgetProvider -->
+        <appwidget
+            launcher:packageName="com.google.android.googlequicksearchbox"
+            launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+            launcher:screen="2"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:spanX="4"
+            launcher:spanY="1" />
+
+        <!-- My Optus -->
+        <favorite
+            launcher:packageName="au.com.optus.selfservice"
+            launcher:className="au.com.optus.selfservice.ui.splash.SplashActivity"
+            launcher:screen="2"
+            launcher:x="0"
+            launcher:y="3" />
+
+        <!-- Email -->
+        <favorite
+            launcher:packageName="com.samsung.android.email.provider"
+            launcher:className="com.samsung.android.email.ui.activity.MessageListXL"
+            launcher:screen="2"
+            launcher:x="1"
+            launcher:y="3" />
+
+        <!-- Play Store -->
+        <favorite
+            launcher:packageName="com.android.vending"
+            launcher:className="com.android.vending.AssetBrowserActivity"
+            launcher:screen="2"
+            launcher:x="2"
+            launcher:y="3" />
+
+        <!-- Folder : Google -->
+        <folder
+            launcher:screen="2"
+            launcher:title="Google"
+            launcher:x="3"
+            launcher:y="3"
+            launcher:hideAddButton="true">
+            <!-- Google -->
+            <favorite
+                launcher:screen="0"
+                launcher:packageName="com.google.android.googlequicksearchbox"
+                launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
+            <!-- Chrome -->
+            <favorite
+                launcher:screen="1"
+                launcher:packageName="com.android.chrome"
+                launcher:className="com.google.android.apps.chrome.Main" />
+            <!-- Gmail -->
+            <favorite
+                launcher:screen="2"
+                launcher:packageName="com.google.android.gm"
+                launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+            <!-- Maps -->
+            <favorite
+                launcher:screen="3"
+                launcher:packageName="com.google.android.apps.maps"
+                launcher:className="com.google.android.maps.MapsActivity" />
+            <!-- YouTube -->
+            <favorite
+                launcher:screen="4"
+                launcher:packageName="com.google.android.youtube"
+                launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+            <!-- Drive -->
+            <favorite
+                launcher:screen="5"
+                launcher:packageName="com.google.android.apps.docs"
+                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+            <!-- Play Music -->
+            <favorite
+                launcher:screen="6"
+                launcher:packageName="com.google.android.music"
+                launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+            <!-- Play Movies & TV -->
+            <favorite
+                launcher:screen="7"
+                launcher:packageName="com.google.android.videos"
+                launcher:className="com.google.android.youtube.videos.EntryPoint" />
+            <!-- Hangouts -->
+            <favorite
+                launcher:screen="8"
+                launcher:packageName="com.google.android.talk"
+                launcher:className="com.google.android.talk.SigningInActivity" />
+            <!-- Photos -->
+            <favorite
+                launcher:screen="9"
+                launcher:packageName="com.google.android.apps.photos"
+                launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+        </folder>
+        
+        <!--  screen [3]  -->
+        <!-- .ui.widget.MyOptusWidgetProvider -->
+        <appwidget
+            launcher:packageName="au.com.optus.selfservice"
+            launcher:className="au.com.optus.selfservice.ui.widget.MyOptusWidgetProvider"
+            launcher:screen="3"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:spanX="4"
+            launcher:spanY="2" />
+
+       <!--  screen [4]  -->
+       <!-- Samsung Pay -->
+        <favorite
+            launcher:packageName="com.samsung.android.spay"
+            launcher:className="com.samsung.android.spay.ui.SpayMainActivity"
+            launcher:screen="4"
+            launcher:x="0"
+            launcher:y="3"
+            launcher:spanX="1"
+            launcher:spanY="1" />
+
+    </home>
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <hotseat>
+        <!-- Phone -->
+        <favorite
+            launcher:packageName="com.android.contacts"
+            launcher:className="com.android.dialer.DialtactsActivity"
+            launcher:screen="0" />
+
+        <!-- Messages -->
+        <favorite
+            launcher:packageName="com.android.mms"
+            launcher:className="com.android.mms.ui.ConversationComposer"
+            launcher:screen="1" />
+
+        <!-- Internet -->
+        <favorite
+            launcher:packageName="com.sec.android.app.sbrowser"
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            launcher:screen="2" />
+
+    </hotseat>
+
+</favorites>
