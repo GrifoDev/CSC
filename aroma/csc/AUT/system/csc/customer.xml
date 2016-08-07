@@ -1,53 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0013</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Switzerland</Country>
     <CountryISO>CH</CountryISO>
     <Region>EUR</Region>
     <SalesCode>AUT</SalesCode>
-    <NbNetworkInfo>13</NbNetworkInfo>
+    <NbNetworkInfo>7</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>22801</MCCMNC>
       <NetworkName>Swisscom</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>20408</MCCMNC>
-      <NetworkName>UPC Cablecom 07509</NetworkName>
-      <SPCode>07509</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20408</MCCMNC>
-      <NetworkName>UPC Cablecom 07508</NetworkName>
-      <SPCode>07508</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20408</MCCMNC>
-      <NetworkName>UPC Cablecom 07507</NetworkName>
-      <SPCode>07507</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20408</MCCMNC>
-      <NetworkName>UPC Cablecom 07506</NetworkName>
-      <SPCode>07506</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20408</MCCMNC>
-      <NetworkName>UPC Cablecom 07505</NetworkName>
-      <SPCode>07505</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>22853</MCCMNC>
-      <NetworkName>UPC Cablecom</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>22802</MCCMNC>
       <NetworkName>Sunrise</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20408</MCCMNC>
-      <NetworkName>UPC Cablecom 0752</NetworkName>
-      <SPCode>0752</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22803</MCCMNC>
@@ -67,10 +33,16 @@
       <SubsetCode>117</SubsetCode>
       <SPCode>8012</SPCode>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22853</MCCMNC>
+      <NetworkName>upc ch</NetworkName>
+      <SubsetCode>117</SubsetCode>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>64</NbNetworkLock>
         <NetworkLock>460BB</NetworkLock>
         <NetworkLock>454BB</NetworkLock>
@@ -138,37 +110,13 @@
         <NetworkLock>639BB</NetworkLock>
       </Security>
       <Network>
-        <NbFastDormancy>13</NbFastDormancy>
+        <NbFastDormancy>6</NbFastDormancy>
         <FastDormancy>
           <NetworkName>Sunrise</NetworkName>
           <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
         </FastDormancy>
         <FastDormancy>
-          <NetworkName>UPC Cablecom 0752</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <FastDormancy>
-          <NetworkName>UPC Cablecom 07509</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <FastDormancy>
-          <NetworkName>UPC Cablecom 07508</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <FastDormancy>
-          <NetworkName>UPC Cablecom 07507</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <FastDormancy>
-          <NetworkName>UPC Cablecom 07506</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <FastDormancy>
-          <NetworkName>UPC Cablecom 07505</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <FastDormancy>
-          <NetworkName>UPC Cablecom</NetworkName>
+          <NetworkName>upc ch</NetworkName>
           <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
         </FastDormancy>
         <FastDormancy>
@@ -187,10 +135,6 @@
           <NetworkName>Mobilkom</NetworkName>
           <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
         </FastDormancy>
-        <FastDormancy>
-          <NetworkName>upc ch</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
         <NbWbAmr>1</NbWbAmr>
         <WbAmr>
           <NetworkName>default</NetworkName>
@@ -198,25 +142,13 @@
         </WbAmr>
         <NbSOSNumber>2</NbSOSNumber>
         <SOSNumber>112</SOSNumber>
-        <SOSNumber>911</SOSNumber>
-        <NbSOSNumberNoSIM>8</NbSOSNumberNoSIM>
-        <SOSNumberNoSIM>112</SOSNumberNoSIM>
-        <SOSNumberNoSIM>911</SOSNumberNoSIM>
-        <SOSNumberNoSIM>000</SOSNumberNoSIM>
-        <SOSNumberNoSIM>08</SOSNumberNoSIM>
-        <SOSNumberNoSIM>110</SOSNumberNoSIM>
+        <SOSNumber>117</SOSNumber>
+        <NbSOSNumberNoSIM>5</NbSOSNumberNoSIM>
         <SOSNumberNoSIM>118</SOSNumberNoSIM>
-        <SOSNumberNoSIM>119</SOSNumberNoSIM>
-        <SOSNumberNoSIM>999</SOSNumberNoSIM>
-        <AutoProfile>on</AutoProfile>
-        <AutoVoicemail>off</AutoVoicemail>
-        <AutoEmailAccount>off</AutoEmailAccount>
-        <AutoBookmark>off</AutoBookmark>
-        <AutoLink>off</AutoLink>
-        <AutoSyncML>off</AutoSyncML>
-        <AutoFastDormancy>on</AutoFastDormancy>
-        <AutoWbAmr>off</AutoWbAmr>
-        <AutoFOTA>off</AutoFOTA>
+        <SOSNumberNoSIM>144</SOSNumberNoSIM>
+        <SOSNumberNoSIM>143</SOSNumberNoSIM>
+        <SOSNumberNoSIM>147</SOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
       </Network>
       <Sound>
         <RngVolume>4</RngVolume>
@@ -251,18 +183,11 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
         </MMSView>
       </MMS>
-      <Email>
-        <EmailReceiving>
-          <AutoPoll>off</AutoPoll>
-          <KeepServer>on</KeepServer>
-        </EmailReceiving>
-      </Email>
     </Messages>
     <Browser>
       <NbBookmark>2</NbBookmark>
@@ -281,7 +206,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>13</NbProfileHandle>
+      <NbProfileHandle>6</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Sunrise</NetworkName>
@@ -290,57 +215,24 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom 0752</NetworkName>
+        <NetworkName>upc ch</NetworkName>
         <ProfBrowser>upcnet</ProfBrowser>
         <ProfMMS>upcmms</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom 07509</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom 07508</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom 07507</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom 07506</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom 07505</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>UPC Cablecom</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Swisscom</NetworkName>
         <ProfBrowser>Swisscom Services</ProfBrowser>
         <ProfMMS>Swisscom MMS</ProfMMS>
+        <ProfIMS>Swisscom IMS</ProfIMS>
+        <ProfXCAP>Swisscom hos</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Salt</NetworkName>
         <ProfBrowser>Salt internet</ProfBrowser>
         <ProfMMS>Salt MMS</ProfMMS>
+        <ProfIMS>Salt IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -354,235 +246,86 @@
         <ProfBrowser>Salt internet</ProfBrowser>
         <ProfMMS>Salt MMS</ProfMMS>
       </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>upc ch</NetworkName>
-        <ProfBrowser>upcnet</ProfBrowser>
-        <ProfMMS>upcmms</ProfMMS>
-      </ProfileHandle>
-      <NbProfile>26</NbProfile>
+      <NbProfile>15</NbProfile>
       <Profile>
-        <NetworkName>UPC Cablecom 0752</NetworkName>
+        <NetworkName>Swisscom</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://www.samsung.intercontent.de/ch</URL>
-        <Auth>none</Auth>
+        <ProfileName>Swisscom Services</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
+          <APN>gprs.swisscom.ch</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>UPC Cablecom 0752</NetworkName>
+        <NetworkName>Swisscom</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
+        <ProfileName>Swisscom MMS</ProfileName>
+        <URL>http://mms.natel.ch:8079</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
+          <ServAddr>192.168.210.002</ServAddr>
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
+          <APN>event.swisscom.ch</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>UPC Cablecom 07509</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://m.samsung.com</URL>
+        <NetworkName>Swisscom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Swisscom IMS</ProfileName>
+        <URL>ims</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>UPC Cablecom 07509</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07508</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://m.samsung.com</URL>
+        <NetworkName>Swisscom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Swisscom hos</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
+          <APN>hos</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>UPC Cablecom 07508</NetworkName>
+        <NetworkName>Sunrise</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07507</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://m.samsung.com</URL>
+        <ProfileName>Sunrise internet</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07507</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07506</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://m.samsung.com</URL>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07506</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07505</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://m.samsung.com</URL>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom 07505</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <URL>http://m.samsung.com</URL>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>UPC Cablecom</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
+          <APN>internet</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -591,6 +334,7 @@
         <ProfileName>Sunrise MMS</ProfileName>
         <URL>http://mmsc.sunrise.ch</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -605,11 +349,58 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Salt</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Salt internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Salt</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Salt MMS</ProfileName>
+        <URL>http://192.168.151.3:8002</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.151.2</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Salt</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Salt IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Salt FL</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Salt internet</ProfileName>
         <URL>http://m.google.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -625,6 +416,7 @@
         <ProfileName>Salt MMS</ProfileName>
         <URL>http://192.168.151.3:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -637,11 +429,44 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>upc ch</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>upcnet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.ch.upcmobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>upc ch</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>upcmms</ProfileName>
+        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>62.179.127.18</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.ch.upcmobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Mobilkom</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>FL1 DATA</ProfileName>
-        <URL>http://m.samsung.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
@@ -658,6 +483,7 @@
         <ProfileName>FL1 MMS</ProfileName>
         <URL>http://mmsc.a1.net</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -671,115 +497,44 @@
           <Password>ppp</Password>
         </PSparam>
       </Profile>
-      <Profile>
-        <NetworkName>Sunrise</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Sunrise internet</ProfileName>
-        <URL>http://m.samsung.com</URL>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Swisscom</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Swisscom Services</ProfileName>
-        <URL>http://m.samsung.com</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>gprs.swisscom.ch</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Swisscom</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Swisscom MMS</ProfileName>
-        <URL>http://mms.natel.ch:8079</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>192.168.210.002</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>event.swisscom.ch</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Salt</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Salt internet</ProfileName>
-        <URL>http://m.samsung.com</URL>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Salt</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Salt MMS</ProfileName>
-        <URL>http://192.168.151.3:8002</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>192.168.151.2</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>upc ch</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcnet</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>upc ch</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>upcmms</ProfileName>
-        <URL>http://mms.ch.upcmobile.com:8080/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.179.127.18</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.ch.upcmobile.com</APN>
-        </PSparam>
-      </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>Swisscom</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>		  
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Salt</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>
