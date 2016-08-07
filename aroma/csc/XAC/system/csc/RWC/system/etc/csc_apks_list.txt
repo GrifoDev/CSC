@@ -4,3 +4,4 @@
 /system/app/RogersNHL_Jan-18-2016_SIGNED2/RogersNHL_Jan-18-2016_SIGNED2.apk
 /system/app/shomi_phone/shomi_phone.apk
 /system/app/Texture_rogers/Texture_rogers.apk
+/system/priv-app/IPsecService/IPsecService.apk

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,11 +10,13 @@
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Telus</NetworkName>
+      <CodeType>HEX</CodeType>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Telus</NetworkName>
+      <CodeType>HEX</CodeType>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
@@ -116,14 +118,13 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</MessageUaProfUrl>
         </MMSView>
       </MMS>
       <Email>
-        <NbAccount>32</NbAccount>
+        <NbAccount>25</NbAccount>
         <Account>
           <NetworkName>default</NetworkName>
           <AccountName>Aim Mail</AccountName>
@@ -234,25 +235,6 @@
         </Account>
         <Account>
           <NetworkName>default</NetworkName>
-          <AccountName>Hotmail</AccountName>
-          <EmailAddr>@hotmail.com</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
           <AccountName>Mac</AccountName>
           <EmailAddr>@mac.com</EmailAddr>
           <LoginType>domain_type</LoginType>
@@ -283,101 +265,6 @@
           </Incoming>
           <Outgoing>
             <ServAddr>smtp.mail.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>Microsoft Live Mail</AccountName>
-          <EmailAddr>@live.com</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>Microsoft Live Mail</AccountName>
-          <EmailAddr>@live.ca</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>MSN</AccountName>
-          <EmailAddr>@msn.com</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>MSN</AccountName>
-          <EmailAddr>@msn.ca</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>MTS</AccountName>
-          <EmailAddr>@mts.net</EmailAddr>
-          <LoginType>username_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
             <Port>587</Port>
             <SmtpAuth>on</SmtpAuth>
             <Secure>tls</Secure>
@@ -673,37 +560,16 @@
             <SameIdPwd>on</SameIdPwd>
           </Outgoing>
         </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>Windows Live</AccountName>
-          <EmailAddr>@hotmail.ca</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
       </Email>
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>off</HistoryList>
       <NbBookmark>2</NbBookmark>
       <Bookmark>
         <NetworkName>Telus</NetworkName>
@@ -750,7 +616,9 @@
       <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>Telus</NetworkName>
+        <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
+        <Selectable>no</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>TELUS SP</ProfileName>
         <URL>http://m.telusmobility.com</URL>
@@ -768,7 +636,9 @@
       </Profile>
       <Profile>
         <NetworkName>Telus</NetworkName>
+        <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
+        <Selectable>no</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>TELUS MMS</ProfileName>
         <URL>http://aliasredirect.net/proxy/mmsc</URL>
@@ -778,8 +648,8 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>74.49.0.18</ServAddr>
-          <Port>80</Port>
+          <ServAddr>mmscproxy.mobility.ca</ServAddr>
+          <Port>8799</Port>
         </Proxy>
         <PSparam>
           <APN>sp.telus.com</APN>
@@ -789,6 +659,7 @@
       <Profile>
         <NetworkName>Telus</NetworkName>
         <Editable>no</Editable>
+        <Selectable>no</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>TELUS ISP</ProfileName>
         <Auth>none</Auth>

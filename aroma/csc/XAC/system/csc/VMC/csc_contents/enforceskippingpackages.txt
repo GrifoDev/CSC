@@ -1,9 +1,5 @@
-8
+4
 AxelSpringer.apk
 SamsungPayStub.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
 SamsungUpdates.apk
 OMCAgent.apk

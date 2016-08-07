@@ -101,7 +101,6 @@
         <MmsReceiving>
           <Home>auto</Home>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>

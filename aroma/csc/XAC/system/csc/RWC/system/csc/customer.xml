@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -104,7 +104,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
@@ -154,7 +153,6 @@
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
@@ -162,7 +160,6 @@
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>off</HistoryList>
       <NbBookmark>8</NbBookmark>
       <Bookmark>
         <NetworkName>Rogers</NetworkName>
@@ -231,13 +228,14 @@
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>5</NbNetProfile>
+        <NbNetProfile>6</NbNetProfile>
         <NetworkName>Rogers</NetworkName>
         <ProfBrowser>Rogers LTE</ProfBrowser>
         <ProfMMS>Rogers MMS</ProfMMS>
         <ProfIntSharing>LTE Tethering</ProfIntSharing>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Netsvcs</ProfXCAP>
+        <ProfEpdg>Rogers EPDG</ProfEpdg>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>5</NbNetProfile>
@@ -248,7 +246,7 @@
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Netsvcs</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>11</NbProfile>
+      <NbProfile>13</NbProfile>
       <Profile>
         <NetworkName>Rogers</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -319,10 +317,19 @@
       <Profile>
         <NetworkName>Rogers</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <EnableStatus>enable</EnableStatus>
-        <ProfileName>Netsvcs</ProfileName>
+        <ProfileName>Rogers EPDG</ProfileName>
+        <URL>http://mms.gprs.rogers.com</URL>
         <Auth>none</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsproxy.rogers.com</ServAddr>
+          <Port>80</Port>
+        </Proxy>
         <PSparam>
           <APN>netsvcs</APN>
         </PSparam>
@@ -396,11 +403,19 @@
       <Profile>
         <NetworkName>Fido</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <EnableStatus>enable</EnableStatus>
-        <ProfileName>Netsvcs</ProfileName>
+        <ProfileName>Rogers EPDG</ProfileName>
+        <URL>http://mms.fido.ca</URL>
         <Auth>none</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
         <MTUSize>1430</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsproxy.fido.ca</ServAddr>
+          <Port>80</Port>
+        </Proxy>
         <PSparam>
           <APN>netsvcs</APN>
         </PSparam>
@@ -415,6 +430,30 @@
         <MTUSize>1430</MTUSize>
         <PSparam>
           <APN>ltemobile.apn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Rogers</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Netsvcs</ProfileName>
+        <Auth>none</Auth>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>netsvcs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Fido</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Netsvcs</ProfileName>
+        <Auth>none</Auth>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>netsvcs</APN>
         </PSparam>
       </Profile>
     </Connections>

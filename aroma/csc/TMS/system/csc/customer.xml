@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>SLOVAKIA</Country>
+    <CountryISO>SK</CountryISO>
+    <Region>EUR</Region>
+    <SalesCode>TMS</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23102</MCCMNC>
+      <NetworkName>T-Mobile SK</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>4</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile SK</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile SK</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile SK</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>10</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile SK</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Sound>
+        <RngToneAlertType>vibmelody</RngToneAlertType>
+        <RngVolume>4</RngVolume>
+        <KeyTone>
+          <KeyVolume>1</KeyVolume>
+        </KeyTone>
+        <ExtraSound>
+          <ConnectTone>off</ConnectTone>
+          <MinuteMind>off</MinuteMind>
+        </ExtraSound>
+        <NbAlarmTone>1</NbAlarmTone>
+        <AlarmTone src="/Customer/TMS/AlarmTone/T_Alarmtone.mp3" default="true">
+          <FileType>MP3</FileType>
+        </AlarmTone>
+        <NbMessageTone>1</NbMessageTone>
+        <MessageTone src="/Customer/TMS/Messagetone/T_Messagetone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </MessageTone>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/TMS/Ringtone/T_Ringtone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </RingTone>
+      </Sound>
+      <Phone>
+        <DefLanguage>slovakian</DefLanguage>
+        <DefLanguageNoSIM>slovakian</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <T9Language>slovakian</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <ContactSort>lastname</ContactSort>
+    </Contact>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <TelNum>+421903333999</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <PushLoading>never</PushLoading>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>13</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>gsmalpha</CharSupport>
+        <FontSizeByVolumeKey>off</FontSizeByVolumeKey>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <PollTime>off</PollTime>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+        <NbAccount>1</NbAccount>
+        <Account>
+          <NetworkName>T-Mobile SK</NetworkName>
+          <EmailAddr>vasaadresa@mail.telekom.sk</EmailAddr>
+          <Incoming>
+            <MailboxType>pop3</MailboxType>
+            <ServAddr>mail.telekom.sk</ServAddr>
+            <Port>110</Port>
+            <Secure>off</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>mail.telekom.sk</ServAddr>
+            <Port>25</Port>
+            <SmtpAuth>on</SmtpAuth>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <BookmarkName>t-zones</BookmarkName>
+        <URL>http://m.t-zones.sk</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <ProfBrowser>Telekom Internet</ProfBrowser>
+        <ProfMMS>Telekom MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>2</NbProfile>
+      <Profile>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Telekom Internet</ProfileName>
+        <URL>http://m.telekom.sk</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Telekom MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.001.001</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

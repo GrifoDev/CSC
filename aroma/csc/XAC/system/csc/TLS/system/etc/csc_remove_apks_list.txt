@@ -18,3 +18,4 @@
 /system/app/shomi_phone/shomi_phone.apk
 /system/app/Texture_rogers/Texture_rogers.apk
 /system/app/virginmobile-mybenefits-stub-app-release-signed/virginmobile-mybenefits-stub-app-release-signed.apk
+/system/priv-app/IPsecService/IPsecService.apk

@@ -1,42 +1,114 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED0019</Version>
+  <Version>ED00027</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>VMC</SalesCode>
   <FeatureSet>
-    <CscFeature_Common_DisableMenu4GalSearch>TRUE</CscFeature_Common_DisableMenu4GalSearch>
+    <CscFeature_AOD_ConfigDefaultClockStyle>1</CscFeature_AOD_ConfigDefaultClockStyle>
+    <CscFeature_BT_ConfigNetAccessTypeForPANNAP>GSM</CscFeature_BT_ConfigNetAccessTypeForPANNAP>
+    <CscFeature_BT_DisableNAP>TRUE</CscFeature_BT_DisableNAP>
+    <CscFeature_BT_DisablePANU>FALSE</CscFeature_BT_DisablePANU>
+    <CscFeature_BT_DisableSAP>TRUE</CscFeature_BT_DisableSAP>
+    <CscFeature_Calendar_EnableShiftedWeekNumber>FALSE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_Common_AutoConfigurationType>XAC,CANADA_ONESKU</CscFeature_Common_AutoConfigurationType>
-    <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
+    <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Common_ConfigSwis>-1</CscFeature_Common_ConfigSwis>
-    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Common_DisableMenu4GalSearch>TRUE</CscFeature_Common_DisableMenu4GalSearch>
+    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Contact_ConfigImsOpStyle>VMC</CscFeature_Contact_ConfigImsOpStyle>
+    <CscFeature_Contact_ConfigOpStyleVariation>CAN</CscFeature_Contact_ConfigOpStyleVariation>
+    <CscFeature_Contact_ConfigReplaceLabelSet>can</CscFeature_Contact_ConfigReplaceLabelSet>
+    <CscFeature_Contact_EnableCnam>TRUE</CscFeature_Contact_EnableCnam>
+    <CscFeature_Framework_DisableConfirmGlobalAction>FALSE</CscFeature_Framework_DisableConfirmGlobalAction>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>OYC</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
-    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>OYC</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
-    <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
-    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,AirplaneMode,DormantMode,Flashlight,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
     <CscFeature_Framework_SupportCancelButtonGlobalAction>FALSE</CscFeature_Framework_SupportCancelButtonGlobalAction>
     <CscFeature_Framework_SupportDataModeSwitchGlobalAction>FALSE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
-    <CscFeature_Framework_DisableConfirmGlobalAction>FALSE</CscFeature_Framework_DisableConfirmGlobalAction>
-    <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
-    <CscFeature_AOD_ConfigDefaultClockStyle>1</CscFeature_AOD_ConfigDefaultClockStyle>
-    <CscFeature_Contact_ConfigOpStyleVariation>CAN</CscFeature_Contact_ConfigOpStyleVariation>
-    <CscFeature_Contact_EnableCnam>TRUE</CscFeature_Contact_EnableCnam>
-    <CscFeature_Contact_ConfigReplaceLabelSet>can</CscFeature_Contact_ConfigReplaceLabelSet>
-    <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON,Google,Internet,Camera</CscFeature_Setting_ShortcutListInLockScreen>
-    <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
-    <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
-    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
-    <CscFeature_Setting_HideApnList>IMS,Bell XCAP,ims</CscFeature_Setting_HideApnList>
-    <CscFeature_Setting_ConfigAirView>+Webpage</CscFeature_Setting_ConfigAirView>
-    <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
-    <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
-    <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
-    <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
-    <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
+    <CscFeature_GMS_SetClientIDBaseAm>android-bell-ca</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
+    <CscFeature_GMS_SetClientIDBaseMs>android-bell-ca</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
+    <CscFeature_IMS_EnableIMS>FALSE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableLTEVideoCall>FALSE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableRCSe>FALSE</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableVoLTE>FALSE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
-    <CscFeature_Calendar_EnableShiftedWeekNumber>FALSE</CscFeature_Calendar_EnableShiftedWeekNumber>
-    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
+    <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
+    <CscFeature_Message_DisplayMmsTimeAs>server</CscFeature_Message_DisplayMmsTimeAs>
+    <CscFeature_Message_DisplaySmsTimeAs>server</CscFeature_Message_DisplaySmsTimeAs>
+    <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
+    <CscFeature_Message_MinRecipientLengthAs>2</CscFeature_Message_MinRecipientLengthAs>
+    <CscFeature_Message_MmsModeCaptureVideoMaxSize>609280</CscFeature_Message_MmsModeCaptureVideoMaxSize>
+    <CscFeature_NFC_ConfigCardmodeRoutingTypeForHce>ROUTE_ON_WHEN_SCREEN_ON</CscFeature_NFC_ConfigCardmodeRoutingTypeForHce>
+    <CscFeature_NFC_DefStatus>ON</CscFeature_NFC_DefStatus>
+    <CscFeature_NFC_DisableEseCardMode>TRUE</CscFeature_NFC_DisableEseCardMode>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_AlwaysDisplayGeodescription>TRUE</CscFeature_RIL_AlwaysDisplayGeodescription>
+    <CscFeature_RIL_BlockCSIMimsi>TRUE</CscFeature_RIL_BlockCSIMimsi>
+    <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
+    <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
+    <CscFeature_RIL_ConfigFixedApn>cbs,ims,xcap,bip</CscFeature_RIL_ConfigFixedApn>
+    <CscFeature_RIL_ConfigNetCapability>8</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-VMC-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
+    <CscFeature_RIL_CurrentDataTechNotReset>TRUE</CscFeature_RIL_CurrentDataTechNotReset>
+    <CscFeature_RIL_DataPrefDataTechSnapShot>TRUE</CscFeature_RIL_DataPrefDataTechSnapShot>
+    <CscFeature_RIL_DisableEditingVMNumber>TRUE</CscFeature_RIL_DisableEditingVMNumber>
+    <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
+    <CscFeature_RIL_DisplayNitzPopup>TRUE</CscFeature_RIL_DisplayNitzPopup>
+    <CscFeature_RIL_DisplayPlmnByLuRejectCause>TRUE</CscFeature_RIL_DisplayPlmnByLuRejectCause>
+    <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
+    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_EmergencyOnlyWithNoSim>TRUE</CscFeature_RIL_EmergencyOnlyWithNoSim>
+    <CscFeature_RIL_EmergencycallonlyNotDisplay>TRUE</CscFeature_RIL_EmergencycallonlyNotDisplay>
+    <CscFeature_RIL_EnableChangeDefaultPdn>TRUE</CscFeature_RIL_EnableChangeDefaultPdn>
+    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+    <CscFeature_RIL_EnableVoicePriority>TRUE</CscFeature_RIL_EnableVoicePriority>
+    <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
+    <CscFeature_RIL_HotspotPreventMSISDNreset>TRUE</CscFeature_RIL_HotspotPreventMSISDNreset>
+    <CscFeature_RIL_ImsPdnRetryTimeChange>TRUE</CscFeature_RIL_ImsPdnRetryTimeChange>
+    <CscFeature_RIL_MtuSize>1500</CscFeature_RIL_MtuSize>
+    <CscFeature_RIL_NotifyInvalidSIM>TRUE</CscFeature_RIL_NotifyInvalidSIM>
+    <CscFeature_RIL_PDPRetryMechanism4>CAN</CscFeature_RIL_PDPRetryMechanism4>
+    <CscFeature_RIL_PermanentFailuresStopRetry>TRUE</CscFeature_RIL_PermanentFailuresStopRetry>
+    <CscFeature_RIL_ReferEonsWithoutLac>TRUE</CscFeature_RIL_ReferEonsWithoutLac>
+    <CscFeature_RIL_RemoveToastDuringBipOperation>TRUE</CscFeature_RIL_RemoveToastDuringBipOperation>
+    <CscFeature_RIL_RemoveToastDuringStkRefresh>TRUE</CscFeature_RIL_RemoveToastDuringStkRefresh>
+    <CscFeature_RIL_RestoreDefaultApnWhenApnXmlChanges>TRUE</CscFeature_RIL_RestoreDefaultApnWhenApnXmlChanges>
+    <CscFeature_RIL_SIMNotStoringVoiceMailInDevice>TRUE</CscFeature_RIL_SIMNotStoringVoiceMailInDevice>
+    <CscFeature_RIL_SendDeviceCapaToCp>TRUE</CscFeature_RIL_SendDeviceCapaToCp>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
+    <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
+    <CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
+    <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_SupportVolteE911>TRUE</CscFeature_RIL_SupportVolteE911>
+    <CscFeature_RIL_UpdateCallstateDuringModifyCall>TRUE</CscFeature_RIL_UpdateCallstateDuringModifyCall>
+    <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+    <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
+    <CscFeature_Setting_ConfigAirView>+Webpage</CscFeature_Setting_ConfigAirView>
+    <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
+    <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
+    <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
+    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
+    <CscFeature_Setting_HideApnList>IMS,Bell XCAP,ims</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_IncludeApn4SwUpdate>FALSE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
+    <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON,Google,Internet,Camera</CscFeature_Setting_ShortcutListInLockScreen>
+    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
@@ -55,74 +127,17 @@
     <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|applock|trafficmanager|trafficmanager_auto|rootbadgefeature|notificationmanager|applicationpermission</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
-    <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
-    <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
-    <CscFeature_Message_MmsModeCaptureVideoMaxSize>609280</CscFeature_Message_MmsModeCaptureVideoMaxSize>
-    <CscFeature_Message_DisplayMmsTimeAs>server</CscFeature_Message_DisplayMmsTimeAs>
-    <CscFeature_Message_DisplaySmsTimeAs>server</CscFeature_Message_DisplaySmsTimeAs>
-    <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
-    <CscFeature_Message_MinRecipientLengthAs>2</CscFeature_Message_MinRecipientLengthAs>
-    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,AirplaneMode,DormantMode,Flashlight,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
+    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>OYC</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+    <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
-    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
-    <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
-    <CscFeature_GMS_SetClientIDBaseMs>android-bell-ca</CscFeature_GMS_SetClientIDBaseMs>
-    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
-    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
-    <CscFeature_GMS_SetClientIDBaseAm>android-bell-ca</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>
     <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
     <CscFeature_Wifi_SupportMobileApOnTrigger>TRUE</CscFeature_Wifi_SupportMobileApOnTrigger>
     <CscFeature_Wifi_SupportNotificationMenu>TRUE</CscFeature_Wifi_SupportNotificationMenu>
-    <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>
-    <CscFeature_BT_DisableSAP>TRUE</CscFeature_BT_DisableSAP>
-    <CscFeature_BT_DisableNAP>TRUE</CscFeature_BT_DisableNAP>
-    <CscFeature_BT_DisablePANU>FALSE</CscFeature_BT_DisablePANU>
-    <CscFeature_BT_ConfigNetAccessTypeForPANNAP>GSM</CscFeature_BT_ConfigNetAccessTypeForPANNAP>
-    <CscFeature_NFC_DefStatus>ON</CscFeature_NFC_DefStatus>
-    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
-    <CscFeature_NFC_DisableEseCardMode>TRUE</CscFeature_NFC_DisableEseCardMode>
-    <CscFeature_NFC_ConfigCardmodeRoutingTypeForHce>ROUTE_ON_WHEN_SCREEN_ON</CscFeature_NFC_ConfigCardmodeRoutingTypeForHce>
-    <CscFeature_RIL_PDPRetryMechanism4>CAN</CscFeature_RIL_PDPRetryMechanism4>
-    <CscFeature_RIL_DisableEditingVMNumber>TRUE</CscFeature_RIL_DisableEditingVMNumber>
-    <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
-    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
-    <CscFeature_RIL_RemoveToastDuringStkRefresh>TRUE</CscFeature_RIL_RemoveToastDuringStkRefresh>
-    <CscFeature_RIL_RemoveToastDuringBipOperation>TRUE</CscFeature_RIL_RemoveToastDuringBipOperation>
-    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
-    <CscFeature_RIL_EnableVoicePriority>TRUE</CscFeature_RIL_EnableVoicePriority>
-    <CscFeature_RIL_ConfigFixedApn>cbs,ims,xcap,bip</CscFeature_RIL_ConfigFixedApn>
-    <CscFeature_RIL_UpdateCallstateDuringModifyCall>TRUE</CscFeature_RIL_UpdateCallstateDuringModifyCall>
-    <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-VMC-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
-    <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
-    <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
-    <CscFeature_RIL_MtuSize>1500</CscFeature_RIL_MtuSize>
-    <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
-    <CscFeature_RIL_DataPrefDataTechSnapShot>TRUE</CscFeature_RIL_DataPrefDataTechSnapShot>
-    <CscFeature_RIL_RestoreDefaultApnWhenApnXmlChanges>TRUE</CscFeature_RIL_RestoreDefaultApnWhenApnXmlChanges>
-    <CscFeature_RIL_PermanentFailuresStopRetry>TRUE</CscFeature_RIL_PermanentFailuresStopRetry>
-    <CscFeature_RIL_EnableChangeDefaultPdn>TRUE</CscFeature_RIL_EnableChangeDefaultPdn>
-    <CscFeature_RIL_ImsPdnRetryTimeChange>TRUE</CscFeature_RIL_ImsPdnRetryTimeChange>
-    <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
-    <CscFeature_RIL_SIMNotStoringVoiceMailInDevice>TRUE</CscFeature_RIL_SIMNotStoringVoiceMailInDevice>
-    <CscFeature_RIL_NotifyInvalidSIM>TRUE</CscFeature_RIL_NotifyInvalidSIM>
-    <CscFeature_RIL_BlockCSIMimsi>TRUE</CscFeature_RIL_BlockCSIMimsi>
-    <CscFeature_RIL_HotspotPreventMSISDNreset>TRUE</CscFeature_RIL_HotspotPreventMSISDNreset>
-    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
-    <CscFeature_RIL_EmergencyOnlyWithNoSim>TRUE</CscFeature_RIL_EmergencyOnlyWithNoSim>
-    <CscFeature_RIL_ReferEonsWithoutLac>TRUE</CscFeature_RIL_ReferEonsWithoutLac>
-    <CscFeature_RIL_AlwaysDisplayGeodescription>TRUE</CscFeature_RIL_AlwaysDisplayGeodescription>
-    <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
-    <CscFeature_RIL_EmergencycallonlyNotDisplay>TRUE</CscFeature_RIL_EmergencycallonlyNotDisplay>
-    <CscFeature_RIL_DisplayNitzPopup>TRUE</CscFeature_RIL_DisplayNitzPopup>
-    <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
-    <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
-    <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
-    <CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
-    <CscFeature_RIL_CurrentDataTechNotReset>TRUE</CscFeature_RIL_CurrentDataTechNotReset>
-    <CscFeature_RIL_DisplayPlmnByLuRejectCause>TRUE</CscFeature_RIL_DisplayPlmnByLuRejectCause>
-    <CscFeature_RIL_SendDeviceCapaToCp>TRUE</CscFeature_RIL_SendDeviceCapaToCp>
-    <CscFeature_RIL_ConfigNetCapability>8</CscFeature_RIL_ConfigNetCapability>
-    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
   </FeatureSet>
 </SamsungMobileFeature>

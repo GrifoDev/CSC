@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>CANADA</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -100,7 +100,6 @@
         <MmsReceiving>
           <Home>auto</Home>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
@@ -109,14 +108,12 @@
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>on</HistoryList>
       <NbBookmark>2</NbBookmark>
       <Bookmark>
         <NetworkName>Eastlink</NetworkName>

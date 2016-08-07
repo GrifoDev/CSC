@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0020</Version>
+  <Version>ED0022</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>XAC</SalesCode>
@@ -10,7 +10,7 @@
     <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
     <CscFeature_Common_ConfigSwis>-1</CscFeature_Common_ConfigSwis>
-    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>OYA</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>OYA</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
@@ -26,6 +26,7 @@
     <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
     <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
     <CscFeature_Setting_BlockToSelectDunApnType>TRUE</CscFeature_Setting_BlockToSelectDunApnType>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_ConfigAirView>+Webpage</CscFeature_Setting_ConfigAirView>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>

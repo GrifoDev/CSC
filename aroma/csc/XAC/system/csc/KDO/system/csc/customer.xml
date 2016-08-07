@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -115,7 +115,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</MessageUaProfUrl>
@@ -225,25 +224,6 @@
           </Incoming>
           <Outgoing>
             <ServAddr>smtp.gmail.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>Hotmail</AccountName>
-          <EmailAddr>@hotmail.com</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
             <Port>587</Port>
             <SmtpAuth>on</SmtpAuth>
             <Secure>tls</Secure>
@@ -666,37 +646,16 @@
             <SameIdPwd>on</SameIdPwd>
           </Outgoing>
         </Account>
-        <Account>
-          <NetworkName>default</NetworkName>
-          <AccountName>Windows Live</AccountName>
-          <EmailAddr>@hotmail.ca</EmailAddr>
-          <LoginType>domain_type</LoginType>
-          <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
-            <Secure>ssl</Secure>
-          </Incoming>
-          <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
-            <Port>587</Port>
-            <SmtpAuth>on</SmtpAuth>
-            <Secure>tls</Secure>
-            <SameIdPwd>on</SameIdPwd>
-          </Outgoing>
-        </Account>
       </Email>
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>off</HistoryList>
       <NbBookmark>6</NbBookmark>
       <Bookmark>
         <NetworkName>Koodo</NetworkName>

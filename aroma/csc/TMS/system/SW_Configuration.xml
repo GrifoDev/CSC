@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G930F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G930FTMS</CSCName>
+	<CSCVersion>1APE1</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/TMS/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

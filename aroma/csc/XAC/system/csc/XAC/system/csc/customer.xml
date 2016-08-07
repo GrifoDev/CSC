@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0013</CSCEdition>
+    <CSCEdition>ED0016</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -309,7 +309,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</MessageUaProfUrl>
@@ -318,14 +317,12 @@
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>off</HistoryList>
       <NbBookmark>50</NbBookmark>
       <Bookmark>
         <NetworkName>Bell-Internet</NetworkName>
@@ -458,7 +455,7 @@
         <Editable>yes</Editable>
         <Index>1</Index>
         <BookmarkName>Homepage</BookmarkName>
-        <URL>http://www.google.ca</URL>
+        <URL>http://www.mts.ca/mts/personal</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Telus</NetworkName>

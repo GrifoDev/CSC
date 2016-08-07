@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0022</Version>
+  <Version>ED0024</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>GLW</SalesCode>
@@ -40,7 +40,7 @@
     <CscFeature_Common_SupportBatteryConversing>FALSE</CscFeature_Common_SupportBatteryConversing>
     <CscFeature_Common_SupportTfnHuxPco>FALSE</CscFeature_Common_SupportTfnHuxPco>
     <CscFeature_Common_SupportDualNumberService>FALSE</CscFeature_Common_SupportDualNumberService>
-    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>VID</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>VID</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
@@ -56,6 +56,7 @@
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
     <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
     <CscFeature_Setting_SkipWifiActvDuringSetupWizard>FALSE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_ConfigAirView>+Webpage</CscFeature_Setting_ConfigAirView>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0012</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -110,7 +110,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</MessageUaProfUrl>
@@ -119,14 +118,12 @@
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>off</HistoryList>
       <NbBookmark>3</NbBookmark>
       <Bookmark>
         <NetworkName>Bell-Internet</NetworkName>
@@ -233,7 +230,6 @@
         <EnableIMS>false</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>

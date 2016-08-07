@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0009</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -102,7 +102,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
@@ -111,14 +110,12 @@
     </Messages>
     <BT>
       <Activation>off</Activation>
-      <Visibility>off</Visibility>
     </BT>
     <Wifi>
       <WifiEnableStatus>off</WifiEnableStatus>
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <HistoryList>off</HistoryList>
       <NbBookmark>9</NbBookmark>
       <Bookmark>
         <NetworkName>Fido</NetworkName>
@@ -193,15 +190,16 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>5</NbNetProfile>
+        <NbNetProfile>6</NbNetProfile>
         <NetworkName>Fido</NetworkName>
         <ProfBrowser>Fido LTE</ProfBrowser>
         <ProfMMS>Fido MMS</ProfMMS>
         <ProfIntSharing>LTE Tethering</ProfIntSharing>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Netsvcs</ProfXCAP>
+        <ProfEpdg>Rogers EPDG</ProfEpdg>
       </ProfileHandle>
-      <NbProfile>5</NbProfile>
+      <NbProfile>6</NbProfile>
       <Profile>
         <NetworkName>Fido</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -271,6 +269,26 @@
         <MTUSize>1430</MTUSize>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Fido</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Rogers EPDG</ProfileName>
+        <URL>http://mms.fido.ca</URL>
+        <Auth>none</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsproxy.fido.ca</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>netsvcs</APN>
         </PSparam>
       </Profile>
       <Profile>

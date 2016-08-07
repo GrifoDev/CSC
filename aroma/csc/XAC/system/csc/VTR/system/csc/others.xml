@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0020</Version>
+  <Version>ED0022</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>VTR</SalesCode>
@@ -40,7 +40,7 @@
     <CscFeature_Common_SupportBatteryConversing>FALSE</CscFeature_Common_SupportBatteryConversing>
     <CscFeature_Common_SupportTfnHuxPco>FALSE</CscFeature_Common_SupportTfnHuxPco>
     <CscFeature_Common_SupportDualNumberService>FALSE</CscFeature_Common_SupportDualNumberService>
-    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>VID</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>VID</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
@@ -57,6 +57,7 @@
     <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
     <CscFeature_Setting_CustNetworkSelMenu4>VODAFONE</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_NotiLteAvailableStatus>TRUE</CscFeature_Setting_NotiLteAvailableStatus>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_ConfigAirView>+webpage</CscFeature_Setting_ConfigAirView>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
