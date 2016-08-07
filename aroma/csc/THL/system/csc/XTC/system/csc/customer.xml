@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>PHILIPPINES</Country>
     <CountryISO>PH</CountryISO>
     <Region>SEA</Region>
     <SalesCode>XTC</SalesCode>
-    <NbNetworkInfo>14</NbNetworkInfo>
+    <NbNetworkInfo>11</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>51502</MCCMNC>
       <NetworkName>Globe Postpaid</NetworkName>
@@ -50,18 +50,6 @@
     <NetworkInfo>
       <MCCMNC>515039</MCCMNC>
       <NetworkName>SUN LTE</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>310110</MCCMNC>
-      <NetworkName>IT&amp;E Postpaid</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>310110</MCCMNC>
-      <NetworkName>IT&amp;E Prepaid</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>51506</MCCMNC>
-      <NetworkName>BELLTEL</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -139,10 +127,6 @@
     <Messages>
       <SMS>
         <DeliveryReport>off</DeliveryReport>
-        <MsgTypeThreshold>
-          <ThresholdValue>10</ThresholdValue>
-          <ThresholdType>pagecount</ThresholdType>
-        </MsgTypeThreshold>
         <MaxRecipient>20</MaxRecipient>
       </SMS>
       <MMS>
@@ -176,7 +160,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>8</NbProfileHandle>
+      <NbProfileHandle>5</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Globe Postpaid</NetworkName>
@@ -206,22 +190,7 @@
         <ProfBrowser>SUN INTERNET</ProfBrowser>
         <ProfMMS>SUN MMS</ProfMMS>
       </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
-        <NetworkName>IT&amp;E Postpaid</NetworkName>
-        <ProfBrowser>IT&amp;E Postpaid</ProfBrowser>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
-        <NetworkName>IT&amp;E Prepaid</NetworkName>
-        <ProfBrowser>IT&amp;E Prepaid</ProfBrowser>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
-        <NetworkName>BELLTEL</NetworkName>
-        <ProfBrowser>Internet</ProfBrowser>
-      </ProfileHandle>
-      <NbProfile>12</NbProfile>
+      <NbProfile>9</NbProfile>
       <Profile>
         <NetworkName>Globe Postpaid</NetworkName>
         <Editable>yes</Editable>
@@ -348,42 +317,6 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>minternet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>IT&amp;E Postpaid</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>IT&amp;E Postpaid</ProfileName>
-        <URL>http://www.google.com</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>sp.ite.net</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>IT&amp;E Prepaid</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>IT&amp;E Prepaid</ProfileName>
-        <URL>http://www.google.com</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>prepaid.ite.net</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>BELLTEL</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Internet</ProfileName>
-        <URL>http://www.google.com.ph</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet</APN>
         </PSparam>
       </Profile>
     </Connections>

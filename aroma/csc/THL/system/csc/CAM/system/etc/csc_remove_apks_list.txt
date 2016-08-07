@@ -1,3 +1,4 @@
 /system/app/MySingtel_v4.0.2/MySingtel_v4.0.2.apk
 /system/app/QuaTangGalaxyStub/QuaTangGalaxyStub.apk
 /system/priv-app/Ignite-Singtel_1.7.306_releaseProduction/Ignite-Singtel_1.7.306_releaseProduction.apk
+/system/priv-app/IPsecService/IPsecService.apk

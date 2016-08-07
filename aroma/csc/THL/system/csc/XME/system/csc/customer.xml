@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>MALAYSIA</Country>
     <CountryISO>MY</CountryISO>
     <Region>SEA</Region>
     <SalesCode>XME</SalesCode>
-    <NbNetworkInfo>4</NbNetworkInfo>
+    <NbNetworkInfo>6</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>50219</MCCMNC>
       <NetworkName>CELCOM</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>502152</MCCMNC>
+      <NetworkName>Yes 4G</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>50212</MCCMNC>
@@ -22,6 +26,10 @@
     <NetworkInfo>
       <MCCMNC>50218</MCCMNC>
       <NetworkName>U MOBILE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45001</MCCMNC>
+      <NetworkName>Test Bed</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -207,7 +215,7 @@
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
     <Connections>
-      <NbProfileHandle>4</NbProfileHandle>
+      <NbProfileHandle>5</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>MAXIS</NetworkName>
@@ -222,6 +230,13 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Yes 4G</NetworkName>
+        <ProfBrowser>yesnet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>yesnet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>U MOBILE</NetworkName>
         <ProfBrowser>U Mobile Internet</ProfBrowser>
         <ProfMMS>U Mobile MMS</ProfMMS>
@@ -232,7 +247,7 @@
         <ProfBrowser>DiGi Internet</ProfBrowser>
         <ProfMMS>DiGi MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>8</NbProfile>
+      <NbProfile>10</NbProfile>
       <Profile>
         <NetworkName>MAXIS</NetworkName>
         <Editable>yes</Editable>
@@ -351,6 +366,68 @@
           <APN>celcom3g</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Yes 4G</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Yes 4G</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>yesnet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>yesnet</APN>
+        </PSparam>
+      </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>Yes 4G</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Test Bed</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>

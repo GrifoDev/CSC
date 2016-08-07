@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>PHILIPPINES</Country>
     <CountryISO>PH</CountryISO>
     <Region>SEA</Region>
@@ -83,10 +83,6 @@
     <Messages>
       <SMS>
         <DeliveryReport>off</DeliveryReport>
-        <MsgTypeThreshold>
-          <ThresholdValue>10</ThresholdValue>
-          <ThresholdType>pagecount</ThresholdType>
-        </MsgTypeThreshold>
         <MaxRecipient>20</MaxRecipient>
       </SMS>
       <MMS>
