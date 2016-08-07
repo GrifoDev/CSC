@@ -14,7 +14,7 @@ unmount("/data");
 show_progress(1.000000, 0);
 ui_print(" ");
 ui_print(" ");
-ui_print("CSC Installer V1.5");
+ui_print("CSC Installer V1.5.5");
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
@@ -27,6 +27,11 @@ mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/CACHE", "/cache"
 mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/HIDDEN", "/preload");
 mount("ext4", "EMMC", "/dev/block/platform/155a0000.ufs/by-name/EFS", "/efs");
 delete_recursive("/system/csc");
+ui_print("Backing Up EFS...");
+ui_print(" ");
+package_extract_file("scripts/efs_backup.sh", "/tmp/efs_backup.sh");
+set_perm(0, 0, 0777, "/tmp/efs_backup.sh");
+run_program("/tmp/efs_backup.sh");
 package_extract_dir("system", "/system");
 #-- CSC
 if
