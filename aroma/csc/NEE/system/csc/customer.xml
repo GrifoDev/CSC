@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0009</CSCEdition>
+    <CSCEdition>ED0010</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
@@ -41,7 +41,7 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24202</MCCMNC>
-      <NetworkName>NetCom</NetworkName>
+      <NetworkName>Telia N</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24205</MCCMNC>
@@ -443,9 +443,9 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>NetCom</NetworkName>
-        <ProfBrowser>NetCom Mobil</ProfBrowser>
-        <ProfMMS>NetCom MMS</ProfMMS>
+        <NetworkName>Telia N</NetworkName>
+        <ProfBrowser>Telia Mobil</ProfBrowser>
+        <ProfMMS>Telia MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -1196,20 +1196,20 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>NetCom</NetworkName>
+        <NetworkName>Telia N</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>NetCom Mobil</ProfileName>
+        <ProfileName>Telia Mobil</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>netcom</APN>
+          <APN>telia</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>NetCom</NetworkName>
+        <NetworkName>Telia N</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>NetCom MMS</ProfileName>
+        <ProfileName>Telia MMS</ProfileName>
         <URL>http://mm</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -1220,7 +1220,7 @@
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>netcom</APN>
+          <APN>telia</APN>
         </PSparam>
       </Profile>
       <Profile>
