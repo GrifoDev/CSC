@@ -51,8 +51,9 @@
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_DefaultApn4LTE>ims</CscFeature_RIL_DefaultApn4LTE>
-    <CscFeature_Setting_HideApnList>ims,IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>ims,IMS,xcap.tim.it</CscFeature_Setting_HideApnList>
     <CscFeature_Contact_ConfigImsOpStyle>TIM</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_LockScreen_ConfigClockDisplayPolicy>IgnoreNationalRoamingWithoutMNC</CscFeature_LockScreen_ConfigClockDisplayPolicy>
   </FeatureSet>
 </SamsungMobileFeauture>
