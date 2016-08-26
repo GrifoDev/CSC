@@ -1,13 +1,10 @@
-12
+9
 NaverTvCast.apk
 AxelSpringer.apk
 SamsungPayStub.apk
 CnnPanel.apk
+AndroidPay_erasable_Hero.apk
 MSSkype_stub.apk
 OneNote.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
 SamsungUpdates.apk
 OMCAgent.apk

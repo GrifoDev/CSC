@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>South Africa</Country>
     <CountryISO>ZA</CountryISO>
     <Region>MEA</Region>
@@ -117,7 +117,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -182,12 +181,53 @@
         <BookmarkName>MTN Play</BookmarkName>
         <URL>http://www.mtnplay.co.za/portal/defaultx.aspx</URL>
       </Bookmark>
+      <NbQuickAccess>8</NbQuickAccess>
+      <QuickAccess>
+        <Index>1</Index>
+        <QATitle>Yahoo</QATitle>
+        <QAURL>https://www.yahoo.com/?tsrc=samsung_qa</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>2</Index>
+        <QATitle>Google</QATitle>
+        <QAURL>http://www.google.com/</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>3</Index>
+        <QATitle>Wikipedia</QATitle>
+        <QAURL>http://m.wikipedia.org/</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>4</Index>
+        <QATitle>Youtube</QATitle>
+        <QAURL>http://m.youtube.com/</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>5</Index>
+        <QATitle>BBC</QATitle>
+        <QAURL>http://www.bbc.com/news/world/africa/</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>6</Index>
+        <QATitle>news24</QATitle>
+        <QAURL>http://www.news24.com/Africa</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>7</Index>
+        <QATitle>PUNCH</QATitle>
+        <QAURL>http://www.punchng.com/</QAURL>
+      </QuickAccess>
+      <QuickAccess>
+        <Index>8</Index>
+        <QATitle>SuperSport</QATitle>
+        <QAURL>http://mobi.supersport.com/</QAURL>
+      </QuickAccess>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>6</NbProfileHandle>
+      <NbProfileHandle>7</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Vodacom</NetworkName>
@@ -214,6 +254,18 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Red Bull Mobile</NetworkName>
+        <ProfBrowser>Redbull GPRS</ProfBrowser>
+        <ProfMMS>Redbull MMS</ProfMMS>
+        <ProfEmail>Redbull GPRS</ProfEmail>
+        <ProfStreaming>Redbull GPRS</ProfStreaming>
+        <ProfSyncDS>Redbull GPRS</ProfSyncDS>
+        <ProfActiveSync>Redbull GPRS</ProfActiveSync>
+        <ProfSyncDM>Redbull GPRS</ProfSyncDM>
+        <ProfAGPS>Redbull GPRS</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>Virgin</NetworkName>
         <ProfBrowser>virgin_internet</ProfBrowser>
         <ProfMMS>virgin_mms</ProfMMS>
@@ -224,22 +276,7 @@
         <ProfBrowser>TelkomSA internet</ProfBrowser>
         <ProfMMS>TelkomSA mms</ProfMMS>
       </ProfileHandle>
-      <NbProfile>12</NbProfile>
-      <Profile>
-        <NetworkName>Vodacom</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>LTE.Vodacom</ProfileName>
-        <URL>http://live.vodafone.com</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
+      <NbProfile>11</NbProfile>
       <Profile>
         <NetworkName>Vodacom</NetworkName>
         <Editable>no</Editable>

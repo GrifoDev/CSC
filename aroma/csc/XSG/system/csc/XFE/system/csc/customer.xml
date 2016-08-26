@@ -9,7 +9,7 @@
     <NbNetworkInfo>2</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>65501</MCCMNC>
-      <NetworkName>Vodacom-SA</NetworkName>
+      <NetworkName>Vodacom</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>65510</MCCMNC>
@@ -55,7 +55,7 @@
     <Messages>
       <NbVoicemail>2</NbVoicemail>
       <Voicemail>
-        <NetworkName>Vodacom-SA</NetworkName>
+        <NetworkName>Vodacom</NetworkName>
         <VoicemailName>Voicemail</VoicemailName>
         <TelNum>121</TelNum>
       </Voicemail>
@@ -82,7 +82,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -104,8 +103,8 @@
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>Vodacom-SA</NetworkName>
-        <ProfBrowser>Internet.Vodacom</ProfBrowser>
+        <NetworkName>Vodacom</NetworkName>
+        <ProfBrowser>LTE.Vodacom</ProfBrowser>
         <ProfMMS>MMS.Vodacom</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
@@ -116,7 +115,24 @@
       </ProfileHandle>
       <NbProfile>4</NbProfile>
       <Profile>
-        <NetworkName>Vodacom-SA</NetworkName>
+        <NetworkName>Vodacom</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>LTE.Vodacom</ProfileName>
+        <URL>http://live.vodafone.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>lte.vodacom.za</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>MMS.Vodacom</ProfileName>
         <URL>http://mmsc.vodacom4me.co.za/</URL>
@@ -125,31 +141,18 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>196.6.128.13</ServAddr>
+          <ServAddr>196.006.128.013</ServAddr>
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>mms.vodacom.net</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Vodacom-SA</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>Internet.Vodacom</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
+          <APN>lte.vodacom.za</APN>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>MTN</NetworkName>
         <Editable>no</Editable>
         <ProfileName>MTN Data</ProfileName>
+        <URL>http://www.mtn.co.za</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>

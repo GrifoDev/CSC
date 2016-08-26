@@ -50,6 +50,7 @@
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting> 
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag> 
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn> 
+    <CscFeature_RIL_SupportVolteVtCall>TRUE</CscFeature_RIL_SupportVolteVtCall>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
@@ -58,5 +59,13 @@
     <CscFeature_RIL_SupportMptcp>TRUE</CscFeature_RIL_SupportMptcp>
     <CscFeature_Setting_SupportMptcpMenu>TRUE</CscFeature_Setting_SupportMptcpMenu>
     <CscFeature_RIL_ConfigVolteRedialPolicy>TUR</CscFeature_RIL_ConfigVolteRedialPolicy>
+    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_RIL_ConfigNetworkNameForEpdg>VoWiFi</CscFeature_RIL_ConfigNetworkNameForEpdg>
+    <CscFeature_VoiceCall_ConfigOpStyleForVolte>UseHDPStringSim_28603;</CscFeature_VoiceCall_ConfigOpStyleForVolte>
+    <CscFeature_Setting_SupportWiFiCallingMenu>true</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuSim_28601;</CscFeature_RIL_ConfigEpdgExtraFunction>
   </FeatureSet>
 </SamsungMobileFeauture>
