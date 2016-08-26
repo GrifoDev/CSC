@@ -1,0 +1,5 @@
+/hidden/Common_app/(Cosmote_MyInternet)_Cosmote_MyInternet_1.0.apk
+/hidden/Common_app/(Evernote)_Evernote_Stub_3.2.2.apk
+/hidden/Common_app/(Lookout)_Lookout_Security_9.25.11-9afaf69.apk
+/hidden/Common_app/(Shazam)_Shazam_6.1.1.apk
+/hidden/Common_app/(Taxibeat_GR)_Taxibeat_8.7.1.apk
