@@ -1,10 +1,10 @@
 <?xml  version="1.0" encoding="UTF-8" ?>
 <SW-Configuration>
 	<MobileData>
-	<PublicName>SM-G930W8</PublicName>
+	<PublicName>SM-G935W8</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G930W8OYA</CSCName>
+	<CSCName>G935W8OYA</CSCName>
 	<CSCVersion>1APG1</CSCVersion>
 	<NbCustomer>12</NbCustomer>
 	<CustomerData src="/Customer/BMC/customer.xml" />

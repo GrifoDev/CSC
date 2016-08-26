@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0027</Version>
+  <Version>ED0026</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>MTA</SalesCode>
@@ -14,7 +14,7 @@
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>OYA</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>OYA</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
-    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,AirplaneMode,DormantMode,Flashlight,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,Sfinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,AirplaneMode,DormantMode,Flashlight,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_AOD_ConfigDefaultClockStyle>1</CscFeature_AOD_ConfigDefaultClockStyle>
     <CscFeature_Contact_UseSeparateAddressField>FALSE</CscFeature_Contact_UseSeparateAddressField>

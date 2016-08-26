@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0011</CSCEdition>
+    <CSCEdition>ED0010</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -618,7 +618,6 @@
         <NetworkName>Telus</NetworkName>
         <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
-        <Selectable>no</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>TELUS SP</ProfileName>
         <URL>http://m.telusmobility.com</URL>
@@ -638,7 +637,6 @@
         <NetworkName>Telus</NetworkName>
         <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
-        <Selectable>no</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>TELUS MMS</ProfileName>
         <URL>http://aliasredirect.net/proxy/mmsc</URL>

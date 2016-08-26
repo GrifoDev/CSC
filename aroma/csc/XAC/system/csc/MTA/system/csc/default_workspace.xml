@@ -60,11 +60,11 @@
                 launcher:screen="0" 
                 launcher:packageName="com.google.android.googlequicksearchbox" 
                 launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
-            <!-- Chrome -->
+             <!-- Chrome -->
             <favorite
                 launcher:screen="1" 
                 launcher:packageName="com.android.chrome" 
-                launcher:className="com.google.android.apps.chrome.Main" />
+                launcher:className="com.google.android.apps.chrome.Main" />				
             <!-- Gmail -->
             <favorite
                 launcher:screen="2" 

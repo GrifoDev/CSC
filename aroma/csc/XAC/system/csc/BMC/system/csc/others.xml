@@ -10,6 +10,7 @@
     <CscFeature_BT_DisableNAP>TRUE</CscFeature_BT_DisableNAP>
     <CscFeature_BT_DisablePANU>FALSE</CscFeature_BT_DisablePANU>
     <CscFeature_BT_DisableSAP>TRUE</CscFeature_BT_DisableSAP>
+    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Calendar_EnableShiftedWeekNumber>FALSE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_Common_AutoConfigurationType>XAC,CANADA_ONESKU</CscFeature_Common_AutoConfigurationType>
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
@@ -26,7 +27,6 @@
     <CscFeature_Framework_DisableConfirmGlobalAction>FALSE</CscFeature_Framework_DisableConfirmGlobalAction>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>OYC</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
     <CscFeature_Framework_SupportCancelButtonGlobalAction>FALSE</CscFeature_Framework_SupportCancelButtonGlobalAction>
-    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Framework_SupportDataModeSwitchGlobalAction>FALSE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
     <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
     <CscFeature_GMS_SetClientIDBaseAm>android-bell-ca</CscFeature_GMS_SetClientIDBaseAm>

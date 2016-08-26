@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0009</CSCEdition>
+    <CSCEdition>ED0013</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -298,6 +298,7 @@
         <EnableStatus>enable</EnableStatus>
         <ProfileName>Netsvcs</ProfileName>
         <Auth>none</Auth>
+        <Protocol>http</Protocol>
         <MTUSize>1430</MTUSize>
         <PSparam>
           <APN>netsvcs</APN>

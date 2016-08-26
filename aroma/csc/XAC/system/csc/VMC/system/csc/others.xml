@@ -15,6 +15,7 @@
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
     <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Common_ConfigSwis>-1</CscFeature_Common_ConfigSwis>
     <CscFeature_Common_DisableMenu4GalSearch>TRUE</CscFeature_Common_DisableMenu4GalSearch>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
@@ -102,7 +103,6 @@
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
-    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Setting_HideApnList>IMS,Bell XCAP,ims</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>FALSE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>

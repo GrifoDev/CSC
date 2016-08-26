@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00023</Version>
+  <Version>ED00022</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>TLS</SalesCode>
@@ -25,6 +25,7 @@
     <CscFeature_Contact_UseSeparateAddressField>FALSE</CscFeature_Contact_UseSeparateAddressField>
     <CscFeature_Email_UseFixedSmtpPortAs>25</CscFeature_Email_UseFixedSmtpPortAs>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>OYB</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
+    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_SupportAutoIconAlign>FALSE</CscFeature_Launcher_SupportAutoIconAlign>
@@ -94,7 +95,6 @@
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
-    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
     <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON, Google, Internet,Camera</CscFeature_Setting_ShortcutListInLockScreen>
