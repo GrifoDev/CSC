@@ -105,7 +105,6 @@
       <Sound>
         <ExtraSound>
           <ConnectTone>on</ConnectTone>
-          <MinuteMind>off</MinuteMind>
         </ExtraSound>
       </Sound>
       <Phone>
@@ -134,7 +133,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -236,7 +234,7 @@
         <NetworkName>Si.mobil</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vodafone live!</ProfileName>
-        <URL>http://wap.simobil.si</URL>
+        <URL>http://www.simobil.si</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -257,7 +255,7 @@
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>80.95.224.46</ServAddr>
-          <Port>9201</Port>
+          <Port>8080</Port>
         </Proxy>
         <PSparam>
           <APN>mms.simobil.si</APN>

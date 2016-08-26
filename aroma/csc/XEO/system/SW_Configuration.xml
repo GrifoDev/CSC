@@ -5,8 +5,8 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>G935FOXX</CSCName>
-	<CSCVersion>1APD2</CSCVersion>
-	<NbCustomer>13</NbCustomer>
+	<CSCVersion>1BPH1</CSCVersion>
+	<NbCustomer>12</NbCustomer>
 	<CustomerData src="/Customer/BGL/customer.xml" />
 	<CustomerData src="/Customer/CYO/customer.xml" />
 	<CustomerData src="/Customer/ORX/customer.xml" />
@@ -19,6 +19,5 @@
 	<CustomerData src="/Customer/XEO/customer.xml" />
 	<CustomerData src="/Customer/MET/customer.xml" />
 	<CustomerData src="/Customer/VIM/customer.xml" />
-	<CustomerData src="/Customer/TOP/customer.xml" />
 	</CustomerDataSet>
 </SW-Configuration>
