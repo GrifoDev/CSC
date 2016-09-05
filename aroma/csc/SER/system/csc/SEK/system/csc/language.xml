@@ -17,6 +17,7 @@ ca_ES;eu_ES;gl_ES;kk_KZ;ru_RU; sk_SK; sl_SI; uk_UA; uz_UZ;mn_MN;
         	en_GB;en_US;az;ca;cs;da;de;et;es;eu;el;fr;gl;ka;hr;it;is;kk;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;sl;sv;tr;uk;ko;hy;bg;zh_CN;ar;mn;
                 </SupportList>
                 <EnableList>
+					uk;en_US;				
                 </EnableList>
           </Input>
    </LanguageSet>

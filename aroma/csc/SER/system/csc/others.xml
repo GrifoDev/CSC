@@ -33,5 +33,7 @@
     <CscFeature_NFC_FollowTechnologyRouteToDefRoute>TRUE</CscFeature_NFC_FollowTechnologyRouteToDefRoute>
     <CscFeature_RIL_DefTimeZoneHandling>Enable</CscFeature_RIL_DefTimeZoneHandling>
     <CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
+    <CscFeature_GMS_SetClientIDBaseMs>ms-android-samsung-ss</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_Web_ConfigDefaultSearchEngine>yandex_ru</CscFeature_Web_ConfigDefaultSearchEngine>  	
   </FeatureSet>
 </SamsungMobileFeature>

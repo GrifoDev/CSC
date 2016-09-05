@@ -20,6 +20,11 @@
       <NetworkName>Megafon</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>25002</MCCMNC>
+      <NetworkName>Yota</NetworkName>
+      <SPName>YOTA</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>25011</MCCMNC>
       <NetworkName>Yota</NetworkName>
     </NetworkInfo>
@@ -42,10 +47,6 @@
     <NetworkInfo>
       <MCCMNC>25035</MCCMNC>
       <NetworkName>Motiv</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>25048</MCCMNC>
-      <NetworkName>V-tell</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>25059</MCCMNC>
@@ -98,16 +99,6 @@
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
-        <NbFastDormancy>1</NbFastDormancy>
-        <FastDormancy>
-          <NetworkName>default</NetworkName>
-          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
-        </FastDormancy>
-        <NbWbAmr>1</NbWbAmr>
-        <WbAmr>
-          <NetworkName>default</NetworkName>
-          <WbAmrCodec>on</WbAmrCodec>
-        </WbAmr>
         <NbSOSNumber>1</NbSOSNumber>
         <SOSNumber>112, 911</SOSNumber>
         <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
@@ -126,16 +117,15 @@
         <DefLanguage>ru_RU</DefLanguage>
         <DefLanguageNoSIM>ru_RU</DefLanguageNoSIM>
         <T9Enabling>disable</T9Enabling>
+        <T9Language>russian</T9Language>
         <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
           <TimezoneUpdate>on</TimezoneUpdate>
         </DateTimeFormat>
         <WeekendSetting>satsun</WeekendSetting>
       </Phone>
     </Main>
-    <Contact>
-      <SavePosition>ask</SavePosition>
-    </Contact>
     <Calendar>
       <StartDay>monday</StartDay>
     </Calendar>
@@ -163,11 +153,8 @@
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
         </MMSView>
-      </MMS>
+      </MMS>		
       <Email>
-        <EmailReceiving>
-          <KeepServer>on</KeepServer>
-        </EmailReceiving>
         <NbAccount>1</NbAccount>
         <Account>
           <NetworkName>default</NetworkName>
@@ -200,7 +187,7 @@
         <NetworkName>default</NetworkName>
         <Index>2</Index>
         <BookmarkName>Яндекс</BookmarkName>
-        <URL>http://www.yandex.ru/?clid=1960526</URL>
+        <URL>https://www.yandex.ru/?clid=2253643</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
@@ -213,116 +200,95 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>19</NbProfileHandle>
+      <NbProfileHandle>18</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>MTS</NetworkName>
         <ProfBrowser>MTS Internet</ProfBrowser>
         <ProfMMS>MTS MMS</ProfMMS>
-        <ProfEmail>MTS Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Beeline</NetworkName>
         <ProfBrowser>Beeline Internet</ProfBrowser>
         <ProfMMS>Beeline MMS</ProfMMS>
-        <ProfEmail>Beeline Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Megafon</NetworkName>
         <ProfBrowser>Megafon Internet</ProfBrowser>
         <ProfMMS>Megafon MMS</ProfMMS>
-        <ProfEmail>Megafon Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Yota</NetworkName>
         <ProfBrowser>Yota Internet</ProfBrowser>
         <ProfMMS>Yota MMS</ProfMMS>
-        <ProfEmail>Yota Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>TELE2</NetworkName>
         <ProfBrowser>TELE2 Internet</ProfBrowser>
         <ProfMMS>TELE2 MMS</ProfMMS>
-        <ProfEmail>TELE2 Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Tattelecom</NetworkName>
         <ProfBrowser>Tattelecom Internet</ProfBrowser>
         <ProfMMS>Tattelecom MMS</ProfMMS>
-        <ProfEmail>Tattelecom Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Motiv</NetworkName>
         <ProfBrowser>Motiv Internet</ProfBrowser>
         <ProfMMS>Motiv MMS</ProfMMS>
-        <ProfEmail>Motiv Internet</ProfEmail>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
-        <NetworkName>V-tell</NetworkName>
-        <ProfBrowser>V-tell Internet</ProfBrowser>
-        <ProfEmail>V-tell Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>WIFIRE</NetworkName>
         <ProfBrowser>WIFIRE Internet</ProfBrowser>
-        <ProfEmail>WIFIRE Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Velcom</NetworkName>
         <ProfBrowser>Velcom Internet</ProfBrowser>
         <ProfMMS>Velcom MMS</ProfMMS>
-        <ProfEmail>Velcom Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>MTS.BY</NetworkName>
         <ProfBrowser>MTS.BY Internet</ProfBrowser>
         <ProfMMS>MTS.BY MMS</ProfMMS>
-        <ProfEmail>MTS.BY Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Life</NetworkName>
         <ProfBrowser>Life Internet</ProfBrowser>
         <ProfMMS>Life MMS</ProfMMS>
-        <ProfEmail>Life Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>AZERCELL</NetworkName>
         <ProfBrowser>Azercell Internet</ProfBrowser>
         <ProfMMS>Azercell MMS</ProfMMS>
-        <ProfEmail>Azercell Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Bakcell</NetworkName>
         <ProfBrowser>Bakcell Internet</ProfBrowser>
         <ProfMMS>Bakcell MMS</ProfMMS>
-        <ProfEmail>Bakcell Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Nar</NetworkName>
         <ProfBrowser>Nar Internet</ProfBrowser>
         <ProfMMS>Nar MMS</ProfMMS>
-        <ProfEmail>Nar Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Geocell</NetworkName>
         <ProfBrowser>Geocell Internet</ProfBrowser>
         <ProfMMS>Geocell MMS</ProfMMS>
-        <ProfEmail>Geocell Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -335,16 +301,14 @@
         <NetworkName>VivaCell-MTS</NetworkName>
         <ProfBrowser>VivaCell-MTS Inet</ProfBrowser>
         <ProfMMS>VivaCell-MTS MMS</ProfMMS>
-        <ProfEmail>VivaCell-MTS Inet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Orange</NetworkName>
         <ProfBrowser>Orange Internet</ProfBrowser>
         <ProfMMS>Orange MMS</ProfMMS>
-        <ProfEmail>Orange Internet</ProfEmail>
       </ProfileHandle>
-      <NbProfile>36</NbProfile>
+      <NbProfile>35</NbProfile>
       <Profile>
         <NetworkName>MTS</NetworkName>
         <Editable>yes</Editable>
@@ -573,21 +537,6 @@
           <APN>inet.ycc.ru</APN>
           <UserId>motiv</UserId>
           <Password>motiv</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>V-tell</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>V-tell Internet</ProfileName>
-        <URL>http://v-tell.com</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet.v-tell.com</APN>
         </PSparam>
       </Profile>
       <Profile>

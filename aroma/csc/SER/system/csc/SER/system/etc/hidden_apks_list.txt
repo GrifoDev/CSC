@@ -1,3 +1,4 @@
 /hidden/app/com.samsung.galaxy_gifts__1.17_release.apk
 /hidden/app/Samsung_Store_1.11_20151207.apk
 /hidden/app/ubank_samsung.apk
+/hidden/app/yandex.search_2016_4.99.apk
