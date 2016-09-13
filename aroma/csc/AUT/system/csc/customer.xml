@@ -183,11 +183,13 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <MMSView>
-          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
-          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
-        </MMSView>
       </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+      </Email>
     </Messages>
     <Browser>
       <NbBookmark>2</NbBookmark>
@@ -249,7 +251,7 @@
       <NbProfile>15</NbProfile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Swisscom Services</ProfileName>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
@@ -264,7 +266,7 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Swisscom MMS</ProfileName>
         <URL>http://mms.natel.ch:8079</URL>
         <Auth>normal</Auth>
@@ -282,7 +284,7 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom IMS</ProfileName>
         <URL>ims</URL>
@@ -299,7 +301,7 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom hos</ProfileName>
         <Auth>none</Auth>
@@ -515,7 +517,6 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>		  
         </VoLTE>
       </Setting>
       <Setting>
@@ -532,7 +533,6 @@
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
         </VoLTE>
       </Setting>
     </IMSSetting>
