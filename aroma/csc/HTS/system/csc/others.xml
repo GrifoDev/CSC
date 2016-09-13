@@ -10,7 +10,6 @@
     <CscFeature_Contact_ANRConfig>1</CscFeature_Contact_ANRConfig>
     <CscFeature_Setting_DisableNetworkMode>gsmonly</CscFeature_Setting_DisableNetworkMode>
     <CscFeature_Setting_EnableDataRoamingMenuInDetail>TRUE</CscFeature_Setting_EnableDataRoamingMenuInDetail>
-    <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
     <CscFeature_Setting_DataRoamingOption>national</CscFeature_Setting_DataRoamingOption>
     <CscFeature_Setting_EnableModemResetDuringFactoryReset>TRUE</CscFeature_Setting_EnableModemResetDuringFactoryReset>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
@@ -58,7 +57,7 @@
     
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
-    <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_ConfigEmergencyApn>sos,IPV4,IPV4,IWLAN</CscFeature_RIL_ConfigEmergencyApn>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
 
