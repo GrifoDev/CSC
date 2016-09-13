@@ -18,7 +18,6 @@
     <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
     <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
-
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>

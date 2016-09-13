@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>Germany</Country>
     <CountryISO>DE</CountryISO>
     <Region>EUR</Region>
@@ -143,7 +143,6 @@
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
         <CharSupport>gsmalpha</CharSupport>
-        <SSMS>off</SSMS>
       </SMS>
       <MMS>
         <MmsSending>
@@ -157,7 +156,6 @@
           <SendReadRep>off</SendReadRep>
           <SendDeliveryRep>off</SendDeliveryRep>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -536,6 +534,7 @@
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
