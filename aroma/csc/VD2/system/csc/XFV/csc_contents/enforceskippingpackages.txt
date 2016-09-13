@@ -3,6 +3,7 @@ NaverTvCast.apk
 smartcallprovider-open-release.apk
 AxelSpringer.apk
 SamsungPayStub.apk
+AndroidPay_erasable_Hero.apk
 FBAppManager.apk
 FBInstaller.apk
 FBInstagram_stub.apk
@@ -10,6 +11,5 @@ FBMessenger_stub.apk
 Facebook_stub.apk
 WhatsAppDownloader.apk
 MSSkype_stub.apk
-GalaxyCare.apk
 SamsungUpdates.apk
 OMCAgent.apk

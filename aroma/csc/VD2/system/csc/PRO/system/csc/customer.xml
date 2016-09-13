@@ -77,10 +77,10 @@
           <LCDStatus>off</LCDStatus>
           <Version>rel8</Version>
         </FastDormancy>
-        <NbSOSNumber>1</NbSOSNumber>
-        <SOSNumber>112, 117, 100, 101</SOSNumber>
-        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
-        <SOSNumberNoSIM>112, 117, 100, 101</SOSNumberNoSIM>
+        <NbSOSNumber>3</NbSOSNumber>
+        <SOSNumber>100, 112, 911</SOSNumber>
+        <NbSOSNumberNoSIM>3</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>100, 112, 911</SOSNumberNoSIM>
       </Network>
       <Sound>
         <ExtraSound>
@@ -284,6 +284,7 @@
       </Profile>
       <Profile>
         <NetworkName>Proximus</NetworkName>
+		<IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Proximus Internet</ProfileName>
         <URL>http://www.proximus.be</URL>
@@ -301,6 +302,7 @@
         <NetworkName>Proximus</NetworkName>
         <Editable>no</Editable>
         <ProfileName>ims</ProfileName>
+		<Bearer>lte</Bearer>
         <IpVersion>ipv4v6</IpVersion>
         <MTUSize>1500</MTUSize>
         <Proxy>

@@ -170,12 +170,6 @@
       <WifiEAPMethod>sim</WifiEAPMethod>
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
-    <WifiProfile>
-      <WifiSSID>Free_Swisscom_Auto_Login</WifiSSID>
-      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
-      <WifiEAPMethod>sim</WifiEAPMethod>
-      <WifiPriority>2</WifiPriority>
-    </WifiProfile>
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
@@ -226,7 +220,8 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom IMS</ProfileName>
         <Auth>normal</Auth>
@@ -238,7 +233,8 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom hos</ProfileName>
         <Auth>none</Auth>

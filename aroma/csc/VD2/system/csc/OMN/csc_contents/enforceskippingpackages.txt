@@ -1,8 +1,9 @@
-14
+15
 NaverTvCast.apk
 AxelSpringer.apk
 SamsungPayStub.apk
 CnnPanel.apk
+AndroidPay_erasable_Hero.apk
 FBAppManager.apk
 FBInstaller.apk
 FBInstagram_stub.apk

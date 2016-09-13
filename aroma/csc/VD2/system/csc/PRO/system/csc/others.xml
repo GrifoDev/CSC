@@ -60,6 +60,8 @@
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_VoiceCall_ConfigOpStyleForVolte>REMOVE_VOLTE_OUTGOING_SETTING</CscFeature_VoiceCall_ConfigOpStyleForVolte>
   </FeatureSet>
 
 </SamsungMobileFeauture>

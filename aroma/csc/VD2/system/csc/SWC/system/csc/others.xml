@@ -27,7 +27,7 @@
   <CscFeature_RIL_ApnControlByModem>TRUE</CscFeature_RIL_ApnControlByModem>
   <CscFeature_Wifi_PriorityRuleAs>PrivateFirst</CscFeature_Wifi_PriorityRuleAs>
   <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
-  <CscFeature_VoiceCall_DialEmergNumAsNormalCall>117,118,143,144,147</CscFeature_VoiceCall_DialEmergNumAsNormalCall>
+  <CscFeature_VoiceCall_DialEmergNumAsNormalCall>117,118,143,144,145,147</CscFeature_VoiceCall_DialEmergNumAsNormalCall>
   <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   <CscFeature_RIL_ConfigAlwaysOnApn>bip,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
   <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>

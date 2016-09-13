@@ -1,9 +1,10 @@
-15
+16
 CatchFavorites_M.apk
 FlipboardBriefing.apk
 NaverTvCast.apk
 SamsungPayStub.apk
 CnnPanel.apk
+AndroidPay_erasable_Hero.apk
 FBAppManager.apk
 FBInstaller.apk
 FBInstagram_stub.apk
