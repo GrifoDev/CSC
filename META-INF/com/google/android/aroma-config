@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V1.6");
+ini_set("rom_version",          "V1.6.5");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "26.08.2016");
+ini_set("rom_date",             "13.09.2016");
 
 ##
 # Show Simple Splash
@@ -33,7 +33,7 @@ ini_set("rom_date",             "26.08.2016");
 
 splash(
   #-- Duration 4000ms / 4 seconds
-    4000,
+    2000,
   
   #-- <AROMA Resource Dir>/SPLASH.png
     "SPLASH"
@@ -391,7 +391,7 @@ selectbox(
 	"TEN",	"Norway Telenor branded",									0,      #-- selected.1 = 30
 	"TGY",	"HongKong unbranded",										0,      #-- selected.1 = 31
 	"THL",	"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",	0,      #-- selected.1 = 32
-#	"TMB",	"USA T-Mobile Branded",										0,      #-- selected.1 = 33
+	"TMB",	"USA T-Mobile Branded",										0,      #-- selected.1 = 33
 	"TMS",	"Slovak unbranded",										0,      #-- selected.1 = 34
 	"TPA",	"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",		0,      #-- selected.1 = 35
 	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 36
@@ -455,39 +455,4 @@ install(
 
 ini_set("text_next", "Finish");
 ini_set("icon_next", "@finish");
-
-checkviewbox(
-  #-- Title
-    "Installation Completed",
-	
-  #-- Text
-    "<#selectbg_g><b>Congrats...</b></#>\n\n"+
-    "<b>"+ini_get("rom_name")+"</b> has been installed into your device.\n\n",
-    
-  #-- Icon
-    "@welcome",
-
-  #-- Checkbox Text
-    "Reboot your device now. (Don't use this yet, may cause problems with stuck at boot!)",
-
-  #-- Initial Checkbox value ( 0=unchecked, 1=checked ) -  (Optional, default:0)
-    "0",
-
-  #-- Save checked value in variable "reboot_it" (Optional)
-    "reboot_it"
-);
-endif;
-
-###
-# Check if reboot checkbox was checked
-
-if
-  getvar("reboot_it")=="1"
-then
-  #
-  # reboot("onfinish");   - Reboot if anything finished
-  # reboot("now");        - Reboot Directly
-  # reboot("disable");    - If you set reboot("onfinish") before, use this command to revert it.
-  #
-  reboot("onfinish");
 endif;
