@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0009</CSCEdition>
     <Country>The Netherlands</Country>
     <CountryISO>NL</CountryISO>
     <Region>EUR</Region>
@@ -36,12 +36,14 @@
     <NetworkInfo>
       <MCCMNC>20418</MCCMNC>
       <NetworkName>Ziggo</NetworkName>
+      <CodeType>DEC</CodeType>
       <SubsetCode>122</SubsetCode>
       <SPName>Ziggo</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20601</MCCMNC>
       <NetworkName>Ziggo</NetworkName>
+      <CodeType>DEC</CodeType>
       <SubsetCode>122</SubsetCode>
       <SPName>Ziggo</SPName>
     </NetworkInfo>
@@ -299,10 +301,12 @@
     <Connections>
       <NbProfileHandle>6</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>vodafone NL</NetworkName>
         <ProfBrowser>Vodafone Internet</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Vodafone Internet</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -327,20 +331,21 @@
         <NetworkName>Tele2</NetworkName>
         <ProfBrowser>Tele2 Internet</ProfBrowser>
         <ProfMMS>Tele2 MMS</ProfMMS>
-		<ProfIMS>Tele2 IMS</ProfIMS>
+        <ProfIMS>Tele2 IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>Ziggo</NetworkName>
         <ProfBrowser>Ziggo Internet</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>12</NbProfile>
+      <NbProfile>13</NbProfile>
       <Profile>
         <NetworkName>vodafone NL</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vodafone Internet</ProfileName>
         <URL>http://mmm.samsung.nl/vodafone</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -358,6 +363,7 @@
         <ProfileName>Vodafone MMS</ProfileName>
         <URL>http://mmsc.mms.vodafone.nl</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -377,6 +383,7 @@
         <ProfileName>Telfort Internet</ProfileName>
         <URL>http://mmm.samsung.nl/telfort</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -392,6 +399,7 @@
         <ProfileName>Telfort MMS</ProfileName>
         <URL>http://mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -409,6 +417,7 @@
         <ProfileName>T-Mobile Internet</ProfileName>
         <URL>http://mmm.samsung.nl/t-mobile</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -424,6 +433,7 @@
         <ProfileName>T-Mobile MMS</ProfileName>
         <URL>http://t-mobilemms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -443,6 +453,7 @@
         <ProfileName>KPN Internet</ProfileName>
         <URL>http://mmm.samsung.nl/kpn</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -458,6 +469,7 @@
         <ProfileName>KPN MMS</ProfileName>
         <URL>http://mp.mobiel.kpn/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -475,6 +487,7 @@
         <ProfileName>Tele2 Internet</ProfileName>
         <URL>http://mmm.samsung.nl/tele2</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -490,6 +503,7 @@
         <ProfileName>Tele2 MMS</ProfileName>
         <URL>http://mmsc.tele2.nl</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -501,9 +515,9 @@
           <APN>internet.tele2.nl</APN>
         </PSparam>
       </Profile>
-	  <Profile>
+      <Profile>
         <NetworkName>Tele2</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Tele2 IMS</ProfileName>
         <Auth>none</Auth>
@@ -531,25 +545,55 @@
           <APN>internet.ziggo.nl</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>vodafone NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
-	<IMSSetting>
-     <NbSetting>1</NbSetting>
-     <Setting>
+    <IMSSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
         <NetworkName>Tele2</NetworkName>
         <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVoiceoverWIFI>FALSE</EnableVoiceoverWIFI>
-          <EnableVideocall>TRUE</EnableVideocall>
-          <EnableVoLTEindicator>FALSE</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>CS</Emregencycall_Domain>
-          <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-          <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>FALSE</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-          <SMSoIP_Domain>PS</SMSoIP_Domain>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>vodafone NL</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>
     </IMSSetting>

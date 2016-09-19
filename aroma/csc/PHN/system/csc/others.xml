@@ -31,6 +31,12 @@
     <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_Contact_ConfigImsOpStyle>PHN</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_AOD_ConfigDefStatus>OFF</CscFeature_AOD_ConfigDefStatus>
+    <CscFeature_RIL_ConfigVolteRedialPolicy>VD2</CscFeature_RIL_ConfigVolteRedialPolicy>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_20404;,ShowPrefModeMenuSim_20404;</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
