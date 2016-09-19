@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0010</CSCEdition>
+    <CSCEdition>ED0012</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -368,7 +368,20 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
-    <NbWifiProfile>1</NbWifiProfile>
+    <NbWifiProfile>4</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi.1x</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
+    </WifiProfile>
     <WifiProfile>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
       <WifiSSID>Wifi Extra</WifiSSID>
@@ -376,19 +389,30 @@
       <WifiEAPMethod>sim</WifiEAPMethod>
       <WifiPriority>3</WifiPriority>
     </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>Wifi+</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>4</WifiPriority>
+    </WifiProfile>
     <Connections>
       <NbProfileHandle>30</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Vodafone Contract</NetworkName>
         <ProfBrowser>Vodafone Contract Internet</ProfBrowser>
         <ProfMMS>Vodafone Contract MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Vodafone PAYG</NetworkName>
         <ProfBrowser>Vodafone PAYG Internet</ProfBrowser>
         <ProfMMS>Vodafone PAYG MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -565,7 +589,7 @@
         <ProfBrowser>iD Internet</ProfBrowser>
         <ProfMMS>iD MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>64</NbProfile>
+      <NbProfile>68</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <Editable>no</Editable>
@@ -1597,9 +1621,55 @@
           <APN>ims</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Vodafone Contract</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone Contract</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PAYG</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PAYG</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>3</NbSetting>
+      <NbSetting>5</NbSetting>
       <Setting>
         <NetworkName>Three UK</NetworkName>
         <Version>2.0</Version>
@@ -1654,6 +1724,46 @@
           <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>Vodafone Contract</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>Vodafone PAYG</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>

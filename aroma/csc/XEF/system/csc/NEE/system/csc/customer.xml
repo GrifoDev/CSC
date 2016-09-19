@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0010</CSCEdition>
+    <CSCEdition>ED0014</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
     <SalesCode>NEE</SalesCode>
-    <NbNetworkInfo>42</NbNetworkInfo>
+    <NbNetworkInfo>44</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>90112</MCCMNC>
+      <NetworkName>MCP</NetworkName>
+    </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24414</MCCMNC>
       <NetworkName>Ålcom</NetworkName>
@@ -83,6 +87,10 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23801</MCCMNC>
+      <NetworkName>DK TDC</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23810</MCCMNC>
       <NetworkName>DK TDC</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
@@ -183,18 +191,19 @@
       <NetworkName>Tal</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>90112</MCCMNC>
-      <NetworkName>MCP</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>22201</MCCMNC>
       <NetworkName>Nova</NetworkName>
       <SPName>NOVA</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>24214</MCCMNC>
+      <NetworkName>ice.net</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>64</NbNetworkLock>
         <NetworkLock>460BB</NetworkLock>
         <NetworkLock>454BB</NetworkLock>
@@ -341,7 +350,7 @@
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
     <Connections>
-      <NbProfileHandle>35</NbProfileHandle>
+      <NbProfileHandle>36</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Ålcom</NetworkName>
@@ -514,16 +523,24 @@
         <ProfMMS>Nova MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>3 DK</NetworkName>
         <ProfBrowser>3 Locked</ProfBrowser>
         <ProfMMS>3mms</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>3 Locked</ProfXCAP>
+        <ProfEpdgXCAP>services XCAP</ProfEpdgXCAP>
+        <ProfEpdgMMS>services MMS</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>3 SE</NetworkName>
         <ProfBrowser>3</ProfBrowser>
         <ProfMMS>3mms</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>3</ProfXCAP>
+        <ProfEpdgXCAP>services XCAP</ProfEpdgXCAP>
+        <ProfEpdgMMS>services MMS</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -556,12 +573,19 @@
         <NetworkName>MCP</NetworkName>
         <ProfBrowser>internet</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>74</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>ice.net</NetworkName>
+        <ProfBrowser>ice.net</ProfBrowser>
+        <ProfMMS>mms.ice.net</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>82</NbProfile>
       <Profile>
         <NetworkName>Ålcom</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Ålcom Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -577,6 +601,7 @@
         <ProfileName>Ålcom MMS</ProfileName>
         <URL>http://mms.amt.aland.fi</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -593,6 +618,7 @@
         <Editable>yes</Editable>
         <ProfileName>Halebop Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -608,6 +634,7 @@
         <ProfileName>Halebop MMS</ProfileName>
         <URL>http://mmss</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -624,6 +651,7 @@
         <Editable>yes</Editable>
         <ProfileName>Halebop Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -639,6 +667,7 @@
         <ProfileName>Halebop MMS</ProfileName>
         <URL>http://mmss</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -655,6 +684,7 @@
         <Editable>yes</Editable>
         <ProfileName>Aina Internet (S)</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -670,6 +700,7 @@
         <ProfileName>Aina MMS (S)</ProfileName>
         <URL>http://mms.sonera.fi:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -686,6 +717,7 @@
         <Editable>yes</Editable>
         <ProfileName>Aina Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -701,6 +733,7 @@
         <ProfileName>Aina MMS</ProfileName>
         <URL>http://mmsc.aina.fi</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -718,6 +751,7 @@
         <ProfileName>Spring MMS</ProfileName>
         <URL>http://mmsc.tele2.se</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -734,6 +768,7 @@
         <Editable>yes</Editable>
         <ProfileName>Spring GPRS</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -749,6 +784,7 @@
         <Editable>yes</Editable>
         <ProfileName>Tele2 4G</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -764,6 +800,7 @@
         <ProfileName>Tele2 4G MMS</ProfileName>
         <URL>http://mmsc.tele2.se</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -781,6 +818,7 @@
         <Editable>yes</Editable>
         <ProfileName>DNA Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -796,6 +834,7 @@
         <ProfileName>DNA MMS</ProfileName>
         <URL>http://mmsc.dnafinland.fi</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -812,6 +851,7 @@
         <Editable>yes</Editable>
         <ProfileName>DNA Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -827,6 +867,7 @@
         <ProfileName>DNA MMS</ProfileName>
         <URL>http://mmsc.dnafinland.fi</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -843,6 +884,7 @@
         <Editable>yes</Editable>
         <ProfileName>Telia SurfPort</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -858,6 +900,7 @@
         <ProfileName>Telia MMS</ProfileName>
         <URL>http://mms.telia.dk</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -874,6 +917,7 @@
         <Editable>yes</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -889,6 +933,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.telia.dk</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -905,6 +950,7 @@
         <Editable>yes</Editable>
         <ProfileName>Telenor Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -920,6 +966,7 @@
         <ProfileName>Telenor MMS</ProfileName>
         <URL>http://mms.telenor.dk</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -936,6 +983,7 @@
         <Editable>yes</Editable>
         <ProfileName>Telia SE WAP</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -948,6 +996,7 @@
         <ProfileName>Telia SE MMS</ProfileName>
         <URL>http://mmss</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -964,6 +1013,7 @@
         <Editable>yes</Editable>
         <ProfileName>Sonera Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -979,6 +1029,7 @@
         <ProfileName>Sonera MMS</ProfileName>
         <URL>http://mms.sonera.fi:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -995,6 +1046,7 @@
         <Editable>yes</Editable>
         <ProfileName>TelenorMobilsurf</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1010,6 +1062,7 @@
         <ProfileName>Telenor MMS</ProfileName>
         <URL>http://mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1026,6 +1079,7 @@
         <Editable>yes</Editable>
         <ProfileName>TDC</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1038,6 +1092,7 @@
         <ProfileName>TDC MMS</ProfileName>
         <URL>http://mmsc.tdc.dk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1054,6 +1109,7 @@
         <Editable>yes</Editable>
         <ProfileName>TDC Internet Sweden</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1069,6 +1125,7 @@
         <ProfileName>TDC MMS Sweden</ProfileName>
         <URL>http://mmsc.tdc.dk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1085,6 +1142,7 @@
         <Editable>yes</Editable>
         <ProfileName>TDC Internet Finland</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1097,6 +1155,7 @@
         <ProfileName>TDC MMS Finland</ProfileName>
         <URL>http://mmsc.tdc.fi</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1113,6 +1172,7 @@
         <Editable>yes</Editable>
         <ProfileName>TDC Internet Norway</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1128,6 +1188,7 @@
         <ProfileName>TDC MMS Norway</ProfileName>
         <URL>http://mmsc.tdc.dk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1145,6 +1206,7 @@
         <Editable>yes</Editable>
         <ProfileName>Telenor</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1158,6 +1220,7 @@
         <ProfileName>Telenor MMS</ProfileName>
         <URL>http://mmsc/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1167,6 +1230,478 @@
         </Proxy>
         <PSparam>
           <APN>telenor.smart</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telia N</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telia Mobil</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>telia</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telia N</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telia MMS</ProfileName>
+        <URL>http://mm</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.169.66.4</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>telia</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>OneCall</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>OneCall Internett</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>OneCall</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>OneCall MMS</ProfileName>
+        <URL>http://mms.nwn.no</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>188.149.250.10</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele2 No</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tele2 Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.tele2.no</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele2 No</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tele2 MMS</ProfileName>
+        <URL>http://mmsc.tele2.no</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>193.12.40.14</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet.tele2.no</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Elisa</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Elisa Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Elisa</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Elisa MMS</ProfileName>
+        <URL>http://mms.elisa.fi</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>213.161.41.57</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Saunalahti</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Saunalahti Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.saunalahti</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Saunalahti</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Saunalahti MMS</ProfileName>
+        <URL>http://mms.saunalahti.fi:8002</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>62.142.4.197</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.saunalahti.fi</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telmore</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telmore Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telmore</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Telmore MMS</ProfileName>
+        <URL>http://mmsc.tdc.dk:8002</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>inetproxy.tdc.dk</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone Iceland</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>gprs.is</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone Iceland</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://mmsc.vodafone.is</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.22.0.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.gprs.is</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Siminn</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Siminn Internet</ProfileName>
+        <URL>http://m.siminn.is</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Siminn</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Siminn MMS</ProfileName>
+        <URL>http://mms.simi.is/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>213.167.138.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.simi.is</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nova</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Nova net</ProfileName>
+        <URL>http://m.nova.is</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>net.nova.is</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nova</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Nova MMS</ProfileName>
+        <URL>http://mmsc.nova.is</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.2.60</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.nova.is</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 SE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>3</ProfileName>
+        <URL>http://m.tre.se</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1440</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>data.tre.se</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 SE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>3mms</ProfileName>
+        <URL>http://mms.tre.se</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1440</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsproxy.tre.se</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>data.tre.se</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 DK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>3 Locked</ProfileName>
+        <URL>http://m.3.dk</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>data.tre.dk</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 DK</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3mms</ProfileName>
+        <URL>http://mms.3.dk</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.53.12</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>data.tre.dk</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele Greenland</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tele MMS</ProfileName>
+        <URL>http://mms.tele.gl/mms/wapenc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.112.222.37</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele Greenland</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tele Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Phonero</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Phonero MMS</ProfileName>
+        <URL>http://mmsc/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.11</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.phonero.no</APN>
+          <UserId>Phonero</UserId>
+          <Password>1111</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Phonero</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Phonero Internett</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.phonero.no</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tal</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tal MMS</ProfileName>
+        <URL>http://mms.tal.is/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>213.167.138.210</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tal.is</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ice.net</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>ice.net</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ice.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ice.net</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>mms.ice.net</ProfileName>
+        <URL>http://mmsc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>185.83.167.222</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.ice.net</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1196,413 +1731,27 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Telia N</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Telia Mobil</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>telia</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Telia N</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Telia MMS</ProfileName>
-        <URL>http://mm</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>212.169.66.4</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>telia</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>OneCall</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>OneCall Internett</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>OneCall</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>OneCall MMS</ProfileName>
-        <URL>http://mms.nwn.no</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>188.149.250.10</ServAddr>
-          <Port>80</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tele2 No</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tele2 Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet.tele2.no</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tele2 No</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tele2 MMS</ProfileName>
-        <URL>http://mmsc.tele2.no</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>193.12.40.14</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>internet.tele2.no</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Elisa</NetworkName>
+        <NetworkName>3 SE</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>Elisa Internet</ProfileName>
-        <Auth>normal</Auth>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1440</MTUSize>
         <PSparam>
-          <APN>internet</APN>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Elisa</NetworkName>
+        <NetworkName>3 DK</NetworkName>
+        <IpVersion>ipv4</IpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Elisa MMS</ProfileName>
-        <URL>http://mms.elisa.fi</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>213.161.41.57</ServAddr>
-          <Port>80</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Saunalahti</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>Saunalahti Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet.saunalahti</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Saunalahti</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Saunalahti MMS</ProfileName>
-        <URL>http://mms.saunalahti.fi:8002</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>62.142.4.197</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.saunalahti.fi</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Telmore</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Telmore Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Telmore</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Telmore MMS</ProfileName>
-        <URL>http://mmsc.tdc.dk:8002</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>inetproxy.tdc.dk</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Vodafone Iceland</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Vodafone Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>gprs.is</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Vodafone Iceland</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Vodafone MMS</ProfileName>
-        <URL>http://mmsc.vodafone.is</URL>
+        <ProfileName>ims</ProfileName>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.22.0.10</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
         <PSparam>
-          <APN>mms.gprs.is</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Siminn</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Siminn Internet</ProfileName>
-        <URL>http://m.siminn.is</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Siminn</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Siminn MMS</ProfileName>
-        <URL>http://mms.simi.is/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>213.167.138.200</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.simi.is</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Nova</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Nova net</ProfileName>
-        <URL>http://m.nova.is</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>net.nova.is</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Nova</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Nova MMS</ProfileName>
-        <URL>http://mmsc.nova.is</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.10.2.60</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.nova.is</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 SE</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3</ProfileName>
-        <URL>http://m.tre.se</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>data.tre.se</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 SE</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3mms</ProfileName>
-        <URL>http://mms.tre.se</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>172.16.53.11</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>data.tre.se</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 DK</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3 Locked</ProfileName>
-        <URL>http://m.3.dk</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>data.tre.dk</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 DK</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3mms</ProfileName>
-        <URL>http://mms.3.dk</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>172.16.53.12</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>data.tre.dk</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tele Greenland</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tele MMS</ProfileName>
-        <URL>http://mms.tele.gl/mms/wapenc</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.112.222.37</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tele Greenland</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tele Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Phonero</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Phonero MMS</ProfileName>
-        <URL>http://mmsc/</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.10.10.11</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.phonero.no</APN>
-          <UserId>Phonero</UserId>
-          <Password>1111</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Phonero</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Phonero Internett</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>internet.phonero.no</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tal</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tal MMS</ProfileName>
-        <URL>http://mms.tal.is/servlets/mms</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>213.167.138.210</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.tal.is</APN>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1667,27 +1816,81 @@
           <APN>internet</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>3 SE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>services XCAP</ProfileName>
+        <URL>http://m.tre.se</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1440</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>services</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 SE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>services MMS</ProfileName>
+        <URL>http://mms.tre.se</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1440</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsproxy.tre.se</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>services</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 DK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>services XCAP</ProfileName>
+        <URL>http://m.3.dk</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>services</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 DK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>services MMS</ProfileName>
+        <URL>http://mms.3.dk</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.53.12</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>services</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>4</NbSetting>
-      <Setting>
-        <NetworkName>Telenor DK</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
-          <EnableVideocall>false</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
-        </VoLTE>
-      </Setting>
+      <NbSetting>5</NbSetting>
       <Setting>
         <NetworkName>Tele2comviq</NetworkName>
         <Version>2.0</Version>
@@ -1705,8 +1908,11 @@
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <SMSoIP_Domain>cs</SMSoIP_Domain>
         </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
       </Setting>
-        <Setting>
+      <Setting>
         <NetworkName>Telenor</NetworkName>
         <Version>2.0</Version>
         <EnableIMS>true</EnableIMS>
@@ -1716,32 +1922,75 @@
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <SMSoIP_Domain>cs</SMSoIP_Domain>
         </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
       </Setting>
       <Setting>
-        <NetworkName>test bed</NetworkName>
+        <NetworkName>Telenor DK</NetworkName>
         <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-            <EnableVoLTE>TRUE</EnableVoLTE>
-            <EnableVideocall>FALSE</EnableVideocall>
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-            <Emregencycall_Domain>PS</Emregencycall_Domain>
-            <SMSoIP_Domain>CS</SMSoIP_Domain>
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-            <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
-            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
         </VoLTE>
         <RCS>
-            <EnableRCS>FALSE</EnableRCS>
+          <EnableRCS>false</EnableRCS>
         </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>3 SE</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>3 DK</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
       </Setting>
     </IMSSetting>
   </Settings>
