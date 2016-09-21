@@ -1,11 +1,8 @@
-10
+7
 smartcallprovider-open-release.apk
 AxelSpringer.apk
 SamsungPayStub.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
+AndroidPay_erasable_Hero.apk
 GalaxyCare.apk
 SamsungUpdates.apk
 OMCAgent.apk

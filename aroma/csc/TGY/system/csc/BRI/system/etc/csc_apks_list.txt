@@ -3,3 +3,4 @@
 /system/app/Miao/Miao.apk
 /system/app/mySamsung_stub-release/mySamsung_stub-release.apk
 /system/app/ShaoNv/ShaoNv.apk
+/system/app/SVoiceLang_TaiwanesePack-release/SVoiceLang_TaiwanesePack-release.apk

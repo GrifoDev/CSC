@@ -1,4 +1,5 @@
 /system/app/Kaiti/Kaiti.apk
 /system/app/Miao/Miao.apk
 /system/app/ShaoNv/ShaoNv.apk
+/system/app/SVoiceLang_CantonesePack_HK-release/SVoiceLang_CantonesePack_HK-release.apk
 /system/priv-app/Alipay_Service/Alipay_Service.apk

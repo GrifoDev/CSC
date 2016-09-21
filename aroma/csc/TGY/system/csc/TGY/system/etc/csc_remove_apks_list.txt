@@ -4,3 +4,4 @@
 /system/app/GL_stub_SDK23_rev2/GL_stub_SDK23_rev2.apk
 /system/app/mySamsung_stub-release/mySamsung_stub-release.apk
 /system/app/RoseEUKor/RoseEUKor.apk
+/system/app/SVoiceLang_TaiwanesePack-release/SVoiceLang_TaiwanesePack-release.apk
