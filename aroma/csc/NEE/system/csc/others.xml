@@ -29,7 +29,7 @@
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigAlwaysOnApn>cbs,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_24412_24413_24201_23802;,ShowPrefModeMenuSim_23802_23877;</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_24002_24412_24413_24201_23802_23806;,ShowPrefModeMenuSim_23802_23877;</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
@@ -43,8 +43,9 @@
     <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
     <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
     <CscFeature_Setting_HideApnList>ims,IMS,Telenor IMS,Telenor XCAP</CscFeature_Setting_HideApnList>
-    <CscFeature_RIL_ConfigApnForDataUseException>ims_24201</CscFeature_RIL_ConfigApnForDataUseException> 
+    <CscFeature_RIL_ConfigApnForDataUseException>ims_24201</CscFeature_RIL_ConfigApnForDataUseException>
     <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
