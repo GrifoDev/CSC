@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>Austria</Country>
     <CountryISO>AT</CountryISO>
     <Region>EUR</Region>
     <SalesCode>ATO</SalesCode>
-    <NbNetworkInfo>20</NbNetworkInfo>
+    <NbNetworkInfo>36</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>23201</MCCMNC>
       <NetworkName>A1</NetworkName>
@@ -83,6 +83,91 @@
       <NetworkName>spusu</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8859</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>880039</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8800182</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8800183</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8800184</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8800196</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8800197</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802200</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802201</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802202</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802203</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802204</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802670</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802671</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802672</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802673</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20601</MCCMNC>
+      <NetworkName>spusu</NetworkName>
+      <SPCode>8802674</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>23219</MCCMNC>
       <NetworkName>Tele2</NetworkName>
     </NetworkInfo>
@@ -90,10 +175,6 @@
       <MCCMNC>24007</MCCMNC>
       <NetworkName>Tele2</NetworkName>
       <SPCode>64</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20601</MCCMNC>
-      <NetworkName>Proximus</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -432,7 +513,6 @@
       <Sound>
         <ExtraSound>
           <ConnectTone>on</ConnectTone>
-          <MinuteMind>off</MinuteMind>
         </ExtraSound>
       </Sound>
       <Phone>
@@ -474,10 +554,7 @@
         <MmsReceiving>
           <Home>auto</Home>
           <Roaming>manual</Roaming>
-          <SendReadRep>off</SendReadRep>
-          <SendDeliveryRep>off</SendDeliveryRep>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -566,13 +643,22 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>UPC AT</NetworkName>
+      <WifiSSID>UPC Wi-Free</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>aka</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
     <Connections>
-      <NbProfileHandle>17</NbProfileHandle>
+      <NbProfileHandle>16</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>A1</NetworkName>
-        <ProfBrowser>A1 World</ProfBrowser>
+        <ProfBrowser>A1.net</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -659,18 +745,14 @@
         <NetworkName>Tele2</NetworkName>
         <ProfBrowser>Tele2</ProfBrowser>
       </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
-        <NetworkName>Proximus</NetworkName>
-        <ProfBrowser>Internet</ProfBrowser>
-      </ProfileHandle>
       <NbProfile>28</NbProfile>
       <Profile>
         <NetworkName>A1</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>A1 World</ProfileName>
+        <ProfileName>A1.net</ProfileName>
         <URL>http://world.a1.net</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -688,6 +770,7 @@
         <ProfileName>Internet</ProfileName>
         <URL>http://m.redbullmobile.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -704,6 +787,7 @@
         <Editable>yes</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -721,6 +805,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mmsc.A1.net</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -740,6 +825,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mmsc.A1.net</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -759,6 +845,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mmsc.A1.net</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -778,6 +865,7 @@
         <ProfileName>T-Mobile LTE</ProfileName>
         <URL>http://www.t-mobile-favoriten.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -795,6 +883,7 @@
         <ProfileName>T-Mobile MMS</ProfileName>
         <URL>http://mmsc.t-mobile.at/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -814,6 +903,7 @@
         <ProfileName>tele.ring mms</ProfileName>
         <URL>http://relay.mms.telering.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -833,6 +923,7 @@
         <ProfileName>tele.ring web</ProfileName>
         <URL>http://wap.telering.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -850,6 +941,7 @@
         <ProfileName>Planet3</ProfileName>
         <URL>https://mobile.drei.at/redirect/bm_planet3</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -865,6 +957,7 @@
         <ProfileName>3MMS</ProfileName>
         <URL>http://mmsc</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -882,6 +975,7 @@
         <ProfileName>data.bob</ProfileName>
         <URL>http://www.bob.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -899,6 +993,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mmsc.bob.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -918,6 +1013,7 @@
         <ProfileName>Internet</ProfileName>
         <URL>http://www.yesss.at</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -933,6 +1029,7 @@
         <ProfileName>Internet</ProfileName>
         <URL>http://www.georg.at</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -947,6 +1044,7 @@
         <Editable>yes</Editable>
         <ProfileName>A1 Mobil Start</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -964,6 +1062,7 @@
         <ProfileName>A1 Mobil Start MMS</ProfileName>
         <URL>http://mmsc.aon.at</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -983,6 +1082,7 @@
         <ProfileName>0677 mms</ProfileName>
         <URL>http://mmsaut.at/send</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1013,6 +1113,7 @@
         <ProfileName>0677 mms</ProfileName>
         <URL>http://mmsaut.at/send</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1043,6 +1144,7 @@
         <ProfileName>0677 mms</ProfileName>
         <URL>http://mmsaut.at/send</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1085,6 +1187,7 @@
         <ProfileName>mass.at</ProfileName>
         <URL>http://mobileinfo.samsung.at</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1099,6 +1202,7 @@
         <Editable>yes</Editable>
         <ProfileName>Tele2</ProfileName>
         <URL>http://www.tele2.at</URL>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1109,19 +1213,36 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Proximus</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Internet</ProfileName>
-        <Auth>normal</Auth>
+        <NetworkName>A1</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
         <PSparam>
-          <APN>internet.proximus.be </APN>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>A1</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>
