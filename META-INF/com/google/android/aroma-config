@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V1.6.5");
+ini_set("rom_version",          "V1.7");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "13.09.2016");
+ini_set("rom_date",             "21.09.2016");
 
 ##
 # Show Simple Splash

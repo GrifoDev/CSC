@@ -14,7 +14,7 @@ unmount("/data");
 show_progress(1.000000, 0);
 ui_print(" ");
 ui_print(" ");
-ui_print("CSC Installer V1.6.5");
+ui_print("CSC Installer V1.7");
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
