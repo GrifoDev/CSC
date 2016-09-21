@@ -393,6 +393,7 @@ selectbox(
 	"THL",	"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",	0,      #-- selected.1 = 32
 	"TMB",	"USA T-Mobile Branded",										0,      #-- selected.1 = 33
 	"TMS",	"Slovak unbranded",										0,      #-- selected.1 = 34
+	"TMZ",	"Czech T-Mobile branded",									0,      #-- selected.1 = 34
 	"TPA",	"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",		0,      #-- selected.1 = 35
 	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 36
 	"TUR",	"Turkey Multi-CSC contains: ACR, AFR, ECT, KSA, TUR, XFA",					0,      #-- selected.1 = 37

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>CZECH</Country>
+    <CountryISO>CZ</CountryISO>
+    <Region>EUR</Region>
+    <SalesCode>TMZ</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23001</MCCMNC>
+      <NetworkName>T-Mobile CZ</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>4</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+      </Network>
+      <Sound>
+        <RngToneAlertType>vibmelody</RngToneAlertType>
+        <RngVolume>4</RngVolume>
+        <KeyTone>
+          <KeyVolume>1</KeyVolume>
+        </KeyTone>
+        <MsgToneAlertType>melody</MsgToneAlertType>
+        <TouchTone>off</TouchTone>
+        <ExtraSound>
+          <ConnectTone>off</ConnectTone>
+          <MinuteMind>off</MinuteMind>
+        </ExtraSound>
+        <NbAlarmTone>1</NbAlarmTone>
+        <AlarmTone src="/Customer/TMZ/AlarmTone/T-Mobile_Alarmtone.mp3" default="true">
+          <FileType>MP3</FileType>
+        </AlarmTone>
+        <NbMessageTone>1</NbMessageTone>
+        <MessageTone src="/Customer/TMZ/Messagetone/T-Mobile_Messagetone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </MessageTone>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/TMZ/Ringtone/T-Mobile_Ringtone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </RingTone>
+      </Sound>
+      <Phone>
+        <DefLanguage>cs_CZ</DefLanguage>
+        <DefLanguageNoSIM>cs_CZ</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <T9Language>czech</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <ContactSort>lastname</ContactSort>
+    </Contact>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <TelNum>+420603123311</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <PushLoading>never</PushLoading>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>3</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>gsmalpha</CharSupport>
+        <SSMS>off</SSMS>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>auto</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <PollTime>off</PollTime>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+        <NbAccount>7</NbAccount>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>Centrum.cz / Atlas.cz</AccountName>
+          <EmailAddr>@Centrum.cz</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.centrum.cz</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.t-email.cz</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>off</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>GMail.com IMAP</AccountName>
+          <EmailAddr>@gmail.com</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.gmail.com</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.gmail.com</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>GMail.com POP3</AccountName>
+          <EmailAddr>@gmail.com</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>pop3</MailboxType>
+            <ServAddr>pop.gmail.com</ServAddr>
+            <Port>995</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.gmail.com</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>Seznam.cz</AccountName>
+          <EmailAddr>@Seznam.cz</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.seznam.cz</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.seznam.cz</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>Volny.cz IMAP</AccountName>
+          <EmailAddr>@volny.cz</EmailAddr>
+          <LoginType>username_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.volny.cz</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.t-email.cz</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>off</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>Centrum.cz / Atlas.cz IMAP</AccountName>
+          <EmailAddr>@Atlas.cz</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>pop3</MailboxType>
+            <ServAddr>pop3.centrum.cz</ServAddr>
+            <Port>995</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.t-email.cz</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>off</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>T-Mobile CZ</NetworkName>
+          <AccountName>Centrum.cz / Atlas.cz</AccountName>
+          <EmailAddr>@Centrum.cz</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>pop3</MailboxType>
+            <ServAddr>pop3.centrum.cz</ServAddr>
+            <Port>995</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.t-email.cz</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>off</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <Editable>no</Editable>
+        <BookmarkName>T-Mobile</BookmarkName>
+        <URL>http://tmo.cz/</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <ProfBrowser>T-Mobile Internet</ProfBrowser>
+        <ProfMMS>T-Mobile MMS</ProfMMS>
+        <ProfIMS>T-Mobile IMS</ProfIMS>
+        <ProfXCAP>T-Mobile Xcap</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>4</NbProfile>
+      <Profile>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>T-Mobile Internet</ProfileName>
+        <URL>http://tmo.cz/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.t-mobile.cz</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>T-Mobile MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.000.000.010</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.t-mobile.cz</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+	<RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>T-Mobile IMS</ProfileName>
+        <URL>http://tmo.cz/</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>T-Mobile Xcap</ProfileName>
+        <URL>http://tmo.cz/</URL>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.t-mobile.cz</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>T-Mobile CZ</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
+  </Settings>
+</CustomerData>
