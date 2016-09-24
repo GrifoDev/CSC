@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED00011</CSCEdition>
+    <CSCEdition>ED0012</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -187,7 +187,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1430</MTUSize>
+        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>pda.bell.ca</APN>
           <TrafficClass>subscribed</TrafficClass>
@@ -203,7 +203,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1430</MTUSize>
+        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>pda.bell.ca</APN>
           <TrafficClass>subscribed</TrafficClass>
@@ -216,7 +216,7 @@
         <EnableStatus>enable</EnableStatus>
         <ProfileName>Tethered Data</ProfileName>
         <Auth>none</Auth>
-        <MTUSize>1430</MTUSize>
+        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>pda.bell.ca</APN>
         </PSparam>
@@ -230,7 +230,7 @@
         <EnableIMS>false</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-		  <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>

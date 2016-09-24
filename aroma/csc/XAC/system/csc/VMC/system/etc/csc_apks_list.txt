@@ -1,5 +1,4 @@
 /system/app/AppWidget-1.0_2612-release/AppWidget-1.0_2612-release.apk
 /system/app/BellMobileTVStub/BellMobileTVStub.apk
 /system/app/MyAccount_StubApp_5_Feb/MyAccount_StubApp_5_Feb.apk
-/system/app/suretap_wallet__stub/suretap_wallet__stub.apk
 /system/app/virginmobile-mybenefits-stub-app-release-signed/virginmobile-mybenefits-stub-app-release-signed.apk

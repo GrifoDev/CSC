@@ -11,7 +11,6 @@
 /system/app/Netco-Sports_J5-JDQ_Stub_Android_2016-01-22/Netco-Sports_J5-JDQ_Stub_Android_2016-01-22.apk
 /system/app/PortailVideotron_1.0.4-android23/PortailVideotron_1.0.4-android23.apk
 /system/app/Push_To_Talk-sdk23/Push_To_Talk-sdk23.apk
-/system/app/suretap_wallet__stub/suretap_wallet__stub.apk
 /system/app/TELUSFeaturedApps_v1.0_Signed_Prod_App/TELUSFeaturedApps_v1.0_Signed_Prod_App.apk
 /system/app/Telus_MyAccount_Virtual_PreLoad_Singed_May10/Telus_MyAccount_Virtual_PreLoad_Singed_May10.apk
 /system/app/virginmobile-mybenefits-stub-app-release-signed/virginmobile-mybenefits-stub-app-release-signed.apk

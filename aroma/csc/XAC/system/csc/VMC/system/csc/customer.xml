@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0013</CSCEdition>
+    <CSCEdition>ED0014</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -188,7 +188,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1430</MTUSize>
+        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>pda.bell.ca</APN>
           <TrafficClass>subscribed</TrafficClass>
@@ -204,7 +204,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1430</MTUSize>
+        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>pda.bell.ca</APN>
           <TrafficClass>subscribed</TrafficClass>
@@ -217,7 +217,7 @@
         <EnableStatus>enable</EnableStatus>
         <ProfileName>Tethered Data</ProfileName>
         <Auth>none</Auth>
-        <MTUSize>1430</MTUSize>
+        <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>pda.bell.ca</APN>
         </PSparam>

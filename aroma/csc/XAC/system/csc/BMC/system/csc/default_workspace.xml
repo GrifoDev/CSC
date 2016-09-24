@@ -136,20 +136,12 @@
             launcher:x="1" 
             launcher:y="3" />
 
-        <!-- Mobile Wallet -->
-        <favorite
-            launcher:packageName="com.suretap.suretap_wallet" 
-            launcher:className="com.suretap.suretap_wallet.activity.MainActivity" 
-            launcher:screen="1" 
-            launcher:x="2" 
-            launcher:y="3" />
-
         <!-- Push To Talk -->
         <favorite
             launcher:packageName="com.bell.ptt" 
             launcher:className="com.bell.ptt.StartupActivity" 
             launcher:screen="1" 
-            launcher:x="3" 
+            launcher:x="2" 
             launcher:y="3" />
 
         <!--  screen [3]  -->

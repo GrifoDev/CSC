@@ -13,7 +13,6 @@
 /system/app/RogersAppZone_v1.028.2/RogersAppZone_v1.028.2.apk
 /system/app/RogersNHL_Jan-18-2016_SIGNED2/RogersNHL_Jan-18-2016_SIGNED2.apk
 /system/app/shomi_phone/shomi_phone.apk
-/system/app/suretap_wallet__stub/suretap_wallet__stub.apk
 /system/app/TELUSFeaturedApps_v1.0_Signed_Prod_App/TELUSFeaturedApps_v1.0_Signed_Prod_App.apk
 /system/app/Telus_MyAccount_Virtual_PreLoad_Singed_May10/Telus_MyAccount_Virtual_PreLoad_Singed_May10.apk
 /system/app/Texture_rogers/Texture_rogers.apk

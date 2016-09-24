@@ -1,3 +1,2 @@
 /system/app/Koodo_SelfServe_Virtual_PreLoad_Signed/Koodo_SelfServe_Virtual_PreLoad_Signed.apk
-/system/app/suretap_wallet__stub/suretap_wallet__stub.apk
 /system/priv-app/MShopAndroidPhoneApp-6.1.11.31-jackDaniels-release-OEM-sign_97e7b38ee965ec21edcacc249caf1f60/MShopAndroidPhoneApp-6.1.11.31-jackDaniels-release-OEM-sign_97e7b38ee965ec21edcacc249caf1f60.apk

@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00028</Version>
+  <Version>ED00029</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>FMC</SalesCode>
@@ -39,7 +39,6 @@
     <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
     <CscFeature_Message_DisplayMmsTimeAs>Phone</CscFeature_Message_DisplayMmsTimeAs>
     <CscFeature_Message_DisplaySmsTimeAs>Phone</CscFeature_Message_DisplaySmsTimeAs>
-    <CscFeature_Message_EnableUnifiedMmsRetrieveMenu>TRUE</CscFeature_Message_EnableUnifiedMmsRetrieveMenu>
     <CscFeature_Message_MinRecipientLengthAs>2</CscFeature_Message_MinRecipientLengthAs>
     <CscFeature_Message_MmsModeCaptureVideoMaxSize>1018880</CscFeature_Message_MmsModeCaptureVideoMaxSize>
     <CscFeature_Music_RingtoneSizeLimit>2097152</CscFeature_Music_RingtoneSizeLimit>

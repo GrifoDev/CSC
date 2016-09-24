@@ -2,4 +2,3 @@
 /system/app/BellMobileTVStub/BellMobileTVStub.apk
 /system/app/MyBell_StubApp_5_Feb/MyBell_StubApp_5_Feb.apk
 /system/app/Push_To_Talk-sdk23/Push_To_Talk-sdk23.apk
-/system/app/suretap_wallet__stub/suretap_wallet__stub.apk
