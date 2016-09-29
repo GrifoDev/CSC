@@ -129,6 +129,17 @@ limitations under the License.
 
 
         <!--  screen [1]  -->
+        <!-- .appwidget.WhatsHotAppWidgetProvider -->
+        <appwidget
+            launcher:packageName="com.directv.dvrscheduler" 
+            launcher:className="com.directv.dvrscheduler.appwidget.WhatsHotAppWidgetProvider" 
+            launcher:screen="1" 
+            launcher:x="0" 
+            launcher:y="0" 
+            launcher:spanX="4" 
+            launcher:spanY="3" />
+
+
         <!-- Gallery -->
         <favorite
             launcher:packageName="com.sec.android.gallery3d" 

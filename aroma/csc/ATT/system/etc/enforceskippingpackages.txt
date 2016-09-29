@@ -1,4 +1,4 @@
-13
+14
 NaverTvCast.apk
 CoreApps.apk
 SimpleSharing.apk
@@ -10,5 +10,6 @@ Word_SamsungStub.apk
 OneNote.apk
 UrgentFWUpdateTSP.apk
 GalaxyCare.apk
+xtra_t_app.apk
 SamsungUpdates.apk
 OMCAgent.apk

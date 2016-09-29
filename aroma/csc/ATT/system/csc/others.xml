@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeature>
-  <Version>ED0018</Version>
+  <Version>ED0019</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>ATT</SalesCode>
@@ -30,7 +30,7 @@
     <CscFeature_SystemUI_ConfigOpBrandingQuickSettingIcon>ATT</CscFeature_SystemUI_ConfigOpBrandingQuickSettingIcon>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
     <CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>ATT</CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>
-    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,UltraPowerSaving,AirplaneMode,DormantMode,Flashlight,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,WifiCalling,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,UltraPowerSaving,AirplaneMode,DormantMode,Flashlight,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
     <CscFeature_SystemUI_ConfigQuickSettingPopup>ATT</CscFeature_SystemUI_ConfigQuickSettingPopup>
     <CscFeature_SystemUI_ConfigIndicatorStyleForBattLevel>ATT</CscFeature_SystemUI_ConfigIndicatorStyleForBattLevel>
     <CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>TRUE</CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>
@@ -75,8 +75,9 @@
     <CscFeature_Setting_EnableFactoryResetPasswordWhenNoSIM>TRUE</CscFeature_Setting_EnableFactoryResetPasswordWhenNoSIM>
     <CscFeature_Setting_UseDefaultTtsEngineAs>Google</CscFeature_Setting_UseDefaultTtsEngineAs>
     <CscFeature_Setting_ReplaceMenuLockAutoAs>DeviceLockTime</CscFeature_Setting_ReplaceMenuLockAutoAs>
-    <CscFeature_Setting_HideApnList>ATT IMS,ATT CBS,ATT UT, ATT IMSUT</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>ATT IMS,ATT CBS,ATT UT,ATT IMSUT</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_ConfigForbidAppDisableButton>com.android.contacts</CscFeature_Setting_ConfigForbidAppDisableButton>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
     <CscFeature_Setting_ConfigTypeHelp>2</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_ConfigMobileHotspotProvisionApp>com.sec.tetheringprovision,com.sec.tetheringprovision.TetheringProvisionActivity</CscFeature_Setting_ConfigMobileHotspotProvisionApp>
@@ -88,10 +89,35 @@
     <CscFeature_Calendar_EnableMsgReminder>FALSE</CscFeature_Calendar_EnableMsgReminder>
     <CscFeature_Calendar_EnableShiftedWeekNumber>TRUE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_Calendar_SetColorOfDays>XXXXXXX</CscFeature_Calendar_SetColorOfDays>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
     <CscFeature_VoiceCall_AddLogsItem4SearchApp>FALSE</CscFeature_VoiceCall_AddLogsItem4SearchApp>
     <CscFeature_VoiceCall_UseEccDialerInCaseOfNoInternalMemory>FALSE</CscFeature_VoiceCall_UseEccDialerInCaseOfNoInternalMemory>
-    <CscFeature_VoiceCall_RemoveCallButtonInLogsList>TRUE</CscFeature_VoiceCall_RemoveCallButtonInLogsList>
+    <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+    <CscFeature_VoiceCall_ConfigCallButton>TRUE</CscFeature_VoiceCall_ConfigCallButton>
+    <CscFeature_VoiceCall_ConfigOpStyleForPopupCall>TRUE</CscFeature_VoiceCall_ConfigOpStyleForPopupCall>
+    <CscFeature_VoiceCall_SupportSoftPhone>TRUE</CscFeature_VoiceCall_SupportSoftPhone>
+    <CscFeature_VoiceCall_ConfigOpStyleForLocalDtmf>ALWAYS</CscFeature_VoiceCall_ConfigOpStyleForLocalDtmf>
+    <CscFeature_VoiceCall_SupportNotiForUssd>TRUE</CscFeature_VoiceCall_SupportNotiForUssd>
+    <CscFeature_VoiceCall_ConfigOpStyleForBusyTone>SUBBUSY</CscFeature_VoiceCall_ConfigOpStyleForBusyTone>
+    <CscFeature_VoiceCall_ConfigOpStyleForRingBackTone>USACDMA</CscFeature_VoiceCall_ConfigOpStyleForRingBackTone>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,EndPreviousCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
+    <CscFeature_VoiceCall_ConfigOpStyleForCallerId>ECID</CscFeature_VoiceCall_ConfigOpStyleForCallerId>
+    <CscFeature_VoiceCall_SupportImsCapabilityService>TRUE</CscFeature_VoiceCall_SupportImsCapabilityService>
+    <CscFeature_VoiceCall_ConfigOpStyleForVolte>REMOVE_VOLTE_OUTGOING_SETTING,ATT_VOLTE,USA_VOLTE,WIRELESS_PRI_SVC_CALL</CscFeature_VoiceCall_ConfigOpStyleForVolte>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingsATT</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_VoiceCall_SupportModifyCall>TRUE</CscFeature_VoiceCall_SupportModifyCall>
+    <CscFeature_VoiceCall_ConfigSoundPathVolte>US</CscFeature_VoiceCall_ConfigSoundPathVolte>
+    <CscFeature_VoiceCall_SupportHoldUiForVolte>TRUE</CscFeature_VoiceCall_SupportHoldUiForVolte>
+    <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>UsaGsmNetworkSetting,SupportFemtoCellForUsaGsm,CdmaSubscriptionEnable</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
+    <CscFeature_VoiceCall_DisableCallTransfer>TRUE</CscFeature_VoiceCall_DisableCallTransfer>
+    <CscFeature_VoiceCall_SupportMenuForVoicePrivacy>TRUE</CscFeature_VoiceCall_SupportMenuForVoicePrivacy>
+    <CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
+    <CscFeature_VoiceCall_ConfigOptStyleForCallBarring>RemoveAll</CscFeature_VoiceCall_ConfigOptStyleForCallBarring>
+    <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>ATT_WIFI</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
+    <CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>networksroaming,enhanced4glte2,internationalenhanced4glte,dataenabled,removenetworkmode,gsmumtsprefernetworkmode,disable2gmenu</CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>
+    <CscFeature_VoiceCall_ConfigVolteCallWaitingSource>network</CscFeature_VoiceCall_ConfigVolteCallWaitingSource>
+    <CscFeature_VoiceCall_ConfigDefStatusTTY>wiredheadsetpluggedout</CscFeature_VoiceCall_ConfigDefStatusTTY>
     <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
     <CscFeature_Weather_SupportPromptForLocationAccess>TRUE</CscFeature_Weather_SupportPromptForLocationAccess>
     <CscFeature_Weather_SupportPromptForDataUsage>TRUE</CscFeature_Weather_SupportPromptForDataUsage>
@@ -120,15 +146,17 @@
     <CscFeature_Message_EnableRegisterToCalender>TRUE</CscFeature_Message_EnableRegisterToCalender>
     <CscFeature_Message_ImageResizeQualityFactorWhenAttach>high</CscFeature_Message_ImageResizeQualityFactorWhenAttach>
     <CscFeature_Message_EnableSpamReport>TRUE</CscFeature_Message_EnableSpamReport>
-    <CscFeature_Message_EnableCpm>FALSE</CscFeature_Message_EnableCpm>
+    <CscFeature_Message_EnableCpm>TRUE</CscFeature_Message_EnableCpm>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
-    <CscFeature_Message_ConfigOpBackupSync>TRUE</CscFeature_Message_ConfigOpBackupSync>
+    <CscFeature_Message_ConfigOpBackupSync>3</CscFeature_Message_ConfigOpBackupSync>
     <CscFeature_Message_ConfigMmsUapTagName>x-wap-profile</CscFeature_Message_ConfigMmsUapTagName>
     <CscFeature_Message_DisableChooserForUrlLink>TRUE</CscFeature_Message_DisableChooserForUrlLink>
+    <CscFeature_Message_SupportDeleteTimeBasedMsg>TRUE</CscFeature_Message_SupportDeleteTimeBasedMsg>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
     <CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
     <CscFeature_Camera_CamcorderEnablePromptPopupToSelectRecMode>TRUE</CscFeature_Camera_CamcorderEnablePromptPopupToSelectRecMode>
+    <CscFeature_Video_ConfigOpStyleForSubTitle>USA</CscFeature_Video_ConfigOpStyleForSubTitle>
     <CscFeature_Music_EnableBigPondTop10Feeds>FALSE</CscFeature_Music_EnableBigPondTop10Feeds>
     <CscFeature_Music_SupportBatteryAdcThreshold>TRUE</CscFeature_Music_SupportBatteryAdcThreshold>
     <CscFeature_MyFiles_ConfigOpBrandingIcon>blue</CscFeature_MyFiles_ConfigOpBrandingIcon>
@@ -136,6 +164,13 @@
     <CscFeature_VT_EnableDetailCallEndCause>FALSE</CscFeature_VT_EnableDetailCallEndCause>
     <CscFeature_VT_BlockDuringRoaming>FALSE</CscFeature_VT_BlockDuringRoaming>
     <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
+    <CscFeature_VT_ConfigOpStyleForSetting>attvtsetting,removevtsetting</CscFeature_VT_ConfigOpStyleForSetting>
+    <CscFeature_VT_SupportRotationScreen>TRUE</CscFeature_VT_SupportRotationScreen>
+    <CscFeature_VT_SupportFullscreenMode>TRUE</CscFeature_VT_SupportFullscreenMode>
+    <CscFeature_VT_SupportMenuHoldResume>TRUE</CscFeature_VT_SupportMenuHoldResume>
+    <CscFeature_VT_ConfigOpStyleForHandoverNotification>ATT</CscFeature_VT_ConfigOpStyleForHandoverNotification>
+    <CscFeature_VT_ConfigPsVtVideoResolution>QVGA</CscFeature_VT_ConfigPsVtVideoResolution>
+    <CscFeature_VT_ConfigOpStyleForDataUsageLimit>ATT</CscFeature_VT_ConfigOpStyleForDataUsageLimit>
     <CscFeature_Web_BlockSDCDDownload>TRUE</CscFeature_Web_BlockSDCDDownload>
     <CscFeature_Web_SetUserAgent>ATT</CscFeature_Web_SetUserAgent>
     <CscFeature_Web_SetHomepageURL>http://home.att.com</CscFeature_Web_SetHomepageURL>
@@ -178,6 +213,10 @@
     <CscFeature_SyncML_DeltaBinaryDownVia>wifi_dedicated</CscFeature_SyncML_DeltaBinaryDownVia>
     <CscFeature_GPS_SupportLppCpUp>TRUE</CscFeature_GPS_SupportLppCpUp>
     <CscFeature_GPS_ConfigAgpsSetting>ATT</CscFeature_GPS_ConfigAgpsSetting>
+    <CscFeature_GPS_ConfigAgpsMode>15</CscFeature_GPS_ConfigAgpsMode>
+    <CscFeature_GPS_ConfigAgnssProtocol>7</CscFeature_GPS_ConfigAgnssProtocol>
+    <CscFeature_GPS_ConfigSuplHost>h-slp.mnc410.mcc310.pub.3gppnetwork.org</CscFeature_GPS_ConfigSuplHost>
+    <CscFeature_GPS_ConfigLppProfile>3</CscFeature_GPS_ConfigLppProfile>
     <CscFeature_RIL_DisableSimToolKitCmds>LaunchBrowser</CscFeature_RIL_DisableSimToolKitCmds>
     <CscFeature_RIL_RemoveToastDuringStkRefresh>TRUE</CscFeature_RIL_RemoveToastDuringStkRefresh>
     <CscFeature_RIL_RemoveToastDuringBipOperation>TRUE</CscFeature_RIL_RemoveToastDuringBipOperation>
@@ -186,7 +225,7 @@
     <CscFeature_RIL_CheckTtyModeWhenE911>TRUE</CscFeature_RIL_CheckTtyModeWhenE911>
     <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_IgnorePsVoiceIndicationDuringVolte>TRUE</CscFeature_RIL_IgnorePsVoiceIndicationDuringVolte>
-    <CscFeature_RIL_SrvccRel>8</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_SsRoutingPolicy>ps-always</CscFeature_RIL_SsRoutingPolicy>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
@@ -207,6 +246,7 @@
     <CscFeature_RIL_ConfigNetworkTypeCapability>ATT-ATT-GSM-USA</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
     <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>WAVE2,ShowPrefModeMenuNoSimCheck,NoPrefModeNoSimCheck,WifiRoamPrefNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_SupportModifyCallInitDuringConfCall>TRUE</CscFeature_RIL_SupportModifyCallInitDuringConfCall>
     <CscFeature_RIL_SupportCnapDuringVolteCall>TRUE</CscFeature_RIL_SupportCnapDuringVolteCall>
     <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
@@ -248,6 +288,9 @@
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_IMS_ConfigMdmnType>Nsds</CscFeature_IMS_ConfigMdmnType>
+    <CscFeature_IMS_SupportGeoLocation>TRUE</CscFeature_IMS_SupportGeoLocation>
+    <CscFeature_IMS_SupportReinviteAfterHandover>TRUE</CscFeature_IMS_SupportReinviteAfterHandover>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
