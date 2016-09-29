@@ -1,0 +1,16 @@
+/hidden/Common_app/com.ndrive.androidtmndrive-1.0.0-1-90.apk
+/hidden/Common_app/launcher_meo_cardmobili.apk
+/hidden/Common_app/MEOGOAND_SETUP_2014_04_14_v1.0.2.r1594.ptin.android.apk
+/hidden/Common_app/meotaxi_launcher.apk
+/hidden/Common_app/pt.meo.android.mlocalizz-0.0.1-1-5.apk
+/hidden/Common_app/pt.sapo.android.cloudpt-1.4.0-49.apk
+/hidden/Common_app/pt.sapo.android.pay-1.8.0_35_34.apk
+/hidden/Common_app/pt.sapo.mobile.android.musicbox-3.0.04-1-19.apk
+/hidden/Common_app/pt.sapo.mobile.android.ptwifi_launcher-release.apk
+/hidden/Common_app/pt.tmn.android.ptcenter-2.0.2-10180-10.apk
+/hidden/Common_app/sapo_android_1820-release.apk
+/hidden/Common_app/sapo_android_cinema-release_300-release.apk
+/hidden/Common_app/sapo_android_desporto-release_300-release.apk
+/hidden/Common_app/sapo_android_mobile-release.apk
+/hidden/Common_app/sapo_android_noticias_refactor-release_300-release.apk
+/hidden/Common_app/sapo_android_store-release.apk

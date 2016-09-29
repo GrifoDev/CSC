@@ -379,6 +379,7 @@ selectbox(
 	"IUS",	"Mexican unbranded",										0,      #-- selected.1 = 17
 	"KTC",	"Republic of Korea unbranded",									0,      #-- selected.1 = 18
 	"LUX",	"Luxembourg unbranded",										0,      #-- selected.1 = 19
+	"MEO",	"Portugal unbranded",										0,      #-- selected.1 = 19
 	"MOT",	"Slovenia unbranded",										0,      #-- selected.1 = 20
 	"NEE",	"Nordic Countries unbranded",									0,      #-- selected.1 = 21
 	"NZC",	"New Zealand unbranded",									0,      #-- selected.1 = 22
