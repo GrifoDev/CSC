@@ -323,6 +323,12 @@ if
 		package_extract_dir("aroma/csc/XAC/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "46"
+	then
+		ui_print("Installing XAS CSC...");
+		package_extract_dir("aroma/csc/XAS/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "47"
 	then
 		ui_print("Installing XEF CSC...");

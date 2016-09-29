@@ -407,6 +407,7 @@ selectbox(
 	"VVT",	"Bulgaria unbranded",										0,      #-- selected.1 = 44
 	"VZW",	"USA Verizon branded",										0,      #-- selected.1 = 45
 	"XAC",	"Canada Multi-CSC (W8) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",	0,      #-- selected.1 = 46
+	"XAS",	"USA Sprint Multi-CSC branded, contains: BST, SPR, VMU, XAS",					0,      #-- selected.1 = 46
 	"XEF",	"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				0,      #-- selected.1 = 47
 	"XEO",	"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	0,      #-- selected.1 = 48
 	"XID",	"Indonesia unbranded",										0,      #-- selected.1 = 49

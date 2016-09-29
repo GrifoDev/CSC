@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <!-- Screen [0] -->
+    
+    <!-- Amazon -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Amazon" >
+            <!-- Amazon -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.amazon.mShop.android"
+                launcher:className="com.amazon.mShop.home.HomeActivity" />
+            <!-- Amazon Cloud Drive -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.amazon.clouddrive.photos" 
+                launcher:className="com.amazon.clouddrive.photos.display.LauncherActivity" />
+            <!-- Amazon Instant video -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.amazon.avod.thirdpartyclient" 
+                launcher:className="com.amazon.avod.thirdpartyclient.LauncherActivity" />
+            <!-- Amazon Music -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.amazon.mp3" 
+                launcher:className="com.amazon.mp3.client.activity.LauncherActivity" />
+            <!-- Amazon Kindle -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.amazon.kindle" 
+            launcher:className="com.amazon.kindle.UpgradePage" />
+    </folder> 
+            
+    <!-- Google -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Google" >
+            <!-- Google -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.google.android.googlequicksearchbox" 
+                launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.android.chrome" 
+                launcher:className="com.google.android.apps.chrome.Main" />
+            <!-- Gmail -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.google.android.gm" 
+                launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+            <!-- Google+ -->
+			<favorite
+                launcher:screen="3"
+				launcher:packageName="com.google.android.apps.plus"
+                launcher:className="com.google.android.apps.plus.phone.HomeActivity" />
+            <!-- Maps -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.google.android.apps.maps" 
+                launcher:className="com.google.android.maps.MapsActivity" />
+		    <!-- YouTube -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.google.android.youtube" 
+                launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+            <!-- Drive -->
+            <favorite
+                launcher:screen="6" 
+                launcher:packageName="com.google.android.apps.docs" 
+                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+            <!-- Play Movies & TV -->
+            <favorite
+                launcher:screen="7" 
+                launcher:packageName="com.google.android.videos" 
+                launcher:className="com.google.android.youtube.videos.EntryPoint" />
+            <!-- Play Books -->
+            <favorite
+                launcher:screen="8" 
+                launcher:packageName="com.google.android.apps.books" 
+                launcher:className="com.google.android.apps.books.app.BooksActivity" />
+            <!-- Play Newsstand -->
+            <favorite
+                launcher:screen="9" 
+                launcher:packageName="com.google.android.apps.magazines" 
+                launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" />
+            <!-- Play Games -->
+            <favorite
+                launcher:screen="10" 
+                launcher:packageName="com.google.android.play.games" 
+                launcher:className="com.google.android.gms.games.ui.destination.main.MainActivity" />
+            <!-- Hangouts -->
+            <favorite
+                launcher:screen="11" 
+                launcher:packageName="com.google.android.talk" 
+                launcher:className="com.google.android.talk.SigningInActivity" />
+			<!--Photos-->
+            <favorite 
+                launcher:screen="12"
+                launcher:packageName="com.google.android.apps.photos" 
+                launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+            <!-- Google Settings -->
+            <favorite
+                launcher:screen="13" 
+                launcher:packageName="com.google.android.gms" 
+                launcher:className="com.google.android.gms.app.settings.GoogleSettingsActivity" />
+    </folder> 
+
+    <!-- Samsung -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Samsung" >
+		<!-- Email -->
+		<favorite
+		launcher:screen="0" 
+		launcher:packageName="com.samsung.android.email.provider" 
+		launcher:className="com.samsung.android.email.ui.activity.MessageListXL" />
+	
+		<!-- Galaxy Apps -->
+	    <favorite
+		launcher:screen="1" 
+		launcher:packageName="com.sec.android.app.samsungapps" 
+		launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" />
+	         
+	    <!-- Internet -->
+	    <favorite
+		launcher:screen="2" 
+		launcher:packageName="com.sec.android.app.sbrowser" 
+		launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+	
+        <!-- Milk -->
+        <favorite
+        launcher:screen="3" 
+        launcher:packageName="com.samsung.mdl.radio" 
+        launcher:className="com.samsung.mdl.radio.MainActivity" />
+
+        <!-- My files -->
+        <favorite
+        launcher:screen="4"
+        launcher:packageName="com.sec.android.app.myfiles"
+        launcher:className="com.sec.android.app.myfiles.common.MainActivity" />
+
+	    <!-- Samsung+ -->
+	    <favorite
+		launcher:screen="5" 
+		launcher:packageName="com.samsung.oh" 
+		launcher:className="com.samsung.oep.ui.EntryActivity" />
+
+        <!-- Samsung Gear -->
+        <favorite
+        launcher:screen="6" 
+        launcher:packageName="com.samsung.android.app.watchmanager" 
+        launcher:className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+
+	    <!-- S Health -->
+	    <favorite
+		launcher:screen="7" 
+		launcher:packageName="com.sec.android.app.shealth" 
+		launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" />
+	
+	    <!-- S Voice -->
+	    <favorite
+		launcher:screen="8" 
+		launcher:packageName="com.samsung.voiceserviceplatform" 
+		launcher:className="com.samsung.voiceserviceplatform.ui.SVoiceMainActivity" />
+	
+    </folder> 
+
+    <!-- Social -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Social" >
+            <!-- FB messenger -->
+            <favorite
+                launcher:packageName="com.facebook.orca"
+                launcher:className="com.facebook.orca.auth.StartScreenActivity"
+                launcher:screen="0" />
+            <!-- instagram -->
+            <favorite
+                launcher:packageName="com.instagram.android"
+                launcher:className="com.instagram.android.activity.MainTabActivity"
+                launcher:screen="1" />
+    </folder> 
+
+    <!-- Sprint -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Virgin Mobile"
+        launcher:carrier="true" >
+
+            <!-- Sprint Fun & game -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.sprint.fng"  
+                launcher:className="com.sprint.zone.lib.core.LaunchFunAndGames" />
+            <!-- Lookout -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.lookout" 
+                launcher:className="com.lookout.ui.LoadDispatch" />				
+            <!-- Voicemail -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.coremobility.app.vnotes"  
+                launcher:className="com.coremobility.app.vnotes.CM_VnoteInbox" />
+    </folder> 
+
+    <!-- hidden Voice Search -->
+    <favorite
+        launcher:screen="1" 
+        launcher:hidden="true"
+        launcher:packageName="com.google.android.googlequicksearchbox" 
+        launcher:className="com.google.android.googlequicksearchbox.VoiceSearchActivity" />
+
+</appOrder> 

@@ -1,0 +1,7 @@
+6
+NaverTvCast.apk
+WhatsAppDownloader.apk
+GalaxyCare.apk
+xtra_t_app.apk
+SamsungUpdates.apk
+OMCAgent.apk
