@@ -15,20 +15,20 @@ CLARO P.R."
 CLARO P.R.
 
 33403Movistar"Movistar
-)
-33409Iusacell NextG"Iusacell NextG
+
+33409AT&T"AT&T
 
 334020TELCEL"TELCEL
 
 33430Movistar"Movistar
 
 334030Movistar"Movistar
-)
-33450Iusacell NextG"Iusacell NextG
-*
-334050Iusacell NextG"Iusacell NextG
-*
-334090Iusacell NextG"Iusacell NextG
+
+33450AT&T"AT&T
+
+334050AT&T"AT&T
+
+334090AT&T"AT&T
 
 33805DIGICEL"DIGICEL
 
@@ -54,7 +54,7 @@ CLARO P.R.
 
 346140FLOW"FLOW
 
-348170LIME"LIME
+348170FLOW"FLOW
 !
 348570CCT Boatphone"CCTBVI
 
@@ -112,7 +112,7 @@ CLARO P.R.
 
 374130DIGICEL"DIGICEL
 
-376350LIME"LIME
+376350FLOW"FLOW
 #
 376360IslandCom TCI"ICOM TCI
 
@@ -213,8 +213,8 @@ PORT-HABLE
 722310Claro AR"CLARO AR
 
 722341Personal"Personal
-
-72400	Nextel 3G"	Nextel 3G
+
+72400Nextel"Nextel
 
 72402TIM"TIM
 
@@ -247,8 +247,8 @@ PORT-HABLE
 72434CTBC"CTBC
 
 72437AEIOU"AEIOU
-
-72439	Nextel 3G"	Nextel 3G
+
+72439Nextel"Nextel
 
 73001Entel"Entel
 

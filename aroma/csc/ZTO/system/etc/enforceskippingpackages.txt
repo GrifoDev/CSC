@@ -1,6 +1,7 @@
-5
+6
 NaverTvCast.apk
 AxelSpringer.apk
 CnnPanel.apk
+AndroidPay_erasable_Hero.apk
 SamsungUpdates.apk
 OMCAgent.apk

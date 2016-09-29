@@ -56,11 +56,21 @@
                 launcher:screen="9" 
                 launcher:packageName="com.rsupport.rs.activity.rsupport.aas2" 
                 launcher:className="com.rsupport.rs.activity.edit.IntroActivity" />
-			<!-- Manual do usuario -->
+			<!-- Samsung Concierge -->
             <favorite
                 launcher:screen="10" 
+                launcher:packageName="com.sec.android.app.latin.concierge" 
+                launcher:className="com.sec.android.app.latin.concierge.Launcher" />
+			<!-- Manual do usuario -->
+            <favorite
+                launcher:screen="11" 
                 launcher:packageName="com.sec.android.usermanual" 
                 launcher:className="com.sec.android.usermanual.UserManualActivity" />
+             <!-- App Brasil -->
+            <favorite
+                launcher:screen="12" 
+                 launcher:packageName="br.org.sidi.appsbrasil"
+                 launcher:className="br.org.sidi.appsbrasil.MainActivity" />    
     </folder>
 	
     <!-- Google -->
