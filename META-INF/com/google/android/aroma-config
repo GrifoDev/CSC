@@ -370,6 +370,7 @@ selectbox(
 	"DDE",	"Germany Multi-CSC contains: DCO, DDE, DTM",							0,      #-- selected.1 = 9
 	"ETL",	"Czech Republic unbranded",									0,      #-- selected.1 = 10
 	"EUR",	"Greece unbranded",										0,      #-- selected.1 = 11
+	"EVR",	"United Kingdom T-Mobile branded",								0,      #-- selected.1 = 11
 	"GBL",	"Bulgaria unbranded",										0,      #-- selected.1 = 12
 	"HTS",	"Sweden Mitt3 branded",										0,      #-- selected.1 = 13
 	"ILO",	"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",						0,      #-- selected.1 = 14
