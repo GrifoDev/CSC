@@ -374,7 +374,7 @@
         enc_algo="all"
         pdn="ims"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="1"
         support_ipsec="true"
         need_autoconfig="true"
@@ -434,7 +434,7 @@
         enc_algo="all"
         pdn="ims"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="1"
         support_ipsec="true"
         need_autoconfig="true"
@@ -504,7 +504,7 @@
         enc_algo="all"
         pdn="internet"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="0"
         support_ipsec="true"
         need_autoconfig="true"
@@ -538,7 +538,7 @@
         enc_algo="all"
         pdn="emergency"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="0"
         support_ipsec="true"
         enable_gruu="0"
@@ -574,7 +574,7 @@
         enc_algo="all"
         pdn="ims"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="1"
         support_ipsec="true"
         need_autoconfig="true"
@@ -644,7 +644,7 @@
         enc_algo="all"
         pdn="internet"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="0"
         support_ipsec="true"
         need_autoconfig="true"
@@ -678,7 +678,7 @@
         enc_algo="all"
         pdn="ims"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="0"
         support_ipsec="true"
         need_autoconfig="true"
@@ -703,7 +703,7 @@
         enc_algo="all"
         pdn="emergency"
         transport="udp-preferred"
-        mss_size="1200"
+        mss_size="1000"
         priority="0"
         evs_channel_aware_receive="2"
         evs_bit_rate_send="5.9-13.2"
@@ -4098,7 +4098,7 @@
         mss_size="1200"
         priority="1"
         support_ipsec="true"
-        timer="1:500,2:4000,4:5000,A:500,B:32000,C:180000,D:32000,E:500,F:32000,G:500,H:32000,I:5000,J:32000,K:5000"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:128000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
 
         precondtion_initial_sendrecv="1"
         emergency_support="false"
@@ -4115,6 +4115,7 @@
         audio_codec_mode="0"
         emm="0"
         rtcp_timeout="86400"
+        video_capabilities="1"
 
         rtp_timeout="60"
 
@@ -4156,7 +4157,7 @@
         priority="0"
         support_ipsec="true"
         use_precondition="1"
-        timer="1:500,2:4000,4:5000,A:500,B:32000,C:180000,D:32000,E:500,F:32000,G:500,H:32000,I:5000,J:32000,K:5000">
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:128000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000">
         <network type="lte" services="mmtel,mmtel-video"/>
         <network type="umts" services="mmtel,mmtel-video"/>
         <network type="edge" services="mmtel,mmtel-video"/>
