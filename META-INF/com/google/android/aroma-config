@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V1.7");
+ini_set("rom_version",          "V1.7.5");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "21.09.2016");
+ini_set("rom_date",             "02.10.2016");
 
 ##
 # Show Simple Splash
@@ -370,50 +370,50 @@ selectbox(
 	"DDE",	"Germany Multi-CSC contains: DCO, DDE, DTM",							0,      #-- selected.1 = 9
 	"ETL",	"Czech Republic unbranded",									0,      #-- selected.1 = 10
 	"EUR",	"Greece unbranded",										0,      #-- selected.1 = 11
-	"EVR",	"United Kingdom T-Mobile branded",								0,      #-- selected.1 = 11
-	"GBL",	"Bulgaria unbranded",										0,      #-- selected.1 = 12
-	"HTS",	"Sweden Mitt3 branded",										0,      #-- selected.1 = 13
-	"ILO",	"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",						0,      #-- selected.1 = 14
-	"INS",	"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",				0,      #-- selected.1 = 15
-	"ITV",	"Italian unbranded",										0,      #-- selected.1 = 16
-	"IUS",	"Mexican unbranded",										0,      #-- selected.1 = 17
-	"KTC",	"Republic of Korea unbranded",									0,      #-- selected.1 = 18
-	"LUX",	"Luxembourg unbranded",										0,      #-- selected.1 = 19
-	"MEO",	"Portugal unbranded",										0,      #-- selected.1 = 19
-	"MOT",	"Slovenia unbranded",										0,      #-- selected.1 = 20
-	"NEE",	"Nordic Countries unbranded",									0,      #-- selected.1 = 21
-	"NZC",	"New Zealand unbranded",									0,      #-- selected.1 = 22
-	"OPS",	"Australia Optus branded",									0,      #-- selected.1 = 23
-	"ORO",	"Romania Orange branded",									0,      #-- selected.1 = 24
-	"PHE",	"Spain unbranded",										0,      #-- selected.1 = 25
-	"PHN",	"Netherlands unbranded",									0,      #-- selected.1 = 26
-	"SER",	"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",						0,      #-- selected.1 = 27
-	"SKC",	"Korea unbranded",										0,      #-- selected.1 = 28
-	"TCE",	"Mexican Telcel branded",									0,      #-- selected.1 = 29
-	"TEL",	"Telstra branded",										0,      #-- selected.1 = 30
-	"TEN",	"Norway Telenor branded",									0,      #-- selected.1 = 31
-	"TGY",	"HongKong unbranded",										0,      #-- selected.1 = 32
-	"THL",	"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",	0,      #-- selected.1 = 33
-	"TMB",	"USA T-Mobile Branded",										0,      #-- selected.1 = 34
-	"TMS",	"Slovak unbranded",										0,      #-- selected.1 = 35
-	"TMZ",	"Czech T-Mobile branded",									0,      #-- selected.1 = 36
-	"TPA",	"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",		0,      #-- selected.1 = 37
-	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 38
-	"TUR",	"Turkey Multi-CSC contains: ACR, AFR, ECT, KSA, TUR, XFA",					0,      #-- selected.1 = 39
-	"VAU",	"Australia Vodafone branded",									0,      #-- selected.1 = 40
-	"VD2",	"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",														0,      #-- selected.1 = 41
-	"VDS",	"Sweden unbranded",										0,      #-- selected.1 = 42
-	"VIA",	"Germany Multi-CSC contains: O2U, VIA, XEC",							0,      #-- selected.1 = 43
-	"VVT",	"Bulgaria unbranded",										0,      #-- selected.1 = 44
-	"VZW",	"USA Verizon branded",										0,      #-- selected.1 = 45
-	"XAC",	"Canada Multi-CSC (W8) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",	0,      #-- selected.1 = 46
-	"XAS",	"USA Sprint Multi-CSC branded, contains: BST, SPR, VMU, XAS",					0,      #-- selected.1 = 46
-	"XEF",	"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				0,      #-- selected.1 = 47
-	"XEO",	"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	0,      #-- selected.1 = 48
-	"XID",	"Indonesia unbranded",										0,      #-- selected.1 = 49
-	"XSA",	"Australia unbranded",										0,      #-- selected.1 = 50
-	"XSG",	"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",										0,      #-- selected.1 = 51
-	"ZTO",	"Brazil unbranded",										0       #-- selected.1 = 52
+	"EVR",	"United Kingdom T-Mobile branded",								0,      #-- selected.1 = 12
+	"GBL",	"Bulgaria unbranded",										0,      #-- selected.1 = 13
+	"HTS",	"Sweden Mitt3 branded",										0,      #-- selected.1 = 14
+	"ILO",	"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",						0,      #-- selected.1 = 15
+	"INS",	"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",				0,      #-- selected.1 = 16
+	"ITV",	"Italian unbranded",										0,      #-- selected.1 = 17
+	"IUS",	"Mexican unbranded",										0,      #-- selected.1 = 18
+	"KTC",	"Republic of Korea unbranded",									0,      #-- selected.1 = 19
+	"LUX",	"Luxembourg unbranded",										0,      #-- selected.1 = 20
+	"MEO",	"Portugal unbranded",										0,      #-- selected.1 = 21
+	"MOT",	"Slovenia unbranded",										0,      #-- selected.1 = 22
+	"NEE",	"Nordic Countries unbranded",									0,      #-- selected.1 = 23
+	"NZC",	"New Zealand unbranded",									0,      #-- selected.1 = 24
+	"OPS",	"Australia Optus branded",									0,      #-- selected.1 = 25
+	"ORO",	"Romania Orange branded",									0,      #-- selected.1 = 26
+	"PHE",	"Spain unbranded",										0,      #-- selected.1 = 27
+	"PHN",	"Netherlands unbranded",									0,      #-- selected.1 = 28
+	"SER",	"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",						0,      #-- selected.1 = 29
+	"SKC",	"Korea unbranded",										0,      #-- selected.1 = 30
+	"TCE",	"Mexican Telcel branded",									0,      #-- selected.1 = 31
+	"TEL",	"Telstra branded",										0,      #-- selected.1 = 32
+	"TEN",	"Norway Telenor branded",									0,      #-- selected.1 = 33
+	"TGY",	"HongKong unbranded",										0,      #-- selected.1 = 34
+	"THL",	"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",	0,      #-- selected.1 = 35
+	"TMB",	"USA T-Mobile Branded",										0,      #-- selected.1 = 36
+	"TMS",	"Slovak unbranded",										0,      #-- selected.1 = 37
+	"TMZ",	"Czech T-Mobile branded",									0,      #-- selected.1 = 38
+	"TPA",	"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",		0,      #-- selected.1 = 39
+	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 40
+	"TUR",	"Turkey Multi-CSC contains: ACR, AFR, ECT, KSA, TUR, XFA",					0,      #-- selected.1 = 41
+	"VAU",	"Australia Vodafone branded",									0,      #-- selected.1 = 42
+	"VD2",	"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",														0,      #-- selected.1 = 43
+	"VDS",	"Sweden unbranded",										0,      #-- selected.1 = 44
+	"VIA",	"Germany Multi-CSC contains: O2U, VIA, XEC",							0,      #-- selected.1 = 45
+	"VVT",	"Bulgaria unbranded",										0,      #-- selected.1 = 46
+	"VZW",	"USA Verizon branded",										0,      #-- selected.1 = 47
+	"XAC",	"Canada Multi-CSC (W8) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",	0,      #-- selected.1 = 48
+	"XAS",	"USA Sprint Multi-CSC branded, contains: BST, SPR, VMU, XAS",					0,      #-- selected.1 = 49
+	"XEF",	"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				0,      #-- selected.1 = 50
+	"XEO",	"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	0,      #-- selected.1 = 51
+	"XID",	"Indonesia unbranded",										0,      #-- selected.1 = 52
+	"XSA",	"Australia unbranded",										0,      #-- selected.1 = 53
+	"XSG",	"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",										0,      #-- selected.1 = 54
+	"ZTO",	"Brazil unbranded",										0       #-- selected.1 = 55
 
 	  #--------[ Initial Value = 0: Unselected, 1: Selected, 2: Group Item, 3: Not Visible ]---------#
 
