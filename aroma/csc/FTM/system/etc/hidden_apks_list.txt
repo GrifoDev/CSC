@@ -1,0 +1,9 @@
+/hidden/Common_app/app-official-googlePlayStore-release_5.2.2.62.apk
+/hidden/Common_app/DragonMania_FULL_Android_Generic_IGP_ORGL_ML_IAP_109_AQ49.apk
+/hidden/Common_app/ePresse-prod-4.2.5.apk
+/hidden/Common_app/MShopAndroidPhoneApp-6.2.75.5-patron-release-OEM-sign_v6.2.0.100_UK_ES_IT.apk
+/hidden/Common_app/OCC-V6.0_162_Prod_release_signed_aligned.apk
+/hidden/Common_app/OrangeEtMoi_2.8.0-280-35.apk
+/hidden/Common_app/otvp-v23-20160212-5.3.12-com.orange.owtv-release.apk
+/hidden/Common_app/PuzzlePets_FULL_Android_Generic_IGP_ORGL_ML_IAP_107_AW51.apk
+/hidden/Common_app/SpiderManUltimatePower_FULL_Android_Generic_IGP_ORGL_ML_IAP_111_AO03.apk

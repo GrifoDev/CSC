@@ -1,0 +1,3 @@
+/system/priv-app/3076_SFRMesApplis-3.0.3-logoff-obson-prodRelease_2015-08-28_11-57-48/3076_SFRMesApplis-3.0.3-logoff-obson-prodRelease_2015-08-28_11-57-48.apk
+/system/priv-app/3077_SFRJeux-5.0.2-logoff-obson-release_2015-08-28_14-54-48/3077_SFRJeux-5.0.2-logoff-obson-release_2015-08-28_14-54-48.apk
+/system/priv-app/3168_SFRNFC-2.1.0_2016-01-05_16-45-45/3168_SFRNFC-2.1.0_2016-01-05_16-45-45.apk
