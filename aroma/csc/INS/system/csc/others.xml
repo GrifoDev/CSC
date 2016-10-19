@@ -63,7 +63,6 @@
 
    <CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
    <CscFeature_RIL_UssdRoutingPolicy>ims</CscFeature_RIL_UssdRoutingPolicy>
-   <CscFeature_RIL_SupportVolteVtCall>TRUE</CscFeature_RIL_SupportVolteVtCall>
    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
@@ -78,5 +77,14 @@
    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
    <CscFeature_Setting_ReplaceLabel4DualSim>Smart dual SIM</CscFeature_Setting_ReplaceLabel4DualSim>
    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>INU_4G</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+   <!-- EPDG -->
+   <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+   <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+   <CscFeature_RIL_ConfigNetworkNameForEpdg>Jio WiFi</CscFeature_RIL_ConfigNetworkNameForEpdg>
+   <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+   <CscFeature_Common_ConfigOpBrandingForWFC>Jio WiFi</CscFeature_Common_ConfigOpBrandingForWFC>
+   <CscFeature_Common_SupportWiFiCalling>true</CscFeature_Common_SupportWiFiCalling>
+   <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+   <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,WifiCalling,PowerSaving,AirplaneMode,DormantMode,Flashlight,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
   </FeatureSet>
 </SamsungMobileFeauture>
