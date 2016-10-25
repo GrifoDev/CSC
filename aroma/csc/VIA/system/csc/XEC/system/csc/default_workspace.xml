@@ -124,13 +124,7 @@ limitations under the License.
 
 
         <!--  screen [1]  -->
-		 <!-- emoción -->
-        <favorite
-            launcher:packageName="test.emocion" 
-            launcher:className="test.emocion.launcher" 
-            launcher:screen="1" 
-            launcher:x="3" 
-            launcher:y="2" />
+		 
 
         <!-- Mi Movistar -->
         <favorite
@@ -140,10 +134,10 @@ limitations under the License.
             launcher:x="0" 
             launcher:y="3" />
 
-        <!-- Movistar Recomienda -->
+        <!-- emoción -->
         <favorite
-            launcher:packageName="com.movistar.recomienda" 
-            launcher:className="com.movistar.recomienda.GourmetPrincipal" 
+            launcher:packageName="test.emocion" 
+            launcher:className="test.emocion.launcher" 
             launcher:screen="1" 
             launcher:x="1" 
             launcher:y="3" />

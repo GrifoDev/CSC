@@ -61,5 +61,6 @@
     <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_RIL_PDPRetryMechanism4>O2</CscFeature_RIL_PDPRetryMechanism4>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
   </FeatureSet>
 </SamsungMobileFeature>

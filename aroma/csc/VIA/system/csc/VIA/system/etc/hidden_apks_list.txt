@@ -10,4 +10,4 @@
 /hidden/app/MShopAndroidPhoneApp-6.1.11.31-hendricks-release-OEM-sign_v6.1.0.200_UK_ES_IT.apk
 /hidden/app/o2_App_Shop_1.0.13.apk
 /hidden/app/O2_ebooks_launcher-v1.0.0.apk
-/hidden/app/o2gameplace.apk
+/hidden/app/O2GamePlace.apk

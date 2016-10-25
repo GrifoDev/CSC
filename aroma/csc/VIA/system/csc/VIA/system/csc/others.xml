@@ -40,6 +40,7 @@
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
     
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
