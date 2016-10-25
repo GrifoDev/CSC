@@ -40,7 +40,7 @@
     <CscFeature_Wifi_RemovableDefaultAP>TRUE</CscFeature_Wifi_RemovableDefaultAP>
     <CscFeature_Wifi_EapMethodSetting>SIM, SingTel, Singtel WIFI</CscFeature_Wifi_EapMethodSetting>
     <CscFeature_Wifi_ConfigOpBranding>SingTel</CscFeature_Wifi_ConfigOpBranding>
-    <CscFeature_Wifi_ConfigVendorSsidList>Singtel WIFI</CscFeature_Wifi_ConfigVendorSsidList>
+    <CscFeature_Wifi_ConfigVendorSsidList>Singtel WIFI, Wireless@SGx</CscFeature_Wifi_ConfigVendorSsidList>
     <CscFeature_RIL_ConfigAlwaysOnApn>cbs</CscFeature_RIL_ConfigAlwaysOnApn>
     <CSCFeature_VoiceCall_OpenApiCallActiveStatus>TRUE</CSCFeature_VoiceCall_OpenApiCallActiveStatus>
     <CscFeature_Contact_IgnoreSpaceDuringSearch>TRUE</CscFeature_Contact_IgnoreSpaceDuringSearch>
@@ -71,7 +71,18 @@
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
-	<CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,VoLte,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,VoLte,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
     <CscFeature_Wifi_ConfigOpBranding>SingTel</CscFeature_Wifi_ConfigOpBranding>
+    <CscFeature_Setting_SupportWifiCall>true</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_VoiceCall_ConfigOpStyleForWfc>WFC_PREF_ADD_WIFI_ONLY</CscFeature_VoiceCall_ConfigOpStyleForWfc>
+    <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>All</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_RIL_SupportEpdgDuringRoaming>true</CscFeature_RIL_SupportEpdgDuringRoaming>
+    <CscFeature_RIL_SupportSmsFallbackForIms>TRUE</CscFeature_RIL_SupportSmsFallbackForIms>    
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>    
   </FeatureSet>
 </SamsungMobileFeauture>

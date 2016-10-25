@@ -57,7 +57,7 @@
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn> 
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,VoLte,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_52001_52003_52074_52054_52005;,ShowPrefModeMenuSim_52003_52001_52074_52054;</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_52001_52003_52074_52054_52005;,ShowPrefModeMenuSim_52003_52001_52074_52054_52005;</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>

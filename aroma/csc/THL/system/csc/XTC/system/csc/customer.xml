@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>PHILIPPINES</Country>
     <CountryISO>PH</CountryISO>
     <Region>SEA</Region>
@@ -94,33 +94,6 @@
         </DateTimeFormat>
       </Phone>
     </Main>
-    <Contact>
-      <NbPreInstalledContact>6</NbPreInstalledContact>
-      <PreInstalledContact>
-        <TelName>Philippine National Police</TelName>
-        <TelNum>+632117</TelNum>
-      </PreInstalledContact>
-      <PreInstalledContact>
-        <TelName>Bureau of Fire Protection</TelName>
-        <TelNum>+6327295166</TelNum>
-      </PreInstalledContact>
-      <PreInstalledContact>
-        <TelName>NDRRMC</TelName>
-        <TelNum>+6329111406</TelNum>
-      </PreInstalledContact>
-      <PreInstalledContact>
-        <TelName>PAGASA</TelName>
-        <TelNum>+6329271541</TelNum>
-      </PreInstalledContact>
-      <PreInstalledContact>
-        <TelName>Philippine Red Cross</TelName>
-        <TelNum>+6325270000</TelNum>
-      </PreInstalledContact>
-      <PreInstalledContact>
-        <TelName>MMDA</TelName>
-        <TelNum>+632136</TelNum>
-      </PreInstalledContact>
-    </Contact>
     <Calendar>
       <StartDay>sunday</StartDay>
     </Calendar>
@@ -139,7 +112,6 @@
           <Home>manual</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>MALAYSIA</Country>
     <CountryISO>MY</CountryISO>
     <Region>SEA</Region>
     <SalesCode>XME</SalesCode>
-    <NbNetworkInfo>6</NbNetworkInfo>
+    <NbNetworkInfo>5</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>50219</MCCMNC>
       <NetworkName>CELCOM</NetworkName>
@@ -26,10 +26,6 @@
     <NetworkInfo>
       <MCCMNC>50218</MCCMNC>
       <NetworkName>U MOBILE</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45001</MCCMNC>
-      <NetworkName>Test Bed</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -129,7 +125,7 @@
       <StartDay>monday</StartDay>
     </Calendar>
     <Messages>
-      <NbVoicemail>4</NbVoicemail>
+      <NbVoicemail>5</NbVoicemail>
       <Voicemail>
         <NetworkName>CELCOM</NetworkName>
         <TelNum>1313</TelNum>
@@ -145,6 +141,10 @@
       <Voicemail>
         <NetworkName>U MOBILE</NetworkName>
         <TelNum>1311</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Yes 4G</NetworkName>
+        <TelNum>121</TelNum>
       </Voicemail>
       <SMS>
         <DeliveryReport>off</DeliveryReport>
@@ -162,7 +162,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -393,26 +392,9 @@
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
+      <NbSetting>1</NbSetting>
       <Setting>
         <NetworkName>Yes 4G</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVideocall>true</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
-        </VoLTE>
-      </Setting>
-      <Setting>
-        <NetworkName>Test Bed</NetworkName>
         <Version>2.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>

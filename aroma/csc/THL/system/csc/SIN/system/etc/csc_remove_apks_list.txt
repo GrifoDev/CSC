@@ -1,3 +1,2 @@
 /system/app/GalaxyGiftStubHERO/GalaxyGiftStubHERO.apk
 /system/app/QuaTangGalaxyStub/QuaTangGalaxyStub.apk
-/system/priv-app/IPsecService/IPsecService.apk

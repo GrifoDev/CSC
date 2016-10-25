@@ -1,7 +1,8 @@
-10
+11
 NaverTvCast.apk
 AxelSpringer.apk
 SamsungPayStub.apk
+AndroidPay_erasable_Hero.apk
 imsservice.apk
 ImsSettings.apk
 ImsLogger+.apk

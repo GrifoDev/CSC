@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>SINGAPORE</Country>
     <CountryISO>SG</CountryISO>
     <Region>SEA</Region>
@@ -136,7 +136,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -144,11 +143,17 @@
       </MMS>
     </Messages>
     <Browser>
-      <NbBookmark>1</NbBookmark>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>1</Index>
+        <BookmarkName>Samsung Homepage</BookmarkName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
+      </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <Index>1</Index>
+        <Index>2</Index>
         <BookmarkName>Yahoo!</BookmarkName>
         <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
       </Bookmark>
@@ -234,6 +239,7 @@
         <NetworkName>Singtel (Postpaid)</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Singtel (Postpaid)</ProfileName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
         <Auth>normal</Auth>
         <Protocol>other</Protocol>
         <MTUSize>1500</MTUSize>
@@ -268,6 +274,7 @@
         <NetworkName>Singtel (Prepaid)</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Singtel (Prepaid)</ProfileName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
         <Auth>normal</Auth>
         <Protocol>other</Protocol>
         <MTUSize>1500</MTUSize>
@@ -295,6 +302,7 @@
         <NetworkName>SGP-M1</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>M1 E-mail</ProfileName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
         <Auth>normal</Auth>
         <Protocol>other</Protocol>
         <MTUSize>1500</MTUSize>
@@ -337,6 +345,7 @@
         <NetworkName>StarHub (Postpaid)</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>SH Data Postpaid</ProfileName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -376,6 +385,7 @@
         <NetworkName>StarHub (Prepaid)</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>SH Data Prepaid</ProfileName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -469,9 +479,9 @@
         <Version>2.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>

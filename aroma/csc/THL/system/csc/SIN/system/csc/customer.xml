@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>SINGAPORE</Country>
     <CountryISO>SG</CountryISO>
     <Region>SEA</Region>
@@ -131,7 +131,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -139,7 +138,7 @@
       </MMS>
     </Messages>
     <Browser>
-      <NbBookmark>5</NbBookmark>
+      <NbBookmark>6</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
@@ -151,21 +150,21 @@
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>2</Index>
-        <BookmarkName>Singtel Apps</BookmarkName>
+        <BookmarkName>Singtel Apps</BookmarkName>
         <URL>http://www.singtel.com/apps</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>3</Index>
-        <BookmarkName>Music Store</BookmarkName>
-        <URL>http://stwap.gdeasia.com</URL>
+        <BookmarkName>Music Store</BookmarkName>
+        <URL>http://www.musicstore.sg</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>4</Index>
-        <BookmarkName>Mobile Device Help</BookmarkName>
+        <BookmarkName>Mobile Device Help</BookmarkName>
         <URL>http://info.singtel.com/support/mobiledevicehelp</URL>
       </Bookmark>
       <Bookmark>
@@ -174,6 +173,13 @@
         <Index>5</Index>
         <BookmarkName>Yahoo!</BookmarkName>
         <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>6</Index>
+        <BookmarkName>Samsung Homepage</BookmarkName>
+        <URL>http://www.samsung.com/sg/dlp/</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
@@ -499,9 +505,9 @@
         <Version>2.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>

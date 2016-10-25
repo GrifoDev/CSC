@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>THAILAND</Country>
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
@@ -94,7 +94,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -187,6 +186,7 @@
       </Profile>
       <Profile>
         <NetworkName>AIS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>AIS Internet</ProfileName>
         <Auth>normal</Auth>
@@ -201,6 +201,7 @@
       </Profile>
       <Profile>
         <NetworkName>AIS 3G2100</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>AIS Internet</ProfileName>
         <Auth>normal</Auth>
@@ -232,6 +233,7 @@
       </Profile>
       <Profile>
         <NetworkName>dtac</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>dtac internet</ProfileName>
         <Auth>normal</Auth>
@@ -263,6 +265,7 @@
       </Profile>
       <Profile>
         <NetworkName>dtac TriNet</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>dtac IMS</ProfileName>
         <Auth>normal</Auth>
@@ -277,6 +280,7 @@
       </Profile>
       <Profile>
         <NetworkName>dtac TriNet</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>dtac internet</ProfileName>
         <Auth>normal</Auth>
@@ -340,6 +344,7 @@
       </Profile>
       <Profile>
         <NetworkName>True Move H</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>TRUE-H INTERNET</ProfileName>
         <Auth>normal</Auth>
@@ -375,6 +380,7 @@
       </Profile>
       <Profile>
         <NetworkName>Real Future</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>TRUE-H INTERNET</ProfileName>
         <Auth>normal</Auth>
@@ -495,7 +501,7 @@
           <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>false</EnableVideocall>
+          <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
@@ -512,7 +518,7 @@
           <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>false</EnableVideocall>
+          <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
@@ -528,7 +534,7 @@
         <VoLTE>
           <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
