@@ -48,5 +48,14 @@
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_RIL_ConfigAlwaysOnApn>mms_21403,mms_21407,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigApnForDataUseException>ims_21403</CscFeature_RIL_ConfigApnForDataUseException>  
+    <!-- IMS service: VoWiFi -->
+    <CscFeature_Setting_SupportWifiCall>true</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_Setting_SupportWiFiCallingMenu>true</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuSim_21403;</CscFeature_RIL_ConfigEpdgExtraFunction>
   </FeatureSet>
 </SamsungMobileFeauture>

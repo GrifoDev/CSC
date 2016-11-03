@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>SPAIN</Country>
     <CountryISO>ES</CountryISO>
     <Region>EUR</Region>
     <SalesCode>PHE</SalesCode>
-    <NbNetworkInfo>33</NbNetworkInfo>
+    <NbNetworkInfo>38</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>21407</MCCMNC>
       <NetworkName>movistar</NetworkName>
@@ -26,6 +26,16 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>21406</MCCMNC>
+      <NetworkName>mobil R</NetworkName>
+      <SPName>mobilR</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21403</MCCMNC>
+      <NetworkName>mobil R</NetworkName>
+      <SPName>mobilR</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21408</MCCMNC>
       <NetworkName>mobil R</NetworkName>
       <SPName>mobilR</SPName>
     </NetworkInfo>
@@ -164,6 +174,21 @@
       <MCCMNC>21403</MCCMNC>
       <NetworkName>Jazztel</NetworkName>
       <SPName>JAZZTEL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21406</MCCMNC>
+      <NetworkName>LOWI</NetworkName>
+      <SPName>LOWI</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21406</MCCMNC>
+      <NetworkName>Lebara</NetworkName>
+      <SPName>Lebara</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21406</MCCMNC>
+      <NetworkName>Hits</NetworkName>
+      <SPName>Hits</SPName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -316,11 +341,6 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>
-        <MMSView>
-          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
-          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
-        </MMSView>
       </MMS>
       <Email>
         <EmailReceiving>
@@ -350,7 +370,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>22</NbProfileHandle>
+      <NbProfileHandle>25</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>movistar</NetworkName>
@@ -368,11 +388,12 @@
         <ProfXCAP>ut.es</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Orange</NetworkName>
         <ProfBrowser>Orange Internet Movil</ProfBrowser>
         <ProfMMS>Orange MMS</ProfMMS>
         <ProfIntSharing>Orange Internet PC</ProfIntSharing>
+        <ProfIMS>Orange IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -483,13 +504,35 @@
         <ProfBrowser>internet simyo</ProfBrowser>
         <ProfMMS>MMS simyo</ProfMMS>
       </ProfileHandle>
-      <NbProfile>45</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>LOWI</NetworkName>
+        <ProfBrowser>LOWI_data</ProfBrowser>
+        <ProfMMS>LOWI_MMS</ProfMMS>
+        <ProfIntSharing>LOWI_data</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Lebara</NetworkName>
+        <ProfBrowser>Lebara Internet</ProfBrowser>
+        <ProfMMS>Lebara MMS</ProfMMS>
+        <ProfIntSharing>Lebara Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Hits</NetworkName>
+        <ProfBrowser>Hits</ProfBrowser>
+        <ProfMMS>MMS Hits</ProfMMS>
+        <ProfIntSharing>Hits</ProfIntSharing>
+      </ProfileHandle>
+      <NbProfile>52</NbProfile>
       <Profile>
         <NetworkName>movistar</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Movistar</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -507,6 +550,7 @@
         <ProfileName>Conexion compartida</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -524,6 +568,7 @@
         <ProfileName>Movistar MMS</ProfileName>
         <URL>http://mms.movistar.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -543,6 +588,7 @@
         <ProfileName>Internet móvil</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -560,6 +606,7 @@
         <ProfileName>MMS VODAFONE</ProfileName>
         <URL>http://mmsc.vodafone.es/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -579,6 +626,7 @@
         <ProfileName>INTERNET</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -591,11 +639,36 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>ut.es</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ut.es</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Orange</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Orange Internet Movil</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -613,6 +686,7 @@
         <ProfileName>Orange MMS</ProfileName>
         <URL>http://mms.orange.es</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -632,6 +706,7 @@
         <ProfileName>Orange Internet PC</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -649,6 +724,7 @@
         <ProfileName>Yoigo Internet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -664,6 +740,7 @@
         <ProfileName>Yoigo MMS</ProfileName>
         <URL>http://mmss/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -681,6 +758,7 @@
         <ProfileName>Internet R</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -696,6 +774,7 @@
         <ProfileName>MMS R</ProfileName>
         <URL>http://mms.mundo-r.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -713,6 +792,7 @@
         <ProfileName>Euskaltel MMS</ProfileName>
         <URL>http://mms.euskaltel.mobi</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -732,6 +812,7 @@
         <ProfileName>Euskaltel Internet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
@@ -748,6 +829,7 @@
         <ProfileName>telecable Internet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -762,6 +844,7 @@
         <ProfileName>telecable MMS</ProfileName>
         <URL>http://mms.telecable.es/mms/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -781,6 +864,7 @@
         <ProfileName>jazzinternet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -793,6 +877,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://jazztelmms.com/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -810,6 +895,7 @@
         <ProfileName>CARREFOUR INTERNET</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -822,6 +908,7 @@
         <ProfileName>CARREFOUR MMS</ProfileName>
         <URL>http://mms.orange.es</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -841,6 +928,7 @@
         <ProfileName>Pepephone Internet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -853,6 +941,7 @@
         <ProfileName>Pepephone MMS</ProfileName>
         <URL>http://mms.pepephone.com/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -872,6 +961,7 @@
         <ProfileName>RACC Internet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -884,6 +974,7 @@
         <ProfileName>RACC MMS</ProfileName>
         <URL>http://mms.racc.net</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -901,6 +992,7 @@
         <ProfileName>ONO</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -913,6 +1005,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.ono.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -930,6 +1023,7 @@
         <ProfileName>Tuenti</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -944,6 +1038,7 @@
         <ProfileName>Tuenti MMS</ProfileName>
         <URL>http://tuenti.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -963,6 +1058,7 @@
         <ProfileName>Eroski Movil GPRS</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -977,6 +1073,7 @@
         <ProfileName>Eroski Movil MMS</ProfileName>
         <URL>http://mms.eroskimovil.es/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -996,6 +1093,7 @@
         <ProfileName>Neo Internet</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1008,6 +1106,7 @@
         <ProfileName>Neo MMS</ProfileName>
         <URL>http://mms.neosky.omv.es/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1025,6 +1124,7 @@
         <ProfileName>Neo Internet Otros</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1037,6 +1137,7 @@
         <ProfileName>PTV Net Movil</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1049,6 +1150,7 @@
         <ProfileName>Ibercom</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1061,6 +1163,7 @@
         <ProfileName>Internet TPH</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1073,6 +1176,7 @@
         <ProfileName>MASMovil</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1085,6 +1189,7 @@
         <ProfileName>Internet Pepephone</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1097,6 +1202,7 @@
         <ProfileName>MMS Pepephone</ProfileName>
         <URL>http://www.pepephone.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1114,6 +1220,7 @@
         <ProfileName>internetand</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1126,6 +1233,7 @@
         <ProfileName>internet simyo</ProfileName>
         <URL>http://m.es.samsungapps.com</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1138,6 +1246,7 @@
         <ProfileName>MMS simyo</ProfileName>
         <URL>http://mms.orange.es</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1150,30 +1259,116 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>vodafone ES</NetworkName>
+        <NetworkName>LOWI</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>IMS</ProfileName>
+        <ProfileName>LOWI_data</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>ims</APN>
+          <APN>lowi.private.omv.es</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>vodafone ES</NetworkName>
+        <NetworkName>LOWI</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>ut.es</ProfileName>
+        <ProfileName>LOWI_MMS</ProfileName>
+        <URL>http://mms.lowi.omv.es/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.73.32.10</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.lowi.omv.es</APN>
+          <UserId>wap@wap</UserId>
+          <Password>wap125</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Lebara</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Lebara Internet</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>ut.es</APN>
+          <APN>gprsmov.lebaramobile.es</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Lebara</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Lebara MMS</ProfileName>
+        <URL>http://mms.lebaramobile.es/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.73.32.10</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.lebaramobile.es</APN>
+          <UserId>wap@wap</UserId>
+          <Password>wap125</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Hits</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Hits</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>tel.hitsmobile.es</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Hits</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS Hits</ProfileName>
+        <URL>http://mms.hitsmobile.es/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.73.32.10</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.hitsmobile.es</APN>
+          <UserId>wap@wap</UserId>
+          <Password>wap125</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Orange IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>1</NbSetting>
+      <NbSetting>2</NbSetting>
       <Setting>
         <NetworkName>vodafone ES</NetworkName>
         <Version>2.0</Version>
@@ -1187,6 +1382,23 @@
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Orange</NetworkName>
+        <Version>2.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <SMSoIP_Domain>cs</SMSoIP_Domain>
         </VoLTE>
