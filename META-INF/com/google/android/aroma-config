@@ -374,6 +374,7 @@ selectbox(
 	"EVR",	"United Kingdom T-Mobile branded",								0,      #-- selected.1 = 13
 	"FTM",	"France Orange branded",									0,	#-- selected.1 = 14
 	"GBL",	"Bulgaria unbranded",										0,      #-- selected.1 = 15
+	"H3G",	"United Kingdom H3G branded",									0,      #-- selected.1 = 16
 	"HTS",	"Sweden Mitt3 branded",										0,      #-- selected.1 = 16
 	"ILO",	"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",						0,      #-- selected.1 = 17
 	"INS",	"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",				0,      #-- selected.1 = 18

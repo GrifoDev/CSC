@@ -127,6 +127,12 @@ endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "16"
 	then
+		ui_print("Installing H3G CSC...");
+		package_extract_dir("aroma/csc/H3G/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "16"
+	then
 		ui_print("Installing HTS CSC...");
 		package_extract_dir("aroma/csc/HTS/system", "/system");
 endif;
