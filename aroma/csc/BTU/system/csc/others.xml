@@ -33,11 +33,13 @@
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
-    <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
+    <CscFeature_RIL_ConfigAlwaysOnApn>ims,IMS,xcap,XCAP</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
-    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>3hotspot,ims,IMS,xcap,XCAP</CscFeature_Setting_HideApnList>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off/234</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_23415;,ChangePrefValueEverySimChangeNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
