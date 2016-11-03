@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0012</CSCEdition>
+    <CSCEdition>ED0018</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
     <SalesCode>BTU</SalesCode>
-    <NbNetworkInfo>33</NbNetworkInfo>
+    <NbNetworkInfo>35</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>23410</MCCMNC>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
@@ -139,6 +139,14 @@
       <MCCMNC>23450</MCCMNC>
       <NetworkName>JT</NetworkName>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23457</MCCMNC>
+      <NetworkName>Sky</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>27215</MCCMNC>
+      <NetworkName>Virgin Media IE</NetworkName>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -216,6 +224,22 @@
           <NetworkName>default</NetworkName>
           <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
+        <NbSOSNumber>7</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <SOSNumber>999</SOSNumber>
+        <SOSNumber>9999</SOSNumber>
+        <SOSNumber>1122</SOSNumber>
+        <SOSNumber>141999</SOSNumber>
+        <SOSNumber>141112</SOSNumber>
+        <NbSOSNumberNoSIM>7</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>999</SOSNumberNoSIM>
+        <SOSNumberNoSIM>9999</SOSNumberNoSIM>
+        <SOSNumberNoSIM>1122</SOSNumberNoSIM>
+        <SOSNumberNoSIM>141999</SOSNumberNoSIM>
+        <SOSNumberNoSIM>141112</SOSNumberNoSIM>
       </Network>
       <Sound>
         <ExtraSound>
@@ -368,12 +392,73 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
-    <NbWifiProfile>4</NbWifiProfile>
+    <NbWifiProfile>13</NbWifiProfile>
     <WifiProfile>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
       <WifiSSID>O2 Wifi</WifiSSID>
       <WifiKeyMgmt>NONE</WifiKeyMgmt>
       <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay &amp; Go</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+      <WifiPriority>4</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay &amp; Go</NetworkName>
+      <WifiSSID>O2 Wifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+      <WifiPriority>4</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi.1x</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>5</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay &amp; Go</NetworkName>
+      <WifiSSID>O2 Wifi.1x</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>5</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>Wifi+</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay &amp; Go</NetworkName>
+      <WifiSSID>Wifi+</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay Monthly</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 UK Pay &amp; Go</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
     </WifiProfile>
     <WifiProfile>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
@@ -397,7 +482,7 @@
       <WifiPriority>4</WifiPriority>
     </WifiProfile>
     <Connections>
-      <NbProfileHandle>30</NbProfileHandle>
+      <NbProfileHandle>32</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>Vodafone Contract</NetworkName>
@@ -589,12 +674,24 @@
         <ProfBrowser>iD Internet</ProfBrowser>
         <ProfMMS>iD MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>68</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Sky</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Virgin Media IE</NetworkName>
+        <ProfBrowser>Virgin Media</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>71</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Vodafone Contract Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -609,6 +706,7 @@
         <ProfileName>Vodafone Contract MMS</ProfileName>
         <URL>http://mms.vodafone.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -628,6 +726,7 @@
         <ProfileName>Vodafone PAYG MMS</ProfileName>
         <URL>http://mms.vodafone.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -646,6 +745,7 @@
         <Editable>no</Editable>
         <ProfileName>Vodafone PAYG Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -659,6 +759,7 @@
         <Editable>no</Editable>
         <ProfileName>TalkTalk WAP</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -674,6 +775,7 @@
         <ProfileName>TalkTalk MMS</ProfileName>
         <URL>http://mms.talktalk.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -691,6 +793,7 @@
         <ProfileName>Talkmob MMS</ProfileName>
         <URL>http://mms.talkmobile.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -709,6 +812,7 @@
         <Editable>no</Editable>
         <ProfileName>Talkmob Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -724,6 +828,7 @@
         <ProfileName>Talkmob PAYG MMS</ProfileName>
         <URL>http://mms.talkmobile.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -742,6 +847,7 @@
         <Editable>no</Editable>
         <ProfileName>Talkmob PAYG Int</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -757,6 +863,7 @@
         <ProfileName>O2 MMS</ProfileName>
         <URL>http://mmsc.mms.o2.co.uk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -776,6 +883,7 @@
         <ProfileName>O2 Mobile Web</ProfileName>
         <URL>http://www.google.co.uk</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -792,6 +900,7 @@
         <Editable>no</Editable>
         <ProfileName>O2 Pay &amp; Go</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -811,6 +920,7 @@
         <ProfileName>O2 MMS</ProfileName>
         <URL>http://mmsc.mms.o2.co.uk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -830,6 +940,7 @@
         <ProfileName>giffgaff MMS</ProfileName>
         <URL>http://mmsc.mms.mediamessaging.co.uk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -848,6 +959,7 @@
         <ProfileName>giffgaff</ProfileName>
         <URL>http://giffgaff.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -864,6 +976,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -882,6 +995,7 @@
         <Editable>no</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -898,6 +1012,7 @@
         <Editable>no</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -915,6 +1030,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -933,6 +1049,7 @@
         <Editable>no</Editable>
         <ProfileName>Virgin Media Mobile Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -949,6 +1066,7 @@
         <ProfileName>VM Picture messaging</ProfileName>
         <URL>http://mms.virginmobile.co.uk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -967,6 +1085,7 @@
         <ProfileName>BT Mobile MMS</ProfileName>
         <URL>http://mms.bt.com/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -985,6 +1104,7 @@
         <Editable>no</Editable>
         <ProfileName>BT Mobile Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1001,6 +1121,7 @@
         <Editable>no</Editable>
         <ProfileName>TESCO Mobile</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1020,6 +1141,7 @@
         <ProfileName>TESCO MMS</ProfileName>
         <URL>http://mmsc.mms.o2.co.uk:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1038,6 +1160,7 @@
         <Editable>yes</Editable>
         <ProfileName>Tesco Mobile Internet</ProfileName>
         <URL>http://www.tescomobile.ie</URL>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1052,6 +1175,7 @@
         <Editable>yes</Editable>
         <ProfileName>Tesco MMS</ProfileName>
         <URL>http://10.1.11.68/servlets/mms</URL>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1068,6 +1192,7 @@
         <Editable>yes</Editable>
         <ProfileName>Vodafone IE Live!</ProfileName>
         <URL>http://live.vodafone.com</URL>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1082,6 +1207,7 @@
         <Editable>yes</Editable>
         <ProfileName>Vodafone IE MMS</ProfileName>
         <URL>http://www.vodafone.ie/mms</URL>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1098,6 +1224,7 @@
         <Editable>no</Editable>
         <ProfileName>O2.ie Mobile Internet</ProfileName>
         <URL>http://m.o2.ie</URL>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1113,6 +1240,7 @@
         <ProfileName>O2.ie MMS</ProfileName>
         <URL>http://mmsc.mms.o2.ie:8002</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1130,6 +1258,7 @@
         <ProfileName>Meteor Data</ProfileName>
         <URL>http://m.yahoo.com</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1145,6 +1274,7 @@
         <ProfileName>Meteor MMS</ProfileName>
         <URL>http://mms.mymeteor.ie</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1164,6 +1294,7 @@
         <ProfileName>3</ProfileName>
         <URL>http://mobile.three.co.uk/hb/HutchKey</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1179,6 +1310,7 @@
         <ProfileName>3MMS</ProfileName>
         <URL>http://mms.um.three.co.uk:10021/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1209,6 +1341,7 @@
         <ProfileName>Asda WAP</ProfileName>
         <URL>http://www.asda-mobile.com/wap</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1228,6 +1361,7 @@
         <ProfileName>Asda MMS</ProfileName>
         <URL>http://mms.asdamobiles.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1247,6 +1381,7 @@
         <ProfileName>H3G IE WAP</ProfileName>
         <URL>http://mobile.3ireland.ie/hb/HutchKey</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1260,6 +1395,7 @@
         <ProfileName>H3G IE MMS</ProfileName>
         <URL>http://mms.um.3ireland.ie:10021/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1276,6 +1412,7 @@
         <Editable>no</Editable>
         <ProfileName>Sainsbury's PAYG</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1288,6 +1425,7 @@
         <ProfileName>Sainsbury's PAYG MMS</ProfileName>
         <URL>http://mms.mobilebysainsburys.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1305,6 +1443,7 @@
         <ProfileName>BT MMS</ProfileName>
         <URL>http://MMS/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1323,6 +1462,7 @@
         <Editable>no</Editable>
         <ProfileName>BT Mobile Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1340,6 +1480,7 @@
         <ProfileName>BT One Phone MMS</ProfileName>
         <URL>http://MMSC/</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1356,6 +1497,7 @@
         <Editable>no</Editable>
         <ProfileName>BT One Phone Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1371,6 +1513,7 @@
         <ProfileName>BT One Phone MMS</ProfileName>
         <URL>http://MMSC/</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1387,6 +1530,7 @@
         <Editable>no</Editable>
         <ProfileName>BT One Phone Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1402,6 +1546,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.manxpronto.net:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1421,6 +1566,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.manxpronto.net:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1439,6 +1585,7 @@
         <Editable>no</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1453,6 +1600,7 @@
         <Editable>no</Editable>
         <ProfileName>Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1467,6 +1615,7 @@
         <Editable>no</Editable>
         <ProfileName>internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1482,6 +1631,7 @@
         <ProfileName>mms</ProfileName>
         <URL>http://mmsc.gprs.cw.com/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1498,6 +1648,7 @@
         <Editable>no</Editable>
         <ProfileName>internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1513,6 +1664,7 @@
         <ProfileName>mms</ProfileName>
         <URL>http://mms.surfmail.com/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1532,6 +1684,7 @@
         <ProfileName>iD Internet</ProfileName>
         <URL>http://www.google.ie</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -1544,6 +1697,7 @@
         <ProfileName>iD MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1561,6 +1715,7 @@
         <ProfileName>iD Internet</ProfileName>
         <URL>http://www.google.co.uk</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1576,6 +1731,7 @@
         <ProfileName>iD MMS</ProfileName>
         <URL>http://mms.um.idmobile.co.uk:10021/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -1585,6 +1741,55 @@
         </Proxy>
         <PSparam>
           <APN>id</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sky</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Internet</ProfileName>
+        <URL>http://www.google.co.uk</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>mobile.sky</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sky</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://185.110.178.96:38090/was</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>185.110.178.97</ServAddr>
+          <Port>9028</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.mobile.sky</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin Media IE</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Virgin Media</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Internet</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1678,7 +1883,7 @@
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
