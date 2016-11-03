@@ -67,7 +67,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>3</NbProfileHandle>
+      <NbProfileHandle>4</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Orange</NetworkName>
@@ -86,7 +86,13 @@
         <ProfBrowser>Orange Web SN</ProfBrowser>
         <ProfMMS>Orange MMS SN</ProfMMS>
       </ProfileHandle>
-      <NbProfile>6</NbProfile>
+	  <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Vodacom</NetworkName>
+        <ProfBrowser>Vodacom WAP</ProfBrowser>
+        <ProfMMS>Vodacom MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>8</NbProfile>
       <Profile>
         <NetworkName>Zain</NetworkName>
         <ProfileName>Zain WAP</ProfileName>
@@ -171,6 +177,31 @@
         </Proxy>
         <PSparam>
           <APN>Wap</APN>
+        </PSparam>
+      </Profile>
+	  <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <ProfileName>Vodacom MMS</ProfileName>
+        <URL>http://10.154.0.12/mms/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>10.154.0.8</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <ProfileName>Orange Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>wap.orange.co.ke</APN>
         </PSparam>
       </Profile>
     </Connections>
