@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>Austria</Country>
     <CountryISO>AT</CountryISO>
     <Region>EUR</Region>
@@ -733,7 +733,7 @@
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>spusu</NetworkName>
-        <ProfBrowser>mass.at</ProfBrowser>
+        <ProfBrowser>spusu</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -1184,7 +1184,7 @@
       </Profile>
       <Profile>
         <NetworkName>spusu</NetworkName>
-        <ProfileName>mass.at</ProfileName>
+        <ProfileName>spusu</ProfileName>
         <URL>http://mobileinfo.samsung.at</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
