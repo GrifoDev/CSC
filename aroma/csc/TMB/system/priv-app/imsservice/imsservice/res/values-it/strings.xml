@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_text_rcs_config_msisdn_text">"L'applicazione di messaggistica include nuove funzioni. Oltre a scrivere i messaggi, potrete inviare e ricevere messaggi IM, foto, video e audio tramite Internet. Ulteriori informazioni all'indirizzo:
+vodafone.com/messageplusphones
+È necessario fornire un numero di telefono per la registrazione."</string>
+    <string name="dialog_text_rcs_config_msisdn_title">Scrittura di messaggi migliorata</string>
+    <string name="dialog_text_rcs_config_yes">Sì</string>
+    <string name="dialog_text_rcs_config_no">No</string>
+    <string name="lvc_noti">La videochiamata è stata aggiunta.</string>
+</resources>

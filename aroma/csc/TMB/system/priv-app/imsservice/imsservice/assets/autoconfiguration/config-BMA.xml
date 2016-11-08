@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wap-provisioningdoc version="1.1">
+    <characteristic type="VERS">
+        <parm name="version"  value="1"/>
+        <parm name="validity" value="432000"/>
+    </characteristic>
+    <!--<characteristic type="MSG">
+        <parm name="title" value="RCS"/>
+        <parm name="message" value="RCS5.1 XML"/>
+        <parm name="Accept_btn" value="1"/>
+        <parm name="Reject_btn" value="0"/>
+      </characteristic>-->
+    <!-- IMS Settings -->
+    <characteristic type="APPLICATION">
+        <parm name="APPID"                      value="ap2001"/>
+        <parm name="NAME"                       value="RCS IMS Settings"/>
+        <parm name="APPREF"                     value="ims-rcs"/>
+        <parm name="Home_Network_Domain_Name"   value="ims.bell.ca"/>
+        <characteristic type="Ext">
+            <parm name="IntUrlFmt"              value="1"/>
+            <parm name="Q-Value"                value="0.5"/>
+            <parm name="MaxSizeImageShare"      value="15360000"/>
+            <parm name="MaxTimeVideoShare"      value="3600"/>
+        </characteristic>
+    </characteristic>
+    <!-- RCS Settings -->
+    <characteristic type="APPLICATION">
+        <parm name="APPID" value="ap2002"/>
+        <characteristic type="IMS">
+            <parm name="TO-APPREF" value="ims-rcs"/>
+        </characteristic>
+        <characteristic type="PRESENCE">
+            <parm name="usePresence"                                value="1"/>
+            <parm name="AvailabilityAuth" value="0"/>
+            <characteristic type="FAVLINK">
+                <parm name="AutMa" value="Auto"/>
+                <characteristic type="LINKS">
+                    <parm name="OpFavUrl1" value=""/>
+                    <parm name="OpFavUrl2" value=""/>
+                    <parm name="OpFavUrl3" value=""/>
+                </characteristic>
+                <parm name="LabelMaxLength" value="100"/>
+            </characteristic>
+            <parm name="IconMaxSize" value="204800"/>
+            <parm name="NoteMaxSize" value="100"/>
+            <characteristic type="VIPCONTACTS">
+                <parm name="NonVipPollPeriodSetting" value="200"/>
+                <parm name="NonVipMaxPollPerPeriod" value="1"/>
+            </characteristic>
+            <parm name="PublishTimer" value="3600"/>
+            <parm name="NickNameLength" value="200"/>
+            <characteristic type="Location">
+                <parm name="TextMaxLength" value="100"/>
+                <parm name="LocInfoMaxValidTime" value="300"/>
+            </characteristic>
+            <characteristic type="Ext"/>
+            <parm name="client-obj-datalimit" value=""/>
+            <parm name="content-serveruri" value=""/>
+            <parm name="source-throttlepublish" value="30"/>
+            <parm name="max-number-ofsubscriptions-inpresence-list" value="10"/>
+            <parm name="service-uritemplate" value="rcs"/>
+            <parm name="RLS-URI" value=""/>
+        </characteristic>
+        <characteristic type="XDMS">
+            <parm name="RevokeTimer" value="0"/>
+        </characteristic>
+        <characteristic type="IM">
+            <!--IM-->
+            <parm name="imMsgTech"             value="1"/> <!-- Indicates, the Chat messaging Tech to be used [0: SIMPLE  1: CPM] -->
+            <parm name="imCapAlwaysON"         value="0"/> <!-- Store&Forward, Set to 1- All RCS usrs are always avaliable else wrks based on alogorithm Sec 2.7.1.1 of RCS 5.1 V 2.0 spec -->
+            <parm name="imWarnSF"              value="0"/> <!-- If imCapAlwaysON is set to 1 & imWarnSF is set to 1, gives waring to user whne initaite chat with offline usr -->
+            <parm name="imSessionStart"        value="0"/> <!-- Indicates, the trigger point to send 200OK -->
+            <parm name="SmsFallBackAuth"       value="1"/> <!-- Indicates, SMS Fall back is enabled or not. -->
+            <parm name="AutAccept"             value="1"/> <!-- Indicates, Session will be accepted automatically with out user interaction -->
+            <parm name="AutAcceptGroupChat"    value="1"/> <!-- Indicates, Session will be accepted automatically with out user interaction -->
+            <parm name="MaxSize1to1"           value="512"/> <!-- BMC should decide this value. How much is the size(in Bytes) they wanted to send in a single chat message. If Chat message size exceeds this value, Application should promt an error to user -->
+            <parm name="MaxSize1toM"           value="512"/> <!-- BMC should decide this value. Same as MaxSize1to1 param, but this is for Group Chat session-->
+            <parm name="TimerIdle"             value="180"/> <!-- IM SESSION TIMER in Table 77 of RCS 5.1. Recommended is 3 minutes As per Spec. -->
+            <!--parm name="pres-srv-cap"       value="sip:foo@bar"/>--> <!-- SIMPLE Not used in RCS as per RCS 5.1 V 2.0 Spec -->
+            <!--parm name="deferred-msg-func-uri" value="sip:foo@bar"/>--><!-- SIMPLE, Not used in RCS as per RCS 5.1 V 2.0 Spec-->
+            <parm name="max_adhoc_group_size"  value="10"/> <!-- even though it is a SIMPLE param. It is used for CPM also in case of Group Chat, as per RCS 5.1 V 2.0 Spec, BMC should provide this LIMIT -->
+            <!--<parm name="conf-fcty-uri"     value="sip:n-way_messaging@rcs.bell.ca"/> --> <!-- SIMPLE IM -->
+            <!--<parm name="exploder-uri"      value="sip:foo@bar"/>--> <!-- SIMPLE, Not used in RCS as per RCS 5.1 V 2.0 Spec -->
+            <parm name="firstMessageInvite"    value="0"/> <!-- Indicates, whether 1st message to be sent in INVITE or not -->
+            <parm name="CPMControllingFuncUri" value="sip:ADHOC@ims.bell.ca"/> <!-- BMC Provide, Value will be similar to that of conf-fcty-uri, if RCS is the service else different -->
+            <!--FT-->
+            <parm name="ftWarnSize"            value="0"/> <!-- To Warn the user, if FT size exceeds this value. BMC should provide the size, when does they wanted to warnperforming FT. Should be in KB Say Ex: 8MB (i.e. 8192 KB)-->
+            <parm name="MaxSizeFileTr"         value="5000"/> <!-- MAX allowed filesize to be transferred in KB, Ex: 10 MB (i.e. 10240 KB) -->
+            <parm name="ftAutAccept"           value="0"/> <!-- Indicates, All FT Session will be accepted automatically with out user interaction -->
+            <parm name="ProvideFT"             value="1"/> <!-- Indicates, whether FT service is enabled or disabled. For BMC it is 1, As BMC provides FT service -->
+            <parm name="ftDefaultMech"         value="MSRP"/>
+        </characteristic>
+        <characteristic type="cpm">
+            <characteristic type="standalonemsg">
+                <parm name="MaxSizeStandalone"  value="1048576"/> <!-- Refer Table77 in RCS 5.1 V 2.0 Spec. For BMC, It will be 1MB -->
+            </characteristic>
+        </characteristic>
+        <characteristic type="CAPDISCOVERY"> <!-- These values are need for client. So BMC can set them to 0 -->
+            <parm name="pollingPeriod"      value="1206000"/>
+            <parm name="capinfoexpiry"      value="259200"/>
+            <!-- <parm name="presenceDisc"       value="0"/> -->
+            <parm name="defaultDisc"        value="1"/>
+            <parm name="capDiscCommonStack" value="0"/>
+        </characteristic>
+        <characteristic type="APN">
+            <parm name="alwaysuseimsapn"    value="1"/>
+        </characteristic>
+        <characteristic type="OTHER">
+            <characteristic type="transportProto">
+                <parm name="psMedia"        value="MSRP"/>
+                <parm name="wifiMedia"      value="MSRP"/>
+            </characteristic>
+        </characteristic>
+        <characteristic type="SERVICES">
+            <parm name="presencePrfl"       value="0"/>
+            <parm name="ChatAuth"           value="1"/>
+            <parm name="GroupChatAuth"      value="1"/>
+            <parm name="ftAuth"             value="1"/>
+            <parm name="standaloneMsgAuth"  value="1"/>
+            <parm name="geolocPullAuth"     value="0"/>
+            <parm name="geolocPushAuth"     value="0"/>
+            <parm name="vsAuth"             value="0"/>
+            <parm name="isAuth"             value="0"/>
+            <parm name="rcsIPVoiceCallAuth" value="1"/>
+            <parm name="rcsIPVideoCallAuth" value="1"/>
+        </characteristic>
+    </characteristic>
+</wap-provisioningdoc>

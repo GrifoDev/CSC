@@ -516,7 +516,9 @@
         subscription_expiry="120"
         sip_mobility="1"
         enable_cstty="1"
+        support_roaming="true"
         reregi_on_ratchange="on_service_change">
+        <network type="lte" services="cdpn,presence,im,ft,slm,euc"/>
         <network type="edge" services="cdpn,presence,im,ft,slm,euc"/>
         <network type="gsm" services="cdpn,presence,im,ft,slm,euc"/>
         <network type="gprs" services="cdpn,presence,im,ft,slm,euc"/>

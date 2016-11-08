@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <global name="default" is_parent="true">
+        <rcs rcs_local_config_server="0" closed_group_chat="0" rcs_ft_chunk_size="10240" rcs_ish_chunk_size="10240" msrp_cema="0" conf_subscribe_enabled="1" max_adhoc_group_size="0" />
+        <sip subscribe_for_reg="1" subscriber_timer="600000" dtmf_mode="0" enable_ciq="0" enable_hasati="0" />
+        <xdm xdm_enable="1" http_username="4259089691" http_password="test" xcap_root_uri="/MyService" agg_proxy_ip="10.40.140.134" auth_proxy_ip="10.40.140.134" auth_proxy_port="8090" xdm_user_agent="SAMSUNG IMS 5.0" apn_selection="xcap" xcap_root_uri_pref="0" xdm_user_id_domain="" bsf_ip="10.40.140.134" bsf_port="8090" enable_gba="1" />
+        <ims_setting ims_enabled="1" sms_psi="sip:111@example.com" lvc_beta_setting="1" dm_app_id="ap2001" dm_user_disp_name="APCPS" dm_con_ref="vendor_ConfRef01" pdp_context_pref="1" public_user_id="" icsi="kt.icsi.test" icsi_rsc_alloc_mode="0" rsc_alloc_mode="0" voice_domain_pref_eutran="3" voice_domain_pref_utran="1" sms_over_ip_indication="1" udp_keep_alive="30" ims_voice_termination="1" ss_domain_setting="CS" ss_control_pref="0" dm_polling_period="" conf_factory_uri="" sms_format="3GPP" sms_write_uicc="0" min_se="300" dcn_number="" t_lte_911_fail="20" volte_enabled="1" lvc_enabled="1" lvc_supported="1" eab_enabled="0" ussd_domain_setting="CS" emergency_domain_setting="PS" tvolte_hys_timer="0" timer_vzw="6" pip="0" home_domain="" ehrpd_enabled="0" ss_csfb_with_imserror="1" ss_callwaiting_by_newtork="false" ss_callbarring_by_newtork="true" />
+        <misc show_volte_regi_icon="0" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+        <config_file>
+            <silent_redial value="0" />
+        </config_file>
+    </global>
+    <global name="OPEN-TMOBILE-GER" parent="OPEN" mccmnc="26201">
+        <media emm="1" />
+        <xdm agg_proxy_ip="xcap.ims.mnc001.mcc262.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc001.mcc262.pub.3gppnetwork.org" xcap_root_uri_pref="2" bsf_ip="xcap.ims.mnc001.mcc262.pub.3gppnetwork.org" apn_selection="xcap" />
+        <ims_setting eab_enabled="1" silent_redial="1" />
+        <misc show_vowifi_regi_icon="1" />
+    </global>
+    <global name="VODA-GER" parent="OPEN" mccmnc="26202,26209">
+        <xdm http_password="6001" xcap_root_uri="services" xcap_root_uri_pref="2" enable_gba="1" xdm_user_id_domain="web.vodafone.de" bsf_ip="bsf.mnc002.mcc262.pub.3gppnetwork.org" apn_selection="xcap" />
+        <misc show_vowifi_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+        <ims_setting ss_domain_setting="PS" eab_enabled="1" lvc_enabled="0" silent_redial="1" />
+    </global>
+    <global name="ORANGE-SWITZERLAND" parent="OPEN" mccmnc="22803">
+        <misc show_volte_regi_icon="1" show_vowifi_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+        <xdm apn_selection="xcap" />
+    </global>
+    <global name="VODAFONE-FRANCE" parent="OPEN" mccmnc="20810">
+        <ims_setting sms_over_ip_indication="0" silent_redial="1" />
+        <misc show_volte_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="VODAFONE-IRELAND" parent="OPEN" mccmnc="27201">
+        <ims_setting sms_over_ip_indication="0" />
+        <misc show_volte_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="TMO-US" parent="default" is_parent="true" mccmnc="310260,310210,310800,00101:TMB,nosim:TMB">
+        <rcs rcs_local_config_server="0" closed_group_chat="1" rcs_ft_chunk_size="262144" rcs_ish_chunk_size="262144" conf_subscribe_enabled="0" />
+        <sip />
+        <xdm http_username="4259089691" http_password="test" xcap_root_uri="/xcapxdm.sipgeo.t-mobile.com:7077" agg_proxy_ip="xcap.msg.pc.t-mobile.com" auth_proxy_ip="bsf.msg.pc.t-mobile.com" auth_proxy_port="443" xdm_user_agent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]/[CLIENT_TYPE]/[STANDARD] [STANDARD_VERSION]-SEC[CLIENT_VERSION]" apn_selection="Inet" xcap_root_uri_pref="3" bsf_ip="bsf.msg.pc.t-mobile.com" bsf_port="443" enable_gba="1" />
+        <ims_setting sms_psi="sip:14259089623@msg.pc.t-mobile.com" eab_enabled="1" volte_enabled="1" lvc_supported="1" emergency_domain_setting="PS" ss_domain_setting="PS_ONLY_VOLTEREGIED" ss_control_pref="1" ss_csfb_with_imserror="0" ussd_domain_setting="PSCS" sms_over_ip_indication="1" />
+        <config_file>
+            <silent_redial value="1" />
+        </config_file>
+    </global>
+    <global name="SPRINT" parent="default" mccmnc="310000,310120,311490,311870,312530,00101:SPR:BST:VMU:XAS,45001:SPR:BST:VMU:XAS,45005:SPR:BST:VMU:XAS,nosim:SPR:BST:VMU:XAS">
+        <ims_setting volte_enabled="1" lvc_supported="0" sms_over_ip_indication="0" ss_domain_setting="CS" ussd_domain_setting="CS" emergency_domain_setting="PS" ss_control_pref="1" ss_csfb_with_imserror="0" />
+    </global>
+    <global name="USC-US" parent="default" is_parent="true" mccmnc="311580,311225,311390,00101:USC,nosim:USC">
+        <rcs rcs_local_config_server="2" closed_group_chat="1" />
+        <xdm http_username="4259089691" http_password="test" auth_proxy_ip="107.108.208.127" auth_proxy_port="443" xdm_user_agent="SAMSUNG IMS 5.0" apn_selection="Inet" xcap_root_uri_pref="3" bsf_port="443" enable_gba="1" />
+        <ims_setting sms_format="3GPP2" eab_enabled="1" sms_over_ip_indication="1" voice_domain_pref_eutran="1" />
+        <config_file>
+            <silent_redial value="1" />
+        </config_file>
+    </global>
+    <global name="ATT-US" parent="default" is_parent="true" mccmnc="311180,310410,310170,310380,310680,310560,310070,310090,310999,00101:ATT,25851:ATT">
+        <rcs rcs_local_config_server="2" msrp_cema="1" closed_group_chat="1" rcs_ft_chunk_size="1048576" />
+        <sip enable_ciq="1" />
+        <xdm http_username="tel:5136240015" http_password="6001" xcap_root_uri="simservs.ngn.etsi.org" agg_proxy_ip="xcap.private.att.net" auth_proxy_port="80" apn_selection="Inet" bsf_ip="xcap.private.att.net" bsf_port="80" xcap_root_uri_pref="2" enable_gba="0" />
+        <ims_setting eab_enabled="1" ss_callwaiting_by_newtork="true" volte_enabled="1" lvc_supported="1" emergency_domain_setting="PS" ss_domain_setting="PS_ALWAYS" ss_control_pref="0" ss_csfb_with_imserror="0" ussd_domain_setting="CS" sms_over_ip_indication="1" ss_callbarring_by_newtork="false" />
+    </global>
+    <global name="VZW-US" parent="default" is_parent="true" mccmnc="311480,311270,310028,311390,20404,00101:VZW,001010:VZW,00101f:VZW">
+        <rcs rcs_local_config_server="2" />
+        <ims_setting sms_format="3GPP2" tvolte_hys_timer="60" timer_vzw="6" dcn_number="4437501000" home_domain="vzims.com" eab_enabled="1" volte_enabled="1" lvc_supported="1" emergency_domain_setting="PS" ss_domain_setting="CS_ALWAYS" ss_control_pref="0" ss_csfb_with_imserror="0" ussd_domain_setting="CS" sms_over_ip_indication="1" />
+        <config_file>
+            <silent_redial value="1" />
+        </config_file>
+    </global>
+    <global name="CANADA-RWC" parent="CANADA-Common" is_parent="true" mccmnc="30272,302720,302370,00101:RWA:RWC:FMC:RWW">
+        <xdm xcap_root_uri="simservs.ngn.etsi.org" auth_proxy_port="80" bsf_port="80" bsf_ip="bsf.ims.mnc720.mcc302.pub.3gppnetwork.org" xcap_root_uri_pref="2" agg_proxy_ip="xcap.ims.mnc720.mcc302.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc720.mcc302.pub.3gppnetwork.org" enable_gba="0" />
+        <ims_setting eab_enabled="0" silent_redial="1" volte_enabled="1" lvc_supported="1" emergency_domain_setting="CS" ss_domain_setting="PS_ONLY_PSREGIED" ss_control_pref="0" ss_csfb_with_imserror="1" ussd_domain_setting="CS" sms_over_ip_indication="1" />
+    </global>
+    <global name="CANADA-BMC" parent="CANADA-Common" is_parent="true" mccmnc="302610,302640,302780,00101:BMA:BMC:BMR:BMW:VMC">
+        <xdm xcap_root_uri="/MyService" auth_proxy_port="443" bsf_port="443" enable_gba="1" xcap_root_uri_pref="2" bsf_ip="" agg_proxy_ip="naf.ims.bell.ca" auth_proxy_ip="bsf.ims.bell.ca" xdm_user_id_domain="ims.bell.ca" />
+        <ims_setting eab_enabled="1" silent_redial="1" volte_enabled="1" lvc_supported="1" emergency_domain_setting="CS" ss_domain_setting="PS_ONLY_VOLTEREGIED" ss_control_pref="0" ss_csfb_with_imserror="0" ussd_domain_setting="PS" sms_over_ip_indication="1" />
+    </global>
+    <global name="CANADA-TLS" parent="CANADA-Common" is_parent="true" mccmnc="302220,302221,00101:TLS:TLA,45001:TLS:TLA,45005:TLS:TLA,nosim:TLS:TLA">
+        <xdm xcap_root_uri="" xcap_root_uri_pref="2" auth_proxy_port="8090" bsf_port="8080" bsf_ip="" agg_proxy_ip="xcap.ims.mnc221.mcc302.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc221.mcc302.pub.3gppnetwork.org" />
+        <ims_setting eab_enabled="0" volte_enabled="1" sms_psi="sip:111@ims.mnc221.mcc302.3gppnetwork.org" emergency_domain_setting="PS" ss_domain_setting="PS_ONLY_PSREGIED" ss_control_pref="0" ss_csfb_with_imserror="1" ss_callbarring_by_newtork="false" ussd_domain_setting="PS" sms_over_ip_indication="1" />
+    </global>
+    <global name="CMCC-CHINA" parent="default" mccmnc="46000,46002,46007,46008,46010,46020,46030">
+        <rcs rcs_local_config_server="2" />
+        <sip dtmf_mode="1" />
+        <xdm http_password="6001" xcap_root_uri="services" agg_proxy_ip="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org" auth_proxy_port="80" apn_selection="Inet" bsf_ip="bsf.mnc000.mcc460.pub.3gppnetwork.org" bsf_port="8080" xcap_root_uri_pref="2" enable_gba="1" />
+        <ims_setting ss_domain_setting="PS" eab_enabled="0" t_lte_911_fail="10" />
+        <misc show_volte_regi_icon="1" show_vowifi_regi_icon="1" volte_regi_icon_id="stat_sys_phone_volte_chn_hd" />
+        <config_file>
+            <silent_redial value="1" />
+        </config_file>
+    </global>
+    <global name="CTC-CHINA" parent="default" mccmnc="46003,46011,46012">
+        <xdm http_password="6001" xcap_root_uri="services" agg_proxy_ip="xcap.ims.mnc011.mcc460.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc011.mcc460.pub.3gppnetwork.org" auth_proxy_port="80" apn_selection="Inet" bsf_ip="bsf.ims.mnc011.mcc460.pub.3gppnetwork.org" bsf_port="80" xcap_root_uri_pref="2" />
+        <ims_setting ss_domain_setting="PS_ONLY_PSREGIED" ussd_domain_setting="PS" />
+    </global>
+    <global name="CU-CHINA" parent="default" mccmnc="46001,46006,46009">
+        <xdm http_password="6001" xcap_root_uri="services" agg_proxy_ip="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org" auth_proxy_port="80" apn_selection="Inet" bsf_ip="" bsf_port="8080" xcap_root_uri_pref="2" enable_gba="1" />
+        <ims_setting eab_enabled="1" />
+    </global>
+    <global name="VTR-CANADA" parent="default" mccmnc="302500,302520,302510,302512,00101:VTR,nosim:VTR">
+        <rcs rcs="0" />
+        <ims_setting volte_enabled="1" />
+        <misc show_volte_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="ORANGE-FTM" parent="default" mccmnc="20801,34001,64700">
+        <xdm xdm_enable="1" http_password="0" agg_proxy_ip="xcap.ims.mncXXX.mccXXX.3gppnetwork.org" xcap_root_uri="services" auth_proxy_port="80" apn_selection="Inet" xcap_root_uri_pref="2" />
+        <ims_setting eab_enabled="1" sms_over_ip_indication="0" silent_redial="1" />
+        <misc show_vowifi_regi_icon="1" />
+    </global>
+    <global name="VODAFONE-IT" parent="OPEN" mccmnc="22210">
+        <xdm http_password="0000" xcap_root_uri="services" apn_selection="xcap" xcap_root_uri_pref="2" auth_proxy_port="80" />
+        <ims_setting lvc_enabled="0" eab_enabled="1" silent_redial="1" />
+        <misc volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="VODAFONE-ES" parent="OPEN" mccmnc="21401">
+        <xdm auth_proxy_port="8090" apn_selection="xcap" xcap_root_uri_pref="2" />
+        <ims_setting sms_over_ip_indication="0" eab_enabled="1" silent_redial="1" />
+        <misc volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="SKT-KOR" parent="KOR-Common" mccmnc="45005">
+        <ims_setting sms_over_ip_indication="0" dm_polling_period="86400" />
+        <misc show_volte_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="KTT-KOR" parent="KOR-Common" mccmnc="45008">
+        <ims_setting sms_over_ip_indication="0" dm_polling_period="178000" />
+        <misc show_volte_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" />
+    </global>
+    <global name="LGU-KOR" parent="KOR-Common" mccmnc="45006">
+        <ims_setting pcscf_addr="" sms_over_ip_indication="1" dm_polling_period="604800" />
+        <misc show_volte_regi_icon="0" />
+    </global>
+    <global name="TEST BED" parent="default" is_parent="true" mccmnc="45001">
+        <ims_setting ussd_domain_setting="PS" />
+    </global>
+    <global name="GENERAL" parent="default" is_parent="true" mccmnc="00101:GCF">
+        <rcs />
+        <xdm agg_proxy_ip="xcap.ims.mnc001.mcc001.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc001.mcc001.pub.3gppnetwork.org" http_username="sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org" http_password="xcap" xcap_root_uri="/XCAP.3gpp.org" auth_proxy_port="80" bsf_port="80" xcap_root_uri_pref="0" bsf_ip="xcap.ims.mnc001.mcc001.pub.3gppnetwork.org" xdm_user_id_domain="ims.mnc001.mcc001.3gppnetwork.org" />
+        <ims_setting eab_enabled="0" silent_redial="1" volte_enabled="1" lvc_supported="1" emergency_domain_setting="PS" ss_domain_setting="PS_ONLY_PSREGIED" ss_control_pref="0" ss_csfb_with_imserror="0" ussd_domain_setting="CS" sms_over_ip_indication="1" />
+        <config_file>
+            <silent_redial value="1" />
+        </config_file>
+    </global>
+    <global name="TMO-US-LAB" parent="TMO-US" mccmnc="310310, 310300">
+        <xdm http_username="4259089691" http_password="test" xcap_root_uri="/xcapxdm.sipgeo.t-mobile.com:7077" agg_proxy_ip="xcap.msg.lab.t-mobile.com" auth_proxy_ip="bsf.msg.lab.t-mobile.com" auth_proxy_port="443" xdm_user_agent="T-Mobile [SUPPORT] SEC/[BUILD_VERSION] [OS_VERSION]/[CLIENT_TYPE]/[STANDARD] [STANDARD_VERSION]-SEC[CLIENT_VERSION]" apn_selection="Inet" xcap_root_uri_pref="3" bsf_ip="bsf.msg.lab.t-mobile.com" bsf_port="443" enable_gba="1" />
+        <rcs rcs="1" rcs_local_config_server="0" closed_group_chat="1" rcs_home_pref="1" rcs_roaming_pref="1" rcs_ft_chunk_size="262144" rcs_ish_chunk_size="262144" conf_subscribe_enabled="0" services="cms" />
+    </global>
+    <global name="VTR-Testbed" parent="default" is_parent="true" mccmnc="262800">
+        <xdm xcap_root_uri="/services" auth_proxy_port="80" bsf_port="80" bsf_ip="bsf.ims.mnc720.mcc302.pub.3gppnetwork.org" xcap_root_uri_pref="2" agg_proxy_ip="xcap.ims.mnc720.mcc302.pub.3gppnetwork.org" auth_proxy_ip="xcap.ims.mnc720.mcc302.pub.3gppnetwork.org" />
+        <ims_setting ss_domain_setting="PS_ALWAYS" />
+    </global>
+    <global name="TEL-AUS" parent="default" mccmnc="50501,45001:TEL:TLP:XSA,nosim:TEL:TLP:XSA">
+        <xdm xdm_enable="1" enable_gba="1" apn_selection="xcap" xcap_root_uri_pref="2" bsf_ip="bsf.mnc001.mcc505.pub.3gppnetwork.org" />
+        <misc show_volte_regi_icon="1" volte_regi_icon_id="stat_notify_volte_service_avaliable" slick_config_name="TEL" />
+        <ims_setting epdg_enabled="1" sms_over_ip_indication="0" />
+        <config_file>
+            <silent_redial value="1" />
+        </config_file>
+    </global>
+</settings>

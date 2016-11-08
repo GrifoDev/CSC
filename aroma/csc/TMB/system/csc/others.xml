@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00039</Version>
+  <Version>ED00040</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>TMB</SalesCode>
@@ -67,6 +67,7 @@
     <CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>TRUE</CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>
     <CscFeature_Launcher_SupportGuideTextForEmptyPage>TRUE</CscFeature_Launcher_SupportGuideTextForEmptyPage>
     <CscFeature_LockScreen_ConfigCarrierSecurityPolicy>UseTMOSIMPINLock</CscFeature_LockScreen_ConfigCarrierSecurityPolicy>
+    <CscFeature_LockScreen_ConfigClockDisplayPolicy>IgnoreNationalRoamingWithoutMNC</CscFeature_LockScreen_ConfigClockDisplayPolicy>
     <CscFeature_LockScreen_ConfigDefLcdOnTimeOut>6</CscFeature_LockScreen_ConfigDefLcdOnTimeOut>
     <CscFeature_LockScreen_ConfigDisplayShorcutCircleArrow>US_NORTH</CscFeature_LockScreen_ConfigDisplayShorcutCircleArrow>
     <CscFeature_LockScreen_ConfigTimeUnlockHelpText>0</CscFeature_LockScreen_ConfigTimeUnlockHelpText>

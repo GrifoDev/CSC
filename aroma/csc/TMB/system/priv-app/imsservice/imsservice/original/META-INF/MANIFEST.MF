@@ -1,0 +1,87 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable/stat_notify_wfc_rwc.pio
+SHA1-Digest: +Oja0swQSwlUOwJtW3LhbAlg7cQ=
+
+Name: assets/autoconfiguration/config-CHM.xml
+SHA1-Digest: +r0jOJlH/pB/ACd3yMlgi4erSOg=
+
+Name: SEC-INF/buildinfo.xml
+SHA1-Digest: Ukn6yHzWeWqk7CJPtJMSrq1MQk8=
+
+Name: SEC-INF/buildConfirm.crt
+SHA1-Digest: rzhOt9eAouxefH7GQUAHHm1HIuI=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_rcs_service_avaliable.pio
+SHA1-Digest: IMTpwwc2kwIZMr5ElIbTBdpY3Eo=
+
+Name: assets/autoconfiguration/config-VMC.xml
+SHA1-Digest: PG3HuRVYmUfl0qBY5GcHfYx050s=
+
+Name: assets/autoconfiguration/config-BMA.xml
+SHA1-Digest: LCR4nHSAM9B/w03Tn66uFMtiyYY=
+
+Name: res/xml/dmconfig.xml
+SHA1-Digest: JU8rFf6daJ8ElolTzt6we2j/NXg=
+
+Name: assets/autoconfiguration/config-ATT.xml
+SHA1-Digest: thlKGkGMNY8ROS7svp0RMtiopPw=
+
+Name: resources.arsc
+SHA1-Digest: v4GS5uHu1r3Re1y6t4pl5dKkH5g=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_wfc.pio
+SHA1-Digest: KKGlyB8o0FAiGeerLNItmgCqgpw=
+
+Name: res/drawable-xxxhdpi-v4/stat_sys_phone_volte_chn_hd.pio
+SHA1-Digest: e1DXRilajvdDwwH7cbtNfA+t0eg=
+
+Name: assets/autoconfiguration/config-BMR.xml
+SHA1-Digest: PJcjpoEQdKJVgDu5dpjt5Mka4Ug=
+
+Name: res/drawable-xxxhdpi-v4/stat_sys_phone_vowifi_chn_normal.pio
+SHA1-Digest: 6fTsA/J7d8wg4MJubOBi7XipnGI=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_volte_service_suspend.pio
+SHA1-Digest: 2s/oJ36clN0T54/twVqtK85W/eI=
+
+Name: assets/manual_config_template.xml
+SHA1-Digest: T54NmMzOrxVLFVpIYUXR0e8T8ek=
+
+Name: res/xml/imsprofile.xml
+SHA1-Digest: LivsaMJD0awMSwk3NL9/jSSA4F4=
+
+Name: AndroidManifest.xml
+SHA1-Digest: xu3VmRoZy3RDVqvKOMK+bobV/IQ=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_advanced_calling.pio
+SHA1-Digest: K5tBru3sNL4igNBNKouOafxGEZg=
+
+Name: res/xml/globalsettings.xml
+SHA1-Digest: sb3oJrG+I1e4zA7DUNS/3YXwSqo=
+
+Name: res/xml/userconfiguration.xml
+SHA1-Digest: hi760VoZWixuD2L70TN0vmO9NuM=
+
+Name: res/drawable/stat_notify_rcs_service_avaliable.pio
+SHA1-Digest: rJqRYclSbku8Wj8a5AkaOuTw5H0=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_wfc_rwc.pio
+SHA1-Digest: +Oja0swQSwlUOwJtW3LhbAlg7cQ=
+
+Name: res/drawable-xxxhdpi-v4/stat_notify_volte_service_avaliable.pio
+SHA1-Digest: ijVJivYJRASILbtAggNfSpP0s7E=
+
+Name: res/drawable-xxxhdpi-v4/stat_sys_phone_volte_chn_normal.pio
+SHA1-Digest: OscIgvPBJQU2JhPLN5+lMojapmI=
+
+Name: assets/autoconfiguration/config-BMC.xml
+SHA1-Digest: oCVU4LyG8GX64COvWbO4q7+QpXE=
+
+Name: assets/autoconfiguration/config-TMB.xml
+SHA1-Digest: zD1TTpaz9RwzUyjAPqJnFngQaBM=
+
+Name: assets/autoconfiguration/config-VZW.xml
+SHA1-Digest: 5fl6hHwlZU6pdWfUGsIn+jiS+Ec=
+
