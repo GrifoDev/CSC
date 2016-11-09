@@ -279,7 +279,13 @@ if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "41"
 	then
 		ui_print("Installing TMB CSC...");
+		delete_recursive("/system/imsservice");
+		delete_recursive("/system/ImsSettings");
+		delete_recursive("/system/ImsTelephonyService");
 		package_extract_dir("aroma/csc/TMB/system", "/system");
+		symlink("/system/lib64/libsmejni.so", "/system/app/sveservice/lib/arm64/libsmejni.so");
+		set_metadata("/system/bin/imscmservice", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:imscm_exec:s0");
+		set_metadata("/system/bin/imsd", "selabel", "u:object_r:imsd_exec:s0");
 endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "42"

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<configurations>
-    <configuration name="default" rcs="0" rcs_home_pref="0" rcs_roaming_pref="0" enable_call_wait="true" ss_volte_cb_pref="0" ss_video_cb_pref="0" />
-    <configuration name="TMO" mccmnc="310260" rcs="1" rcs_home_pref="1" rcs_roaming_pref="1" />
-</configurations>

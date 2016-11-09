@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="dialog_text_rcs_config_msisdn_text">"Ihr Messaging-Dienst bietet Ihnen jetzt noch mehr Möglichkeiten: Senden Sie neben Ihren SMS auch noch Chat-Nachrichten, Fotos, Videos und Audionachrichten mittels Ihrer Internetverbindung. Genießen Sie ab sofort alle Vorteile Ihres neue Messaging-Erlebnisses. Mehr Info's unter: vodafone.com/messageplusphonesWir benötigen Ihre Telefonnummer zur Registrierung"</string>
-    <string name="dialog_text_rcs_config_msisdn_title">Mehr als nur SMS</string>
-    <string name="dialog_text_rcs_config_yes">Ja</string>
-    <string name="dialog_text_rcs_config_no">Nein</string>
-    <string name="lvc_noti">Videoanrufe wurden hinzugefügt.</string>
-</resources>

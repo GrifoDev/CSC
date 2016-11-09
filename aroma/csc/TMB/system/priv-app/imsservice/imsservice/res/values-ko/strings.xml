@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="regi_failed_msg_kt">서비스 등록에 실패하였습니다. 단말 재부팅 후에도 재발할 경우 고객센터로 문의하십시오.</string>
-    <string name="regi_failed_msg_skt">서비스 등록에 실패 하였습니다. 휴대폰 전원을 껐다가 켠 후에도 문제가 지속되면 고객센터로 문의하여 주십시오.</string>
-    <string name="regi_failed_msg_lgu">서버 등록에 실패하여 전화 수/발신이 제한됩니다. 단말을 다시 켜보시고, 재발할 경우 고객센터(%s)로 문의하세요.</string>
-    <string name="lvc_noti">영상통화를 추가하였습니다.</string>
-</resources>
