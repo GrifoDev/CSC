@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <SamsungMobileFeauture>
   <Version>ED0001</Version>
   <Country>AUSTRALIA</Country>
@@ -18,13 +18,14 @@
     <CscFeature_Contact_ReplaceLabelEmergency4>TRUE</CscFeature_Contact_ReplaceLabelEmergency4>
     <CscFeature_Setting_ManualSearchListWithDetailStatus>TRUE</CscFeature_Setting_ManualSearchListWithDetailStatus>
     <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
-    <CscFeature_Setting_HideApnList>IMS,ims</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>IMS,ims,sos</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>    
     <CscFeature_Launcher_TotalPageCount>5</CscFeature_Launcher_TotalPageCount>
     <CscFeature_Launcher_DefaultPageNumber>2</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_VoiceCall_EnableDisplayVMTelNumDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplayVMTelNumDuringCall>
     <CscFeature_VoiceCall_UseEccDialerInCaseOfNoInternalMemory>TRUE</CscFeature_VoiceCall_UseEccDialerInCaseOfNoInternalMemory>
     <CscFeature_VoiceCall_RemoveCallButtonInLogsList>TRUE</CscFeature_VoiceCall_RemoveCallButtonInLogsList>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_Message_MinSlideDuration>5</CscFeature_Message_MinSlideDuration>
     <CscFeature_Message_SmsMaxByte>140</CscFeature_Message_SmsMaxByte>
     <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Australia</Country>
     <CountryISO>AU</CountryISO>
     <Region>SEA</Region>
@@ -174,11 +174,12 @@
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>YES OPTUS</NetworkName>
         <ProfBrowser>Optus Yes Internet</ProfBrowser>
         <ProfMMS>Optus MMS</ProfMMS>
         <ProfIMS>Optus IMS</ProfIMS>
+        <ProfEmergency>Optus Emergency</ProfEmergency>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -186,7 +187,7 @@
         <ProfBrowser>Virgin Internet</ProfBrowser>
         <ProfMMS>Virgin MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>6</NbProfile>
+      <NbProfile>7</NbProfile>
       <Profile>
         <NetworkName>YES OPTUS</NetworkName>
         <Editable>no</Editable>
@@ -275,6 +276,18 @@
           <APN>ims</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Optus Emergency</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>
@@ -287,7 +300,7 @@
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
