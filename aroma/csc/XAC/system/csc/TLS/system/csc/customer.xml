@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0010</CSCEdition>
+    <CSCEdition>ED0012</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,13 +10,11 @@
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Telus</NetworkName>
-      <CodeType>HEX</CodeType>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Telus</NetworkName>
-      <CodeType>HEX</CodeType>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
@@ -118,6 +116,7 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</MessageUaProfUrl>
@@ -607,13 +606,15 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>Telus</NetworkName>
         <ProfBrowser>TELUS SP</ProfBrowser>
         <ProfMMS>TELUS MMS</ProfMMS>
         <ProfIntSharing>TELUS ISP</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>TELUS Services</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>3</NbProfile>
+      <NbProfile>5</NbProfile>
       <Profile>
         <NetworkName>Telus</NetworkName>
         <IpVersion>ipv6</IpVersion>
@@ -624,7 +625,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1440</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -643,7 +644,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1440</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>mmscproxy.mobility.ca</ServAddr>
@@ -663,7 +664,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1440</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
         </Proxy>
@@ -672,6 +673,53 @@
           <TrafficClass>subscribed</TrafficClass>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Telus</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1440</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telus</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>TELUS Services</ProfileName>
+        <MTUSize>1440</MTUSize>
+        <PSparam>
+          <APN>services.telus.com</APN>
+        </PSparam>
+      </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>Telus</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+        <VoLTE>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>ps</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>

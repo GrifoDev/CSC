@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00026</Version>
+  <Version>ED00027</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>TLS</SalesCode>
@@ -63,7 +63,7 @@
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims</CscFeature_RIL_ConfigAlwaysOnApn>
-    <CscFeature_RIL_ConfigNetCapability>8</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigNetCapability>6</CscFeature_RIL_ConfigNetCapability>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-TLS-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigNvSim>FALSE</CscFeature_RIL_ConfigNvSim>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>

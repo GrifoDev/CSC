@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00027</Version>
+  <Version>ED00028</Version>
   <Country>CANADA</Country>
   <CountryISO>CA</CountryISO>
   <SalesCode>VMC</SalesCode>
@@ -15,7 +15,6 @@
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
     <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
-    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Common_ConfigSwis>-1</CscFeature_Common_ConfigSwis>
     <CscFeature_Common_DisableMenu4GalSearch>TRUE</CscFeature_Common_DisableMenu4GalSearch>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
@@ -66,7 +65,6 @@
     <CscFeature_RIL_DisplayPlmnByLuRejectCause>TRUE</CscFeature_RIL_DisplayPlmnByLuRejectCause>
     <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
     <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
-    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_EmergencyOnlyWithNoSim>TRUE</CscFeature_RIL_EmergencyOnlyWithNoSim>
     <CscFeature_RIL_EmergencycallonlyNotDisplay>TRUE</CscFeature_RIL_EmergencycallonlyNotDisplay>
     <CscFeature_RIL_EnableChangeDefaultPdn>TRUE</CscFeature_RIL_EnableChangeDefaultPdn>
@@ -88,21 +86,15 @@
     <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
     <CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
-    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
-    <CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
     <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
-    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
-    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
-    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
-    <CscFeature_RIL_SupportVolteE911>TRUE</CscFeature_RIL_SupportVolteE911>
     <CscFeature_RIL_UpdateCallstateDuringModifyCall>TRUE</CscFeature_RIL_UpdateCallstateDuringModifyCall>
     <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
-    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
     <CscFeature_Setting_ConfigAirView>+Webpage</CscFeature_Setting_ConfigAirView>
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
+    <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>FALSE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Setting_HideApnList>IMS,Bell XCAP,ims</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>FALSE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.android.contacts,com.android.providers.contacts</CscFeature_Setting_RemoveDisableButtonInAppMgr>
