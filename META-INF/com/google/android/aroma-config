@@ -381,7 +381,8 @@ selectbox(
 	"INS",	"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",				0,      #-- selected.1 = 20
 	"ITV",	"Italian unbranded",										0,      #-- selected.1 = 21
 	"IUS",	"Mexican unbranded",										0,      #-- selected.1 = 22
-	"KTC",	"Republic of Korea unbranded",									0,      #-- selected.1 = 23
+	"KTC",	"Korea KT Corporation branded (K-Variant)",							0,      #-- selected.1 = 23
+	"LUC",	"Korea LG Uplus branded (L-Variant)",								0,      #-- selected.1 = 24
 	"LUX",	"Luxembourg unbranded",										0,      #-- selected.1 = 24
 	"MEO",	"Portugal unbranded",										0,      #-- selected.1 = 25
 	"MOT",	"Slovenia unbranded",										0,      #-- selected.1 = 26
@@ -393,7 +394,7 @@ selectbox(
 	"PHN",	"Netherlands unbranded",									0,      #-- selected.1 = 32
 	"SER",	"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",						0,      #-- selected.1 = 33
 	"SFR",	"France SFR branded",										0,	#-- selected.1 = 34
-	"SKC",	"Korea unbranded",										0,      #-- selected.1 = 35
+	"SKC",	"Korea SK Telecom branded (S-Variant)",								0,      #-- selected.1 = 35
 	"TCE",	"Mexican Telcel branded",									0,      #-- selected.1 = 36
 	"TEL",	"Telstra branded",										0,      #-- selected.1 = 37
 	"TEN",	"Norway Telenor branded",									0,      #-- selected.1 = 38
@@ -411,7 +412,7 @@ selectbox(
 	"VIA",	"Germany Multi-CSC contains: O2U, VIA, XEC",							0,      #-- selected.1 = 50
 	"VVT",	"Bulgaria unbranded",										0,      #-- selected.1 = 51
 	"VZW",	"USA Verizon branded",										0,      #-- selected.1 = 52
-	"XAC",	"Canada Multi-CSC (W8) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",	0,      #-- selected.1 = 53
+	"XAC",	"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",	0,      #-- selected.1 = 53
 	"XAS",	"USA Sprint Multi-CSC branded, contains: BST, SPR, VMU, XAS",					0,      #-- selected.1 = 54
 	"XEF",	"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				0,      #-- selected.1 = 55
 	"XEO",	"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	0,      #-- selected.1 = 56

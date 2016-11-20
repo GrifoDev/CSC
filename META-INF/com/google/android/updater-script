@@ -176,6 +176,12 @@ endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "24"
 	then
+		ui_print("Installing LUC CSC...");
+		package_extract_dir("aroma/csc/LUC/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "24"
+	then
 		ui_print("Installing LUX CSC...");
 		package_extract_dir("aroma/csc/LUX/system", "/system");
 endif;

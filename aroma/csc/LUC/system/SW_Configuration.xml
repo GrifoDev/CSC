@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935L</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935LLUC</CSCName>
+	<CSCVersion>1APK1</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/LUC/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>
