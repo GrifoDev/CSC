@@ -1,27 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
     <SalesCode>ATT</SalesCode>
-    <NbNetworkInfo>10</NbNetworkInfo>
+    <NbNetworkInfo>12</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>00101</MCCMNC>
       <NetworkName>Anritsu</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>310150</MCCMNC>
       <NetworkName>AIO</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>310170</MCCMNC>
       <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>310380</MCCMNC>
       <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>310380</MCCMNC>
@@ -31,14 +35,17 @@
     <NetworkInfo>
       <MCCMNC>310410</MCCMNC>
       <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>310560</MCCMNC>
       <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>311180</MCCMNC>
       <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20465</MCCMNC>
@@ -48,6 +55,17 @@
     <NetworkInfo>
       <MCCMNC>99999</MCCMNC>
       <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310030</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310280</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -55,7 +73,7 @@
       <Security>
         <UnlockCnt>10</UnlockCnt>
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>7</NbNetworkLock>
+        <NbNetworkLock>9</NbNetworkLock>
         <NetworkLock>00101</NetworkLock>
         <NetworkLock>310150</NetworkLock>
         <NetworkLock>310170</NetworkLock>
@@ -63,6 +81,8 @@
         <NetworkLock>310410</NetworkLock>
         <NetworkLock>310560</NetworkLock>
         <NetworkLock>99999</NetworkLock>
+        <NetworkLock>310030</NetworkLock>
+        <NetworkLock>310280</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>8</NbFastDormancy>

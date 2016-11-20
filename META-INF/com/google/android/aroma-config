@@ -49,98 +49,11 @@ fontresload( "0", "ttf/Roboto-Regular.ttf;ttf/DroidSansArabic.ttf;ttf/DroidSansF
 theme("touchwiz");
 
 ##
-# SHOW LANGUAGE SELECTION
-#
-
-selectbox(
-  #-- Title
-    "Select Language",
-  
-  #-- Sub Title
-    "Please select installer language that you want to use while Installing ROM",
-  
-  #-- Icon:
-    "@default",
-  
-  #-- Will be saved in /tmp/aroma/lang.prop
-    "lang.prop",
-  
-    "English",            "Welcome to Installer",                                        1,      #-- selected.0 = 1
-    "Indonesian",         "Selamat datang di Installer",                                 0,      #-- selected.0 = 2
-    "Espanol",            "Bienvenido al Instalador",                                    0,      #-- selected.0 = 3
-    "Simplified Chinesse","欢迎到安装",                                                   0,      #-- selected.0 = 4
-    "Arabic",             "مرحبا بكم في المثبت",                                         0,      #-- selected.0 = 5        
-    "French",             "Bienvenue dans l'installateur",                               0,      #-- selected.0 = 6
-    "Russian",            "Добро пожаловать в установщик",                               0,      #-- selected.0 = 7
-    "Italian",            "Benvenuti Installer",                                         0,      #-- selected.0 = 8
-    "Hebrew",             "ברוכים הבאים להתקנה",							    	     0,		 #-- selected.0 = 9
-    "Germany",            "Willkommen bei Installer",									 0 		 #-- selected.0 = 10
-
-);
-
-##
 # SET LANGUAGE & FONT FAMILY
 #
-
-if prop("lang.prop","selected.0")=="1" then
-  loadlang("langs/en.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" ); #-- "0" = Small Font ( Look at Fonts & UNICODE Demo Below )
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" ); #-- "1" = Big Font
-endif;
-
-if prop("lang.prop","selected.0")=="2" then
-  loadlang("langs/id.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="3" then
-  loadlang("langs/es.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="4" then
-  loadlang("langs/cn.lang");
-  fontresload( "0", "ttf/DroidSansFallback.ttf;ttf/Roboto-Regular.ttf", "12" ); 
-  fontresload( "1", "ttf/DroidSansFallback.ttf;ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="5" then
-  loadlang("langs/ar.lang");
-  fontresload( "0", "ttf/DroidSansArabic.ttf;ttf/Roboto-Regular.ttf", "12" ); 
-  fontresload( "1", "ttf/DroidSansArabic.ttf;ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="6" then
-  loadlang("langs/fr.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="7" then
-  loadlang("langs/ru.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="8" then
-  loadlang("langs/it.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="9" then
-  loadlang("langs/he.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
-
-if prop("lang.prop","selected.0")=="10" then
-  loadlang("langs/de.lang");
-  fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-  fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
-endif;
+loadlang("langs/en.lang");
+fontresload( "0", "ttf/Roboto-Regular.ttf", "12" ); #-- "0" = Small Font ( Look at Fonts & UNICODE Demo Below )
+fontresload( "1", "ttf/Roboto-Regular.ttf", "18" ); #-- "1" = Big Font
 
 ##
 #   SHOW ROM/Mod INFORMATION

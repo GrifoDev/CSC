@@ -228,10 +228,10 @@ limitations under the License.
             launcher:x="2" 
             launcher:y="3" />
 
-        <!-- Samsung Milk Music -->
+        <!-- S Health -->
         <favorite
-            launcher:packageName="com.samsung.mdl.radio" 
-            launcher:className="com.samsung.mdl.radio.MainActivity" 
+            launcher:packageName="com.sec.android.app.shealth" 
+            launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" 
             launcher:screen="2" 
             launcher:x="3" 
             launcher:y="3" />

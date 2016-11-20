@@ -13,10 +13,6 @@ fi
 dd if=/dev/block/sda3 of=/data/media/0/EFSBackup/efs.img bs=4096
 cp /system/build.prop /data/media/0/EFSBackup/build.prop
 
-unmount /system
-unmount /data
-unmount /efs
-
 exit 10
 
 
