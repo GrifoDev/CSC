@@ -11,7 +11,7 @@
     <CscFeature_Common_EnableHDVoiceDuring3GConnection>FALSE</CscFeature_Common_EnableHDVoiceDuring3GConnection>
     <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
     <CscFeature_Common_ReplaceSecBrandAsGalaxy>FALSE</CscFeature_Common_ReplaceSecBrandAsGalaxy>
-    <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.elevenst,com.skmc.okcashbag.home_google,com.skt.skaf.OA00026910,com.skplanet.mbuzzer,com.skt.tbagplus,com.skt.skaf.l001mtm091,com.skt.skaf.A000Z00040,com.skt.skaf.OA00018282,com.skt.skaf.Z00000TAPI,com.skt.skaf.Z0000TSEED,Com.sktelecom.minit,com.skt.prod.phone,com.skt.prod.dialer,com.sktelecom.tguard,com.iloen.melon,com.skb.btvmobile,com.nate.android.portalmini,com.tms,com.skt.smartbill,com.skt.tdatafreezone2,com.skt.skaf.OA00199800,com.skmnc.gifticon</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
+    <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.elevenst,com.skmc.okcashbag.home_google,com.skt.skaf.OA00026910,com.skplanet.mbuzzer,com.skt.tbagplus,com.skt.skaf.l001mtm091,com.skt.skaf.A000Z00040,com.skt.skaf.OA00018282,com.skt.skaf.Z00000TAPI,com.skt.skaf.Z0000TSEED,Com.sktelecom.minit,com.skt.prod.phone,com.skt.prod.dialer,com.sktelecom.tguard,com.iloen.melon,com.skb.btvmobile,com.nate.android.portalmini,com.tms,com.skt.smartbill,com.skt.tdatafreezone2,com.skt.skaf.OA00199800,com.skmnc.gifticon,com.skt.hps20client</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
     <CscFeature_Framework_ConfigBlockNotiOperation>Longpress</CscFeature_Framework_ConfigBlockNotiOperation>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>SKT</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigSettingActvityFromQuickPanel>SKT</CscFeature_SystemUI_ConfigSettingActvityFromQuickPanel>
@@ -58,7 +58,7 @@
     <CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>NULL</CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>
     <CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>TRUE</CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>
     <CscFeature_Setting_ConfigOperatorCallService>tphone</CscFeature_Setting_ConfigOperatorCallService>
-    <CscFeature_Setting_ConfigForbidAppDisableButton>com.skt.skaf.A000Z00040,com.skt.skaf.Z000Z00028,com.skt.skaf.Z0000SLOAD,com.skt.skaf.OA00018282,com.skt.skaf.Z0000TSEED,com.skt.skaf.Z00000TAPI,com.skt.skaf.Z0000OMPDL,com.skt.skaf.CID00SID02,com.skt.aom,com.android.mms,com.sec.mms,com.sec.android.mms.kor,com.skt.prod.phone,com.skt.prod.dialer,com.skt.tservice,Com.sktelecom.minit</CscFeature_Setting_ConfigForbidAppDisableButton>
+    <CscFeature_Setting_ConfigForbidAppDisableButton>com.skt.skaf.OA00018282,com.skt.skaf.Z0000TSEED,com.skt.skaf.OA00199800,com.android.mms,com.sec.mms,com.sec.android.mms.kor,com.skt.prod.phone,com.skt.prod.dialer,com.skt.tservice,Com.sktelecom.minit</CscFeature_Setting_ConfigForbidAppDisableButton>
     <CscFeature_Setting_ConfigOpRngToneLink>Tcoloring</CscFeature_Setting_ConfigOpRngToneLink>
     <CscFeature_Setting_ConfigOperatorPhoneAppDuringSetupWizard>Tphone</CscFeature_Setting_ConfigOperatorPhoneAppDuringSetupWizard>
     <CscFeature_Setting_ConfigBlockNotiAppList>com.skt.prod.phone,com.skt.prod.dialer</CscFeature_Setting_ConfigBlockNotiAppList>
@@ -79,7 +79,7 @@
     <CscFeature_Weather_SupportCheckingDisputeArea>FALSE</CscFeature_Weather_SupportCheckingDisputeArea>
     <CscFeature_SetupWizard_ConfigStepSequenceType>PreloadAlways</CscFeature_SetupWizard_ConfigStepSequenceType>
     <CscFeature_SetupWizard_ConfigOperatorAccount>SktAccount</CscFeature_SetupWizard_ConfigOperatorAccount>
-    <CscFeature_SetupWizard_ConfigRemovableAppList>com.skt.tgift;skt_tfreemium;0000280484;T Freemium Plus/com.moent.vas;skt_vas;0000314735;T 통화도우미/com.skplanet.mbuzzer;skt_syrup;0000668559;Syrup Order/com.skt.tmaphot;skt_syruptable;0000250761;Syrup Table/com.skmnc.gifticon;skt_giftcon;0000141675;Syrup 기프티콘/com.cyworld.camera;skt_cymera;0000280587;싸이메라</CscFeature_SetupWizard_ConfigRemovableAppList>
+    <CscFeature_SetupWizard_ConfigRemovableAppList>com.skt.tgift;skt_tfreemium;0000280484;T Freemium Plus/com.moent.vas;skt_vas;0000314735;T 통화도우미/com.sktelecom.tsmartpay;skt_tpay;0000689319;T페이/com.skt.tmaphot;skt_syruptable;0000250761;Syrup Table/com.skmnc.gifticon;skt_giftcon;0000141675;Syrup 기프티콘/com.cyworld.camera;skt_cymera;0000280587;싸이메라</CscFeature_SetupWizard_ConfigRemovableAppList>
     <CscFeature_Message_MinSlideDuration>5</CscFeature_Message_MinSlideDuration>
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
     <CscFeature_Message_DisableMenuSmsInputMode>TRUE</CscFeature_Message_DisableMenuSmsInputMode>
