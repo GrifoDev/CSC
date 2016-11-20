@@ -38,10 +38,10 @@
 
     <CscFeature_Wifi_EnableShowPasswordAsDefault>TRUE</CscFeature_Wifi_EnableShowPasswordAsDefault>
     <CscFeature_Wifi_UseDefaultSecurityAs>WPA/PSK</CscFeature_Wifi_UseDefaultSecurityAs>
-    <CscFeature_Wifi_PriorityRuleAs>PrivateFirst</CscFeature_Wifi_PriorityRuleAs>
-    <CscFeature_Wifi_EnableDetailEapErrorCodesAndState>TRUE</CscFeature_Wifi_EnableDetailEapErrorCodesAndState>
-    <CscFeature_Wifi_RemovableDefaultAP>TRUE</CscFeature_Wifi_RemovableDefaultAP>
+    <CscFeature_Wifi_PriorityRuleAs>PrivateFirst</CscFeature_Wifi_PriorityRuleAs>    
     <CscFeature_Wifi_SupportEapFastReauth>TRUE</CscFeature_Wifi_SupportEapFastReauth>    
+    <CscFeature_Wifi_EnableDetailEapErrorCodesAndState>TRUE</CscFeature_Wifi_EnableDetailEapErrorCodesAndState>
+    <CscFeature_Wifi_RemovableDefaultAP>TRUE</CscFeature_Wifi_RemovableDefaultAP>    
 
     <CscFeature_SyncML_DiscardCpSecurityType4>Userpin,None</CscFeature_SyncML_DiscardCpSecurityType4>
     <CscFeature_SyncML_EnableCpValidiationSecurityType4>Netwpin,Usernetwpin</CscFeature_SyncML_EnableCpValidiationSecurityType4>
@@ -72,7 +72,6 @@
     <CscFeature_Launcher_DefaultPageNumber>1</CscFeature_Launcher_DefaultPageNumber>
 
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
-    <CscFeature_RIL_ApnControlByModem>TRUE</CscFeature_RIL_ApnControlByModem>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
     	
     <CscFeature_Sip_ApplyAutoCorrectionPatent>true</CscFeature_Sip_ApplyAutoCorrectionPatent>
@@ -107,22 +106,28 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
 
-    <CscFeature_RIL_DefaultApn4LTE>ims</CscFeature_RIL_DefaultApn4LTE>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_BlockUssdDuringVolteCall>true</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
+    <CscFeature_Setting_HideApnList>IMS</CscFeature_Setting_HideApnList>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigFixedApn>xcap</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_RIL_ConfigVolteRedialPolicy>DTM</CscFeature_RIL_ConfigVolteRedialPolicy>
-
+    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>DefaultOnNoSimCheck,MobilePrefNoSimCheck,XCAPOVERWIFI,MMSOVERWIFI</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,mms,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_PDPRetryMechanism4>DTR</CscFeature_RIL_PDPRetryMechanism4>
-
-    <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
-
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_RIL_ConfigNetworkNameForEpdg>WLAN Call</CscFeature_RIL_ConfigNetworkNameForEpdg>
+    <CscFeature_Common_ConfigOpBrandingForWFC>WLAN Call</CscFeature_Common_ConfigOpBrandingForWFC>
+    <CscFeature_RIL_ApnControlByModem>EXCEPT</CscFeature_RIL_ApnControlByModem>
+    <CscFeature_VoiceCall_ConfigOpStyleForWfc>ChangePrefModeRoamingNoSimCheck,WFC_DT</CscFeature_VoiceCall_ConfigOpStyleForWfc>
   </FeatureSet>
 </SamsungMobileFeauture>

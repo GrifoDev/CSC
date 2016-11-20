@@ -12,7 +12,7 @@
     <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
     <CscFeature_Common_ReplaceSecBrandAsGalaxy>FALSE</CscFeature_Common_ReplaceSecBrandAsGalaxy>
     <CscFeature_Common_SupportTwoPhoneService>TRUE</CscFeature_Common_SupportTwoPhoneService>
-    <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.kt.olleh.storefront,com.ktpns.pa,com.kt.serviceagent</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
+    <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.kt.olleh.storefront,com.ktpns.pa,com.kt.serviceagent,com.skt.skaf.OA00018282</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>off,off,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Framework_ConfigBlockNotiOperation>Longpress</CscFeature_Framework_ConfigBlockNotiOperation>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>KTT</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
@@ -57,7 +57,7 @@
     <CscFeature_Setting_HideApnList>ims.ktfwing.com</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>NULL</CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>
     <CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>TRUE</CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>
-    <CscFeature_Setting_ConfigForbidAppDisableButton>com.android.mms,com.sec.mms,com.sec.android.mms.kor,com.kt.olleh.servicemenu</CscFeature_Setting_ConfigForbidAppDisableButton>
+    <CscFeature_Setting_ConfigForbidAppDisableButton>com.android.mms,com.sec.mms,com.sec.android.mms.kor,com.kt.olleh.servicemenu,com.skt.skaf.OA00018282</CscFeature_Setting_ConfigForbidAppDisableButton>
     <CscFeature_Setting_ConfigOpRngToneLink>Ringtoyou</CscFeature_Setting_ConfigOpRngToneLink>
     <CscFeature_Setting_ConfigBlockNotiAppList>NULL</CscFeature_Setting_ConfigBlockNotiAppList>
     <CscFeature_Setting_ConfigTypeHelp>1</CscFeature_Setting_ConfigTypeHelp>

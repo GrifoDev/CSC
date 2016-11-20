@@ -10,6 +10,7 @@
     <CscFeature_Setting_OperatorSpecificPreConfigKeyString>NatCo</CscFeature_Setting_OperatorSpecificPreConfigKeyString>
     <CscFeature_Setting_EnablePromptPopupWhenActivatingDataConnection>TRUE</CscFeature_Setting_EnablePromptPopupWhenActivatingDataConnection>    
     
+    <CscFeature_SetupWizard_ConfigStepSequenceType>DTVariantNoSimLock</CscFeature_SetupWizard_ConfigStepSequenceType>    
 
     <CscFeature_VoiceCall_EnableVmsNumberAsDefaultInCallForwarding>TRUE</CscFeature_VoiceCall_EnableVmsNumberAsDefaultInCallForwarding>
 
@@ -91,8 +92,6 @@
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
-
-    <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
 
     <CscFeature_Common_ConfigSmartSwitchFunction>settings</CscFeature_Common_ConfigSmartSwitchFunction>
 

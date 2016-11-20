@@ -174,7 +174,7 @@ limitations under the License.
             <favorite
                 launcher:screen="1" 
                 launcher:packageName="com.olleh.android.oc2" 
-                launcher:className="com.olleh.android.oc2.OllehActivity" />
+                launcher:className="com.olleh.android.oc2.MainActivity" />
             <!-- 올레 내비 -->
             <favorite
                 launcher:screen="2" 
@@ -184,7 +184,7 @@ limitations under the License.
             <favorite
                 launcher:screen="3" 
                 launcher:packageName="com.kt.otv" 
-                launcher:className="com.kt.otv.HomeLauncher" />
+                launcher:className="com.kt.otv.app.ActivityLauncher" />
             <!-- 지니 뮤직 -->
             <favorite
                 launcher:screen="4" 

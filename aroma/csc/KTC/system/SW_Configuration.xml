@@ -1,11 +1,11 @@
 <?xml  version="1.0" encoding="UTF-8" ?>
 <SW-Configuration>
 	<MobileData>
-	<PublicName>SM-G935F</PublicName>
+	<PublicName>SM-G935K</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935FKTC</CSCName>
-	<CSCVersion>1APG8</CSCVersion>
+	<CSCName>G935KKTC</CSCName>
+	<CSCVersion>1APK1</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/KTC/customer.xml" />
 	</CustomerDataSet>

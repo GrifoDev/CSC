@@ -94,7 +94,5 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
 
-    <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
-
   </FeatureSet>
 </SamsungMobileFeauture>
