@@ -335,14 +335,14 @@ endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "47"
 	then
-		ui_print("Installing TSI CSC...");
-		package_extract_dir("aroma/csc/TSI/system", "/system");
+		ui_print("Installing TPH CSC...");
+		package_extract_dir("aroma/csc/TPH/system", "/system");
 endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "48"
 	then
-		ui_print("Installing TUR CSC...");
-		package_extract_dir("aroma/csc/TUR/system", "/system");
+		ui_print("Installing TSI CSC...");
+		package_extract_dir("aroma/csc/TSI/system", "/system");
 endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "49"

@@ -1,2 +1,0 @@
-/system/priv-app/DeezerTROffer/DeezerTROffer.apk
-/system/priv-app/IPsecService/IPsecService.apk

@@ -25,7 +25,7 @@ ini_set("rom_name",             "CSC Selection™ ");
 ini_set("rom_version",          "V1.9");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "21.11.2016");
+ini_set("rom_date",             "22.11.2016");
 
 ##
 # Show Simple Splash
@@ -318,8 +318,8 @@ selectbox(
 	"TMS",	"Slovak unbranded",										0,      #-- selected.1 = 44
 	"TMZ",	"Czech T-Mobile branded",									0,      #-- selected.1 = 45
 	"TPA",	"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",		0,      #-- selected.1 = 46
-	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 47
-	"TUR",	"Turkey Multi-CSC contains: ACR, AFR, ECT, KSA, TUR, XFA",					0,      #-- selected.1 = 48
+	"TPH",	"Portugal unbranded",										0,      #-- selected.1 = 47
+	"TSI",	"Ireland unbranded",										0,      #-- selected.1 = 48
 	"VAU",	"Australia Vodafone branded",									0,      #-- selected.1 = 49
 	"VD2",	"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",														0,      #-- selected.1 = 50
 	"VDS",	"Sweden unbranded",										0,      #-- selected.1 = 51
