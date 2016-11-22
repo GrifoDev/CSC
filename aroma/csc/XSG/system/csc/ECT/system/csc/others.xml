@@ -45,5 +45,7 @@
     <CscFeature_Setting_HideApnList>IMS</CscFeature_Setting_HideApnList>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
+    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
   </FeatureSet>
 </SamsungMobileFeauture>

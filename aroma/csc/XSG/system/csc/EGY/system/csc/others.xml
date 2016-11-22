@@ -36,5 +36,6 @@
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
+    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
   </FeatureSet>
 </SamsungMobileFeauture>

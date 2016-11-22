@@ -36,6 +36,7 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
     <CscFeature_Setting_DisableNetworkMode>AddLteWcdma</CscFeature_Setting_DisableNetworkMode>
-
+    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
   </FeatureSet>
 </SamsungMobileFeauture>

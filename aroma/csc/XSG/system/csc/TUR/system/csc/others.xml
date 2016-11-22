@@ -68,5 +68,7 @@
     <CscFeature_Setting_SupportWiFiCallingMenu>true</CscFeature_Setting_SupportWiFiCallingMenu>
     <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuSim_28601;</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_VoiceCall_ConfigOpStyleForWfc>ChangePrefModeRoamingSim_28601;</CscFeature_VoiceCall_ConfigOpStyleForWfc>
+    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
   </FeatureSet>
 </SamsungMobileFeauture>

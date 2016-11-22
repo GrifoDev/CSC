@@ -289,7 +289,7 @@ if
 		package_extract_dir("aroma/csc/THL/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "42
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "42"
 	then
 		ui_print("Installing TMB CSC...");
 		delete_recursive("/system/app/imsservice");
@@ -304,113 +304,126 @@ endif;
 if
 	file_getprop("/tmp/aroma/window8.prop","selected.1") == "43"
 	then
+		ui_print("Installing TMK CSC...");
+		delete_recursive("/system/app/imsservice");
+		delete_recursive("/system/app/ImsSettings");
+		delete_recursive("/system/app/ImsTelephonyService");
+		delete_recursive("/system/priv-app/ImsLogger+");
+		package_extract_dir("aroma/csc/TMK/system", "/system");
+		symlink("/system/lib64/libsmejni.so", "/system/app/sveservice/lib/arm64/libsmejni.so");
+		set_metadata("/system/bin/imscmservice", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:imscm_exec:s0");
+		set_metadata("/system/bin/imsd", "selabel", "u:object_r:imsd_exec:s0");
+endif;
+if
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "44"
+	then
 		ui_print("Installing TMS CSC...");
 		package_extract_dir("aroma/csc/TMS/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "44"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "45"
 	then
 		ui_print("Installing TMZ CSC...");
 		package_extract_dir("aroma/csc/TMZ/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "45"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "46"
 	then
 		ui_print("Installing TPA CSC...");
 		package_extract_dir("aroma/csc/TPA/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "46"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "47"
 	then
 		ui_print("Installing TSI CSC...");
 		package_extract_dir("aroma/csc/TSI/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "47"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "48"
 	then
 		ui_print("Installing TUR CSC...");
 		package_extract_dir("aroma/csc/TUR/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "48"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "49"
 	then
 		ui_print("Installing VAU CSC...");
 		package_extract_dir("aroma/csc/VAU/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "49"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "50"
 	then
 		ui_print("Installing VD2 CSC...");
 		package_extract_dir("aroma/csc/VD2/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "50"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "51"
 	then
 		ui_print("Installing VDS CSC...");
 		package_extract_dir("aroma/csc/VDS/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "51"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "52"
 	then
 		ui_print("Installing VIA CSC...");
 		package_extract_dir("aroma/csc/VIA/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "52"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "53"
 	then
 		ui_print("Installing VVT CSC...");
 		package_extract_dir("aroma/csc/VVT/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "53"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "54"
 	then
 		ui_print("Installing VZW CSC...");
 		package_extract_dir("aroma/csc/VZW/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "54"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "55"
 	then
 		ui_print("Installing XAC CSC...");
 		package_extract_dir("aroma/csc/XAC/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "55"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "56"
 	then
 		ui_print("Installing XAS CSC...");
 		package_extract_dir("aroma/csc/XAS/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "56"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "57"
 	then
 		ui_print("Installing XEF CSC...");
 		package_extract_dir("aroma/csc/XEF/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "57"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "58"
 	then
 		ui_print("Installing XEO CSC...");
 		package_extract_dir("aroma/csc/XEO/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "58"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "59"
 	then
 		ui_print("Installing XID CSC...");
 		package_extract_dir("aroma/csc/XID/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "59"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "60"
 	then
 		ui_print("Installing XSA CSC...");
 		package_extract_dir("aroma/csc/XSA/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "60"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "61"
 	then
 		ui_print("Installing XSG CSC...");
 		package_extract_dir("aroma/csc/XSG/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/window8.prop","selected.1") == "61"
+	file_getprop("/tmp/aroma/window8.prop","selected.1") == "62"
 	then
 		ui_print("Installing ZTO CSC...");
 		package_extract_dir("aroma/csc/ZTO/system", "/system");
