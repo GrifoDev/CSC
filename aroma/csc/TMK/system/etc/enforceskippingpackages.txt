@@ -1,0 +1,9 @@
+8
+Excel_SamsungStub.apk
+PowerPoint_SamsungStub.apk
+Word_SamsungStub.apk
+xtra_t_app.apk
+SamsungUpdates.apk
+wssyncmldm.apk
+wssyncmlds.apk
+OMCAgent.apk
