@@ -90,5 +90,6 @@
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_RIL_SupportEpdgDuringRoaming>true</CscFeature_RIL_SupportEpdgDuringRoaming>
     <CscFeature_RIL_SupportSmsFallbackForIms>TRUE</CscFeature_RIL_SupportSmsFallbackForIms>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
   </FeatureSet>
 </SamsungMobileFeauture>

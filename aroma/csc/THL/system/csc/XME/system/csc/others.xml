@@ -1,4 +1,4 @@
-﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeauture>
   <Version>ED002</Version>
   <Country>MALAYSIA</Country>
@@ -56,5 +56,7 @@
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
     <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_RIL_Display4gPlusIconBandwidth>19</CscFeature_RIL_Display4gPlusIconBandwidth>
+    <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
   </FeatureSet>
 </SamsungMobileFeauture>

@@ -516,7 +516,7 @@
         <VoLTE>
           <SMSoIP_Domain>cs</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>

@@ -52,5 +52,6 @@
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_Contact_ConfigImsOpStyle>CAM</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
   </FeatureSet>
 </SamsungMobileFeauture>

@@ -51,5 +51,6 @@
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     <CscFeature_Common_EnableSamsungEmergency321>TRUE</CscFeature_Common_EnableSamsungEmergency321>
     <CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
   </FeatureSet>
 </SamsungMobileFeauture>
