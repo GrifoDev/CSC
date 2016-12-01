@@ -1,6 +1,5 @@
-5
-AxelSpringer.apk
+4
 SamsungPayStub.apk
-AndroidPay_erasable_Hero.apk
+CnnPanel.apk
 SamsungUpdates.apk
 OMCAgent.apk

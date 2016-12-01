@@ -1,162 +1,290 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>Hong Kong</Country>
     <CountryISO>HK</CountryISO>
     <Region>CHN</Region>
     <SalesCode>TGY</SalesCode>
-    <NbNetworkInfo>29</NbNetworkInfo>
+    <NbNetworkInfo>42</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45400</MCCMNC>
+      <NetworkName>csl.</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01020000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45402</MCCMNC>
+      <NetworkName>csl.</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01020000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45418</MCCMNC>
+      <NetworkName>csl.</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01020000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45400</MCCMNC>
       <NetworkName>1O1O</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01010000</SubsetCode>
       <SPName>CSL</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45402</MCCMNC>
       <NetworkName>1O1O</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01010000</SubsetCode>
       <SPName>CSL</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45418</MCCMNC>
       <NetworkName>1O1O</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01010000</SubsetCode>
       <SPName>CSL</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45400</MCCMNC>
-      <NetworkName>csl.</NetworkName>
+      <NetworkName>SUN Mobile</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01030000</SubsetCode>
       <SPName>CSL</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45402</MCCMNC>
-      <NetworkName>csl.</NetworkName>
+      <NetworkName>SUN Mobile</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01030000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45418</MCCMNC>
+      <NetworkName>SUN Mobile</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01030000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45400</MCCMNC>
+      <NetworkName>Global Call</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01040000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45402</MCCMNC>
+      <NetworkName>Global Call</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01040000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45418</MCCMNC>
+      <NetworkName>Global Call</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>01040000</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45400</MCCMNC>
+      <NetworkName>csl prepaid(1)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02020001</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45402</MCCMNC>
+      <NetworkName>csl prepaid(1)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02020001</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45418</MCCMNC>
+      <NetworkName>csl prepaid(1)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02020001</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45400</MCCMNC>
+      <NetworkName>csl prepaid(2)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02020002</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45402</MCCMNC>
+      <NetworkName>csl prepaid(2)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02020002</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45418</MCCMNC>
+      <NetworkName>csl prepaid(2)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02020002</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45400</MCCMNC>
+      <NetworkName>csl prepaid(3)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02030001</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45402</MCCMNC>
+      <NetworkName>csl prepaid(3)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02030001</SubsetCode>
+      <SPName>CSL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45418</MCCMNC>
+      <NetworkName>csl prepaid(3)</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>02030001</SubsetCode>
       <SPName>CSL</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45410</MCCMNC>
-      <NetworkName>csl.</NetworkName>
-      <SPName>CSL</SPName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45418</MCCMNC>
-      <NetworkName>csl.</NetworkName>
-      <SPName>CSL</SPName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45400</MCCMNC>
-      <NetworkName>SUN Mobile</NetworkName>
-      <SPName>CSL</SPName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45402</MCCMNC>
-      <NetworkName>SUN Mobile</NetworkName>
-      <SPName>CSL</SPName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45418</MCCMNC>
-      <NetworkName>SUN Mobile</NetworkName>
+      <NetworkName>csl(3G)</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>CSL</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45403</MCCMNC>
       <NetworkName>3</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>3</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45404</MCCMNC>
       <NetworkName>3(2G)</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>3(2G)</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45414</MCCMNC>
       <NetworkName>3(2G)</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>3(2G)</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45419</MCCMNC>
       <NetworkName>PCCW-HKT</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>PCCW-HKT</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45416</MCCMNC>
       <NetworkName>PCCW-HKT</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>PCCW-HKT</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45412</MCCMNC>
       <NetworkName>China Mobile HK</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>China Mobile HK</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45413</MCCMNC>
       <NetworkName>China Mobile HK</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>China Mobile HK</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45406</MCCMNC>
       <NetworkName>SmarTone HK</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>SmarTone HK</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45415</MCCMNC>
       <NetworkName>SmarTone HK</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>SmarTone HK</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45417</MCCMNC>
       <NetworkName>SmarTone HK</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>SmarTone HK</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45407</MCCMNC>
       <NetworkName>UNICOM HK</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>UNICOM HK</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45421</MCCMNC>
       <NetworkName>Vave</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>Vave</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45501</MCCMNC>
       <NetworkName>CTM</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>CTM</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45501</MCCMNC>
       <NetworkName>CTM Prepaid</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>CTM</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45504</MCCMNC>
       <NetworkName>CTM</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>CTM</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45504</MCCMNC>
       <NetworkName>CTM Prepaid</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>CTM</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45500</MCCMNC>
       <NetworkName>SmarTone MAC</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>SmarTone MAC</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45503</MCCMNC>
       <NetworkName>3 Macau (2G)</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>3 Macau (2G)</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45505</MCCMNC>
       <NetworkName>3 Macau</NetworkName>
+      <CodeType>DEC</CodeType>
       <SPName>3 Macau</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45411</MCCMNC>
+      <NetworkName>CHKT</NetworkName>
+      <CodeType>DEC</CodeType>
+      <SPName>CHKT</SPName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
       <Security>
-        <OneSIMLock>off</OneSIMLock>
+        <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
         <NbFastDormancy>1</NbFastDormancy>
@@ -248,7 +376,7 @@
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>2</Index>
-        <BookmarkName>1010 mobile portal</BookmarkName>
+        <BookmarkName>1O1O mobile portal</BookmarkName>
         <URL>http://m.1010.com.hk/home</URL>
       </Bookmark>
       <Bookmark>
@@ -305,44 +433,70 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>19</NbProfileHandle>
+      <NbProfileHandle>24</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
-        <NetworkName>1O1O</NetworkName>
-        <ProfBrowser>1O1O</ProfBrowser>
-        <ProfMMS>1O1O MMS</ProfMMS>
-        <ProfIntSharing>1O1O Tethering</ProfIntSharing>
-        <ProfIMS>1O1O IMS</ProfIMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>csl.</NetworkName>
         <ProfBrowser>csl</ProfBrowser>
         <ProfMMS>csl MMS</ProfMMS>
-        <ProfIntSharing>csl Tethering</ProfIntSharing>
         <ProfIMS>csl IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>1O1O</NetworkName>
+        <ProfBrowser>1O1O</ProfBrowser>
+        <ProfMMS>1O1O MMS</ProfMMS>
+        <ProfIMS>1O1O IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>SUN Mobile</NetworkName>
         <ProfBrowser>SUN Mobile</ProfBrowser>
         <ProfMMS>SUN Mobile MMS</ProfMMS>
-        <ProfIntSharing>SUN Mobile</ProfIntSharing>
+        <ProfIMS>SUN Mobile IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
-        <NetworkName>3</NetworkName>
-        <ProfBrowser>3 LTE</ProfBrowser>
-        <ProfMMS>3 LTE MMS</ProfMMS>
-        <ProfIntSharing>3 share</ProfIntSharing>
-        <ProfIMS>3 IMS</ProfIMS>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Global Call</NetworkName>
+        <ProfBrowser>Global Call</ProfBrowser>
+        <ProfMMS>Global Call MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>csl prepaid(1)</NetworkName>
+        <ProfBrowser>csl prepaid</ProfBrowser>
+        <ProfMMS>csl prepaid MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>csl prepaid(2)</NetworkName>
+        <ProfBrowser>csl prepaid</ProfBrowser>
+        <ProfMMS>csl prepaid MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>csl prepaid(3)</NetworkName>
+        <ProfBrowser>CSL prepaid</ProfBrowser>
+        <ProfMMS>CSL prepaid MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
+        <NetworkName>csl(3G)</NetworkName>
+        <ProfBrowser>csl</ProfBrowser>
+        <ProfMMS>csl MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>3</NetworkName>
         <ProfBrowser>3</ProfBrowser>
         <ProfMMS>3 MMS</ProfMMS>
-        <ProfIntSharing>3</ProfIntSharing>
+        <ProfEpdg>3 EPDG MMS</ProfEpdg>
+        <ProfIntSharing>3 share</ProfIntSharing>
+        <ProfIMS>3 IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -356,7 +510,6 @@
         <NetworkName>PCCW-HKT</NetworkName>
         <ProfBrowser>csl</ProfBrowser>
         <ProfMMS>csl MMS</ProfMMS>
-        <ProfIntSharing>csl</ProfIntSharing>
         <ProfIMS>csl IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
@@ -446,58 +599,17 @@
         <ProfMMS>3 Macau MMS</ProfMMS>
         <ProfIntSharing>3 Macau</ProfIntSharing>
       </ProfileHandle>
-      <NbProfile>46</NbProfile>
-      <Profile>
-        <NetworkName>1O1O</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>1O1O</ProfileName>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>mobile</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>1O1O</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>1O1O MMS</ProfileName>
-        <URL>http://192.168.58.171:8002/</URL>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>192.168.59.51</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mobile</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>1O1O</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>1O1O Tethering</ProfileName>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>lte.internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>1O1O</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>1O1O IMS</ProfileName>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>CHKT</NetworkName>
+        <ProfBrowser>chkt</ProfBrowser>
+      </ProfileHandle>      
+      <NbProfile>59</NbProfile>
       <Profile>
         <NetworkName>csl.</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>csl</ProfileName>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>mobile</APN>
@@ -508,7 +620,7 @@
         <Editable>yes</Editable>
         <ProfileName>csl MMS</ProfileName>
         <URL>http://192.168.58.171:8002/</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
@@ -522,18 +634,42 @@
       <Profile>
         <NetworkName>csl.</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>csl Tethering</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>csl IMS</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>lte.internet</APN>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>csl.</NetworkName>
+        <NetworkName>1O1O</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>1O1O</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>mobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>1O1O</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>1O1O MMS</ProfileName>
+        <URL>http://192.168.58.171:8002</URL>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.59.51</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>1O1O</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>csl IMS</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>1O1O IMS</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>ims</APN>
@@ -543,7 +679,7 @@
         <NetworkName>SUN Mobile</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>SUN Mobile</ProfileName>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>SUNMobile</APN>
@@ -554,7 +690,7 @@
         <Editable>yes</Editable>
         <ProfileName>SUN Mobile MMS</ProfileName>
         <URL>http://192.168.58.171:8002</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
@@ -563,6 +699,181 @@
         </Proxy>
         <PSparam>
           <APN>SUNMobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SUN Mobile</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>SUN Mobile IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Global Call</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Global Call</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>globalcall</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Global Call</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Global Call MMS</ProfileName>
+        <URL>http://192.168.58.171:8002</URL>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.59.51</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>globalcall</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Global Call</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(1)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>csl prepaid</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>cslp1</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(1)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>csl prepaid MMS</ProfileName>
+        <URL>http://192.168.58.171:8002</URL>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.59.51</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>cslp1</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(1)</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(2)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>csl prepaid</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>cslp3</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(2)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>csl prepaid MMS</ProfileName>
+        <URL>http://192.168.58.171:8002</URL>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.59.51</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>cslp3</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(2)</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(3)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>CSL prepaid</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>cslp1</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(3)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>CSL prepaid MMS</ProfileName>
+        <URL>http://192.168.58.171:8002</URL>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.59.51</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>cslp1</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl prepaid(3)</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl(3G)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>csl</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>hkcsl</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>csl(3G)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>csl MMS</ProfileName>
+        <URL>http://192.168.58.171:8002</URL>
+        <Auth>normalorsecure</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.59.51</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>hkcsl</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -578,38 +889,13 @@
       <Profile>
         <NetworkName>3</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>3 LTE</ProfileName>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>mobile.lte.three.com.hk</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3 LTE MMS</ProfileName>
-        <URL>http://mms.um.three.com.hk:10021/mmsc</URL>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <ServAddr>172.20.97.116</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mobile.lte.three.com.hk</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3</NetworkName>
-        <Editable>yes</Editable>
         <ProfileName>3 MMS</ProfileName>
         <URL>http://mms.um.three.com.hk:10021/mmsc</URL>
         <Auth>normal</Auth>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>172.20.97.116</ServAddr>
+          <ServAddr>mms.three.com.hk</ServAddr>
           <Port>8799</Port>
         </Proxy>
         <PSparam>
@@ -618,12 +904,29 @@
       </Profile>
       <Profile>
         <NetworkName>3</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3 EPDG MMS</ProfileName>
+        <URL>http://mms.um.three.com.hk:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.20.97.116</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>vas.wlan.three.com.hk</APN>
+        </PSparam>
+      </Profile>      
+      <Profile>
+        <NetworkName>3</NetworkName>
         <Editable>no</Editable>
         <ProfileName>3 share</ProfileName>
         <Auth>normal</Auth>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>share.lte.three.com.hk</APN>
+          <APN>share.three.com.hk</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -673,7 +976,7 @@
         <NetworkName>PCCW-HKT</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>csl</ProfileName>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>mobile</APN>
@@ -684,7 +987,7 @@
         <Editable>yes</Editable>
         <ProfileName>csl MMS</ProfileName>
         <URL>http://mms.hkcsl.com:8080</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
@@ -699,7 +1002,6 @@
         <NetworkName>PCCW-HKT</NetworkName>
         <Editable>no</Editable>
         <ProfileName>csl IMS</ProfileName>
-        <Auth>normal</Auth>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>ims</APN>
@@ -954,6 +1256,32 @@
       <Profile>
         <NetworkName>3 Macau (2G)</NetworkName>
         <Editable>yes</Editable>
+        <ProfileName>3 Macau LTE</ProfileName>
+        <Auth>normal</Auth>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>3mobile.three.com.mo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 Macau (2G)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3 Macau LTE MMS</ProfileName>
+        <URL>http://mms.three.com.mo:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mms.three.com.mo</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>3mobile.three.com.mo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 Macau (2G)</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>3 Macau</ProfileName>
         <Auth>normal</Auth>
         <MTUSize>1500</MTUSize>
@@ -978,29 +1306,12 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>3 Macau (2G)</NetworkName>
+        <NetworkName>CHKT</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>3 Macau LTE</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>chkt</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>3mobile.three.com.mo</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 Macau (2G)</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3 Macau LTE MMS</ProfileName>
-        <URL>http://mms.three.com.mo:10021/mmsc</URL>
-        <Auth>normal</Auth>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>mms.three.com.mo</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>3mobile.three.com.mo</APN>
+          <APN>chkt</APN>
         </PSparam>
       </Profile>
     </Connections>
@@ -1075,7 +1386,7 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
@@ -1096,7 +1407,7 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
@@ -1117,7 +1428,7 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>

@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00010</Version>
+  <Version>ED00022</Version>
   <Country>HONG KONG</Country>
   <CountryISO>HK</CountryISO>
   <SalesCode>TGY</SalesCode>
@@ -11,7 +11,8 @@
     <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
     <CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
     <CscFeature_Clock_ReplaceNameTaiwanWithTaipei>TRUE</CscFeature_Clock_ReplaceNameTaiwanWithTaipei>
-    <CscFeature_Common_ConfigEmergencyModePackages>com.samsung.inputmethod</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.samsung.inputmethod,com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_Common_ConfigSamsungCloudVariation>DisablingKeyboardDataSync:boolean:true</CscFeature_Common_ConfigSamsungCloudVariation>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Common_DisableNfcHwKeypad>TRUE</CscFeature_Common_DisableNfcHwKeypad>
     <CscFeature_Contact_ANRConfig>0</CscFeature_Contact_ANRConfig>
@@ -35,12 +36,13 @@
     <CscFeature_Launcher_DisableFastScrollIndex>TRUE</CscFeature_Launcher_DisableFastScrollIndex>
     <CscFeature_MediaScanner_FixLocaleTo>HK</CscFeature_MediaScanner_FixLocaleTo>
     <CscFeature_Message_DisableMenuSmsInputMode>TRUE</CscFeature_Message_DisableMenuSmsInputMode>
-    <CscFeature_Message_UaProfUrl>http://wap.samsungmobile.com/uaprof/SM-G930F.xml</CscFeature_Message_UaProfUrl>
-    <CscFeature_Message_UserAgent>SAMSUNG-ANDROID-MMS/SM-G930F</CscFeature_Message_UserAgent>
+    <CscFeature_Message_UaProfUrl>http://wap.samsungmobile.com/uaprof/SM-G9350.xml</CscFeature_Message_UaProfUrl>
+    <CscFeature_Message_UserAgent>SAMSUNG-ANDROID-MMS/SM-G9350</CscFeature_Message_UserAgent>
     <CscFeature_NFC_DefStatus>ON</CscFeature_NFC_DefStatus>
     <CscFeature_NFC_DisableEseCardMode>TRUE</CscFeature_NFC_DisableEseCardMode>
     <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
     <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MMSOVERWIFI</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_ConfigNetworkTypeCapability>TGY-TGY-GLB-HKG</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigSIMswap>QCOM</CscFeature_RIL_ConfigSIMswap>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
@@ -54,27 +56,38 @@
     <CscFeature_RIL_ForceConnectIMS>TRUE</CscFeature_RIL_ForceConnectIMS>
     <CscFeature_RIL_ForceConnectMmsForbidInRoaming>TRUE</CscFeature_RIL_ForceConnectMmsForbidInRoaming>
     <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
+    <CscFeature_RIL_GetDeviceIdwithIMEIforCDMA>TRUE</CscFeature_RIL_GetDeviceIdwithIMEIforCDMA>
     <CscFeature_RIL_MtuSize>1500</CscFeature_RIL_MtuSize>
     <CscFeature_RIL_PromptToDataRoam>TRUE</CscFeature_RIL_PromptToDataRoam>
+    <CscFeature_RIL_QmiCdmaGsm>TRUE</CscFeature_RIL_QmiCdmaGsm>
     <CscFeature_RIL_SendDeviceCapaToCp>TRUE</CscFeature_RIL_SendDeviceCapaToCp>
+    <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
     <CscFeature_RIL_SignalstrengthPolicy>0</CscFeature_RIL_SignalstrengthPolicy>
+    <CscFeature_RIL_SmsCdmaCopyToRuim>TRUE</CscFeature_RIL_SmsCdmaCopyToRuim>
     <CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
+    <CscFeature_RIL_SmsSupportKsc5601Usa>TRUE</CscFeature_RIL_SmsSupportKsc5601Usa>
     <CscFeature_RIL_SpecialAddressHandlingFor>CTC</CscFeature_RIL_SpecialAddressHandlingFor>
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_SsRoutingPolicy>cs</CscFeature_RIL_SsRoutingPolicy>
+    <CscFeature_RIL_Support75Mode>TRUE</CscFeature_RIL_Support75Mode>
+    <CscFeature_RIL_SupportAllRat>TRUE</CscFeature_RIL_SupportAllRat>
     <CscFeature_RIL_SupportCellLocInfoService>TRUE</CscFeature_RIL_SupportCellLocInfoService>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportQcomCrossMapping>TRUE</CscFeature_RIL_SupportQcomCrossMapping>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
     <CscFeature_RIL_SupportVolteVtCall>TRUE</CscFeature_RIL_SupportVolteVtCall>
+    <CscFeature_RIL_SupportWcdma75Mode>TRUE</CscFeature_RIL_SupportWcdma75Mode>
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_UssdRoutingPolicy>cs</CscFeature_RIL_UssdRoutingPolicy>
     <CscFeature_RIL_WapPushFormat4>CTC</CscFeature_RIL_WapPushFormat4>
     <CscFeature_Setting_BlockToSelectDunApnType>TRUE</CscFeature_Setting_BlockToSelectDunApnType>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_Setting_UseDefaultTtsEngineAs>TRUE</CscFeature_Setting_UseDefaultTtsEngineAs>
-    <CscFeature_Sip_ConfigHwrEngine>BSTHWRPANEL</CscFeature_Sip_ConfigHwrEngine>
-    <CscFeature_Sip_ConfigPredictionEngine>XT9</CscFeature_Sip_ConfigPredictionEngine>
     <CscFeature_SmartcardSvc_HideTerminalCapability>ESE</CscFeature_SmartcardSvc_HideTerminalCapability>
     <CscFeature_Streaming_AddCommandCondition4MusicholicApp>TRUE</CscFeature_Streaming_AddCommandCondition4MusicholicApp>
     <CscFeature_Streaming_DrivingTestTunning4>3HK</CscFeature_Streaming_DrivingTestTunning4>

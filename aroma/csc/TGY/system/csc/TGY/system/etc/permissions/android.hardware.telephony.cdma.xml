@@ -16,4 +16,6 @@
 
 <!-- This is the standard set of telephony features for a CDMA phone. -->
 <permissions>
+    <feature name="android.hardware.telephony" />
+    <feature name="android.hardware.telephony.cdma" />
 </permissions>

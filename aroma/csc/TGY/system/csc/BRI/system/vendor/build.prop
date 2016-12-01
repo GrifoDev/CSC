@@ -1,5 +1,0 @@
-telephony.lteOnCdmaDevice=0
-persist.radio.tdscdma_present=1
-ro.telephony.default_network=9,1
-persist.radio.multisim.config=dsds
-ro.multisim.simslotcount=2
