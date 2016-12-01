@@ -1,0 +1,2 @@
+/system/priv-app/Apps_Orange-3.1-V5669-signed-aligned/Apps_Orange-3.1-V5669-signed-aligned.apk
+/system/priv-app/IPsecService/IPsecService.apk

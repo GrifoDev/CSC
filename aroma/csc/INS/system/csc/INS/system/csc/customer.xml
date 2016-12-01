@@ -6,7 +6,11 @@
     <CountryISO>IN</CountryISO>
     <Region>SWA</Region>
     <SalesCode>INS</SalesCode>
-    <NbNetworkInfo>255</NbNetworkInfo>
+    <NbNetworkInfo>256</NbNetworkInfo>
+	 <NetworkInfo>
+      <MCCMNC>22201</MCCMNC>
+      <NetworkName>RJIL</NetworkName>
+    </NetworkInfo>	
     <NetworkInfo>
       <MCCMNC>405884</MCCMNC>
       <NetworkName>STEL</NetworkName>
