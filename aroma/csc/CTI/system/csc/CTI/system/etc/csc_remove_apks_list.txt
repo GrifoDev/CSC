@@ -1,7 +1,8 @@
-/system/app/UserManual/UserManual.apk
-/system/priv-app/ClaroApps_v1.1.1/ClaroApps_v1.1.1.apk
-/system/priv-app/MiClaro_CDR_v4.0/MiClaro_CDR_v4.0.apk
-/system/priv-app/MiClaro_ECO_v3.5.1/MiClaro_ECO_v3.5.1.apk
+/system/app/samsung_club_uy_access_release_v1_3/samsung_club_uy_access_release_v1_3.apk
+/system/priv-app/IPsecService/IPsecService.apk
+/system/priv-app/MiClaro_CDR_v4.3/MiClaro_CDR_v4.3.apk
+/system/priv-app/MiClaro_PCT_v1.5.1/MiClaro_PCT_v1.5.1.apk
+/system/priv-app/MiClaroPeruV252F160525VC58/MiClaroPeruV252F160525VC58.apk
 /system/priv-app/SVoiceLang_EnglishPack_GB_1.0/SVoiceLang_EnglishPack_GB_1.0.apk
 /system/priv-app/SVoiceLang_FrenchPack_1.0/SVoiceLang_FrenchPack_1.0.apk
 /system/priv-app/SVoiceLang_GermanPack_DE_1.0/SVoiceLang_GermanPack_DE_1.0.apk

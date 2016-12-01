@@ -1,7 +1,8 @@
-/system/app/ap_PaymentFramework_spay_stub_M_release/ap_PaymentFramework_spay_stub_M_release.apk
-/system/priv-app/ClaroApps_v1.1.1/ClaroApps_v1.1.1.apk
-/system/priv-app/ContenedorGlobalV8110F021115VC163/ContenedorGlobalV8110F021115VC163.apk
+/system/priv-app/ClaroApps_v1.1.2/ClaroApps_v1.1.2.apk
+/system/priv-app/ClaroJuegos_WidgetApp3x3_Generic_2009_AMX_PF22_upd51_M_v209/ClaroJuegos_WidgetApp3x3_Generic_2009_AMX_PF22_upd51_M_v209.apk
+/system/priv-app/ContenedorGlobalV8412F290416VC176/ContenedorGlobalV8412F290416VC176.apk
+/system/priv-app/MiClaro_PCT_v1.5.1/MiClaro_PCT_v1.5.1.apk
 /system/priv-app/OnStartNotification_MM_v12/OnStartNotification_MM_v12.apk
-/system/priv-app/Portal/Portal.apk
+/system/priv-app/Portal_v6.2/Portal_v6.2.apk
 /system/priv-app/SVoiceLang_PortuguesePack_BR-release/SVoiceLang_PortuguesePack_BR-release.apk
 /system/priv-app/SVoiceLang_SpanishPack_US-release/SVoiceLang_SpanishPack_US-release.apk

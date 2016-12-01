@@ -1,41 +1,41 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED0009</Version>
+  <Version>ED00012</Version>
   <Country>GUATEMALA</Country>
   <CountryISO>GT</CountryISO>
   <SalesCode>PGU</SalesCode>
   <FeatureSet>
+    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Common_EulaVersion>0</CscFeature_Common_EulaVersion>
+    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
     <CscFeature_Framework_ConfigDefaultCocktailPanels>com.samsung.android.app.appsedge.edgepanel.AppsEdgePanelProvider;com.samsung.android.app.taskedge.edgepanel.TaskEdgePanelProvider;com.samsung.android.service.peoplestripe.people.edgepanel.PeopleEdgePanelProvider</CscFeature_Framework_ConfigDefaultCocktailPanels>
     <CscFeature_Framework_ConfigDefaultFeedsPanels>com.samsung.android.widgetapp.briefing.CatchNotificationsCocktailProvider</CscFeature_Framework_ConfigDefaultFeedsPanels>
-    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>LTE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
-    <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
-    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
-    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
-    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
-    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
-    <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
+    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_FixedStkTitleAs>NoSIM%SIM Claro</CscFeature_Launcher_FixedStkTitleAs>
-    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
-    <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
+    <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
-    <CscFeature_Email_ReplaceHintDomainAs>iclaro.com.gt</CscFeature_Email_ReplaceHintDomainAs>
-    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
     <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
-    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
-    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
-    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
-    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
-    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseMs>
-    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
-    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
-    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
+    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
     <CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
     <CscFeature_RIL_FixedStkMenu>TRUE</CscFeature_RIL_FixedStkMenu>
-    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
-    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
-    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
+    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>LTE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+    <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
+    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
+    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>

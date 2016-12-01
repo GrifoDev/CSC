@@ -1,7 +1,7 @@
 <SamsungMobileLanguage>
-   <Country>Italy</Country>
-   <CountryISO>it</CountryISO>
-   <SalesCode>XEI</SalesCode>
+   <Country>ARGENTINA</Country>
+   <CountryISO>AR</CountryISO>
+   <SalesCode>CTI</SalesCode>
    <LanguageSet>
           <Display>
 	en_GB;en_US;en_AU;en_IE;en_NZ;en_ZA;ko_KR;de_AT;de_CH;de_DE;fr_FR;fr_CH;
@@ -12,7 +12,7 @@ ca_ES;eu_ES;gl_ES;ru_RU; sk_SK; sl_SI;
           </Display>
           <Input>
                 <SupportList>
-        	en_GB;en_US;ca;cs;da;de;et;es;eu;el;fr;gl;hr;it;is;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;sl;sv;tr;ko;bg;zh_CN;ar;
+        	en_US;es;pt;ko;
                 </SupportList>
                 <EnableList>
                 </EnableList>

@@ -2,7 +2,7 @@
 <CustomerData>
 
 	<AMXService>
-		<PortalMovilURL>http://wap.ideasclaro.com</PortalMovilURL>
+		<PortalMovilURL>http://www.claroideas.com/wrapper</PortalMovilURL>
 		<iMStoreURL>http://m.claromusica.com</iMStoreURL>
 		<operatorURL>http://internet.claro.cr</operatorURL>
 	</AMXService>

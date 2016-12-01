@@ -5,10 +5,9 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>G935FUWA</CSCName>
-	<CSCVersion>1APB4</CSCVersion>
-	<NbCustomer>12</NbCustomer>
+	<CSCVersion>1BPH1</CSCVersion>
+	<NbCustomer>10</NbCustomer>
 	<CustomerData src="/Customer/CTI/customer.xml" />
-	<CustomerData src="/Customer/COM/customer.xml" />
 	<CustomerData src="/Customer/CTP/customer.xml" />
 	<CustomerData src="/Customer/PET/customer.xml" />
 	<CustomerData src="/Customer/CTU/customer.xml" />
@@ -16,17 +15,7 @@
 	<CustomerData src="/Customer/PCT/customer.xml" />
 	<CustomerData src="/Customer/CDR/customer.xml" />
 	<CustomerData src="/Customer/CRC/customer.xml" />
-	<CustomerData src="/Customer/ECO/customer.xml" />
 	<CustomerData src="/Customer/CPA/customer.xml" />
 	<CustomerData src="/Customer/CHL/customer.xml" />
 	</CustomerDataSet>
-	<HandData>
-		<NbApprovalVer>1</NbApprovalVer>
-		<ApprovalVer>
-		<Customer>COM</Customer>
-			<CodeFullVersion>G935FXXU1APAS</CodeFullVersion>
-			<ModemFullVersion>G935FXXU1APAS</ModemFullVersion>
-			<CSCFullVersion>G935FUWA1APAS</CSCFullVersion>
-		</ApprovalVer>
-	</HandData>
 </SW-Configuration>

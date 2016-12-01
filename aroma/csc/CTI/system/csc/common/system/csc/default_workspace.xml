@@ -138,75 +138,11 @@
 	launcher:spanX="3"
 	launcher:spanY="3"/>
 	
-	<!-- Mi Claro -->
+<!-- Claro ideas -->
 	<favorite
 	launcher:screen="2"
-	launcher:packageName="com.claroecuador.miclaro"
-	launcher:className="com.claroecuador.miclaro.LoginActivity"
- 	launcher:x="0"
-	launcher:y="3"/>
-		
-	<!-- Mi Claro -->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.claroecuador.miclaro"
-	launcher:className="com.claroecuador.miclaro.SplashScreenActivity"
- 	launcher:x="0"
-	launcher:y="3"/>	
-
-	<!-- Mi Claro -->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.claro.miclaro"
-	launcher:className="com.claro.miclaro.Dashboard"
-	launcher:x="0"
-	launcher:y="3"/>
-
-	<!-- Mi Claro -->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.claro.pe.miclaro"
-	launcher:className="com.claro.pe.miclaro.Launcher"
-	launcher:x="0"
-	launcher:y="3"/>
-	
-    <!-- Mi Claro CDR-->	
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.clarord.miclaro"
-	launcher:className="com.personal.miclaro.controller.Login"
-	launcher:x="0"
-	launcher:y="3"/>		
-
-	<!-- Mi Telcel -->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.speedymovil.wire"
-	launcher:className="com.speedymovil.wire.Login"
-	launcher:x="0"
-	launcher:y="3"/>
-
-	<!-- MiClaro -->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.todoclaro.miclaroapp"
-	launcher:className="com.todoclaro.miclaroapp.MiClaro"
-	launcher:x="0"
-	launcher:y="3"/>
-
-	<!-- MiClaro PCT-->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="com.todoclaro.miclaroapp"
-	launcher:className="com.todoclaro.miclaroapp.MainActivity"
-	launcher:x="0"
-	launcher:y="3"/>
-		
-	<!-- Mi Claro Argentina-->
-	<favorite
-	launcher:screen="2"
-	launcher:packageName="ar.com.claro.android"
-	launcher:className="com.mobileaware.claro.screens.SplashActivity"
+	launcher:packageName="com.portal"
+	launcher:className="com.portal.Portal"
 	launcher:x="0"
 	launcher:y="3"/>
 		
@@ -274,27 +210,19 @@
     launcher:spanX="4" 
     launcher:spanY="1" />
 
-	<!-- Facebook -->
-	<favorite
-	launcher:screen="3" 
-	launcher:packageName="com.facebook.katana" 
-	launcher:className="com.facebook.katana.LoginActivity" 
-	launcher:x="0"
-    launcher:y="3"/>
-
  	<!-- Word -->
     <favorite
     launcher:packageName="com.microsoft.office.word"
     launcher:className="com.microsoft.office.apphost.LaunchActivity"
     launcher:screen="3"
-    launcher:x="1"
+    launcher:x="2"
     launcher:y="3" />
 
     <!-- Folder : Microsoft Apps -->
     <folder
 		  launcher:screen="3"
-		  launcher:title="Aplicaciones de Microsoft"
-		  launcher:x="2"
+		  launcher:title="Microsoft  Apps"
+		  launcher:x="3"
 		  launcher:y="3" >
     <favorite
           launcher:packageName="com.microsoft.office.excel"
@@ -308,11 +236,7 @@
           launcher:packageName="com.microsoft.office.onenote"
           launcher:className="com.microsoft.office.onenote.ui.ONMSplashActivity"
           launcher:screen="2" />
-    <favorite
-          launcher:packageName="com.microsoft.skydrive"
-          launcher:className="com.microsoft.skydrive.MainActivity"
-          launcher:screen="3" />
-	</folder>    
+   	</folder>    
 	</home>
 	
 	

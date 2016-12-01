@@ -1,7 +1,7 @@
 /hidden/app/CarsRacing_Samsung_Hero2_IGP_TS_LATAM_ML_101.apk
-/hidden/app/ClaroJuegos_WidgetApp3x3_Generic_2009_AMX_PF22_upd51_M_v209.apk
 /hidden/app/IceAgeScratVentures_Samsung_Hero2_IGP_LATAM_ML_102.apk
 /hidden/app/MidnightPoolMobilePremium_SMS_Samsung_Hero2_L_IGP_LATAM_ML_104_CU17.apk
 /hidden/app/pvz_v2.3.71_2G-3G-4G_androidm.apk
+/hidden/app/smarttutor_v1.5_b153.apk
 /hidden/app/SpiderManUltimatePower_Samsung_Hero2_IGP_LATAM_ML_101_CU21.apk
-/hidden/app/Start-Release_4.4.6.3_2601_1642_AMX_Claro_B1.apk
+/hidden/app/Start-Release_4.4.6.14_1506_1237_AMX_Claro_B1.apk

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Puerto Rico</Country>
     <CountryISO>PR</CountryISO>
     <Region>LA</Region>
@@ -39,9 +39,8 @@
           <NetworkName>default</NetworkName>
           <WbAmrCodec>off</WbAmrCodec>
         </WbAmr>
-        <NbSOSNumber>2</NbSOSNumber>
+        <NbSOSNumber>1</NbSOSNumber>
         <SOSNumber>911</SOSNumber>
-        <SOSNumber>112</SOSNumber>
       </Network>
       <Phone>
         <DefLanguage>spanish_latin</DefLanguage>
@@ -53,45 +52,21 @@
         </DateTimeFormat>
       </Phone>
       <Display>
-        <NbWallpaper>10</NbWallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_01.jpg" width="2560" height="1440">
+        <NbWallpaper>4</NbWallpaper>
+        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_02.jpg" width="2560" height="1440">
           <Position>1</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_02.jpg" width="2560" height="1440">
+        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_82.jpg" width="2560" height="1440">
           <Position>2</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_03.jpg" width="2560" height="1440">
+        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_83.jpg" width="2560" height="1440">
           <Position>3</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_04.jpg" width="2560" height="1440">
+        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_85.jpg" width="2560" height="1440">
           <Position>4</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_05.jpg" width="2560" height="1440">
-          <Position>5</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_06.jpg" width="2560" height="1440">
-          <Position>6</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_07.jpg" width="2560" height="1440">
-          <Position>7</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_08.jpg" width="2560" height="1440">
-          <Position>8</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_09.jpg" width="2560" height="1440">
-          <Position>9</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/PCT/Wallpaper/ClaroWallpaper_10.jpg" width="2560" height="1440">
-          <Position>10</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
       </Display>
@@ -125,24 +100,18 @@
       <Signature>Enviado desde mi Samsung Mobile de Claro</Signature>
     </ActiveSync>
     <Browser>
-      <NbBookmark>3</NbBookmark>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>Claro_PR</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Claro ideas</BookmarkName>
+        <URL>http://www.claroideas.com/wrapper</URL>
+      </Bookmark>
       <Bookmark>
         <NetworkName>Claro_PR</NetworkName>
         <Editable>yes</Editable>
         <BookmarkName>Mi Claro</BookmarkName>
         <URL>https://miclaro.clarotodo.com/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_PR</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Claro deportes</BookmarkName>
-        <URL>http://z.claropr.mobi/claropr-cw.qpass.com/ndmns/index?m=8ct;im</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_PR</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>iClaro</BookmarkName>
-        <URL>http://www.iclaropr.com/m</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>

@@ -1,40 +1,40 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED0006</Version>
+  <Version>ED00010</Version>
   <Country>ARGENTINA</Country>
   <CountryISO>AR</CountryISO>
   <SalesCode>CTI</SalesCode>
   <FeatureSet>
-    <CscFeature_Framework_ConfigDefaultCocktailPanels>com.samsung.android.app.appsedge.edgepanel.AppsEdgePanelProvider;com.samsung.android.app.taskedge.edgepanel.TaskEdgePanelProvider;com.samsung.android.service.peoplestripe.people.edgepanel.PeopleEdgePanelProvider</CscFeature_Framework_ConfigDefaultCocktailPanels>
-    <CscFeature_Framework_ConfigDefaultFeedsPanels>com.samsung.android.widgetapp.briefing.CatchNotificationsCocktailProvider</CscFeature_Framework_ConfigDefaultFeedsPanels>
-    <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
+    <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Common_EulaVersion>0</CscFeature_Common_EulaVersion>
+    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
     <CscFeature_Contact_AddPreloadedSpeedDialAs>Emergency,9,911,Emergency</CscFeature_Contact_AddPreloadedSpeedDialAs>
     <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
-    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
-    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
-    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
-    <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Framework_ConfigDefaultCocktailPanels>com.samsung.android.app.appsedge.edgepanel.AppsEdgePanelProvider;com.samsung.android.app.taskedge.edgepanel.TaskEdgePanelProvider;com.samsung.android.service.peoplestripe.people.edgepanel.PeopleEdgePanelProvider</CscFeature_Framework_ConfigDefaultCocktailPanels>
+    <CscFeature_Framework_ConfigDefaultFeedsPanels>com.samsung.android.widgetapp.briefing.CatchNotificationsCocktailProvider</CscFeature_Framework_ConfigDefaultFeedsPanels>
+    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
+    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_FixedStkTitleAs>NoSIM%SIM Claro</CscFeature_Launcher_FixedStkTitleAs>
-    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
-    <CscFeature_Email_ReplaceHintDomainAs>iclaro.com.ar</CscFeature_Email_ReplaceHintDomainAs>
-    <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
     <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
-    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
-    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
-    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
-    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
-    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseMs>
-    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
-    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
-    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
+    <CscFeature_RIL_DisableSmartBonding>FALSE</CscFeature_RIL_DisableSmartBonding>
+    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
     <CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
     <CscFeature_RIL_FixedStkMenu>TRUE</CscFeature_RIL_FixedStkMenu>
-    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
-    <CscFeature_RIL_DisableSmartBonding>FALSE</CscFeature_RIL_DisableSmartBonding>
-    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
-    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
+    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
+    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
@@ -51,7 +51,7 @@
     <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
     <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
-    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|storageclean|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|devicesecurity|data_compression|roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle|UDS|cstyle</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
   </FeatureSet>
 </SamsungMobileFeature>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>PANAMA</Country>
     <CountryISO>PA</CountryISO>
     <Region>LA</Region>
@@ -54,45 +54,21 @@
         </DateTimeFormat>
       </Phone>
       <Display>
-        <NbWallpaper>10</NbWallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_01.jpg" width="2560" height="1440">
+        <NbWallpaper>4</NbWallpaper>
+        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_02.jpg" width="2560" height="1440">
           <Position>1</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_02.jpg" width="2560" height="1440">
+        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_82.jpg" width="2560" height="1440">
           <Position>2</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_03.jpg" width="2560" height="1440">
+        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_83.jpg" width="2560" height="1440">
           <Position>3</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_04.jpg" width="2560" height="1440">
+        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_85.jpg" width="2560" height="1440">
           <Position>4</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_05.jpg" width="2560" height="1440">
-          <Position>5</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_06.jpg" width="2560" height="1440">
-          <Position>6</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_07.jpg" width="2560" height="1440">
-          <Position>7</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_08.jpg" width="2560" height="1440">
-          <Position>8</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_09.jpg" width="2560" height="1440">
-          <Position>9</Position>
-          <FileType>JPG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/CPA/Wallpaper/ClaroWallpaper_10.jpg" width="2560" height="1440">
-          <Position>10</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
       </Display>
@@ -139,7 +115,13 @@
       <Signature>Enviado desde mi Samsung Mobile de Claro</Signature>
     </ActiveSync>
     <Browser>
-      <NbBookmark>4</NbBookmark>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>Claro_PA</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Claro Ideas</BookmarkName>
+        <URL>http://www.claroideas.com/wrapper</URL>
+      </Bookmark>
       <Bookmark>
         <NetworkName>Claro_PA</NetworkName>
         <Editable>yes</Editable>
@@ -149,20 +131,8 @@
       <Bookmark>
         <NetworkName>Claro_PA</NetworkName>
         <Editable>yes</Editable>
-        <BookmarkName>Plugger</BookmarkName>
-        <URL>http://pa.plugger.com/home</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_PA</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Claro deportes</BookmarkName>
-        <URL>http://www.claro.com.pa/wap/deportes.wml</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_PA</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>iClaro</BookmarkName>
-        <URL>http://www.claro.com.pa/wap/mail.wml</URL>
+        <BookmarkName>Claro video</BookmarkName>
+        <URL>https://www.clarovideo.com</URL>
       </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>

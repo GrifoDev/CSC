@@ -1,45 +1,65 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED0007</Version>
+  <Version>ED00015</Version>
   <Country>PERU</Country>
   <CountryISO>PE</CountryISO>
   <SalesCode>PET</SalesCode>
   <FeatureSet>
+    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_Common_EulaVersion>0</CscFeature_Common_EulaVersion>
+    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
     <CscFeature_Framework_ConfigDefaultCocktailPanels>com.samsung.android.app.appsedge.edgepanel.AppsEdgePanelProvider;com.samsung.android.app.taskedge.edgepanel.TaskEdgePanelProvider;com.samsung.android.service.peoplestripe.people.edgepanel.PeopleEdgePanelProvider</CscFeature_Framework_ConfigDefaultCocktailPanels>
     <CscFeature_Framework_ConfigDefaultFeedsPanels>com.samsung.android.widgetapp.briefing.CatchNotificationsCocktailProvider</CscFeature_Framework_ConfigDefaultFeedsPanels>
-    <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
-    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
-    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
-    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
-    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
-    <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
+    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
+    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_FixedStkTitleAs>NoSIM%SIM Claro</CscFeature_Launcher_FixedStkTitleAs>
-    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
-    <CscFeature_Message_MmsModeCaptureVideoMaxSize>1018880</CscFeature_Message_MmsModeCaptureVideoMaxSize>
-    <CscFeature_Message_UserAgent>SAMSUNG-ANDROID-MMS/SM-G935F</CscFeature_Message_UserAgent>
-    <CscFeature_Message_UaProfUrl>http://wap.samsungmobile.com/uaprof/SM-G935F.xml</CscFeature_Message_UaProfUrl>
+    <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
     <CscFeature_Message_ImageResizeQualityFactorWhenAttach>high</CscFeature_Message_ImageResizeQualityFactorWhenAttach>
-    <CscFeature_Email_ReplaceHintDomainAs>iclaro.com.pe</CscFeature_Email_ReplaceHintDomainAs>
-    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Message_MmsModeCaptureVideoMaxSize>1018880</CscFeature_Message_MmsModeCaptureVideoMaxSize>
+    <CscFeature_Message_UaProfUrl>http://wap.samsungmobile.com/uaprof/SM-G935F.xml</CscFeature_Message_UaProfUrl>
+    <CscFeature_Message_UserAgent>SAMSUNG-ANDROID-MMS/SM-G935F</CscFeature_Message_UserAgent>
     <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
-    <CscFeature_Web_SetUAProfile>http://wap.samsungmobile.com/uaprof/%s.xml</CscFeature_Web_SetUAProfile>
-    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
-    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
-    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
-    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
-    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseMs>
-    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
-    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
-    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
+    <CscFeature_RIL_ConfigApnForHideDataIcon>xcap</CscFeature_RIL_ConfigApnForHideDataIcon>
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
+    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
+    <CscFeature_RIL_E911RoutingPolicy>default</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
     <CscFeature_RIL_EnableOnsDisplay>TRUE</CscFeature_RIL_EnableOnsDisplay>
     <CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
     <CscFeature_RIL_FixedStkMenu>TRUE</CscFeature_RIL_FixedStkMenu>
-    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
-    <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
-    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
-    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_RIL_ForceConnectIMS>TRUE</CscFeature_RIL_ForceConnectIMS>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SsRoutingPolicy>cs</CscFeature_RIL_SsRoutingPolicy>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_UssdRoutingPolicy>cs</CscFeature_RIL_UssdRoutingPolicy>
+    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
+    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
+    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
+    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>

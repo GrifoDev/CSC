@@ -50,11 +50,11 @@ CLARO P.R.
 
 344030imobile"imobile
 
-344920LIME"LIME
+344920FLOW"FLOW
 
 346140FLOW"FLOW
 
-348170LIME"LIME
+348170FLOW"FLOW
 !
 348570CCT Boatphone"CCTBVI
 
@@ -62,17 +62,17 @@ CLARO P.R.
 
 350000CELLONE"CELLONE
 
-352110LIME"LIME
+352110FLOW"FLOW
 
-354860LIME"LIME
+354860FLOW"FLOW
 
-356110LIME"LIME
+356110FLOW"FLOW
 
 35805DIGICEL"DIGICEL
 
-358110LIME"LIME
+358110FLOW"FLOW
 
-360110LIME"LIME
+360110FLOW"FLOW
 
 36251Telcell GSM"Telcell
 
@@ -86,9 +86,9 @@ CLARO P.R.
 
 36439BTC"BTC
 
-365840LIME"LIME
+365840FLOW"FLOW
 
-366110LIME"LIME
+366110FLOW"FLOW
 
 36801ETECSA"ETECSA
 
@@ -112,7 +112,7 @@ CLARO P.R.
 
 374130DIGICEL"DIGICEL
 
-376350LIME"LIME
+376350FLOW"FLOW
 #
 376360IslandCom TCI"ICOM TCI
 
@@ -213,8 +213,8 @@ PORT-HABLE
 722310Claro AR"CLARO AR
 
 722341Personal"Personal
-
-72400	Nextel 3G"	Nextel 3G
+
+72400Nextel"Nextel
 
 72402TIM"TIM
 
@@ -247,8 +247,8 @@ PORT-HABLE
 72434CTBC"CTBC
 
 72437AEIOU"AEIOU
-
-72439	Nextel 3G"	Nextel 3G
+
+72439Nextel"Nextel
 
 73001Entel"Entel
 
