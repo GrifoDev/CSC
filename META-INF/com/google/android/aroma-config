@@ -25,7 +25,7 @@ ini_set("rom_name",             "CSC Selection™ ");
 ini_set("rom_version",          "V1.10");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "01.12.2016");
+ini_set("rom_date",             "03.12.2016");
 
 ##
 # Show Simple Splash
@@ -33,7 +33,7 @@ ini_set("rom_date",             "01.12.2016");
 
 splash(
   #-- Duration 4000ms / 4 seconds
-    2000,
+    1000,
   
   #-- <AROMA Resource Dir>/SPLASH.png
     "SPLASH"
@@ -266,13 +266,17 @@ form(
   #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
-	"CSC",		"Europe CSC Files",	"",							"group",
+	"CSC",		"CSC Selection",	"",							"group",
 	"AMO",		"AMO",			"Spain orange branded",					"select",
 	"ATO",		"ATO",			"Austria Open unbranded",				"select",
+	"ATT",		"ATT",			"USA AT&T branded (Qualcom, make EFS backup!)",		"select",
 	"AUT",		"AUT",			"Switzerland unbranded",				"select",
 	"BOG",		"BOG",			"France Bouygues branded",				"select",
+	"BRI",		"BRI",			"Taiwan unbranded",					"select",
 	"BTU",		"BTU",			"United Kingdom unbranded",				"select",
+	"CHC",		"CHC",			"Chinese unbranded (Qualcom, make EFS backup!)",	"select",
 	"COS",		"COS",			"Greeze Cosmote branded",				"select",
+	"CTI",		"CTI",			"Argentina Multi-CSC contains: CDR, CHL, CPA, CRC, CTI, CTP, CTU, PCT, PET, PGU",	"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"DDE",		"DDE",			"Germany Multi-CSC contains: DCO, DDE, DTM",		"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
@@ -282,63 +286,56 @@ form(
 	"GBL",		"GBL",			"Bulgaria unbranded",					"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",
+	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",
+	"INS",		"INS",			"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",		"select",
 	"ITV",		"ITV",			"Italian unbranded",					"select",
+	"IUS",		"IUS",			"Mexican unbranded",					"select",
+	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
+	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
 	"LUX",		"LUX",			"Luxembourg unbranded",					"select",
 	"MEO",		"MEO",			"Portugal MEO unbranded",				"select",
 	"MOT",		"MOT",			"Slovenia unbranded",					"select",
 	"NEE",		"NEE",			"Nordic Countries unbranded",				"select",
+	"NZC",		"NZC",			"New Zealand unbranded",				"select",
 	"O2C",		"O2C",			"Czech O2C branded",					"select",
+	"OPS",		"OPS",			"Australia Optus branded",				"select",
 	"ORO",		"ORO",			"Romania Orange branded",				"select",
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SFR",		"SFR",			"France SFR branded",					"select",
+	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
+	"TCE",		"TCE",			"Mexican Telcel branded",				"select",
+	"TEL",		"TEL",			"Australia Telstra branded",				"select",
 	"TEN",		"TEN",			"Norway Telenor branded",				"select",
+	"TGY",		"TGY",			"HongKong unbranded (Qualcom, make EFS backup!)",	"select",
+	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
+	"TMB",		"TMB",			"USA T-Mobile Branded (Qualcom, make EFS backup!)",	"select",
+	"TMK",		"TMK",			"USA MetroPCS Branded (Qualcom, make EFS backup!)",	"select",
 	"TMS",		"TMS",			"Slovak unbranded",					"select",
 	"TMZ",		"TMZ",			"Czech T-Mobile branded",				"select",
+	"TPA",		"TPA",			"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",	"select",
 	"TPH",		"TPH",			"Portugal TPH unbranded",				"select",
 	"TSI",		"TSI",			"Ireland unbranded",					"select",
+	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",					"select",
 	"VDS",		"VDS",			"Sweden unbranded",					"select",
 	"VIA",		"VIA",			"Germany Multi-CSC contains: O2U, VIA, XEC",		"select",
 	"VVT",		"VVT",			"Bulgaria unbranded",					"select",
-	"XEF",		"XEF",			"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				"select",
-	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	"select",
-	"CSC",		"Australia/New Zealand CSC Files",	"",					"group",
-	"NZC",		"NZC",			"New Zealand unbranded",				"select",
-	"OPS",		"OPS",			"Australia Optus branded",				"select",
-	"TEL",		"TEL",			"Australia Telstra branded",				"select",
-	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
-	"XSA",		"XSA",			"Australia unbranded",					"select",
-	"CSC",		"Nord America CSC Files",	"",						"group",
-	"ATT",		"ATT",			"USA AT&T branded (Qualcom, make EFS backup!)",		"select",
-	"IUS",		"IUS",			"Mexican unbranded",					"select",
-	"TCE",		"TCE",			"Mexican Telcel branded",				"select",
-	"TMB",		"TMB",			"USA T-Mobile Branded (Qualcom, make EFS backup!)",	"select",
-	"TMK",		"TMK",			"USA MetroPCS Branded (Qualcom, make EFS backup!)",	"select",
 	"VZW",		"VZW",			"USA Verizon branded (Qualcom, make EFS backup!)",	"select",
 	"XAC",		"XAC",			"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",		"select",
 	"XAS",		"XAS",			"USA Sprint Multi-CSC branded, contains: BST, SPR, VMU, XAS  (Qualcom, make EFS backup!)",	"select",
-	"CSC",		"South America CSC Files",	"",						"group",
-	"CTI",		"CTI",			"Argentina Multi-CSC contains: CDR, CHL, CPA, CRC, CTI, CTP, CTU, PCT, PET, PGU",	"select",
-	"TPA",		"TPA",			"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",	"select",
-	"ZTO",		"ZTO",			"Brazil unbranded",					"select",
-	"CSC",		"Asian CSC Files",	"",							"group",
-	"BRI",		"BRI",			"Taiwan unbranded",					"select",
-	"CHC",		"CHC",			"Chinese unbranded (Qualcom, make EFS backup!)",	"select",
-	"INS",		"INS",			"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",		"select",
-	"TGY",		"TGY",			"HongKong unbranded (Qualcom, make EFS backup!)",	"select",
-	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
+	"XEF",		"XEF",			"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				"select",
+	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
-	"CSC",		"Arabic CSC Files",	"",							"group",
-	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",
+	"XSA",		"XSA",			"Australia unbranded",					"select",
 	"XSG",		"XSG",			"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",							"select",
-	"CSC",		"Korean CSC Files",	"",							"group",
-	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
-	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
-	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select"
+	"ZTO",		"ZTO",			"Brazil unbranded",					"select"
 );
 
+if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK"|| prop("csc.prop","CSC")=="VZW"|| prop("csc.prop","CSC")=="XAS"|| prop("csc.prop","CSC")=="CHC"|| prop("csc.prop","CSC")=="TGY") then
+alert( "Attention", "I detected that you selected a qualcom csc ported file. To make sure nothing can go wrong, please be sure to have an EFS backup in TWRP just for the case something goes wrong. It's much easier to you if you got such a backup then searching for a solution when EFS is messed up!");
+endif;
 
 # Installation UI
 
