@@ -322,7 +322,7 @@ form(
 	"CTI",		"CTI",			"Argentina Multi-CSC contains: CDR, CHL, CPA, CRC, CTI, CTP, CTU, PCT, PET, PGU",	"select",
 	"TPA",		"TPA",			"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",	"select",
 	"ZTO",		"ZTO",			"Brazil unbranded",					"select",
-	"CSC",		"Asia CSC Files",	"",							"group",
+	"CSC",		"Asian CSC Files",	"",							"group",
 	"BRI",		"BRI",			"Taiwan unbranded",					"select",
 	"CHC",		"CHC",			"Chinese unbranded (Qualcom, make EFS backup!)",	"select",
 	"INS",		"INS",			"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",		"select",
