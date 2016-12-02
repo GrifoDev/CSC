@@ -1,0 +1,5 @@
+/hidden/Common_app/Aplikace-od-O2-2.0-store.apk
+/hidden/Common_app/mojeO2_1.7.apk
+/hidden/Common_app/O2Active-1.5-armeabi-release.apk
+/hidden/Common_app/o2-ev-3.6.1.apk
+/hidden/Common_app/O2TV_1.2.15.apk

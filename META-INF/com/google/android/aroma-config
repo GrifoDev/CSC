@@ -287,6 +287,7 @@ form(
 	"MEO",		"MEO",			"Portugal MEO unbranded",				"select",
 	"MOT",		"MOT",			"Slovenia unbranded",					"select",
 	"NEE",		"NEE",			"Nordic Countries unbranded",				"select",
+	"O2C",		"O2C",			"Czech O2C branded",					"select",
 	"ORO",		"ORO",			"Romania Orange branded",				"select",
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
