@@ -1,27 +1,27 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED0002</Version>
+  <Version>ED00005</Version>
   <Country>COLOMBIA</Country>
   <CountryISO>CO</CountryISO>
   <SalesCode>COO</SalesCode>
   <FeatureSet>
-    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
-    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
-    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
-    <CscFeature_VoiceCall_DisableToastPopupWhenMOConditionalCallForwarding>TRUE</CscFeature_VoiceCall_DisableToastPopupWhenMOConditionalCallForwarding>
-    <CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>
     <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
-    <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
-    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
-    <CscFeature_RIL_PLMNFaking4Mvno>TRUE</CscFeature_RIL_PLMNFaking4Mvno>
-    <CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
-    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
-    <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
-    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
-    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
-    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
+    <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
+    <CscFeature_RIL_ConfigVoicemailSource>CSC</CscFeature_RIL_ConfigVoicemailSource>
+    <CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>TRUE</CscFeature_RIL_DisplaySpnOnlyInCaseSamePlmn>
+    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
+    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+    <CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
+    <CscFeature_RIL_PLMNFaking4Mvno>TRUE</CscFeature_RIL_PLMNFaking4Mvno>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_VoiceCall_DisableToastPopupWhenMOConditionalCallForwarding>TRUE</CscFeature_VoiceCall_DisableToastPopupWhenMOConditionalCallForwarding>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>
+    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>

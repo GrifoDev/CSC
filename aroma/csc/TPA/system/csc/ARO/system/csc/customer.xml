@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>Argentina</Country>
     <CountryISO>AR</CountryISO>
     <Region>LA</Region>
@@ -142,6 +142,21 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
+    <NbWifiProfile>2</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>Claro AR</NetworkName>
+      <WifiSSID>CLARO WIFI</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>Personal AR</NetworkName>
+      <WifiSSID>Personal EAP</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
     <Connections>
       <NbProfileHandle>3</NbProfileHandle>
       <ProfileHandle>
@@ -159,8 +174,8 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Movistar AR</NetworkName>
-        <ProfBrowser>movistar emoción ar</ProfBrowser>
-        <ProfMMS>movistar MMS ar</ProfMMS>
+        <ProfBrowser>Movistar WAP</ProfBrowser>
+        <ProfMMS>Movistar MMS ar</ProfMMS>
       </ProfileHandle>
       <NbProfile>6</NbProfile>
       <Profile>
@@ -220,16 +235,12 @@
       </Profile>
       <Profile>
         <NetworkName>Movistar AR</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>movistar emoción ar</ProfileName>
-        <Auth>normal</Auth>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Movistar WAP</ProfileName>
+        <URL>http://wap.movistar.com.ar/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>200.5.68.10</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
         <PSparam>
           <APN>wap.gprs.unifon.com.ar</APN>
           <UserId>wap</UserId>
@@ -238,10 +249,10 @@
       </Profile>
       <Profile>
         <NetworkName>Movistar AR</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>movistar MMS ar</ProfileName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Movistar MMS ar</ProfileName>
         <URL>http://mms.movistar.com.ar</URL>
-        <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>

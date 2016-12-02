@@ -1,8 +1,9 @@
-11
+12
 smartcallprovider-open-release.apk
 AxelSpringer.apk
 SamsungPayStub.apk
 CnnPanel.apk
+AndroidPay_erasable_Hero.apk
 imsservice.apk
 ImsSettings.apk
 ImsLogger+.apk

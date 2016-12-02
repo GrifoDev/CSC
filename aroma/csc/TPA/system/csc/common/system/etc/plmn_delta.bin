@@ -54,7 +54,7 @@ CLARO P.R.
 
 346140FLOW"FLOW
 
-348170LIME"LIME
+348170FLOW"FLOW
 !
 348570CCT Boatphone"CCTBVI
 
@@ -112,7 +112,7 @@ CLARO P.R.
 
 374130DIGICEL"DIGICEL
 
-376350LIME"LIME
+376350FLOW"FLOW
 #
 376360IslandCom TCI"ICOM TCI
 
@@ -213,8 +213,8 @@ PORT-HABLE
 722310Claro AR"CLARO AR
 
 722341Personal"Personal
-
-72400	Nextel 3G"	Nextel 3G
+
+72400Nextel"Nextel
 
 72402TIM"TIM
 
@@ -247,8 +247,8 @@ PORT-HABLE
 72434CTBC"CTBC
 
 72437AEIOU"AEIOU
-
-72439	Nextel 3G"	Nextel 3G
+
+72439Nextel"Nextel
 
 73001Entel"Entel
 

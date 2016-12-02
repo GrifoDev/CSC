@@ -1,7 +1,7 @@
 /system/app/app-pre-install-samsungclub/app-pre-install-samsungclub.apk
 /system/app/CLUB_23/CLUB_23.apk
 /system/app/samsung_club_uy_access_release_v1_3/samsung_club_uy_access_release_v1_3.apk
-/system/app/smarttutor_v1.5_b152/smarttutor_v1.5_b152.apk
+/system/app/smarttutor_v1.5_b153/smarttutor_v1.5_b153.apk
 /system/app/UserManual/UserManual.apk
 /system/app/VivaElFutbol110/VivaElFutbol110.apk
 /system/priv-app/IPsecService/IPsecService.apk
