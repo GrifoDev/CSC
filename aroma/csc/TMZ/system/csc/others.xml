@@ -63,7 +63,6 @@
     <CscFeature_Launcher_TotalPageCount>2</CscFeature_Launcher_TotalPageCount>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
-    <CscFeature_RIL_ApnControlByModem>TRUE</CscFeature_RIL_ApnControlByModem>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
@@ -71,7 +70,6 @@
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_PDPRetryMechanism4>DTR</CscFeature_RIL_PDPRetryMechanism4>
-    <CscFeature_RIL_DefaultApn4LTE>ims</CscFeature_RIL_DefaultApn4LTE>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,mms,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_BlockUssdDuringVolteCall>true</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
@@ -88,6 +86,12 @@
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigFixedApn>xcap</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_RIL_ConfigVolteRedialPolicy>DTM</CscFeature_RIL_ConfigVolteRedialPolicy>
+    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck,XCAPOVERWIFI,MMSOVERWIFI</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_RIL_ConfigNetworkNameForEpdg>T-Mobile CZ WiFi</CscFeature_RIL_ConfigNetworkNameForEpdg>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
@@ -106,6 +110,7 @@
     <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Setting_SupportWiFiCallingMenu>true</CscFeature_Setting_SupportWiFiCallingMenu>
 
   </FeatureSet>
 </SamsungMobileFeauture>

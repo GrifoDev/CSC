@@ -1,1 +1,2 @@
 /system/priv-app/(App_Assistant_Enabler)_AppEnabler-Android_M-api23_4.3.13/(App_Assistant_Enabler)_AppEnabler-Android_M-api23_4.3.13.apk
+/system/priv-app/IPsecService/IPsecService.apk
