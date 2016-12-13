@@ -1,9 +1,10 @@
-19
+16
 CatchFavorites_M.apk
 FlipboardBriefing.apk
 NaverTvCast.apk
 SamsungPayStub.apk
 CnnPanel.apk
+AndroidPay_erasable_Hero.apk
 FBAppManager.apk
 FBInstaller.apk
 FBInstagram_stub.apk
@@ -11,10 +12,6 @@ FBMessenger_stub.apk
 Facebook_stub.apk
 WhatsAppDownloader.apk
 MSSkype_stub.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
 GalaxyCare.apk
 SamsungUpdates.apk
 OMCAgent.apk
