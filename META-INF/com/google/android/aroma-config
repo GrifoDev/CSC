@@ -308,7 +308,7 @@ form(
 	"TCE",		"TCE",			"Mexican Telcel branded",				"select",
 	"TEL",		"TEL",			"Australia Telstra branded",				"select",
 	"TEN",		"TEN",			"Norway Telenor branded",				"select",
-	"TGY",		"TGY",			"HongKong unbranded (Qualcom, make EFS backup!)",	"select",
+	"TGY",		"TGY",			"HongKong unbranded",					"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
 	"TMB",		"TMB",			"USA T-Mobile Branded (Qualcom, make EFS backup!)",	"select",
 	"TMK",		"TMK",			"USA MetroPCS Branded (Qualcom, make EFS backup!)",	"select",
@@ -333,7 +333,7 @@ form(
 	"ZTO",		"ZTO",			"Brazil unbranded",					"select"
 );
 
-if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK"|| prop("csc.prop","CSC")=="VZW"|| prop("csc.prop","CSC")=="XAS"|| prop("csc.prop","CSC")=="CHC"|| prop("csc.prop","CSC")=="TGY") then
+if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK"|| prop("csc.prop","CSC")=="VZW"|| prop("csc.prop","CSC")=="XAS"|| prop("csc.prop","CSC")=="CHC") then
 alert( "Attention", "I detected that you selected a qualcom csc ported file. To make sure nothing can go wrong, please be sure to have an EFS backup in TWRP just for the case something goes wrong. It's much easier to you if you got such a backup then searching for a solution when EFS is messed up!");
 endif;
 

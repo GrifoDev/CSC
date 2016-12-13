@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0011</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Hong Kong</Country>
     <CountryISO>HK</CountryISO>
     <Region>CHN</Region>
@@ -284,7 +284,7 @@
   <Settings>
     <Main>
       <Security>
-        <OneSIMLock>none</OneSIMLock>
+        <OneSIMLock>off</OneSIMLock>
       </Security>
       <Network>
         <NbFastDormancy>1</NbFastDormancy>
@@ -490,11 +490,10 @@
         <ProfMMS>csl MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>5</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>3</NetworkName>
         <ProfBrowser>3</ProfBrowser>
         <ProfMMS>3 MMS</ProfMMS>
-        <ProfEpdg>3 EPDG MMS</ProfEpdg>
         <ProfIntSharing>3 share</ProfIntSharing>
         <ProfIMS>3 IMS</ProfIMS>
       </ProfileHandle>
@@ -603,8 +602,8 @@
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>CHKT</NetworkName>
         <ProfBrowser>chkt</ProfBrowser>
-      </ProfileHandle>      
-      <NbProfile>59</NbProfile>
+      </ProfileHandle>
+      <NbProfile>58</NbProfile>
       <Profile>
         <NetworkName>csl.</NetworkName>
         <Editable>yes</Editable>
@@ -654,7 +653,7 @@
         <NetworkName>1O1O</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>1O1O MMS</ProfileName>
-        <URL>http://192.168.58.171:8002</URL>
+        <URL>http://192.168.58.171:8002/</URL>
         <Auth>normalorsecure</Auth>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -902,23 +901,6 @@
           <APN>mobile.three.com.hk</APN>
         </PSparam>
       </Profile>
-      <Profile>
-        <NetworkName>3</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>3 EPDG MMS</ProfileName>
-        <URL>http://mms.um.three.com.hk:10021/mmsc</URL>
-        <Auth>normal</Auth>
-        <Bearer>iwlan</Bearer>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>172.20.97.116</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>vas.wlan.three.com.hk</APN>
-        </PSparam>
-      </Profile>      
       <Profile>
         <NetworkName>3</NetworkName>
         <Editable>no</Editable>
@@ -1386,7 +1368,7 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
@@ -1407,7 +1389,7 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
@@ -1428,7 +1410,7 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
