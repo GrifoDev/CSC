@@ -174,12 +174,13 @@
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>YES OPTUS</NetworkName>
         <ProfBrowser>Optus Yes Internet</ProfBrowser>
         <ProfMMS>Optus MMS</ProfMMS>
         <ProfIMS>Optus IMS</ProfIMS>
         <ProfEmergency>Optus Emergency</ProfEmergency>
+        <ProfXCAP>Optus Call Settings</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -187,7 +188,7 @@
         <ProfBrowser>Virgin Internet</ProfBrowser>
         <ProfMMS>Virgin MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>7</NbProfile>
+      <NbProfile>8</NbProfile>
       <Profile>
         <NetworkName>YES OPTUS</NetworkName>
         <Editable>no</Editable>
@@ -288,6 +289,18 @@
           <APN>sos</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Optus Call Settings</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>
@@ -298,13 +311,14 @@
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoiceoverWIFI>TRUE</EnableVoiceoverWIFI>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
+          <SMSoIP_Domain>PS</SMSoIP_Domain>
         </VoLTE>
         <RCS>
           <EnableRCS>false</EnableRCS>
