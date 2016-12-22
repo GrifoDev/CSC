@@ -58,10 +58,10 @@
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
     <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
-    <CscFeature_Setting_HideApnList>ims,IMS,Telenor IMS,Telenor XCAP</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>ims,IMS,Telenor IMS,Telenor XCAP,services XCAP,XCAP</CscFeature_Setting_HideApnList>
     <CscFeature_RIL_ConfigApnForDataUseException>ims_24201</CscFeature_RIL_ConfigApnForDataUseException>
     <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
     <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
-
+    <CscFeature_VoiceCall_SupportImsBlindTransfer>TRUE</CscFeature_VoiceCall_SupportImsBlindTransfer>
   </FeatureSet>
 </SamsungMobileFeauture>

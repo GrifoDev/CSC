@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0015</CSCEdition>
+    <CSCEdition>ED0016</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
@@ -805,7 +805,7 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>130.244.202.30</ServAddr>
+          <ServAddr>mmsproxy.tele2.se</ServAddr>
           <Port>8080</Port>
         </Proxy>
         <PSparam>
@@ -848,6 +848,7 @@
       </Profile>
       <Profile>
         <NetworkName>DNA Pro</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>DNA Internet</ProfileName>
         <Auth>normal</Auth>
@@ -1038,7 +1039,7 @@
           <Port>80</Port>
         </Proxy>
         <PSparam>
-          <APN>wap.sonera.net</APN>
+          <APN>mms</APN>
         </PSparam>
       </Profile>
       <Profile>
