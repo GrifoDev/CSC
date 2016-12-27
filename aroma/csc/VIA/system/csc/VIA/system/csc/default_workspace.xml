@@ -167,11 +167,19 @@ limitations under the License.
             launcher:x="3" 
             launcher:y="2" />
 
+		<!-- HRS Empire -->
+        <favorite
+            launcher:packageName="air.com.goodgamestudios.empirefourkingdoms" 
+            launcher:className="com.goodgamestudios.Installer.EmpireFourKingdomsInstallerActivity" 
+            launcher:screen="1" 
+            launcher:x="0" 
+            launcher:y="3" />
+
         <!-- Folder : o2 Tipps -->
         <folder
             launcher:screen="1" 
             launcher:title="o2 Tipps" 
-            launcher:x="0" 
+            launcher:x="1" 
             launcher:y="3" >
             <!-- o2 App Shop -->
             <favorite
@@ -193,26 +201,26 @@ limitations under the License.
                 launcher:screen="3" 
                 launcher:packageName="canvasm.myo2" 
                 launcher:className="canvasm.myo2.SplashActivity" />
-            <!-- Napster -->
-            <favorite
-                launcher:screen="4" 
-                launcher:packageName="com.rhapsody.napster" 
-                launcher:className="com.rhapsody.napster.SplashScreen" />
             <!-- o2 Music -->
             <favorite
-                launcher:screen="5" 
+                launcher:screen="4" 
                 launcher:packageName="de.o2.android.app.music" 
                 launcher:className="de.o2.android.app.music.MainActivity" />
             <!-- o2 Game Place -->
             <favorite
-                launcher:screen="6" 
+                launcher:screen="5" 
                 launcher:packageName="com.jogo.client" 
                 launcher:className="com.jogo.client.view.activity.MainActivity" />
             <!-- o2 eBook -->
             <favorite
-                launcher:screen="7" 
+                launcher:screen="6" 
                 launcher:packageName="de.o2.android.app.ebooks" 
                 launcher:className="de.o2.android.app.ebooks.MainActivity" />
+			<!-- Napster -->
+            <favorite
+                launcher:screen="7" 
+                launcher:packageName="com.rhapsody.napster" 
+                launcher:className="com.rhapsody.napster.SplashScreen" />	
         </folder> 
 
 

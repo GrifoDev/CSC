@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -218,6 +218,75 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
+    <NbWifiProfile>10</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay Monthly</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay &amp; Go</NetworkName>
+      <WifiSSID>Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+      <WifiPriority>4</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay &amp; Go</NetworkName>
+      <WifiSSID>O2 Wifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+      <WifiPriority>4</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay Monthly</NetworkName>
+      <WifiSSID>O2 Wifi.1x</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>5</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay &amp; Go</NetworkName>
+      <WifiSSID>O2 Wifi.1x</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>5</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay Monthly</NetworkName>
+      <WifiSSID>Wifi+</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay &amp; Go</NetworkName>
+      <WifiSSID>Wifi+</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay Monthly</NetworkName>
+      <WifiSSID> Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>O2 Pay &amp; Go</NetworkName>
+      <WifiSSID> Wifi Extra</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>3</WifiPriority>
+    </WifiProfile>
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
@@ -242,9 +311,7 @@
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>82.132.254.1</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>mobile.o2.co.uk</APN>
@@ -278,9 +345,7 @@
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>82.132.254.1</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>payandgo.o2.co.uk</APN>
@@ -297,9 +362,7 @@
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>82.132.254.1</ServAddr>
-          <Port>8080</Port>
+          <EnableFlag>off</EnableFlag>
         </Proxy>
         <PSparam>
           <APN>payandgo.o2.co.uk</APN>
