@@ -1,0 +1,13 @@
+12
+FBAppManager.apk
+FBInstaller.apk
+FBInstagram_stub.apk
+FBMessenger_stub.apk
+Facebook_stub.apk
+WhatsAppDownloader.apk
+smartcallprovider-open-release.apk
+AxelSpringer.apk
+CnnPanel.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk
