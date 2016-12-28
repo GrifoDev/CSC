@@ -302,6 +302,7 @@ form(
 	"ORO",		"ORO",			"Romania Orange branded",				"select",
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
+	"PRT",		"PRT",			"Poland Play branded",					"select",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SFR",		"SFR",			"France SFR branded",					"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",

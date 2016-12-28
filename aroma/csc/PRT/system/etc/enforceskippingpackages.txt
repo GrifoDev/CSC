@@ -1,0 +1,11 @@
+10
+CatchFavorites_M.apk
+FlipboardBriefing.apk
+NaverTvCast.apk
+smartcallprovider-open-release.apk
+SamsungPayStub.apk
+CnnPanel.apk
+AndroidPay_erasable_Hero.apk
+GalaxyCare.apk
+SamsungUpdates.apk
+OMCAgent.apk
