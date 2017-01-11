@@ -4,8 +4,8 @@
 	<PublicName>SM-G935F</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935FDBT</CSCName>
-	<CSCVersion>1BPH2</CSCVersion>
+	<CSCName>G935FOXJ</CSCName>
+	<CSCVersion>1BPL1</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/DBT/customer.xml" />
 	</CustomerDataSet>
