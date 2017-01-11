@@ -35,5 +35,30 @@
     <CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
     <CscFeature_GMS_SetClientIDBaseMs>ms-android-samsung-ss</CscFeature_GMS_SetClientIDBaseMs>
     <CscFeature_Web_ConfigDefaultSearchEngine>yandex_ru</CscFeature_Web_ConfigDefaultSearchEngine>  	
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+    <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_Setting_SupportWifiCall>true</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuSim_25001;,DefaultOnSim_25001;</CscFeature_RIL_ConfigEpdgExtraFunction> 
+
+    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe> 
+    <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE> 
+    <CscFeature_IMS_EnableLTEVideoCall>true</CscFeature_IMS_EnableLTEVideoCall> 
+    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence> 
+    <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
+    
+    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+
+<CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,WifiCalling,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>  
   </FeatureSet>
 </SamsungMobileFeature>
