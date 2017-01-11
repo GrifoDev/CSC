@@ -300,6 +300,7 @@ form(
 	"NZC",		"NZC",			"New Zealand unbranded",				"select",
 	"O2C",		"O2C",			"Czech O2C branded",					"select",
 	"OPS",		"OPS",			"Australia Optus branded",				"select",
+	"OPV",		"OPV",			"Poland Orange branded",				"select",
 	"ORO",		"ORO",			"Romania Orange branded",				"select",
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
