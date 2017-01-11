@@ -108,6 +108,12 @@ if
 		package_extract_dir("aroma/csc/DDE/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "DHR"
+	then
+		ui_print("Installing DHR CSC...");
+		package_extract_dir("aroma/csc/DHR/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "ETL"
 	then
 		ui_print("Installing ETL CSC...");

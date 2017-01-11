@@ -279,6 +279,7 @@ form(
 	"CTI",		"CTI",			"Argentina Multi-CSC contains: CDR, CHL, CPA, CRC, CTI, CTP, CTU, PCT, PET, PGU",	"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"DDE",		"DDE",			"Germany Multi-CSC contains: DCO, DDE, DTM",		"select",
+	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"EVR",		"EVR",			"United Kingdom T-Mobile branded",			"select",
