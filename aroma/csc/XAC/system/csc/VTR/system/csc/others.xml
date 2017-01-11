@@ -23,6 +23,7 @@
     <CscFeature_Common_DisableSafetyCareEmergencyMode>FALSE</CscFeature_Common_DisableSafetyCareEmergencyMode>
     <CscFeature_Common_DisableTransparent>FALSE</CscFeature_Common_DisableTransparent>
     <CscFeature_Common_EnableAirMessage>FALSE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Common_EnableCarrierMatchingForMultiSimDev>FALSE</CscFeature_Common_EnableCarrierMatchingForMultiSimDev>
     <CscFeature_Common_EnableCiq>FALSE</CscFeature_Common_EnableCiq>
     <CscFeature_Common_EnableHDVoiceDuring3GConnection>FALSE</CscFeature_Common_EnableHDVoiceDuring3GConnection>
@@ -133,6 +134,7 @@
     <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,PowerSaving,AirplaneMode,DormantMode,Flashlight,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>VID</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>

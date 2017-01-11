@@ -11,6 +11,7 @@
     <CscFeature_Launcher_ConfigMagazineHome>off</CscFeature_Launcher_ConfigMagazineHome>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|networkpowersaving|storageclean|applock|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|rootbadgefeature|UDS|cstyle</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Message_CMASOperator>tnl</CscFeature_Message_CMASOperator>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>

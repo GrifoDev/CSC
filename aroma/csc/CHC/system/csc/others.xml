@@ -24,6 +24,7 @@
     <CscFeature_Common_ConfigLocalSecurityPolicy>ChinaNalSecurity</CscFeature_Common_ConfigLocalSecurityPolicy>
     <CscFeature_Common_DisableGoogle>TRUE</CscFeature_Common_DisableGoogle>
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Common_EnableBaidu>BaiduMapAddLocation</CscFeature_Common_EnableBaidu>
     <CscFeature_Common_EnableVIPMode>TRUE</CscFeature_Common_EnableVIPMode>
     <CscFeature_Common_EulaVersion>1</CscFeature_Common_EulaVersion>

@@ -240,14 +240,24 @@ if prop("menu.prop","selected")=="4" then
 
 endif;
 
-
 ##
 #  Select Type of Install
 #
 
 if prop("menu.prop","selected")=="1" then
+# Write tmp file Android check
+writetmpfile("android.prop","version=MM");
+# Execute script to check android version
+resexec("check/androidcheck.sh");
 
-alert( "Alert", "I'm not responsible for any bloatware you may get on your phone, depending on which csc you choose!");
+if prop("android.prop","version")=="N" then
+alert("Warning", "I've detected that you run a 7.0 Nougat build. Please be aware that this CSC selection is made for 6.0.1 and may have some issues with Nougat!");
+endif;
+if prop("android.prop","version")=="nothing" then
+alert("Warning", "You are not running MM (6.0.1) on your phone. Please note that you will may have issues with this tool since your Android version is not supported!");
+endif;
+
+alert( "Attention", "I'm not responsible for any bloatware you may get on your phone, depending on which csc you choose!");
 
 form(
     "CSC",

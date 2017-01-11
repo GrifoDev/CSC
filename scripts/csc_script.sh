@@ -10,13 +10,11 @@ getprop ro.boot.bootloader >> /tmp/variant
 NEW_CSC=`cat /tmp/aroma/csc.prop`
 ACTUAL_CSC=`cat /efs/imei/mps_code.dat`
 
-if grep -q G935 /tmp/variant;
-then
+if grep -q G935 /tmp/variant; then
 	sed -i -- "s/G930/G935/g" /system/CSCVersion.txt
 	sed -i -- "s/G930/G935/g" /system/SW_Configuration.xml
 	echo "Changed model to G935"
-else if grep -q G930 /tmp/variant;
-then
+else if grep -q G930 /tmp/variant; then
 	sed -i -- "s/G935/G930/g" /system/CSCVersion.txt
 	sed -i -- "s/G935/G930/g" /system/SW_Configuration.xml
 	echo "Changed model to G930"
@@ -36,12 +34,16 @@ if [ -f "/tmp/aroma/csc.prop" ]; then
 	else if [ "$NEW_CSC" == "VZW" ]; then
 		sed -i -- "s/$ACTUAL_CSC/ZTO/g" /efs/imei/mps_code.dat
 		echo "VZW csc detected, flashing ZTO as default"
+	else if [ "$NEW_CSC" == "XAA" ]; then
+		sed -i -- "s/$ACTUAL_CSC/ZTO/g" /efs/imei/mps_code.dat
+		echo "XAA csc detected, flashing ZTO as default"
 	else if [ "$NEW_CSC" == "XAS" ]; then
 		sed -i -- "s/$ACTUAL_CSC/ZTO/g" /efs/imei/mps_code.dat
 		echo "XAS csc detected, flashing ZTO as default"
 	else
 		sed -i -- "s/$ACTUAL_CSC/$NEW_CSC/g" /efs/imei/mps_code.dat
 		echo "flashing selected CSC"
+	fi
 	fi
 	fi
 	fi
