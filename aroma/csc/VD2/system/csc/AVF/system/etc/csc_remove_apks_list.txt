@@ -1,3 +1,4 @@
 /system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
+/system/priv-app/aligned_mySamsung_Stub/aligned_mySamsung_Stub.apk
 /system/priv-app/IPsecService/IPsecService.apk
 /system/priv-app/Swisscom_Apps_1.0.1/Swisscom_Apps_1.0.1.apk

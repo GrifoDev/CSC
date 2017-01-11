@@ -187,7 +187,7 @@
         <ProfBrowser>Proximus Internet</ProfBrowser>
         <ProfMMS>Proximus MMS</ProfMMS>
         <ProfIMS>ims</ProfIMS>
-        <ProfXCAP>Proximus Internet</ProfXCAP>
+        <ProfXCAP>Proximus XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -231,7 +231,7 @@
         <ProfBrowser>Join Internet</ProfBrowser>
         <ProfMMS>Join MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>17</NbProfile>
+      <NbProfile>18</NbProfile>
       <Profile>
         <NetworkName>Mobistar</NetworkName>
         <Editable>yes</Editable>
@@ -300,7 +300,7 @@
       </Profile>
       <Profile>
         <NetworkName>Proximus</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>ims</ProfileName>
 		<Bearer>lte</Bearer>
         <IpVersion>ipv4v6</IpVersion>
@@ -510,6 +510,18 @@
           <APN>join</APN>
         </PSparam>
       </Profile>
+	  <Profile>
+        <NetworkName>Proximus</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Proximus XCAP</ProfileName>
+        <URL>http://www.proximus.be</URL>
+        <Protocol>http</Protocol>
+        <IpVersion>ipv4v6</IpVersion>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>HOS</APN>
+        </PSparam>
+	  </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>

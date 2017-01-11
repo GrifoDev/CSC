@@ -225,7 +225,7 @@
         <Editable>yes</Editable>
         <ProfileName>Vodafone live!</ProfileName>
         <URL>http://start.vodafone.com/ssp/homepage/IE</URL>
-        <Auth>normal</Auth>
+        <Auth>none</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -240,7 +240,7 @@
         <Editable>yes</Editable>
         <ProfileName>Vodafone MMS</ProfileName>
         <URL>http://www.vodafone.ie/mms</URL>
-        <Auth>normal</Auth>
+        <Auth>none</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>

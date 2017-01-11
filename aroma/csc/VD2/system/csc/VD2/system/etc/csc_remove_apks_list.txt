@@ -1,1 +1,2 @@
+/system/priv-app/aligned_mySamsung_Stub/aligned_mySamsung_Stub.apk
 /system/priv-app/Swisscom_Apps_1.0.1/Swisscom_Apps_1.0.1.apk
