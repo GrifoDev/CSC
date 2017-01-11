@@ -1,0 +1,26 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FOYM</CSCName>
+	<CSCVersion>4API3</CSCVersion>
+	<NbCustomer>15</NbCustomer>
+	<CustomerData src="/Customer/ACG/customer.xml" />
+	<CustomerData src="/Customer/ATT/customer.xml" />
+	<CustomerData src="/Customer/AIO/customer.xml" />
+	<CustomerData src="/Customer/LRA/customer.xml" />
+	<CustomerData src="/Customer/VZW/customer.xml" />
+	<CustomerData src="/Customer/BST/customer.xml" />
+	<CustomerData src="/Customer/SPR/customer.xml" />
+	<CustomerData src="/Customer/TMB/customer.xml" />
+	<CustomerData src="/Customer/TMK/customer.xml" />
+	<CustomerData src="/Customer/TFN/customer.xml" />
+	<CustomerData src="/Customer/USC/customer.xml" />
+	<CustomerData src="/Customer/VMU/customer.xml" />
+	<CustomerData src="/Customer/XAA/customer.xml" />
+	<CustomerData src="/Customer/XAS/customer.xml" />
+	<CustomerData src="/Customer/GCF/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

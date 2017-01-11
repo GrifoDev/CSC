@@ -1,0 +1,2717 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0017</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>XAA</SalesCode>
+    <NbNetworkInfo>42</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>Anritsu</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310180</MCCMNC>
+      <NetworkName>WCW</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310410</MCCMNC>
+      <NetworkName>Tracfone - ATT</NetworkName>
+      <SubsetCode>DEFF</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Tracfone - T Mobile</NetworkName>
+      <SubsetCode>DEFF</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>330110</MCCMNC>
+      <NetworkName>Tracfone - CLARO</NetworkName>
+      <SubsetCode>DEFF</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310180</MCCMNC>
+      <NetworkName>WCW MMSONLY</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Simple</NetworkName>
+      <SubsetCode>534D</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310320</MCCMNC>
+      <NetworkName>ISP</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310410</MCCMNC>
+      <NetworkName>Consumer Cellular ATT</NetworkName>
+      <SubsetCode>2AC9</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310450</MCCMNC>
+      <NetworkName>VIAERO</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310770</MCCMNC>
+      <NetworkName>iWireless</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311370</MCCMNC>
+      <NetworkName>GCI WEB</NetworkName>
+      <SubsetCode>50</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310410</MCCMNC>
+      <NetworkName>H2O</NetworkName>
+      <SubsetCode>49FF</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311530</MCCMNC>
+      <NetworkName>PTCI</NetworkName>
+      <SubsetCode>5054</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310570</MCCMNC>
+      <NetworkName>Cellular ONE MTPCS</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>WalMart Family Mobile</NetworkName>
+      <SubsetCode>4D4B</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Solavei</NetworkName>
+      <SubsetCode>7376</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Multibrand</NetworkName>
+      <SubsetCode>4753</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310880</MCCMNC>
+      <NetworkName>DTC Wireless</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311500</MCCMNC>
+      <NetworkName>Mosaic Telecom</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310290</MCCMNC>
+      <NetworkName>NEP</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311080</MCCMNC>
+      <NetworkName>Pine Cellular</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310020</MCCMNC>
+      <NetworkName>Union Wireless</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Consumer Cellular TMO</NetworkName>
+      <SubsetCode>2AC9</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311190</MCCMNC>
+      <NetworkName>Cellular One Danvile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310080</MCCMNC>
+      <NetworkName>Corr Wireless</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>LycaMobile</NetworkName>
+      <SubsetCode>6C79</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>PLDT</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Red Pocket</NetworkName>
+      <SubsetCode>4201</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Republic Wireless</NetworkName>
+      <SubsetCode>6134</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>312480</MCCMNC>
+      <NetworkName>Nemont</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Ultra Mobile</NetworkName>
+      <SubsetCode>4153</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Ting</NetworkName>
+      <SubsetCode>6135</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310030</MCCMNC>
+      <NetworkName>Truphone</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310300</MCCMNC>
+      <NetworkName>Truphone</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310260</MCCMNC>
+      <NetworkName>Vodafone US</NetworkName>
+      <SubsetCode>2801</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20404</MCCMNC>
+      <NetworkName>Vodafone</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310480</MCCMNC>
+      <NetworkName>iConnect</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310140</MCCMNC>
+      <NetworkName>GTA</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310370</MCCMNC>
+      <NetworkName>DOCOMO PACIFIC</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310110</MCCMNC>
+      <NetworkName>IT&amp;E Postpaid</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310110</MCCMNC>
+      <NetworkName>IT&amp;E Prepaid</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>4</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>2.5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <NbSOSNumberNoSIM>7</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>000</SOSNumberNoSIM>
+        <SOSNumberNoSIM>110</SOSNumberNoSIM>
+        <SOSNumberNoSIM>118</SOSNumberNoSIM>
+        <SOSNumberNoSIM>119</SOSNumberNoSIM>
+        <SOSNumberNoSIM>999</SOSNumberNoSIM>
+      </Network>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <T9Language>english</T9Language>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>12</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>10</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1m</MessageSize>
+          <MaxRecipientMMS>10</MaxRecipientMMS>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>42</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Anritsu</NetworkName>
+        <ProfBrowser>Anritsu Test</ProfBrowser>
+        <ProfMMS>Anritsu MMS Test</ProfMMS>
+        <ProfIMS>Anritsu IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Simple</NetworkName>
+        <ProfBrowser>Simple</ProfBrowser>
+        <ProfMMS>Simple MMS</ProfMMS>
+        <ProfAGPS>Simple SUPL</ProfAGPS>
+        <ProfIMS>Simple IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>GCI WEB</NetworkName>
+        <ProfBrowser>GCI WEB</ProfBrowser>
+        <ProfMMS>GCI MMS</ProfMMS>
+        <ProfAGPS>GCI SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>H2O</NetworkName>
+        <ProfBrowser>H2O WEB</ProfBrowser>
+        <ProfMMS>H2O MMS</ProfMMS>
+        <ProfAGPS>H2O SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>VIAERO</NetworkName>
+        <ProfBrowser>Viaero Internet</ProfBrowser>
+        <ProfMMS>Viaero MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>WCW</NetworkName>
+        <ProfBrowser>WCW-INTERNET</ProfBrowser>
+        <ProfMMS>WCW-MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>WCW MMSONLY</NetworkName>
+        <ProfBrowser>WCW_MMSONLY</ProfBrowser>
+        <ProfMMS>WCW_MMSONLY MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>ISP</NetworkName>
+        <ProfBrowser>ISP</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfAGPS>ISP SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Consumer Cellular ATT</NetworkName>
+        <ProfBrowser>CC LTE</ProfBrowser>
+        <ProfMMS>CC LTE MMS</ProfMMS>
+        <ProfAGPS>CC LTE SUPL</ProfAGPS>
+        <ProfFOTA>CC LTE FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>PTCI</NetworkName>
+        <ProfBrowser>PTCI</ProfBrowser>
+        <ProfMMS>PTCI MMS</ProfMMS>
+        <ProfAGPS>PTCI SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>iWireless</NetworkName>
+        <ProfBrowser>WEB 2</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>iWireless</NetworkName>
+        <ProfBrowser>WEB 1</ProfBrowser>
+        <ProfMMS>Picture Messaging</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Cellular ONE MTPCS</NetworkName>
+        <ProfBrowser>Cellular One Smartphone</ProfBrowser>
+        <ProfMMS>Cellular One MMS</ProfMMS>
+        <ProfAGPS>Cellular One SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>WalMart Family Mobile</NetworkName>
+        <ProfBrowser>WalMart Family Mobile</ProfBrowser>
+        <ProfMMS>WalMart Family Mobile MMS</ProfMMS>
+        <ProfAGPS>WalMart Family Mobile SUPL</ProfAGPS>
+        <ProfIMS>WalMart Family Mobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Solavei</NetworkName>
+        <ProfBrowser>Solavei</ProfBrowser>
+        <ProfMMS>Solavei MMS</ProfMMS>
+        <ProfAGPS>Solavei SUPL</ProfAGPS>
+        <ProfIMS>Solavei IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Multibrand</NetworkName>
+        <ProfBrowser>Multibrand</ProfBrowser>
+        <ProfMMS>Multibrand MMS</ProfMMS>
+        <ProfAGPS>Multibrand SUPL</ProfAGPS>
+        <ProfIMS>Multibrand IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Nemont</NetworkName>
+        <ProfBrowser>Nemont</ProfBrowser>
+        <ProfMMS>Nemont MMS</ProfMMS>
+        <ProfAGPS>Nemont SUPL</ProfAGPS>
+        <ProfFOTA>Nemont FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>DTC Wireless</NetworkName>
+        <ProfBrowser>DTC WAP</ProfBrowser>
+        <ProfMMS>DTC MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Mosaic Telecom</NetworkName>
+        <ProfBrowser>data</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfAGPS>Mosaic Telecom SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>NEP</NetworkName>
+        <ProfBrowser>nep.data</ProfBrowser>
+        <ProfMMS>nep.mms</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Pine Cellular</NetworkName>
+        <ProfBrowser>PINE WAP</ProfBrowser>
+        <ProfMMS>PINE MMS</ProfMMS>
+        <ProfAGPS>PINE SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Union Wireless</NetworkName>
+        <ProfBrowser>Union Wireless Data</ProfBrowser>
+        <ProfMMS>Union Wireless MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Consumer Cellular TMO</NetworkName>
+        <ProfBrowser>CONSUMER</ProfBrowser>
+        <ProfMMS>CONSUMER MMS</ProfMMS>
+        <ProfAGPS>CONSUMER SUPL</ProfAGPS>
+        <ProfIMS>CONSUMER IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Cellular One Danvile</NetworkName>
+        <ProfBrowser>Cellular One</ProfBrowser>
+        <ProfMMS>Cellular One MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Corr Wireless</NetworkName>
+        <ProfBrowser>Corr WAP</ProfBrowser>
+        <ProfMMS>Corr MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>LycaMobile</NetworkName>
+        <ProfBrowser>LYCA</ProfBrowser>
+        <ProfMMS>LYCA MMS</ProfMMS>
+        <ProfAGPS>LYCA SUPL</ProfAGPS>
+        <ProfIMS>LycaMobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>PLDT</NetworkName>
+        <ProfBrowser>PLDT</ProfBrowser>
+        <ProfMMS>PLDT MMS</ProfMMS>
+        <ProfAGPS>PLDT SUPL</ProfAGPS>
+        <ProfIMS>PLDT IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Red Pocket</NetworkName>
+        <ProfBrowser>RED POCKET</ProfBrowser>
+        <ProfMMS>RED POCKET MMS</ProfMMS>
+        <ProfAGPS>RED POCKET SUPL</ProfAGPS>
+        <ProfIMS>Red Pocket IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Republic Wireless</NetworkName>
+        <ProfBrowser>Republic Wireless</ProfBrowser>
+        <ProfMMS>Republic Wireless MMS</ProfMMS>
+        <ProfAGPS>Republic Wireless SUPL</ProfAGPS>
+        <ProfIMS>Republic Wireless IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Ultra Mobile</NetworkName>
+        <ProfBrowser>Ultra</ProfBrowser>
+        <ProfMMS>Ultra MMS</ProfMMS>
+        <ProfAGPS>Ultra SUPL</ProfAGPS>
+        <ProfIMS>Ultra Mobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>6</NbNetProfile>
+        <NetworkName>Ting</NetworkName>
+        <ProfBrowser>Ting Data</ProfBrowser>
+        <ProfMMS>Ting MMS</ProfMMS>
+        <ProfAGPS>Ting SUPL</ProfAGPS>
+        <ProfIntSharing>Ting DUN</ProfIntSharing>
+        <ProfIMS>Ting IMS</ProfIMS>
+        <ProfFOTA>Ting FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Truphone</NetworkName>
+        <ProfBrowser>Truphone</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Vodafone</NetworkName>
+        <ProfBrowser>Vodafone</ProfBrowser>
+        <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfAGPS>Vodafone SUPL</ProfAGPS>
+        <ProfIMS>Vodafone IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Vodafone US</NetworkName>
+        <ProfBrowser>Vodafone US</ProfBrowser>
+        <ProfMMS>Vodafone US MMS</ProfMMS>
+        <ProfAGPS>Vodafone US SUPL</ProfAGPS>
+        <ProfIMS>Vodafone US IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Tracfone - ATT</NetworkName>
+        <ProfBrowser>Tracfone - ATT</ProfBrowser>
+        <ProfMMS>Tracfone - ATT MMS</ProfMMS>
+        <ProfAGPS>Tracfone - ATT SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Tracfone - T Mobile</NetworkName>
+        <ProfBrowser>Tracfone - T Mobile</ProfBrowser>
+        <ProfMMS>Tracfone - T Mobile MMS</ProfMMS>
+        <ProfAGPS>Tracfone - T Mobile SUPL</ProfAGPS>
+        <ProfIMS>Tracfone - T Mobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Tracfone - CLARO</NetworkName>
+        <ProfBrowser>Tracfone - CLARO</ProfBrowser>
+        <ProfMMS>Tracfone - CLARO MMS</ProfMMS>
+        <ProfAGPS>Tracfone - CLARO SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>iConnect</NetworkName>
+        <ProfBrowser>iConnect</ProfBrowser>
+        <ProfAGPS>iConnect SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>GTA</NetworkName>
+        <ProfBrowser>GTA</ProfBrowser>
+        <ProfAGPS>GTA SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>DOCOMO PACIFIC</NetworkName>
+        <ProfBrowser>DOCOMO PACIFIC</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>IT&amp;E Postpaid</NetworkName>
+        <ProfBrowser>IT&amp;E Postpaid</ProfBrowser>
+        <ProfAGPS>IT&amp;E Postpaid SUPL</ProfAGPS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>IT&amp;E Prepaid</NetworkName>
+        <ProfBrowser>IT&amp;E Prepaid</ProfBrowser>
+        <ProfAGPS>IT&amp;E Prepaid SUPL</ProfAGPS>
+      </ProfileHandle>
+      <NbProfile>125</NbProfile>
+      <Profile>
+        <NetworkName>Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Anritsu Test</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>anritsu</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Anritsu MMS Test</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>anritsu</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Anritsu IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Simple</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Simple</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>simple</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Simple</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Simple SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>simple</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Simple</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Simple MMS</ProfileName>
+        <URL>http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>simple</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GCI WEB</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>GCI WEB</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.gci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GCI WEB</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>GCI MMS</ProfileName>
+        <URL>http://mmsc.gci.net</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>24.237.158.34</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.gci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>H2O</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>H2O WEB</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nemont</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Nemont</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>nemont</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>H2O</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>H2O MMS</ProfileName>
+        <URL>http://mmsc.mobile.att.net</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>proxy.mobile.att.net</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nemont</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Nemont MMS</ProfileName>
+        <URL>http://pic.nemont.mobi</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>nemont</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIAERO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Viaero Internet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.vedge.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIAERO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Viaero MMS</ProfileName>
+        <URL>http://mms.viaero.com</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.168.3.23</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WCW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WCW-INTERNET</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.wcc.net</APN>
+          <UserId>13257630000</UserId>
+          <Password>mmsc</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WCW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WCW-MMS</ProfileName>
+        <URL>http://mms.wcc.net</URL>
+        <Auth>normalorsecure</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.55.70.246</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.wcc.net</APN>
+          <UserId>13257630000</UserId>
+          <Password>mmsc</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WCW MMSONLY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WCW_MMSONLY</ProfileName>
+        <Auth>normalorsecure</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.55.70.246</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.wcc.net</APN>
+          <UserId>13257630000</UserId>
+          <Password>mmsc</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WCW MMSONLY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WCW_MMSONLY MMS</ProfileName>
+        <URL>http://mms.wcc.net</URL>
+        <Auth>normalorsecure</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.55.70.246</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.wcc.net</APN>
+          <UserId>13257630000</UserId>
+          <Password>mmsc</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ISP</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISP</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>isp.cellularoneaz.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ISP</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mmsc.c1neaz.csky.us:6672</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1410</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.4.229.94</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.c1csky.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CC LTE</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CC LTE MMS</ProfileName>
+        <URL>http://mmsc.mobile.att.net</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>proxy.mobile.att.net</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CC LTE FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PTCI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PTCI</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ptci.mymobiletxt.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PTCI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PTCI MMS</ProfileName>
+        <URL>http://mms2.mymobiletxt.net</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ptci.mymobiletxt.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iWireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WEB 2</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>i2.iwireless.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iWireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WEB 1</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.4.229.31</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap1.iwireless.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iWireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Picture Messaging</ProfileName>
+        <URL>http://mmsc.iwireless.dataonair.net:6672</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.4.229.31</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap1.iwireless.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellular ONE MTPCS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellular One Smartphone</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellular ONE MTPCS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellular One MMS</ProfileName>
+        <URL>http://mmsc.mtpcs.csky.us:6672/</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.4.229.229</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>clearsky</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WalMart Family Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WalMart Family Mobile</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.omwtoday.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WalMart Family Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WalMart Family Mobile MMS</ProfileName>
+        <URL>http://wirelessfour.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.omwtoday.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Solavei</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Solavei</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Solavei</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Solavei</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Solavei MMS</ProfileName>
+        <URL>http://solavei.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Solavei</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Multibrand</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Multibrand</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>multibrand</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Multibrand</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Multibrand MMS</ProfileName>
+        <URL>http://gsmt.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>multibrand</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DTC Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>DTC WAP</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wapdtcw.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DTC Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>DTC MMS</ProfileName>
+        <URL>http://mmsdtcw.com</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.20.42</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmsdtcw.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mosaic Telecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>data</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>WAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mosaic Telecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mmsc.ctc.csky.us:6672/</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>209.4.229.46</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>WAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NEP</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>nep.data</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>nep.data</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NEP</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>nep.mms</ProfileName>
+        <URL>http://mmsgprs.com</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>nep.mms</APN>
+          <UserId>nep</UserId>
+          <Password>mmsc</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pine Cellular</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PINE WAP</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.pine.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pine Cellular</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PINE MMS</ProfileName>
+        <URL>http://69.8.34.146/mms/</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>69.8.34.146</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.pine.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Union Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Union Wireless Data</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>smart.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Union Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Union Wireless MMS</ProfileName>
+        <URL>http://mms.unionwireless.com</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>union.mms.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular TMO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CONSUMER</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular TMO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CONSUMER MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellular One Danvile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellular One</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.0.97</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.cellular1.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellular One Danvile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellular One MMS</ProfileName>
+        <URL>http://mms.cellular1.net/ecit/mms.php</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.0.97</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.cellular1.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Corr Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Corr WAP</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>74.112.57.172</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>corrgprs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Corr Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Corr MMS</ProfileName>
+        <URL>http://m.iot1.com/corr/mms.php</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>74.112.57.173</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>corrmms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LycaMobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LYCA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>data.lycamobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LycaMobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LYCA MMS</ProfileName>
+        <URL>http://lyca.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>data.lycamobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PLDT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PLDT</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PLDT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PLDT MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Red Pocket</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>RED POCKET</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Red Pocket</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>RED POCKET MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>216.155.165.50</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Republic Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Republic Wireless</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Republic Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Republic Wireless MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>216.155.165.50</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ultra Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ultra</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ultra Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ultra MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ting</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ting Data</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ting</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ting MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ting</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ting DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ting</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ting FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nemont</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Nemont FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>nemont</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Truphone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Truphone</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>truphone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>us.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>us.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone US</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone US</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>us.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone US</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone US MMS</ProfileName>
+        <URL>http://wholesale.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>us.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone US</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone US IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - CLARO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - CLARO</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.tracfone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - CLARO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - CLARO SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.tracfone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - CLARO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - CLARO MMS</ProfileName>
+        <URL>http://mmsg.claropr.com:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1410</MTUSize>
+        <PSparam>
+          <APN>wap.tracfone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ATT</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ATT MMS</ProfileName>
+        <URL>http://mmsc.mobile.att.net</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>proxy.mobile.att.net</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ATT SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - T Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - T Mobile</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.tracfone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - T Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - T Mobile SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.tracfone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - T Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - T Mobile MMS</ProfileName>
+        <URL>http://TF.mmsmvno.com/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.tracfone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Simple</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Simple IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - T Mobile</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - T Mobile IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WalMart Family Mobile</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WalMart Family Mobile IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Red Pocket</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Red Pocket IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Republic Wireless</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Republic Wireless IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ting</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ting IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LycaMobile</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LycaMobile IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Multibrand</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Multibrand IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Solavei</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Solavei IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ultra Mobile</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ultra Mobile IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular TMO</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CONSUMER IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PLDT</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PLDT IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GCI WEB</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>GCI SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.gci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>H2O</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>H2O SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ISP</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ISP SUPL</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>isp.cellularoneaz.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CC LTE SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>reseller</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PTCI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PTCI SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ptci.mymobiletxt.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellular ONE MTPCS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellular One SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WalMart Family Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WalMart Family Mobile SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.omwtoday.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Solavei</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Solavei SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Solavei</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Multibrand</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Multibrand SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>multibrand</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nemont</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Nemont SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>nemont</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mosaic Telecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Mosaic Telecom SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>WAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pine Cellular</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PINE SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.pine.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Consumer Cellular TMO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CONSUMER SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LycaMobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Lyca SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>data.lycamobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PLDT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PLDT SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Red Pocket</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>RED POCKET SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Republic Wireless</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Republic Wireless SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ultra Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ultra SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ting</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Ting SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Wholesale</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>us.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone US</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone US SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>us.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iConnect</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>iConnect Advanced</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GTA</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>GTA</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>mpulse.gta.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DOCOMO PACIFIC</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Docomo</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>IT&amp;E Postpaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IT&amp;E Postpaid</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sp.ite.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>IT&amp;E Prepaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IT&amp;E Prepaid</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>prepaid.ite.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iConnect</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>iConnect SUPL</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GTA</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>GTA SUPL</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>mpulse.gta.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>IT&amp;E Postpaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IT&amp;E Postpaid SUPL</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>sp.ite.net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>IT&amp;E Prepaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileType>internet</ProfileType>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>IT&amp;E Prepaid SUPL</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>prepaid.ite.net</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

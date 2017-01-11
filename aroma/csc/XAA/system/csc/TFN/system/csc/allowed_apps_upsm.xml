@@ -1,0 +1,82 @@
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.emergencylauncher" >
+    <home>
+        <!-- Chrome -->
+        <appshortcut
+            launcher:className="com.google.android.apps.chrome.Main"
+            launcher:packageName="com.android.chrome"
+            launcher:permission="1001" />
+
+        <!-- ChatOn -->
+        <appshortcut
+            launcher:className="com.sec.chaton.HomeActivity"
+            launcher:packageName="com.sec.chaton"
+            launcher:permission="0000" />
+
+        <!-- Google+ -->
+        <appshortcut
+            launcher:className="com.google.android.apps.plus.phone.HomeActivity"
+            launcher:packageName="com.google.android.apps.plus"
+            launcher:permission="0000" />
+
+        <!-- Facebook -->
+        <appshortcut
+            launcher:className="com.facebook.katana.LoginActivity"
+            launcher:packageName="com.facebook.katana"
+            launcher:permission="0000" />
+
+        <!-- Twitter -->
+        <appshortcut
+            launcher:className="com.twitter.android.StartActivity"
+            launcher:packageName="com.twitter.android"
+            launcher:permission="0000" />
+
+        <!-- KakaoTalk -->
+        <appshortcut
+            launcher:className="com.kakao.talk.activity.SplashActivity"
+            launcher:packageName="com.kakao.talk"
+            launcher:permission="0000" />
+
+        <!-- Line - naver -->
+        <appshortcut
+            launcher:className="jp.naver.line.android.activity.SplashActivity"
+            launcher:packageName="jp.naver.line.android"
+            launcher:permission="0000" />
+
+        <!-- Whatsapp -->
+        <appshortcut
+            launcher:className="com.whatsapp.Main"
+            launcher:packageName="com.whatsapp"
+            launcher:permission="0000" />
+
+        <!-- Calculator -->
+        <appshortcut
+            launcher:className="com.sec.android.app.popupcalculator.Calculator"
+            launcher:packageName="com.sec.android.app.popupcalculator"
+            launcher:permission="0000" />
+
+        <!-- Clock -->
+        <appshortcut
+            launcher:className="com.sec.android.app.clockpackage.ClockPackage"
+            launcher:packageName="com.sec.android.app.clockpackage"
+            launcher:permission="0101" />
+
+        <!-- Memo -->
+        <appshortcut
+            launcher:className="com.samsung.android.app.memo.Main"
+            launcher:packageName="com.samsung.android.app.memo"
+            launcher:permission="0001" />
+
+        <!-- Voice recorder -->
+        <appshortcut
+            launcher:className="com.sec.android.app.voicenote.main.VNMainActivity"
+            launcher:packageName="com.sec.android.app.voicenote"
+            launcher:permission="0101" />
+
+        <!-- EMail -->
+        <appshortcut
+            launcher:className="com.samsung.android.email.ui.activity.MessageListXL"
+            launcher:packageName="com.samsung.android.email.provider"
+            launcher:permission="0000" />
+    </home>
+
+</favorites>

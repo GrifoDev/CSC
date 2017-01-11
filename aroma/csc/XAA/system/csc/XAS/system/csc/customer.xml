@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0004</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>XAS</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310120</MCCMNC>
+      <NetworkName>Sprint LTE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310000</MCCMNC>
+      <NetworkName>Sprint LTE</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310000</MCCMNC>
+      <NetworkName>Sprint EHRPD</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310000</MCCMNC>
+      <NetworkName>Sprint Global Roaming</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>SPR Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>001010</MCCMNC>
+      <NetworkName>Sprint Test</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>6</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>40</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+        <PreviewMessage>on</PreviewMessage>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1m</MessageSize>
+          <MaxRecipientMMS>40</MaxRecipientMMS>
+        </MmsSending>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFD.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Sprint LTE</NetworkName>
+        <ProfFOTA>LTE - Wholesales OTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Sprint Global Roaming</NetworkName>
+        <ProfFOTA>Global Roaming - WholeSales</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Sprint Test</NetworkName>
+        <ProfBrowser>LTE - SPRINT test ISP</ProfBrowser>
+        <ProfMMS>LTE - SPRINT test ISP</ProfMMS>
+        <ProfIntSharing>LTE - SPRINT test PAM</ProfIntSharing>
+        <ProfFOTA>LTE - SPRINT test OTA</ProfFOTA>
+      </ProfileHandle>
+      <NbProfile>5</NbProfile>
+      <Profile>
+        <NetworkName>Sprint LTE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <Selectable>yes</Selectable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - Wholesales OTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>otasn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sprint Global Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <Selectable>yes</Selectable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Global Roaming - WholeSales</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>cinet.spcs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sprint Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <Selectable>yes</Selectable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - SPRINT test ISP</ProfileName>
+        <URL>http://mms.sprintpcs.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>68.28.31.7</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>n.ispsn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sprint Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <Selectable>yes</Selectable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - SPRINT test OTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>otasn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sprint Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <Selectable>yes</Selectable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - SPRINT test PAM</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>pamsn</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

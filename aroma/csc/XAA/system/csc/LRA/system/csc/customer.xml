@@ -1,0 +1,1453 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0011</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>LRA</SalesCode>
+    <NbNetworkInfo>22</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Appalachian</NetworkName>
+      <SubsetCode>BA00120000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Bluegrass</NetworkName>
+      <SubsetCode>BA00010000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Cellcom</NetworkName>
+      <SubsetCode>BA00040000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Chat Mobility</NetworkName>
+      <SubsetCode>BA00130000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Copper Valley</NetworkName>
+      <SubsetCode>BA00170000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Cross</NetworkName>
+      <SubsetCode>BA00030000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Mid-Rivers</NetworkName>
+      <SubsetCode>BA00180000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Northwest Missouri</NetworkName>
+      <SubsetCode>BA00150000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Pioneer</NetworkName>
+      <SubsetCode>BA00020000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Strata</NetworkName>
+      <SubsetCode>BA00110000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Thumb</NetworkName>
+      <SubsetCode>BA00050000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Triangle</NetworkName>
+      <SubsetCode>BA00220000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>330120</MCCMNC>
+      <NetworkName>Open Mobile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310004</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310004</MCCMNC>
+      <NetworkName>VZW2</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>330120</MCCMNC>
+      <NetworkName>Open Mobile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310004</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310004</MCCMNC>
+      <NetworkName>VZW2</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>LRA Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>001010</MCCMNC>
+      <NetworkName>LRA VZW Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>24681</MCCMNC>
+      <NetworkName>LRA VZW Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>246081</MCCMNC>
+      <NetworkName>LRA VZW Test</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Cross</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>9182391111</TelNum>
+      </Voicemail>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>1</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <MaxRecipient>10</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <MessageSize>1m</MessageSize>
+          <MaxRecipientMMS>10</MaxRecipientMMS>
+        </MmsSending>
+        <MmsReceiving>
+          <Roaming>auto</Roaming>
+        </MmsReceiving>
+        <NbMMSView>6</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
+        </MMSView>
+        <MMSView>
+          <NetworkName>Bluegrass</NetworkName>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://mms.iot1.com/uaprofs/samsunguaprofa.xml</MessageUaProfUrl>
+        </MMSView>
+        <MMSView>
+          <NetworkName>Cellcom</NetworkName>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://mms.cellcom.com/uaprofs/samsunguaprofa.xml</MessageUaProfUrl>
+        </MMSView>
+        <MMSView>
+          <NetworkName>Thumb</NetworkName>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://mms.thumbcell.com/uaprofs</MessageUaProfUrl>
+        </MMSView>
+        <MMSView>
+          <NetworkName>Pioneer</NetworkName>
+          <MessageUserAgent>samg930r6</MessageUserAgent>
+          <MessageUaProfUrl>http://uaprof.vtext.com/sam/g930r6/g930r6.xml</MessageUaProfUrl>
+        </MMSView>
+        <MMSView>
+          <NetworkName>Open Mobile</NetworkName>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFE.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>18</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Appalachian</NetworkName>
+        <ProfBrowser>Appalachian</ProfBrowser>
+        <ProfMMS>Appalachian MMS</ProfMMS>
+        <ProfIntSharing>Appalachian</ProfIntSharing>
+        <ProfIMS>Appalachian IMS</ProfIMS>
+        <ProfFOTA>Appalachian FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>VZW</NetworkName>
+        <ProfBrowser>Verizon</ProfBrowser>
+        <ProfMMS>Verizon</ProfMMS>
+        <ProfIntSharing>Verizon</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Bluegrass</NetworkName>
+        <ProfBrowser>Bluegrass</ProfBrowser>
+        <ProfMMS>Bluegrass MMS</ProfMMS>
+        <ProfIntSharing>Bluegrass</ProfIntSharing>
+        <ProfIMS>Bluegrass IMS</ProfIMS>
+        <ProfFOTA>Bluegrass FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Cellcom</NetworkName>
+        <ProfBrowser>Cellcom</ProfBrowser>
+        <ProfMMS>Cellcom MMS</ProfMMS>
+        <ProfIntSharing>Cellcom</ProfIntSharing>
+        <ProfIMS>Cellcom IMS</ProfIMS>
+        <ProfFOTA>Cellcom FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Cross</NetworkName>
+        <ProfBrowser>Cross</ProfBrowser>
+        <ProfMMS>Cross MMS</ProfMMS>
+        <ProfIntSharing>Cross</ProfIntSharing>
+        <ProfIMS>Cross IMS</ProfIMS>
+        <ProfFOTA>Cross FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Chat Mobility</NetworkName>
+        <ProfBrowser>Chat Mobility</ProfBrowser>
+        <ProfMMS>Chat Mobility MMS</ProfMMS>
+        <ProfIntSharing>Chat Mobility</ProfIntSharing>
+        <ProfIMS>Chat Mobility IMS</ProfIMS>
+        <ProfFOTA>Chat Mobility FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Mid-Rivers</NetworkName>
+        <ProfBrowser>Mid-Rivers</ProfBrowser>
+        <ProfMMS>Mid-Rivers MMS</ProfMMS>
+        <ProfIntSharing>Mid-Rivers</ProfIntSharing>
+        <ProfIMS>Mid-Rivers IMS</ProfIMS>
+        <ProfFOTA>Mid-Rivers FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Northwest Missouri</NetworkName>
+        <ProfBrowser>Northwest Missouri</ProfBrowser>
+        <ProfMMS>Northwest Missouri MMS</ProfMMS>
+        <ProfIntSharing>Northwest Missouri</ProfIntSharing>
+        <ProfIMS>Northwest Missouri IMS</ProfIMS>
+        <ProfFOTA>Northwest Missouri FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Pioneer</NetworkName>
+        <ProfBrowser>Pioneer</ProfBrowser>
+        <ProfMMS>Pioneer MMS</ProfMMS>
+        <ProfIntSharing>Pioneer</ProfIntSharing>
+        <ProfIMS>Pioneer IMS</ProfIMS>
+        <ProfFOTA>Pioneer FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Thumb</NetworkName>
+        <ProfBrowser>Thumb</ProfBrowser>
+        <ProfMMS>Thumb MMS</ProfMMS>
+        <ProfIntSharing>Thumb</ProfIntSharing>
+        <ProfIMS>Thumb IMS</ProfIMS>
+        <ProfFOTA>Thumb FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Copper Valley</NetworkName>
+        <ProfBrowser>Copper Valley</ProfBrowser>
+        <ProfMMS>Copper Valley MMS</ProfMMS>
+        <ProfIntSharing>Copper Valley</ProfIntSharing>
+        <ProfIMS>Copper Valley IMS</ProfIMS>
+        <ProfFOTA>Copper Valley FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Strata</NetworkName>
+        <ProfBrowser>Strata</ProfBrowser>
+        <ProfMMS>Strata MMS</ProfMMS>
+        <ProfIntSharing>Strata</ProfIntSharing>
+        <ProfIMS>Strata IMS</ProfIMS>
+        <ProfFOTA>Strata FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Triangle</NetworkName>
+        <ProfBrowser>Triangle</ProfBrowser>
+        <ProfMMS>Triangle MMS</ProfMMS>
+        <ProfIntSharing>Triangle</ProfIntSharing>
+        <ProfIMS>Triangle IMS</ProfIMS>
+        <ProfFOTA>Triangle FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>Open Mobile</NetworkName>
+        <ProfBrowser>Open Mobile</ProfBrowser>
+        <ProfMMS>Open Mobile MMS</ProfMMS>
+        <ProfIntSharing>Open Mobile Tethering</ProfIntSharing>
+        <ProfIMS>Open Mobile IMS</ProfIMS>
+        <ProfFOTA>Open Mobile FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>VZW2</NetworkName>
+        <ProfBrowser>Verizon Internet</ProfBrowser>
+        <ProfMMS>Verizon Internet</ProfMMS>
+        <ProfIntSharing>Verizon Internet</ProfIntSharing>
+        <ProfIMS>Verizon IMS</ProfIMS>
+        <ProfFOTA>Verizon FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>VZW</NetworkName>
+        <ProfBrowser>Verizon</ProfBrowser>
+        <ProfMMS>Verizon</ProfMMS>
+        <ProfIntSharing>Verizon</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>LRA Test</NetworkName>
+        <ProfBrowser>LTE - Test Internet</ProfBrowser>
+        <ProfMMS>LTE - Test Internet</ProfMMS>
+        <ProfIntSharing>LTE - Test Internet</ProfIntSharing>
+        <ProfIMS>LTE - Test IMS</ProfIMS>
+        <ProfFOTA>LTE - Test FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>LRA VZW Test</NetworkName>
+        <ProfBrowser>LTE - VZW Test Internet</ProfBrowser>
+        <ProfMMS>LTE - VZW Test Internet</ProfMMS>
+        <ProfIntSharing>LTE - VZW Test Internet</ProfIntSharing>
+        <ProfIMS>LTE - VZW Test IMS</ProfIMS>
+        <ProfFOTA>LTE - VZW Test FOTA</ProfFOTA>
+      </ProfileHandle>
+      <NbProfile>63</NbProfile>
+      <Profile>
+        <NetworkName>Appalachian</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Appalachian MMS</ProfileName>
+        <URL>http://mms.ekn.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bluegrass</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Bluegrass MMS</ProfileName>
+        <URL>http://m.iot1.com/bluegrass/mms.php</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellcom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellcom MMS</ProfileName>
+        <URL>http://mms.cellcom.com/cellcom/mms.php</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cross</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cross MMS</ProfileName>
+        <URL>http://mms.sprocketwireless.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chat Mobility</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Chat Mobility MMS</ProfileName>
+        <URL>http://mms.chatmobility.com/mms/</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mid-Rivers</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Mid-Rivers MMS</ProfileName>
+        <URL>http://mmsc.midrivers.mobi</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Northwest Missouri</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Northwest Missouri MMS</ProfileName>
+        <URL>http://mmsc.hawkeyeswitch.net/mms/</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pioneer</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Pioneer MMS</ProfileName>
+        <URL>http://mms1.zsend.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Thumb</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Thumb MMS</ProfileName>
+        <URL>http://mms.thumbcell.com/thumb/mms.php</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Copper Valley</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Copper Valley MMS</ProfileName>
+        <URL>http://cvwmms.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Strata</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Strata MMS</ProfileName>
+        <URL>http://mms.rinawireless.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Triangle</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Triangle MMS</ProfileName>
+        <URL>http://mms.nemont.mobi</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Open Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Open Mobile</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sp.openmobilepr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Open Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Open Mobile MMS</ProfileName>
+        <URL>http://mms.openmobilepr.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sp.openmobilepr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Open Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Open Mobile Tethering</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>tethering.openmobilepr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Open Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Open Mobile IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sp.openmobilepr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Open Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Open Mobile FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sp.openmobilepr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Appalachian</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Appalachian IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bluegrass</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Bluegrass IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellcom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellcom IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cross</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cross IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chat Mobility</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Chat Mobility IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mid-Rivers</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Mid-Rivers IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Northwest Missouri</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Northwest Missouri IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pioneer</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Pioneer IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Thumb</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Thumb IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Copper Valley</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Copper Valley IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Strata</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Strata IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Triangle</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Triangle IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Appalachian</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Appalachian FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bluegrass</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Bluegrass FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellcom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellcom FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cross</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cross FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chat Mobility</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Chat Mobility FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mid-Rivers</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Mid-Rivers FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Northwest Missouri</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Northwest Missouri FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pioneer</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Pioneer FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Thumb</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Thumb FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Copper Valley</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Copper Valley FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Strata</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Strata FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Triangle</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Triangle FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Appalachian</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Appalachian</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bluegrass</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Bluegrass</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellcom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cellcom</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cross</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Cross</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chat Mobility</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Chat Mobility</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mid-Rivers</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Mid-Rivers</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Northwest Missouri</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Northwest Missouri</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pioneer</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Pioneer</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Thumb</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Thumb</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Copper Valley</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Copper Valley</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Strata</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Strata</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Triangle</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Triangle</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon</ProfileName>
+        <URL>http://mms.vtext.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon Internet</ProfileName>
+        <URL>http://mms.vtext.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LRA Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - Test Internet</ProfileName>
+        <URL>http://mms.vtext.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LRA Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - Test FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LRA Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - Test IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LRA VZW Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - VZW Test Internet</ProfileName>
+        <URL>http://mms.vtext.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LRA VZW Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - VZW Test FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LRA VZW Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>LTE - VZW Test IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1428</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+PCSCF_DOMAIN                 = 0
+PCSCF_ADDRESS                = 1
+PRIVATE_USER_ID              = 2
+PUBLIC_USER_ID               = 3
+LBO_PCSCF_ADDRESS            = 4
+LBO_PCSCF_ADDRESS_TYPE       = 5
+AMR_AUDIO_BITRATE            = 6
+AMR_AUDIO_BITRATE_WB         = 7
+SIP_SESSION_TIMER            = 8
+SMS_FORMAT                   = 9
+SMS_OVER_IMS                 = 10
+SMS_WRITE_UICC               = 11
+SIP_T1_TIMER                 = 12
+SIP_T2_TIMER                 = 13
+SIP_T4_TIMER                 = 14
+SIP_TA_TIMER                 = 15
+SIP_TB_TIMER                 = 16
+SIP_TC_TIMER                 = 17
+SIP_TD_TIMER                 = 18
+SIP_TE_TIMER                 = 19
+SIP_TF_TIMER                 = 20
+SIP_TG_TIMER                 = 21
+SIP_TH_TIMER                 = 22
+SIP_TI_TIMER                 = 23
+SIP_TJ_TIMER                 = 24
+SIP_TK_TIMER                 = 25
+CAP_CACHE_EXP                = 26
+CAP_POLL_INTERVAL            = 27
+SRC_THROTTLE_PUBLISH         = 28
+SUBSCRIBE_MAX_ENTRY          = 29
+LVC_BETA_SETTING             = 30
+EAB_SETTING                  = 31
+AVAIL_CACHE_EXP              = 32
+PREF_CSCF_PORT               = 33
+FQDN_FOR_PCSCF               = 34
+POLL_LIST_SUB_EXP            = 35
+PUBLISH_TIMER                = 36
+PUBLISH_TIMER_EXTEND         = 37
+GZIP_FLAG                    = 38
+TIMER_VZW                    = 39
+T_DELAY                      = 40
+IMS_TEST_MODE                = 41
+MIN_SE                       = 42
+DCN_NUMBER                   = 43
+SILENT_REDIAL_ENABLE         = 44
+T_LTE_911_FAIL               = 45
+PUBLISH_ERR_RETRY_TIMER      = 46
+SPEAKER_DEFAULT_VIDEO        = 47
+RINGING_TIMER                = 48
+RINGBACK_TIMER               = 49
+RTP_RTCP_TIMER               = 50
+DOMAIN_PUI                   = 51
+URI_MEDIA_RSC_SERV_3WAY_CALL = 52
+PHONE_CONTEXT_URI            = 53
+CAP_DISCOVERY                = 54
+AMR_WB                       = 55
+SRC_AMR                      = 56
+SRC_AMR_WB                   = 57
+HD_VOICE                     = 58
+UDP_KEEP_ALIVE               = 59
+AUDIO_RTP_PORT_START         = 60
+AUDIO_RTP_PORT_END           = 61
+VIDEO_RTP_PORT_START         = 62
+VIDEO_RTP_PORT_END           = 63
+AMR_WB_OCTET_ALIGNED         = 64
+AMR_WB_BANDWITH_EFFICIENT    = 65
+AMR_OCTET_ALIGNED            = 66
+AMR_BANDWITH_EFFICIENT       = 67
+H264_VGA                     = 68
+H264_QVGA                    = 69
+DTMF_WB                      = 70
+DTMF_NB                      = 71
+VOLTE_PREF_SERVICE_STATUS    = 72
+SMS_PSI                      = 73
+DM_APP_ID                    = 74
+DM_USER_DISP_NAME            = 75
+DM_CON_REF                   = 76
+PDP_CONTEXT_PREF             = 77
+ICSI                         = 78
+ICSI_RSC_ALLOC_MODE          = 79
+RSC_ALLOC_MODE               = 80
+VOICE_DOMAIN_PREF_EUTRAN     = 81
+VOICE_DOMAIN_PREF_UTRAN      = 82
+IMS_VOICE_TERMINATION        = 83
+REG_RETRY_BASE_TIME          = 84
+REG_RETRY_MAX_TIME           = 85
+PHONE_CONTEXT_PARAM          = 86
+PHONE_CONTEXT_PUID           = 87
+SS_DOMAIN_SETTING            = 88
+SS_CONTROL_PREF              = 89
+DM_POLLING_PERIOD            = 90
+ICCID                        = 91
+CONF_FACTORY_URI             = 92
+VOLTE_ENABLED                = 93
+LVC_ENABLED                  = 94
+EAB_SETTING_BY_USER          = 95
+VOLTE_ENABLED_BY_USER        = 96
+LVC_ENABLED_BY_USER          = 97
+USSD_CONTROL_PREF            = 98
+EMERGENCY_CONTROL_PREF       = 99
+UT_PDN                       = 100
+UT_APN_NAME                  = 101
+VOLTE_DOMAIN_UI_SHOW         = 102
+SMS_DOMAIN_UI_SHOW           = 103
+UT_APN_SETTING_UI_SHOW       = 104
+CONF_FACTORY_URI_SHOW        = 105
+TVOLTE_HYS_TIMER             = 106
+PIP                          = 107
+H264_L_VGA                   = 108
+SHOW_REG_INFO_TO_SETTING_APP = 109
+EPDG_ENABLED                 = 110
+EHRPD_ENABLED                = 111
+SS_CSFB_WITH_IMSERROR        = 112
+IMS_ENABLED                  = 113
+VZW_EAB_PUBLISH_FAIL         = 114
+VZW_EAB_MENU_SHOW            = 115
+H263_QCIF                    = 116
+SHOW_VOWIFI_REGI_ICON        = 119
+TWWAN_911_FAIL_TIMER         = 125;
+TWLAN_911_CALLFAIL_TIMER     = 127;
+
+<item key="@string/PCSCF_DOMAIN">vzims.com</item>
+<item key="0">vzims.com</item>
+-->
+<configurations>
+
+<configuration name="default">
+    <!-- FIXME -->
+    <item key="@string/IMS_TEST_MODE">0</item>
+    <item key="@string/LVC_ENABLED">0</item>
+    <item key="@string/VOLTE_ENABLED">1</item>
+    <item key="@string/EAB_SETTING">1</item>
+    <item key="@string/SMS_OVER_IMS">1</item>
+    <item key="@string/T_DELAY">5</item>
+    <item key="@string/TIMER_VZW">6</item>
+    <item key="@string/TVOLTE_HYS_TIMER">60</item>
+    <item key="@string/SILENT_REDIAL_ENABLE">1</item>
+    <item key="@string/VZW_EAB_PUBLISH_FAIL">1</item>
+    <item key="@string/SHOW_REG_INFO_TO_SETTING_APP">1</item>
+    <item key="@string/POLL_LIST_SUB_EXP">30</item>
+</configuration>
+
+<configuration name="ATT">
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+</configuration>
+
+<configuration name="TMB">
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+    <item key="@string/POLL_LIST_SUB_EXP">30</item>
+</configuration>
+
+<configuration name="TMK">
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+</configuration>
+
+<configuration name="VZW">
+    <item key="@string/PCSCF_DOMAIN">vzims.com</item>
+    <item key="@string/PCSCF_ADDRESS">2600:80d:1::10:161:44:a2</item>
+    <item key="@string/PHONE_CONTEXT_URI">phone-context=vzims.com</item>
+    <item key="@string/IMS_TEST_MODE">0</item>
+    <item key="@string/PREF_CSCF_PORT">1</item>
+    <item key="@string/FQDN_FOR_PCSCF">0</item>
+    <item key="@string/SIP_T1_TIMER">3000</item>
+    <item key="@string/SIP_T2_TIMER">16000</item>
+    <item key="@string/SIP_TF_TIMER">30000</item>
+    <item key="@string/DOMAIN_PUI">vzims.com</item>
+    <item key="@string/URI_MEDIA_RSC_SERV_3WAY_CALL">sip:confserver@vzims.com</item>
+    <item key="@string/SIP_SESSION_TIMER">300</item>
+    <item key="@string/MIN_SE">300</item>
+    <item key="@string/AMR_WB">1</item>
+    <item key="@string/SRC_AMR">1</item>
+    <item key="@string/SRC_AMR_WB">1</item>
+    <item key="@string/AMR_AUDIO_BITRATE">7</item>
+    <item key="@string/AMR_AUDIO_BITRATE_WB">2</item>
+    <item key="@string/RINGING_TIMER">55</item>
+    <item key="@string/RINGBACK_TIMER">60</item>
+    <item key="@string/RTP_RTCP_TIMER">10</item>
+    <item key="@string/HD_VOICE">0</item>
+    <item key="@string/UDP_KEEP_ALIVE">30</item>
+    <item key="@string/LVC_BETA_SETTING">1</item>
+    <item key="@string/PUBLISH_TIMER">1200</item>
+    <item key="@string/PUBLISH_TIMER_EXTEND">86400</item>
+    <item key="@string/CAP_CACHE_EXP">7776000</item>
+    <item key="@string/AVAIL_CACHE_EXP">60</item>
+    <item key="@string/SRC_THROTTLE_PUBLISH">60</item>
+    <item key="@string/CAP_POLL_INTERVAL">625000</item>
+    <item key="@string/SUBSCRIBE_MAX_ENTRY">100</item>
+    <item key="@string/CAP_DISCOVERY">1</item>
+    <item key="@string/GZIP_FLAG">1</item>
+    <item key="@string/SPEAKER_DEFAULT_VIDEO">1</item>
+    <item key="@string/PUBLISH_ERR_RETRY_TIMER">21600</item>
+    <item key="@string/T_LTE_911_FAIL">20</item>
+    <item key="@string/DCN_NUMBER">4437501000</item>
+    <item key="@string/POLL_LIST_SUB_EXP">30</item>
+    <item key="@string/TVOLTE_HYS_TIMER">60</item>
+    <item key="@string/SMS_FORMAT">3GPP2</item>
+    <item key="@string/SMS_OVER_IMS">1</item>
+    <item key="@string/T_DELAY">5</item>
+    <item key="@string/TIMER_VZW">6</item>
+    <item key="@string/SILENT_REDIAL_ENABLE">1</item>
+    <item key="@string/VZW_EAB_PUBLISH_FAIL">1</item>
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+    <item key="@string/VCE_CONFIG">0</item>
+    <item key="@string/VOLTE_ENABLED">0</item>
+    <item key="@string/LVC_ENABLED">0</item>
+    <item key="@string/EAB_SETTING">0</item>
+    <item key="@string/VWF_ENABLED">0</item>
+    <item key="@string/EPDG_THLTE1">-117</item>
+    <item key="@string/EPDG_THLTE2">-115</item>
+    <item key="@string/EPDG_THLTE3">-110</item>
+    <item key="@string/TWWAN_911_FAIL_TIMER">40</item>
+    <item key="@string/TWLAN_911_CALLFAIL_TIMER">20</item>
+    <item key="@string/SMS_FORMAT">3GPP2</item>
+</configuration>
+
+<configuration name="SPR">
+    <item key="@string/SHOW_REG_INFO_TO_SETTING_APP">0</item>
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/VWF_ENABLED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">0</item>
+    <item key="@string/PRIVATE_USER_ID">&lt;mdn&gt;@vowifi2.ims.spcsdns.net</item>
+    <item key="@string/PUBLIC_USER_ID">sip:&lt;mdn&gt;@vowifi2.ims.spcsdns.net</item>
+    <item key="@string/PCSCF_DOMAIN">vowifi2.ims.spcsdns.net</item>
+    <item key="@string/PCSCF_ADDRESS">pcscf.vowifina.spcsinfra.net</item>
+    <item key="@string/SMS_PSI">sip:ipsmgw@ipsmgw.ims.spcsdns.net</item>
+</configuration>
+
+<configuration name="RWC">
+    <item key="@string/EAB_SETTING">0</item>
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+    <item key="@string/SHOW_VOWIFI_REGI_ICON">1</item>
+</configuration>
+
+<configuration name="FMC">
+    <item key="@string/EAB_SETTING">0</item>
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+    <item key="@string/SHOW_VOWIFI_REGI_ICON">1</item>
+</configuration>
+
+<configuration name="RWW">
+    <item key="@string/VOWIFI_SUPPORTED">1</item>
+    <item key="@string/EPDG_HANDOVER_ENABLED">1</item>
+    <item key="@string/SHOW_VOWIFI_REGI_ICON">1</item>
+</configuration>
+
+<configuration name="TLA">
+    <item key="@string/LVC_ENABLED">0</item>
+</configuration>
+
+<configuration name="BMC">
+    <item key="@string/POLL_LIST_SUB_EXP">60</item>
+</configuration>
+
+<configuration name="BMR">
+    <item key="@string/POLL_LIST_SUB_EXP">60</item>
+</configuration>
+
+<configuration name="USC">
+    <item key="@string/VOICE_DOMAIN_PREF_EUTRAN">0</item>
+</configuration>
+
+</configurations>

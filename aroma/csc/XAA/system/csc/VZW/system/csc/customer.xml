@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0008</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>VZW</SalesCode>
+    <NbNetworkInfo>12</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <SubsetCode>BAE0000000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20404</MCCMNC>
+      <NetworkName>VZW ROAMING</NetworkName>
+      <SubsetCode>BAE0000000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311270</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <SubsetCode>BAE0000000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>312770</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <SubsetCode>BAE0000000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310004</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <SubsetCode>BAE0000000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>001010</MCCMNC>
+      <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>999999</MCCMNC>
+      <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>99999</MCCMNC>
+      <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>24681</MCCMNC>
+      <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>246081</MCCMNC>
+      <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>VZW Test</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>7</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>20</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1.2m</MessageSize>
+          <ImageResizeResolution>qsxga</ImageResizeResolution>
+          <MaxRecipientMMS>20</MaxRecipientMMS>
+        </MmsSending>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>odsamg935u</MessageUserAgent>
+          <MessageUaProfUrl>http://uaprof.vtext.com/sam/odsamg935u/odsamg935u.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <GPS>
+      <GPSActivation>off</GPSActivation>
+    </GPS>
+    <ActiveSync>
+      <SyncSms>off</SyncSms>
+    </ActiveSync>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>6</NbNetProfile>
+        <NetworkName>VZW</NetworkName>
+        <ProfBrowser>Verizon Internet</ProfBrowser>
+        <ProfMMS>Verizon MMS</ProfMMS>
+        <ProfIntSharing>Verizon Internet DUN</ProfIntSharing>
+        <ProfIMS>Verizon IMS</ProfIMS>
+        <ProfFOTA>Verizon FOTA</ProfFOTA>
+        <ProfCBS>Verizon CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>6</NbNetProfile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <ProfBrowser>VZW Roaming Internet</ProfBrowser>
+        <ProfMMS>VZW Roaming MMS</ProfMMS>
+        <ProfIntSharing>VZW Roaming Internet DUN</ProfIntSharing>
+        <ProfIMS>VZW Roaming IMS</ProfIMS>
+        <ProfFOTA>VZW Roaming FOTA</ProfFOTA>
+        <ProfCBS>VZW Roaming CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>6</NbNetProfile>
+        <NetworkName>VZW TEST</NetworkName>
+        <ProfBrowser>VZW Test Internet</ProfBrowser>
+        <ProfMMS>VZW Test MMS</ProfMMS>
+        <ProfIntSharing>VZW Test Internet DUN</ProfIntSharing>
+        <ProfIMS>VZW Test IMS</ProfIMS>
+        <ProfFOTA>VZW Test FOTA</ProfFOTA>
+        <ProfCBS>VZW Test CBS</ProfCBS>
+      </ProfileHandle>
+      <NbProfile>18</NbProfile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon Internet</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon Internet DUN</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon FOTA</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon IMS</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon CBS</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Verizon MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Roaming Internet</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Roaming Internet DUN</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Roaming FOTA</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Roaming IMS</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Roaming CBS</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW ROAMING</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Roaming MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Test Internet</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Test Internet DUN</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Test FOTA</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Test IMS</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Test CBS</ProfileName>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VZW TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>VZW Test MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>ps</Bearer>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

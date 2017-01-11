@@ -1,0 +1,1734 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0011</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>TFN</SalesCode>
+    <NbNetworkInfo>13</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>Tracfone - Anritsu</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>001010</MCCMNC>
+      <NetworkName>Tracfone - Anritsu2</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20404</MCCMNC>
+      <NetworkName>Roaming</NetworkName>
+      <SubsetCode>BA01270000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>24681</MCCMNC>
+      <NetworkName>Tracfone - Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>246081</MCCMNC>
+      <NetworkName>Tracfone - Test2</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310004</MCCMNC>
+      <NetworkName>Tracfone - Verizon 004</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310028</MCCMNC>
+      <NetworkName>Tracfone - ALU Test1</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311270</MCCMNC>
+      <NetworkName>Tracfone - ALU Test2</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311390</MCCMNC>
+      <NetworkName>Tracfone - Ericsson Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>312770</MCCMNC>
+      <NetworkName>Tracfone - Verizon 770</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>99999</MCCMNC>
+      <NetworkName>Trafone - Test 99999</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>999999</MCCMNC>
+      <NetworkName>Trafone - Test 999999</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Tracfone - Verizon</NetworkName>
+      <SubsetCode>BA01270000000000</SubsetCode>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>7</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>20</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1.2m</MessageSize>
+          <MaxRecipientMMS>20</MaxRecipientMMS>
+        </MmsSending>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>odsamg935u</MessageUserAgent>
+          <MessageUaProfUrl>http://uaprof.vtext.com/sam/odsamg935u/odsamg935u.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Connections>
+      <NbProfileHandle>13</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>6</NbNetProfile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <ProfBrowser>Tracfone - Anritsu</ProfBrowser>
+        <ProfMMS>Tracfone - Anritsu MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Anritsu SUPL</ProfAGPS>
+        <ProfIMS>Tracfone - Anritsu IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Anritsu FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Anritsu CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Roaming</NetworkName>
+        <ProfBrowser>Roaming</ProfBrowser>
+        <ProfMMS>Roaming MMS</ProfMMS>
+        <ProfAGPS>Roaming SUPL</ProfAGPS>
+        <ProfIntSharing>Roaming DUN</ProfIntSharing>
+        <ProfIMS>Roaming IMS</ProfIMS>
+        <ProfFOTA>Roaming FOTA</ProfFOTA>
+        <ProfCBS>Roaming CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <ProfBrowser>Tracfone - Anritsu2</ProfBrowser>
+        <ProfMMS>Tracfone - Anritsu2 MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Anritsu2 SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Anritsu2 DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Anritsu2 IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Anritsu2 FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Anritsu2 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <ProfBrowser>Tracfone - Test</ProfBrowser>
+        <ProfMMS>Tracfone - Test MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Test SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Test DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Test IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Test FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Test CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <ProfBrowser>Tracfone - Test2</ProfBrowser>
+        <ProfMMS>Tracfone - Test2 MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Test2 SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Test2 DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Test2 IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Test2 FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Test2 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <ProfBrowser>Tracfone - Verizon 004</ProfBrowser>
+        <ProfMMS>Tracfone - Verizon 004 MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Verizon 004 SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Verizon 004 DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Verizon 004 IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Verizon 004 FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Verizon 004 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <ProfBrowser>Tracfone - ALU Test1</ProfBrowser>
+        <ProfMMS>Tracfone - ALU Test1 MMS</ProfMMS>
+        <ProfAGPS>Tracfone - ALU Test1 SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - ALU Test1 DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - ALU Test1 IMS</ProfIMS>
+        <ProfFOTA>Tracfone - ALU Test1 FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - ALU Test1 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <ProfBrowser>Tracfone - ALU Test2</ProfBrowser>
+        <ProfMMS>Tracfone - ALU Test2 MMS</ProfMMS>
+        <ProfAGPS>Tracfone - ALU Test2 SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - ALU Test2 DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - ALU Test2 IMS</ProfIMS>
+        <ProfFOTA>Tracfone - ALU Test2 FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - ALU Test2 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <ProfBrowser>Tracfone - Ericsson Test</ProfBrowser>
+        <ProfMMS>Tracfone - Ericsson Test MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Ericsson Test SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Ericsson Test DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Ericsson Test IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Ericsson Test FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Ericsson Test CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <ProfBrowser>Tracfone - Verizon 770</ProfBrowser>
+        <ProfMMS>Tracfone - Verizon 770 MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Verizon 770 SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Verizon 770 DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Verizon 770 IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Verizon 770 FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Verizon 770 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <ProfBrowser>Trafone - Test 99999</ProfBrowser>
+        <ProfMMS>Trafone - Test 99999 MMS</ProfMMS>
+        <ProfAGPS>Trafone - Test 99999 SUPL</ProfAGPS>
+        <ProfIntSharing>Trafone - Test 99999 DUN</ProfIntSharing>
+        <ProfIMS>Trafone - Test 99999 IMS</ProfIMS>
+        <ProfFOTA>Trafone - Test 99999 FOTA</ProfFOTA>
+        <ProfCBS>Trafone - Test 99999 CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <ProfBrowser>Tracfone - Verizon</ProfBrowser>
+        <ProfMMS>Tracfone - Verizon MMS</ProfMMS>
+        <ProfAGPS>Tracfone - Verizon SUPL</ProfAGPS>
+        <ProfIntSharing>Tracfone - Verizon DUN</ProfIntSharing>
+        <ProfIMS>Tracfone - Verizon IMS</ProfIMS>
+        <ProfFOTA>Tracfone - Verizon FOTA</ProfFOTA>
+        <ProfCBS>Tracfone - Verizon CBS</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Trafone - Test 999999</NetworkName>
+        <ProfBrowser>Trafone - Test 999999</ProfBrowser>
+        <ProfMMS>Trafone - Test 99999 MMS</ProfMMS>
+        <ProfAGPS>Trafone - Test 99999 SUPL</ProfAGPS>
+        <ProfIntSharing>Trafone - Test 999999 DUN</ProfIntSharing>
+        <ProfIMS>Trafone - Test 99999 IMS</ProfIMS>
+        <ProfFOTA>Trafone - Test 99999 FOTA</ProfFOTA>
+        <ProfCBS>Trafone - Test 99999 CBS</ProfCBS>
+      </ProfileHandle>
+      <NbProfile>85</NbProfile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Anritsu2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Anritsu2 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Roaming MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Test2 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 004</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 004 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test1 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - ALU Test2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - ALU Test2 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Ericsson Test</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Ericsson Test MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon 770</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon 770 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999 SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999 FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999 IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999 CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 99999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 99999 MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 999999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 999999</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Trafone - Test 999999</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Trafone - Test 999999 DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon DUN</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon SUPL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWIMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tracfone - Verizon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Tracfone - Verizon MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>
