@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
@@ -16,20 +16,20 @@
       <NetworkName>Sprint LTE</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>Sprint Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>001010</MCCMNC>
+      <NetworkName>Sprint Test</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>310000</MCCMNC>
       <NetworkName>Sprint EHRPD</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>310000</MCCMNC>
       <NetworkName>Sprint Global Roaming</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>00101</MCCMNC>
-      <NetworkName>SPR Test</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>001010</MCCMNC>
-      <NetworkName>Sprint Test</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -75,11 +75,16 @@
       </MMS>
     </Messages>
     <Connections>
-      <NbProfileHandle>3</NbProfileHandle>
+      <NbProfileHandle>4</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>Sprint LTE</NetworkName>
         <ProfFOTA>LTE - Wholesales OTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Sprint EHRPD</NetworkName>
+        <ProfFOTA>EHRPD - Wholesales OTA</ProfFOTA>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -94,33 +99,55 @@
         <ProfIntSharing>LTE - SPRINT test PAM</ProfIntSharing>
         <ProfFOTA>LTE - SPRINT test OTA</ProfFOTA>
       </ProfileHandle>
-      <NbProfile>5</NbProfile>
+      <NbProfile>6</NbProfile>
+      <Profile>
+        <NetworkName>Sprint EHRPD</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <Selectable>yes</Selectable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>EHRPD - Wholesales OTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ehrpd</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1422</MTUSize>
+        <PSparam>
+          <APN>otasn</APN>
+        </PSparam>
+      </Profile>
       <Profile>
         <NetworkName>Sprint LTE</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <Selectable>yes</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>LTE - Wholesales OTA</ProfileName>
         <Auth>none</Auth>
-        <Bearer>ps</Bearer>
+        <Bearer>lte</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1422</MTUSize>
         <PSparam>
           <APN>otasn</APN>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>Sprint Global Roaming</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
         <Selectable>yes</Selectable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>Global Roaming - WholeSales</ProfileName>
+        <URL>http://mms.plspictures.com</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1422</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>68.28.31.7</ServAddr>
+          <Port>80</Port>
+        </Proxy>
         <PSparam>
           <APN>cinet.spcs</APN>
         </PSparam>
@@ -136,7 +163,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1422</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>68.28.31.7</ServAddr>
@@ -156,7 +183,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1422</MTUSize>
         <PSparam>
           <APN>otasn</APN>
         </PSparam>
@@ -171,7 +198,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1422</MTUSize>
         <PSparam>
           <APN>pamsn</APN>
         </PSparam>

@@ -292,7 +292,7 @@ form(
 	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
-	"EVR",		"EVR",			"United Kingdom T-Mobile branded",			"select",
+	"EVR",		"EVR",			"United Kingdom EE branded",				"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"GBL",		"GBL",			"Bulgaria unbranded",					"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
@@ -304,7 +304,7 @@ form(
 	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
 	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
 	"LUX",		"LUX",			"Luxembourg unbranded",					"select",
-	"MEO",		"MEO",			"Portugal MEO unbranded",				"select",
+	"MEO",		"MEO",			"Portugal MEO branded",					"select",
 	"MOT",		"MOT",			"Slovenia unbranded",					"select",
 	"NEE",		"NEE",			"Nordic Countries unbranded",				"select",
 	"NZC",		"NZC",			"New Zealand unbranded",				"select",
@@ -323,23 +323,22 @@ form(
 	"TEN",		"TEN",			"Norway Telenor branded",				"select",
 	"TGY",		"TGY",			"HongKong unbranded",					"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
-	"TMB",		"TMB",			"USA T-Mobile Branded (Qualcom, make EFS backup!)",	"select",
-	"TMK",		"TMK",			"USA MetroPCS Branded (Qualcom, make EFS backup!)",	"select",
+	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
+	"TMK",		"TMK",			"USA MetroPCS branded (Qualcom, make EFS backup!)",	"select",
 	"TMS",		"TMS",			"Slovak unbranded",					"select",
 	"TMZ",		"TMZ",			"Czech T-Mobile branded",				"select",
 	"TPA",		"TPA",			"Panama Multi-CSC contains: ALE, ARO, BVO, CHO, COO, EON, PCW, TPA, TTT, UPO, UYO",	"select",
-	"TPH",		"TPH",			"Portugal TPH unbranded",				"select",
+	"TPH",		"TPH",			"Portugal unbranded",					"select",
 	"TSI",		"TSI",			"Ireland unbranded",					"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
-	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",					"select",
+	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"VDS",		"VDS",			"Sweden unbranded",					"select",
-	"VIA",		"VIA",			"Germany Multi-CSC contains: O2U, VIA, XEC",		"select",
+	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
 	"VVT",		"VVT",			"Bulgaria unbranded",					"select",
 	"VZW",		"VZW",			"USA Verizon branded (Qualcom, make EFS backup!)",	"select",
-	"XAA",		"XAA",			"USA Multi-CSC (Qualcom, make EFS backup!) contains: ACG, AIO, ATT, BST, GCF, LRA, SPR, TFN, TMB, TMK, USC, VMU, VZW, XAA, XAS",		"select",
+	"XAA",		"XAA",			"USA Multi-CSC (Qualcom, make EFS backup!) contains: ACG, AIO, ATT, BST, GCF, LRA, SPR, TFN, TMB, TMK, USC, VMU, VZW, XAA, XAS",													"select",
 	"XAC",		"XAC",			"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",		"select",
-	"XAS",		"XAS",			"USA Sprint branded Multi-CSC contains: BST, SPR, VMU, XAS  (Qualcom, make EFS backup!)",	"select",
-	"XEF",		"XEF",			"France Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				"select",
+	"XEF",		"XEF",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				"select",
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
 	"XSA",		"XSA",			"Australia unbranded",					"select",
@@ -347,8 +346,491 @@ form(
 	"ZTO",		"ZTO",			"Brazil unbranded",					"select"
 );
 
-if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK"|| prop("csc.prop","CSC")=="VZW"|| prop("csc.prop","CSC")=="XAS"|| prop("csc.prop","CSC")=="CHC") then
-alert( "Attention", "I detected that you selected a qualcom csc ported file. To make sure nothing can go wrong, please be sure to have an EFS backup in TWRP just for the case something goes wrong. It's much easier to you if you got such a backup then searching for a solution when EFS is messed up!");
+if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK" || prop("csc.prop","CSC")=="VZW" || prop("csc.prop","CSC")=="CHC" || prop("csc.prop","CSC")=="XAA") then
+alert( "Warning", "I detected that you selected a qualcom csc ported file. To make sure nothing can go wrong, please be sure to have an EFS backup in TWRP just for the case something goes wrong. It's much easier to you if you got such a backup then searching for a solution when EFS is messed up!");
+endif;
+
+if prop("csc.prop","CSC")=="CTI" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Argentina Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CDR",		"CDR",			"Dominican Republic unbranded",				"select",
+	"CHL",		"CHL",			"Chile unbranded",					"select",
+	"CPA",		"CPA",			"Panama unbranded",					"select",
+	"CRC",		"CRC",			"Costa Rica unbranded",					"select",
+	"CTI",		"CTI",			"Argentina unbranded (default)",			"select.selected",
+	"CTP",		"CTP",			"Paraguay unbranded",					"select",
+	"CTU",		"CTU",			"Uruguay unbranded",					"select",
+	"PCT",		"PCT",			"Puerto Rico unbranded",				"select",
+	"PET",		"PET",			"Peru unbranded",					"select",
+	"PGU",		"PGU",			"Guatemala unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="DDE" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"German Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"DCO",		"DCO",			"German Congstar branded",				"select",
+	"DDE",		"DDE",			"German T-Mobile branded (default)",			"select.selected",
+	"DTM",		"DTM",			"German Telekom branded",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="DHR" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Croatia Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CRO",		"CRO",			"Croatia T-Mobile branded",				"select",
+	"DHR",		"DHR",			"Croatia bonbon branded (default)",			"select.selected"
+);
+endif;
+if prop("csc.prop","CSC")=="ILO" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Israel Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CEL",		"CEL",			"Israel Cellcom branded",				"select",
+	"ILO",		"ILO",			"Israel branded (default)",				"select.selected",
+	"PCL",		"PCL",			"Israel Pelephone branded",				"select",
+	"PTR",		"PTR",			"Israel Orange/Partner branded",			"select"
+);
+endif;
+if prop("csc.prop","CSC")=="INS" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Indian Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"BNG",		"BNG",			"Bangladesh unbranded",					"select",
+	"INS",		"INS",			"Indian unbranded (default)",				"select.selected",
+	"INU",		"INU",			"Indian unbranded",					"select",
+	"NPL",		"NPL",			"Nepal unbranded",					"select",
+	"SLI",		"SLI",			"Srilanka unbranded",					"select",
+	"SKL",		"SKL",			"Srilanka unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="SER" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Russian Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CAC",		"CAC",			"Uzbekistan unbranded",					"select",
+	"CAU",		"CAU",			"Georgia unbranded",					"select",
+	"SEK",		"SEK",			"Ukraine unbranded",					"select",
+	"SER",		"SER",			"Russia unbranded (default)",				"select.selected",
+	"SKZ",		"SKZ",			"Kazakhstan unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="THL" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Thailand Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CAM",		"CAM",			"Cambodia unbranded",					"select",
+	"GLB",		"GLB",			"Philippines unbranded",				"select",
+	"MM1",		"MM1",			"Singapore unbranded",					"select",
+	"MYM",		"MYM",			"Thailand (unknown)",					"select",
+	"SIN",		"SIN",			"Singapore SinTel branded",				"select",
+	"SMA",		"SMA",			"Philippines Smart branded",				"select",
+	"STH",		"STH",			"Singapore StarHub branded",				"select",
+	"THL",		"THL",			"Thailand unbranded (default)",				"select.selected",
+	"XME",		"XME",			"Malaysia unbranded",					"select",
+	"XSP",		"XSP",			"Singapore unbranded",					"select",
+	"XTC",		"XTC",			"Philippines Open Line branded",			"select",
+	"XTE",		"XTE",			"Philippines (unknown)",				"select",
+	"XXV",		"XXV",			"Vietnam unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="TPA" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Panama Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"ALE",		"ALE",			"Ecuador unbranded",					"select",
+	"ARO",		"ARO",			"Argentina unbranded",					"select",
+	"BVO",		"BVO",			"Chile (unknown)",					"select",
+	"CHO",		"CHO",			"Chile unbranded",					"select",
+	"COO",		"COO",			"Colombia unbranded",					"select",
+	"EON",		"EON",			"Trinidad and Tobago unbranded",			"select",
+	"PCW",		"PCW",			"Panama (Cable & Wireless) branded",			"select",
+	"TPA",		"TPA",			"Panama unbranded (default)",				"select.selected",
+	"TTT",		"TTT",			"Trinidad and Tobago unbranded",			"select",
+	"UPO",		"UPO",			"Uruguay unbranded",					"select",
+	"UYO",		"UYO",			"Uruguay (unknown)",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="VD2" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Vodafone Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"ATL",		"ATL",			"Spain Vodafone branded",				"select",
+	"AVF",		"AVF",			"Albania Vodafone branded",				"select",
+	"CNX",		"CNX",			"Romania Vodafone branded",				"select",
+	"CYV",		"CYV",			"Cyprus Vodafone branded",				"select",
+	"MOB",		"MOB",			"Austria A1 branded",					"select",
+	"MTL",		"MTL",			"Bulgaria MTL branded",					"select",
+	"OMN",		"OMN",			"Italy Vodafone branded",				"select",
+	"PRO",		"PRO",			"Belgium Proximus branded ",				"select",
+	"SIM",		"SIM",			"Slovenia Si.mobile branded",				"select",
+	"SWC",		"SWC",			"Switzerland Swisscom branded",				"select",
+	"TCL",		"TCL",			"Portugal Vodafone branded",				"select",
+	"VD2",		"VD2",			"Germany Vodafone branded (default)",			"select.selected",
+	"VDC",		"VDC",			"Czech Republic Vodafone branded",			"select",
+	"VDF",		"VDF",			"Netherlands Vodafone branded",				"select",
+	"VDH",		"VDH",			"Hungary Vodafone branded",				"select",
+	"VDI",		"VDI",			"Ireland Vodafone branded",				"select",
+	"VGR",		"VGR",			"Greece Vodafone branded",				"select",
+	"VIP",		"VIP",			"Croatia VIP-Net branded",				"select",
+	"VOD",		"VOD",			"United Kingdom Vodafone branded",			"select",
+	"XFV",		"XFV",			"South Africa Vodafone branded",			"select"
+);
+endif;
+if prop("csc.prop","CSC")=="VIA" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"O2 Multi-CSC",	"",								"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"O2U",		"O2U",			"United Kingdom O2 branded",				"select",
+	"VIA",		"VIA",			"German O2 branded (default)",				"select.selected",
+	"XEC",		"XEC",			"Spain Movistar branded",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="XAA" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"USA Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"ACG",		"ACG",			"Nextech / C-Spire branded",				"select",
+	"AIO",		"AIO",			"Anritsu branded",					"select",
+	"ATT",		"ATT",			"AT&T branded",						"select",
+	"BST",		"BST",			"BST (unknown)",					"select",
+	"GCF",		"GCF",			"GCF (unknown)",					"select",
+	"LRA",		"LRA",			"Bluegrass Cellular branded",				"select",
+	"SPR",		"SPR",			"Sprint (CDMA) branded",				"select",
+	"TFN",		"TFN",			"Tracfone branded ",					"select",
+	"TMB",		"TMB",			"T-Mobile branded",					"select",
+	"TMK",		"TMK",			"MetroPCS branded",					"select",
+	"USC",		"USC",			"USA unbranded",					"select",
+	"VMU",		"VMU",			"Virgin Mobile USA branded",				"select",
+	"VZW",		"VZW",			"Verizon branded",					"select",
+	"XAA",		"XAA",			"USA (unknown) (default)",				"select.selected",
+	"XAS",		"XAS",			"XAS (unknown)",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="XAC" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Canada Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"BMC",		"BMC",			"Bell Mobile branded",					"select",
+	"BWA",		"BWA",			"SaskTel branded",					"select",
+	"ESK",		"ESK",			"EastLink branded",					"select",
+	"FMC",		"FMC",			"Fido Mobile branded",					"select",
+	"GLW",		"GLW",			"Globalive Wind Mobile branded",			"select",
+	"KDO",		"KDO",			"Koodo Mobile branded",					"select",
+	"MTA",		"MTA",			"Canada (unknown)",					"select",
+	"RWC",		"RWC",			"Rogers branded",					"select",
+	"TLS",		"TLS",			"Telus branded",					"select",
+	"VMC",		"VMC",			"Virgin Mobile branded",				"select",
+	"VTR",		"VTR",			"Vidéotron branded",					"select",
+	"XAC",		"XAC",			"Canada unbranded (default)",				"select.selected"
+);
+endif;
+if prop("csc.prop","CSC")=="XEF" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Europe Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"BTU",		"BTU",			"United Kingdom unbranded",				"select",
+	"CPW",		"CPW",			"United Kingdom (unknown)",				"select",
+	"DBT",		"DBT",			"Germany unbranded",					"select",
+	"ITV",		"ITV",			"Italian unbranded",					"select",
+	"KOR",		"KOR",			"Korean unbranded",					"select",
+	"NEE",		"NEE",			"Nordic Countries unbranded",				"select",
+	"XEF",		"XEF",			"France unbranded (default)",				"select.selected",
+	"XEO",		"XEO",			"Poland unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="XEO" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Poland Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"BGL",		"BGL",			"Bulgaria unbranded",					"select",
+	"CYO",		"CYO",			"Cyprus unbranded",					"select",
+	"MET",		"MET",			"Ireland Meteor branded",				"select",
+	"ORX",		"ORX",			"Slovakia unbranded",					"select",
+	"ROM",		"ROM",			"Romania unbranded",					"select",
+	"SEB",		"SEB",			"Baltic unbranded",					"select",
+	"SEE",		"SEE",			"South East Europe unbranded",				"select",
+	"SIO",		"SIO",			"Slovenia unbranded",					"select",
+	"TOP",		"TOP",			"Serbia VIP branded",					"select",
+	"TWO",		"TWO",			"Croatia Tele2 branded",				"select",
+	"VIM",		"VIM",			"Macedonia unbranded",					"select",
+	"XEH",		"XEH",			"Hungary unbranded",					"select",
+	"XEO",		"XEO",			"Poland unbranded (default)",				"select.selected"
+);
+endif;
+if prop("csc.prop","CSC")=="XSG" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Arabic Emirate Multi-CSC",	"",						"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"ACR",		"ACR",			"Saudi Arabia unbranded",				"select",
+	"AFG",		"AFG",			"Afghanistan unbranded",				"select",
+	"AFR",		"AFR",			"Kenya unbranded",					"select",
+	"BTC",		"BTC",			"Libya unbranded",					"select",
+	"DKR",		"DKR",			"Senegal unbranded",					"select",
+	"DRC",		"DRC",			"Kenya (unknown)",					"select",
+	"ECT",		"ECT",			"Nigeria unbranded",					"select",
+	"EGY",		"EGY",			"Egypt unbranded",					"select",
+	"KSA",		"KSA",			"Saudi Arabia unbranded",				"select",
+	"LYS",		"LYS",			"United Arab Emirates unbranded",			"select",
+	"MAT",		"MAT",			"Morrocco MAT unbranded",				"select",
+	"MID",		"MID",			"Iraq unbranded",					"select",
+	"MRT",		"MRT",			"Mauritian unbranded",					"select",
+	"MRU",		"MRU",			"Mauritius unbranded",					"select",
+	"MTZ",		"MTZ",			"Zambia (unknown)",					"select",
+	"MWD",		"MWD",			"Morrocco MWD unbranded",				"select",
+	"PAK",		"PAK",			"Pakistan unbranded",					"select",
+	"SMG",		"SMG",			"Morrocco (unknown)",					"select",
+	"THR",		"THR",			"Iran unbranded",					"select",
+	"TMC",		"TMC",			"Algeria unbranded",					"select",
+	"TUN",		"TUN",			"Tunisia unbranded",					"select",
+	"TUR",		"TUR",			"Turkey unbranded",					"select",
+	"XFA",		"XFA",			"South Africa unbranded",				"select",
+	"XFE",		"XFE",			"South Africa unbranded",				"select",
+	"XFM",		"XFM",			"South Africa unbranded",				"select",
+	"XFU",		"XFU",			"Saudi Arabia STC branded",				"select",
+	"XSG",		"XSG",			"United Arab Emirates unbranded (default)",		"select.selected"
+);
 endif;
 
 # Installation UI

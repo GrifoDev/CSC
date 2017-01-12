@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00026</Version>
+  <Version>ED00027</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>VMU</SalesCode>
@@ -122,6 +122,7 @@
     <CscFeature_Sip_ConfigOpBranding>XAA</CscFeature_Sip_ConfigOpBranding>
     <CscFeature_Sip_EnableLanguageToggleButton>FALSE</CscFeature_Sip_EnableLanguageToggleButton>
     <CscFeature_SyncML_ConfigDevicePreId>IMEI</CscFeature_SyncML_ConfigDevicePreId>
+    <CscFeature_SyncML_ConfigGroupOpCode>USOpen</CscFeature_SyncML_ConfigGroupOpCode>
     <CscFeature_SyncML_DefaultLocalConfig>United States,us,310</CscFeature_SyncML_DefaultLocalConfig>
     <CscFeature_SyncML_DeltaBinaryDownVia>wifi_dedicated</CscFeature_SyncML_DeltaBinaryDownVia>
     <CscFeature_SyncML_DisableDisclaimerSelectCountryList4SwUpdate>TRUE</CscFeature_SyncML_DisableDisclaimerSelectCountryList4SwUpdate>

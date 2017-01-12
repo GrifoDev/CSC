@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0011</CSCEdition>
+    <CSCEdition>ED0012</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
@@ -151,7 +151,7 @@
         <MmsReceiving>
           <Roaming>auto</Roaming>
         </MmsReceiving>
-        <NbMMSView>6</NbMMSView>
+        <NbMMSView>7</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
@@ -180,6 +180,11 @@
           <NetworkName>Open Mobile</NetworkName>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFE.xml</MessageUaProfUrl>
+        </MMSView>
+        <MMSView>
+          <NetworkName>Triangle</NetworkName>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
+          <MessageUaProfUrl>http://mmsc.itstriangle.mobi/uaprofs/samsunguaprofa.xml</MessageUaProfUrl>
         </MMSView>
       </MMS>
     </Messages>
@@ -548,7 +553,7 @@
         <Editable>no</Editable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>Triangle MMS</ProfileName>
-        <URL>http://mms.nemont.mobi</URL>
+        <URL>http://mmsc.itstriangle.mobi</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>

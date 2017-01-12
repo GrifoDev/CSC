@@ -1,11 +1,11 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00026</Version>
+  <Version>ED00029</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>XAA</SalesCode>
   <FeatureSet>
-    <CscFeature_Audio_ConfigActionVolumeKey>Slient</CscFeature_Audio_ConfigActionVolumeKey>
+    <CscFeature_Audio_ConfigActionVolumeKey>Silent</CscFeature_Audio_ConfigActionVolumeKey>
     <CscFeature_Audio_ConfigCallVolumeSteps>7</CscFeature_Audio_ConfigCallVolumeSteps>
     <CscFeature_BT_ConfigNetAccessTypeForPANNAP>GSM</CscFeature_BT_ConfigNetAccessTypeForPANNAP>
     <CscFeature_BT_DisableSAP>TRUE</CscFeature_BT_DisableSAP>
@@ -13,7 +13,7 @@
     <CscFeature_Calendar_SetColorOfDays>XXXXXXX</CscFeature_Calendar_SetColorOfDays>
     <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
     <CscFeature_Common_AutoConfigurationType>XAA,SIMBASED_SSKU</CscFeature_Common_AutoConfigurationType>
-    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon,com.republicwireless.tel</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Common_ConfigMarketInfoVariation>Disable</CscFeature_Common_ConfigMarketInfoVariation>
     <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
     <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM,BlockPlayReadyDRM</CscFeature_Common_ConfigOperatorDrmReq>
@@ -108,6 +108,7 @@
     <CscFeature_Sip_ConfigOpBranding>XAA</CscFeature_Sip_ConfigOpBranding>
     <CscFeature_Sip_EnableLanguageToggleButton>FALSE</CscFeature_Sip_EnableLanguageToggleButton>
     <CscFeature_SyncML_ConfigDevicePreId>IMEI</CscFeature_SyncML_ConfigDevicePreId>
+    <CscFeature_SyncML_ConfigGroupOpCode>USOpen</CscFeature_SyncML_ConfigGroupOpCode>
     <CscFeature_SyncML_DefaultLocalConfig>United States,us,310</CscFeature_SyncML_DefaultLocalConfig>
     <CscFeature_SyncML_DeltaBinaryDownVia>wifi_dedicated</CscFeature_SyncML_DeltaBinaryDownVia>
     <CscFeature_SyncML_DisableDisclaimerSelectCountryList4SwUpdate>TRUE</CscFeature_SyncML_DisableDisclaimerSelectCountryList4SwUpdate>

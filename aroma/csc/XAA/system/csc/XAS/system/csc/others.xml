@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00025</Version>
+  <Version>ED00027</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>XAS</SalesCode>
@@ -80,6 +80,7 @@
     <CscFeature_RIL_ConfigGlobalModuleType>CDMA-LTE</CscFeature_RIL_ConfigGlobalModuleType>
     <CscFeature_RIL_ConfigNetworkTypeCapability>SPR-XAS-GLB-USA</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigSIMswap>QCOM</CscFeature_RIL_ConfigSIMswap>
+    <CscFeature_RIL_DisablePromptPopup4SIMProfileSelection>TRUE</CscFeature_RIL_DisablePromptPopup4SIMProfileSelection>
     <CscFeature_RIL_DisableSmartBonding>TRUE</CscFeature_RIL_DisableSmartBonding>
     <CscFeature_RIL_DisplayCliUsingRec>TRUE</CscFeature_RIL_DisplayCliUsingRec>
     <CscFeature_RIL_E911RoutingPolicy>csprefer</CscFeature_RIL_E911RoutingPolicy>
@@ -123,6 +124,7 @@
     <CscFeature_Sip_ConfigOpBranding>XAA</CscFeature_Sip_ConfigOpBranding>
     <CscFeature_Sip_EnableLanguageToggleButton>FALSE</CscFeature_Sip_EnableLanguageToggleButton>
     <CscFeature_SyncML_ConfigDevicePreId>IMEI</CscFeature_SyncML_ConfigDevicePreId>
+    <CscFeature_SyncML_ConfigGroupOpCode>USOpen</CscFeature_SyncML_ConfigGroupOpCode>
     <CscFeature_SyncML_DefaultLocalConfig>United States,us,310</CscFeature_SyncML_DefaultLocalConfig>
     <CscFeature_SyncML_DeltaBinaryDownVia>wifi_dedicated</CscFeature_SyncML_DeltaBinaryDownVia>
     <CscFeature_SyncML_DisableDisclaimerSelectCountryList4SwUpdate>TRUE</CscFeature_SyncML_DisableDisclaimerSelectCountryList4SwUpdate>

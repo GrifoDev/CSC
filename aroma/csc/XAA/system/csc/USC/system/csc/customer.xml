@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
@@ -166,7 +166,7 @@
         <ProfBrowser>LTE - Test Internet</ProfBrowser>
         <ProfIntSharing>LTE - Test Internet</ProfIntSharing>
       </ProfileHandle>
-      <NbProfile>3</NbProfile>
+      <NbProfile>2</NbProfile>
       <Profile>
         <NetworkName>USC</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -197,9 +197,6 @@
         <PSparam>
           <APN>usccinternet</APN>
         </PSparam>
-      </Profile>
-      <Profile>
-        <MTUSize>1500</MTUSize>
       </Profile>
     </Connections>
   </Settings>

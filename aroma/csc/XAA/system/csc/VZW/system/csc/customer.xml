@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0008</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
     <SalesCode>VZW</SalesCode>
-    <NbNetworkInfo>12</NbNetworkInfo>
+    <NbNetworkInfo>13</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>311480</MCCMNC>
       <NetworkName>VZW</NetworkName>
@@ -55,6 +55,11 @@
     <NetworkInfo>
       <MCCMNC>246081</MCCMNC>
       <NetworkName>VZW TEST</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <SubsetCode>BA01470000000000</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>00101</MCCMNC>
