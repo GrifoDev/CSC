@@ -339,6 +339,7 @@ form(
 	"XAA",		"XAA",			"USA Multi-CSC (Qualcom, make EFS backup!) contains: ACG, AIO, ATT, BST, GCF, LRA, SPR, TFN, TMB, TMK, USC, VMU, VZW, XAA, XAS",													"select",
 	"XAC",		"XAC",			"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",		"select",
 	"XEF",		"XEF",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO",				"select",
+	"XEG",		"XEG",			"German 1&1 branded",					"select",
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, MET, ORX, ROM, SEB, SEE, SIO, TOP, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
 	"XSA",		"XSA",			"Australia unbranded",					"select",
