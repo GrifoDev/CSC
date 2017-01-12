@@ -167,6 +167,8 @@ if
 	then
 		ui_print("Installing DBT CSC...");
 		package_extract_dir("aroma/csc/DBT/system", "/system");
+		delete_recursive("/system/csc");
+		package_extract_dir("aroma/csc/DBT/system/csc/DBT/system", "/system");
 endif;
 if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "DDE"
