@@ -1,2 +1,2 @@
-/system/priv-app/2015-12-31-v3013-orange-game-signed-aligned/2015-12-31-v3013-orange-game-signed-aligned.apk
-/system/priv-app/Apps_Orange-3.1-V5669-signed-aligned/Apps_Orange-3.1-V5669-signed-aligned.apk
+/system/priv-app/2016-11-15-v4002-4.5-orange-game-signed-aligned/2016-11-15-v4002-4.5-orange-game-signed-aligned.apk
+/system/priv-app/Apps_Orange-v3.3-V5825-signed/Apps_Orange-v3.3-V5825-signed.apk

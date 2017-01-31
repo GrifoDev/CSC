@@ -80,6 +80,15 @@ limitations under the License.
         </folder> 
 
 
+        <!-- Tapito -->
+        <favorite
+            launcher:packageName="com.tapmedia.tapito" 
+            launcher:className="cz.ackee.androidskeleton.ui.activity.LaunchActivity" 
+            launcher:screen="0" 
+            launcher:x="3" 
+            launcher:y="2" />
+ 
+ 
         <!-- Gallery -->
         <favorite
             launcher:packageName="com.sec.android.gallery3d" 

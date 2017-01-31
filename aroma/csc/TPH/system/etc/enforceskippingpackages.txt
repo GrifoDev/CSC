@@ -1,9 +1,0 @@
-8
-NaverTvCast.apk
-smartcallprovider-open-release.apk
-AxelSpringer.apk
-SamsungPayStub.apk
-CnnPanel.apk
-AndroidPay_erasable_Hero.apk
-SamsungUpdates.apk
-OMCAgent.apk

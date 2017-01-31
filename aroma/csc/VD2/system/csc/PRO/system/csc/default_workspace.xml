@@ -47,6 +47,7 @@
             launcher:spanX="1" 
             launcher:spanY="1" />
 
+
         <!-- Play Store -->
         <favorite
             launcher:packageName="com.android.vending" 
@@ -118,12 +119,21 @@
         </folder> 
 
 
+        <!--  screen [1]  -->
+        <!-- MyProximus -->
+        <favorite
+            launcher:packageName="be.belgacom.hello" 
+            launcher:className="be.belgacom.hello.ui.MainActivity" 
+            launcher:screen="1" 
+            launcher:x="0" 
+            launcher:y="3" />
+
         <!--  screen [2]  -->
         <!-- .WidgetProvider42 -->
         <appwidget
             launcher:packageName="com.sec.android.widgetapp.samsungapps" 
             launcher:className="com.sec.android.widgetapp.samsungapps.WidgetProvider42" 
-            launcher:screen="1" 
+            launcher:screen="2" 
             launcher:x="0" 
             launcher:y="0" 
             launcher:spanX="4" 
@@ -131,8 +141,8 @@
 			
         <!-- Folder : Social -->
         <folder
-            launcher:screen="1" 
-            launcher:title="Social"
+            launcher:screen="2" 
+            launcher:title="Social" 
             launcher:x="0" 
             launcher:y="3" >
             <favorite
@@ -153,7 +163,7 @@
         <favorite
             launcher:packageName="com.facebook.katana" 
             launcher:className="com.facebook.katana.LoginActivity" 
-            launcher:screen="1" 
+            launcher:screen="2" 
             launcher:x="1" 
             launcher:y="3" 
             launcher:spanX="1" 
@@ -164,7 +174,7 @@
         <favorite
             launcher:packageName="com.microsoft.office.word" 
             launcher:className="com.microsoft.office.apphost.LaunchActivity" 
-            launcher:screen="1" 
+            launcher:screen="2" 
             launcher:x="2" 
             launcher:y="3" 
             launcher:spanX="1" 
@@ -173,8 +183,8 @@
 
         <!-- Folder : Microsoft Apps -->
         <folder
-            launcher:screen="1" 
-            launcher:title="Microsoft Apps"
+            launcher:screen="2" 
+            launcher:title="Microsoft Apps" 
             launcher:x="3" 
             launcher:y="3" >
             <favorite

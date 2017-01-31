@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Ireland</Country>
     <CountryISO>IE</CountryISO>
     <Region>EUR</Region>
@@ -15,6 +15,7 @@
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>1</NbNetworkLock>
         <NetworkLock>27201</NetworkLock>
       </Security>

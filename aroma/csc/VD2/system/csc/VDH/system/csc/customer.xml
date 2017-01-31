@@ -1,7 +1,7 @@
-<?xml  version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Hungary</Country>
     <CountryISO>HU</CountryISO>
     <Region>EUR</Region>
@@ -15,6 +15,7 @@
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>1</NbNetworkLock>
         <NetworkLock>21670</NetworkLock>
       </Security>
@@ -172,7 +173,8 @@
         <Editable>yes</Editable>
         <BookmarkName>Sport</BookmarkName>
         <URL>http://live247.hu/sport</URL>
-      </Bookmark>      <eManual>
+      </Bookmark>
+      <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>

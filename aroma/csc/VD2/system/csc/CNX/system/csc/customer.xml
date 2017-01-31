@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Romania</Country>
     <CountryISO>RO</CountryISO>
     <Region>EUR</Region>
@@ -16,6 +16,7 @@
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>1</NbNetworkLock>
         <NetworkLock>22601</NetworkLock>
       </Security>
@@ -229,7 +230,8 @@
         <Editable>no</Editable>
         <BookmarkName>Facebook</BookmarkName>
         <URL>http://m.facebook.com</URL>
-      </Bookmark>      <eManual>
+      </Bookmark>
+      <eManual>
         <URL>http://www.samsung.com/m-manual/voda</URL>
       </eManual>
     </Browser>

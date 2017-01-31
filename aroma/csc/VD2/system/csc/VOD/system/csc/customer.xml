@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>UK</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -23,6 +23,7 @@
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>1</NbNetworkLock>
         <NetworkLock>23415</NetworkLock>
       </Security>
@@ -228,7 +229,7 @@
     <WifiProfile>
       <WifiSSID>VodafoneWiFi</WifiSSID>
       <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
-      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiEAPMethod>aka</WifiEAPMethod>
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
     <Connections>
@@ -237,19 +238,19 @@
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>vodafone UK</NetworkName>
         <ProfBrowser>Contract WAP</ProfBrowser>
-        <ProfXCAP>XCAP</ProfXCAP>
         <ProfMMS>Contract MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>vodafone UK Prepaid</NetworkName>
         <ProfBrowser>PAYG WAP</ProfBrowser>
-        <ProfXCAP>XCAP</ProfXCAP>
         <ProfMMS>PAYG MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>6</NbProfile>
+      <NbProfile>8</NbProfile>
       <Profile>
         <NetworkName>vodafone UK</NetworkName>
         <Editable>no</Editable>
@@ -367,53 +368,59 @@
       <NbSetting>3</NbSetting>
       <Setting>
         <NetworkName>vodafone UK</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>false</EnableVoLTE>
-          <EnableEPDG>true</EnableEPDG>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>vodafone UK Prepaid</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>false</EnableVoLTE>
-          <EnableEPDG>true</EnableEPDG>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-		  <SMSoIP_Domain>PS</SMSoIP_Domain>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>test bed</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>false</EnableVoLTE>
-          <EnableEPDG>true</EnableEPDG>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-		  <SMSoIP_Domain>PS</SMSoIP_Domain>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

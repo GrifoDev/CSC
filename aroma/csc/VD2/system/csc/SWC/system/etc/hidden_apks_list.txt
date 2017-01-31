@@ -1,5 +1,7 @@
 /hidden/app/app-phone-release.apk
+/hidden/app/app-release_release_signed.apk
+/hidden/app/KindleForAndroid-0.9.21-STUB.apk
+/hidden/app/mobile-android-localsearch-stub-release.apk
 /hidden/app/MySwisscom_Launcher_M_release_signed.apk
-/hidden/app/Swisscom_Cockpit_1.0.3.apk
+/hidden/app/SwisscomCockpit_v5_1.0.5_release_signed.apk
 /hidden/app/Swisscom_iO_0.9.apk
-/hidden/app/Swisscom_TV_0.9.apk

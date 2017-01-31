@@ -18,7 +18,7 @@ limitations under the License.
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <home>
         <!--  screen [0]  -->
-        <!-- .appwidget.WeatherAppWidget2x1 -->
+        <!-- .appwidget.WeatherAppWidget -->
         <appwidget
             launcher:packageName="com.sec.android.daemonapp" 
             launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" 
@@ -118,8 +118,8 @@ limitations under the License.
             <!-- Photos -->
             <favorite
                 launcher:screen="9" 
-                launcher:packageName="com.google.android.apps.photos" 
-                launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+                launcher:packageName="com.google.android.apps.photos"
+                launcher:className="com.google.android.apps.photos.home.HomeActivity" />                
         </folder> 
 
 

@@ -1,0 +1,12 @@
+11
+CatchFavorites_N.apk
+FlipboardBriefing.apk
+SamsungPayStub.apk
+smartcallprovider-open-release.apk
+CnnPanel.apk
+NaverV_N.apk
+AuthService_v1.apk
+FidoUafAsm_v15.apk
+FidoUafClient_v15.apk
+SamsungUpdates.apk
+OMCAgent.apk

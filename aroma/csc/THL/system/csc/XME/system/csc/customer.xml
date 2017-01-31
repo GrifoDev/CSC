@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>MALAYSIA</Country>
     <CountryISO>MY</CountryISO>
     <Region>SEA</Region>
@@ -120,6 +120,9 @@
         <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
         <T9Enabling>disable</T9Enabling>
       </Phone>
+      <CountryCert>
+        <CertCountryName>MALAYSIA</CertCountryName>
+      </CountryCert>
     </Main>
     <Calendar>
       <StartDay>monday</StartDay>
@@ -162,6 +165,7 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -172,32 +176,39 @@
       <GPSActivation>on</GPSActivation>
     </GPS>
     <Browser>
-      <NbBookmark>4</NbBookmark>
+      <NbBookmark>5</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>1</Index>
+        <BookmarkName>Samsung Homepage</BookmarkName>
+        <URL>http://www.samsung.com/my/dlp/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
         <BookmarkName>Google Search</BookmarkName>
         <URL>http://www.google.com/m</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <Index>2</Index>
+        <Index>3</Index>
         <BookmarkName>Google Mail</BookmarkName>
         <URL>http://mail.google.com/mail/x/</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <Index>3</Index>
+        <Index>4</Index>
         <BookmarkName>Yahoo!</BookmarkName>
         <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <Index>4</Index>
+        <Index>5</Index>
         <BookmarkName>Gameloft Special Promotion</BookmarkName>
         <URL>http://sms.gameloft.com/ab3622aa</URL>
       </Bookmark>
@@ -228,31 +239,52 @@
         <ProfMMS>Celcom 3G MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>U MOBILE</NetworkName>
+        <ProfBrowser>U Mobile Internet</ProfBrowser>
+        <ProfMMS>U Mobile MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>DIGI</NetworkName>
+        <ProfBrowser>DiGi Internet</ProfBrowser>
+        <ProfMMS>DiGi MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Yes 4G</NetworkName>
         <ProfBrowser>yesnet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>yesnet</ProfXCAP>
       </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>U MOBILE</NetworkName>
-        <ProfBrowser>U Mobile Internet</ProfBrowser>
-        <ProfMMS>U Mobile MMS</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>DIGI</NetworkName>
-        <ProfBrowser>DiGi Internet</ProfBrowser>
-        <ProfMMS>DiGi MMS</ProfMMS>
-      </ProfileHandle>
-      <NbProfile>10</NbProfile>
+      <NbProfile>12</NbProfile>
+      <Profile>
+        <NetworkName>CELCOM</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Celcom 3G MMS</ProfileName>
+        <URL>http://mms.celcom.net.my</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.128.1.242</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>celcom3g</APN>
+        </PSparam>
+      </Profile>
       <Profile>
         <NetworkName>MAXIS</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Maxis MMS</ProfileName>
         <URL>http://172.16.74.100:10021/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -267,24 +299,12 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>MAXIS</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Maxis Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>unet</APN>
-          <UserId>maxis</UserId>
-          <Password>wap</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>U MOBILE</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>U Mobile MMS</ProfileName>
         <URL>http://10.30.3.11/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -298,10 +318,12 @@
       </Profile>
       <Profile>
         <NetworkName>DIGI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>DiGi MMS</ProfileName>
         <URL>http://mms.digi.com.my/servlets/mms</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -316,10 +338,37 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>CELCOM</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Celcom Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>celcom3g</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MAXIS</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Maxis Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>unet</APN>
+          <UserId>maxis</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>U MOBILE</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>U Mobile Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -328,9 +377,11 @@
       </Profile>
       <Profile>
         <NetworkName>DIGI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>DiGi Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -338,38 +389,13 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>CELCOM</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Celcom Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>celcom3g</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>CELCOM</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Celcom 3G MMS</ProfileName>
-        <URL>http://mms.celcom.net.my</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.128.1.242</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>celcom3g</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>Yes 4G</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>ims</APN>
@@ -381,34 +407,103 @@
         <Editable>yes</Editable>
         <ProfileName>yesnet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
         <PSparam>
           <APN>yesnet</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>U MOBILE</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>DIGI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>1</NbSetting>
+      <NbSetting>3</NbSetting>
       <Setting>
         <NetworkName>Yes 4G</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SRVCCversion>0</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>DIGI</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>U MOBILE</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
       </Setting>
     </IMSSetting>
   </Settings>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>THAILAND</Country>
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
@@ -10,6 +10,10 @@
     <NetworkInfo>
       <MCCMNC>45601</MCCMNC>
       <NetworkName>Cellcard</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45611</MCCMNC>
+      <NetworkName>Seatel</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45602</MCCMNC>
@@ -66,16 +70,23 @@
       <NetworkName>Beeline</NetworkName>
       <SPName>Beeline</SPName>
     </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45611</MCCMNC>
-      <NetworkName>SEATEL</NetworkName>
-    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
       <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
+      <Network>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
       <Sound>
         <RngToneAlertType>melody</RngToneAlertType>
       </Sound>
@@ -133,15 +144,23 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Seatel</NetworkName>
+        <ProfBrowser>Seatel</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>qb</NetworkName>
         <ProfBrowser>qb web</ProfBrowser>
         <ProfMMS>qb mms</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Smart</NetworkName>
         <ProfBrowser>Smart Web</ProfBrowser>
         <ProfMMS>Smart MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Smart Web</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -159,12 +178,12 @@
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>MPT</NetworkName>
         <ProfBrowser>mptnet</ProfBrowser>
+        <ProfEmail>mptnet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>Telenor</NetworkName>
         <ProfBrowser>Telenor INTERNET</ProfBrowser>
-        <ProfMMS>Telenor MMS</ProfMMS>
         <ProfEmail>Telenor INTERNET</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
@@ -197,18 +216,13 @@
         <ProfBrowser>Beeline</ProfBrowser>
         <ProfEmail>Beeline</ProfEmail>
       </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>SEATEL</NetworkName>
-        <ProfBrowser>SEATEL</ProfBrowser>
-        <ProfIMS>IMS</ProfIMS>
-      </ProfileHandle>
       <NbProfile>20</NbProfile>
       <Profile>
         <NetworkName>Cellcard</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>CELLCARD INTERNET</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -226,6 +240,7 @@
         <ProfileName>MMS</ProfileName>
         <URL>http://mms.mobitel.com.kh/mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -240,10 +255,41 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Seatel</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Seatel</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>seatel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Seatel</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>qb</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>qb web</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -259,6 +305,7 @@
         <ProfileName>qb mms</ProfileName>
         <URL>http://mms.qbmore.mobi</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -276,6 +323,7 @@
         <ProfileName>Smart MMS</ProfileName>
         <URL>http://mmsc</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -292,6 +340,7 @@
         <Editable>yes</Editable>
         <ProfileName>Smart Web</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -306,6 +355,7 @@
         <Editable>yes</Editable>
         <ProfileName>METFONE GPRS</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -318,6 +368,7 @@
         <ProfileName>METFONE MMS</ProfileName>
         <URL>http://192.168.24.10:38090</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -334,6 +385,7 @@
         <Editable>yes</Editable>
         <ProfileName>BeeGPRS</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -349,6 +401,7 @@
         <ProfileName>BeeMMS</ProfileName>
         <URL>http://mms</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -364,6 +417,7 @@
         <NetworkName>MPT</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>mptnet</ProfileName>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -378,25 +432,9 @@
       <Profile>
         <NetworkName>Telenor</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Telenor MMS</ProfileName>
-        <URL>http://10.3.3.38:19090/was</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.3.0.13</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Telenor</NetworkName>
-        <Editable>yes</Editable>
         <ProfileName>Telenor INTERNET</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -411,6 +449,7 @@
         <Editable>yes</Editable>
         <ProfileName>Ooredoo Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -425,6 +464,7 @@
         <Editable>yes</Editable>
         <ProfileName>lte4g</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -438,6 +478,7 @@
         <NetworkName>ETL Mobile</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>etlnet</ProfileName>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -449,6 +490,7 @@
         <Editable>yes</Editable>
         <ProfileName>unitel3g</ProfileName>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -463,6 +505,7 @@
         <Editable>yes</Editable>
         <ProfileName>Beeline</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -473,44 +516,60 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>SEATEL</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>SEATEL</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>seatel</APN>
-          <UserId>true</UserId>
-          <Password>true</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>SEATEL</NetworkName>
-        <Editable>yes</Editable>
+        <NetworkName>Smart</NetworkName>
+        <Editable>no</Editable>
         <ProfileName>IMS</ProfileName>
         <Auth>normal</Auth>
-        <Protocol>other</Protocol>
-        <MTUSize>1500</MTUSize>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
         <PSparam>
           <APN>ims</APN>
         </PSparam>
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>1</NbSetting>
+      <NbSetting>2</NbSetting>
       <Setting>
-        <NetworkName>SEATEL</NetworkName>
-        <Version>2.0</Version>
+        <NetworkName>Seatel</NetworkName>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
         <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>0</SRVCCversion>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Smart</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>

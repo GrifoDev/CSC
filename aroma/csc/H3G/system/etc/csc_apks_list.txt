@@ -1,2 +1,0 @@
-/system/priv-app/appcloud_oobe_hutch_v2.2.6/appcloud_oobe_hutch_v2.2.6.apk
-/system/priv-app/ec77_signed/ec77_signed.apk

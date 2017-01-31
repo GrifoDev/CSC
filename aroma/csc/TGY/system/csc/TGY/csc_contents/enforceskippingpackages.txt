@@ -1,6 +1,0 @@
-5
-AxelSpringer.apk
-SamsungPayStub.apk
-AndroidPay_erasable_Hero.apk
-SamsungUpdates.apk
-OMCAgent.apk

@@ -1,2 +1,3 @@
-/hidden/app/Dropbox-3.0.5.2.apk
-/hidden/app/VodaMMS_4.5.318_Release-UNSIGNED_19-11-2015-11-01-11_AndroidVFSigned_zipaligned.apk
+/hidden/app/Dropbox-18.2.2.apk
+/hidden/app/Facebook_stub.apk
+/hidden/app/FBInstagram_stub.apk

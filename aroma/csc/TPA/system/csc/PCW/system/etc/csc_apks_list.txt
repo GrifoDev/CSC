@@ -1,3 +1,0 @@
-/system/priv-app/IPsecService/IPsecService.apk
-/system/priv-app/SVoiceLang_PortuguesePack_BR-release/SVoiceLang_PortuguesePack_BR-release.apk
-/system/priv-app/SVoiceLang_SpanishPack_US-release/SVoiceLang_SpanishPack_US-release.apk

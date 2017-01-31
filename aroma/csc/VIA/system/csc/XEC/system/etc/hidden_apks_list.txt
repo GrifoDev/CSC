@@ -1,7 +1,0 @@
-/hidden/app/20151215_MM2_PRO_v3-5-0_final_SignedZL.apk
-/hidden/app/DragonMania_FULL_Hero2_IGP_SPMV_ML_IAP_101_OB85.apk
-/hidden/app/emocion.apk
-/hidden/app/MShopAndroidPhoneApp-6.1.22.5-hendricks-release-OEM-sign_v6.1.4.200_UK_ES_IT.apk
-/hidden/app/Samsung_Club_samsungpro_25_08_2016_firmado.apk
-/hidden/app/SpiderManUltimatePower_FULL_Hero2_IGP_SPMV_ML_IAP_100_OB84.apk
-/hidden/app/tiendaSuscripcionNubico-pro-2.6.3-RC2-9ed4963-RELEASE.apk

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Slovenia</Country>
     <CountryISO>SI</CountryISO>
     <Region>EUR</Region>
@@ -14,6 +14,9 @@
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -59,7 +62,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <Security />
     </Main>
     <Calendar>
       <StartDay>monday</StartDay>
@@ -150,7 +152,8 @@
         <NetworkName>Si.mobil</NetworkName>
         <BookmarkName>Igre</BookmarkName>
         <URL>http://live.vodafone.com/games</URL>
-      </Bookmark>    </Browser>
+      </Bookmark>
+    </Browser>
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>

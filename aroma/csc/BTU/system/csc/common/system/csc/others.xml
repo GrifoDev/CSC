@@ -1,0 +1,7 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>  
+  <FeatureSet>
+    <CscFeature_Web_bool_EnablePriorityUserBookmark>false</CscFeature_Web_bool_EnablePriorityUserBookmark>
+    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>    
+  </FeatureSet>
+</SamsungMobileFeauture>

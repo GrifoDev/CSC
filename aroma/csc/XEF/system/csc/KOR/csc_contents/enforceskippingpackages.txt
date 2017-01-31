@@ -1,8 +1,0 @@
-7
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
-GalaxyCare.apk
-SamsungUpdates.apk
-OMCAgent.apk

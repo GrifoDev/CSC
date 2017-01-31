@@ -1,9 +1,0 @@
-/hidden/Common_app/7330_tnonline.apk
-/hidden/Common_app/MBEDRIFTSNETT-3.0.5-BUILD112-PROD_(1).apk
-/hidden/Common_app/ms1881-6.3-build135-telenor.apk
-/hidden/Common_app/NetlifeSafe-179.apk
-/hidden/Common_app/Pent-18.apk
-/hidden/Common_app/TelenorAndroid-3.2.5-release.apk
-/hidden/Common_app/TelenorClient_1.5.9.apk
-/hidden/Common_app/VG-telenor-79.apk
-/hidden/Common_app/VGTV-1111.apk

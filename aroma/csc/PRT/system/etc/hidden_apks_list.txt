@@ -1,8 +1,0 @@
-/hidden/Common_app/Audioteka_2.1.18_PLAY.apk
-/hidden/Common_app/BezpiecznaRodzina-5_2_8-20150901_PLAY.apk
-/hidden/Common_app/mplay24-android-REPO-prod-1140.apk
-/hidden/Common_app/Muzyka_na_czekanie.apk
-/hidden/Common_app/naviexpertApp-play-special-99_build-99.apk
-/hidden/Common_app/Onet_dysk_20160225_v1.93_P4signed.apk
-/hidden/Common_app/PlayFolder-1.1.0-26-build-29-02-2016.apk
-/hidden/Common_app/tidal_android-1.9.1.649.4_e2b3593-RELEASE.apk

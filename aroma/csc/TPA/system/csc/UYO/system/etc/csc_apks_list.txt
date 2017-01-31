@@ -1,3 +1,0 @@
-/system/app/samsung_club_uy_access_release_v1_3/samsung_club_uy_access_release_v1_3.apk
-/system/priv-app/SVoiceLang_PortuguesePack_BR-release/SVoiceLang_PortuguesePack_BR-release.apk
-/system/priv-app/SVoiceLang_SpanishPack_US-release/SVoiceLang_SpanishPack_US-release.apk

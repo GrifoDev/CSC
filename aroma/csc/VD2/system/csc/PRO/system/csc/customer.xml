@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Belgium</Country>
     <CountryISO>BE</CountryISO>
     <Region>EUR</Region>
@@ -78,9 +78,13 @@
           <Version>rel8</Version>
         </FastDormancy>
         <NbSOSNumber>3</NbSOSNumber>
-        <SOSNumber>100, 112, 911</SOSNumber>
+        <SOSNumber>100</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
         <NbSOSNumberNoSIM>3</NbSOSNumberNoSIM>
-        <SOSNumberNoSIM>100, 112, 911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>100</SOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
       </Network>
       <Sound>
         <ExtraSound>
@@ -140,7 +144,7 @@
       <Email>
         <EmailReceiving>
           <PollTime>off</PollTime>
-        </EmailReceiving>        
+        </EmailReceiving>
       </Email>
     </Messages>
     <Browser>
@@ -284,7 +288,7 @@
       </Profile>
       <Profile>
         <NetworkName>Proximus</NetworkName>
-		<IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Proximus Internet</ProfileName>
         <URL>http://www.proximus.be</URL>
@@ -296,20 +300,6 @@
         </Proxy>
         <PSparam>
           <APN>internet.proximus.be</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Proximus</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>ims</ProfileName>
-		<Bearer>lte</Bearer>
-        <IpVersion>ipv4v6</IpVersion>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -393,7 +383,7 @@
         </Proxy>
         <PSparam>
           <APN>internet</APN>
-		  <UserId>tango</UserId>
+          <UserId>tango</UserId>
           <Password>tango</Password>
         </PSparam>
       </Profile>
@@ -510,40 +500,53 @@
           <APN>join</APN>
         </PSparam>
       </Profile>
-	  <Profile>
+      <Profile>
         <NetworkName>Proximus</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>ims</ProfileName>
+        <Bearer>lte</Bearer>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Proximus</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Proximus XCAP</ProfileName>
         <URL>http://www.proximus.be</URL>
         <Protocol>http</Protocol>
-        <IpVersion>ipv4v6</IpVersion>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>HOS</APN>
         </PSparam>
-	  </Profile>
+      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>
       <Setting>
         <NetworkName>Proximus</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-            <EnableVoLTE>TRUE</EnableVoLTE>
-            <EnableVideocall>TRUE</EnableVideocall>
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-            <SMSoIP_Domain>PS</SMSoIP_Domain>
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-            <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
-            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
-        <RCS>
-            <EnableRCS>FALSE</EnableRCS>
-        </RCS>
       </Setting>
     </IMSSetting>
   </Settings>

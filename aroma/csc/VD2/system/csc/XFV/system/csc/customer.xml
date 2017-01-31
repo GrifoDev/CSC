@@ -1,23 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>South Africa</Country>
     <CountryISO>ZA</CountryISO>
     <Region>MEA</Region>
     <SalesCode>XFV</SalesCode>
-    <NbNetworkInfo>2</NbNetworkInfo>
+    <NbNetworkInfo>1</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>65501</MCCMNC>
       <NetworkName>Vodacom</NetworkName>
     </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>45001</MCCMNC>
-      <NetworkName>testbed</NetworkName>
-    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -77,7 +76,6 @@
           <FileType>JPG</FileType>
         </Wallpaper>
       </Display>
-      <Security />
     </Main>
     <Messages>
       <NbVoicemail>1</NbVoicemail>
@@ -182,13 +180,14 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Vodacom</NetworkName>
         <ProfBrowser>LTE.Vodacom</ProfBrowser>
         <ProfMMS>MMS.Vodacom</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>3</NbProfile>
+      <NbProfile>4</NbProfile>
       <Profile>
         <NetworkName>Vodacom</NetworkName>
         <Editable>yes</Editable>
@@ -223,53 +222,45 @@
         <Editable>yes</Editable>
         <ProfileName>IMS</ProfileName>
         <Auth>none</Auth>
-        <Bearer>lte</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>ims</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
+      <NbSetting>1</NbSetting>
       <Setting>
         <NetworkName>Vodacom</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-            <EnableVoLTE>TRUE</EnableVoLTE>
-            <EnableVideocall>FALSE</EnableVideocall>
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-            <SMSoIP_Domain>CS</SMSoIP_Domain>
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>	    
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-            <SS_CSFBwithIMSerror>FALSE</SS_CSFBwithIMSerror>
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
-        <RCS>
-            <EnableRCS>TRUE</EnableRCS>
-        </RCS>
       </Setting>
-      <Setting>
-        <NetworkName>Test Bed</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
-        <VoLTE>
-            <EnableVoLTE>TRUE</EnableVoLTE>
-            <EnableVideocall>FALSE</EnableVideocall>
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-            <SMSoIP_Domain>CS</SMSoIP_Domain>
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-            <SS_CSFBwithIMSerror>FALSE</SS_CSFBwithIMSerror>
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-        </VoLTE>
-      </Setting>  
     </IMSSetting>
   </Settings>
 </CustomerData>

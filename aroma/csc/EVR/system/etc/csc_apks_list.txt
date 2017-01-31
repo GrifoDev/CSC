@@ -1,2 +1,0 @@
-/system/priv-app/IPsecService/IPsecService.apk
-/system/priv-app/MShopAndroidPhoneApp-6.1.28.0-hendricks-release-OEM-sign_v6.1.5.200_UK_ES_IT/MShopAndroidPhoneApp-6.1.28.0-hendricks-release-OEM-sign_v6.1.5.200_UK_ES_IT.apk

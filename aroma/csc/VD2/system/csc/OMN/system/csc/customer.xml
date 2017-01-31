@@ -1,7 +1,7 @@
-<?xml  version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>ITALY</Country>
     <CountryISO>IT</CountryISO>
     <Region>EUR</Region>
@@ -18,6 +18,9 @@
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -76,7 +79,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <Security />
     </Main>
     <Messages>
       <NbVoicemail>1</NbVoicemail>
@@ -89,7 +91,7 @@
       </PushMsg>
       <SMS>
         <DeliveryReport>off</DeliveryReport>
-		<MsgTypeThreshold>
+        <MsgTypeThreshold>
           <ThresholdValue>10</ThresholdValue>
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
@@ -412,36 +414,40 @@
       <NbSetting>2</NbSetting>
       <Setting>
         <NetworkName>vodafone IT</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-		  <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>test bed</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-		  <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

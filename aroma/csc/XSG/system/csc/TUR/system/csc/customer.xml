@@ -632,137 +632,7 @@
 
         <NetworkName>TR Turkcell</NetworkName>
 
-        <Version>2.0</Version>
-
-        <EnableIMS>TRUE</EnableIMS>
-
-        <VoLTE>
-
-            <EnableVoLTE>TRUE</EnableVoLTE>
-
-            <EnableVideocall>TRUE</EnableVideocall>
-
-            <EnableEPDG>TRUE</EnableEPDG>
-
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-
-            <SMSoIP_Domain>PS</SMSoIP_Domain>
-
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-
-            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-
-        </VoLTE>
-
-        <RCS>
-
-            <EnableRCS>FALSE</EnableRCS>
-
-        </RCS>
-
-      </Setting>
-
-      <Setting>
-
-        <NetworkName>VODAFONE TR</NetworkName>
-
-        <Version>2.0</Version>
-
-        <EnableIMS>TRUE</EnableIMS>
-
-        <VoLTE>
-
-            <EnableVoLTE>TRUE</EnableVoLTE>
-
-            <EnableVideocall>TRUE</EnableVideocall>
-
-            <EnableEPDG>FALSE</EnableEPDG>
-
-            <EnableVoiceoverWIFI>FALSE</EnableVoiceoverWIFI>
-
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-
-            <SMSoIP_Domain>CS</SMSoIP_Domain>
-
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>	    
-
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-
-            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-
-        </VoLTE>
-
-        <RCS>
-
-            <EnableRCS>FALSE</EnableRCS>
-
-        </RCS>
-
-      </Setting>
-
-      <Setting>
-
-        <NetworkName>Turk Telekom</NetworkName>
-
-        <Version>2.0</Version>
-
-        <EnableIMS>TRUE</EnableIMS>
-
-        <VoLTE>
-
-            <EnableVoLTE>TRUE</EnableVoLTE>
-
-            <EnableVideocall>TRUE</EnableVideocall>
-
-            <EnableEPDG>FALSE</EnableEPDG>
-
-            <EnableVoiceoverWIFI>FALSE</EnableVoiceoverWIFI>
-
-            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-
-            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-
-            <Emregencycall_Domain>CS</Emregencycall_Domain>
-
-            <SMSoIP_Domain>CS</SMSoIP_Domain>
-
-            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>	    
-
-            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-
-            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-
-            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-
-        </VoLTE>
-
-        <RCS>
-
-            <EnableRCS>FALSE</EnableRCS>
-
-        </RCS>
-
-      </Setting>      
-
-      <Setting>
-
-        <NetworkName>Test Bed</NetworkName>
-
-        <Version>2.0</Version>
+        <Version>3.0</Version>
 
         <EnableIMS>TRUE</EnableIMS>
 
@@ -780,7 +650,141 @@
 
             <Emregencycall_Domain>CS</Emregencycall_Domain>
 
-            <SMSoIP_Domain>PS</SMSoIP_Domain>
+            <EnableSMSoverIP>true</EnableSMSoverIP>
+
+            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
+
+            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
+
+            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
+
+            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+			
+			<SRVCCversion>10</SRVCCversion>
+
+        </VoLTE>
+
+        <RCS>
+
+            <EnableRCS>FALSE</EnableRCS>
+
+        </RCS>
+
+      </Setting>
+
+      <Setting>
+
+        <NetworkName>VODAFONE TR</NetworkName>
+
+        <Version>3.0</Version>
+
+        <EnableIMS>TRUE</EnableIMS>
+
+        <VoLTE>
+
+            <EnableVoLTE>TRUE</EnableVoLTE>
+
+            <EnableVideocall>TRUE</EnableVideocall>
+
+            <EnableVoiceoverWIFI>FALSE</EnableVoiceoverWIFI>
+
+            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
+
+            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
+
+            <Emregencycall_Domain>CS</Emregencycall_Domain>
+
+            <EnableSMSoverIP>false</EnableSMSoverIP>
+
+            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>	    
+
+            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
+
+            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
+
+            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+			
+			<SRVCCversion>10</SRVCCversion>
+
+        </VoLTE>
+
+        <RCS>
+
+            <EnableRCS>FALSE</EnableRCS>
+
+        </RCS>
+
+      </Setting>
+
+      <Setting>
+
+        <NetworkName>Turk Telekom</NetworkName>
+
+        <Version>3.0</Version>
+
+        <EnableIMS>TRUE</EnableIMS>
+
+        <VoLTE>
+
+            <EnableVoLTE>TRUE</EnableVoLTE>
+
+            <EnableVideocall>TRUE</EnableVideocall>
+
+            <EnableEPDG>FALSE</EnableEPDG>
+
+            <EnableVoiceoverWIFI>FALSE</EnableVoiceoverWIFI>
+
+            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
+
+            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
+
+            <Emregencycall_Domain>CS</Emregencycall_Domain>
+
+            <EnableSMSoverIP>true</EnableSMSoverIP>
+
+            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>	    
+
+            <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
+
+            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
+
+            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+			
+			<SRVCCversion>10</SRVCCversion>
+
+        </VoLTE>
+
+        <RCS>
+
+            <EnableRCS>FALSE</EnableRCS>
+
+        </RCS>
+
+      </Setting>      
+
+      <Setting>
+
+        <NetworkName>Test Bed</NetworkName>
+
+        <Version>3.0</Version>
+
+        <EnableIMS>TRUE</EnableIMS>
+
+        <VoLTE>
+
+            <EnableVoLTE>TRUE</EnableVoLTE>
+
+            <EnableVideocall>TRUE</EnableVideocall>
+
+            <EnableVoiceoverWIFI>TRUE</EnableVoiceoverWIFI>
+
+            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
+
+            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
+
+            <Emregencycall_Domain>CS</Emregencycall_Domain>
+
+            <EnableSMSoverIP>true</EnableSMSoverIP>
 
             <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
 
@@ -789,6 +793,8 @@
             <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
 
             <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+			
+			<SRVCCversion>10</SRVCCversion>
 
         </VoLTE>
 

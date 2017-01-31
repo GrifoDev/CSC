@@ -1,6 +1,9 @@
-5
+8
+GalaxyCare.apk
+AuthService_v1.apk
+FidoUafAsm_v15.apk
+FidoUafClient_v15.apk
 AxelSpringer.apk
 MSSkype_stub.apk
-GalaxyCare.apk
 SamsungUpdates.apk
 OMCAgent.apk

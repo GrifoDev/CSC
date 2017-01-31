@@ -1,6 +1,0 @@
-5
-NaverTvCast.apk
-AxelSpringer.apk
-SamsungPayStub.apk
-SamsungUpdates.apk
-OMCAgent.apk

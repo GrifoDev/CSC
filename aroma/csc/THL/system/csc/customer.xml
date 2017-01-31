@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>THAILAND</Country>
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
@@ -69,6 +69,15 @@
           <NetworkName>dtac TriNet</NetworkName>
           <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <RngToneAlertType>melody</RngToneAlertType>
@@ -94,6 +103,7 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -173,6 +183,7 @@
         <ProfileName>AIS MMS</ProfileName>
         <URL>http://mms.mobilelife.co.th</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -190,6 +201,7 @@
         <Editable>yes</Editable>
         <ProfileName>AIS Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -205,6 +217,7 @@
         <Editable>yes</Editable>
         <ProfileName>AIS Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -220,6 +233,7 @@
         <ProfileName>AIS MMS</ProfileName>
         <URL>http://mms.mobilelife.co.th</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -237,6 +251,7 @@
         <Editable>yes</Editable>
         <ProfileName>dtac internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -247,11 +262,28 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>AIS 3G2100</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>dtac</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>dtac MMS</ProfileName>
         <URL>http://mms.dtac.co.th:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -269,6 +301,7 @@
         <Editable>yes</Editable>
         <ProfileName>dtac IMS</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -284,6 +317,7 @@
         <Editable>yes</Editable>
         <ProfileName>dtac internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -299,6 +333,7 @@
         <ProfileName>dtac MMS</ProfileName>
         <URL>http://mms2.dtac.co.th:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -316,6 +351,7 @@
         <ProfileName>True GPRS MMS</ProfileName>
         <URL>http://mms.truelife.com:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -334,6 +370,7 @@
         <Editable>yes</Editable>
         <ProfileName>True GPRS Inet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -348,6 +385,7 @@
         <Editable>yes</Editable>
         <ProfileName>TRUE-H INTERNET</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -365,6 +403,7 @@
         <ProfileName>TRUE-H MMS</ProfileName>
         <URL>http://mms.trueh.com:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -379,11 +418,28 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>True Move H</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>TRUE-H IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Real Future</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>TRUE-H INTERNET</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -401,6 +457,7 @@
         <ProfileName>TRUE-H MMS</ProfileName>
         <URL>http://mms.trueh.com:8002/</URL>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -412,6 +469,22 @@
           <APN>hmms</APN>
           <UserId>true</UserId>
           <Password>true</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Real Future</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>TRUE-H IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -419,6 +492,7 @@
         <Editable>yes</Editable>
         <ProfileName>my</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -428,121 +502,96 @@
           <APN>internet</APN>
         </PSparam>
       </Profile>
-      <Profile>
-        <NetworkName>AIS 3G2100</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>IMS</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>True Move H</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>TRUE-H IMS</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Real Future</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>TRUE-H IMS</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>4</NbSetting>
       <Setting>
         <NetworkName>dtac TriNet</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
       </Setting>
       <Setting>
         <NetworkName>True Move H</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>true</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-        </VoLTE>
-      </Setting>
-      <Setting>
-        <NetworkName>Real Future</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>true</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-        </VoLTE>
-      </Setting>
-      <Setting>
-        <NetworkName>AIS 3G2100</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>Real Future</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>AIS 3G2100</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
       </Setting>
     </IMSSetting>
   </Settings>

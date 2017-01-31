@@ -1,3 +1,0 @@
-/system/priv-app/3MobileServices-explicit-release_v0.9.14_2015_10_14/3MobileServices-explicit-release_v0.9.14_2015_10_14.apk
-/system/priv-app/DDC_3SE_standaloneclient-2.0.6_update/DDC_3SE_standaloneclient-2.0.6_update.apk
-/system/priv-app/IPsecService/IPsecService.apk

@@ -1,67 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>PHILIPPINES</Country>
     <CountryISO>PH</CountryISO>
     <Region>SEA</Region>
     <SalesCode>SMA</SalesCode>
-    <NbNetworkInfo>15</NbNetworkInfo>
+    <NbNetworkInfo>8</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>51503</MCCMNC>
       <NetworkName>Smart</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>51505</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>515034</MCCMNC>
       <NetworkName>SUN</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>515034</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515035</MCCMNC>
       <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>515035</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>515036</MCCMNC>
       <NetworkName>SUN</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>515036</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515037</MCCMNC>
       <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>515037</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>515038</MCCMNC>
       <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>515038</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>515039</MCCMNC>
       <NetworkName>SUN</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>515039</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>51505</MCCMNC>
@@ -92,12 +64,19 @@
           <NetworkName>SUN</NetworkName>
           <MaxPDP2G>1</MaxPDP2G>
         </MaxPDP>
-        <NbSOSNumber>2</NbSOSNumber>
-        <SOSNumber>911</SOSNumber>
-        <SOSNumber>112</SOSNumber>
-        <NbSOSNumberNoSIM>2</NbSOSNumberNoSIM>
-        <SOSNumberNoSIM>911</SOSNumberNoSIM>
-        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>911,112</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>911,112</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <RngToneAlertType>melody</RngToneAlertType>
@@ -127,7 +106,7 @@
           <FileType>JPG</FileType>
         </LockScreenBG>
         <NbWallpaper>1</NbWallpaper>
-        <Wallpaper src="/Customer/SMA/Wallpaper/Smart_2560x2560_G925F_dodge.jpg" width="2560" height="1440" default="true">
+        <Wallpaper src="/Customer/SMA/Wallpaper/Smart_2560x2560_G925F_dodge.jpg" width="2560" height="1440" usedWithLockScreen="true" default="true">
           <Position>1</Position>
           <FileType>JPG</FileType>
         </Wallpaper>
@@ -146,6 +125,7 @@
     <Messages>
       <SMS>
         <MaxRecipient>20</MaxRecipient>
+        <CellBroadcast>on</CellBroadcast>
       </SMS>
       <MMS>
         <MmsSending>
@@ -180,7 +160,7 @@
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>SUN LTE</NetworkName>
+        <NetworkName>SUN</NetworkName>
         <ProfBrowser>SUN INTERNET</ProfBrowser>
         <ProfMMS>SUN MMS</ProfMMS>
       </ProfileHandle>
@@ -192,7 +172,7 @@
       </ProfileHandle>
       <NbProfile>4</NbProfile>
       <Profile>
-        <NetworkName>SUN LTE</NetworkName>
+        <NetworkName>SUN</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>SUN MMS</ProfileName>
         <URL>http://mmscenter.suncellular.com.ph</URL>
@@ -206,18 +186,6 @@
         </Proxy>
         <PSparam>
           <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>SUN LTE</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>SUN INTERNET</ProfileName>
-        <URL>www.smart.com.ph</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>minternet</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -241,12 +209,24 @@
         <NetworkName>Smart</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Smart Internet</ProfileName>
-        <URL>www.smart.com.ph</URL>
+        <URL>http://www.smart.com.ph</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SUN</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SUN INTERNET</ProfileName>
+        <URL>http://www.suncellular.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>minternet</APN>
         </PSparam>
       </Profile>
     </Connections>

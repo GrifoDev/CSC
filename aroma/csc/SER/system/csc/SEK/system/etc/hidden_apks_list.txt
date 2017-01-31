@@ -1,3 +1,0 @@
-/hidden/app/megogo-2.9.11.apk
-/hidden/app/megogo-vendor_marker.apk
-/hidden/app/Smart_Tutor_Stub_V1.0.0.4_b6.apk

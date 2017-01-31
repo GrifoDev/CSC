@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <home>
-        <!--  screen [0]  -->
+        <!--  screen [1]  -->
         <!-- .appwidget.WeatherAppWidget -->
         <appwidget
             launcher:packageName="com.sec.android.daemonapp" 
@@ -24,7 +24,7 @@
             launcher:spanY="1" />
 
 
-        <!-- E-Mail -->
+        <!-- Email -->
         <favorite
             launcher:packageName="com.samsung.android.spay"
             launcher:className="com.samsung.android.spay.ui.SpayMainActivity"
@@ -36,7 +36,8 @@
             launcher:spanX="1"
             launcher:spanY="1" />
 
-        <!-- Kamera -->
+
+        <!-- Camera -->
         <favorite
             launcher:packageName="com.sec.android.app.camera" 
             launcher:className="com.sec.android.app.camera.Camera" 
@@ -45,6 +46,7 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
+
 
         <!-- Play Store -->
         <favorite
@@ -132,7 +134,7 @@
         <!-- MeinVodafone -->
         <favorite
             launcher:packageName="com.appseleration.android.selfcare" 
-            launcher:className="com.vis.meinvodafone.ui.activity.StartActivity" 
+            launcher:className="com.vis.meinvodafone.view.activity.launch.VfLaunchBaseActivity" 
             launcher:screen="1" 
             launcher:x="0" 
             launcher:y="3" />
@@ -177,7 +179,8 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-
+			
+			
         <!-- Word -->
         <favorite
             launcher:packageName="com.microsoft.office.word" 
@@ -192,24 +195,21 @@
         <!-- Folder : Microsoft Apps -->
         <folder
             launcher:screen="2" 
-            launcher:title="Microsoft Apps"
+            launcher:title="Microsoft Apps" 
             launcher:x="3" 
             launcher:y="3" >
             <favorite
                 launcher:screen="0" 
                 launcher:packageName="com.microsoft.office.excel" 
                 launcher:className="com.microsoft.office.apphost.LaunchActivity" />
-            <!-- PowerPoint -->
             <favorite
                 launcher:screen="1" 
                 launcher:packageName="com.microsoft.office.powerpoint" 
                 launcher:className="com.microsoft.office.apphost.LaunchActivity" />
-            <!-- OneDrive -->
             <favorite
                 launcher:screen="2" 
                 launcher:packageName="com.microsoft.skydrive" 
                 launcher:className="com.microsoft.skydrive.MainActivity" />
-            <!-- OneNote -->
             <favorite
                 launcher:screen="3" 
                 launcher:packageName="com.microsoft.office.onenote" 

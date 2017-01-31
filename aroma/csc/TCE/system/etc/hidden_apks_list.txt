@@ -1,7 +1,0 @@
-/hidden/Common_app/CarsRacing_Samsung_Hero2_IGP_TS_LATAM_ML_101.apk
-/hidden/Common_app/Claroshop_v2.0.60.apk
-/hidden/Common_app/IceAgeScratVentures_Samsung_Hero2_IGP_LATAM_ML_102.apk
-/hidden/Common_app/MidnightPoolMobilePremium_SMS_Samsung_Hero2_L_IGP_LATAM_ML_104_CU17.apk
-/hidden/Common_app/pvz_v2.3.71_2G-3G-4G_androidm.apk
-/hidden/Common_app/SpiderManUltimatePower_Samsung_Hero2_IGP_LATAM_ML_101_CU21.apk
-/hidden/Common_app/Start-Release_4.4.6.3_2601_1800_AMX_Telcel_B1.apk

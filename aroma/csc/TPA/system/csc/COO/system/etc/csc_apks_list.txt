@@ -1,4 +1,0 @@
-/system/app/smarttutor_v1.5_b153/smarttutor_v1.5_b153.apk
-/system/app/UserManual/UserManual.apk
-/system/priv-app/SVoiceLang_PortuguesePack_BR-release/SVoiceLang_PortuguesePack_BR-release.apk
-/system/priv-app/SVoiceLang_SpanishPack_US-release/SVoiceLang_SpanishPack_US-release.apk

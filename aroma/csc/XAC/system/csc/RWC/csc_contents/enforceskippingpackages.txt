@@ -1,8 +1,0 @@
-7
-NaverTvCast.apk
-AxelSpringer.apk
-SamsungPayStub.apk
-CoreApps.apk
-SimpleSharing.apk
-SamsungUpdates.apk
-OMCAgent.apk

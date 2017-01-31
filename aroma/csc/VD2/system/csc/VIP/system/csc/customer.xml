@@ -1,7 +1,7 @@
-<?xml  version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Croatia</Country>
     <CountryISO>HR</CountryISO>
     <Region>EUR</Region>
@@ -14,6 +14,9 @@
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -59,7 +62,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <Security />
     </Main>
     <Messages>
       <NbVoicemail>1</NbVoicemail>

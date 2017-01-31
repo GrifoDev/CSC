@@ -504,17 +504,19 @@
 
       <ProfileHandle>
 
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
 
         <NetworkName>TelkomSA</NetworkName>
 
         <ProfBrowser>TelkomSA internet</ProfBrowser>
 
         <ProfMMS>TelkomSA mms</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
 
       </ProfileHandle>
 
-      <NbProfile>14</NbProfile>
+      <NbProfile>16</NbProfile>
 
       <Profile>
 
@@ -953,13 +955,62 @@
         </PSparam>
 
       </Profile>
+      <Profile>
+        <NetworkName>TelkomSA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TelkomSA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
 
     </Connections>
 
     <IMSSetting>
 
-      <NbSetting>1</NbSetting>
-
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>TelkomSA</NetworkName>
+        <Version>1.0</Version>
+        <EnableIMS>TRUE</EnableIMS>
+        <VoLTE>
+            <EnableVoLTE>TRUE</EnableVoLTE>
+            <EnableVideocall>TRUE</EnableVideocall>
+            <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
+            <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
+            <Emregencycall_Domain>PS_ONLY_VOLTEREGIED</Emregencycall_Domain>
+            <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>	    
+            <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
+            <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
+            <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+            <EnableSMSoverIP>TRUE</EnableSMSoverIP>
+            <SRVCCversion>10</SRVCCversion>
+            <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+        </VoLTE>
+      </Setting>
+      
       <Setting>
 
         <NetworkName>Cell C</NetworkName>
@@ -999,7 +1050,7 @@
         </VoLTE>
 
       </Setting>
-
+	  
     </IMSSetting>
 
   </Settings>

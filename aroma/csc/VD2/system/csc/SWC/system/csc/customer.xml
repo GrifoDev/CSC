@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Switzerland</Country>
     <CountryISO>CH</CountryISO>
     <Region>EUR</Region>
@@ -22,6 +22,9 @@
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -91,7 +94,6 @@
           <FileType>JPG</FileType>
         </Wallpaper>
       </Display>
-      <Security />
     </Main>
     <Messages>
       <NbVoicemail>1</NbVoicemail>
@@ -152,14 +154,15 @@
         <NetworkName>Swisscom</NetworkName>
         <Editable>no</Editable>
         <BookmarkName>Swisscom</BookmarkName>
-        <URL>http://www.swisscom.ch?campID=PRECONF_MOBDEV_BOOKM_SC</URL>
+        <URL>http://www.swisscom.ch/?campID=PRECONF_MOBDEV_BOOKM_SC</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Swisscom</NetworkName>
         <Editable>no</Editable>
         <BookmarkName>Bluewin</BookmarkName>
-        <URL>http://www.bluewin.ch?campID=PRECONF_MOBDEV_BOOKM_BW</URL>
-      </Bookmark>      <eManual>
+        <URL>http://www.bluewin.ch/?campID=PRECONF_MOBDEV_BOOKM_BW</URL>
+      </Bookmark>
+      <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
@@ -169,6 +172,12 @@
       <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
       <WifiEAPMethod>sim</WifiEAPMethod>
       <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <WifiSSID>Free_Swisscom_Auto_Login</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>2</WifiPriority>
     </WifiProfile>
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
@@ -272,9 +281,9 @@
         <PSparam>
           <APN>event.swisscom.ch</APN>
         </PSparam>
-      </Profile>      
-      <Profile>        
-        <NetworkName>Swisscom FL</NetworkName>        
+      </Profile>
+      <Profile>
+        <NetworkName>Swisscom FL</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom IMS</ProfileName>
@@ -282,7 +291,7 @@
         <Protocol>other</Protocol>
         <MTUSize>1280</MTUSize>
         <PSparam>
-           <APN>ims</APN>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -302,56 +311,59 @@
       <NbSetting>3</NbSetting>
       <Setting>
         <NetworkName>Swisscom</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVideocall>FALSE</EnableVideocall>
-          <EnableEPDG>TRUE</EnableEPDG>
-          <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>CS</Emregencycall_Domain>
-          <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
-          <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-          <SMSoIP_Domain>CS</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>Swisscom FL</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVideocall>FALSE</EnableVideocall>
-          <EnableEPDG>TRUE</EnableEPDG>
-          <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>CS</Emregencycall_Domain>
-          <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
-          <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-          <SMSoIP_Domain>CS</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>test bed</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVideocall>FALSE</EnableVideocall>
-          <EnableEPDG>TRUE</EnableEPDG>
-          <EnableVoLTEindicator>TRUE</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>CS</Emregencycall_Domain>
-          <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
-          <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>TRUE</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-          <SMSoIP_Domain>CS</SMSoIP_Domain>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

@@ -91,20 +91,25 @@ limitations under the License.
             <favorite
                 launcher:screen="5" 
                 launcher:packageName="com.google.android.apps.docs" 
-                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
-            <!-- Play Movies & TV -->
+                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />			
+            <!-- Play Music -->
             <favorite
                 launcher:screen="6" 
+                launcher:packageName="com.google.android.music" 
+                launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+            <!-- Play Movies & TV -->
+            <favorite
+                launcher:screen="7" 
                 launcher:packageName="com.google.android.videos" 
                 launcher:className="com.google.android.youtube.videos.EntryPoint" />
             <!-- Hangouts -->
             <favorite
-                launcher:screen="7" 
+                launcher:screen="8" 
                 launcher:packageName="com.google.android.talk" 
                 launcher:className="com.google.android.talk.SigningInActivity" />
             <!-- Photos -->
             <favorite
-                launcher:screen="8" 
+                launcher:screen="9" 
                 launcher:packageName="com.google.android.apps.photos" 
                 launcher:className="com.google.android.apps.photos.home.HomeActivity" />
     </folder> 
@@ -232,12 +237,6 @@ limitations under the License.
         launcher:screen="0" 
         launcher:packageName="com.sec.android.app.popupcalculator" 
         launcher:className="com.sec.android.app.popupcalculator.Calculator" />
-
-    <!-- Play Music -->
-    <favorite
-        launcher:screen="0" 
-        launcher:packageName="com.google.android.music" 
-        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
 
     <!-- Memo -->
     <favorite

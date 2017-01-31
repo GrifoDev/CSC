@@ -1,9 +1,12 @@
-12
-NaverTvCast.apk
-smartcallprovider-open-release.apk
-AxelSpringer.apk
+16
 SamsungPayStub.apk
+smartcallprovider-open-release.apk
 AndroidPay_erasable_Hero.apk
+NaverV_N.apk
+AuthService_v1.apk
+FidoUafAsm_v15.apk
+FidoUafClient_v15.apk
+AxelSpringer.apk
 MSSkype_stub.apk
 imsservice.apk
 ImsSettings.apk
@@ -11,3 +14,4 @@ ImsLogger+.apk
 ImsTelephonyService.apk
 SamsungUpdates.apk
 OMCAgent.apk
+vsimservice.apk

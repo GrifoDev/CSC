@@ -98,19 +98,24 @@ limitations under the License.
                 launcher:screen="5" 
                 launcher:packageName="com.google.android.apps.docs" 
                 launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
-            <!-- Play Movies -->
+            <!-- Play Music -->
             <favorite
                 launcher:screen="6" 
+                launcher:packageName="com.google.android.music" 
+                launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+            <!-- Play Movies -->
+            <favorite
+                launcher:screen="7" 
                 launcher:packageName="com.google.android.videos" 
                 launcher:className="com.google.android.youtube.videos.EntryPoint" />
             <!-- Hangouts -->
             <favorite
-                launcher:screen="7" 
+                launcher:screen="8" 
                 launcher:packageName="com.google.android.talk" 
                 launcher:className="com.google.android.talk.SigningInActivity" />
             <!-- Photos -->
             <favorite
-                launcher:screen="8" 
+                launcher:screen="9" 
                 launcher:packageName="com.google.android.apps.photos" 
                 launcher:className="com.google.android.apps.photos.home.HomeActivity" />
     </folder> 

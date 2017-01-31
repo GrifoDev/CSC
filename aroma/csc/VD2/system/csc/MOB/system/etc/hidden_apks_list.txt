@@ -1,3 +1,3 @@
 /hidden/app/a1apps-release-vc16-2.5_aligned_M_compatible.apk
-/hidden/app/Dropbox-3.0.5.2.apk
-/hidden/app/mein-a1-v4.6-b27-PROD_aligned_M_compliant.apk
+/hidden/app/Dropbox-18.2.2.apk
+/hidden/app/mein-a1-v4.9-b34-PROD.aligned.apk

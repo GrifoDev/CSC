@@ -1,5 +1,6 @@
-/hidden/app/Dropbox-3.0.5.2.apk
-/hidden/app/MiVodafone_3.6.2_prod.apk
+/hidden/app/4.0.4_EntregaOctubre_PROD(105).apk
+/hidden/app/Dropbox-18.2.2.apk
+/hidden/app/Facebook_stub.apk
+/hidden/app/FBInstagram_stub.apk
 /hidden/app/Samsung_Club_samsungpro_23_02_2016_firmado.apk
-/hidden/app/VodafoneStart-4.11.1-prod-release-AndroidVFSigned_zipaligned.apk
-/hidden/app/VodaMMS_4.5.318_Release-UNSIGNED_19-11-2015-11-01-11_AndroidVFSigned_zipaligned.apk
+/hidden/app/VodafoneStart-5.6.3bis-prod-release-AndroidVFSigned_zipaligned.apk

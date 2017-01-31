@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>VIETNAM</Country>
     <CountryISO>VN</CountryISO>
     <Region>SEA</Region>
@@ -42,6 +42,15 @@
         <MaxPDP>
           <MaxPDP2G>3</MaxPDP2G>
         </MaxPDP>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <RngToneAlertType>melody</RngToneAlertType>

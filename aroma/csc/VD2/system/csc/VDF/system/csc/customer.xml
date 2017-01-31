@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>The Netherlands</Country>
     <CountryISO>NL</CountryISO>
     <Region>EUR</Region>
@@ -14,6 +14,9 @@
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -79,12 +82,12 @@
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
         <MaxRecipient>20</MaxRecipient>
-        <CellBroadcast>on</CellBroadcast>        
+        <CellBroadcast>on</CellBroadcast>
       </SMS>
       <MMS>
         <MmsSending>
-          <ReqDeliveryRep>off</ReqDeliveryRep>
-          <ReqReadRep>off</ReqReadRep>
+          <ReqDeliveryRep>on</ReqDeliveryRep>
+          <ReqReadRep>on</ReqReadRep>
           <MessageSize>300</MessageSize>
           <CreationMode>warning</CreationMode>
         </MmsSending>
@@ -171,12 +174,12 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>vodafone NL</NetworkName>
         <ProfBrowser>Vodafone Internet</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
-        <ProfXCAP>Vodafone Internet</ProfXCAP>		
+        <ProfXCAP>Vodafone Internet</ProfXCAP>
       </ProfileHandle>
       <NbProfile>3</NbProfile>
       <Profile>
@@ -191,6 +194,18 @@
           <APN>live.vodafone.com</APN>
           <UserId>vodafone</UserId>
           <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -212,42 +227,28 @@
           <Password>vodafone</Password>
         </PSparam>
       </Profile>
-	  <Profile>
-        <NetworkName>vodafone NL</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>no</Editable>
-        <ProfileName>IMS</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>
       <Setting>
         <NetworkName>vodafone NL</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
-		<RCS>
-          <EnableRCS>TRUE</EnableRCS>
-        </RCS>
         <VoLTE>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
-    </IMSSetting>	
+    </IMSSetting>
   </Settings>
 </CustomerData>

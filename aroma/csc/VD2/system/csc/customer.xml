@@ -1,23 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Germany</Country>
     <CountryISO>DE</CountryISO>
     <Region>EUR</Region>
     <SalesCode>VD2</SalesCode>
-    <NbNetworkInfo>2</NbNetworkInfo>
+    <NbNetworkInfo>3</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>26202</MCCMNC>
       <NetworkName>Vodafone.de</NetworkName>
     </NetworkInfo>
-	<NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>45001</MCCMNC>
-      <NetworkName>test bed</NetworkName>          
-    </NetworkInfo> 
+      <NetworkName>test bed</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26209</MCCMNC>
+      <NetworkName>Vodafone.de</NetworkName>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -95,7 +102,7 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
-        <NbMMSView>1</NbMMSView>		
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -114,21 +121,21 @@
           <Incoming>
             <MailboxType>imap4</MailboxType>
             <ServAddr>imap.vodafone.de</ServAddr>
-            <Port>143</Port>
-            <Secure>off</Secure>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
           </Incoming>
           <Outgoing>
             <ServAddr>smtp.vodafone.de</ServAddr>
-            <Port>25</Port>
+            <Port>465</Port>
             <SmtpAuth>on</SmtpAuth>
-            <Secure>off</Secure>
+            <Secure>ssl</Secure>
           </Outgoing>
         </Account>
       </Email>
     </Messages>
-	<ActiveSync>
+    <ActiveSync>
       <EasEmail>
-        <SizeEmail>300K</SizeEmail>
+        <SizeEmail>300k</SizeEmail>
       </EasEmail>
     </ActiveSync>
     <Browser>
@@ -243,38 +250,40 @@
       <NbSetting>2</NbSetting>
       <Setting>
         <NetworkName>Vodafone.de</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>test bed</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

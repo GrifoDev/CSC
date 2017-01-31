@@ -1,4 +1,0 @@
-/hidden/Common_app/ABHybridAftonbladet-3.3.18.apk
-/hidden/Common_app/MyContacts_2.0.4.apk
-/hidden/Common_app/Telenor-productionAPI.apk
-/hidden/Common_app/TelenorSafeReport.apk

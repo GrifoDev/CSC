@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>PHILIPPINES</Country>
     <CountryISO>PH</CountryISO>
     <Region>SEA</Region>
@@ -25,31 +25,31 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>51505</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515034</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515035</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515036</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515037</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515038</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>515039</MCCMNC>
-      <NetworkName>SUN LTE</NetworkName>
+      <NetworkName>SUN</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -79,6 +79,15 @@
         <SOSNumber>911,112</SOSNumber>
         <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
         <SOSNumberNoSIM>911,112</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <RngToneAlertType>melody</RngToneAlertType>
@@ -101,6 +110,7 @@
       <SMS>
         <DeliveryReport>off</DeliveryReport>
         <MaxRecipient>20</MaxRecipient>
+        <CellBroadcast>on</CellBroadcast>
       </SMS>
       <MMS>
         <MmsSending>
@@ -112,6 +122,7 @@
           <Home>manual</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
@@ -135,20 +146,9 @@
       <NbProfileHandle>5</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>Globe Postpaid</NetworkName>
-        <ProfBrowser>myGlobe Internet</ProfBrowser>
-        <ProfMMS>myGlobe MMS</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>Globe Prepaid</NetworkName>
-        <ProfBrowser>myGlobe INET</ProfBrowser>
-        <ProfMMS>myGlobe MMS</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
-        <NetworkName>ABS-CBN</NetworkName>
-        <ProfBrowser>ABS-CBN MOBILE</ProfBrowser>
+        <NetworkName>SUN</NetworkName>
+        <ProfBrowser>SUN INTERNET</ProfBrowser>
+        <ProfMMS>SUN MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -157,12 +157,36 @@
         <ProfMMS>SmartMMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>SUN LTE</NetworkName>
-        <ProfBrowser>SUN INTERNET</ProfBrowser>
-        <ProfMMS>SUN MMS</ProfMMS>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <ProfBrowser>myGlobe INET</ProfBrowser>
+        <ProfMMS>myGlobe MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
       </ProfileHandle>
-      <NbProfile>9</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <ProfBrowser>myGlobe Internet</ProfBrowser>
+        <ProfMMS>myGlobe MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>ABS-CBN</NetworkName>
+        <ProfBrowser>ABS-CBN MOBILE</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>11</NbProfile>
+      <Profile>
+        <NetworkName>ABS-CBN</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>ABS-CBN MOBILE</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.abs-cbn.com.ph</APN>
+        </PSparam>
+      </Profile>
       <Profile>
         <NetworkName>Globe Postpaid</NetworkName>
         <Editable>yes</Editable>
@@ -201,7 +225,6 @@
         <NetworkName>Globe Postpaid</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>myGlobe Internet</ProfileName>
-        <URL>http://www.google.com.ph</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -213,7 +236,6 @@
         <NetworkName>Globe Prepaid</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>myGlobe INET</ProfileName>
-        <URL>http://www.google.com.ph</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -222,15 +244,20 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>ABS-CBN</NetworkName>
+        <NetworkName>SUN</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>ABS-CBN MOBILE</ProfileName>
-        <URL>http://www.google.com.ph</URL>
+        <ProfileName>SUN MMS</ProfileName>
+        <URL>http://mmscenter.suncellular.com.ph</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>202.138.159.78</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
         <PSparam>
-          <APN>internet.abs-cbn.com.ph</APN>
+          <APN>mms</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -254,7 +281,6 @@
         <NetworkName>Smart</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Smart Internet</ProfileName>
-        <URL>http://www.google.com.ph</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -263,27 +289,9 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>SUN LTE</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>SUN MMS</ProfileName>
-        <URL>http://mmscenter.suncellular.com.ph</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>202.138.159.78</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>SUN LTE</NetworkName>
+        <NetworkName>SUN</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>SUN INTERNET</ProfileName>
-        <URL>http://www.google.com.ph</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -291,6 +299,69 @@
           <APN>minternet</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>

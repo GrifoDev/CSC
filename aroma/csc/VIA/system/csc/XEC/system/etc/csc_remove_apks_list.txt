@@ -1,2 +1,0 @@
-/system/priv-app/ec58_signed/ec58_signed.apk
-/system/priv-app/PHONE-MShopAndroidPhoneApp-6.1.11.31-hendricks-release-OEM-sign_v6.1.0.200_UK_ES_IT/PHONE-MShopAndroidPhoneApp-6.1.11.31-hendricks-release-OEM-sign_v6.1.0.200_UK_ES_IT.apk

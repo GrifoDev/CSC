@@ -1,2 +1,0 @@
-/hidden/Common_app/MyOptusAndroid_v3.59.preload_20160623.apk
-/hidden/Common_app/mySamsung_stub-release.apk

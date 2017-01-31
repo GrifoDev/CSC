@@ -1,4 +1,0 @@
-/hidden/app/Amazon_AppSuite_Widget_v6.0.00.2.apk
-/hidden/app/KindleForAndroid-0.9.21-STUB.apk
-/hidden/app/MShopAndroidPhoneApp-6.2.75.5-hendricks-release-OEM-sign_v6.2.0.200_UK_ES_IT.apk
-/hidden/app/(Shazam)_Shazam_6.1.1.apk

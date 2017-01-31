@@ -1,4 +1,0 @@
-/system/app/AppWidget-1.0_2612-release/AppWidget-1.0_2612-release.apk
-/system/app/BellMobileTVStub/BellMobileTVStub.apk
-/system/app/MyBell_StubApp_5_Feb/MyBell_StubApp_5_Feb.apk
-/system/app/Push_To_Talk-sdk23/Push_To_Talk-sdk23.apk

@@ -1,7 +1,7 @@
-<?xml  version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Austria</Country>
     <CountryISO>AT</CountryISO>
     <Region>EUR</Region>
@@ -15,6 +15,7 @@
   <Settings>
     <Main>
       <Security>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>1</NbNetworkLock>
         <NetworkLock>23201</NetworkLock>
       </Security>
@@ -124,7 +125,7 @@
         <Editable>yes</Editable>
         <BookmarkName>A1 World</BookmarkName>
         <URL>http://world.a1.net</URL>
-      </Bookmark>
+      </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/voda</URL>
       </eManual>
@@ -185,23 +186,23 @@
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>
-     <Setting>
+      <Setting>
         <NetworkName>A1</NetworkName>
-        <Version>2.0</Version>
-        <EnableIMS>TRUE</EnableIMS>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>PS</SMSoIP_Domain>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableVoiceoverWIFI>FALSE</EnableVoiceoverWIFI>
-          <EnableVideocall>FALSE</EnableVideocall>
-          <EnableVoLTEindicator>FALSE</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>CS</Emregencycall_Domain>
-          <SS_Domain_Preference>CS_ALWAYS</SS_Domain_Preference>
-          <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>FALSE</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>CS</USSD_Domain_Preference>
-
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

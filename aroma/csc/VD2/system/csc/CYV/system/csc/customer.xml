@@ -1,7 +1,7 @@
-<?xml  version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Cyprus</Country>
     <CountryISO>CY</CountryISO>
     <Region>EUR</Region>
@@ -14,6 +14,9 @@
   </GeneralInfo>
   <Settings>
     <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
         <FastDormancy>
@@ -64,7 +67,6 @@
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
       </Phone>
-      <Security />
     </Main>
     <Calendar>
       <StartDay>monday</StartDay>
@@ -137,7 +139,8 @@
         <Editable>yes</Editable>
         <BookmarkName>Cytamobile-vodafone</BookmarkName>
         <URL>https://www.cyta.com.cy/m-mobile</URL>
-      </Bookmark>      <eManual>
+      </Bookmark>
+      <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>

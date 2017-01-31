@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>THAILAND</Country>
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
@@ -28,6 +28,17 @@
       <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
+      <Network>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
       <Sound>
         <RngToneAlertType>melody</RngToneAlertType>
       </Sound>
@@ -82,10 +93,9 @@
         <ProfStreaming>mptnet</ProfStreaming>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>Telenor</NetworkName>
         <ProfBrowser>Telenor INTERNET</ProfBrowser>
-        <ProfMMS>Telenor MMS</ProfMMS>
         <ProfEmail>Telenor INTERNET</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
@@ -94,11 +104,12 @@
         <ProfBrowser>Ooredoo Internet</ProfBrowser>
         <ProfEmail>Ooredoo Internet</ProfEmail>
       </ProfileHandle>
-      <NbProfile>4</NbProfile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>MPT</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>mptnet</ProfileName>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -113,25 +124,9 @@
       <Profile>
         <NetworkName>Telenor</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Telenor MMS</ProfileName>
-        <URL>http://10.3.3.38:19090/was</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.3.0.13</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Telenor</NetworkName>
-        <Editable>yes</Editable>
         <ProfileName>Telenor INTERNET</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -146,6 +141,7 @@
         <Editable>yes</Editable>
         <ProfileName>Ooredoo Internet</ProfileName>
         <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>

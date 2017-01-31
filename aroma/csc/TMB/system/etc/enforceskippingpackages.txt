@@ -1,9 +1,0 @@
-8
-NaverTvCast.apk
-Excel_SamsungStub.apk
-PowerPoint_SamsungStub.apk
-Word_SamsungStub.apk
-GalaxyCare.apk
-xtra_t_app.apk
-SamsungUpdates.apk
-OMCAgent.apk

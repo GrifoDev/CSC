@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>France</Country>
     <CountryISO>FR</CountryISO>
     <Region>EUR</Region>
@@ -133,7 +133,8 @@
         <MmsSending>
           <ReqDeliveryRep>off</ReqDeliveryRep>
           <ReqReadRep>off</ReqReadRep>
-          <CreationMode>warning</CreationMode>
+		  <MessageSize>600</MessageSize>
+		  <CreationMode>warning</CreationMode>
         </MmsSending>
         <MmsReceiving>
           <Home>auto</Home>
@@ -186,13 +187,13 @@
           <EmailAddr>@hotmail.com</EmailAddr>
           <LoginType>domain_type</LoginType>
           <Incoming>
-            <MailboxType>pop3</MailboxType>
-            <ServAddr>pop3.live.com</ServAddr>
-            <Port>995</Port>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap-mail.outlook.com</ServAddr>
+            <Port>993</Port>
             <Secure>ssl</Secure>
           </Incoming>
           <Outgoing>
-            <ServAddr>smtp.live.com</ServAddr>
+            <ServAddr>smtp-mail.outlook.com</ServAddr>
             <Port>587</Port>
             <SmtpAuth>on</SmtpAuth>
             <Secure>tls</Secure>
@@ -782,9 +783,6 @@
           <UserId>orange</UserId>
           <Password>orange</Password>
         </PSparam>
-      </Profile>
-      <Profile>
-        <MTUSize>1500</MTUSize>
       </Profile>
       <Profile>
         <NetworkName>Orange (340 01)</NetworkName>

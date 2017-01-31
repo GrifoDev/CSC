@@ -1,2 +1,0 @@
-/system/app/Olympic_Edition_M/Olympic_Edition_M.apk
-/system/priv-app/IPsecService/IPsecService.apk

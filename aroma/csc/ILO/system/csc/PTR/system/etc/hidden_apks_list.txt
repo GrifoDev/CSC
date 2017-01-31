@@ -1,7 +1,0 @@
-/hidden/app/Backup_MyBox_v8.6.441_prod.apk
-/hidden/app/com.srk.mcl.MyFinder_Stub.apk
-/hidden/app/Funtone_6.0.apk
-/hidden/app/MyBeat_10462.apk
-/hidden/app/myPartnernewGaVersion-release.apk
-/hidden/app/Orange4GTv.apk
-/hidden/app/vvm_PartnerAndroid.apk

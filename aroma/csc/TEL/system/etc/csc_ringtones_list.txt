@@ -1,6 +1,0 @@
-/system/media/audio/ringtones/Blue
-/system/media/audio/ringtones/Green
-/system/media/audio/ringtones/Magenta
-/system/media/audio/ringtones/Orange
-/system/media/audio/ringtones/Purple
-/system/media/audio/ringtones/Turquoise

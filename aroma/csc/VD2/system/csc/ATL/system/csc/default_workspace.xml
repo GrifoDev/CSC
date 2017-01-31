@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <home>
-        <!--  screen [0]  -->
+        <!--  screen [1]  -->
         <!-- .appwidget.WeatherAppWidget -->
         <appwidget
             launcher:packageName="com.sec.android.daemonapp" 
@@ -23,7 +23,8 @@
             launcher:spanX="4" 
             launcher:spanY="1" />
 
-        <!-- SamsungPay replacement is Gallery -->
+
+        <!-- Email -->
         <favorite
             launcher:packageName="com.samsung.android.spay"
             launcher:className="com.samsung.android.spay.ui.SpayMainActivity"
@@ -45,6 +46,7 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
+
 
         <!-- Play Store -->
         <favorite
@@ -110,8 +112,8 @@
                 launcher:packageName="com.google.android.talk" 
                 launcher:className="com.google.android.talk.SigningInActivity" />
             <!-- Photos -->
-            <favorite 
-                launcher:screen="9"
+            <favorite
+                launcher:screen="9" 
                 launcher:packageName="com.google.android.apps.photos"
                 launcher:className="com.google.android.apps.photos.home.HomeActivity" />
         </folder> 
@@ -177,7 +179,8 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-
+			
+			
         <!-- Word -->
         <favorite
             launcher:packageName="com.microsoft.office.word" 
@@ -192,7 +195,7 @@
         <!-- Folder : Microsoft Apps -->
         <folder
             launcher:screen="2" 
-            launcher:title="Microsoft Apps"
+            launcher:title="Microsoft Apps" 
             launcher:x="3" 
             launcher:y="3" >
             <favorite

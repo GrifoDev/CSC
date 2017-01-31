@@ -1,6 +1,0 @@
-/system/app/app-spotify-generic-20160122-signed/app-spotify-generic-20160122-signed.apk
-/system/app/MyRogers-3.5.7/MyRogers-3.5.7.apk
-/system/app/RogersAppZone_v1.028.2/RogersAppZone_v1.028.2.apk
-/system/app/RogersNHL_Jan-18-2016_SIGNED2/RogersNHL_Jan-18-2016_SIGNED2.apk
-/system/app/Texture_rogers/Texture_rogers.apk
-/system/priv-app/IPsecService/IPsecService.apk

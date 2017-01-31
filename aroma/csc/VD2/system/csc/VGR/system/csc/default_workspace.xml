@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <home>
-        <!--  screen [0]  -->
+        <!--  screen [1]  -->
         <!-- .appwidget.WeatherAppWidget -->
         <appwidget
             launcher:packageName="com.sec.android.daemonapp" 
@@ -46,6 +46,7 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
+
 
         <!-- Play Store -->
         <favorite
@@ -178,7 +179,8 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-
+			
+			
         <!-- Word -->
         <favorite
             launcher:packageName="com.microsoft.office.word" 
@@ -193,24 +195,21 @@
         <!-- Folder : Microsoft Apps -->
         <folder
             launcher:screen="2" 
-            launcher:title="Microsoft Apps"
+            launcher:title="Microsoft Apps" 
             launcher:x="3" 
             launcher:y="3" >
             <favorite
                 launcher:screen="0" 
                 launcher:packageName="com.microsoft.office.excel" 
                 launcher:className="com.microsoft.office.apphost.LaunchActivity" />
-            <!-- PowerPoint -->
             <favorite
                 launcher:screen="1" 
                 launcher:packageName="com.microsoft.office.powerpoint" 
                 launcher:className="com.microsoft.office.apphost.LaunchActivity" />
-            <!-- OneDrive -->
             <favorite
                 launcher:screen="2" 
                 launcher:packageName="com.microsoft.skydrive" 
                 launcher:className="com.microsoft.skydrive.MainActivity" />
-            <!-- OneNote -->
             <favorite
                 launcher:screen="3" 
                 launcher:packageName="com.microsoft.office.onenote" 
@@ -226,13 +225,13 @@
 
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
     <hotseat>
-        <!-- Τηλέφωνο -->
+        <!-- Phone -->
         <favorite
             launcher:packageName="com.android.contacts" 
             launcher:className="com.android.dialer.DialtactsActivity" 
             launcher:screen="0" />
 
-        <!-- Επαφές -->
+        <!-- Messages -->
         <favorite
             launcher:packageName="com.android.mms" 
             launcher:className="com.android.mms.ui.ConversationComposer" 

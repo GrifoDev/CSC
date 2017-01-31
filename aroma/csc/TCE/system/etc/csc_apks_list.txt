@@ -1,7 +1,0 @@
-/system/priv-app/ClaroApps_v1.1.1/ClaroApps_v1.1.1.apk
-/system/priv-app/ClaroJuegos_WidgetApp3x3_Generic_2009_AMX_PF22_upd51_M_v209/ClaroJuegos_WidgetApp3x3_Generic_2009_AMX_PF22_upd51_M_v209.apk
-/system/priv-app/OnStartNotification_MM_v12/OnStartNotification_MM_v12.apk
-/system/priv-app/Portal_v6.1/Portal_v6.1.apk
-/system/priv-app/SVoiceLang_PortuguesePack_BR-release/SVoiceLang_PortuguesePack_BR-release.apk
-/system/priv-app/SVoiceLang_SpanishPack_US-release/SVoiceLang_SpanishPack_US-release.apk
-/system/priv-app/TelcelV8300F081215VC180/TelcelV8300F081215VC180.apk

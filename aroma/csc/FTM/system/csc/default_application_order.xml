@@ -51,29 +51,34 @@ limitations under the License.
                 launcher:screen="5" 
                 launcher:packageName="com.orange.appshop" 
                 launcher:className="com.orange.appshop.activity.SplashScreenActivity" />
-            <!-- Asphalt Nitro -->
+            <!-- Orange Cash -->
             <favorite
                 launcher:screen="6" 
-                launcher:packageName="com.gameloft.android.GloftANIF" 
-                launcher:className="com.gameloft.android.GloftANIF.Start" />
-            <!-- Dragon Mania -->
+                launcher:packageName="com.orange.orangecash.fr" 
+                launcher:className="com.orange.orangecash.fr.startup.StartupActivity" />
+            <!-- Voicemails -->
             <favorite
                 launcher:screen="7" 
+                launcher:packageName="com.orange.vvm" 
+                launcher:className="com.orange.vvm.activities.DisclaimerActivity" />
+            <!-- Dragon Mania -->
+            <favorite
+                launcher:screen="8" 
                 launcher:packageName="com.gameloft.android.GloftPDMF" 
                 launcher:className="com.gameloft.android.GloftPDMF.Start" />
             <!-- Puzzle Pets -->
             <favorite
-                launcher:screen="8" 
+                launcher:screen="9" 
                 launcher:packageName="com.gameloft.android.GloftDBMF" 
                 launcher:className="com.gameloft.android.GloftDBMF.Start" />
             <!-- Spider-Man: Ultimate Power -->
             <favorite
-                launcher:screen="9" 
+                launcher:screen="10" 
                 launcher:packageName="com.gameloft.android.GloftSMIF" 
                 launcher:className="com.gameloft.android.GloftSMIF.Start" />
             <!-- Apps Orange -->
             <favorite
-                launcher:screen="10" 
+                launcher:screen="11" 
                 launcher:packageName="com.orange.update" 
                 launcher:className="com.orange.update.DashboardActivity" />
     </folder> 
@@ -222,13 +227,13 @@ limitations under the License.
     <!-- Phone -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.android.contacts" 
+        launcher:packageName="com.samsung.android.contacts" 
         launcher:className="com.android.dialer.DialtactsActivity" />
 
     <!-- Messages -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.android.mms" 
+        launcher:packageName="com.samsung.android.messaging" 
         launcher:className="com.android.mms.ui.ConversationComposer" />
 
     <!-- Camera -->
@@ -252,7 +257,7 @@ limitations under the License.
     <!-- Contacts -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.android.contacts" 
+        launcher:packageName="com.samsung.android.contacts" 
         launcher:className="com.android.contacts.activities.PeopleActivity" />
 
     <!-- Settings -->
@@ -264,7 +269,7 @@ limitations under the License.
     <!-- S Planner -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.android.calendar" 
+        launcher:packageName="com.samsung.android.calendar" 
         launcher:className="com.android.calendar.AllInOneActivity" />
 
     <!-- Calculator -->

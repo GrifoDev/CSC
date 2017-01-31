@@ -1,3 +1,2 @@
 /system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
-/system/priv-app/IPsecService/IPsecService.apk
-/system/priv-app/Vodafone_Updates_v5.6.0_Samsung_signed/Vodafone_Updates_v5.6.0_Samsung_signed.apk
+/system/priv-app/Vodafone_Updates_v6.3.0_Samsung/Vodafone_Updates_v6.3.0_Samsung.apk

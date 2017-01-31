@@ -4,9 +4,17 @@
 	<PublicName>SM-G935F</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935FBTU</CSCName>
-	<CSCVersion>1BPK3</CSCVersion>
-	<NbCustomer>1</NbCustomer>
+	<CSCName>G935FOXA</CSCName>
+	<CSCVersion>1DPLT</CSCVersion>
+	<NbCustomer>9</NbCustomer>
+	<CustomerData src="/Customer/CPW/customer.xml" />
+	<CustomerData src="/Customer/DBT/customer.xml" />
+	<CustomerData src="/Customer/ITV/customer.xml" />
+	<CustomerData src="/Customer/KOR/customer.xml" />
+	<CustomerData src="/Customer/XEO/customer.xml" />
+	<CustomerData src="/Customer/XEF/customer.xml" />
 	<CustomerData src="/Customer/BTU/customer.xml" />
+	<CustomerData src="/Customer/NEE/customer.xml" />
+	<CustomerData src="/Customer/XEU/customer.xml" />
 	</CustomerDataSet>
 </SW-Configuration>

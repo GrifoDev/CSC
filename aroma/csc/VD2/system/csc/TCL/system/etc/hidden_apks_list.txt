@@ -1,6 +1,7 @@
-/hidden/app/Dropbox-3.0.5.2.apk
+/hidden/app/Dropbox-18.2.2.apk
+/hidden/app/Facebook_stub.apk
+/hidden/app/FBInstagram_stub.apk
 /hidden/app/MB_Phone1.7.0.apk
-/hidden/app/MobileTV3.4.apk
-/hidden/app/Tv_Vodafone_3.1.7.apk
-/hidden/app/VodafoneStart-4.11.1-prod-release-AndroidVFSigned_zipaligned.apk
-/hidden/app/VodaMMS_4.5.318_Release-UNSIGNED_19-11-2015-11-01-11_AndroidVFSigned_zipaligned.apk
+/hidden/app/MobileTV_4.0.apk
+/hidden/app/My_Vodafone_3.0.apk
+/hidden/app/VodafoneStart-5.6.3bis-prod-release-AndroidVFSigned_zipaligned.apk

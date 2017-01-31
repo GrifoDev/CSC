@@ -1,9 +1,10 @@
-8
-NaverTvCast.apk
+9
 smartcallprovider-open-release.apk
-AxelSpringer.apk
-SamsungPayStub.apk
 AndroidPay_erasable_Hero.apk
-GalaxyCare.apk
+NaverV_N.apk
+AuthService_v1.apk
+FidoUafAsm_v15.apk
+FidoUafClient_v15.apk
+AxelSpringer.apk
 SamsungUpdates.apk
 OMCAgent.apk

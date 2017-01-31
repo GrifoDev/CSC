@@ -1,0 +1,3 @@
+/system/app/18_03_aligned_mySamsung_Stub/18_03_aligned_mySamsung_Stub.apk
+/system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
+/system/app/mygalaxy_app-release-SDK_23_150116/mygalaxy_app-release-SDK_23_150116.apk

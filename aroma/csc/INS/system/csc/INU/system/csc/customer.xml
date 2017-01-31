@@ -6,11 +6,7 @@
     <CountryISO>IN</CountryISO>
     <Region>SWA</Region>
     <SalesCode>INU</SalesCode>
-    <NbNetworkInfo>256</NbNetworkInfo>
-	 <NetworkInfo>
-      <MCCMNC>22201</MCCMNC>
-      <NetworkName>RJIL</NetworkName>
-    </NetworkInfo>	
+    <NbNetworkInfo>255</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>405884</MCCMNC>
       <NetworkName>STEL</NetworkName>
@@ -1030,7 +1026,7 @@
     <NetworkInfo>
       <MCCMNC>40458</MCCMNC>
       <NetworkName>Cellone_West</NetworkName>
-    </NetworkInfo>   
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -1268,7 +1264,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <ProfBrowser>STEL-GPRS</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>RJIL</NetworkName>
         <ProfBrowser>Jio 4G</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
@@ -2041,20 +2037,21 @@ The maximum SAR for this model as per the compliance standard and the conditions
       <NbSetting>1</NbSetting>
       <Setting>
         <NetworkName>RJIL</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>0</SRVCCversion>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

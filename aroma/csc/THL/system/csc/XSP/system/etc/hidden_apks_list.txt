@@ -1,2 +1,1 @@
-/hidden/app/GL_stub_SDK23_rev2.apk
 /hidden/app/mySamsung_stub-release.apk
