@@ -115,6 +115,12 @@ if
 		package_extract_dir("aroma/csc/FTM/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "HTS"
+	then
+		ui_print("Installing HTS CSC...");
+		package_extract_dir("aroma/csc/HTS/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "INS"
 	then
 		ui_print("Installing INS CSC...");
