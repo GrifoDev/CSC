@@ -286,6 +286,7 @@ form(
 	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
 	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
 	"O2C",		"O2C",			"Czech O2C branded",					"select",
+	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
@@ -378,6 +379,33 @@ form(
 	"NPL",		"NPL",			"Nepal unbranded",					"select",
 	"SLI",		"SLI",			"Srilanka unbranded",					"select",
 	"SKL",		"SKL",			"Srilanka unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="SER" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Russian Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CAC",		"CAC",			"Uzbekistan unbranded",					"select",
+	"CAU",		"CAU",			"Georgia unbranded",					"select",
+	"SEK",		"SEK",			"Ukraine unbranded",					"select",
+	"SER",		"SER",			"Russia unbranded (default)",				"select.selected",
+	"SKZ",		"SKZ",			"Kazakhstan unbranded",					"select"
 );
 endif;
 if prop("csc.prop","CSC")=="THL" then

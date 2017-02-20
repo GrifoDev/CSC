@@ -225,6 +225,49 @@ if
 		package_extract_dir("aroma/csc/O2C/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "SER"
+	then
+		ui_print("Installing SER CSC...");
+		package_extract_dir("aroma/csc/SER/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/SER/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "CAC"
+	then
+		ui_print("Installing CAC CSC...");
+		package_extract_dir("aroma/csc/SER/system/csc/CAC/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "CAU"
+	then
+		ui_print("Installing CAU CSC...");
+		package_extract_dir("aroma/csc/SER/system/csc/CAU/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "SEK"
+	then
+		ui_print("Installing SEK CSC...");
+		package_extract_dir("aroma/csc/SER/system/csc/SEK/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "SER"
+	then
+		ui_print("Installing SER CSC...");
+		package_extract_dir("aroma/csc/SER/system/csc/SER/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "SKZ"
+	then
+		ui_print("Installing SKZ CSC...");
+		package_extract_dir("aroma/csc/SER/system/csc/SKZ/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "SKC"
 	then
 		ui_print("Installing SKC CSC...");
