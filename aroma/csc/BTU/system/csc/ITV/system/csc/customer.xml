@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0011</CSCEdition>
+    <CSCEdition>ED0012</CSCEdition>
     <Country>ITALY</Country>
     <CountryISO>IT</CountryISO>
     <Region>EUR</Region>
@@ -817,16 +817,7 @@
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
-      <Setting>
-        <NetworkName>Vodafone</NetworkName>
-        <Version>3.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <RCS>
-          <EnableRCS>true</EnableRCS>
-          <EnableRCSchat>true</EnableRCSchat>
-        </RCS>
-      </Setting>
+      <NbSetting>1</NbSetting>
       <Setting>
         <NetworkName>TIM</NetworkName>
         <Version>3.0</Version>

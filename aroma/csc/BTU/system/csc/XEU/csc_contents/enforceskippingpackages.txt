@@ -1,4 +1,4 @@
-18
+14
 CatchFavorites_N.apk
 FlipboardBriefing.apk
 SamsungPayStub.apk
@@ -7,13 +7,9 @@ NaverV_N.apk
 AuthService_v1.apk
 FidoUafAsm_v15.apk
 FidoUafClient_v15.apk
-FBAppManager.apk
-FBInstaller.apk
-FBAppManager_NS.apk
-FBInstaller_NS.apk
 FBInstagram_stub.apk
 FBMessenger_stub.apk
-Facebook_stub.apk
 WhatsAppDownloader.apk
 SamsungUpdates.apk
 OMCAgent.apk
+vsimservice.apk

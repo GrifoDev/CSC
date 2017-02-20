@@ -1,3 +1,3 @@
-/system/app/18_03_aligned_mySamsung_Stub/18_03_aligned_mySamsung_Stub.apk
-/system/app/mygalaxy_app-release-SDK_23_150116/mygalaxy_app-release-SDK_23_150116.apk
+/system/app/aligned_mySamsung_Stub/aligned_mySamsung_Stub.apk
+/system/app/mygalaxy-stub-3.0.3/mygalaxy-stub-3.0.3.apk
 /system/priv-app/player-production-release-3.3.3-newSDK_23/player-production-release-3.3.3-newSDK_23.apk

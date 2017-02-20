@@ -1,4 +1,4 @@
-10
+11
 CatchFavorites_N.apk
 FlipboardBriefing.apk
 SamsungPayStub.apk
@@ -9,3 +9,4 @@ FidoUafAsm_v15.apk
 FidoUafClient_v15.apk
 SamsungUpdates.apk
 OMCAgent.apk
+vsimservice.apk

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0010</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>France</Country>
     <CountryISO>FR</CountryISO>
     <Region>EUR</Region>
     <SalesCode>XEF</SalesCode>
-    <NbNetworkInfo>26</NbNetworkInfo>
+    <NbNetworkInfo>25</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>20801</MCCMNC>
       <NetworkName>Orange F</NetworkName>
@@ -121,11 +121,6 @@
       <NetworkName>La Poste Mobile</NetworkName>
       <SubsetCode>76</SubsetCode>
       <SPName>LPM</SPName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>20817</MCCMNC>
-      <NetworkName>Legos</NetworkName>
-      <SPName>Legos</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20817</MCCMNC>

@@ -1,2 +1,2 @@
 /system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
-/system/app/mygalaxy_app-release-SDK_23_150116/mygalaxy_app-release-SDK_23_150116.apk
+/system/app/mygalaxy-stub-3.0.3/mygalaxy-stub-3.0.3.apk
