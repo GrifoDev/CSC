@@ -281,6 +281,7 @@ form(
 	"BTU",		"BTU",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO, XEU",	"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",
+	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",
 	"INS",		"INS",			"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",		"select",
 	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
 	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
@@ -290,6 +291,11 @@ form(
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"XSG",		"XSG",			"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",							"select"
 );
+
+if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK" || prop("csc.prop","CSC")=="VZW" || prop("csc.prop","CSC")=="CHC" || prop("csc.prop","CSC")=="XAA") then
+alert( "Warning", "I detected that you selected a qualcom csc ported file. To make sure nothing can go wrong, please be sure to have an EFS backup in TWRP just for the case something goes wrong. It's much easier to you if you got such a backup then searching for a solution when EFS is messed up!");
+endif;
+
 if prop("csc.prop","CSC")=="BTU" then
 form(
     "Multi-CSC",
@@ -319,6 +325,31 @@ form(
 	"XEF",		"XEF",			"France unbranded",					"select",
 	"XEO",		"XEO",			"Poland unbranded",					"select",
 	"XEU",		"XEU",			"United Kingdom (unknown)",				"select"
+);
+if prop("csc.prop","CSC")=="ILO" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Israel Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CEL",		"CEL",			"Israel Cellcom branded",				"select",
+	"ILO",		"ILO",			"Israel branded (default)",				"select.selected",
+	"PCL",		"PCL",			"Israel Pelephone branded",				"select",
+	"PTR",		"PTR",			"Israel Orange/Partner branded",			"select"
 );
 endif;
 if prop("csc.prop","CSC")=="INS" then

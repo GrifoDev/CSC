@@ -1,0 +1,6 @@
+/hidden/app/Backup_v2.5.442_prod_signed.apk
+/hidden/app/cellcom360-sdk23_signed_PROD.apk
+/hidden/app/Cellcom_Games_1.2.apk
+/hidden/app/Cellcom_Music_1.2.apk
+/hidden/app/Cellcom_Portal_1.2.1.apk
+/hidden/app/Cellcom_Video_1.2.apk

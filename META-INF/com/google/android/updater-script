@@ -121,6 +121,43 @@ if
 		package_extract_dir("aroma/csc/HTS/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "ILO"
+	then
+		ui_print("Installing ILO CSC...");
+		package_extract_dir("aroma/csc/ILO/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/ILO/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "CEL"
+	then
+		ui_print("Installing CEL CSC...");
+		package_extract_dir("aroma/csc/ILO/system/csc/CEL/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "ILO"
+	then
+		ui_print("Installing ILO CSC...");
+		package_extract_dir("aroma/csc/ILO/system/csc/ILO/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "PCL"
+	then
+		ui_print("Installing PCL CSC...");
+		package_extract_dir("aroma/csc/ILO/system/csc/PCL/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "PTR"
+	then
+		ui_print("Installing PTR CSC...");
+		package_extract_dir("aroma/csc/ILO/system/csc/PTR/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "INS"
 	then
 		ui_print("Installing INS CSC...");
