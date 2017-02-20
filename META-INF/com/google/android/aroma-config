@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V2.0");
+ini_set("rom_version",          "V2.0.5");
 ini_set("rom_author",           "Tkkg1994");
-ini_set("rom_device",           "SM-G930F/SM-G935F");
-ini_set("rom_date",             "31.01.2017");
+ini_set("rom_device",           "SM-G93XF/FD/K/L/S/W8");
+ini_set("rom_date",             "20.02.2017");
 
 ##
 # Show Simple Splash
@@ -289,6 +289,7 @@ form(
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
+	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"XSG",		"XSG",			"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",							"select"
 );
@@ -327,6 +328,7 @@ form(
 	"XEO",		"XEO",			"Poland unbranded",					"select",
 	"XEU",		"XEU",			"United Kingdom (unknown)",				"select"
 );
+endif;
 if prop("csc.prop","CSC")=="ILO" then
 form(
     "Multi-CSC",

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <CustomizedText>
+    <Rule>
+      <source>Mobile hotspot</source>
+      <target>Mobile Hotspot</target>
+    </Rule>
+    <Rule>
+      <source>Mobile hotspot and tethering</source>
+      <target>Mobile HotSpot and Tethering</target>
+    </Rule>	
+  </CustomizedText>
+</CustomerData>

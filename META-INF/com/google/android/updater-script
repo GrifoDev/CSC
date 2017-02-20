@@ -15,7 +15,7 @@ show_progress(1.000000, 0);
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
-ui_print("CSC Installer V2.0");
+ui_print("CSC Installer V2.0.5");
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
@@ -363,6 +363,12 @@ if
 		ui_print("Installing XXV CSC...");
 		package_extract_dir("aroma/csc/THL/system/csc/XXV/system", "/system");
 endif;
+endif;
+if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TMB"
+	then
+		ui_print("Installing TMB CSC...");
+		package_extract_dir("aroma/csc/TMB/system", "/system");
 endif;
 if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "VD2"
