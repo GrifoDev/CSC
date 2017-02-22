@@ -237,6 +237,12 @@ if
 		package_extract_dir("aroma/csc/O2C/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "OPS"
+	then
+		ui_print("Installing OPS CSC...");
+		package_extract_dir("aroma/csc/OPS/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "SER"
 	then
 		ui_print("Installing SER CSC...");
