@@ -522,6 +522,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "XSA"
+	then
+		ui_print("Installing XSA CSC...");
+		package_extract_dir("aroma/csc/XSA/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "XSG"
 	then
 		ui_print("Installing XSG CSC...");
