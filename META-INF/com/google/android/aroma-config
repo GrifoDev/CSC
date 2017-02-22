@@ -281,6 +281,7 @@ form(
 	"BRI",		"BRI",			"Taiwan unbranded",					"select",
 	"BTU",		"BTU",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO, XEU",	"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
+	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",
 	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",
 	"INS",		"INS",			"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",		"select",
