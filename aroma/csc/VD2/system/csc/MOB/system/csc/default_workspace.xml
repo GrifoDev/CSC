@@ -36,7 +36,6 @@
             launcher:spanX="1"
             launcher:spanY="1" />
 
-
         <!-- Camera -->
         <favorite
             launcher:packageName="com.sec.android.app.camera" 

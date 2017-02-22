@@ -1,11 +1,11 @@
 <?xml  version="1.0" encoding="UTF-8" ?>
 <SW-Configuration>
 	<MobileData>
-	<PublicName>SM-G930F</PublicName>
+	<PublicName>SM-G935F</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G930FVFG</CSCName>
-	<CSCVersion>1DQAO</CSCVersion>
+	<CSCName>G935FVFG</CSCName>
+	<CSCVersion>1DQB7</CSCVersion>
 	<NbCustomer>20</NbCustomer>
 	<CustomerData src="/Customer/ATL/customer.xml" />
 	<CustomerData src="/Customer/AVF/customer.xml" />

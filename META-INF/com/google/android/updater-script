@@ -36,6 +36,12 @@ run_program("/tmp/efs_backup.sh");
 package_extract_dir("system", "/system");
 #-- CSC
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "AMO"
+	then
+		ui_print("Installing AMO CSC...");
+		package_extract_dir("aroma/csc/AMO/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "BRI"
 	then
 		ui_print("Installing BRI CSC...");

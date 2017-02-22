@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Copyright (C) 2009 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
 <favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <home>
-        <!--  screen [1]  -->
+        <!--  screen [0]  -->
         <!-- .appwidget.WeatherAppWidget -->
         <appwidget
             launcher:packageName="com.sec.android.daemonapp" 
@@ -36,7 +52,6 @@
             launcher:spanX="1"
             launcher:spanY="1" />
 
-
         <!-- Camera -->
         <favorite
             launcher:packageName="com.sec.android.app.camera" 
@@ -46,7 +61,6 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-
 
         <!-- Play Store -->
         <favorite
@@ -148,7 +162,6 @@
             launcher:y="0" 
             launcher:spanX="4" 
             launcher:spanY="1" />
-			
         <!-- Folder : Social -->
         <folder
             launcher:screen="2" 
@@ -190,25 +203,28 @@
             launcher:spanX="1" 
             launcher:spanY="1" />
 
-
         <!-- Folder : Microsoft Apps -->
         <folder
             launcher:screen="2" 
             launcher:title="Microsoft Apps" 
             launcher:x="3" 
             launcher:y="3" >
+            <!-- Excel -->
             <favorite
                 launcher:screen="0" 
                 launcher:packageName="com.microsoft.office.excel" 
                 launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- PowerPoint -->
             <favorite
                 launcher:screen="1" 
                 launcher:packageName="com.microsoft.office.powerpoint" 
                 launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- OneDrive -->
             <favorite
                 launcher:screen="2" 
                 launcher:packageName="com.microsoft.skydrive" 
                 launcher:className="com.microsoft.skydrive.MainActivity" />
+            <!-- OneNote -->
             <favorite
                 launcher:screen="3" 
                 launcher:packageName="com.microsoft.office.onenote" 

@@ -179,8 +179,7 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-			
-			
+
         <!-- Word -->
         <favorite
             launcher:packageName="com.microsoft.office.word" 
@@ -195,7 +194,7 @@
         <!-- Folder : Microsoft Apps -->
         <folder
             launcher:screen="2" 
-            launcher:title="Microsoft Apps" 
+            launcher:title="Microsoft Apps"
             launcher:x="3" 
             launcher:y="3" >
             <favorite

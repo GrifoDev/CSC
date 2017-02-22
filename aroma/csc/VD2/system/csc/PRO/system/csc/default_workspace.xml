@@ -47,7 +47,6 @@
             launcher:spanX="1" 
             launcher:spanY="1" />
 
-
         <!-- Play Store -->
         <favorite
             launcher:packageName="com.android.vending" 
@@ -126,7 +125,7 @@
             launcher:className="be.belgacom.hello.ui.MainActivity" 
             launcher:screen="1" 
             launcher:x="0" 
-            launcher:y="3" />
+            launcher:y="0" />
 
         <!--  screen [2]  -->
         <!-- .WidgetProvider42 -->

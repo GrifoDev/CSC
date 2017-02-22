@@ -277,6 +277,7 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"CSC Selection",	"",							"group",
+	"AMO",		"AMO",			"Spain orange branded",					"select",
 	"BRI",		"BRI",			"Taiwan unbranded",					"select",
 	"BTU",		"BTU",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO, XEU",	"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",

@@ -56,6 +56,7 @@
   <CscFeature_Contact_ConfigImsOpStyle>OMN</CscFeature_Contact_ConfigImsOpStyle>
   <CscFeature_RIL_DefaultApn4LTE>ims</CscFeature_RIL_DefaultApn4LTE>
   <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+  <CscFeature_Setting_HideApnList>ims,IMS</CscFeature_Setting_HideApnList>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>

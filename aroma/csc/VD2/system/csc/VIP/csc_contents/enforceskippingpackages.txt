@@ -2,6 +2,8 @@
 SamsungPayStub.apk
 smartcallprovider-open-release.apk
 AndroidPay_erasable_Hero.apk
+CnnPanel.apk
+NaverV_N.apk
 AuthService_v1.apk
 FidoUafAsm_v15.apk
 FidoUafClient_v15.apk
@@ -12,7 +14,5 @@ ImsSettings.apk
 ImsLogger+.apk
 ImsTelephonyService.apk
 SamsungUpdates.apk
-SecVVM.apk
-TetheringProvision.apk
 OMCAgent.apk
 vsimservice.apk

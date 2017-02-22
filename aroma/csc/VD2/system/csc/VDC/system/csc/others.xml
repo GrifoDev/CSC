@@ -6,6 +6,7 @@
  <FeatureSet>
   <CscFeature_VoiceCall_EnableCallButtonInFdnList>TRUE</CscFeature_VoiceCall_EnableCallButtonInFdnList>
   <CscFeature_VoiceCall_SupportShowVowifiEndCall>TRUE</CscFeature_VoiceCall_SupportShowVowifiEndCall>
+  <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>All</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
   <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
   <CscFeature_Message_GalleryView4SingleImageMms>imagetext</CscFeature_Message_GalleryView4SingleImageMms>
   <CscFeature_Email_UseFixedSmtpPortAs>25</CscFeature_Email_UseFixedSmtpPortAs>

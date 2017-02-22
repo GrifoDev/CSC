@@ -36,7 +36,6 @@
             launcher:spanX="1"
             launcher:spanY="1" />
 
-
         <!-- Camera -->
         <favorite
             launcher:packageName="com.sec.android.app.camera" 
@@ -46,7 +45,6 @@
             launcher:y="3" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-
 
         <!-- Play Store -->
         <favorite

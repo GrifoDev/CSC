@@ -1,1 +1,2 @@
+/system/app/Facebook_stub/Facebook_stub.apk
 /system/priv-app/SwisscomApps_v5_1.0.5_release_signed/SwisscomApps_v5_1.0.5_release_signed.apk

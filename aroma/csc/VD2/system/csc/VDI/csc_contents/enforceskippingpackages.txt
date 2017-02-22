@@ -2,6 +2,8 @@
 SamsungPayStub.apk
 GalaxyCare.apk
 smartcallprovider-open-release.apk
+CnnPanel.apk
+NaverV_N.apk
 AuthService_v1.apk
 FidoUafAsm_v15.apk
 FidoUafClient_v15.apk
@@ -10,7 +12,5 @@ FBMessenger_stub.apk
 WhatsAppDownloader.apk
 MSSkype_stub.apk
 SamsungUpdates.apk
-SecVVM.apk
-TetheringProvision.apk
 OMCAgent.apk
 vsimservice.apk
