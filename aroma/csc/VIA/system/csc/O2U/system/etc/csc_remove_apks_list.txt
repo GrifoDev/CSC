@@ -1,0 +1,5 @@
+/system/app/ImsSettings/ImsSettings.apk
+/system/app/ImsTelephonyService/ImsTelephonyService.apk
+/system/priv-app/ec58_signed/ec58_signed.apk
+/system/priv-app/ImsLogger+/ImsLogger+.apk
+/system/priv-app/imsservice/imsservice.apk

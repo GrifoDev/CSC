@@ -389,6 +389,12 @@ if
 		package_extract_dir("aroma/csc/TMB/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "VAU"
+	then
+		ui_print("Installing VAU CSC...");
+		package_extract_dir("aroma/csc/VAU/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "VD2"
 	then
 		ui_print("Installing VD2 CSC...");
@@ -519,6 +525,37 @@ if
 	then
 		ui_print("Installing XFV CSC...");
 		package_extract_dir("aroma/csc/VD2/system/csc/XFV/system", "/system");
+endif;
+endif;
+if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "VIA"
+	then
+		ui_print("Installing VIA CSC...");
+		package_extract_dir("aroma/csc/VIA/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/VIA/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "O2U"
+	then
+		ui_print("Installing O2U CSC...");
+		package_extract_dir("aroma/csc/VIA/system/csc/O2U/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "VIA"
+	then
+		ui_print("Installing VIA CSC...");
+		package_extract_dir("aroma/csc/VIA/system/csc/VIA/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "XEC"
+	then
+		ui_print("Installing XEC CSC...");
+		package_extract_dir("aroma/csc/VIA/system/csc/XEC/system", "/system");
 endif;
 endif;
 if
