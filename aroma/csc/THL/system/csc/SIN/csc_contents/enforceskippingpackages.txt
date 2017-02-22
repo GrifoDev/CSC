@@ -1,4 +1,4 @@
-8
+9
 GalaxyCare.apk
 AuthService_v1.apk
 FidoUafAsm_v15.apk
@@ -7,3 +7,4 @@ AxelSpringer.apk
 MSSkype_stub.apk
 SamsungUpdates.apk
 OMCAgent.apk
+vsimservice.apk

@@ -1,4 +1,4 @@
-15
+16
 SamsungPayStub.apk
 GalaxyCare.apk
 AndroidPay_erasable_Hero.apk
@@ -14,3 +14,4 @@ ImsLogger+.apk
 ImsTelephonyService.apk
 SamsungUpdates.apk
 OMCAgent.apk
+vsimservice.apk

@@ -1,4 +1,4 @@
-11
+12
 SamsungPayStub.apk
 GalaxyCare.apk
 AndroidPay_erasable_Hero.apk
@@ -10,3 +10,4 @@ AxelSpringer.apk
 MSSkype_stub.apk
 SamsungUpdates.apk
 OMCAgent.apk
+vsimservice.apk
