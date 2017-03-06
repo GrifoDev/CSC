@@ -295,6 +295,7 @@ form(
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
+	"TEL",		"TEL",			"Australia Telstra branded",				"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
 	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
