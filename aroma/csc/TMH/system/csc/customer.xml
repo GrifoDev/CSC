@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0005</CSCEdition>
+    <Country>HUNGARY</Country>
+    <CountryISO>HU</CountryISO>
+    <Region>EUR</Region>
+    <SalesCode>TMH</SalesCode>
+    <NbNetworkInfo>2</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21630</MCCMNC>
+      <NetworkName>Telekom HU</NetworkName>
+      <SPName>Telekom HU</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21630</MCCMNC>
+      <NetworkName>Telekom HU</NetworkName>
+      <SPName>T-Mobile H</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <NbNetworkLock>1</NbNetworkLock>
+        <NetworkLock>21630</NetworkLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>4</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Telekom HU</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Telekom HU</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Telekom HU</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Telekom HU</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Sound>
+        <RngToneAlertType>vibmelody</RngToneAlertType>
+        <RngVolume>3</RngVolume>
+        <KeyTone>
+          <KeyVolume>1</KeyVolume>
+        </KeyTone>
+        <MsgToneAlertType>melody</MsgToneAlertType>
+	<MsgToneVolume>2</MsgToneVolume>
+        <TouchTone>off</TouchTone>
+        <ExtraSound>
+          <ConnectTone>off</ConnectTone>
+        </ExtraSound>
+        <NbAlarmTone>1</NbAlarmTone>
+        <AlarmTone src="/Customer/TMH/AlarmTone/T_Alarmtone.mp3" default="true">
+          <FileType>MP3</FileType>
+        </AlarmTone>
+        <NbMessageTone>1</NbMessageTone>
+        <MessageTone src="/Customer/TMH/Messagetone/T_Messagetone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </MessageTone>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/TMH/Ringtone/T_Ringtone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </RingTone>
+      </Sound>
+      <Phone>
+        <DefLanguage>hu_HU</DefLanguage>
+        <DefLanguageNoSIM>hu_HU</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <T9Language>hungarian</T9Language>
+        <DateTimeFormat>
+          <DateFormat>yyyymmdd</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <SavePosition>ask</SavePosition>
+      <ContactSort>lastname</ContactSort>
+    </Contact>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Telekom HU</NetworkName>
+        <TelNum>+36309888444</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <PushLoading>never</PushLoading>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>13</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>gsmalpha</CharSupport>
+        <CellBroadcast>off</CellBroadcast>
+        <DeleteOldMessage>off</DeleteOldMessage>
+        <FontSizeByVolumeKey>off</FontSizeByVolumeKey>
+        <MmsAlert>on</MmsAlert>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <PollTime>off</PollTime>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+        <NbAccount>2</NbAccount>
+        <Account>
+          <NetworkName>Telekom HU</NetworkName>
+          <AccountName>t-email</AccountName>
+          <EmailAddr>@t-email.hu</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>mail.t-email.hu</ServAddr>
+            <Port>143</Port>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>mail.t-email.hu</ServAddr>
+            <Port>25</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>off</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>Telekom HU</NetworkName>
+          <AccountName>t-online</AccountName>
+          <EmailAddr>@t-online.hu</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>mail.t-online.hu</ServAddr>
+            <Port>143</Port>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>mail.t-online.hu</ServAddr>
+            <Port>25</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>off</Secure>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>4</NbBookmark>
+      <Bookmark>
+        <NetworkName>Telekom HU</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>TV GO</BookmarkName>
+        <URL>https://www.tvgo.hu/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>Telekom HU</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>[freemail]</BookmarkName>
+        <URL>http://m.freemail.hu/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>Telekom HU</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Life</BookmarkName>
+        <URL>http://m.life.hu/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>Telekom HU</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Telekom ajánlatok</BookmarkName>
+        <URL>http://www.telekom.hu/</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>Telekom HU</NetworkName>
+        <ProfBrowser>Telekom HU NET</ProfBrowser>
+        <ProfMMS>Telekom HU MMS</ProfMMS>
+        <ProfIMS>Telekom HU IMS</ProfIMS>
+        <ProfXCAP>Telekom HU XCAP</ProfXCAP>
+        <ProfEpdg>Telekom HU EPDG</ProfEpdg>
+      </ProfileHandle>
+      <NbProfile>5</NbProfile>
+      <Profile>
+        <NetworkName>Telekom HU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom HU NET</ProfileName>
+        <URL>http://www.telekom.hu/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.telekom</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom HU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom HU MMS</ProfileName>
+        <URL>http://mms.t-mobile.hu/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.051.126.010</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet.telekom</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom HU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom HU IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom HU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Telekom HU EPDG</ProfileName>
+        <URL>http://mms.t-mobile.hu/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.051.126.010</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>HOS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telekom HU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Telekom HU XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>HOS</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>Telekom HU</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>8</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>cs</SMSoIP_Domain>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+    </IMSSetting>
+  </Settings>
+</CustomerData>

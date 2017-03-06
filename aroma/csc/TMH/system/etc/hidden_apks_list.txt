@@ -1,0 +1,5 @@
+/hidden/Common_app/(Futotars)_Futotars_5.1.apk
+/hidden/Common_app/(Mobilvasarlas)_Mobilvasarlas_3.0.apk
+/hidden/Common_app/(Musorujsag)_Musorujsag_3.1.apk
+/hidden/Common_app/(Telekom_HU)_Telekom_5.1.apk
+/hidden/Common_app/(TV_GO)_TV_GO_1.0.25.apk
