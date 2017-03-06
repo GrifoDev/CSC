@@ -151,49 +151,54 @@ limitations under the License.
                 launcher:screen="1" 
                 launcher:packageName="lg.uplusbox" 
                 launcher:className="lg.uplusbox.TitleActivity" />
-            <!-- Paynow -->
+            <!-- Uwa -->
             <favorite
                 launcher:screen="2" 
+                launcher:packageName="com.uplus.ipagent" 
+                launcher:className="com.uplus.ipagent.install.EntryActivity" />
+            <!-- Paynow -->
+            <favorite
+                launcher:screen="3" 
                 launcher:packageName="com.lguplus.paynow" 
                 launcher:className="com.lguplus.paynow.MainActivity" />
             <!-- 스마트 월렛 -->
             <favorite
-                launcher:screen="3" 
+                launcher:screen="4" 
                 launcher:packageName="com.lguplus.usimsvcm" 
                 launcher:className="com.lguplus.usimsvcm.ui.RootActivity" />
             <!-- U+ Navi -->
             <favorite
-                launcher:screen="4" 
+                launcher:screen="5" 
                 launcher:packageName="com.lguplus.navi" 
                 launcher:className="tws.air.inaviair.UIActivity" />                
             <!-- IoT@home -->
             <favorite
-                launcher:screen="5" 
+                launcher:screen="6" 
                 launcher:packageName="com.lguplus.homeiot" 
                 launcher:className="com.lguplus.homeiot.ui.intro.IntroSplash" />
             <!-- tv G 직캠 -->
             <favorite
-                launcher:screen="6" 
+                launcher:screen="7" 
                 launcher:packageName="com.lguplus.ltealive" 
                 launcher:className="com.lguplus.ltealive.RootActivity" />
             <!-- U+Page -->
             <favorite
-                launcher:screen="7" 
+                launcher:screen="8" 
                 launcher:packageName="com.lgu.app.appbundle" 
                 launcher:className="com.lgu.app.appbundle.LoadingPage" />
             <!-- 통화도우미 -->
             <favorite
-                launcher:screen="8" 
+                launcher:screen="9" 
                 launcher:packageName="lgt.call" 
                 launcher:className="lgt.call.Main" />
             <!-- Mnet -->
             <favorite
-                launcher:screen="9" 
+                launcher:screen="10" 
                 launcher:packageName="com.mnet.app" 
                 launcher:className="com.mnet.app.InitApp" />
             <!-- 알약 -->
             <favorite
-                launcher:screen="10" 
+                launcher:screen="11" 
                 launcher:packageName="com.estsoft.alyac" 
                 launcher:className="com.estsoft.alyac.ui.AYLauncherActivity" />
         </folder> 
@@ -294,8 +299,8 @@ limitations under the License.
     <hotseat>
         <!-- 전화 -->
         <favorite
-            launcher:packageName="com.android.contacts" 
-            launcher:className="com.android.dialer.DialtactsActivity"
+            launcher:packageName="com.samsung.android.contacts" 
+            launcher:className="com.android.dialer.DialtactsActivity" 
             launcher:screen="0" />
 
         <!-- 메시지 -->

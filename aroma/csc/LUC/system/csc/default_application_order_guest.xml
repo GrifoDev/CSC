@@ -31,34 +31,39 @@ limitations under the License.
                 launcher:screen="1" 
                 launcher:packageName="lg.uplusbox" 
                 launcher:className="lg.uplusbox.TitleActivity" />
-            <!-- Paynow -->
+            <!-- Uwa -->
             <favorite
                 launcher:screen="2" 
+                launcher:packageName="com.uplus.ipagent" 
+                launcher:className="com.uplus.ipagent.install.EntryActivity" />
+            <!-- Paynow -->
+            <favorite
+                launcher:screen="3" 
                 launcher:packageName="com.lguplus.paynow" 
                 launcher:className="com.lguplus.paynow.MainActivity" />
             <!-- 스마트 월렛 -->
             <favorite
-                launcher:screen="3" 
+                launcher:screen="4" 
                 launcher:packageName="com.lguplus.usimsvcm" 
                 launcher:className="com.lguplus.usimsvcm.ui.RootActivity" />
             <!-- IoT@home -->
             <favorite
-                launcher:screen="4" 
+                launcher:screen="5" 
                 launcher:packageName="com.lguplus.homeiot" 
                 launcher:className="com.lguplus.homeiot.ui.intro.IntroSplash" />
             <!-- U+Page -->
             <favorite
-                launcher:screen="5" 
+                launcher:screen="6" 
                 launcher:packageName="com.lgu.app.appbundle" 
                 launcher:className="com.lgu.app.appbundle.LoadingPage" />
             <!-- 통화도우미 -->
             <favorite
-                launcher:screen="6" 
+                launcher:screen="7" 
                 launcher:packageName="lgt.call" 
                 launcher:className="lgt.call.Main" />
             <!-- 알약 -->
             <favorite
-                launcher:screen="7" 
+                launcher:screen="8" 
                 launcher:packageName="com.estsoft.alyac" 
                 launcher:className="com.estsoft.alyac.ui.AYLauncherActivity" />
     </folder> 
@@ -272,7 +277,7 @@ limitations under the License.
     <!-- 전화 -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.android.contacts" 
+        launcher:packageName="com.samsung.android.contacts" 
         launcher:className="com.android.dialer.DialtactsActivity" />
 
     <!-- 메시지 -->
@@ -284,7 +289,7 @@ limitations under the License.
     <!-- S플래너 -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.android.calendar" 
+        launcher:packageName="com.samsung.android.calendar" 
         launcher:className="com.android.calendar.AllInOneActivity" />
 
     <!-- 인터넷 -->
@@ -309,7 +314,7 @@ limitations under the License.
     <favorite
         launcher:screen="0" 
         launcher:packageName="com.sec.android.app.clockpackage" 
-        launcher:className="com.sec.android.app.clockpackage.ClockPackage" />
+        launcher:className="com.sec.android.app.clockpackage.ClockPackage"/>
 
     <!-- 설정 -->
     <favorite

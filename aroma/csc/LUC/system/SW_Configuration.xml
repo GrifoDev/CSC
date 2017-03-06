@@ -4,8 +4,8 @@
 	<PublicName>SM-G935L</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935LLUC</CSCName>
-	<CSCVersion>1DQA9</CSCVersion>
+	<CSCName>G935LRUC</CSCName>
+	<CSCVersion>1DQB5</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/LUC/customer.xml" />
 	</CustomerDataSet>
