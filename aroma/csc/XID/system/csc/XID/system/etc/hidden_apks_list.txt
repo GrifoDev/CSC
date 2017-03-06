@@ -1,0 +1,3 @@
+/hidden/app/GGI_STUB.apk
+/hidden/app/mySamsung_280716_stub-release.apk
+/hidden/app/S_LIME_STUB.apk
