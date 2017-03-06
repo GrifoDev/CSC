@@ -75,5 +75,6 @@
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
   <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
   <CscFeature_RIL_KeepMobileDataEvenWifiOn>TRUE</CscFeature_RIL_KeepMobileDataEvenWifiOn>
+  <CscFeature_RIL_SupportPreferApnByImsi>TRUE</CscFeature_RIL_SupportPreferApnByImsi>
  </FeatureSet>
 </SamsungMobileFeauture>

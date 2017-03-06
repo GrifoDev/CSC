@@ -378,7 +378,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -397,7 +397,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -416,7 +416,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
