@@ -556,6 +556,7 @@ form(
 	"VIA",		"VIA",			"German O2 branded (default)",				"select.selected",
 	"XEC",		"XEC",			"Spain Movistar branded",				"select"
 );
+endif;
 if prop("csc.prop","CSC")=="XEO" then
 form(
     "Multi-CSC",
