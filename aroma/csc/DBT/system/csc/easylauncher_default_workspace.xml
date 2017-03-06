@@ -1,0 +1,137 @@
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.easylauncher" >
+
+    <home>
+        <!--<appwidget
+            launcher:className="com.sec.android.app.shealth.widget.WalkMateAppEasyWidget"
+            launcher:spanX="2"
+            launcher:iconPosition="100"
+            launcher:packageName="com.sec.android.app.shealth"
+            launcher:screen="-1" /> -->
+
+        <!-- Screen 0 -->
+        <appwidget
+            launcher:className="com.sec.android.widgetapp.easymodecontactswidget.SeniorFavoriteWidgetProviderLarge"
+            launcher:iconPosition="0"
+            launcher:packageName="com.sec.android.widgetapp.easymodecontactswidget"
+            launcher:screen="0" />
+
+        <!-- Screen 1 -->
+        <appwidget
+            launcher:className="com.sec.android.widgetapp.easymodecontactswidget.SeniorFavoriteWidgetProviderLarge"
+            launcher:iconPosition="0"
+            launcher:packageName="com.sec.android.widgetapp.easymodecontactswidget"
+            launcher:screen="1" />
+			
+        <!-- Screen 2 -->
+        <appwidget
+            launcher:className="com.sec.android.widgetapp.digitalclockeasy.DigitalClockEasyWidgetProvider"
+            launcher:iconPosition="100"
+            launcher:spanX="2"
+            launcher:packageName="com.sec.android.widgetapp.digitalclockeasy"
+            launcher:screen="2" />
+        <appwidget
+            launcher:className="com.sec.android.daemonapp.easywidget.EasyWeatherAppWidget"
+            launcher:iconPosition="101"
+            launcher:spanX="2"
+            launcher:packageName="com.sec.android.daemonapp"
+            launcher:screen="2" />
+			
+        <appshortcut
+            launcher:packageName="com.android.contacts"
+            launcher:className="com.android.dialer.DialtactsActivity"
+            launcher:iconPosition="0"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.samsung.android.contacts"
+            launcher:className="com.android.dialer.DialtactsActivity"
+            launcher:iconPosition="0"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.android.mms"
+            launcher:className="com.android.mms.ui.ConversationComposer"
+            launcher:iconPosition="1"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.samsung.android.messaging"
+            launcher:className="com.android.mms.ui.ConversationComposer"
+            launcher:iconPosition="1"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.sec.android.app.sbrowser"
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            launcher:iconPosition="2"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.sec.android.app.camera"
+            launcher:className="com.sec.android.app.camera.Camera"
+            launcher:iconPosition="3"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.sec.android.gallery3d"
+            launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity"
+            launcher:iconPosition="4"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.android.contacts"
+            launcher:className="com.android.contacts.activities.PeopleActivity"
+            launcher:iconPosition="5"
+            launcher:screen="2" />
+        <appshortcut
+            launcher:packageName="com.samsung.android.contacts"
+            launcher:className="com.android.contacts.activities.PeopleActivity"
+            launcher:iconPosition="5"
+            launcher:screen="2" />
+
+        <!-- Screen 3 -->
+        <appshortcut
+            launcher:className="com.android.calendar.AllInOneActivity"
+            launcher:iconPosition="0"
+            launcher:packageName="com.android.calendar"
+            launcher:screen="3" />
+        <appshortcut
+            launcher:className="com.android.calendar.AllInOneActivity"
+            launcher:iconPosition="0"
+            launcher:packageName="com.samsung.android.calendar"
+            launcher:screen="3" />
+        <appshortcut
+            launcher:className="com.samsung.android.email.ui.activity.MessageListXL"
+            launcher:iconPosition="1"
+            launcher:packageName="com.samsung.android.email.provider"
+            launcher:screen="3" />
+        <appshortcut
+            launcher:className="com.sec.android.app.magnifier.Magnifier"
+            launcher:iconPosition="2"
+            launcher:packageName="com.sec.android.app.magnifier"
+            launcher:screen="3" />
+        <appshortcut
+            launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity"
+            launcher:iconPosition="3"
+            launcher:packageName="com.sec.android.app.samsungapps"
+            launcher:screen="3" />
+        <appshortcut
+            launcher:className="com.android.vending.AssetBrowserActivity"
+            launcher:iconPosition="4"
+            launcher:packageName="com.android.vending"
+            launcher:screen="3" />
+        <appshortcut
+            launcher:className="com.android.settings.Settings"
+            launcher:iconPosition="5"
+            launcher:packageName="com.android.settings"
+            launcher:screen="3" />
+			
+        <!-- Declare all the Easy apps which are to be shown and laucnhed only from EasyLauncher -->
+        <easyapps
+            launcher:className="com.sec.android.easysettings.EasySettingsHomeActivity"
+            launcher:packageName="com.sec.android.easysettings"
+            launcher:visibility="true" />
+        <easyapps
+            launcher:className="com.sec.android.app.magnifier.Magnifier"
+            launcher:packageName="com.sec.android.app.magnifier"
+            launcher:visibility="true" />
+        <easyapps
+            launcher:className="com.samsung.android.app.galaxyfinder.GalaxyFinderActivity"
+            launcher:packageName="com.samsung.android.app.galaxyfinder"
+            launcher:visibility="false" />		
+    </home>
+
+</favorites>

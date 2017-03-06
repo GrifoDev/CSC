@@ -281,6 +281,7 @@ form(
 	"BRI",		"BRI",			"Taiwan unbranded",					"select",
 	"BTU",		"BTU",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO, XEU",	"select",
 	"COS",		"COS",			"Greeze Cosmote branded",				"select",
+	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",

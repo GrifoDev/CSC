@@ -121,6 +121,12 @@ if
 		package_extract_dir("aroma/csc/COS/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "DBT"
+	then
+		ui_print("Installing DBT CSC...");
+		package_extract_dir("aroma/csc/DBT/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "FTM"
 	then
 		ui_print("Installing FTM CSC...");
