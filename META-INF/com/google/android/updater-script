@@ -243,6 +243,12 @@ if
 		package_extract_dir("aroma/csc/LUC/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "NZC"
+	then
+		ui_print("Installing NZC CSC...");
+		package_extract_dir("aroma/csc/NZC/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "O2C"
 	then
 		ui_print("Installing O2C CSC...");
@@ -271,6 +277,12 @@ if
 	then
 		ui_print("Installing PHN CSC...");
 		package_extract_dir("aroma/csc/PHN/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "SEB"
+	then
+		ui_print("Installing SEB CSC...");
+		package_extract_dir("aroma/csc/SEB/system", "/system");
 endif;
 if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "SER"
