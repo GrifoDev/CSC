@@ -15,7 +15,7 @@ show_progress(1.000000, 0);
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
-ui_print("CSC Installer V2.1.0");
+ui_print("CSC Installer V2.1.5");
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
