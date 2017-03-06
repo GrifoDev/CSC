@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00008</Version>
+  <Version>ED00009</Version>
   <Country>KOREA, REPUBLIC OF</Country>
   <CountryISO>KR</CountryISO>
   <SalesCode>SKC</SalesCode>
@@ -247,7 +247,7 @@
     <CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>NULL</CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>
     <CscFeature_Setting_SupportMptcpMenu>TRUE</CscFeature_Setting_SupportMptcpMenu>
     <CscFeature_SetupWizard_ConfigOperatorAccount>SktAccount</CscFeature_SetupWizard_ConfigOperatorAccount>
-    <CscFeature_SetupWizard_ConfigRemovableAppList>com.skt.tgift;skt_tfreemium;0000280484;T Freemium Plus/com.moent.vas;skt_vas;0000314735;T 통화도우미/com.sktelecom.tsmartpay;skt_tpay;0000689319;T페이/com.skt.tmaphot;skt_syruptable;0000250761;Syrup Table/com.skmnc.gifticon;skt_giftcon;0000141675;Syrup 기프티콘/com.cyworld.camera;skt_cymera;0000280587;싸이메라</CscFeature_SetupWizard_ConfigRemovableAppList>
+    <CscFeature_SetupWizard_ConfigRemovableAppList>com.moent.vas;skt_vas;0000314735;T 통화도우미/com.sktelecom.tsmartpay;skt_tpay;0000689319;T페이/com.skt.tmaphot;skt_syruptable;0000250761;Syrup Table/com.skmnc.gifticon;skt_giftcon;0000141675;Syrup 기프티콘/com.cyworld.camera;skt_cymera;0000280587;싸이메라</CscFeature_SetupWizard_ConfigRemovableAppList>
     <CscFeature_SetupWizard_ConfigStepSequenceType>PreloadAlways</CscFeature_SetupWizard_ConfigStepSequenceType>
     <CscFeature_SmartManager_DisableAntiMalware>FALSE</CscFeature_SmartManager_DisableAntiMalware>
     <CscFeature_Streaming_SendBandwidthInfo>FALSE</CscFeature_Streaming_SendBandwidthInfo>
@@ -333,7 +333,7 @@
     <CscFeature_Wifi_ClearAllPmksaCache>TRUE</CscFeature_Wifi_ClearAllPmksaCache>
     <CscFeature_Wifi_ConfigBestApSelection>DISABLE</CscFeature_Wifi_ConfigBestApSelection>
     <CscFeature_Wifi_ConfigEncodingCharSet>ksc5601</CscFeature_Wifi_ConfigEncodingCharSet>
-    <CscFeature_Wifi_ConfigMenuStatusForHotspot20>"DEFAULT_ON,MENU_OFF"</CscFeature_Wifi_ConfigMenuStatusForHotspot20>
+    <CscFeature_Wifi_ConfigMenuStatusForHotspot20>"DEFAULT_ON,MENU_ON"</CscFeature_Wifi_ConfigMenuStatusForHotspot20>
     <CscFeature_Wifi_ConfigMobileApDefaultPwd>None</CscFeature_Wifi_ConfigMobileApDefaultPwd>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>AndroidHotspot,Min4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>
     <CscFeature_Wifi_ConfigOpBranding>SKT</CscFeature_Wifi_ConfigOpBranding>
