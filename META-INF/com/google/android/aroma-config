@@ -304,6 +304,7 @@ form(
 	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
 	"TMH",		"TMH",			"Hungary Telekom branded",				"select",
 	"TNZ",		"TNZ",			"New Zealand Spark branded",				"select",
+	"TTR",		"TTR",			"Austria Multi-CSC contains: Max, TRG, TTR",		"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
@@ -430,6 +431,31 @@ form(
 );
 endif;
 if prop("csc.prop","CSC")=="THL" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Thailand Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"MAX",		"MAX",			"Austria T-Mobile branded",				"select",
+	"TRG",		"TRG",			"Austria Telering branded",				"select",
+	"TTR",		"TTR",			"Austria unknown (default)",				"select.selected"
+);
+endif;
+if prop("csc.prop","CSC")=="TTR" then
 form(
     "Multi-CSC",
     "You have selected a multi-csc!",

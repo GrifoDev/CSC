@@ -455,6 +455,37 @@ if
 		package_extract_dir("aroma/csc/TNZ/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TTR"
+	then
+		ui_print("Installing TTR CSC...");
+		package_extract_dir("aroma/csc/TTR/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/TTR/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "MAX"
+	then
+		ui_print("Installing MAX CSC...");
+		package_extract_dir("aroma/csc/TTR/system/csc/MAX/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "TRG"
+	then
+		ui_print("Installing TRG CSC...");
+		package_extract_dir("aroma/csc/TTR/system/csc/TRG/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "TTR"
+	then
+		ui_print("Installing TTR CSC...");
+		package_extract_dir("aroma/csc/TTR/system/csc/TTR/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "VAU"
 	then
 		ui_print("Installing VAU CSC...");

@@ -1,0 +1,6 @@
+/hidden/app/Amazon_AppSuite_Widget_v6.0.00.2.apk
+/hidden/app/AmazonKindle_Android_Stub_0.9.23_release_signed.apk
+/hidden/app/AmazonUnderground_Android_8.1.0.100_8.1.106.4_hendricks_release_signed_SimCusto.apk
+/hidden/app/messenger-stub.apk
+/hidden/app/(MyT_App_AT)_My_T-Mobile_AT_2.5.0.apk
+/hidden/app/(Takeaway)_Lieferservice_AT_4.8.12.apk
