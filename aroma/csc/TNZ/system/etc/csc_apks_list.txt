@@ -1,0 +1,2 @@
+/system/app/mySamsung_stub-release/mySamsung_stub-release.apk
+/system/app/smartphone_module-production-release-1-60-20160122-uc-4096/smartphone_module-production-release-1-60-20160122-uc-4096.apk

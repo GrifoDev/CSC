@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>New Zealand</Country>
+    <CountryISO>NZ</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>TNZ</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53005</MCCMNC>
+      <NetworkName>Spark NZ</NetworkName>
+      <SPName>Spark NZ</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbMaxPDP>1</NbMaxPDP>
+        <MaxPDP>
+          <NetworkName>Spark NZ</NetworkName>
+          <MaxPDP2G>4</MaxPDP2G>
+        </MaxPDP>
+        <NbFastDormancy>2</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Spark NZ</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Spark NZ</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>Spark NZ</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>3</NbSOSNumber>
+        <SOSNumber>111</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <NbSOSNumberNoSIM>3</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>111</SOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <AutoProfile>off</AutoProfile>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+        <MsgToneAlertType>melody</MsgToneAlertType>
+        <TouchTone>on</TouchTone>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+          <CallEndTone>off</CallEndTone>
+          <MinuteMind>off</MinuteMind>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <AlertOnCall>on</AlertOnCall>
+        <DefLanguage>en_NZ</DefLanguage>
+        <DefLanguageNoSIM>en_NZ</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <NbPowerOffAnim>1</NbPowerOffAnim>
+        <PowerOffAnim src="/Customer/TNZ/PowerOffAnim/shutdown.qmg" width="2560" height="1440">
+          <FileType>QMG</FileType>
+        </PowerOffAnim>
+        <NbPowerOnAnim>1</NbPowerOnAnim>
+        <PowerOnAnim src="/Customer/TNZ/PowerOnAnim/bootsamsung.qmg" width="2560" height="1440">
+          <FileType>QMG</FileType>
+        </PowerOnAnim>
+        <NbWallpaper>6</NbWallpaper>
+        <Wallpaper src="/Customer/TNZ/Wallpaper/2560x2560-01.jpg" width="2560" height="1440">
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/TNZ/Wallpaper/2560x2560-02.jpg" width="2560" height="1440">
+          <Position>2</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/TNZ/Wallpaper/2560x2560-03.jpg" width="2560" height="1440">
+          <Position>3</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/TNZ/Wallpaper/2560x2560-04.jpg" width="2560" height="1440">
+          <Position>4</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/TNZ/Wallpaper/2560x2560-05.jpg" width="2560" height="1440">
+          <Position>5</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/TNZ/Wallpaper/2560x2560-06_default.jpg" width="2560" height="1440" default="true">
+          <Position>6</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+      </Display>
+    </Main>
+    <Contact>
+      <SavePosition>ask</SavePosition>
+      <ContactSort>firstname</ContactSort>
+    </Contact>
+    <Calendar>
+      <StartDay>sunday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Spark NZ</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>+6483083210</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <RecOption>on</RecOption>
+        <PushLoading>prompt</PushLoading>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>5</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>automatic</CharSupport>
+        <SSMS>off</SSMS>
+        <CellBroadcast>off</CellBroadcast>
+        <PreviewMessage>on</PreviewMessage>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <Expiry>max</Expiry>
+          <MessageSize>600</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <PollTime>off</PollTime>
+        </EmailReceiving>
+        <NbAccount>1</NbAccount>
+        <Account>
+          <NetworkName>Spark NZ</NetworkName>
+          <AccountName>Xtra</AccountName>
+          <EmailAddr>@xtra.co.nz</EmailAddr>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>pop3</MailboxType>
+            <ServAddr>pop3.xtra.co.nz</ServAddr>
+            <Port>995</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>send.xtra.co.nz</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <Wifi>
+      <WifiEnableStatus>off</WifiEnableStatus>
+    </Wifi>
+    <Multimedia>
+      <Camera>
+        <Quality>high</Quality>
+      </Camera>
+      <Video>
+        <Quality>high</Quality>
+      </Video>
+    </Multimedia>
+    <NbFOTA>1</NbFOTA>
+    <FOTA>
+      <NetworkName>Spark NZ</NetworkName>
+    </FOTA>
+    <ActiveSync>
+      <EasEmail>
+        <SizeEmail>headersonly</SizeEmail>
+      </EasEmail>
+    </ActiveSync>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Spark NZ</NetworkName>
+        <ProfBrowser>Data</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfEmail>Data</ProfEmail>
+        <ProfIM>Data</ProfIM>
+        <ProfStreaming>Data</ProfStreaming>
+        <ProfSyncDS>Data</ProfSyncDS>
+        <ProfActiveSync>Data</ProfActiveSync>
+        <ProfSyncDM>Data</ProfSyncDM>
+        <ProfAGPS>Data</ProfAGPS>
+        <ProfSGPS>Data</ProfSGPS>
+        <ProfIntSharing>Data</ProfIntSharing>
+        <ProfIMS>Data</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>2</NbProfile>
+      <Profile>
+        <NetworkName>Spark NZ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://lsmmsc.xtra.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>210.55.11.73</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spark NZ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Data</ProfileName>
+        <URL>http://m.spark.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

@@ -443,6 +443,12 @@ if
 		package_extract_dir("aroma/csc/TMH/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TNZ"
+	then
+		ui_print("Installing TNZ CSC...");
+		package_extract_dir("aroma/csc/TNZ/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "VAU"
 	then
 		ui_print("Installing VAU CSC...");

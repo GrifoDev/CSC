@@ -1,0 +1,53 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>NEW ZEALAND</Country>
+  <CountryISO>NZ</CountryISO>
+  <SalesCode>TNZ</SalesCode>
+  <FeatureSet>
+    <CscFeature_Framework_HyperLinkDigit>5</CscFeature_Framework_HyperLinkDigit>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Framework_EnableBidirection>TRUE</CscFeature_Framework_EnableBidirection>
+    <CscFeature_Contact_ANRConfig>0</CscFeature_Contact_ANRConfig>
+    <CscFeature_Contact_ReplaceLabelEmergency4>TRUE</CscFeature_Contact_ReplaceLabelEmergency4>
+    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_VoiceCall_EnableSSC>TRUE</CscFeature_VoiceCall_EnableSSC>
+    <CscFeature_VoiceCall_EnableDisplayVMTelNumDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplayVMTelNumDuringCall>
+    <CscFeature_VoiceCall_UseEccDialerInCaseOfNoInternalMemory>TRUE</CscFeature_VoiceCall_UseEccDialerInCaseOfNoInternalMemory>
+    <CscFeature_Message_MinSlideDuration>5</CscFeature_Message_MinSlideDuration>
+    <CscFeature_Message_SmsMaxByte>140</CscFeature_Message_SmsMaxByte>
+    <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
+    <CscFeature_FMRadio_FrequencySpaceAs>100</CscFeature_FMRadio_FrequencySpaceAs>
+    <CscFeature_FMRadio_SetLocalTunning>5,4,1</CscFeature_FMRadio_SetLocalTunning>
+    <CscFeature_Web_SetUAProfile>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFC.xml</CscFeature_Web_SetUAProfile>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Wifi_UseDefaultSecurityAs>WPA2/PSK</CscFeature_Wifi_UseDefaultSecurityAs>
+    <CscFeature_RIL_SetSmsBearer>CSOnly</CscFeature_RIL_SetSmsBearer>
+	<CscFeature_Setting_ReplaceLabelLte>4G</CscFeature_Setting_ReplaceLabelLte>
+	<CscFeature_Message_MmsModeCaptureVideoMaxSize>614400</CscFeature_Message_MmsModeCaptureVideoMaxSize>
+	<CscFeature_RIL_ConfigEccListDuringEncryptionMode>530</CscFeature_RIL_ConfigEccListDuringEncryptionMode>
+    <CscFeature_Setting_SupportRegulatoryInfo>TRUE</CscFeature_Setting_SupportRegulatoryInfo>
+    <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+    <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Message_EnableBlackList>TRUE</CscFeature_Message_EnableBlackList>
+    <CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+    <CscFeature_Message_EnableSaveRestoreSDCard>TRUE</CscFeature_Message_EnableSaveRestoreSDCard>
+    <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
+    <CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+    <CscFeature_SystemUI_SupportAssistanceAppChooser>TRUE</CscFeature_SystemUI_SupportAssistanceAppChooser>
+    <CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+    <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+    <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|applock|networkpowersaving|storageclean|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|UDS</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
+    <CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>TRUE</CscFeature_SystemUI_DisplayPlmnAtNotificationPanel>
+  </FeatureSet>
+</SamsungMobileFeauture>
