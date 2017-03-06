@@ -295,6 +295,7 @@ form(
 	"OPV",		"OPV",			"Poland Orange branded",				"select",
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
+	"PNG",		"PNG",			"New Zealand Digicel branded",				"select",
 	"SEB",		"SEB",			"Latvia unbranded",					"select",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>Papua New Guinea</Country>
+    <CountryISO>NZ</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>PNG</SalesCode>
+    <NbNetworkInfo>7</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53703</MCCMNC>
+      <NetworkName>Digicel PNG</NetworkName>
+      <SPName>Digicel PNG</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54202</MCCMNC>
+      <NetworkName>Digicel Fiji</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54202</MCCMNC>
+      <NetworkName>Digicel Nauru</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54900</MCCMNC>
+      <NetworkName>Digicel Samoa</NetworkName>
+      <SPName>Digicel Samoa</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53988</MCCMNC>
+      <NetworkName>Digicel Tonga</NetworkName>
+      <SPName>Digicel Tonga</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54105</MCCMNC>
+      <NetworkName>Digicel Vanuatu</NetworkName>
+      <SPName>Digicel Vanuatu</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54201</MCCMNC>
+      <NetworkName>Vodafone FJ</NetworkName>
+      <SPName>Vodafone FJ</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <NbNetworkLock>6</NbNetworkLock>
+        <NetworkLock>53703</NetworkLock>
+        <NetworkLock>54202</NetworkLock>
+        <NetworkLock>54202</NetworkLock>
+        <NetworkLock>54900</NetworkLock>
+        <NetworkLock>53988</NetworkLock>
+        <NetworkLock>54105</NetworkLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>1</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>default</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbWbAmr>7</NbWbAmr>
+        <WbAmr>
+          <NetworkName>Digicel PNG</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Digicel Fiji</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Digicel Nauru</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Digicel Samoa</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Digicel Tonga</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Digicel Vanuatu</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Vodafone FJ</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Phone>
+        <DefLanguage>en_NZ</DefLanguage>
+        <DefLanguageNoSIM>en_NZ</DefLanguageNoSIM>
+      </Phone>
+    </Main>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>27</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <PreviewMessage>on</PreviewMessage>
+      </SMS>
+      <MMS>
+        <MmsReceiving>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Wifi>
+      <WifiEnableStatus>off</WifiEnableStatus>
+    </Wifi>
+    <Connections>
+      <NbProfileHandle>7</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel PNG</NetworkName>
+        <ProfBrowser>PNG Internet</ProfBrowser>
+        <ProfIntSharing>PNG WAP</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Fiji</NetworkName>
+        <ProfBrowser>Fiji Internet</ProfBrowser>
+        <ProfMMS>Fiji MMS</ProfMMS>
+        <ProfIntSharing>Fiji Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Nauru</NetworkName>
+        <ProfBrowser>Nauru Internet</ProfBrowser>
+        <ProfMMS>Nauru MMS</ProfMMS>
+        <ProfIntSharing>Nauru Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Samoa</NetworkName>
+        <ProfBrowser>Samoa Internet</ProfBrowser>
+        <ProfMMS>Samoa MMS</ProfMMS>
+        <ProfIntSharing>Samoa Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Tonga</NetworkName>
+        <ProfBrowser>Tonga Internet</ProfBrowser>
+        <ProfMMS>Tonga MMS</ProfMMS>
+        <ProfIntSharing>Tonga Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Vanuatu</NetworkName>
+        <ProfBrowser>Vanuatu Internet</ProfBrowser>
+        <ProfMMS>Vanuatu MMS</ProfMMS>
+        <ProfIntSharing>Vanuatu Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <ProfBrowser>VF Fiji Internet</ProfBrowser>
+        <ProfMMS>VF Fiji MMS</ProfMMS>
+        <ProfIntSharing>VF Fiji Internet</ProfIntSharing>
+      </ProfileHandle>
+      <NbProfile>14</NbProfile>
+      <Profile>
+        <NetworkName>Digicel PNG</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>PNG WAP</ProfileName>
+        <URL>live.digicelpng.com</URL>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.149.83.116</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpng.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel PNG</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>PNG Internet</ProfileName>
+        <URL>live.digicelpng.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.digicelpng.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Fiji</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Fiji MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Fiji</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Fiji Internet</ProfileName>
+        <URL>http://live.digicelfiji.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Nauru</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Nauru MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Nauru</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Nauru Internet</ProfileName>
+        <URL>http://live.digicelnauru.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Samoa</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Samoa MMS</ProfileName>
+        <URL>http://mms.digicelsamoa.net:8990</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.148.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelsamoa.ws</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Samoa</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Samoa Internet</ProfileName>
+        <URL>http://live.digicelsamoa.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelsamoa.ws</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Tonga</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tonga MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Tonga</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tonga Internet</ProfileName>
+        <URL>http://live.digiceltonga.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Vanuatu</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vanuatu MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Vanuatu</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vanuatu Internet</ProfileName>
+        <URL>http://live.digicelvanuatu.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VF Fiji MMS</ProfileName>
+        <URL>http://pxt.vodafone.net.fj/pxtsend</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.202.002.040</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>live.vodafone.com.fj</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VF Fiji Internet</ProfileName>
+        <URL>http://www.vodafone.com.fj</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>live.vodafone.com.fj</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

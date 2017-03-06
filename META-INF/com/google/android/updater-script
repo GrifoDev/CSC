@@ -279,6 +279,12 @@ if
 		package_extract_dir("aroma/csc/PHN/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "PNG"
+	then
+		ui_print("Installing PNG CSC...");
+		package_extract_dir("aroma/csc/PNG/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "SEB"
 	then
 		ui_print("Installing SEB CSC...");
