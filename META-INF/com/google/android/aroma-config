@@ -291,6 +291,7 @@ form(
 	"O2C",		"O2C",			"Czech O2C branded",					"select",
 	"OPS",		"OPS",			"Australia Optus branded",				"select",
 	"OPV",		"OPV",			"Poland Orange branded",				"select",
+	"PHE",		"PHE",			"Spain unbranded",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",

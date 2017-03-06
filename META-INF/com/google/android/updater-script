@@ -255,6 +255,12 @@ if
 		package_extract_dir("aroma/csc/OPV/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "PHE"
+	then
+		ui_print("Installing PHE CSC...");
+		package_extract_dir("aroma/csc/PHE/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "SER"
 	then
 		ui_print("Installing SER CSC...");
