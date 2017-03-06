@@ -301,6 +301,7 @@ form(
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
+	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, ROM, SEE, SIO, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
 	"XSA",		"XSA",			"Australia unbranded",					"select",
 	"XSG",		"XSG",			"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",							"select"
@@ -522,6 +523,36 @@ form(
 	"O2U",		"O2U",			"United Kingdom O2 branded",				"select",
 	"VIA",		"VIA",			"German O2 branded (default)",				"select.selected",
 	"XEC",		"XEC",			"Spain Movistar branded",				"select"
+);
+if prop("csc.prop","CSC")=="XEO" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Poland Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"BGL",		"BGL",			"Bulgaria unbranded",					"select",
+	"CYO",		"CYO",			"Cyprus unbranded",					"select",
+	"ROM",		"ROM",			"Romania unbranded",					"select",
+	"SEE",		"SEE",			"South East Europe unbranded",				"select",
+	"SIO",		"SIO",			"Slovenia unbranded",					"select",
+	"TWO",		"TWO",			"Croatia Tele2 branded",				"select",
+	"VIM",		"VIM",			"Macedonia unbranded",					"select",
+	"XEH",		"XEH",			"Hungary unbranded",					"select",
+	"XEO",		"XEO",			"Poland unbranded (default)",				"select.selected"
 );
 endif;
 if prop("csc.prop","CSC")=="XSG" then
