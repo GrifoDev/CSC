@@ -430,7 +430,7 @@ form(
 	"SKZ",		"SKZ",			"Kazakhstan unbranded",					"select"
 );
 endif;
-if prop("csc.prop","CSC")=="THL" then
+if prop("csc.prop","CSC")=="TTR" then
 form(
     "Multi-CSC",
     "You have selected a multi-csc!",
@@ -455,7 +455,7 @@ form(
 	"TTR",		"TTR",			"Austria unknown (default)",				"select.selected"
 );
 endif;
-if prop("csc.prop","CSC")=="TTR" then
+if prop("csc.prop","CSC")=="THL" then
 form(
     "Multi-CSC",
     "You have selected a multi-csc!",
