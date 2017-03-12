@@ -278,9 +278,10 @@ form(
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"CSC Selection",	"",							"group",
 	"AMO",		"AMO",			"Spain orange branded",					"select",
+	"ATO",		"ATO",			"Austria Open unbranded",				"select",
 	"BRI",		"BRI",			"Taiwan unbranded",					"select",
 	"BTU",		"BTU",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO, XEU",	"select",
-	"COS",		"COS",			"Greeze Cosmote branded",				"select",
+	"COS",		"COS",			"Greece Cosmote branded",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
