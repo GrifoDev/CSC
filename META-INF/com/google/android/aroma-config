@@ -310,6 +310,7 @@ form(
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
 	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
 	"TMH",		"TMH",			"Hungary Telekom branded",				"select",
+	"TMS",		"TMS",			"Slovak unbranded",					"select",
 	"TNZ",		"TNZ",			"New Zealand Spark branded",				"select",
 	"TTR",		"TTR",			"Austria Multi-CSC contains: Max, TRG, TTR",		"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
