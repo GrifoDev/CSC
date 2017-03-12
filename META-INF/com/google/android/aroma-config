@@ -317,6 +317,7 @@ form(
 	"TTR",		"TTR",			"Austria Multi-CSC contains: Max, TRG, TTR",		"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
+	"VDS",		"VDS",			"Sweden unbranded",					"select",
 	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, ROM, SEE, SIO, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",

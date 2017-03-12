@@ -704,6 +704,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "VDS"
+	then
+		ui_print("Installing VDS CSC...");
+		package_extract_dir("aroma/csc/VDS/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "VIA"
 	then
 		ui_print("Installing VIA CSC...");
