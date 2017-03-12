@@ -158,6 +158,31 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "DPL"
+	then
+		ui_print("Installing DPL CSC...");
+		package_extract_dir("aroma/csc/DPL/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/DPL/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "DPL"
+	then
+		ui_print("Installing DPL CSC...");
+		package_extract_dir("aroma/csc/DPL/system/csc/DPL/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "TPL"
+	then
+		ui_print("Installing TPL CSC...");
+		package_extract_dir("aroma/csc/DPL/system/csc/TPL/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "EUR"
 	then
 		ui_print("Installing EUR CSC...");

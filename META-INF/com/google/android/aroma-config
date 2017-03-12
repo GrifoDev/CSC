@@ -284,6 +284,7 @@ form(
 	"COS",		"COS",			"Greece Cosmote branded",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
+	"DPL",		"DPL",			"Poland branded Multi-CSC contains: DPL, TPL",		"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"GBL",		"GBL",			"Bulgaria unbranded",					"select",
@@ -382,6 +383,30 @@ form(
 	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"CRO",		"CRO",			"Croatia T-Mobile branded",				"select",
 	"DHR",		"DHR",			"Croatia bonbon branded (default)",			"select.selected"
+);
+endif;
+if prop("csc.prop","CSC")=="DPL" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Poland Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"DPL",		"DPL",			"Poland heyah branded (default)",			"select.selected",
+	"TPL",		"TPL",			"Poland T-Mobile branded",				"select"
 );
 endif;
 if prop("csc.prop","CSC")=="ILO" then

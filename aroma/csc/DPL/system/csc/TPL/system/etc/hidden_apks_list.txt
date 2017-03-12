@@ -1,0 +1,7 @@
+/hidden/app/(Granie_na_czekanie)_Granie_na_czekanie_2.2.8.apk
+/hidden/app/(HRS)_HRS_6.7.2.apk
+/hidden/app/messenger-stub.apk
+/hidden/app/(MyDysk_PL)_MyDysk_PL_1.0.11.22955.apk
+/hidden/app/(NaviExpert_PL)_Nawigacja_T-Mobile_10.2.158.apk
+/hidden/app/(Player)_Player_3.4.4.apk
+/hidden/app/(Tidal)_Tidal_PL_1.10.2.apk
