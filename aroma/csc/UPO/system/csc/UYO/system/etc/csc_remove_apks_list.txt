@@ -1,0 +1,6 @@
+/system/app/app-pre-install-samsungclub/app-pre-install-samsungclub.apk
+/system/app/CLUB3_24/CLUB3_24.apk
+/system/app/mobile-prod-release_2.3.0.1/mobile-prod-release_2.3.0.1.apk
+/system/app/smart_tutor_b169/smart_tutor_b169.apk
+/system/app/UserManual/UserManual.apk
+/system/app/VivaElFutbol110/VivaElFutbol110.apk

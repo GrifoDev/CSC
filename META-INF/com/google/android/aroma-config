@@ -316,6 +316,7 @@ form(
 	"TOP",		"TOP",			"Serbia VIP branded",					"select",
 	"TPH",		"TPH",			"Portugal unbranded",					"select",
 	"TTR",		"TTR",			"Austria Multi-CSC contains: Max, TRG, TTR",		"select",
+	"UPO",		"UPO",			"Paraguay Multi-CSC contains: ALE, ARO, BVO, CHK, CHO, CHP, CHQ, COO, EON, PCW, TPA, TTT, UPO, UYO",													"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"VDS",		"VDS",			"Sweden unbranded",					"select",
@@ -548,6 +549,42 @@ form(
 	"XTC",		"XTC",			"Philippines Open Line branded",			"select",
 	"XTE",		"XTE",			"Philippines (unknown)",				"select",
 	"XXV",		"XXV",			"Vietnam unbranded",					"select"
+);
+endif;
+if prop("csc.prop","CSC")=="UPO" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Paraguay Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"ALE",		"ALE",			"Ecuador unbranded",					"select",
+	"ARO",		"ARO",			"Argentina unbranded",					"select",
+	"BVO",		"BVO",			"Chile (unknown)",					"select",
+	"CHK",		"CHK",			"Chile (unknown)",					"select",
+	"CHO",		"CHO",			"Chile unbranded",					"select",
+	"CHP",		"CHP",			"Chile (unknown)",					"select",
+	"CHQ",		"CHQ",			"Chile (unknown)",					"select",
+	"COO",		"COO",			"Colombia unbranded",					"select",
+	"EON",		"EON",			"Trinidad and Tobago unbranded",			"select",
+	"PCW",		"PCW",			"Panama (Cable & Wireless) branded",			"select",
+	"TPA",		"TPA",			"Panama unbranded",					"select",
+	"TTT",		"TTT",			"Trinidad and Tobago unbranded",			"select",
+	"UPO",		"UPO",			"Uruguay unbranded (default)",				"select.selected",
+	"UYO",		"UYO",			"Uruguay (unknown)",					"select"
 );
 endif;
 if prop("csc.prop","CSC")=="VD2" then

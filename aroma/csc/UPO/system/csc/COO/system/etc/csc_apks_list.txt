@@ -1,0 +1,2 @@
+/system/app/smart_tutor_b169/smart_tutor_b169.apk
+/system/app/UserManual/UserManual.apk
