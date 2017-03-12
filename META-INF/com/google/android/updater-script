@@ -298,6 +298,12 @@ if
 		package_extract_dir("aroma/csc/MOT/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "NEE"
+	then
+		ui_print("Installing NEE CSC...");
+		package_extract_dir("aroma/csc/NEE/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "NZC"
 	then
 		ui_print("Installing NZC CSC...");
