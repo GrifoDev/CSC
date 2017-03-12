@@ -291,6 +291,7 @@ form(
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",
 	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",
 	"INS",		"INS",			"Indian Multi-CSC (FD variant) contains: BNG, INS, INU, NPL, SLI, SKL",		"select",
+	"ITV",		"ITV",			"Italian unbranded",					"select",
 	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
 	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
 	"NZC",		"NZC",			"New Zealand 2degrees branded",				"select",
@@ -351,6 +352,30 @@ form(
 	"XEF",		"XEF",			"France unbranded",					"select",
 	"XEO",		"XEO",			"Poland unbranded",					"select",
 	"XEU",		"XEU",			"United Kingdom (unknown)",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="DHR" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Croatia Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"CRO",		"CRO",			"Croatia T-Mobile branded",				"select",
+	"DHR",		"DHR",			"Croatia bonbon branded (default)",			"select.selected"
 );
 endif;
 if prop("csc.prop","CSC")=="ILO" then

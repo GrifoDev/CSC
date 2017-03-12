@@ -274,6 +274,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "ITV"
+	then
+		ui_print("Installing ITV CSC...");
+		package_extract_dir("aroma/csc/ITV/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "KTC"
 	then
 		ui_print("Installing KTC CSC...");
