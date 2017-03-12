@@ -313,6 +313,7 @@ form(
 	"TMS",		"TMS",			"Slovak unbranded",					"select",
 	"TNZ",		"TNZ",			"New Zealand Spark branded",				"select",
 	"TOP",		"TOP",			"Serbia VIP branded",					"select",
+	"TPH",		"TPH",			"Portugal unbranded",					"select",
 	"TTR",		"TTR",			"Austria Multi-CSC contains: Max, TRG, TTR",		"select",
 	"VAU",		"VAU",			"Australia Vodafone branded",				"select",
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",

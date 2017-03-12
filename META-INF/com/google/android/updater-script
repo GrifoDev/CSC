@@ -528,6 +528,12 @@ if
 		package_extract_dir("aroma/csc/TOP/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TPH"
+	then
+		ui_print("Installing TPH CSC...");
+		package_extract_dir("aroma/csc/TPH/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "TTR"
 	then
 		ui_print("Installing TTR CSC...");
