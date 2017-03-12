@@ -284,6 +284,7 @@ form(
 	"COS",		"COS",			"Greece Cosmote branded",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
+	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",

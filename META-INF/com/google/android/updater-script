@@ -158,6 +158,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "EUR"
+	then
+		ui_print("Installing EUR CSC...");
+		package_extract_dir("aroma/csc/EUR/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "FTM"
 	then
 		ui_print("Installing FTM CSC...");
