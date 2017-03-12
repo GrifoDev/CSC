@@ -286,6 +286,7 @@ form(
 	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
+	"GBL",		"GBL",			"Bulgaria unbranded",					"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",
 	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",

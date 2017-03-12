@@ -170,6 +170,12 @@ if
 		package_extract_dir("aroma/csc/FTM/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "GBL"
+	then
+		ui_print("Installing GBL CSC...");
+		package_extract_dir("aroma/csc/GBL/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "H3G"
 	then
 		ui_print("Installing H3G CSC...");
