@@ -285,6 +285,7 @@ form(
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
 	"DPL",		"DPL",			"Poland branded Multi-CSC contains: DPL, TPL",		"select",
+	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"GBL",		"GBL",			"Bulgaria unbranded",					"select",

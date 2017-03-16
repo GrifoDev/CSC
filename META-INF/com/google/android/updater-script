@@ -183,6 +183,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "ETL"
+	then
+		ui_print("Installing ETL CSC...");
+		package_extract_dir("aroma/csc/ETL/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "EUR"
 	then
 		ui_print("Installing EUR CSC...");
