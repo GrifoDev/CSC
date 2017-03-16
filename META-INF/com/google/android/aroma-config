@@ -322,6 +322,7 @@ form(
 	"VD2",		"VD2",			"Vodafone Multi-CSC contains: ATL, AVF, CNX, CYV, MOB, MTL, OMN, PRO, SIM, SWC, TCL, VD2, VDC, VDF, VDH, VDI, VGR, VIP, VOD, XFV",													"select",
 	"VDS",		"VDS",			"Sweden unbranded",					"select",
 	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
+	"XAC",		"XAC",			"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",		"select",
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, ROM, SEE, SIO, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
 	"XSA",		"XSA",			"Australia unbranded",					"select",
@@ -653,6 +654,40 @@ form(
 	"O2U",		"O2U",			"United Kingdom O2 branded",				"select",
 	"VIA",		"VIA",			"German O2 branded (default)",				"select.selected",
 	"XEC",		"XEC",			"Spain Movistar branded",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="XAC" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Canada Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"BMC",		"BMC",			"Bell Mobile branded",					"select",
+	"BWA",		"BWA",			"SaskTel branded",					"select",
+	"ESK",		"ESK",			"EastLink branded",					"select",
+	"FMC",		"FMC",			"Fido Mobile branded",					"select",
+	"GLW",		"GLW",			"Globalive Wind Mobile branded",			"select",
+	"KDO",		"KDO",			"Koodo Mobile branded",					"select",
+	"MTA",		"MTA",			"Canada (unknown)",					"select",
+	"RWC",		"RWC",			"Rogers branded",					"select",
+	"TLS",		"TLS",			"Telus branded",					"select",
+	"VMC",		"VMC",			"Virgin Mobile branded",				"select",
+	"VTR",		"VTR",			"Vidéotron branded",					"select",
+	"XAC",		"XAC",			"Canada unbranded (default)",				"select.selected"
 );
 endif;
 if prop("csc.prop","CSC")=="XEO" then

@@ -1,0 +1,17 @@
+/system/app/BellMobileTVStub/BellMobileTVStub.apk
+/system/app/BellTVWidget-1.0_2615-release/BellTVWidget-1.0_2615-release.apk
+/system/app/FidoAppZone_v1.028.2/FidoAppZone_v1.028.2.apk
+/system/app/FidoMyAccount-2.3/FidoMyAccount-2.3.apk
+/system/app/Koodo_SelfServe_Virtual_PreLoad_Signed/Koodo_SelfServe_Virtual_PreLoad_Signed.apk
+/system/app/MyAccount_StubApp_5_Feb/MyAccount_StubApp_5_Feb.apk
+/system/app/MyAccount_v1.0.14/MyAccount_v1.0.14.apk
+/system/app/MyBell_StubApp_5_Feb/MyBell_StubApp_5_Feb.apk
+/system/app/mySaskTel_stub_2017_02_09/mySaskTel_stub_2017_02_09.apk
+/system/app/Netco-Sports_J5-JDM_Stub_Android_2016-01-22/Netco-Sports_J5-JDM_Stub_Android_2016-01-22.apk
+/system/app/Netco-Sports_J5-JDQ_Stub_Android_2016-01-22/Netco-Sports_J5-JDQ_Stub_Android_2016-01-22.apk
+/system/app/PortailVideotron_1.0.4-android23/PortailVideotron_1.0.4-android23.apk
+/system/app/Push_To_Talk/Push_To_Talk.apk
+/system/app/TELUSFeaturedApps_v1.0_Signed_Prod_App/TELUSFeaturedApps_v1.0_Signed_Prod_App.apk
+/system/app/Telus_MyAccount_Virtual_PreLoad_Singed_May10/Telus_MyAccount_Virtual_PreLoad_Singed_May10.apk
+/system/app/virginmobile-mybenefits-stub-app-release-signed/virginmobile-mybenefits-stub-app-release-signed.apk
+/system/priv-app/MShopAndroidPhoneApp-6.1.11.31-jackDaniels-release-OEM-sign_97e7b38ee965ec21edcacc249caf1f60/MShopAndroidPhoneApp-6.1.11.31-jackDaniels-release-OEM-sign_97e7b38ee965ec21edcacc249caf1f60.apk

@@ -1,0 +1,4 @@
+/system/app/app-spotify-generic-20160122-signed/app-spotify-generic-20160122-signed.apk
+/system/app/FidoAppZone_v1.028.2/FidoAppZone_v1.028.2.apk
+/system/app/FidoMyAccount-2.3/FidoMyAccount-2.3.apk
+/system/priv-app/IPsecService/IPsecService.apk

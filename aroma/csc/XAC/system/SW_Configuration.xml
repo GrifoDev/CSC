@@ -1,0 +1,23 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935W8</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935W8OYA</CSCName>
+	<CSCVersion>2BQB6</CSCVersion>
+	<NbCustomer>12</NbCustomer>
+	<CustomerData src="/Customer/BMC/customer.xml" />
+	<CustomerData src="/Customer/BWA/customer.xml" />
+	<CustomerData src="/Customer/FMC/customer.xml" />
+	<CustomerData src="/Customer/KDO/customer.xml" />
+	<CustomerData src="/Customer/MTA/customer.xml" />
+	<CustomerData src="/Customer/RWC/customer.xml" />
+	<CustomerData src="/Customer/TLS/customer.xml" />
+	<CustomerData src="/Customer/VMC/customer.xml" />
+	<CustomerData src="/Customer/ESK/customer.xml" />
+	<CustomerData src="/Customer/GLW/customer.xml" />
+	<CustomerData src="/Customer/VTR/customer.xml" />
+	<CustomerData src="/Customer/XAC/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

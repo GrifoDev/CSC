@@ -869,6 +869,91 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "XAC"
+	then
+		ui_print("Installing XAC CSC...");
+		package_extract_dir("aroma/csc/XAC/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "BMC"
+	then
+		ui_print("Installing BMC CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/BMC/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "BWA"
+	then
+		ui_print("Installing BWA CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/BWA/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "ESK"
+	then
+		ui_print("Installing ESK CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/ESK/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "FMC"
+	then
+		ui_print("Installing FMC CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/FMC/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "GLW"
+	then
+		ui_print("Installing GLW CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/GLW/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "KDO"
+	then
+		ui_print("Installing KDO CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/KDO/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "MTA"
+	then
+		ui_print("Installing MTA CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/MTA/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "RWC"
+	then
+		ui_print("Installing RWC CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/RWC/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "TLS"
+	then
+		ui_print("Installing TLS CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/TLS/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "VMC"
+	then
+		ui_print("Installing VMC CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/VMC/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "VTR"
+	then
+		ui_print("Installing VTR CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/VTR/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "XAC"
+	then
+		ui_print("Installing XAC CSC...");
+		package_extract_dir("aroma/csc/XAC/system/csc/XAC/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "XEO"
 	then
 		ui_print("Installing XEO CSC...");

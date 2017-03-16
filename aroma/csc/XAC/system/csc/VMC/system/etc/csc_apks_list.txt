@@ -1,0 +1,4 @@
+/system/app/BellMobileTVStub/BellMobileTVStub.apk
+/system/app/BellTVWidget-1.0_2615-release/BellTVWidget-1.0_2615-release.apk
+/system/app/MyAccount_StubApp_5_Feb/MyAccount_StubApp_5_Feb.apk
+/system/app/virginmobile-mybenefits-stub-app-release-signed/virginmobile-mybenefits-stub-app-release-signed.apk

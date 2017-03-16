@@ -1,0 +1,3 @@
+/system/app/TELUSFeaturedApps_v1.0_Signed_Prod_App/TELUSFeaturedApps_v1.0_Signed_Prod_App.apk
+/system/app/Telus_MyAccount_Virtual_PreLoad_Singed_May10/Telus_MyAccount_Virtual_PreLoad_Singed_May10.apk
+/system/priv-app/MShopAndroidPhoneApp-6.1.11.31-jackDaniels-release-OEM-sign_97e7b38ee965ec21edcacc249caf1f60/MShopAndroidPhoneApp-6.1.11.31-jackDaniels-release-OEM-sign_97e7b38ee965ec21edcacc249caf1f60.apk
