@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0007</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
@@ -530,14 +530,12 @@
         <ProfEpdgMMS>services MMS</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>6</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>3 SE</NetworkName>
         <ProfBrowser>3</ProfBrowser>
         <ProfMMS>3mms</ProfMMS>
         <ProfIMS>ims</ProfIMS>
         <ProfXCAP>3 XCAP</ProfXCAP>
-        <ProfEpdgXCAP>services XCAP</ProfEpdgXCAP>
-        <ProfEpdgMMS>services MMS</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -576,7 +574,7 @@
         <ProfBrowser>ice.net</ProfBrowser>
         <ProfMMS>mms.ice.net</ProfMMS>
       </ProfileHandle>
-      <NbProfile>91</NbProfile>
+      <NbProfile>89</NbProfile>
       <Profile>
         <NetworkName>Ålcom</NetworkName>
         <Editable>yes</Editable>
@@ -760,6 +758,7 @@
       </Profile>
       <Profile>
         <NetworkName>Tele2comviq</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Tele2 4G MMS</ProfileName>
         <URL>http://mmsc.tele2.se</URL>
@@ -1504,6 +1503,7 @@
       </Profile>
       <Profile>
         <NetworkName>3 DK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>3mms</ProfileName>
         <URL>http://mms.3.dk</URL>
@@ -1728,7 +1728,7 @@
       </Profile>
       <Profile>
         <NetworkName>3 DK</NetworkName>
-        <IpVersion>ipv4</IpVersion>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>ims</ProfileName>
         <Auth>none</Auth>
@@ -1875,42 +1875,6 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>3 SE</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>services XCAP</ProfileName>
-        <URL>http://m.tre.se</URL>
-        <Auth>normal</Auth>
-        <Bearer>iwlan</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1440</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>services</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 SE</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>services MMS</ProfileName>
-        <URL>http://mms.tre.se</URL>
-        <Auth>normal</Auth>
-        <Bearer>iwlan</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1440</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>mmsproxy.tre.se</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>services</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>3 DK</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
@@ -2042,7 +2006,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -2105,7 +2069,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -2124,7 +2088,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -2178,7 +2142,7 @@
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
@@ -2197,7 +2161,7 @@
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>

@@ -1,7 +1,7 @@
 if
 	file_getprop("/tmp/aroma-data/menu.prop","selected") == "1"
 	then
-		ui_print("Installing CSCs for SM-G930F/G935F");
+		ui_print("Installing CSCs for SM-G93XF/FD/K/L/S/W8");
 
 assert(getprop("ro.product.device") == "hero2lte" || getprop("ro.build.product") == "hero2lte" || getprop("ro.product.name") == "hero2lte" ||
 	getprop("ro.product.device") == "herolte" || getprop("ro.build.product") == "herolte" || getprop("ro.product.name") == "herolte" ||
@@ -15,7 +15,7 @@ show_progress(1.000000, 0);
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
-ui_print("CSC Installer V2.1.5");
+ui_print("CSC Installer V2.2.0");
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");

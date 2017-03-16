@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V2.1.5");
+ini_set("rom_version",          "V2.2.0");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G93XF/FD/K/L/S/W8");
-ini_set("rom_date",             "06.03.2017");
+ini_set("rom_date",             "13.03.2017");
 
 ##
 # Show Simple Splash
@@ -509,7 +509,7 @@ form(
   #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
-	"CSC",		"Thailand Multi-CSC",	"",							"group",
+	"CSC",		"Austria Multi-CSC",	"",							"group",
 	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"MAX",		"MAX",			"Austria T-Mobile branded",				"select",
 	"TRG",		"TRG",			"Austria Telering branded",				"select",
