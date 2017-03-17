@@ -1,5 +1,4 @@
-13
-SamsungPayStub.apk
+12
 AndroidPay_erasable_Hero.apk
 CnnPanel.apk
 NaverV_N.apk

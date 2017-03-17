@@ -42,6 +42,6 @@
 	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
 	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
 	<CscFeature_Common_SupportPersianCalendar>TRUE</CscFeature_Common_SupportPersianCalendar>
-	 <CscFeature_Calendar_SetColorOfDays>XXXXBRX</CscFeature_Calendar_SetColorOfDays>
+    <CscFeature_Calendar_SetColorOfDays>XXXXRXX</CscFeature_Calendar_SetColorOfDays>
   </FeatureSet>
 </SamsungMobileFeauture>

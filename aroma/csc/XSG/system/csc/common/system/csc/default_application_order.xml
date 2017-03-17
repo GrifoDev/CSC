@@ -232,12 +232,6 @@
         launcher:packageName="com.sec.android.app.popupcalculator" 
         launcher:className="com.sec.android.app.popupcalculator.Calculator" />
 
-    <!-- Play Music -->
-    <favorite
-        launcher:screen="0" 
-        launcher:packageName="com.google.android.music" 
-        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
-
     <!-- Memo -->
     <favorite
         launcher:screen="0" 

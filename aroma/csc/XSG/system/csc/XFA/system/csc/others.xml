@@ -51,12 +51,11 @@
 	<CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
 	<CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,DefaultOnSim_65507;</CscFeature_RIL_ConfigEpdgExtraFunction>
 	<CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
-    <CscFeature_Setting_SupportWiFiCallingMenu>true</CscFeature_Setting_SupportWiFiCallingMenu>
-    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
-    <CscFeature_RIL_ConfigEmergencyApn>sos,IPV4V6,IPV4V6,IWLAN</CscFeature_RIL_ConfigEmergencyApn>
 	<CscFeature_Contact_ConfigImsOpStyle>XFA</CscFeature_Contact_ConfigImsOpStyle>
-	<CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
+	<CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>	
 	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
 	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+	<CscFeature_VoiceCall_DisableSsQuery>TRUE</CscFeature_VoiceCall_DisableSsQuery>
+	<CscFeature_VoiceCall_ConfigOpStyleForImsFunction>display_weak_rssi_alert_dialog</CscFeature_VoiceCall_ConfigOpStyleForImsFunction>
   </FeatureSet>
 </SamsungMobileFeauture>

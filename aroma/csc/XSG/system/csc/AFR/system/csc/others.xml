@@ -9,8 +9,8 @@
     <CscFeature_SIP_EnablePreferredEnglishTypeAsUS>TRUE</CscFeature_SIP_EnablePreferredEnglishTypeAsUS>
     <CscFeature_Clock_DisableIsraelCountry>TRUE</CscFeature_Clock_DisableIsraelCountry>
     <CscFeature_Email_AlignmentForRTL>TRUE</CscFeature_Email_AlignmentForRTL>
-	<CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
-	<CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
@@ -31,10 +31,21 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
-	<CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
-	<CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
-	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
-	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
-	 <CscFeature_Calendar_SetColorOfDays>XXXXBRX</CscFeature_Calendar_SetColorOfDays>
+    <CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
+    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>	 
+    <!-- [IMS] Samsung IMS 6.0 -->
+    <CscFeature_IMS_EnableIMS>false</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_EnableLTEVideoCall>true</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
+    <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
   </FeatureSet>
 </SamsungMobileFeauture>

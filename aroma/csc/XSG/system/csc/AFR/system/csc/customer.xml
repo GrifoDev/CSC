@@ -376,7 +376,7 @@
         <NetworkName>Zain Sudan</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>zain Sudan</ProfileName>
-        <URL>www.sd.zain.com</URL>
+        <URL>http://www.sd.zain.com/</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -389,7 +389,7 @@
       <NbSetting>2</NbSetting>
       <Setting>
         <NetworkName>Smile TZ</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
@@ -409,7 +409,7 @@
       </Setting>
       <Setting>
         <NetworkName>Smile UG</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>

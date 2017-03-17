@@ -104,21 +104,21 @@
         <Editable>yes</Editable>
         <Index>1</Index>
         <BookmarkName>AIRTEL</BookmarkName>
-        <URL>www.africa.airtel.com/ghana/</URL>
+        <URL>http://www.africa.airtel.com/ghana/</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>2</Index>
         <BookmarkName>GLO</BookmarkName>
-        <URL>www.gloworld.com</URL>
+        <URL>http://www.gloworld.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>TIGO</NetworkName>
         <Editable>yes</Editable>
         <Index>3</Index>
         <BookmarkName>TIGO</BookmarkName>
-        <URL>www.tigo.com.gh/wap</URL>
+        <URL>http://www.tigo.com.gh/wap</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
@@ -132,35 +132,35 @@
         <Editable>yes</Editable>
         <Index>5</Index>
         <BookmarkName>ORANGE</BookmarkName>
-        <URL>www.orange.cm</URL>
+        <URL>http://www.orange.cm</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>6</Index>
         <BookmarkName>Oweb</BookmarkName>
-        <URL>www.orange.ci</URL>
+        <URL>http://www.orange.ci</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
         <Index>7</Index>
         <BookmarkName>MTN</BookmarkName>
-        <URL>www.mtn.ci</URL>
+        <URL>http://www.mtn.ci</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>MOOV</NetworkName>
         <Editable>yes</Editable>
         <Index>8</Index>
         <BookmarkName>Moov3G</BookmarkName>
-        <URL>www.moov.com</URL>
+        <URL>http://www.moov.com</URL>
       </Bookmark>      
       <Bookmark>
         <NetworkName>GREENN</NetworkName>
         <Editable>yes</Editable>
         <Index>9</Index>
         <BookmarkName>DATA GREENN</BookmarkName>
-        <URL>www.greenn.ci/</URL>
+        <URL>http://www.greenn.ci/</URL>
       </Bookmark>
     </Browser>
     <Connections>
@@ -258,7 +258,7 @@
       <Profile>
         <NetworkName>MTN GH</NetworkName>
         <ProfileName>MTN</ProfileName>
-        <URL>www.mtnplay.com.gh</URL>
+        <URL>http://www.mtnplay.com.gh/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -283,7 +283,7 @@
       <Profile>
         <NetworkName>VODAFONE</NetworkName>
         <ProfileName>Vodafone</ProfileName>
-        <URL>www.vodafonelive.com.gh</URL>
+        <URL>http://www.vodafonelive.com.gh/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -308,7 +308,7 @@
       <Profile>
         <NetworkName>AIRTEL</NetworkName>
         <ProfileName>Airtel</ProfileName>
-        <URL>www.gh.airtellive.com</URL>
+        <URL>http://www.gh.airtellive.com/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -334,7 +334,7 @@
       <Profile>
         <NetworkName>GLO</NetworkName>
         <ProfileName>Glo</ProfileName>
-        <URL>www.gloworld.com</URL>
+        <URL>http://www.gloworld.com/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -360,7 +360,7 @@
       <Profile>
         <NetworkName>TIGO</NetworkName>
         <ProfileName>Tigo</ProfileName>
-        <URL>www.tigo.com.gh</URL>
+        <URL>http://www.tigo.com.gh/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -386,7 +386,7 @@
       <Profile>
         <NetworkName>MTN CM</NetworkName>
         <ProfileName>MTN CM</ProfileName>
-        <URL>http://www.mtn.cm</URL>
+        <URL>http://www.mtn.cm/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -396,7 +396,7 @@
       <Profile>
         <NetworkName>ORANGE CM</NetworkName>
         <ProfileName>Orange</ProfileName>
-        <URL>www.orange.cm</URL>
+        <URL>http://www.orange.cm/</URL>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <PSparam>

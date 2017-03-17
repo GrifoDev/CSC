@@ -91,19 +91,17 @@
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>IAM</NetworkName>
         <ProfBrowser>MobileZone</ProfBrowser>
         <ProfMMS>mms iam</ProfMMS>
-        <ProfIMS>IMS</ProfIMS>
-        <ProfXCAP>MobileZone</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
         <NetworkName>IAM</NetworkName>
         <ProfBrowser>Internet Mobile</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>4</NbProfile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>IAM</NetworkName>
         <Editable>yes</Editable>
@@ -145,43 +143,6 @@
           <APN>mmsiam</APN>
         </PSparam>
       </Profile>
-      <Profile>
-        <NetworkName>IAM</NetworkName>
-        <IpVersion>ipv4</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>IMS</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1300</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
     </Connections>
-    <IMSSetting>
-      <NbSetting>1</NbSetting>
-      <Setting>
-        <NetworkName>IAM</NetworkName>
-        <Version>1.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
-          <EnableVideocall>true</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SRVCCversion>8</SRVCCversion>
-          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
-        </VoLTE>
-      </Setting>
-    </IMSSetting>
   </Settings>
 </CustomerData>
