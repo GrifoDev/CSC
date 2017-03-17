@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SAMSUNG-SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FATT</CSCName>
+	<CSCVersion>4BQA6</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/ATT/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

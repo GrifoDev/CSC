@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0009</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>ATT</SalesCode>
+    <NbNetworkInfo>12</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>Anritsu</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310150</MCCMNC>
+      <NetworkName>AIO</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310170</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310380</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310380</MCCMNC>
+      <NetworkName>AGMS Global</NetworkName>
+      <SubsetCode>80</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310410</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310560</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311180</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20465</MCCMNC>
+      <NetworkName>AGMS NL</NetworkName>
+      <SubsetCode>80</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>99999</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310030</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>310280</MCCMNC>
+      <NetworkName>ATT</NetworkName>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <UnlockCnt>10</UnlockCnt>
+        <OneSIMLock>none</OneSIMLock>
+        <NbNetworkLock>9</NbNetworkLock>
+        <NetworkLock>00101</NetworkLock>
+        <NetworkLock>310150</NetworkLock>
+        <NetworkLock>310170</NetworkLock>
+        <NetworkLock>311180</NetworkLock>
+        <NetworkLock>310410</NetworkLock>
+        <NetworkLock>310560</NetworkLock>
+        <NetworkLock>99999</NetworkLock>
+        <NetworkLock>310030</NetworkLock>
+        <NetworkLock>310280</NetworkLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>8</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>ATT</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ATT</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3.5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ATT</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ATT</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>3.5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Anritsu</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <NbSOSNumberNoSIM>8</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>08</SOSNumberNoSIM>
+        <SOSNumberNoSIM>000</SOSNumberNoSIM>
+        <SOSNumberNoSIM>110</SOSNumberNoSIM>
+        <SOSNumberNoSIM>118</SOSNumberNoSIM>
+        <SOSNumberNoSIM>119</SOSNumberNoSIM>
+        <SOSNumberNoSIM>999</SOSNumberNoSIM>
+      </Network>
+      <Sound>
+        <MsgToneAlertType>vib</MsgToneAlertType>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+          <CallEndTone>on</CallEndTone>
+          <MinuteMind>off</MinuteMind>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <AlertOnCall>on</AlertOnCall>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <ContinuousInput>enable</ContinuousInput>
+        <T9Language>english</T9Language>
+        <DateTimeFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <NbPreInstalledContact>7</NbPreInstalledContact>
+      <PreInstalledContact>
+        <TelName>Check Bill Balance</TelName>
+        <TelNum>*225#</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>Customer Service</TelName>
+        <TelNum>611</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>Directory Assistance</TelName>
+        <TelNum>411</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>Pay My Bill</TelName>
+        <TelNum>*729</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>View Data Usage</TelName>
+        <TelNum>*3282#</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>View My Minutes</TelName>
+        <TelNum>*646#</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+      <PreInstalledContact>
+        <TelName>Spam Text Reporter</TelName>
+        <TelNum>7726</TelNum>
+        <GroupID>AT&amp;T Service Contacts</GroupID>
+      </PreInstalledContact>
+    </Contact>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>5</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>10</MaxRecipient>
+        <CharSupport>gsmalpha</CharSupport>
+      </SMS>
+      <MMS>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <MessageSize>1m</MessageSize>
+          <MaxRecipientMMS>10</MaxRecipientMMS>
+        </MmsSending>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <PollTime>1h</PollTime>
+        </EmailReceiving>
+      </Email>
+    </Messages>
+    <ActiveSync>
+      <Signature>Sent via the Samsung Galaxy S7 edge, an AT&amp;T 4G LTE smartphone</Signature>
+    </ActiveSync>
+    <Browser>
+      <NbBookmark>4</NbBookmark>
+      <Bookmark>
+        <NetworkName>ATT</NetworkName>
+        <Editable>no</Editable>
+        <Index>1</Index>
+        <BookmarkName>AT&amp;T Mobile Web</BookmarkName>
+        <URL>http://home.att.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>ATT</NetworkName>
+        <Editable>no</Editable>
+        <Index>2</Index>
+        <BookmarkName>AT&amp;T Wi-Fi Hot Spots</BookmarkName>
+        <URL>http://attwifi.knowwhere.com/attwifiw/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>ATT</NetworkName>
+        <Editable>no</Editable>
+        <Index>3</Index>
+        <BookmarkName>AT&amp;T Reuse &amp; Recycle</BookmarkName>
+        <URL>http://www.att.com/recycle</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>ATT</NetworkName>
+        <Editable>no</Editable>
+        <Index>4</Index>
+        <BookmarkName>Device Help</BookmarkName>
+        <URL>http://www.att.com/devicehowto/?make=samsung&amp;model=samsungg935a</URL>
+      </Bookmark>
+    </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <WifiSSID>attwifi</WifiSSID>
+      <WifiKeyMgmt>NONE</WifiKeyMgmt>
+    </WifiProfile>
+    <Wifi>
+      <NbHs20Profile>1</NbHs20Profile>
+      <Hs20Profile>
+        <FullyQualifiedDomainName>attwifi.com</FullyQualifiedDomainName>
+        <FriendlyName>AT&amp;T Wi-Fi Passpoint</FriendlyName>
+        <Realm>wlan.mnc410.mcc310.3gppnetwork.org</Realm>
+        <Eap>AKA</Eap>
+        <Imsi>?</Imsi>
+      </Hs20Profile>
+    </Wifi>
+    <Connections>
+      <NbProfileHandle>4</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>ATT</NetworkName>
+        <ProfBrowser>ATT Nextgenphone</ProfBrowser>
+        <ProfMMS>ATT Nextgenphone MMS</ProfMMS>
+        <ProfActiveSync>ATT Nextgenphone ActiveSync</ProfActiveSync>
+        <ProfIMS>ATT IMS</ProfIMS>
+        <ProfFOTA>ATT Nextgenphone FOTA</ProfFOTA>
+        <ProfCBS>ATT CBS</ProfCBS>
+        <ProfXCAP>ATT UT</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>AIO</NetworkName>
+        <ProfBrowser>internet</ProfBrowser>
+        <ProfMMS>AIO MMS</ProfMMS>
+        <ProfActiveSync>AIO ActiveSync</ProfActiveSync>
+        <ProfFOTA>AIO FOTA</ProfFOTA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>AGMS Global</NetworkName>
+        <ProfBrowser>AGMS Global</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>AGMS NL</NetworkName>
+        <ProfBrowser>AGMS NL</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>13</NbProfile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ATT Nextgenphone</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>nxtgenphone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ATT Nextgenphone MMS</ProfileName>
+        <URL>http://mmsc.mobile.att.net</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>proxy.mobile.att.net</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>nxtgenphone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ATT Nextgenphone ActiveSync</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>nxtgenphone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ATT Nextgenphone FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>nxtgenphone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <RoamingEnableStatus>enable</RoamingEnableStatus>
+        <ProfileName>ATT IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ATT CBS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>nxtgenphone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ATT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>ATT UT</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>nxtgenphone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AGMS Global</NetworkName>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AGMS Global</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>agms.nl.gmm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AGMS NL</NetworkName>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AGMS NL</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>agms.nl.gmm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIO</NetworkName>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>internet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>ndo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIO</NetworkName>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AIO ActiveSync</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>ndo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIO</NetworkName>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AIO FOTA</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <PSparam>
+          <APN>ndo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIO</NetworkName>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>AIO MMS</ProfileName>
+        <URL>http://mmsc.aiowireless.net</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1430</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>proxy.aiowireless.net</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>ndo</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>ATT</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>true</EnableRCS>
+          <EnableRCSchat>true</EnableRCSchat>
+        </RCS>
+      </Setting>
+    </IMSSetting>
+  </Settings>
+</CustomerData>
