@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FSFR</CSCName>
+	<CSCVersion>1DQB4</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/SFR/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

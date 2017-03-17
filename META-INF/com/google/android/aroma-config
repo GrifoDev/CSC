@@ -309,6 +309,7 @@ form(
 	"PNG",		"PNG",			"New Zealand Digicel branded",				"select",
 	"SEB",		"SEB",			"Latvia unbranded",					"select",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
+	"SFR",		"SFR",			"France SFR branded",					"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
 	"TEL",		"TEL",			"Australia Telstra branded",				"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",

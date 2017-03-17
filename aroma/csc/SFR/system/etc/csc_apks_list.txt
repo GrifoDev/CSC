@@ -1,0 +1,2 @@
+/system/priv-app/3385_SFRJeux-6.0.1-logoff-obson-release_2016-07-08_11-49-17/3385_SFRJeux-6.0.1-logoff-obson-release_2016-07-08_11-49-17.apk
+/system/priv-app/3478_MyApps-1.1.7-logoff-obson-prodRelease_2016-09-16_13-52-24/3478_MyApps-1.1.7-logoff-obson-prodRelease_2016-09-16_13-52-24.apk

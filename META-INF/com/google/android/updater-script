@@ -438,6 +438,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "SFR"
+	then
+		ui_print("Installing SFR CSC...");
+		package_extract_dir("aroma/csc/SFR/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "SKC"
 	then
 		ui_print("Installing SKC CSC...");
