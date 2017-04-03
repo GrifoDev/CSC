@@ -1,0 +1,13 @@
+12
+AuthFramework.apk
+AuthService_v2.apk
+FidoUafAsm_v16.apk
+FidoUafClient_v16.apk
+SamsungPayStub.apk
+AxelSpringer.apk
+SamsungPass_1.1.apk
+SamsungUpdates.apk
+SecVVM.apk
+TetheringProvision.apk
+OMCAgent.apk
+vsimservice.apk

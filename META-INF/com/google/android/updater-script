@@ -474,6 +474,14 @@ if
 		package_extract_dir("aroma/csc/TEN/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TGY"
+	then
+		ui_print("Installing TGY CSC...");
+		package_extract_dir("aroma/csc/TGY/system", "/system");
+		delete_recursive("/system/csc");
+		package_extract_dir("aroma/csc/TGY/system/csc/TGY/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "THL"
 	then
 		ui_print("Installing THL CSC...");

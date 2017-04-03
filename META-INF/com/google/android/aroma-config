@@ -315,6 +315,7 @@ form(
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
 	"TEL",		"TEL",			"Australia Telstra branded",				"select",
 	"TEN",		"TEN",			"Norway Telenor branded",				"select",
+	"TGY",		"TGY",			"HongKong unbranded",					"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
 	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
 	"TMH",		"TMH",			"Hungary Telekom branded",				"select",
