@@ -41,6 +41,7 @@
     <CscFeature_Setting_EnableDataRoamingMenuInDetail>TRUE</CscFeature_Setting_EnableDataRoamingMenuInDetail>
     <CscFeature_Setting_EnableEditingIpVersionTypeRoaming>TRUE</CscFeature_Setting_EnableEditingIpVersionTypeRoaming>
     <CscFeature_Setting_EnableModemResetDuringFactoryReset>TRUE</CscFeature_Setting_EnableModemResetDuringFactoryReset>
+	<CscFeature_Setting_HideApnList>xcap,XCAP,ims,IMS,services</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
