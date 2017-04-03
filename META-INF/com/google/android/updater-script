@@ -133,6 +133,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "CHC"
+	then
+		ui_print("Installing CHC CSC...");
+		package_extract_dir("aroma/csc/CHC/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "COS"
 	then
 		ui_print("Installing COS CSC...");

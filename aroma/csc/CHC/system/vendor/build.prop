@@ -1,0 +1,8 @@
+ro.product.model=SM-G9300
+persist.radio.multisim.config=dsds
+ro.multisim.simslotcount=2
+telephony.lteOnCdmaDevice=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.radio.tdscdma_present=1
+ro.telephony.default_network=9,1
