@@ -290,6 +290,7 @@ form(
 	"DPL",		"DPL",			"Poland branded Multi-CSC contains: DPL, TPL",		"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
+	"EVR",		"EVR",			"United Kingdom EE branded",				"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
 	"GBL",		"GBL",			"Bulgaria unbranded",					"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
