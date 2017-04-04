@@ -1257,10 +1257,6 @@ if
 		package_extract_dir("aroma/csc/XSG/system/csc/XSG/system", "/system");
 endif;
 endif;
-ui_print("Extracting data...");
-ui_print(" ");
-package_extract_dir("data", "/data");
-set_metadata_recursive("/data/app", "uid", 1000, "gid", 1000, "dmode", 0755, "fmode", 0644, "capabilities", 0x0);
 ui_print("Changing model");
 package_extract_file("scripts/csc_script.sh", "/tmp/csc_script.sh");
 set_perm(0, 0, 0777, "/tmp/csc_script.sh");
