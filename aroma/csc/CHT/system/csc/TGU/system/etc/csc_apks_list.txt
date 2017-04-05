@@ -1,0 +1,5 @@
+/system/app/GolMovistar_v1.4_20161129/GolMovistar_v1.4_20161129.apk
+/system/app/MiMovistar_v1.3_20161020_ns/MiMovistar_v1.3_20161020_ns.apk
+/system/app/Napster_v1.4_20170106_ns/Napster_v1.4_20170106_ns.apk
+/system/app/TonosDeEspera_v1.5_20161129/TonosDeEspera_v1.5_20161129.apk
+/system/app/UWT_STK_RRO_v1.1_20160113/UWT_STK_RRO_v1.1_20160113.apk

@@ -1,0 +1,114 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+
+<CustomerData>
+
+
+
+	<Napster>
+		<URL>https://play.google.com/store/apps/details?id=com.rhapsody.napster&amp;hl=es_419</URL>
+		<!-- Argentina,Chile,Colombia,Peru,Uruguay,Costa Rica,Ecuador,El Salvador,Guatemala,Nicaragua,Panama -->
+		<MCCMNC>72207,73002,732123,71606,74807,71204,74000,70604,70403,710300,714020</MCCMNC>
+	</Napster>
+
+
+
+	<Priority>
+		<URL>https://play.google.com/store/apps/details?id=pe.beyond.movistar.prioritymoments</URL>
+		<!-- Peru -->
+		<MCCMNC>71606</MCCMNC>
+	</Priority>
+
+
+	<EasyTaxi>
+		<URL>https://play.google.com/store/apps/details?id=br.com.easytaxi</URL>		
+		<!-- Peru -->	
+		<MCCMNC>71606</MCCMNC>	
+	</EasyTaxi>
+	
+	<Linio>
+		<URL>http://play.google.com/store/apps/details?id=com.linio.android</URL>
+		<!-- Peru -->
+		<MCCMNC>71606</MCCMNC>
+	</Linio>
+
+
+	<TuGo>
+		<URL>https://play.google.com/store/apps/details?id=es.tid.gconnect</URL>
+		<!-- Colombia, Peru -->
+		<MCCMNC>732123,71606</MCCMNC>
+	</TuGo>
+	
+	<movistarpe>
+		<URL>https://play.google.com/store/apps/details?id=tdp.app.col</URL>
+		<!-- Peru -->
+		<MCCMNC>71606</MCCMNC>
+	</movistarpe>
+	
+	<MiMovistarCl>
+	   <URL>https://play.google.com/store/apps/details?id=cl.movistar.android</URL>
+		<!-- Chile -->
+		<MCCMNC>73002</MCCMNC>
+	</MiMovistarCl>
+	
+	<MovistarPlay>
+	   <URL>https://play.google.com/store/apps/details?id=cl.movistarplay</URL>
+		<!-- Chile -->
+		<MCCMNC>73002</MCCMNC>
+	</MovistarPlay>
+	
+	<ModoFutbol>
+	   <URL>https://play.google.com/store/apps/details?id=com.smartboxtv.copamovistarchile</URL>
+		<!-- Chile -->
+		<MCCMNC>73002</MCCMNC>
+	</ModoFutbol>
+	
+	<ClubMovistar>
+	   <URL>https://play.google.com/store/apps/details?id=cl.jbravo.ams&amp;hl=es</URL>
+		<!-- Chile -->
+		<MCCMNC>73002</MCCMNC>
+	</ClubMovistar>
+	
+	<MiMovistar>
+		<URL>https://play.google.com/store/apps/details?id=com.telefonica.mimovistar</URL>
+		<!-- Costa Rica,Guatemala,Nicaragua,Panama, El Salvador -->
+		<MCCMNC>71204,70403,710300,714020,70604</MCCMNC>
+	</MiMovistar>
+	
+	<MiMovistarEc>
+		<URL>https://play.google.com/store/apps/details?id=com.otecel.mimovistar&amp;hl=es_419</URL>
+		<!-- Ecuador -->
+		<MCCMNC>74000</MCCMNC>
+	</MiMovistarEc>
+	
+	
+	<MiMovistarAr>
+		<URL>https://play.google.com/store/apps/details?id=com.services.movistar.ar</URL>
+		<!-- Argentina -->
+		<MCCMNC>72207</MCCMNC>
+	</MiMovistarAr>
+	
+	<Entretonos>
+		<URL>https://play.google.com/store/apps/details?id=com.yallaya.rbt</URL>
+		<!-- Mexico -->
+		<MCCMNC>33403</MCCMNC>
+	</Entretonos>
+	
+	<futbolmovistarpe>
+		<URL>https://play.google.com/store/apps/details?id=com.smartboxtv.copamovistar</URL>
+		<!--Peru-->
+		<MCCMNC>71606</MCCMNC>
+	</futbolmovistarpe>
+	
+	<GolMovistar>
+	    <URL>https://play.google.com/store/apps/details?id=com.clov3rlabs.movistar_gol.android</URL>
+		<!--Ecuador, Guatemala, Mexico-->
+		<MCCMNC>74000,70403,33403</MCCMNC>
+	</GolMovistar>
+	
+	<TonosDeEspera>
+	    <URL>https://play.google.com/store/apps/details?id=com.movistar.globalrbt</URL>
+		<!--Argentina, Ecuador, Guatemala, Nicaragua, Uruguay-->
+		<MCCMNC>72207,74000,70403,710300,74807</MCCMNC>
+	</TonosDeEspera>
+</CustomerData>
+

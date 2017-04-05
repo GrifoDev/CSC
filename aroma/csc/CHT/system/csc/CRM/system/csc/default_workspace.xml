@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <home>
+	    <!--  screen [0]  -->
+        <!-- Accuweather -->
+        <appwidget
+            launcher:packageName="com.sec.android.daemonapp" 
+            launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" 
+            launcher:screen="0" 
+            launcher:x="0" 
+            launcher:y="0" 
+            launcher:spanX="2" 
+            launcher:spanY="1" />
+
+        <!-- Google search box-->
+        <appwidget
+            launcher:packageName="com.google.android.googlequicksearchbox" 
+            launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider" 
+            launcher:screen="0" 
+            launcher:x="0" 
+            launcher:y="2" 
+            launcher:spanX="4" 
+            launcher:spanY="1" />
+
+			
+		<!-- Gallery -->
+        <favorite
+            launcher:packageName="com.sec.android.gallery3d" 
+            launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity" 
+            launcher:screen="0" 
+            launcher:x="0" 
+            launcher:y="3" 
+            launcher:spanX="1" 
+            launcher:spanY="1" />	
+
+        <!-- Camera -->
+        <favorite
+            launcher:packageName="com.sec.android.app.camera" 
+            launcher:className="com.sec.android.app.camera.Camera" 
+            launcher:screen="0" 
+            launcher:x="1" 
+            launcher:y="3" 
+            launcher:spanX="1" 
+            launcher:spanY="1" />
+
+        <!-- Play Store -->
+        <favorite
+            launcher:packageName="com.android.vending" 
+            launcher:className="com.android.vending.AssetBrowserActivity" 
+            launcher:screen="0" 
+            launcher:x="2" 
+            launcher:y="3" 
+            launcher:spanX="1" 
+            launcher:spanY="1" />
+
+
+        <!-- Folder : Google -->
+        <folder
+            launcher:screen="0" 
+            launcher:title="Google"
+            launcher:x="3" 
+            launcher:y="3"
+            launcher:hideAddButton="true">
+           		<!-- Google -->
+				<favorite launcher:screen="0" launcher:packageName="com.google.android.googlequicksearchbox" launcher:className="com.google.android.googlequicksearchbox.SearchActivity"/>
+				<!-- Chrome -->
+				<favorite launcher:screen="1" launcher:packageName="com.android.chrome" launcher:className="com.google.android.apps.chrome.Main"/>
+				<!-- Gmail -->
+				<favorite launcher:screen="2" launcher:packageName="com.google.android.gm" launcher:className="com.google.android.gm.ConversationListActivityGmail"/>
+				<!-- Maps -->
+				<favorite launcher:screen="3" launcher:packageName="com.google.android.apps.maps" launcher:className="com.google.android.maps.MapsActivity"/>
+				<!-- YouTube -->
+				<favorite launcher:screen="4" launcher:packageName="com.google.android.youtube" launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
+				<!-- Drive -->
+				<favorite launcher:screen="5" launcher:packageName="com.google.android.apps.docs" launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+				<!-- Music  -->
+				<favorite launcher:screen="6" launcher:packageName="com.google.android.music" launcher:className="com.android.music.activitymanagement.TopLevelActivity"/>
+				<!-- Movies -->
+				<favorite launcher:screen="7" launcher:packageName="com.google.android.videos" launcher:className="com.google.android.youtube.videos.EntryPoint"/>
+				<!-- Hangouts -->
+				<favorite launcher:screen="8" launcher:packageName="com.google.android.talk" launcher:className="com.google.android.talk.SigningInActivity"/>
+				<!-- Photos -->
+				<favorite launcher:screen="9" launcher:packageName="com.google.android.apps.photos" launcher:className="com.google.android.apps.photos.home.HomeActivity"/>
+        </folder> 
+
+		<!-- screen [1] -->
+		<!-- Movistar Folder-->
+        <folder
+        launcher:screen="1"
+        launcher:title="Movistar"
+		launcher:x="0" 
+        launcher:y="3" >
+		
+		<!-- Telefonica apps -->
+		<!-- STK -->
+		<favorite
+			launcher:packageName="com.android.stk"
+			launcher:className="com.android.stk.StkLauncherActivity" />
+		
+		<favorite
+			launcher:packageName="com.gameloft.android.LATAM.GloftCRSM"
+			launcher:className="com.gameloft.android.LATAM.GloftCRSM.Start" />
+
+		<favorite
+			launcher:packageName="com.gameloft.android.GloftSCRT"
+			launcher:className="com.gameloft.android.GloftSCRT.Start" />	
+
+		<favorite
+			launcher:packageName="com.gameloft.android.GloftSMIM"
+			launcher:className="com.gameloft.android.GloftSMIM.Start" />	
+		
+		<favorite
+			launcher:packageName="com.ea.games.nfs13_embed_latam"
+			launcher:className="com.ea.ironmonkey.GameActivity" />
+		
+		<favorite
+			launcher:packageName="com.popcap.pvz_embed_latam"
+			launcher:className="com.popcap.pvz_embed_latam.Main" />
+		<!-- Mi Movistar -->
+		<favorite
+            launcher:screen="0"
+			launcher:packageName="com.sec.android.app.latin.mimovistar"
+			launcher:className="com.sec.android.app.latin.mimovistar.Launcher" />
+	</folder>
+        <!-- Despegar -->
+		<favorite
+			launcher:packageName="com.gm.despegar"
+			launcher:className="com.despegar.ui.splash.SplashActivity"
+			launcher:screen="1"
+			launcher:x="1"
+			launcher:y="3" />
+								
+        <!-- Napster Stub -->
+	    <favorite
+			launcher:packageName="com.sec.android.app.latin.napster"
+			launcher:className="com.sec.android.app.latin.napster.Launcher"
+			launcher:screen="1"
+			launcher:x="2"
+			launcher:y="3" />
+		
+		<!-- screen[3] -->
+		<!-- Gameloft widgets -->
+        <appwidget
+			launcher:packageName="com.movistarRegional.android.GAND.GloftPA65"
+			launcher:className="com.movistarRegional.android.GAND.GloftPA65.DyncImagesWidgetProvider"
+			launcher:screen="2"
+			launcher:x="0"
+			launcher:y="0"
+			launcher:spanX="4"
+			launcher:spanY="4" />
+		
+		<!-- screen [4]-->
+		 <!-- Galaxy Essentials -->
+        <appwidget
+            launcher:packageName="com.sec.android.widgetapp.samsungapps" 
+            launcher:className="com.sec.android.widgetapp.samsungapps.WidgetProvider42" 
+            launcher:screen="3" 
+            launcher:x="0" 
+            launcher:y="0" 
+            launcher:spanX="4" 
+            launcher:spanY="1" />
+
+			
+        <!-- Word -->
+        <favorite
+            launcher:packageName="com.microsoft.office.word" 
+            launcher:className="com.microsoft.office.apphost.LaunchActivity" 
+            launcher:screen="3" 
+            launcher:x="0" 
+            launcher:y="3" 
+            launcher:spanX="1" 
+            launcher:spanY="1" />
+
+        <!-- Folder : Microsoft Apps -->
+        <folder
+            launcher:screen="3" 
+            launcher:title="Aplicaciones de Microsoft"
+            launcher:x="1" 
+            launcher:y="3" >
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.microsoft.office.excel" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.microsoft.office.powerpoint" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.microsoft.skydrive" 
+                launcher:className="com.microsoft.skydrive.MainActivity" />
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.microsoft.office.onenote" 
+                launcher:className="com.microsoft.office.onenote.ui.ONMSplashActivity" />
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.skype.raider" 
+                launcher:className="com.skype.raider.Main" />
+        </folder>
+
+    </home> 
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <hotseat>
+        <!-- Phone -->
+        <favorite
+            launcher:packageName="com.android.contacts" 
+            launcher:className="com.android.dialer.DialtactsActivity" 
+            launcher:screen="0" />
+
+        <!-- Messages -->
+        <favorite
+            launcher:packageName="com.android.mms" 
+            launcher:className="com.android.mms.ui.ConversationComposer" 
+            launcher:screen="1" />
+
+				<favorite
+            launcher:packageName="com.sec.android.app.latin.launcher.movistar.contenidos"
+            launcher:className="com.sec.android.app.latin.launcher.movistar.contenidos.Launcher"
+            launcher:screen="2" />
+
+        <!-- Internet 
+        <favorite
+            launcher:packageName="com.sec.android.app.sbrowser" 
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" 
+            launcher:screen="2" />
+				-->
+								
+    </hotseat>
+</favorites>

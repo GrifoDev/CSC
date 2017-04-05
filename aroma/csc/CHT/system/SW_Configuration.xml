@@ -1,0 +1,23 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G935F</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G935FUWT</CSCName>
+	<CSCVersion>1DQB7</CSCVersion>
+	<NbCustomer>12</NbCustomer>
+	<CustomerData src="/Customer/CHT/customer.xml" />
+	<CustomerData src="/Customer/COB/customer.xml" />
+	<CustomerData src="/Customer/CRM/customer.xml" />
+	<CustomerData src="/Customer/EBE/customer.xml" />
+	<CustomerData src="/Customer/MMO/customer.xml" />
+	<CustomerData src="/Customer/NBS/customer.xml" />
+	<CustomerData src="/Customer/PBS/customer.xml" />
+	<CustomerData src="/Customer/SAM/customer.xml" />
+	<CustomerData src="/Customer/TGU/customer.xml" />
+	<CustomerData src="/Customer/TMM/customer.xml" />
+	<CustomerData src="/Customer/UFN/customer.xml" />
+	<CustomerData src="/Customer/UFU/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

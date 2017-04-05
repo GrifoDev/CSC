@@ -1,0 +1,10 @@
+/system/app/Entretonos_v1.2_20161020_ns/Entretonos_v1.2_20161020_ns.apk
+/system/app/FutbolMovistar_20161017_v1.1/FutbolMovistar_20161017_v1.1.apk
+/system/app/GolMovistar_v1.3_20161020_ns/GolMovistar_v1.3_20161020_ns.apk
+/system/app/MiMovistarAr_v1.2_20161020_ns/MiMovistarAr_v1.2_20161020_ns.apk
+/system/app/MiMovistarEC_v1.1_20161121/MiMovistarEC_v1.1_20161121.apk
+/system/app/MiMovistarPeru_v1.3_20161107_ns/MiMovistarPeru_v1.3_20161107_ns.apk
+/system/app/Priority_v1.3_20161017_ns/Priority_v1.3_20161017_ns.apk
+/system/app/TonosdeEspera_v1.4_20161027_ns/TonosdeEspera_v1.4_20161027_ns.apk
+/system/app/TuGO_v1.5_20170106_ns/TuGO_v1.5_20170106_ns.apk
+/system/app/UserManual/UserManual.apk
