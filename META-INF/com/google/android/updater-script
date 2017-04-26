@@ -1373,6 +1373,12 @@ if
 		package_extract_dir("aroma/csc/XSG/system/csc/XSG/system", "/system");
 endif;
 endif;
+if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "ZTO"
+	then
+		ui_print("Installing ZTO CSC...");
+		package_extract_dir("aroma/csc/ZTO/system", "/system");
+endif;
 ui_print("Changing model");
 package_extract_file("scripts/csc_script.sh", "/tmp/csc_script.sh");
 set_perm(0, 0, 0777, "/tmp/csc_script.sh");
