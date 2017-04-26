@@ -499,6 +499,12 @@ if
 		package_extract_dir("aroma/csc/OPV/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "ORO"
+	then
+		ui_print("Installing ORO CSC...");
+		package_extract_dir("aroma/csc/ORO/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "PHE"
 	then
 		ui_print("Installing PHE CSC...");
