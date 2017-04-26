@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Spain</Country>
     <CountryISO>ES</CountryISO>
     <Region>EUR</Region>
@@ -177,11 +177,10 @@
     <Connections>
       <NbProfileHandle>3</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>Movistar</NetworkName>
         <ProfBrowser>Movistar</ProfBrowser>
         <ProfMMS>Movistar MMS</ProfMMS>
-        <ProfIntSharing>Conexion compartida</ProfIntSharing>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -196,7 +195,7 @@
         <ProfBrowser>Internet Pepephone</ProfBrowser>
         <ProfMMS>MMS Pepephone</ProfMMS>
       </ProfileHandle>
-      <NbProfile>7</NbProfile>
+      <NbProfile>6</NbProfile>
       <Profile>
         <NetworkName>Movistar</NetworkName>
         <Editable>yes</Editable>
@@ -231,22 +230,6 @@
           <APN>telefonica.es</APN>
           <UserId>telefonica</UserId>
           <Password>telefonica</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Movistar</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Conexion compartida</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>movistar.es</APN>
-          <UserId>MOVISTAR</UserId>
-          <Password>MOVISTAR</Password>
         </PSparam>
       </Profile>
       <Profile>
