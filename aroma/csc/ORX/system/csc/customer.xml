@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0006</CSCEdition>
+    <Country>Slovakia</Country>
+    <CountryISO>SK</CountryISO>
+    <Region>EUR</Region>
+    <SalesCode>ORX</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23101</MCCMNC>
+      <NetworkName>Orange</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23105</MCCMNC>
+      <NetworkName>Orange</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23102</MCCMNC>
+      <NetworkName>T-Mobile SK</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23104</MCCMNC>
+      <NetworkName>T-Mobile SK</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23106</MCCMNC>
+      <NetworkName>O2 - SK</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23103</MCCMNC>
+      <NetworkName>SWAN</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbWbAmr>2</NbWbAmr>
+        <WbAmr>
+          <NetworkName>Orange</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>T-Mobile SK</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>on</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+          <CallEndTone>on</CallEndTone>
+          <MinuteMind>off</MinuteMind>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <AlertOnCall>on</AlertOnCall>
+        <DefLanguage>slovakian</DefLanguage>
+        <DefLanguageNoSIM>slovakian</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <T9Language>slovakian</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>3</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Orange</NetworkName>
+        <TelNum>+421905055550</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <TelNum>+421903333999</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>O2 - SK</NetworkName>
+        <TelNum>+421949999999</TelNum>
+      </Voicemail>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>gsmalpha</CharSupport>
+        <SSMS>off</SSMS>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <PollTime>off</PollTime>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>4</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung</BookmarkName>
+        <URL>http://www.samsung.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Sme online</BookmarkName>
+        <URL>http://m.sme.sk</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>3</Index>
+        <BookmarkName>Pravda online</BookmarkName>
+        <URL>http://m.pravda.sk</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>4</Index>
+        <BookmarkName>Meteo.sk</BookmarkName>
+        <URL>http://www.meteo.sk</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>4</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Orange</NetworkName>
+        <ProfBrowser>Orange Internet</ProfBrowser>
+        <ProfMMS>Orange MMS</ProfMMS>
+        <ProfEmail>Orange Internet</ProfEmail>
+        <ProfAGPS>Orange Internet</ProfAGPS>
+        <ProfIntSharing>Orange Internet</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Orange Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <ProfBrowser>Telekom Internet</ProfBrowser>
+        <ProfMMS>Telekom MMS</ProfMMS>
+        <ProfEmail>Telekom Internet</ProfEmail>
+        <ProfAGPS>Telekom Internet</ProfAGPS>
+        <ProfIntSharing>Telekom Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>O2 - SK</NetworkName>
+        <ProfBrowser>O2 internet</ProfBrowser>
+        <ProfMMS>O2 MMS</ProfMMS>
+        <ProfEmail>O2 internet</ProfEmail>
+        <ProfAGPS>O2 internet</ProfAGPS>
+        <ProfIntSharing>O2 internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>SWAN</NetworkName>
+        <ProfBrowser>SWAN Internet</ProfBrowser>
+        <ProfEmail>SWAN Internet</ProfEmail>
+        <ProfAGPS>SWAN Internet</ProfAGPS>
+        <ProfIntSharing>SWAN Internet</ProfIntSharing>
+      </ProfileHandle>
+      <NbProfile>8</NbProfile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Orange Internet</ProfileName>
+        <URL>http://www.orangego.sk</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Orange MMS</ProfileName>
+        <URL>http://imms.orange.sk</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>213.151.208.145</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>wap</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Telekom Internet</ProfileName>
+        <URL>http://m.telekom.sk</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile SK</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Telekom MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.1.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>O2 - SK</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>O2 internet</ProfileName>
+        <URL>http://www.sk.o2.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>o2internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>O2 - SK</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>O2 MMS</ProfileName>
+        <URL>http://mms.o2world.sk:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.97.1.11</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>o2mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SWAN</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>SWAN Internet</ProfileName>
+        <URL>https://www.swan.sk</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>Orange</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+	  <EnableSMSoverIP>FALSE</EnableSMSoverIP>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+	  <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
+  </Settings>
+</CustomerData>

@@ -505,6 +505,12 @@ if
 		package_extract_dir("aroma/csc/ORO/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "ORX"
+	then
+		ui_print("Installing ORX CSC...");
+		package_extract_dir("aroma/csc/ORX/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "PHE"
 	then
 		ui_print("Installing PHE CSC...");

@@ -309,6 +309,7 @@ form(
 	"OPS",		"OPS",			"Australia Optus branded",				"select",
 	"OPV",		"OPV",			"Poland Orange branded",				"select",
 	"ORO",		"ORO",			"Romania Orange branded",				"select",
+	"ORX",		"ORX",			"Slovakia unbranded",					"select",
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
 	"PNG",		"PNG",			"New Zealand Digicel branded",				"select",
