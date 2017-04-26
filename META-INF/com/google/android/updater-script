@@ -236,6 +236,37 @@ if
 		package_extract_dir("aroma/csc/DBT/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "DDE"
+	then
+		ui_print("Installing DDE CSC...");
+		package_extract_dir("aroma/csc/DDE/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "All"
+	then
+		ui_print("Installing All Multi-CSC...");
+		package_extract_dir("aroma/csc/DDE/system/csc", "/system/csc");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "DCO"
+	then
+		ui_print("Installing DCO CSC...");
+		package_extract_dir("aroma/csc/DDE/system/csc/DCO/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "DDE"
+	then
+		ui_print("Installing DDE CSC...");
+		package_extract_dir("aroma/csc/DDE/system/csc/DDE/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "DTM"
+	then
+		ui_print("Installing DTM CSC...");
+		package_extract_dir("aroma/csc/DDE/system/csc/DTM/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "DHR"
 	then
 		ui_print("Installing DHR CSC...");

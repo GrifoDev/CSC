@@ -1,0 +1,3 @@
+/system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
+/system/app/(HRS)_HRS_Telekom_Keysource/(HRS)_HRS_Telekom_Keysource.apk
+/system/priv-app/(App_Assistant_Enabler)_AppEnabler-Android_N-api24_5.5.4.5/(App_Assistant_Enabler)_AppEnabler-Android_N-api24_5.5.4.5.apk

@@ -1,0 +1,11 @@
+/hidden/app/(AutoScout24)_AutoScout24_7.2.0.apk
+/hidden/app/(HRS)_HRS_6.7.2.apk
+/hidden/app/(Kundencenter_DE)_MagentaSERVICE_DE_6.1.1.apk
+/hidden/app/(Mediencenter)_MagentaCloud_5.2.0.apk
+/hidden/app/messenger-stub.apk
+/hidden/app/(Smartphone_Hilfe)_Smartphone_Hilfe_2.02.apk
+/hidden/app/(Spotify_DE)_Spotify_DE_2.0.apk
+/hidden/app/(Telekom_Mail_DE)_Telekom_Mail_1.5.4.apk
+/hidden/app/(tolino_eReader_Installer)_eReader_Apps_DE_4.3.9.apk
+/hidden/app/(TopApps)_TopApps_DE_5.2.apk
+/hidden/app/(Verzeichnis_Apps)_Verzeichnis_Apps_DE_4.3.9.apk

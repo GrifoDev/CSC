@@ -287,13 +287,14 @@ form(
 	"CHT",		"CHT",			"South America branded Multi-CSC contains: CHT, COB, CRM, EBE, MMO, NBS, PBS, SAM, TGU, TMM, UFN, UFU",	"select",
 	"COS",		"COS",			"Greece Cosmote branded",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
+	"DDE",		"DDE",			"Germany Multi-CSC contains: DCO, DDE, DTM",		"select",
 	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
 	"DPL",		"DPL",			"Poland branded Multi-CSC contains: DPL, TPL",		"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"EVR",		"EVR",			"United Kingdom EE branded",				"select",
 	"FTM",		"FTM",			"France Orange branded",				"select",
-	"GBL",		"GBL",			"Bulgaria unbranded",					"select",
+	"GBL",		"GBL",			"Telenor Bulgaria branded",				"select",
 	"H3G",		"H3G",			"United Kingdom H3G branded",				"select",
 	"HTS",		"HTS",			"Sweden Mitt3 branded",					"select",
 	"ILO",		"ILO",			"Israel Multi-CSC contains: CEL, ILO, PCL, PTR",	"select",
@@ -370,7 +371,7 @@ form(
 	"NEE",		"NEE",			"Nordic Countries unbranded",				"select",
 	"XEF",		"XEF",			"France unbranded",					"select",
 	"XEO",		"XEO",			"Poland unbranded",					"select",
-	"XEU",		"XEU",			"United Kingdom (unknown)",				"select"
+	"XEU",		"XEU",			"United Kingdom EE & Three branded",			"select"
 );
 endif;
 if prop("csc.prop","CSC")=="CHT" then
@@ -405,6 +406,31 @@ form(
 	"TMM",		"TMM",			"Mexico Movistar branded",				"select",
 	"UFN",		"UFN",			"Argentina Movistar branded",				"select",
 	"UFU",		"UFU",			"Uruguay Movistar branded",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="DDE" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"German Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"DCO",		"DCO",			"German Congstar branded",				"select",
+	"DDE",		"DDE",			"German T-Mobile branded (default)",			"select.selected",
+	"DTM",		"DTM",			"German Telekom branded",				"select"
 );
 endif;
 if prop("csc.prop","CSC")=="DHR" then
