@@ -324,6 +324,7 @@ form(
 	"TMB",		"TMB",			"USA T-Mobile branded (Qualcom, make EFS backup!)",	"select",
 	"TMH",		"TMH",			"Hungary Telekom branded",				"select",
 	"TMS",		"TMS",			"Slovak unbranded",					"select",
+	"TMZ",		"TMZ",			"Czech T-Mobile branded",				"select",
 	"TNZ",		"TNZ",			"New Zealand Spark branded",				"select",
 	"TOP",		"TOP",			"Serbia VIP branded",					"select",
 	"TPH",		"TPH",			"Portugal unbranded",					"select",
