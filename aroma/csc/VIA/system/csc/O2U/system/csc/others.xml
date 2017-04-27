@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00002</Version>
+  <Version>ED00004</Version>
   <Country>UNITED KINGDOM</Country>
   <CountryISO>GB</CountryISO>
   <SalesCode>O2U</SalesCode>
@@ -25,19 +25,34 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
+    <CscFeature_Common_ConfigAllowedPackagesDuringDataSaving>com.samsung.android.smartcallprovider</CscFeature_Common_ConfigAllowedPackagesDuringDataSaving>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_Contact_ConfigImsOpStyle>O2U</CscFeature_Contact_ConfigImsOpStyle>
+    <CscFeature_IMS_ConfigMdmnType>Nsds</CscFeature_IMS_ConfigMdmnType>
+    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableLTEVideoCall>FALSE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_NFC_DefStatus>ON</CscFeature_NFC_DefStatus>
     <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
+    <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoCheck,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_CpBaseFd>FALSE</CscFeature_RIL_CpBaseFd>
     <CscFeature_RIL_DataPrefDataTechSnapShot>FALSE</CscFeature_RIL_DataPrefDataTechSnapShot>
     <CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
     <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
     <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
+    <CscFeature_RIL_E911RoutingPolicy>csprefer</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_EnableChangeDefaultPdn>FALSE</CscFeature_RIL_EnableChangeDefaultPdn>
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
@@ -47,13 +62,36 @@
     <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
     <CscFeature_RIL_SignalstrengthPolicy>0</CscFeature_RIL_SignalstrengthPolicy>
     <CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
+    <CscFeature_RIL_SrvccRel>12</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
     <CscFeature_RIL_SupportImsClirOverriding>TRUE</CscFeature_RIL_SupportImsClirOverriding>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
     <CscFeature_Setting_CustNetworkSelMenu4>O2</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_Setting_HideApnList>ims,IMS</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_SmartPage_ConfigLocalization>*EU4,+Upday</CscFeature_SmartPage_ConfigLocalization>
+    <CscFeature_SyncML_DeltaBinaryDownVia>wifi_dedicated</CscFeature_SyncML_DeltaBinaryDownVia>
+    <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
+    <CscFeature_Vision_ConfigImageSearch>PTRXX</CscFeature_Vision_ConfigImageSearch>
+    <CscFeature_Vision_ConfigPlace>FSRXX</CscFeature_Vision_ConfigPlace>
+    <CscFeature_Vision_ConfigShopping>AMZUK</CscFeature_Vision_ConfigShopping>
+    <CscFeature_Vision_ConfigTextTranslator>GGLXX</CscFeature_Vision_ConfigTextTranslator>
+    <CscFeature_Vision_ConfigWine>VVNXX</CscFeature_Vision_ConfigWine>
     <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>EndPreviousCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
+    <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>NOHD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_VoiceCall_ConfigOpStyleForWfc>CheckEntitlementO2</CscFeature_VoiceCall_ConfigOpStyleForWfc>
     <CscFeature_VoiceCall_SupportAdvancedMobileLocation>TRUE</CscFeature_VoiceCall_SupportAdvancedMobileLocation>
+    <CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
+    <CscFeature_Weather_ConfigCpType>TWC</CscFeature_Weather_ConfigCpType>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_RemovableDefaultAP>TRUE</CscFeature_Wifi_RemovableDefaultAP>

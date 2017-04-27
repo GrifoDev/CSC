@@ -1,10 +1,11 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00002</Version>
+  <Version>ED00003</Version>
   <Country>GERMANY</Country>
   <CountryISO>DE</CountryISO>
   <SalesCode>VIA</SalesCode>
   <FeatureSet>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
@@ -38,6 +39,7 @@
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,ShowPrefModeMenuNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
     <CscFeature_RIL_ConfigNetworkTypeCapability>EUR-EUR-GSM-EUR</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigSVNVersion>1</CscFeature_RIL_ConfigSVNVersion>
@@ -58,6 +60,8 @@
     <CscFeature_RIL_SignalstrengthPolicy>0</CscFeature_RIL_SignalstrengthPolicy>
     <CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
     <CscFeature_RIL_SupportImsClirOverriding>TRUE</CscFeature_RIL_SupportImsClirOverriding>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
@@ -67,12 +71,15 @@
     <CscFeature_Setting_CustNetworkSelMenu4>VIA</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_HideApnList>ims,IMS</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_Sip_DisableAutoCorrection>FALSE</CscFeature_Sip_DisableAutoCorrection>
     <CscFeature_SmartPage_ConfigLocalization>*EU4,+Upday</CscFeature_SmartPage_ConfigLocalization>
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_VT_ConfigOpStyleForDependency>VIA_PSVT</CscFeature_VT_ConfigOpStyleForDependency>
     <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>EndPreviousCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_VoiceCall_ConfigOpStyleForWfc>WFC_PREF_ADD_WIFI_ONLY</CscFeature_VoiceCall_ConfigOpStyleForWfc>
     <CscFeature_VoiceCall_ConfigOptStyleForCallBarring>Disable</CscFeature_VoiceCall_ConfigOptStyleForCallBarring>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>

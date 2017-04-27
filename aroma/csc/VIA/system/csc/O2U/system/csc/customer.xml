@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0008</CSCEdition>
+    <CSCEdition>ED0009</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -263,10 +263,12 @@
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>O2 Pay Monthly</NetworkName>
         <ProfBrowser>O2 Mobile Web</ProfBrowser>
         <ProfMMS>O2 MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>O2 Mobile Web</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -274,7 +276,7 @@
         <ProfBrowser>O2 Pay &amp; Go</ProfBrowser>
         <ProfMMS>O2 MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>4</NbProfile>
+      <NbProfile>5</NbProfile>
       <Profile>
         <NetworkName>O2 Pay Monthly</NetworkName>
         <Editable>no</Editable>
@@ -307,6 +309,18 @@
           <APN>mobile.o2.co.uk</APN>
           <UserId>o2web</UserId>
           <Password>password</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>O2 Pay Monthly</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -344,5 +358,29 @@
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>O2 Pay Monthly</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>

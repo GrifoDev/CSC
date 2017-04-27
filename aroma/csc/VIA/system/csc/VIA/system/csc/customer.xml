@@ -1,24 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0007</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>Germany</Country>
     <CountryISO>DE</CountryISO>
     <Region>EUR</Region>
     <SalesCode>VIA</SalesCode>
-    <NbNetworkInfo>3</NbNetworkInfo>
+    <NbNetworkInfo>4</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>26207</MCCMNC>
       <NetworkName>o2 postpay</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>26203</MCCMNC>
-      <NetworkName>o2 - de</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>26207</MCCMNC>
       <NetworkName>o2 prepay</NetworkName>
       <SPCode>49</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26203</MCCMNC>
+      <NetworkName>E-Plus</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26277</MCCMNC>
+      <NetworkName>E-Plus</NetworkName>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -310,7 +314,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>2</NbProfileHandle>
+      <NbProfileHandle>3</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>o2 postpay</NetworkName>
@@ -327,7 +331,16 @@
         <ProfIMS>o2 IMS</ProfIMS>
         <ProfXCAP>o2 Internet Prepaid</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>6</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>E-Plus</NetworkName>
+        <ProfBrowser>E-Plus Internet</ProfBrowser>
+        <ProfMMS>E-Plus MMS</ProfMMS>
+        <ProfEmail>E-Plus Internet</ProfEmail>
+        <ProfIMS>E-Plus IMS</ProfIMS>
+        <ProfXCAP>E-Plus Internet</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>9</NbProfile>
       <Profile>
         <NetworkName>o2 postpay</NetworkName>
         <Editable>yes</Editable>
@@ -416,20 +429,68 @@
           <APN>ims</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>E-Plus</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>E-Plus MMS</ProfileName>
+        <URL>http://mms/eplus/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.23.97.153</ServAddr>
+          <Port>5080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.eplus.de</APN>
+          <UserId>mms</UserId>
+          <Password>eplus</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>E-Plus</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>E-Plus Internet</ProfileName>
+        <URL>http://mobileinfo.samsung.de</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.eplus.de</APN>
+          <UserId>eplus</UserId>
+          <Password>internet</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>E-Plus</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>E-Plus IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>2</NbSetting>
+      <NbSetting>3</NbSetting>
       <Setting>
         <NetworkName>o2 postpay</NetworkName>
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
@@ -447,11 +508,33 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>E-Plus</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>

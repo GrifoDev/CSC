@@ -338,7 +338,7 @@ form(
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, ROM, SEE, SIO, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
 	"XSA",		"XSA",			"Australia unbranded",					"select",
-	"XSG",		"XSG",			"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",							"select"
+	"XSG",		"XSG",			"Arabic Emirate Multi-CSC contains: ACR, AFG, AFR, BTC, DKR, DRC, ECT, EGY, KSA, LYS, MAT, MID, MRT, MRU, MTZ, MWD, PAK, SMG, THR, TMC, TUN, TUR, WTL, XFA, XFE, XFM, XFU, XSG",							"select",
 	"ZTO",		"ZTO",			"Brazil unbranded",					"select"
 );
 
