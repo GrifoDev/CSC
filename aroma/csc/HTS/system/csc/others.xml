@@ -97,6 +97,7 @@
     <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
 	<CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
 	<CscFeature_IMS_SupportGeoLocation>TRUE</CscFeature_IMS_SupportGeoLocation>
+	<CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
 
   </FeatureSet>
 </SamsungMobileFeature>
