@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
     <CSCEdition>ED0001</CSCEdition>
@@ -6,7 +6,11 @@
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
     <SalesCode>CPW</SalesCode>
-    <NbNetworkInfo>26</NbNetworkInfo>
+    <NbNetworkInfo>30</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23420</MCCMNC>
+      <NetworkName>Three UK</NetworkName>
+    </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23410</MCCMNC>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
@@ -16,23 +20,11 @@
       <NetworkName>O2 UK Pay &amp; Go</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>23433</MCCMNC>
-      <NetworkName>Orange UK</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>23433</MCCMNC>
-      <NetworkName>LIFE Mobile</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>23486</MCCMNC>
-      <NetworkName>Orange UK</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>00101</MCCMNC>
-      <NetworkName>Orange UK</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>23430</MCCMNC>
+      <NetworkName>EE/T-Mobile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23433</MCCMNC>
       <NetworkName>EE/T-Mobile</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
@@ -54,10 +46,6 @@
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
       <NetworkName>BT Mobile</NetworkName>
-    </NetworkInfo>
-    <NetworkInfo>
-      <MCCMNC>23420</MCCMNC>
-      <NetworkName>H3G</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
@@ -104,6 +92,18 @@
       <NetworkName>Vodafone.de</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>26207</MCCMNC>
+      <NetworkName>o2 - de</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>21401</MCCMNC>
+      <NetworkName>vodafone ES</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>50502</MCCMNC>
+      <NetworkName>YES OPTUS</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>00101</MCCMNC>
       <NetworkName>GCFTest</NetworkName>
       <SPName>GCFTest</SPName>
@@ -126,10 +126,6 @@
           <NetworkName>O2 UK Pay &amp; Go</NetworkName>
           <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
         </FastDormancy>
-        <NbSOSNumber>3</NbSOSNumber>
-        <SOSNumber>999</SOSNumber>
-        <SOSNumber>112</SOSNumber>
-        <SOSNumber>911</SOSNumber>
         <AutoProfile>on</AutoProfile>
         <AutoVoicemail>on</AutoVoicemail>
         <AutoEmailAccount>on</AutoEmailAccount>
@@ -381,15 +377,25 @@
         <Index>7</Index>
         <BookmarkName>Yahoo!</BookmarkName>
         <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
-      </Bookmark>      
+      </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>22</NbProfileHandle>
+      <NbProfileHandle>25</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Three UK</NetworkName>
+        <ProfBrowser>3</ProfBrowser>
+        <ProfMMS>3MMS</ProfMMS>
+        <ProfEmail>3</ProfEmail>
+        <ProfIntSharing>3hotspot</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>3</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Vodafone Contract</NetworkName>
         <ProfBrowser>Vodafone Contract Internet</ProfBrowser>
         <ProfMMS>Vodafone Contract MMS</ProfMMS>
@@ -402,9 +408,11 @@
         <ProfAGPS>Vodafone Contract Internet</ProfAGPS>
         <ProfSGPS>Vodafone Contract Internet</ProfSGPS>
         <ProfIntSharing>Vodafone Contract Internet</ProfIntSharing>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Vodafone PAYG</NetworkName>
         <ProfBrowser>Vodafone PAYG Internet</ProfBrowser>
         <ProfMMS>Vodafone PAYG MMS</ProfMMS>
@@ -417,6 +425,8 @@
         <ProfAGPS>Vodafone PAYG Internet</ProfAGPS>
         <ProfSGPS>Vodafone PAYG Internet</ProfSGPS>
         <ProfIntSharing>Vodafone PAYG Internet</ProfIntSharing>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -475,10 +485,12 @@
         <ProfIntSharing>LIFE Mobile Data</ProfIntSharing>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>EE/T-Mobile</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>Internet</ProfXCAP>
         <ProfEmail>Internet</ProfEmail>
         <ProfIM>Internet</ProfIM>
         <ProfStreaming>Internet</ProfStreaming>
@@ -574,20 +586,6 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>H3G</NetworkName>
-        <ProfBrowser>3</ProfBrowser>
-        <ProfMMS>3MMS</ProfMMS>
-        <ProfEmail>3</ProfEmail>
-        <ProfStreaming>3</ProfStreaming>
-        <ProfSyncDS>3</ProfSyncDS>
-        <ProfActiveSync>3</ProfActiveSync>
-        <ProfSyncDM>3</ProfSyncDM>
-        <ProfAGPS>3</ProfAGPS>
-        <ProfSGPS>3</ProfSGPS>
-        <ProfIntSharing>3</ProfIntSharing>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
         <NetworkName>Asda</NetworkName>
         <ProfBrowser>Asda WAP</ProfBrowser>
         <ProfMMS>Asda MMS</ProfMMS>
@@ -662,7 +660,8 @@
         <ProfMMS>T-Mobile MMS</ProfMMS>
         <ProfXCAP>Telekom Internet</ProfXCAP>
         <ProfIMS>Telekom IMS</ProfIMS>
-        <ProfEpdg>Telekom EPDG</ProfEpdg>
+        <ProfEpdgXCAP>Telekom EPDG</ProfEpdgXCAP>
+        <ProfEpdgMMS>Telekom EPDG</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -670,12 +669,42 @@
         <ProfBrowser>Vodafone Internet</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
-        <ProfXCAP>Vodafone Internet</ProfXCAP> 
+        <ProfXCAP>Vodafone Internet</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>49</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>o2 - de</NetworkName>
+        <ProfBrowser>o2 Internet</ProfBrowser>
+        <ProfMMS>o2 MMS</ProfMMS>
+        <ProfEmail>o2 Internet</ProfEmail>
+        <ProfIMS>o2 IMS</ProfIMS>
+        <ProfXCAP>o2 Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>vodafone ES</NetworkName>
+        <ProfBrowser>Internet m처vil</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfIntSharing>INTERNET</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>ut.es</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <ProfBrowser>Optus Yes Internet</ProfBrowser>
+        <ProfMMS>Optus MMS</ProfMMS>
+        <ProfEmail>Optus Yes Internet</ProfEmail>
+        <ProfStreaming>Optus Yes Internet</ProfStreaming>
+        <ProfIntSharing>Optus Yes Internet</ProfIntSharing>
+        <ProfIMS>Optus IMS</ProfIMS>
+        <ProfXCAP>Optus Call Settings</ProfXCAP>
+        <ProfEmergencyIMSCall>Optus Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <NbProfile>70</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Vodafone Contract MMS</ProfileName>
         <URL>http://mms.vodafone.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -694,7 +723,7 @@
       </Profile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Vodafone Contract Internet</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/vodafone</URL>
         <Auth>normal</Auth>
@@ -707,8 +736,32 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Vodafone Contract</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone Contract</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Vodafone PAYG</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Vodafone PAYG MMS</ProfileName>
         <URL>http://mms.vodafone.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -727,7 +780,7 @@
       </Profile>
       <Profile>
         <NetworkName>Vodafone PAYG</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Vodafone PAYG Internet</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/vodafone</URL>
         <Auth>normal</Auth>
@@ -740,8 +793,31 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>vodafone PAYG</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone PAYG</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>TalkTalk</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>TalkTalk WAP</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/</URL>
         <Auth>normal</Auth>
@@ -756,7 +832,7 @@
       </Profile>
       <Profile>
         <NetworkName>TalkTalk</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>TalkTalk MMS</ProfileName>
         <URL>http://mms.talktalk.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -773,7 +849,7 @@
       </Profile>
       <Profile>
         <NetworkName>Talkmobile Contract</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Talkmob MMS</ProfileName>
         <URL>http://mms.talkmobile.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -792,7 +868,7 @@
       </Profile>
       <Profile>
         <NetworkName>Talkmobile Contract</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Talkmob Internet</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/</URL>
         <Auth>normal</Auth>
@@ -807,7 +883,7 @@
       </Profile>
       <Profile>
         <NetworkName>Talkmobile PAYG</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Talkmob PAYG MMS</ProfileName>
         <URL>http://mms.talkmobile.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -826,7 +902,7 @@
       </Profile>
       <Profile>
         <NetworkName>Talkmobile PAYG</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Talkmob PAYG Int</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/</URL>
         <Auth>normal</Auth>
@@ -841,7 +917,7 @@
       </Profile>
       <Profile>
         <NetworkName>O2 UK Pay Monthly</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>O2 MMS</ProfileName>
         <URL>http://mmsc.mms.o2.co.uk:8002</URL>
         <Auth>normal</Auth>
@@ -860,7 +936,7 @@
       </Profile>
       <Profile>
         <NetworkName>O2 UK Pay Monthly</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>O2 Mobile Web</ProfileName>
         <URL>http://www.google.co.uk</URL>
         <Auth>normal</Auth>
@@ -877,7 +953,7 @@
       </Profile>
       <Profile>
         <NetworkName>O2 UK Pay &amp; Go</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>O2 Pay &amp; Go</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/o2</URL>
         <Auth>normal</Auth>
@@ -896,7 +972,7 @@
       </Profile>
       <Profile>
         <NetworkName>O2 UK Pay &amp; Go</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>O2 MMS</ProfileName>
         <URL>http://mmsc.mms.o2.co.uk:8002</URL>
         <Auth>normal</Auth>
@@ -915,7 +991,7 @@
       </Profile>
       <Profile>
         <NetworkName>LIFE Mobile</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>LIFE Mobile MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
@@ -932,7 +1008,7 @@
       </Profile>
       <Profile>
         <NetworkName>LIFE Mobile</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>LIFE Mobile Data</ProfileName>
         <URL>http://lifemobile.co.uk</URL>
         <Auth>normal</Auth>
@@ -947,7 +1023,7 @@
       </Profile>
       <Profile>
         <NetworkName>Orange UK</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
@@ -966,7 +1042,7 @@
       </Profile>
       <Profile>
         <NetworkName>Orange UK</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Internet</ProfileName>
         <URL>http://orangeworld.co.uk</URL>
         <Auth>normal</Auth>
@@ -983,7 +1059,7 @@
       </Profile>
       <Profile>
         <NetworkName>EE/T-Mobile</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Internet</ProfileName>
         <URL>http://www.t-mobile-favourites.co.uk/</URL>
         <Auth>normal</Auth>
@@ -1000,7 +1076,18 @@
       </Profile>
       <Profile>
         <NetworkName>EE/T-Mobile</NetworkName>
-        <Editable>no</Editable>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>ims</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>EE/T-Mobile</NetworkName>
+        <Editable>yes</Editable>
         <ProfileName>MMS</ProfileName>
         <URL>http://mms/</URL>
         <Auth>normal</Auth>
@@ -1019,7 +1106,7 @@
       </Profile>
       <Profile>
         <NetworkName>Virgin</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Virgin Media Mobile Internet</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/virgin</URL>
         <Auth>normal</Auth>
@@ -1035,7 +1122,7 @@
       </Profile>
       <Profile>
         <NetworkName>Virgin</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>VM Picture messaging</ProfileName>
         <URL>http://mms.virginmobile.co.uk:8002</URL>
         <Auth>normal</Auth>
@@ -1053,7 +1140,7 @@
       </Profile>
       <Profile>
         <NetworkName>BT Mobile</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>BT Mobile WAP</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/btm</URL>
         <Auth>normal</Auth>
@@ -1072,7 +1159,7 @@
       </Profile>
       <Profile>
         <NetworkName>BT Mobile</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>BT Mobile MMS</ProfileName>
         <URL>http://mms.bt.com/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -1091,7 +1178,7 @@
       </Profile>
       <Profile>
         <NetworkName>BT Mobile</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>BT Mobile Internet</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/btm</URL>
         <Auth>normal</Auth>
@@ -1108,7 +1195,7 @@
       </Profile>
       <Profile>
         <NetworkName>TESCO</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>TESCO Mobile</ProfileName>
         <URL>http://wap.uk.samsungmobile.com/tesco</URL>
         <Auth>normal</Auth>
@@ -1127,7 +1214,7 @@
       </Profile>
       <Profile>
         <NetworkName>TESCO</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>TESCO MMS</ProfileName>
         <URL>http://mmsc.mms.o2.co.uk:8002</URL>
         <Auth>normal</Auth>
@@ -1224,7 +1311,7 @@
       </Profile>
       <Profile>
         <NetworkName>O2 IRL</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>O2.ie Mobile Internet</ProfileName>
         <URL>http://m.o2.ie</URL>
         <Protocol>http</Protocol>
@@ -1238,7 +1325,7 @@
       </Profile>
       <Profile>
         <NetworkName>O2 IRL</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>O2.ie MMS</ProfileName>
         <URL>http://mmsc.mms.o2.ie:8002</URL>
         <Auth>normal</Auth>
@@ -1255,7 +1342,7 @@
       </Profile>
       <Profile>
         <NetworkName>Meteor</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Meteor Data</ProfileName>
         <URL>http://m.meteor.ie</URL>
         <Auth>normal</Auth>
@@ -1270,7 +1357,7 @@
       </Profile>
       <Profile>
         <NetworkName>Meteor</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Meteor MMS</ProfileName>
         <URL>http://mms.mymeteor.ie</URL>
         <Auth>normal</Auth>
@@ -1288,40 +1375,8 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>H3G</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>3</ProfileName>
-        <URL>http://mobile.three.co.uk/hb/HutchKey</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>three.co.uk</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>H3G</NetworkName>
-        <Editable>no</Editable>
-        <ProfileName>3MMS</ProfileName>
-        <URL>http://mms.um.three.co.uk:10021/mmsc</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>mms.three.co.uk</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>three.co.uk</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>Asda</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Asda WAP</ProfileName>
         <URL>http://www.asda-mobile.com/wap</URL>
         <Auth>normal</Auth>
@@ -1340,7 +1395,7 @@
       </Profile>
       <Profile>
         <NetworkName>Asda</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Asda MMS</ProfileName>
         <URL>http://mms.asdamobiles.co.uk/servlets/mms</URL>
         <Auth>normal</Auth>
@@ -1359,7 +1414,7 @@
       </Profile>
       <Profile>
         <NetworkName>H3G IE</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>H3G IE WAP</ProfileName>
         <URL>http://mobile.3ireland.ie/hb/HutchKey</URL>
         <Auth>normal</Auth>
@@ -1372,7 +1427,7 @@
       </Profile>
       <Profile>
         <NetworkName>H3G IE</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>H3G IE MMS</ProfileName>
         <URL>http://mms.um.3ireland.ie:10021/mmsc</URL>
         <Auth>normal</Auth>
@@ -1501,16 +1556,334 @@
           <APN>ims</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Internet m처vil</ProfileName>
+        <URL>http://miweb.vodafone.es</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>airtelwap.es</APN>
+          <UserId>wap@wap</UserId>
+          <Password>wap125</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>o2 - de</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>o2 MMS</ProfileName>
+        <URL>http://10.81.0.7:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>82.113.100.5</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>o2 - de</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>o2 Internet</ProfileName>
+        <URL>http://mobileinfo.samsung.de</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>o2 - de</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>o2 IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mmsc.vodafone.es/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.73.32.10</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.vodafone.net</APN>
+          <UserId>wap@wap</UserId>
+          <Password>wap125</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>airtelnet.es</APN>
+          <UserId>vodafone</UserId>
+          <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>ut.es</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ut.es</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone ES</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Three UK</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3</ProfileName>
+        <URL>http://mobile.three.co.uk/hb/HutchKey</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>three.co.uk</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Three UK</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3MMS</ProfileName>
+        <URL>http://mms.um.three.co.uk:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mms.three.co.uk</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>three.co.uk</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Three UK</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3hotspot</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>3hotspot</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Three UK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus Yes Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>yesinternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus MMS</ProfileName>
+        <URL>http://mmsc.optus.com.au:8002/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>61.88.190.10</ServAddr>
+          <Port>8070</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus Bus Mobile Broadband</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>yesbusiness</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Optus IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus Call Settings</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Optus Emergency</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>4</NbSetting>
+      <NbSetting>10</NbSetting>
       <Setting>
-        <NetworkName>Vodafone.de</NetworkName>
-        <Version>2.0</Version>
+        <NetworkName>Vodafone Contract</NetworkName>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableEPDG>false</EnableEPDG>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>EE/T-Mobile</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Three UK</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>vodafone ES</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
@@ -1518,16 +1891,33 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>PS</SMSoIP_Domain>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Vodafone.de</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>TRUE</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>Telekom.de</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>TRUE</EnableVoLTE>
-          <EnableEPDG>false</EnableEPDG>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
@@ -1535,19 +1925,60 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>PS</SMSoIP_Domain>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>o2 - de</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
         <NetworkName>GCFTest</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
           <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <SMSoIP_Domain>PS</SMSoIP_Domain>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>PS</Emregencycall_Domain>
           <SS_Domain_Preference>PS_ONLY_VOLTEREGIED</SS_Domain_Preference>
@@ -1558,7 +1989,7 @@
       </Setting>
       <Setting>
         <NetworkName>TestBed</NetworkName>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>

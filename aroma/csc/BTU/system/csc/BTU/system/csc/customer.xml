@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0023</CSCEdition>
+    <CSCEdition>ED0024</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -622,13 +622,11 @@
         <ProfMMS>iD MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Three UK</NetworkName>
         <ProfBrowser>3</ProfBrowser>
         <ProfMMS>3MMS</ProfMMS>
         <ProfIntSharing>3hotspot</ProfIntSharing>
-        <ProfIMS>IMS</ProfIMS>
-        <ProfXCAP>3</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -689,7 +687,7 @@
         <NetworkName>Virgin Media IE</NetworkName>
         <ProfBrowser>Virgin Media</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>71</NbProfile>
+      <NbProfile>70</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <Editable>no</Editable>
@@ -1819,18 +1817,6 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Three UK</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>no</Editable>
-        <ProfileName>IMS</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <IpVersion>ipv4</IpVersion>
         <Editable>no</Editable>
@@ -1878,30 +1864,7 @@
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>6</NbSetting>
-      <Setting>
-        <NetworkName>Three UK</NetworkName>
-        <Version>3.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>false</EnableVideocall>
-          <EnableVoLTEindicator>false</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
-          <SMSoIP_Domain>ps</SMSoIP_Domain>
-          <EnableSMSoverIP>true</EnableSMSoverIP>
-        </VoLTE>
-        <RCS>
-          <EnableRCS>false</EnableRCS>
-        </RCS>
-      </Setting>
+      <NbSetting>5</NbSetting>
       <Setting>
         <NetworkName>EE</NetworkName>
         <Version>3.0</Version>

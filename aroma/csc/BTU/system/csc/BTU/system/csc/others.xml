@@ -45,7 +45,6 @@
     <CscFeature_VoiceCall_ConfigOpStyleForWfc>ProvisioningSim_23415;</CscFeature_VoiceCall_ConfigOpStyleForWfc>
     <CscFeature_Common_ConfigOnCircle>off</CscFeature_Common_ConfigOnCircle>
     <CscFeature_Contact_ConfigImsOpStyle>BTU</CscFeature_Contact_ConfigImsOpStyle>
-    <CscFeature_RIL_ConfigNetworkNameForEpdg>EE</CscFeature_RIL_ConfigNetworkNameForEpdg>
     <CscFeature_RIL_SupportSmsFallbackForIms>TRUE</CscFeature_RIL_SupportSmsFallbackForIms>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
