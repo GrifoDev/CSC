@@ -302,6 +302,7 @@ form(
 	"ITV",		"ITV",			"Italian unbranded",					"select",
 	"KTC",		"KTC",			"Korea KT Corporation branded (K-Variant)",		"select",
 	"LUC",		"LUC",			"Korea LG Uplus branded (L-Variant)",			"select",
+	"MEO",		"MEO",			"Portugal MEO branded",					"select",
 	"MOT",		"MOT",			"Slovenia unbranded",					"select",
 	"NEE",		"NEE",			"Nordic Countries unbranded",				"select",
 	"NZC",		"NZC",			"New Zealand 2degrees branded",				"select",
