@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<removablecustomerapps xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
+    <item>com.skt.skaf.l001mtm091</item>
+    <item>com.skt.tbagplus</item>
+    <item>com.skt.prod.phonebook</item>
+    <item>com.moent.vas</item>
+    <item>com.sktelecom.hoppin.mobile</item>
+    <item>com.skb.btvmobile</item>
+    <item>com.skt.tlauncherpack</item>
+    <item>com.skmc.okcashbag.home_google</item>
+    <item>com.elevenst</item>
+    <item>com.skmnc.gifticon</item>
+    <item>com.skplanet.commerce</item>
+    <item>com.tms</item>
+    <item>com.skt.smartbill</item>
+    <item>com.nate.android.portalmini</item>
+    <item>com.cyworld.camera</item>
+    <item>com.btb.minihompy</item>
+    <item>Uxpp.UC</item>
+    <item>com.skt.tmaphot</item>
+    <item>com.skt.skaf.OA00026910</item>
+
+</removablecustomerapps>
+

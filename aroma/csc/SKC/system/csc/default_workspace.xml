@@ -173,54 +173,49 @@ limitations under the License.
             launcher:title="SKT" 
             launcher:x="3" 
             launcher:y="3" >
-            <!-- T앱 추가 설치 -->
-            <favorite
-                launcher:screen="0" 
-                launcher:packageName="com.samsung.preloadapp" 
-                launcher:className="com.samsung.preloadapp.CarrierPreloadApp" />
             <!-- T 멤버십 -->
             <favorite
-                launcher:screen="1" 
+                launcher:screen="0" 
                 launcher:packageName="com.tms" 
                 launcher:className="com.tms.TMS_Splash" />
             <!-- MelOn -->
             <favorite
-                launcher:screen="2" 
+                launcher:screen="1" 
                 launcher:packageName="com.iloen.melon" 
                 launcher:className="com.iloen.melon.MusicBrowserActivity" />
             <!-- B tv mobile -->
             <favorite
-                launcher:screen="3" 
+                launcher:screen="2" 
                 launcher:packageName="com.skb.btvmobile" 
                 launcher:className="com.skb.btvmobile.activity.MTVIntroActivity" />
             <!-- Syrup 월렛 -->
             <favorite
-                launcher:screen="4" 
+                launcher:screen="3" 
                 launcher:packageName="com.skt.skaf.OA00026910" 
                 launcher:className="com.skt.skaf.OA00026910.SmartWalletMain2" />
             <!-- 11번가 -->
             <favorite
-                launcher:screen="5" 
+                launcher:screen="4" 
                 launcher:packageName="com.elevenst" 
                 launcher:className="com.elevenst.intro.Intro" />
             <!-- OK Cashbag -->
             <favorite
-                launcher:screen="6" 
+                launcher:screen="5" 
                 launcher:packageName="com.skmc.okcashbag.home_google" 
                 launcher:className="com.skmc.okcashbag.home_google.activities.Entrypoint" />
             <!-- 클라우드베리 -->
             <favorite
-                launcher:screen="7" 
+                launcher:screen="6" 
                 launcher:packageName="com.skt.prod.cloud" 
                 launcher:className="com.skt.prod.cloud.activities.main.SplashActivity" />
             <!-- 네이트 -->
             <favorite
-                launcher:screen="8" 
+                launcher:screen="7" 
                 launcher:packageName="com.nate.android.portalmini" 
                 launcher:className="com.nate.android.portalmini.LauncherCheckActivity" />
             <!-- T guard -->
             <favorite
-                launcher:screen="9" 
+                launcher:screen="8" 
                 launcher:packageName="com.sktelecom.tguard" 
                 launcher:className="com.sktelecom.tguard.MainActivity" />
         </folder> 
