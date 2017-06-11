@@ -336,6 +336,7 @@ form(
 	"VDS",		"VDS",			"Sweden unbranded",					"select",
 	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
 	"VVT",		"VVT",			"Bulgaria unbranded",					"select",
+	"XAA",		"XAA",			"USA Multi-CSC (Qualcom, make EFS backup!) contains: ACG, AIO, ATT, BST, GCF, LRA, SPR, TFN, TMB, TMK, USC, VMU, VZW, XAA, XAS",													"select",
 	"XAC",		"XAC",			"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",		"select",
 	"XEG",		"XEG",			"German 1&1 branded",					"select",
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, ROM, SEE, SIO, TWO, VIM, XEH, XEO",	"select",
@@ -716,6 +717,43 @@ form(
 	"O2U",		"O2U",			"United Kingdom O2 branded",				"select",
 	"VIA",		"VIA",			"German O2 branded (default)",				"select.selected",
 	"XEC",		"XEC",			"Spain Movistar branded",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="XAA" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"USA Multi-CSC",	"",							"group",
+	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
+	"ACG",		"ACG",			"Nextech / C-Spire branded",				"select",
+	"AIO",		"AIO",			"Anritsu branded",					"select",
+	"ATT",		"ATT",			"AT&T branded",						"select",
+	"BST",		"BST",			"BST (unknown)",					"select",
+	"GCF",		"GCF",			"GCF (unknown)",					"select",
+	"LRA",		"LRA",			"Bluegrass Cellular branded",				"select",
+	"SPR",		"SPR",			"Sprint (CDMA) branded",				"select",
+	"TFN",		"TFN",			"Tracfone branded ",					"select",
+	"TMB",		"TMB",			"T-Mobile branded",					"select",
+	"TMK",		"TMK",			"MetroPCS branded",					"select",
+	"USC",		"USC",			"USA unbranded",					"select",
+	"VMU",		"VMU",			"Virgin Mobile USA branded",				"select",
+	"VZW",		"VZW",			"Verizon branded",					"select",
+	"XAA",		"XAA",			"USA (unknown) (default)",				"select.selected",
+	"XAS",		"XAS",			"XAS (unknown)",					"select"
 );
 endif;
 if prop("csc.prop","CSC")=="XAC" then

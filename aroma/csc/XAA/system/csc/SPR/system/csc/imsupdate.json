@@ -1,0 +1,30 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Apply old requirement of Sprint IMS conference URI for old model.",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Sprint IMS",
+        "mnoname": "Sprint_us",
+        "conference_uri": "sip:conf@vowifi2.ims.spcsdns.net"
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

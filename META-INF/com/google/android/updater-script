@@ -391,6 +391,18 @@ if
 		package_extract_dir("aroma/csc/VVT/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "VZW"
+	then
+		ui_print("Installing VZW CSC...");
+		package_extract_dir("aroma/csc/VZW/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "XAA"
+	then
+		ui_print("Installing XAA CSC...");
+		package_extract_dir("aroma/csc/XAA/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "XAC"
 	then
 		ui_print("Installing XAC CSC...");
