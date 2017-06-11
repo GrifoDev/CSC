@@ -58,5 +58,6 @@
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>Call</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
+    <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   </FeatureSet>
 </SamsungMobileFeauture>
