@@ -343,7 +343,7 @@ form(
 	"ZTO",		"ZTO",			"Brazil unbranded",					"select"
 );
 
-if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="TMK" || prop("csc.prop","CSC")=="VZW" || prop("csc.prop","CSC")=="CHC" || prop("csc.prop","CSC")=="XAA") then
+if (prop("csc.prop","CSC")=="ATT" || prop("csc.prop","CSC")=="TMB" || prop("csc.prop","CSC")=="CHC" || prop("csc.prop","CSC")=="XAA") then
 alert( "Warning", "I detected that you selected a qualcom csc ported file. To make sure nothing can go wrong, please be sure to have an EFS backup in TWRP just for the case something goes wrong. It's much easier to you if you got such a backup then searching for a solution when EFS is messed up!");
 endif;
 
@@ -366,7 +366,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Europe Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"BTU",		"BTU",			"United Kingdom unbranded (default)",			"select.selected",
 	"CPW",		"CPW",			"United Kingdom (unknown)",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
@@ -397,7 +396,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"South America Multi-CSC",	"",						"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"CHT",		"CHT",			"Chile Telefonica branded (default)",			"select.selected",
 	"COB",		"COB",			"Colombia Movistar branded",				"select",
 	"CRM",		"CRM",			"Costa Rica Movistar branded",				"select",
@@ -431,7 +429,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"German Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"DCO",		"DCO",			"German Congstar branded",				"select",
 	"DDE",		"DDE",			"German T-Mobile branded (default)",			"select.selected",
 	"DTM",		"DTM",			"German Telekom branded",				"select"
@@ -456,7 +453,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Croatia Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"CRO",		"CRO",			"Croatia T-Mobile branded",				"select",
 	"DHR",		"DHR",			"Croatia bonbon branded (default)",			"select.selected"
 );
@@ -480,7 +476,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Poland Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"DPL",		"DPL",			"Poland heyah branded (default)",			"select.selected",
 	"TPL",		"TPL",			"Poland T-Mobile branded",				"select"
 );
@@ -504,7 +499,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Israel Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"CEL",		"CEL",			"Israel Cellcom branded",				"select",
 	"ILO",		"ILO",			"Israel branded (default)",				"select.selected",
 	"PCL",		"PCL",			"Israel Pelephone branded",				"select",
@@ -530,7 +524,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Indian Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"BNG",		"BNG",			"Bangladesh unbranded",					"select",
 	"INS",		"INS",			"Indian unbranded (default)",				"select.selected",
 	"INU",		"INU",			"Indian unbranded",					"select",
@@ -558,7 +551,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Russian Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"CAC",		"CAC",			"Uzbekistan unbranded",					"select",
 	"CAU",		"CAU",			"Georgia unbranded",					"select",
 	"SEK",		"SEK",			"Ukraine unbranded",					"select",
@@ -585,7 +577,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Austria Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"MAX",		"MAX",			"Austria T-Mobile branded",				"select",
 	"TRG",		"TRG",			"Austria Telering branded",				"select",
 	"TTR",		"TTR",			"Austria unknown (default)",				"select.selected"
@@ -610,7 +601,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Thailand Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"CAM",		"CAM",			"Cambodia unbranded",					"select",
 	"GLB",		"GLB",			"Philippines unbranded",				"select",
 	"MM1",		"MM1",			"Singapore unbranded",					"select",
@@ -645,7 +635,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Paraguay Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"ALE",		"ALE",			"Ecuador unbranded",					"select",
 	"ARO",		"ARO",			"Argentina unbranded",					"select",
 	"BVO",		"BVO",			"Chile (unknown)",					"select",
@@ -681,7 +670,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Vodafone Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"ATL",		"ATL",			"Spain Vodafone branded",				"select",
 	"AVF",		"AVF",			"Albania Vodafone branded",				"select",
 	"CNX",		"CNX",			"Romania Vodafone branded",				"select",
@@ -723,7 +711,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"O2 Multi-CSC",	"",								"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"O2U",		"O2U",			"United Kingdom O2 branded",				"select",
 	"VIA",		"VIA",			"German O2 branded (default)",				"select.selected",
 	"XEC",		"XEC",			"Spain Movistar branded",				"select"
@@ -748,7 +735,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Canada Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"BMC",		"BMC",			"Bell Mobile branded",					"select",
 	"BWA",		"BWA",			"SaskTel branded",					"select",
 	"ESK",		"ESK",			"EastLink branded",					"select",
@@ -782,7 +768,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Poland Multi-CSC",	"",							"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"BGL",		"BGL",			"Bulgaria unbranded",					"select",
 	"CYO",		"CYO",			"Cyprus unbranded",					"select",
 	"ROM",		"ROM",			"Romania unbranded",					"select",
@@ -813,7 +798,6 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"Arabic Emirate Multi-CSC",	"",						"group",
-	"All",		"All CSCs",		"Installs the whole Multi-CSC",				"select",
 	"ACR",		"ACR",			"Saudi Arabia unbranded",				"select",
 	"AFG",		"AFG",			"Afghanistan unbranded",				"select",
 	"AFR",		"AFR",			"Kenya unbranded",					"select",
@@ -855,7 +839,7 @@ viewbox(
 
   #-- Text
     "CSC-Selection is ready to be installed.\n\n"+
-	"Press <b>Install ROM</b> to begin the installation.\n\n"+
+	"Press <b>Install CSC</b> to begin the installation.\n\n"+
 	"To review or change any of your installation settings, press <b>Back</b>.\n\n"+
 	"Press Menu -> Quit Installation to quit.",
 
