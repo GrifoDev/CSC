@@ -56,7 +56,12 @@ limitations under the License.
                 launcher:screen="6" 
                 launcher:packageName="com.sec.android.app.samsungapps" 
                 launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" />
-    </folder> 
+	    <!-- Samsung Gear -->
+	    <favorite
+        	launcher:screen="7" 
+	        launcher:packageName="com.samsung.android.app.watchmanager" 
+        	launcher:className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+   </folder> 
 
     <!-- Google -->
     <folder
@@ -166,11 +171,11 @@ limitations under the License.
                 launcher:className="com.skype.raider.Main" />
     </folder> 
 
-    <!-- Samsung Gear -->
+    <!-- Samsung Pay -->
     <favorite
         launcher:screen="0" 
-        launcher:packageName="com.samsung.android.app.watchmanager" 
-        launcher:className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+        launcher:packageName="com.samsung.android.spay" 
+        launcher:className="com.samsung.android.spay.ui.SpayMainActivity" />
 
     <!-- Play Store -->
     <favorite
