@@ -29,6 +29,7 @@
     <CscFeature_VoiceCall_RemoveKeypadDuringVmsCall>TRUE</CscFeature_VoiceCall_RemoveKeypadDuringVmsCall>
     <CscFeature_Message_MinSlideDuration>5</CscFeature_Message_MinSlideDuration>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,checknonvoltesim,voltesettingOPS</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>	
+    <CscFeature_VoiceCall_ConfigLabelForCallForward>TRUE</CscFeature_VoiceCall_ConfigLabelForCallForward>
     <CscFeature_Message_SmsMaxByte>140</CscFeature_Message_SmsMaxByte>
     <CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
     <CscFeature_Message_DisableOverlayInMsgList>TRUE</CscFeature_Message_DisableOverlayInMsgList>
@@ -89,7 +90,7 @@
     <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
-    <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
@@ -99,5 +100,9 @@
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_PDPRetryMechanism4>TEL</CscFeature_RIL_PDPRetryMechanism4>
     <CscFeature_Contact_ConfigImsOpStyle>VAU</CscFeature_Contact_ConfigImsOpStyle>
+	<CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
+    <CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>	
   </FeatureSet>
 </SamsungMobileFeauture>
