@@ -1,0 +1,2 @@
+/system/priv-app/AmazonMusic-Android-6.1.3.0.0-release-signed/AmazonMusic-Android-6.1.3.0.0-release-signed.apk
+/system/priv-app/AmazonUnderground-Android-10.1.0.200-10.1.106.14-hendricks-release-signed/AmazonUnderground-Android-10.1.0.200-10.1.106.14-hendricks-release-signed.apk

@@ -337,6 +337,7 @@ form(
 	"VIA",		"VIA",			"O2 Multi-CSC contains: O2U, VIA, XEC",			"select",
 	"VVT",		"VVT",			"Bulgaria unbranded",					"select",
 	"XAC",		"XAC",			"Canada Multi-CSC (W8-Variant) contains: BMC, BWA, ESK, FMC, GLW, KDO, MTA, RWC, TLS, VMC, VTR, XAC",		"select",
+	"XEG",		"XEG",			"German 1&1 branded",					"select",
 	"XEO",		"XEO",			"Poland Multi-CSC contains: BGL, CYO, ROM, SEE, SIO, TWO, VIM, XEH, XEO",	"select",
 	"XID",		"XID",			"Indonesia unbranded",					"select",
 	"XSA",		"XSA",			"Australia unbranded",					"select",

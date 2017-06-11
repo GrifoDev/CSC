@@ -397,6 +397,12 @@ if
 		package_extract_dir("aroma/csc/XAC/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "XEG"
+	then
+		ui_print("Installing XEG CSC...");
+		package_extract_dir("aroma/csc/XEG/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "XEO"
 	then
 		ui_print("Installing XEO CSC...");
