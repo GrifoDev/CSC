@@ -62,6 +62,6 @@
     <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>PHN_HD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
     <CscFeature_RIL_ConfigFixedApn>ims,xcap</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
-    <CscFeature_VoiceCall_ConfigOpStyleForVolte>REMOVE_VOLTE_OUTGOING_SETTING,INS_VOLTE</CscFeature_VoiceCall_ConfigOpStyleForVolte>
+    <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   </FeatureSet>
 </SamsungMobileFeature>
