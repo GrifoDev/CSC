@@ -94,7 +94,7 @@
             launcher:spanX="4" 
             launcher:spanY="1" />
 
-      
+       
     
         <!-- Folder : Social -->
         <folder
@@ -161,9 +161,9 @@
                 launcher:screen="4" 
                 launcher:packageName="com.skype.raider" 
                 launcher:className="com.skype.raider.Main" />
-        </folder> 
+        </folder>
         
-        <!-- App Brasil -->
+         <!-- App Brasil -->
         <favorite
              launcher:packageName="br.org.sidi.appsbrasil"
             launcher:className="br.org.sidi.appsbrasil.MainActivity" 
@@ -172,7 +172,7 @@
             launcher:y="2" 
             launcher:spanX="1" 
             launcher:spanY="1" />
-
+        
 
     </home> 
 

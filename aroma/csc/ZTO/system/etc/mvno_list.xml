@@ -22,6 +22,7 @@ examples:
 	</carrier>
 
     <carrier plmn="73002">
+        <mvno simIMSI="73009"      mvnoName="WOM"         />
 		<mvno simIMSI="7300701"    mvnoName="Gtd_Telsur"       />
 		<mvno simIMSI="7300703"    mvnoName="GTEL Netline"     />
 		<mvno simIMSI="73008"      mvnoName="vtr"              />

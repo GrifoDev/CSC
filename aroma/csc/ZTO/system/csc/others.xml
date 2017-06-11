@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00005</Version>
+  <Version>ED00006</Version>
   <Country>BRAZIL</Country>
   <CountryISO>BR</CountryISO>
   <SalesCode>ZTO</SalesCode>
@@ -30,6 +30,8 @@
     <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
     <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
+    <CscFeature_Framework_ConfigDefaultCocktailPanels>com.samsung.android.app.appsedge.edgepanel.AppsEdgePanelProvider;com.samsung.android.app.taskedge.edgepanel.TaskEdgePanelProvider;com.samsung.android.service.peoplestripe.people.edgepanel.PeopleEdgePanelProvider</CscFeature_Framework_ConfigDefaultCocktailPanels>
+    <CscFeature_Framework_ConfigDefaultFeedsPanels>com.samsung.android.widgetapp.briefing.CatchNotificationsCocktailProvider</CscFeature_Framework_ConfigDefaultFeedsPanels>
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>

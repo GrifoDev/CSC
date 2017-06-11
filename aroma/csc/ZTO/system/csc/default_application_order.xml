@@ -66,7 +66,7 @@
                 launcher:screen="11" 
                 launcher:packageName="com.sec.android.usermanual" 
                 launcher:className="com.sec.android.usermanual.UserManualActivity" />
-            <!-- App Brasil -->
+             <!-- App Brasil -->
             <favorite
                 launcher:screen="12" 
                  launcher:packageName="br.org.sidi.appsbrasil"
@@ -246,19 +246,19 @@
         launcher:screen="0" 
         launcher:packageName="com.android.calendar" 
         launcher:className="com.android.calendar.AllInOneActivity" />
-    
+
     <!-- Calculator -->
     <favorite
         launcher:screen="0" 
         launcher:packageName="com.sec.android.app.popupcalculator" 
-        launcher:className="com.sec.android.app.popupcalculator.Calculator" />
+        launcher:className="com.sec.android.app.popupcalculator.Calculator" />		
 
-     <!-- Play Music -->
-     <favorite
+	<!-- Play Music -->
+    <favorite
         launcher:screen="0" 
         launcher:packageName="com.google.android.music" 
-        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
-		
+        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />		
+
     <!-- Memo -->
     <favorite
         launcher:screen="0" 
