@@ -82,10 +82,14 @@
           <NetworkName>default</NetworkName>
           <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
-        <NbSOSNumber>3</NbSOSNumber>
+        <NbSOSNumber>7</NbSOSNumber>
         <SOSNumber>112</SOSNumber>
         <SOSNumber>911</SOSNumber>
         <SOSNumber>999</SOSNumber>
+        <SOSNumber>9999</SOSNumber>
+        <SOSNumber>1122</SOSNumber>
+        <SOSNumber>141999</SOSNumber>
+        <SOSNumber>141112</SOSNumber>
       </Network>
       <Sound>
         <KeyTone>

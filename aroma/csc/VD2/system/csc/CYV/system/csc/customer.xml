@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Cyprus</Country>
     <CountryISO>CY</CountryISO>
     <Region>EUR</Region>
@@ -48,6 +48,10 @@
           <NetworkName>CytaVoda</NetworkName>
           <WbAmrCodec>off</WbAmrCodec>
         </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>199</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>199</SOSNumberNoSIM>
       </Network>
       <Sound>
         <RngVolume>5</RngVolume>

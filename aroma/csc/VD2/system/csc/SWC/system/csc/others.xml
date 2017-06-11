@@ -73,7 +73,7 @@
   <CscFeature_RIL_SupportSmsFallbackForIms>TRUE</CscFeature_RIL_SupportSmsFallbackForIms>
   <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
   <CscFeature_Setting_SupportWifiCall>true</CscFeature_Setting_SupportWifiCall>
-  <CscFeature_Setting_HideApnList>IMS,ims,XCAP,xcap</CscFeature_Setting_HideApnList>
+  <CscFeature_Setting_HideApnList>IMS,ims,XCAP,xcap,HOS,hos</CscFeature_Setting_HideApnList>
   <CscFeature_Wifi_ConfigBestApSelection>SINGLE</CscFeature_Wifi_ConfigBestApSelection>
   <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
   <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefNoSimCheck,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>

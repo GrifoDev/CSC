@@ -1,5 +1,5 @@
 16
-CatchFavorites_N.apk
+YahooEdgeNews.apk
 FlipboardBriefing.apk
 SamsungPayStub.apk
 GalaxyCare.apk

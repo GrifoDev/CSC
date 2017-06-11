@@ -1,5 +1,4 @@
-13
-SamsungPayStub.apk
+12
 smartcallprovider-open-release.apk
 AndroidPay_erasable_Hero.apk
 CnnPanel.apk

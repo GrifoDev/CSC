@@ -76,5 +76,6 @@
   <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
   <CscFeature_RIL_KeepMobileDataEvenWifiOn>TRUE</CscFeature_RIL_KeepMobileDataEvenWifiOn>
   <CscFeature_RIL_SupportPreferApnByImsi>TRUE</CscFeature_RIL_SupportPreferApnByImsi>
+  <CscFeature_VoiceCall_ConfigOpStyleForLogs>SkipLog_214/016</CscFeature_VoiceCall_ConfigOpStyleForLogs>  
  </FeatureSet>
 </SamsungMobileFeauture>
