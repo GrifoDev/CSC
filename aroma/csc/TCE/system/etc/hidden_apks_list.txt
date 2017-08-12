@@ -1,0 +1,11 @@
+/hidden/Common_app/AsphaltNitroMobilePremium_SMS_Samsung_Hero2_ML_IGP_LATAM_TS_110_CU18.apk
+/hidden/Common_app/CarsRacing_Samsung_G935_IGP_TS_LATAM_ML_112_CU19.apk
+/hidden/Common_app/Claromusica_20170410_MEXICO_Stub.apk
+/hidden/Common_app/Claroshop_v3.0.2.apk
+/hidden/Common_app/ClaroVideo_v390v3.apk
+/hidden/Common_app/IceAgeScratVentures_SMS_Samsung_G935_IGP_LATAM_ML_ADS_110_CU20.apk
+/hidden/Common_app/MidnightPoolMobilePremium_SMS_G935_L_IGP_LATAM_ML_112_CU17.apk
+/hidden/Common_app/smarttutor_b172.apk
+/hidden/Common_app/SpiderManUltimatePower_SMS_Samsung_G935_IGP_LATAM_ML_111_CU21.apk
+/hidden/Common_app/Start-Prod-Hybrid-AMX_Telcel-v4.6.6.14.100.apk
+/hidden/Common_app/Transfer_v3.0.0.5.apk

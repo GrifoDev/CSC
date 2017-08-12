@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+  <!-- Screen [0] -->
+    <!-- Samsung -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Samsung" >
+           <!-- My Files -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.sec.android.app.myfiles" 
+                launcher:className="com.sec.android.app.myfiles.common.MainActivity" />
+           
+		   <!-- Gear -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.samsung.android.app.watchmanager"
+                launcher:className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+			
+           <!-- Voice Recorder -->
+           <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.sec.android.app.voicenote" 
+                launcher:className="com.sec.android.app.voicenote.main.VNMainActivity" />
+            <!-- Email -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.samsung.android.email.provider" 
+                launcher:className="com.samsung.android.email.ui.activity.MessageListXL" />
+            <!-- Internet -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.sec.android.app.sbrowser" 
+                launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+            <!-- S Health -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.sec.android.app.shealth" 
+                launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" />
+            <!-- S Voice -->
+            <favorite
+                launcher:screen="6" 
+                launcher:packageName="com.samsung.voiceserviceplatform" 
+                launcher:className="com.samsung.voiceserviceplatform.ui.SVoiceMainActivity" />
+            <!-- Galaxy Apps -->
+            <favorite
+                launcher:screen="7" 
+                launcher:packageName="com.sec.android.app.samsungapps" 
+                launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" />
+			<!-- Smart Tutor -->
+            <favorite
+                launcher:screen="8" 
+                launcher:packageName="com.rsupport.rs.activity.rsupport.aas2" 
+                launcher:className="com.rsupport.rs.activity.edit.IntroActivity" />
+			<!-- Manual do usuario -->
+            <favorite
+                launcher:screen="9" 
+                launcher:packageName="com.sec.android.usermanual" 
+                launcher:className="com.sec.android.usermanual.UserManualActivity" />
+    </folder>
+    
+  
+    <folder
+        launcher:screen="0" 
+        launcher:title="Telcel" >
+
+        <!-- Claro Apps - MX only -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.naranya.claroapps"
+          launcher:className="com.naranya.claroapps.LaunchActivity" />
+
+        <!-- Claro Clube -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.mobmidia.claro.activities"
+          launcher:className="com.mobmidia.claro.activities.HomeActivity" />
+
+        <!-- Claro Esportes -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claroesportes.android"
+          launcher:className="com.movile.sports.activity.SplashActivity" /> 
+
+        <!-- Claro música 5.3.1 -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.claromusica.latam" 
+          launcher:className="com.telcel.imk.MainActivity" />
+  
+        <!-- Claro música MX -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.telcel.imk"
+          launcher:className="com.telcel.imk.MainActivity" />
+
+        <!-- Claro música -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.claromusica.br"
+          launcher:className="com.telcel.imk.MainActivity" />
+    
+        <!-- Claro música br 5.3.2-->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.claromusica.br"
+          launcher:className="com.claro.claromusica.br.MainActivity" />
+      
+        <!-- Claromúsica -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.claromusica.latam"
+          launcher:className="com.claro.claromusica.latam.MainActivity" />
+
+        <!-- Clarojuegos -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.gameloft.android.gdc"
+          launcher:className="com.gameloft.android.gdc.GDCMainShop" />
+
+        <!-- Clarokids -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.movile.ideiaskidsmx"
+          launcher:className="com.movile.playkids.UnityPlayerActivity" />
+
+        <!-- Clarokids -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.movile.ideaskidsco"
+          launcher:className="com.movile.playkids.UnityPlayerActivity" />
+
+        <!-- Clarokids -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.movile.ideaskidsbr"
+          launcher:className="com.movile.playkids.UnityPlayerActivity" />
+
+        <!-- Clarosalud -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.elunviersal.isalud"
+          launcher:className="com.elunviersal.isalud.ClarosaludActivity" />
+
+        <!-- Claroshop -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.americamovil.claroshop"
+          launcher:className="com.americamovil.claroshop.activities.SplashActivity" />
+				  
+		<!-- Claroshop -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.americamovil.claroshop"
+          launcher:className="com.americamovil.claroshop.MainActivity" />
+
+        <!-- Clarosync -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="br.com.amxsync"
+          launcher:className="com.fsecure.mobile.sync.StartupActivity" />
+
+        <!-- Clarosync -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="br.com.claroespanhol"
+          launcher:className="com.fsecure.mobile.sync.StartupActivity" />
+
+        <!-- Clarosync -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="br.com.ideiassync"
+          launcher:className="com.fsecure.mobile.sync.StartupActivity" />
+
+        <!-- ClaroVideo -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.dla.android"
+          launcher:className="com.clarovideo.app.ui.activities.SplashActivity" />
+
+        <!-- Clube Apps -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="br.com.bemobi.appsclub.claro"
+          launcher:className="br.com.mobicare.appstore.activity.SplashActivity" />  
+
+        <!-- Clube Apps -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="br.com.bemobi.appsclub.americamovil"
+          launcher:className="br.com.mobicare.appstore.activity.SplashActivity" />
+
+        <!-- Consumo Internet MX-->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="telcel.net"
+          launcher:className="telcel.net.MainActivityTab" />
+    
+        <!-- Consumo Internet ECO -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="claro.net"
+          launcher:className="claro.net.MainActivityTab" />
+
+        <!-- Internet Claro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.prepago.mini"
+          launcher:className="com.claro.prepago.mini.view.ClaroMainActivity" />
+
+        <!-- Internet Claro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.prepago.mini"
+          launcher:className="com.claro.prepago.mini.view.login.LoginActivity" />   
+
+        <!-- Mi Claro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claroecuador.miclaro"
+          launcher:className="com.claroecuador.miclaro.LoginActivity" />
+    
+        <!-- Mi Claro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claroecuador.miclaro"
+          launcher:className="com.claroecuador.miclaro.SplashScreenActivity" /> 
+
+        <!-- Mi Claro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.miclaro"
+          launcher:className="com.claro.miclaro.Dashboard" />
+
+        <!-- Mi Claro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.claro.pe.miclaro"
+          launcher:className="com.claro.pe.miclaro.Launcher" />
+  
+        <!-- Mi Claro CDR-->  
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.clarord.miclaro"
+          launcher:className="com.personal.miclaro.controller.Login" />
+		  
+		<!-- Mi Claro CDR-->  
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.clarord.miclaro"
+          launcher:className="com.clarord.miclaro.controller.Login" /> 
+
+        <!-- Mi Telcel -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.speedymovil.wire"
+          launcher:className="com.speedymovil.wire.Login" />
+
+        <!-- MiClaro -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.todoclaro.miclaroapp"
+          launcher:className="com.todoclaro.miclaroapp.MiClaro" />
+
+        <!-- MiClaro PCT-->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.todoclaro.miclaroapp"
+          launcher:className="com.todoclaro.miclaroapp.MainActivity" />
+    
+        <!-- Mi Claro Argentina-->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="ar.com.claro.android"
+          launcher:className="com.mobileaware.claro.screens.SplashActivity" />  
+
+	<!-- Mi Claro Argentina v5.3.1.118-->
+	<favorite
+		launcher:screen="0"
+		launcher:packageName="ar.com.claro.android"
+		launcher:className="com.mobileaware.unified.ui.activites.SplashActivity" />
+    <!-- Mi Claro -->
+	<favorite
+		launcher:screen="0"
+		launcher:packageName="com.claro.miclaro"
+		launcher:className="com.claro.miclaro.MenuPrincipal" />    
+		
+	<!-- Minha Claro BR-->
+	<favorite
+		launcher:screen="0"
+		launcher:packageName="com.nvt.cs"
+		launcher:className="br.com.claro.app.MainActivity" />
+
+        <!-- Navegação Segura -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.fsecure.ms.claro.br"
+          launcher:className="com.fsecure.browser.BrowserActivity" />
+
+        <!-- Navegación Segura -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.fsecure.ms.telcel.mx"
+          launcher:className="com.fsecure.browser.BrowserActivity" />
+
+        <!-- Navegación Segura -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.fsecure.ms.claro"
+          launcher:className="com.fsecure.browser.BrowserActivity" />
+
+        <!-- Portal Claroideas -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.portal"
+          launcher:className="com.portal.Portal" />
+
+        <!-- Portal Claroideas -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.portal.pruebas"
+          launcher:className="com.portal.Portal" />
+
+        <!-- Start -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.celltick.lockscreen"
+          launcher:className="com.celltick.lockscreen.LockerActivity2" />
+
+        <!-- Seg. Móvil -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.nqmobile.antivirus20.clarolatam"
+          launcher:className="com.netqin.antivirus.AntiVirusSplash" />
+
+        <!-- Segurança Total -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.fsecure.ms.claro.br"
+          launcher:className="com.fsecure.ms.ui.LauncherActivity" />
+
+        <!-- Seguridad Total -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.fsecure.ms.telcel.mx"
+          launcher:className="com.fsecure.ms.ui.LauncherActivity" />
+
+        <!-- Seguridad Total -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.fsecure.ms.claro"
+          launcher:className="com.fsecure.ms.ui.LauncherActivity" />
+  
+	
+        <!-- Telcel Recarga -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.MiTelcelMXTopup"
+          launcher:className="com.vesta.mobileplatform.VestaMobilePlatformActivity" />
+    
+        <!-- Transfer -->
+        <favorite
+          launcher:screen="0"
+          launcher:packageName="com.citi.transfer"
+          launcher:className="com.citi.transfer.activities.SplashActivity" />
+
+
+	<!-- Transfer 3.0.0.3-->
+	<favorite
+		launcher:screen="0"
+		launcher:packageName="com.citi.transfer"
+		launcher:className="com.citi.transfer.ui.activities.SplashActivity" />
+  
+        <!-- Spider Man -->
+        <favorite
+		  launcher:screen="0"
+		  launcher:packageName="com.gameloft.android.GloftSMIM"
+		  launcher:className="com.gameloft.android.GloftSMIM.Start" />
+  
+        <!-- Cars Racing -->
+        <favorite
+          launcher:screen="0" 
+          launcher:packageName="com.gameloft.android.LATAM.GloftCRSM" 
+          launcher:className="com.gameloft.android.LATAM.GloftCRSM.Start"/>
+  
+        <!-- Ice Age -->
+        <favorite
+          launcher:screen="0" 
+          launcher:packageName="com.gameloft.android.GloftSCRT" 
+          launcher:className="com.gameloft.android.GloftSCRT.Start"/>
+  
+        <!-- Asphalt -->
+        <favorite
+          launcher:screen="0" 
+          launcher:packageName="com.gameloft.android.GloftANIM" 
+		  launcher:className="com.gameloft.android.GloftANIM.Start"/>
+  
+        <!-- NFS: Most Wanted -->
+        <favorite
+          launcher:screen="0" 
+          launcher:packageName="com.ea.games.nfs13_embed_latam" 
+          launcher:className="com.ea.ironmonkey.GameActivity"/>
+		  
+		<!-- Midnight Pool -->
+        <favorite
+          launcher:screen="0" 
+          launcher:packageName="com.gameloft.android.GloftMPMP" 
+          launcher:className="com.gameloft.android.GloftMPMP.Start"/>
+          
+        <!-- STK -->
+        <favorite
+          launcher:screen="0" 
+          launcher:packageName="com.android.stk" 
+          launcher:className="com.android.stk.StkLauncherActivity"/>
+    </folder>
+  
+    <!-- Google -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Google" >
+            <!-- Google -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.google.android.googlequicksearchbox" 
+                launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
+            <!-- Chrome -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.android.chrome" 
+                launcher:className="com.google.android.apps.chrome.Main" />
+            <!-- Gmail -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.google.android.gm" 
+                launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+            <!-- Maps -->
+            <favorite
+                launcher:screen="3" 
+                launcher:packageName="com.google.android.apps.maps" 
+                launcher:className="com.google.android.maps.MapsActivity" />
+            <!-- YouTube -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.google.android.youtube" 
+                launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+            <!-- Drive -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.google.android.apps.docs" 
+                launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+            <!-- Play Movies & TV -->
+            <favorite
+                launcher:screen="7" 
+                launcher:packageName="com.google.android.videos" 
+                launcher:className="com.google.android.youtube.videos.EntryPoint" />
+            <!-- Hangouts -->
+            <favorite
+                launcher:screen="8" 
+                launcher:packageName="com.google.android.talk" 
+                launcher:className="com.google.android.talk.SigningInActivity" />
+            <!-- Fotos -->
+            <favorite
+                launcher:screen="9" 
+                launcher:packageName="com.google.android.apps.photos" 
+                launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+    </folder>
+
+	<!-- Microsoft Apps -->
+    <folder
+        launcher:screen="0" 
+        launcher:title="Microsoft  Apps" >
+        <!-- Word -->
+            <favorite
+                launcher:screen="0" 
+                launcher:packageName="com.microsoft.office.word" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- Excel -->
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.microsoft.office.excel" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- PowerPoint -->
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.microsoft.office.powerpoint" 
+                launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+            <!-- OneNote -->
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.microsoft.office.onenote" 
+                launcher:className="com.microsoft.office.onenote.ui.ONMSplashActivity" />
+    </folder> 
+ 
+ <!-- Samsung Care -->
+	<favorite
+		launcher:screen="0"
+		launcher:packageName="com.samsung.android.voc"
+		launcher:className="com.samsung.android.voc.LauncherActivity"/>
+      
+  <!-- Claro -->
+    <favorite
+		launcher:screen="0"
+		launcher:packageName="com.claroColombia.contenedor"
+		launcher:className="com.claroColombia.contenedor.gui.activities.AppsContainerActivity" />
+  
+  <!-- Telcel -->
+	<favorite
+		launcher:screen="0"
+		launcher:packageName="com.telcel.contenedor"
+		launcher:className="com.telcel.contenedor.gui.activities.AppsContainerActivity" />
+
+  
+   <!-- Play Store -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.vending" 
+        launcher:className="com.android.vending.AssetBrowserActivity" />
+		
+ 
+    <!-- Facebook -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.facebook.katana" 
+        launcher:className="com.facebook.katana.LoginActivity" />
+
+
+    <!-- Phone -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.contacts" 
+        launcher:className="com.android.dialer.DialtactsActivity" />
+
+    <!-- Messages -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.mms" 
+        launcher:className="com.android.mms.ui.ConversationComposer" />
+
+    <!-- Camera -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.camera" 
+        launcher:className="com.sec.android.app.camera.Camera" />
+
+    <!-- Gallery -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.gallery3d" 
+        launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity" />
+    
+    <!-- Clock -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.clockpackage" 
+        launcher:className="com.sec.android.app.clockpackage.ClockPackage" />
+    
+    <!-- Contacts -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.contacts" 
+        launcher:className="com.android.contacts.activities.PeopleActivity" />
+  
+  <!-- Settings -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.android.settings" 
+        launcher:className="com.android.settings.Settings" />
+  
+  <!-- S Planner -->
+  <favorite
+    launcher:screen="0" 
+    launcher:packageName="com.android.calendar" 
+    launcher:className="com.android.calendar.AllInOneActivity" />
+
+    <!-- Calculator -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.popupcalculator" 
+        launcher:className="com.sec.android.app.popupcalculator.Calculator" />
+
+     <!-- Play Music -->
+     <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.google.android.music" 
+        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+
+    <!-- Memo -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.app.memo" 
+        launcher:className="com.samsung.android.app.memo.Main" />
+
+    <!-- Voice Search -->
+    <favorite
+        launcher:screen="0"
+        launcher:packageName="com.google.android.googlequicksearchbox"
+        launcher:className="com.google.android.googlequicksearchbox.VoiceSearchActivity"
+        launcher:hidden="true"/>
+</appOrder> 
