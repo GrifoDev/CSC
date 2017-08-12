@@ -318,6 +318,7 @@ form(
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SFR",		"SFR",			"France SFR branded",					"select",
 	"SKC",		"SKC",			"Korea SK Telecom branded (S-Variant)",			"select",
+	"TCE",		"TCE",			"Mexican Telcel Branded",				"select",
 	"TEL",		"TEL",			"Australia Telstra branded",				"select",
 	"TEN",		"TEN",			"Norway Telenor branded",				"select",
 	"TGY",		"TGY",			"HongKong unbranded",					"select",

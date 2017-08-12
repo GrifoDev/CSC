@@ -283,6 +283,12 @@ if
 		package_extract_dir("aroma/csc/SKC/system", "/system");
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TCE"
+	then
+		ui_print("Installing TCE CSC...");
+		package_extract_dir("aroma/csc/TCE/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "TEL"
 	then
 		ui_print("Installing TEL CSC...");
