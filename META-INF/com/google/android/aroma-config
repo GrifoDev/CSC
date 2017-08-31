@@ -314,6 +314,7 @@ form(
 	"PHE",		"PHE",			"Spain unbranded",					"select",
 	"PHN",		"PHN",			"Netherlands unbranded",				"select",
 	"PNG",		"PNG",			"New Zealand Digicel branded",				"select",
+	"PRT",		"PRT",			"Poland PLAY branded",					"select",
 	"SEB",		"SEB",			"Latvia unbranded",					"select",
 	"SER",		"SER",			"Russian Multi-CSC contains: CAC, CAU, SEK, SER, SKZ",	"select",
 	"SFR",		"SFR",			"France SFR branded",					"select",
