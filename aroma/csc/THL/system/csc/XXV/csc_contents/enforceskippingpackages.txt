@@ -1,4 +1,4 @@
-16
+12
 SamsungPayStub.apk
 GalaxyCare.apk
 smartcallprovider-open-release.apk
@@ -8,10 +8,6 @@ AuthService_v1.apk
 FidoUafAsm_v15.apk
 FidoUafClient_v15.apk
 AxelSpringer.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
 SamsungUpdates.apk
 OMCAgent.apk
 vsimservice.apk

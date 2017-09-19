@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>MALAYSIA</Country>
     <CountryISO>MY</CountryISO>
     <Region>SEA</Region>
@@ -89,14 +89,10 @@
         <NetworkLock>639BB</NetworkLock>
       </Security>
       <Network>
-        <NbWbAmr>2</NbWbAmr>
+        <NbWbAmr>1</NbWbAmr>
         <WbAmr>
-          <NetworkName>default</NetworkName>
-          <WbAmrCodec>off</WbAmrCodec>
-        </WbAmr>
-        <WbAmr>
-          <NetworkName>default</NetworkName>
-          <WbAmrCodec>off</WbAmrCodec>
+          <NetworkName>MAXIS</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
         <NbSOSNumber>1</NbSOSNumber>
         <SOSNumber>999</SOSNumber>
@@ -109,7 +105,7 @@
         <AutoLink>off</AutoLink>
         <AutoSyncML>off</AutoSyncML>
         <AutoFastDormancy>off</AutoFastDormancy>
-        <AutoWbAmr>off</AutoWbAmr>
+        <AutoWbAmr>on</AutoWbAmr>
         <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>

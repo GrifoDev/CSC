@@ -49,6 +49,7 @@
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_RIL_SupportMptcp>TRUE</CscFeature_RIL_SupportMptcp>
 	<CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService> 
 	<CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte> 
 	<CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc> 
@@ -59,6 +60,7 @@
 	<CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn> 
 	<CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,SilentMode,Bluetooth,RotationLock,Flashlight,Location,MobileData,AirplaneMode,Performance,PowerSaving,Nfc,WifiHotspot,PersonalMode,UDS,BikeMode,BlueLightFilter,Aod,AllShareCast,SecureFolder,DeviceVisibility,Dnd,Sync,UltraPowerSaving,ScreenRecorder,VoLte</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>THL</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,MobilePrefSim_52001_52003_52074_52054_52005_52000_52004;,ShowPrefModeMenuSim_52003_52001_52074_52054_52005_52000_52004;</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
@@ -70,5 +72,6 @@
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR,voltesettingTHL</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>  
     <CscFeature_NFC_ConfigDynamicFirmwareLoading>THL</CscFeature_NFC_ConfigDynamicFirmwareLoading>
     <CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>
+    <CscFeature_VT_SupportMerge>TRUE</CscFeature_VT_SupportMerge>
   </FeatureSet>
 </SamsungMobileFeauture>
