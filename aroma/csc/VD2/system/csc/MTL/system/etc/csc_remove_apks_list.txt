@@ -1,4 +1,4 @@
 /system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
 /system/priv-app/aligned_mySamsung_Stub/aligned_mySamsung_Stub.apk
+/system/priv-app/apt_Vodafone_StartOne_Katniss_v7.2.0_PROD_signed/apt_Vodafone_StartOne_Katniss_v7.2.0_PROD_signed.apk
 /system/priv-app/SwisscomApps_v5_1.0.5_release_signed/SwisscomApps_v5_1.0.5_release_signed.apk
-/system/priv-app/Vodafone_Updates_v6.3.0_Samsung/Vodafone_Updates_v6.3.0_Samsung.apk

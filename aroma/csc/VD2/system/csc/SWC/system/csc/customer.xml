@@ -325,7 +325,7 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
@@ -344,7 +344,7 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>

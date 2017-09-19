@@ -307,7 +307,7 @@
       </Profile>
       <Profile>
         <NetworkName>vodafone ES</NetworkName>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>IMS</ProfileName>
         <Auth>none</Auth>
         <Protocol>http</Protocol>

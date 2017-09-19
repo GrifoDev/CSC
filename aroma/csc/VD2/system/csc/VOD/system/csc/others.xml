@@ -76,5 +76,8 @@
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
     <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
+	<CscFeature_RIL_ConfigVolteRedialPolicy>VOD</CscFeature_RIL_ConfigVolteRedialPolicy>
+	<CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+	<CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
   </FeatureSet>
 </SamsungMobileFeauture>

@@ -4,4 +4,3 @@
 /hidden/app/MB_Phone1.7.0.apk
 /hidden/app/MobileTV_4.0.apk
 /hidden/app/My_Vodafone_3.0.apk
-/hidden/app/VodafoneStart-5.6.3bis-prod-release-AndroidVFSigned_zipaligned.apk

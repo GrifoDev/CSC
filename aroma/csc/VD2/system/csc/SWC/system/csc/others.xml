@@ -26,7 +26,6 @@
   <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
   <CscFeature_Wifi_DisplaySsidStatusBarInfo>TRUE</CscFeature_Wifi_DisplaySsidStatusBarInfo>
   <CscFeature_Wifi_EnableMenuAutoJoin>TRUE</CscFeature_Wifi_EnableMenuAutoJoin>
-  <CscFeature_RIL_ApnControlByModem>TRUE</CscFeature_RIL_ApnControlByModem>
   <CscFeature_Wifi_PriorityRuleAs>PrivateFirst</CscFeature_Wifi_PriorityRuleAs>
   <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
   <CscFeature_VoiceCall_DialEmergNumAsNormalCall>117,118,143,144,145,147</CscFeature_VoiceCall_DialEmergNumAsNormalCall>
@@ -78,5 +77,7 @@
   <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
   <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefNoSimCheck,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
   <CscFeature_Contact_ConfigImsOpStyle>SWC</CscFeature_Contact_ConfigImsOpStyle>
+  <CscFeature_IMS_EnableEVS>true</CscFeature_IMS_EnableEVS>
+  <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
   </FeatureSet>
 </SamsungMobileFeauture>

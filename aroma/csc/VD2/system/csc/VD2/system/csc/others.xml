@@ -84,5 +84,7 @@
   <CscFeature_VoiceCall_ConfigOpStyleForWfc>ECallDlgVFDE,HideMenuAtAuthFail</CscFeature_VoiceCall_ConfigOpStyleForWfc>
   <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
   <CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
+  <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
+  <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>SS</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
  </FeatureSet>
 </SamsungMobileFeauture>

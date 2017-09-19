@@ -137,15 +137,14 @@ limitations under the License.
         <!--  screen [1]  -->
         <!-- .SMHSDashboardProvider -->
         <appwidget
-            launcher:packageName="com.vodafone.smhs" 
-            launcher:className="com.vodafone.smhs.SMHSDashboardProvider" 
-            launcher:screen="1" 
-            launcher:x="0" 
-            launcher:y="0" 
-            launcher:spanX="4" 
+            launcher:packageName="com.vodafone.vodafone360updates"
+            launcher:className="com.vodafone.smhs.SMHSDashboardProvider"
+            launcher:screen="1"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:spanX="4"
             launcher:spanY="2" />
-
-
+						
         <!-- My Vodafone -->
         <favorite
             launcher:packageName="com.VodafoneIreland.MyVodafone" 

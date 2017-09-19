@@ -2,4 +2,3 @@
 /hidden/app/Facebook_stub.apk
 /hidden/app/FBInstagram_stub.apk
 /hidden/app/VFAL-MyVodafone__2.0.7-20AL-REL.apk
-/hidden/app/VodafoneStart-5.6.3bis-prod-release-AndroidVFSigned_zipaligned.apk

@@ -68,5 +68,7 @@
   <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
   <CscFeature_RIL_PDPRetryMechanism4>VD2</CscFeature_RIL_PDPRetryMechanism4>
   <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
+  <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+  <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
  </FeatureSet>
 </SamsungMobileFeauture>

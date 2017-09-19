@@ -375,7 +375,7 @@
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
@@ -394,7 +394,7 @@
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
@@ -413,7 +413,7 @@
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
         <VoLTE>
-          <EnableVoLTE>false</EnableVoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>

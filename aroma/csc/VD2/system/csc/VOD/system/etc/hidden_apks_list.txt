@@ -1,4 +1,3 @@
 /hidden/app/app-accessorystore-release-unsigned_03-11-2016-15-49-00_16-11-2016-17-37-27_AndroidVFSigned_aligned.apk
 /hidden/app/Facebook_stub.apk
 /hidden/app/FBInstagram_stub.apk
-/hidden/app/VodafoneStart-5.6.3bis-prod-release-AndroidVFSigned_zipaligned.apk

@@ -76,5 +76,7 @@
   <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
   <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
   <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+  <CscFeature_IMS_EnableEVS>true</CscFeature_IMS_EnableEVS>
+  <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
  </FeatureSet>
 </SamsungMobileFeauture>
