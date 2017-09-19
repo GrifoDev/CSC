@@ -5,8 +5,17 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>G935FTCE</CSCName>
-	<CSCVersion>1DQEM</CSCVersion>
+	<CSCVersion>1DQH4</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/TCE/customer.xml" />
 	</CustomerDataSet>
+	<HandData>
+		<NbApprovalVer>1</NbApprovalVer>
+		<ApprovalVer>
+		<Customer>TCE</Customer>
+			<CodeFullVersion>G935FXXU1DQH3</CodeFullVersion>
+			<ModemFullVersion>G935FXXU1DQG2</ModemFullVersion>
+			<CSCFullVersion>G935FTCE1DQH3</CSCFullVersion>
+		</ApprovalVer>
+	</HandData>
 </SW-Configuration>

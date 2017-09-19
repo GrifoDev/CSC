@@ -1,13 +1,12 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00009</Version>
+  <Version>ED00010</Version>
   <Country>MEXICO</Country>
   <CountryISO>MX</CountryISO>
   <SalesCode>TCE</SalesCode>
   <FeatureSet>
     <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
-    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
     <CscFeature_Contact_ConfigOpStyleVariation>TCE</CscFeature_Contact_ConfigOpStyleVariation>
     <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
@@ -67,6 +66,7 @@
     <CscFeature_RIL_SupportVolteVtCall>TRUE</CscFeature_RIL_SupportVolteVtCall>
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
+	<CscFeature_Setting_ChangeApprovedModemVersion>TRUE</CscFeature_Setting_ChangeApprovedModemVersion>
     <CscFeature_Setting_DefDialingKeypadTone>OFF</CscFeature_Setting_DefDialingKeypadTone>
     <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
@@ -87,5 +87,25 @@
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
     <CscFeature_Wifi_ConfigDhcpLeaseTime>4</CscFeature_Wifi_ConfigDhcpLeaseTime>
+    <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+    <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Message_EnableBlackList>TRUE</CscFeature_Message_EnableBlackList>
+    <CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+    <CscFeature_Message_EnableSaveRestoreSDCard>TRUE</CscFeature_Message_EnableSaveRestoreSDCard>
+    <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
+    <CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+    <CscFeature_SystemUI_SupportAssistanceAppChooser>TRUE</CscFeature_SystemUI_SupportAssistanceAppChooser>
+    <CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+    <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
+    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+    <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+    <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|applock|networkpowersaving|storageclean|trafficmanager|notificationmanager|applicationpermission|devicesecurity|data_compression|UDS</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
   </FeatureSet>
 </SamsungMobileFeature>

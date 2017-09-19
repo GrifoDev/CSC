@@ -1,8 +1,6 @@
-/system/app/appmanager/appmanager.apk
-/system/priv-app/CLAROAPPS_OEM_2_1_0/CLAROAPPS_OEM_2_1_0.apk
-/system/priv-app/ClaroJuegos_WidgetApp3x3_PF22_2009_2.1.1/ClaroJuegos_WidgetApp3x3_PF22_2009_2.1.1.apk
-/system/priv-app/ContenedorTelcelV1041F150317VC1015PRE/ContenedorTelcelV1041F150317VC1015PRE.apk
-/system/priv-app/installer/installer.apk
-/system/priv-app/MiTelcelV6.5/MiTelcelV6.5.apk
+/system/priv-app/CLAROAPPS_OEM_2_2_1/CLAROAPPS_OEM_2_2_1.apk
+/system/priv-app/ClaroJuegos_WidgetApp_4x4_PG87_2009_2.2.0/ClaroJuegos_WidgetApp_4x4_PG87_2009_2.2.0.apk
+/system/priv-app/ContenedorTelcelV1062F170617VC1019PRE/ContenedorTelcelV1062F170617VC1019PRE.apk
+/system/priv-app/MiTelcelV6.7/MiTelcelV6.7.apk
 /system/priv-app/OnStartNotification_v20/OnStartNotification_v20.apk
-/system/priv-app/Portal_v6.5/Portal_v6.5.apk
+/system/priv-app/Portal_v6.6/Portal_v6.6.apk
