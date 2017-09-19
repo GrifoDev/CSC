@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
@@ -275,15 +275,16 @@
         <ProfIMS>IOT IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>5</NbNetProfile>
+        <NbNetProfile>6</NbNetProfile>
         <NetworkName>T-Mobile</NetworkName>
         <ProfBrowser>T-Mobile US LTE</ProfBrowser>
         <ProfMMS>T-Mobile MMS LTE</ProfMMS>
         <ProfIntSharing>T-Mobile Tethering</ProfIntSharing>
         <ProfIMS>T-Mobile IMS</ProfIMS>
+        <ProfXCAP>T-Mobile US LTE XCAP</ProfXCAP>
         <ProfEpdg>T-Mobile MMS EPDG</ProfEpdg>
       </ProfileHandle>
-      <NbProfile>10</NbProfile>
+      <NbProfile>11</NbProfile>
       <Profile>
         <NetworkName>T-Mobile</NetworkName>
         <IpVersion>ipv6</IpVersion>
@@ -444,6 +445,23 @@
           <APN>ims</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>T-Mobile</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>T-Mobile US LTE XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1440</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>fast.t-mobile.com</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
       <NbSetting>1</NbSetting>
@@ -461,7 +479,7 @@
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>sip</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
           <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>

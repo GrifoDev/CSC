@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00017</Version>
+  <Version>ED00018</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>TMB</SalesCode>
@@ -129,7 +129,6 @@
     <CscFeature_RIL_RedialVoltecallDuringAlerting>TRUE</CscFeature_RIL_RedialVoltecallDuringAlerting>
     <CscFeature_RIL_RemoveToastDuringBipOperation>TRUE</CscFeature_RIL_RemoveToastDuringBipOperation>
     <CscFeature_RIL_ReplaceUssdFail>TRUE</CscFeature_RIL_ReplaceUssdFail>
-    <CscFeature_RIL_RerouteSsToSip>TRUE</CscFeature_RIL_RerouteSsToSip>
     <CscFeature_RIL_SIMNotStoringVoiceMailInDevice>TRUE</CscFeature_RIL_SIMNotStoringVoiceMailInDevice>
     <CscFeature_RIL_SIMSendDeactivatedChannelStatus>TRUE</CscFeature_RIL_SIMSendDeactivatedChannelStatus>
     <CscFeature_RIL_STKHandlingBIPbyAP>TRUE</CscFeature_RIL_STKHandlingBIPbyAP>
@@ -139,7 +138,6 @@
     <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
-    <CscFeature_RIL_SsUsingUt>TRUE</CscFeature_RIL_SsUsingUt>
     <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
     <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
     <CscFeature_RIL_SupportEpdgDuringRoaming>TRUE</CscFeature_RIL_SupportEpdgDuringRoaming>
@@ -160,6 +158,7 @@
     <CscFeature_Setting_ConfigOpMenuStructure>Global</CscFeature_Setting_ConfigOpMenuStructure>
     <CscFeature_Setting_ConfigTypeHelp>2</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_HideApnList>pcweb.tmobile.com,ims,tmus</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
     <CscFeature_SetupWizard_ConfigStepSequenceType>VanillaStep</CscFeature_SetupWizard_ConfigStepSequenceType>
     <CscFeature_Sip_ConfigOpBranding>XAA</CscFeature_Sip_ConfigOpBranding>

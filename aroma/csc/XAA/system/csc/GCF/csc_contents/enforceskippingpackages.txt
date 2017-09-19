@@ -1,4 +1,4 @@
-98
+99
 NaverV_N.apk
 AuthService_v1.apk
 FidoUafAsm_v15.apk
@@ -7,6 +7,7 @@ FBAppManager.apk
 FBInstaller.apk
 FBAppManager_NS.apk
 FBInstaller_NS.apk
+FBServices.apk
 FBInstagram_stub.apk
 FBMessenger_stub.apk
 Facebook_stub.apk

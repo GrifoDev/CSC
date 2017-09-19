@@ -1,5 +1,5 @@
 {
-  "version": 160,
+  "version": 161,
   "profile": [
     {
       "name": "default",
@@ -4141,6 +4141,7 @@
           "type": "wifi",
           "services": [
             "mmtel",
+            "smsip"
           ],
           "enabled": true
         }

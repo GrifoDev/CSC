@@ -1,11 +1,11 @@
 <?xml  version="1.0" encoding="UTF-8" ?>
 <SW-Configuration>
 	<MobileData>
-	<PublicName>SM-G935U</PublicName>
+	<PublicName>SM-G935F</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935UOYM</CSCName>
-	<CSCVersion>4BQE2</CSCVersion>
+	<CSCName>G935FOYM</CSCName>
+	<CSCVersion>4BQH3</CSCVersion>
 	<NbCustomer>15</NbCustomer>
 	<CustomerData src="/Customer/ACG/customer.xml" />
 	<CustomerData src="/Customer/ATT/customer.xml" />

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configurations>
+    <!-- DEPRECATED ITEMS
+      VOWIFI_SUPPORTED: Moved to GlobalSettings
+       See "support_vowifi" in globalsettings.json (default: true)
+       Use GlobalSettings.getSupportVoWiFi()
+
+      SHOW_VOWIFI_REGI_ICON: Moved to GlobalSettings
+       See "show_vowifi_regi_icon" in globalsettings.json (default: true)
+       Use GlobalSettings.getShowVoWiFiRegIcon()
+
+      EPDG_HANDOVER_ENABLED: Not in use anymore
+    -->
+    <configuration name="default">
+        <item key="@string/IMS_TEST_MODE">0</item>
+        <item key="@string/LVC_ENABLED">1</item>
+        <item key="@string/VOLTE_ENABLED">1</item>
+        <item key="@string/EAB_SETTING">1</item>
+        <item key="@string/SMS_OVER_IMS">1</item>
+        <item key="@string/T_DELAY">5</item>
+        <item key="@string/TIMER_VZW">6</item>
+        <item key="@string/TVOLTE_HYS_TIMER">60</item>
+        <item key="@string/SILENT_REDIAL_ENABLE">1</item>
+        <item key="@string/VZW_EAB_PUBLISH_FAIL">1</item>
+        <item key="@string/POLL_LIST_SUB_EXP">30</item>
+        <item key="@string/VOLTE_PREF_SERVICE_STATUS">1</item>
+    </configuration>
+
+    <configuration name="TMB,TMK,TFT">
+        <item key="@string/POLL_LIST_SUB_EXP">30</item>
+    </configuration>
+
+    <configuration name="VZW,CCT,TFN">
+        <item key="@string/PCSCF_DOMAIN">vzims.com</item>
+        <item key="@string/PCSCF_ADDRESS">2600:80d:1::10:161:44:a2</item>
+        <item key="@string/PHONE_CONTEXT_URI">phone-context=vzims.com</item>
+        <item key="@string/IMS_TEST_MODE">0</item>
+        <item key="@string/PREF_CSCF_PORT">5060</item>
+        <item key="@string/FQDN_FOR_PCSCF">0</item>
+        <item key="@string/SIP_T1_TIMER">3000</item>
+        <item key="@string/SIP_T2_TIMER">16000</item>
+        <item key="@string/SIP_TF_TIMER">30000</item>
+        <item key="@string/DOMAIN_PUI">vzims.com</item>
+        <item key="@string/URI_MEDIA_RSC_SERV_3WAY_CALL">sip:confserver@vzims.com</item>
+        <item key="@string/SIP_SESSION_TIMER">300</item>
+        <item key="@string/MIN_SE">300</item>
+        <item key="@string/AMR_WB">1</item>
+        <item key="@string/SRC_AMR">1</item>
+        <item key="@string/SRC_AMR_WB">1</item>
+        <item key="@string/AMR_AUDIO_BITRATE">7</item>
+        <item key="@string/AMR_AUDIO_BITRATE_WB">2</item>
+        <item key="@string/RINGING_TIMER">55</item>
+        <item key="@string/RINGBACK_TIMER">60</item>
+        <item key="@string/RTP_RTCP_TIMER">10</item>
+        <item key="@string/HD_VOICE">0</item>
+        <item key="@string/UDP_KEEP_ALIVE">30</item>
+        <item key="@string/LVC_BETA_SETTING">1</item>
+        <item key="@string/PUBLISH_TIMER">1200</item>
+        <item key="@string/PUBLISH_TIMER_EXTEND">86400</item>
+        <item key="@string/CAP_CACHE_EXP">7776000</item>
+        <item key="@string/AVAIL_CACHE_EXP">60</item>
+        <item key="@string/SRC_THROTTLE_PUBLISH">60</item>
+        <item key="@string/CAP_POLL_INTERVAL">625000</item>
+        <item key="@string/SUBSCRIBE_MAX_ENTRY">100</item>
+        <item key="@string/CAP_DISCOVERY">1</item>
+        <item key="@string/GZIP_FLAG">1</item>
+        <item key="@string/SPEAKER_DEFAULT_VIDEO">1</item>
+        <item key="@string/PUBLISH_ERR_RETRY_TIMER">21600</item>
+        <item key="@string/T_LTE_911_FAIL">20</item>
+        <item key="@string/DCN_NUMBER">4437501000</item>
+        <item key="@string/POLL_LIST_SUB_EXP">30</item>
+        <item key="@string/TVOLTE_HYS_TIMER">60</item>
+        <item key="@string/SMS_FORMAT">3GPP2</item>
+        <item key="@string/SMS_OVER_IMS">1</item>
+        <item key="@string/T_DELAY">5</item>
+        <item key="@string/TIMER_VZW">6</item>
+        <item key="@string/SILENT_REDIAL_ENABLE">1</item>
+        <item key="@string/VZW_EAB_PUBLISH_FAIL">1</item>
+        <item key="@string/VCE_CONFIG">0</item>
+        <item key="@string/VOLTE_ENABLED">0</item>
+        <item key="@string/LVC_ENABLED">0</item>
+        <item key="@string/EAB_SETTING">0</item>
+        <item key="@string/VWF_ENABLED">1</item>
+        <item key="@string/TWWAN_911_FAIL_TIMER">40</item>
+        <item key="@string/TWLAN_911_CALLFAIL_TIMER">20</item>
+        <item key="@string/SMS_FORMAT">3GPP2</item>
+        <item key="@string/VZW_TIMS_TIMER">120</item>
+    </configuration>
+
+    <!--
+    Note: Old Sprint(VoWiFi only; i.e. hero) models should use dmconfig.xml from csc.
+    See DmConfigProvider.initFeatures().
+    -->
+    <configuration name="SPR,TFS,XAS">
+        <item key="@string/VWF_ENABLED">1</item>
+        <item key="@string/PRIVATE_USER_ID">&lt;mdn&gt;@vowifi2.ims.spcsdns.net</item>
+        <item key="@string/PUBLIC_USER_ID">sip:&lt;mdn&gt;@vowifi2.ims.spcsdns.net</item>
+        <item key="@string/PCSCF_DOMAIN">vowifi2.ims.spcsdns.net</item>
+        <item key="@string/PCSCF_ADDRESS">pcscf.vowifina.spcsinfra.net</item>
+        <item key="@string/SMS_PSI">sip:ipsmgw@ipsmgw.ims.spcsdns.net</item>
+    </configuration>
+
+    <configuration name="RWC,FMC">
+        <item key="@string/EAB_SETTING">0</item>
+    </configuration>
+
+    <configuration name="TLS,TLA">
+        <item key="@string/LVC_ENABLED">0</item>
+    </configuration>
+
+    <configuration name="BMC,BMR">
+        <item key="@string/POLL_LIST_SUB_EXP">60</item>
+    </configuration>
+
+    <configuration name="USC">
+        <item key="@string/VOICE_DOMAIN_PREF_EUTRAN">1</item>
+        <item key="@string/DCN_NUMBER">8152439109</item>
+    </configuration>
+
+    <configuration name="SKT,SKC">
+        <item key="@string/AMR_AUDIO_BITRATE_WB">8</item>
+        <item key="@string/SMS_OVER_IMS">0</item>
+        <item key="@string/SIP_T1_TIMER">2000</item>
+        <item key="@string/SIP_T2_TIMER">16000</item>
+        <item key="@string/SIP_T4_TIMER">17000</item>
+        <item key="@string/SIP_TA_TIMER">2000</item>
+        <item key="@string/SIP_TB_TIMER">8000</item>
+        <item key="@string/SIP_TC_TIMER">72000</item>
+        <item key="@string/SIP_TD_TIMER">32000</item>
+        <item key="@string/SIP_TE_TIMER">2000</item>
+        <item key="@string/SIP_TF_TIMER">44000</item>
+        <item key="@string/SIP_TG_TIMER">2000</item>
+        <item key="@string/SIP_TH_TIMER">36000</item>
+        <item key="@string/SIP_TI_TIMER">17000</item>
+        <item key="@string/SIP_TJ_TIMER">32000</item>
+        <item key="@string/SIP_TK_TIMER">17000</item>
+        <item key="@string/POLL_LIST_SUB_EXP">0</item>
+        <item key="@string/UDP_KEEP_ALIVE">0</item>
+        <item key="@string/AUDIO_RTP_PORT_START">7010</item>
+        <item key="@string/AUDIO_RTP_PORT_END">7022</item>
+        <item key="@string/VIDEO_RTP_PORT_START">7010</item>
+        <item key="@string/VIDEO_RTP_PORT_END">7022</item>
+        <item key="@string/AMR_WB_OCTET_ALIGNED">100</item>
+        <item key="@string/AMR_WB_BANDWITH_EFFICIENT">-1</item>
+        <item key="@string/AMR_OCTET_ALIGNED">98</item>
+        <item key="@string/AMR_BANDWITH_EFFICIENT">-1</item>
+        <item key="@string/H264_VGA">102</item>
+        <item key="@string/H264_QVGA">-1</item>
+        <item key="@string/DTMF_WB">103</item>
+        <item key="@string/DTMF_NB">101</item>
+        <item key="@string/VOLTE_PREF_SERVICE_STATUS">1</item>
+        <item key="@string/DM_APP_ID">ap2001</item>
+        <item key="@string/DM_USER_DISP_NAME">IMS Settings</item>
+        <item key="@string/ICSI_RSC_ALLOC_MODE">0</item>
+        <item key="@string/RSC_ALLOC_MODE">0</item>
+        <item key="@string/VOICE_DOMAIN_PREF_EUTRAN">-1</item>
+        <item key="@string/VOICE_DOMAIN_PREF_UTRAN">-1</item>
+        <item key="@string/IMS_VOICE_TERMINATION">0</item>
+        <item key="@string/REG_RETRY_BASE_TIME">120</item>
+        <item key="@string/REG_RETRY_MAX_TIME">800</item>
+        <item key="@string/SS_DOMAIN_SETTING">-1</item>
+        <item key="@string/SS_CONTROL_PREF">0</item>
+        <item key="@string/DM_POLLING_PERIOD">86400</item>
+        <item key="@string/H264_L_VGA">-1</item>
+        <item key="@string/IPSEC_ENABLED">0</item>
+        <item key="@string/EVS_PRIMARY">110</item>
+        <item key="@string/DEFAULT_BANDWIDTH">nb-swb</item>
+        <item key="@string/DEFAULT_BIT_RATE">24.4</item>
+    </configuration>
+
+    <configuration name="KTT,KTC">
+        <item key="@string/AMR_AUDIO_BITRATE_WB">8</item>
+        <item key="@string/SMS_OVER_IMS">0</item>
+        <item key="@string/SIP_T1_TIMER">2000</item>
+        <item key="@string/SIP_T2_TIMER">16000</item>
+        <item key="@string/SIP_T4_TIMER">17000</item>
+        <item key="@string/SIP_TA_TIMER">1000</item>
+        <item key="@string/SIP_TB_TIMER">8000</item>
+        <item key="@string/SIP_TC_TIMER">72000</item>
+        <item key="@string/SIP_TD_TIMER">32000</item>
+        <item key="@string/SIP_TE_TIMER">2000</item>
+        <item key="@string/SIP_TF_TIMER">16000</item>
+        <item key="@string/SIP_TG_TIMER">2000</item>
+        <item key="@string/SIP_TH_TIMER">36000</item>
+        <item key="@string/SIP_TI_TIMER">17000</item>
+        <item key="@string/SIP_TJ_TIMER">32000</item>
+        <item key="@string/SIP_TK_TIMER">17000</item>
+        <item key="@string/POLL_LIST_SUB_EXP">0</item>
+        <item key="@string/UDP_KEEP_ALIVE">0</item>
+        <item key="@string/AUDIO_RTP_PORT_START">49152</item>
+        <item key="@string/AUDIO_RTP_PORT_END">65535</item>
+        <item key="@string/VIDEO_RTP_PORT_START">49152</item>
+        <item key="@string/VIDEO_RTP_PORT_END">65535</item>
+        <item key="@string/AMR_WB_OCTET_ALIGNED">98</item>
+        <item key="@string/AMR_WB_BANDWITH_EFFICIENT">97</item>
+        <item key="@string/AMR_OCTET_ALIGNED">101</item>
+        <item key="@string/AMR_BANDWITH_EFFICIENT">100</item>
+        <item key="@string/H264_VGA">103</item>
+        <item key="@string/H264_QVGA">104</item>
+        <item key="@string/DTMF_WB">99</item>
+        <item key="@string/DTMF_NB">102</item>
+        <item key="@string/VOLTE_PREF_SERVICE_STATUS">1</item>
+        <item key="@string/DM_APP_ID">ap2001</item>
+        <item key="@string/DM_USER_DISP_NAME">IMS Settings</item>
+        <item key="@string/REG_RETRY_BASE_TIME">30</item>
+        <item key="@string/REG_RETRY_MAX_TIME">1800</item>
+        <item key="@string/DM_POLLING_PERIOD">178000</item>
+        <item key="@string/H264_L_VGA">-1</item>
+        <item key="@string/IPSEC_ENABLED">1</item>
+        <item key="@string/EVS_PRIMARY">110</item>
+        <item key="@string/DEFAULT_BANDWIDTH">swb</item>
+        <item key="@string/DEFAULT_BIT_RATE">13.2</item>
+    </configuration>
+
+    <configuration name="LGT,LUC">
+        <item key="@string/AMR_AUDIO_BITRATE_WB">8</item>
+        <item key="@string/SMS_OVER_IMS">1</item>
+        <item key="@string/SIP_T1_TIMER">2000</item>
+        <item key="@string/SIP_T2_TIMER">8000</item>
+        <item key="@string/SIP_T4_TIMER">9000</item>
+        <item key="@string/SIP_TA_TIMER">2000</item>
+        <item key="@string/SIP_TB_TIMER">32000</item>
+        <item key="@string/SIP_TC_TIMER">120000</item>
+        <item key="@string/SIP_TD_TIMER">128000</item>
+        <item key="@string/SIP_TE_TIMER">2000</item>
+        <item key="@string/SIP_TF_TIMER">16000</item>
+        <item key="@string/SIP_TG_TIMER">2000</item>
+        <item key="@string/SIP_TH_TIMER">32000</item>
+        <item key="@string/SIP_TI_TIMER">9000</item>
+        <item key="@string/SIP_TJ_TIMER">128000</item>
+        <item key="@string/SIP_TK_TIMER">9000</item>
+        <item key="@string/POLL_LIST_SUB_EXP">0</item>
+        <item key="@string/UDP_KEEP_ALIVE">0</item>
+        <item key="@string/AUDIO_RTP_PORT_START">1230</item>
+        <item key="@string/AUDIO_RTP_PORT_END">1240</item>
+        <item key="@string/VIDEO_RTP_PORT_START">1254</item>
+        <item key="@string/VIDEO_RTP_PORT_END">1254</item>
+        <item key="@string/AMR_WB_OCTET_ALIGNED">100</item>
+        <item key="@string/AMR_WB_BANDWITH_EFFICIENT">-1</item>
+        <item key="@string/AMR_OCTET_ALIGNED">96</item>
+        <item key="@string/AMR_BANDWITH_EFFICIENT">-1</item>
+        <item key="@string/H264_VGA">104</item>
+        <item key="@string/H264_QVGA">102</item>
+        <item key="@string/DTMF_WB">107</item>
+        <item key="@string/DTMF_NB">101</item>
+        <item key="@string/VOLTE_PREF_SERVICE_STATUS">1</item>
+        <item key="@string/SMS_PSI">sip:ipsmgw.lte-lguplus.co.kr</item>
+        <item key="@string/DM_APP_ID">ap2001</item>
+        <item key="@string/DM_USER_DISP_NAME">IMS Settings</item>
+        <item key="@string/ICSI_RSC_ALLOC_MODE">0</item>
+        <item key="@string/RSC_ALLOC_MODE">0</item>
+        <item key="@string/VOICE_DOMAIN_PREF_EUTRAN">-1</item>
+        <item key="@string/VOICE_DOMAIN_PREF_UTRAN">-1</item>
+        <item key="@string/IMS_VOICE_TERMINATION">0</item>
+        <item key="@string/REG_RETRY_BASE_TIME">120</item>
+        <item key="@string/REG_RETRY_MAX_TIME">800</item>
+        <item key="@string/SS_DOMAIN_SETTING">-1</item>
+        <item key="@string/SS_CONTROL_PREF">0</item>
+        <item key="@string/DM_POLLING_PERIOD">604800</item>
+        <item key="@string/H264_L_VGA">103</item>
+        <item key="@string/IPSEC_ENABLED">1</item>
+        <item key="@string/EVS_PRIMARY">110</item>
+        <item key="@string/DEFAULT_BANDWIDTH">nb-swb</item>
+        <item key="@string/DEFAULT_BIT_RATE">24.4</item>
+    </configuration>
+    <!-- DEPRECATED ITEMS
+      VOWIFI_SUPPORTED: Moved to GlobalSettings
+       See "support_vowifi" in globalsettings.json (default: true)
+       Use GlobalSettings.getSupportVoWiFi()
+
+      SHOW_VOWIFI_REGI_ICON: Moved to GlobalSettings
+       See "show_vowifi_regi_icon" in globalsettings.json (default: true)
+       Use GlobalSettings.getShowVoWiFiRegIcon()
+
+      EPDG_HANDOVER_ENABLED: Not in use anymore
+    -->
+</configurations>
