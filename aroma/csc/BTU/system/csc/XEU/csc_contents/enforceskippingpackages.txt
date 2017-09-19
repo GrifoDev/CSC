@@ -1,7 +1,6 @@
-14
+13
 CatchFavorites_N.apk
 FlipboardBriefing.apk
-SamsungPayStub.apk
 GalaxyCare.apk
 NaverV_N.apk
 AuthService_v1.apk
