@@ -230,7 +230,7 @@
     <CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>NULL</CscFeature_Setting_ReplaceLabel4DeveloperOptionAs>
     <CscFeature_Setting_SupportMptcpMenu>TRUE</CscFeature_Setting_SupportMptcpMenu>
     <CscFeature_SetupWizard_ConfigOperatorAccount>KtWelcomeLogin</CscFeature_SetupWizard_ConfigOperatorAccount>
-    <CscFeature_SetupWizard_ConfigRemovableAppList>com.kt.bellringolleh;kt_bellringolleh;51200012338700;스마트벨링;0000697798/com.mtelo.ktAPP;kt_showme;51200004057818;쇼미;0000697834/com.kt.mpay;kt_mpay;54200000800897;올레 휴대폰 결제;0000698084/com.kt.apptong;kt_ollthapptong;51200021803779;CLiP 혜택;0000697396/com.kt.aljjapackplus;kt_mediapack;54200000924115;올레 미디어팩;0000692047/com.kt.shodoc;kt_shodoc;54200001098864;쇼닥;0000694655</CscFeature_SetupWizard_ConfigRemovableAppList>
+    <CscFeature_SetupWizard_ConfigRemovableAppList>com.kt.bellringolleh;kt_bellringolleh;51200012338700;스마트벨링;0000697798/com.mtelo.ktAPP;kt_showme;51200004057818;쇼미;0000697834/com.kt.mpay;kt_mpay;54200000800897;올레 휴대폰 결제;0000698084/com.kt.aljjapackplus;kt_mediapack;54200000924115;올레 미디어팩;0000692047/com.kt.shodoc;kt_shodoc;54200001098864;쇼닥;0000694655</CscFeature_SetupWizard_ConfigRemovableAppList>
     <CscFeature_SetupWizard_ConfigStepSequenceType>PreloadAlways</CscFeature_SetupWizard_ConfigStepSequenceType>
     <CscFeature_SmartManager_DisableAntiMalware>FALSE</CscFeature_SmartManager_DisableAntiMalware>
     <CscFeature_Streaming_SendBandwidthInfo>FALSE</CscFeature_Streaming_SendBandwidthInfo>

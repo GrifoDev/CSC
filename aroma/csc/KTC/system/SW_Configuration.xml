@@ -4,8 +4,8 @@
 	<PublicName>SM-G935K</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935KBTC</CSCName>
-	<CSCVersion>1DQB5</CSCVersion>
+	<CSCName>G935KKTC</CSCName>
+	<CSCVersion>1DQG1</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/KTC/customer.xml" />
 	</CustomerDataSet>
