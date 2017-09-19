@@ -14,8 +14,9 @@
 	<CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     <CscFeature_Calendar_SetColorOfDays>XXXXBRX</CscFeature_Calendar_SetColorOfDays>
 	<CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
-	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+        <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
 	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_Setting_DisableIsraelCountry>TRUE</CscFeature_Setting_DisableIsraelCountry>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>

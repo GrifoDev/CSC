@@ -21,7 +21,7 @@
 	<CscFeature_SmartManager_ConfigSubFeatures>DISABLEAUTORESTART</CscFeature_SmartManager_ConfigSubFeatures>
 	<CscFeature_Message_MMSMaxCharPerSlide>5000</CscFeature_Message_MMSMaxCharPerSlide>
 	<CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
-	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+        <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
 	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>

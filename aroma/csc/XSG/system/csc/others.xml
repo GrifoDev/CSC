@@ -51,7 +51,7 @@
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
-    <CscFeature_RIL_ConfigVolteRedialPolicy>default</CscFeature_RIL_ConfigVolteRedialPolicy>
+    <CscFeature_RIL_ConfigVolteRedialPolicy>XSG</CscFeature_RIL_ConfigVolteRedialPolicy>
     <CscFeature_RIL_BlockUssdDuringVolteCall>true</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_Setting_HideApnList>ims,IMS</CscFeature_Setting_HideApnList>
@@ -62,15 +62,10 @@
     <CscFeature_IMS_EnableLTEVideoCall>true</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>	
-    <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
-    <CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
-    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
-    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
-    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>	
 	<CscFeature_VT_ConfigPrivacyPolicy>record,capture</CscFeature_VT_ConfigPrivacyPolicy>
-	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+        <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
 	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
 	<CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
+    <CscFeature_Setting_DisableIsraelCountry>TRUE</CscFeature_Setting_DisableIsraelCountry>
   </FeatureSet>
 </SamsungMobileFeauture>

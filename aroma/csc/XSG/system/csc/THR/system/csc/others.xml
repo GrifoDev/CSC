@@ -36,12 +36,13 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
-	<CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
-	<CscFeature_Setting_DisableNetworkMode>AddLteWcdma</CscFeature_Setting_DisableNetworkMode>
-	<CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
-	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
-	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
-	<CscFeature_Common_SupportPersianCalendar>TRUE</CscFeature_Common_SupportPersianCalendar>
+    <CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
+    <CscFeature_Setting_DisableNetworkMode>AddLteWcdma</CscFeature_Setting_DisableNetworkMode>
+    <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_Common_SupportPersianCalendar>TRUE</CscFeature_Common_SupportPersianCalendar>
     <CscFeature_Calendar_SetColorOfDays>XXXXRXX</CscFeature_Calendar_SetColorOfDays>
+    <CscFeature_Setting_DisableIsraelCountry>TRUE</CscFeature_Setting_DisableIsraelCountry>
   </FeatureSet>
 </SamsungMobileFeauture>

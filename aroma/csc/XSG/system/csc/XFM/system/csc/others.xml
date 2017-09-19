@@ -10,7 +10,7 @@
     <CscFeature_SyncML_EnableNotiDeltaBinarySizeBeforeDownload>TRUE</CscFeature_SyncML_EnableNotiDeltaBinarySizeBeforeDownload>
     <CscFeature_RIL_EnableDTM>TRUE</CscFeature_RIL_EnableDTM>
     <CscFeature_FMRadio_SetLocalTunning>120,8,20</CscFeature_FMRadio_SetLocalTunning>
-	<CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+        <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
 	<CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>

@@ -33,19 +33,8 @@
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
     <CscFeature_Weather_SupportCheckingDisputeArea>true</CscFeature_Weather_SupportCheckingDisputeArea>
     <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
-    <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
     <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>	 
-    <!-- [IMS] Samsung IMS 6.0 -->
-    <CscFeature_IMS_EnableIMS>false</CscFeature_IMS_EnableIMS>
-    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
-    <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
-    <CscFeature_IMS_EnableLTEVideoCall>true</CscFeature_IMS_EnableLTEVideoCall>
-    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
-    <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
-    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
-    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
-    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
-    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
-    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+    <CscFeature_Setting_DisableIsraelCountry>TRUE</CscFeature_Setting_DisableIsraelCountry>
   </FeatureSet>
 </SamsungMobileFeauture>

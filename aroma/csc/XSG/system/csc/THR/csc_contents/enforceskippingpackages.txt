@@ -1,4 +1,4 @@
-25
+21
 SamsungPayStub.apk
 GalaxyCare.apk
 smartcallprovider-open-release.apk
@@ -17,10 +17,6 @@ FBInstagram_stub.apk
 FBMessenger_stub.apk
 Facebook_stub.apk
 OneNote.apk
-imsservice.apk
-ImsSettings.apk
-ImsLogger+.apk
-ImsTelephonyService.apk
 SamsungUpdates.apk
 OMCAgent.apk
 vsimservice.apk
