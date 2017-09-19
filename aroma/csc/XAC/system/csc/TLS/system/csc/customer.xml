@@ -20,13 +20,8 @@
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>
+      <Security> 
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>4</NbNetworkLock>
-        <NetworkLock>302220</NetworkLock>
-        <NetworkLock>302221</NetworkLock>
-        <NetworkLock>00101</NetworkLock>
-        <NetworkLock>99999</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -20,14 +20,8 @@
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>
+      <Security>  
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>5</NbNetworkLock>
-        <NetworkLock>302780</NetworkLock>
-        <NetworkLock>20404</NetworkLock>
-        <NetworkLock>00101</NetworkLock>
-        <NetworkLock>99999</NetworkLock>
-        <NetworkLock>302610</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>2</NbFastDormancy>
@@ -156,7 +150,7 @@
     <WifiProfile>
       <NetworkName>SaskTel</NetworkName>
       <WifiSSID>SaskTel Select Wi-Fi 1</WifiSSID>
-      <WifiKeyMgmt>WPA2</WifiKeyMgmt>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
       <WifiEAPMethod>aka</WifiEAPMethod>
     </WifiProfile>
     <Connections>

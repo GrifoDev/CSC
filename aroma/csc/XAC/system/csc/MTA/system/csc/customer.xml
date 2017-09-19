@@ -65,16 +65,8 @@
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>
+      <Security>  
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>7</NbNetworkLock>
-        <NetworkLock>302720</NetworkLock>
-        <NetworkLock>302370</NetworkLock>
-        <NetworkLock>001010</NetworkLock>
-        <NetworkLock>001012</NetworkLock>
-        <NetworkLock>302660</NetworkLock>
-        <NetworkLock>302320</NetworkLock>
-        <NetworkLock>99999</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>2</NbFastDormancy>
@@ -210,7 +202,7 @@
         <Editable>yes</Editable>
         <Index>1</Index>
         <BookmarkName>Homepage</BookmarkName>
-        <URL>http://chatrwireless.mobi</URL>
+        <URL>http://www.chatrmobile.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>chatr</NetworkName>
@@ -473,13 +465,13 @@
         <Editable>yes</Editable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>chatr browser</ProfileName>
-        <URL>http://chatrwireless.mobi</URL>
+        <URL>http://www.chatrmobile.com</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1430</MTUSize>
         <Proxy>
-          <Port>80</Port>
+          <Port>off</Port>
         </Proxy>
         <PSparam>
           <APN>chatrweb.apn</APN>

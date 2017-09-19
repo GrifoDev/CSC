@@ -22,12 +22,6 @@
     <Main>
       <Security>
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>5</NbNetworkLock>
-        <NetworkLock>302610</NetworkLock>
-        <NetworkLock>20404</NetworkLock>
-        <NetworkLock>00101</NetworkLock>
-        <NetworkLock>99999</NetworkLock>
-        <NetworkLock>302780</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>

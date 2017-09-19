@@ -59,6 +59,7 @@
     <CscFeature_IMS_EnableLTEVideoCall>FALSE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+	<CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_TotalPageCount>2</CscFeature_Launcher_TotalPageCount>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
@@ -181,6 +182,7 @@
     <CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>TRUE</CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>
     <CscFeature_VoiceCall_SupportModifyCall>TRUE</CscFeature_VoiceCall_SupportModifyCall>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>

@@ -14,6 +14,7 @@
     <CscFeature_Calendar_EnableShiftedWeekNumber>TRUE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_Common_AllowExternalApkUsage>FALSE</CscFeature_Common_AllowExternalApkUsage>
     <CscFeature_Common_AutoConfigurationType>XAC,CANADA_ONESKU</CscFeature_Common_AutoConfigurationType>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
     <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
     <CscFeature_Common_ConfigSwis>-1</CscFeature_Common_ConfigSwis>
@@ -45,6 +46,7 @@
     <CscFeature_Common_SupportTwoPhoneService>FALSE</CscFeature_Common_SupportTwoPhoneService>
     <CscFeature_Common_SupportUwaApp>FALSE</CscFeature_Common_SupportUwaApp>
     <CscFeature_Common_Vibration4NotiDuringCall>FALSE</CscFeature_Common_Vibration4NotiDuringCall>
+    <CscFeature_Contact_ConfigImsOpStyle>VTR</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_Contact_ConfigOpStyleVariation>CAN</CscFeature_Contact_ConfigOpStyleVariation>
     <CscFeature_Contact_ConfigReplaceLabelSet>can</CscFeature_Contact_ConfigReplaceLabelSet>
     <CscFeature_Contact_EnableCnam>TRUE</CscFeature_Contact_EnableCnam>
@@ -105,6 +107,7 @@
     <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
     <CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
     <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_UpdateCallstateDuringModifyCall>TRUE</CscFeature_RIL_UpdateCallstateDuringModifyCall>
     <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
     <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
@@ -113,6 +116,7 @@
     <CscFeature_Setting_CustNetworkSelMenu4>CHARACTER</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
+    <CscFeature_Setting_HideApnList>IMS,XCAP,Videotron EPDG</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON, Google, Internet, Camera</CscFeature_Setting_ShortcutListInLockScreen>
     <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
@@ -137,23 +141,26 @@
     <CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
+    <CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,SilentMode,Bluetooth,RotationLock,Flashlight,PowerSaving,AirplaneMode,Performance,BlueLightFilter,PersonalMode,Location,Nfc,Aod,AllShareCast,DeviceVisibility,DormantMode,Sync</CscFeature_SystemUI_ConfigDefQuickSettingItem>
     <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>VID</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
+    <CscFeature_VT_ConfigCapability>three_widget,rotation</CscFeature_VT_ConfigCapability>
+    <CscFeature_VT_ConfigOpStyleForDependency>VTR_PSVT</CscFeature_VT_ConfigOpStyleForDependency>    
     <CscFeature_VoiceCall_ConfigNetworkList>NetworkModeInCan</CscFeature_VoiceCall_ConfigNetworkList>
-    <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
+    <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>    
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
+    <CscFeature_VoiceCall_ConfigLabelForCallForward>TRUE</CscFeature_VoiceCall_ConfigLabelForCallForward>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>
     <CscFeature_Wifi_SupportAdvancedMenu>TRUE</CscFeature_Wifi_SupportAdvancedMenu>
     <CscFeature_Wifi_SupportMobileApOnTrigger>TRUE</CscFeature_Wifi_SupportMobileApOnTrigger>
     <CscFeature_Wifi_SupportNotificationMenu>TRUE</CscFeature_Wifi_SupportNotificationMenu>
-    <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
-	<CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
   </FeatureSet>
 </SamsungMobileFeature>

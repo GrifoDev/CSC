@@ -190,6 +190,7 @@
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>SS</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
     <CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
+	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>FALSE</CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>
     <CscFeature_VoiceRecorder_SupportRecordingQualitySetting>FALSE</CscFeature_VoiceRecorder_SupportRecordingQualitySetting>
     <CscFeature_VoiceRecorder_SupportShowCallRejectCount>FALSE</CscFeature_VoiceRecorder_SupportShowCallRejectCount>

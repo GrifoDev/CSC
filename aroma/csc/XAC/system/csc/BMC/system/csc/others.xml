@@ -169,6 +169,7 @@
     <CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>TRUE</CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>
     <CscFeature_VoiceCall_SupportModifyCall>TRUE</CscFeature_VoiceCall_SupportModifyCall>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>

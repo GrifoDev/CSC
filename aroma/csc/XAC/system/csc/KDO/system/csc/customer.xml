@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -20,13 +20,8 @@
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>
+      <Security>  
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>4</NbNetworkLock>
-        <NetworkLock>302220</NetworkLock>
-        <NetworkLock>302221</NetworkLock>
-        <NetworkLock>00101</NetworkLock>
-        <NetworkLock>99999</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>4</NbFastDormancy>
@@ -662,8 +657,8 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>74.49.0.18</ServAddr>
-          <Port>80</Port>
+          <ServAddr>mmscproxy.mobility.ca</ServAddr>
+          <Port>8799</Port>
         </Proxy>
         <PSparam>
           <APN>sp.koodo.com</APN>

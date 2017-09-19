@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>CANADA</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -34,15 +34,8 @@
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>
+      <Security>  
         <OneSIMLock>none</OneSIMLock>
-        <NbNetworkLock>6</NbNetworkLock>
-        <NetworkLock>302500</NetworkLock>
-        <NetworkLock>20404</NetworkLock>
-        <NetworkLock>302510</NetworkLock>
-        <NetworkLock>00101</NetworkLock>
-        <NetworkLock>99999</NetworkLock>
-        <NetworkLock>302520</NetworkLock>
       </Security>
       <Network>
         <NbFastDormancy>2</NbFastDormancy>
@@ -161,12 +154,15 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>Videotron</NetworkName>
         <ProfBrowser>Videotron</ProfBrowser>
         <ProfMMS>VideotronMMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfEpdgMMS>Videotron EPDG</ProfEpdgMMS>
       </ProfileHandle>
-      <NbProfile>2</NbProfile>
+      <NbProfile>5</NbProfile>
       <Profile>
         <NetworkName>Videotron</NetworkName>
         <Editable>no</Editable>
@@ -191,6 +187,41 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>media.ng</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Videotron</NetworkName>
+        <IpVersion>ipv6</IpVersion> 
+	<RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1460</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Videotron</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <MTUSize>1460</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Videotron</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Videotron EPDG</ProfileName>
+        <URL>http://media.videotron.com</URL>
+        <Auth>none</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1460</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
     </Connections>

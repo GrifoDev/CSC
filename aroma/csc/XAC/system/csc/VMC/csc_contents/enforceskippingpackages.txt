@@ -1,10 +1,7 @@
-10
+7
 SamsungPayStub.apk
 AndroidPay_erasable_Hero.apk
 NaverV_N.apk
-AuthService_v1.apk
-FidoUafAsm_v15.apk
-FidoUafClient_v15.apk
 AxelSpringer.apk
 SamsungUpdates.apk
 OMCAgent.apk

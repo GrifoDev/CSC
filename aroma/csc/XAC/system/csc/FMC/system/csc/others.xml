@@ -13,8 +13,8 @@
     <CscFeature_BT_DisableSAP>TRUE</CscFeature_BT_DisableSAP>
     <CscFeature_Calendar_EnableShiftedWeekNumber>TRUE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_Common_AutoConfigurationType>XAC,CANADA_ONESKU</CscFeature_Common_AutoConfigurationType>
-    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Common_ConfigOneSkuVariant>BMC,TLS,RWC,VTR,GLW,ESK</CscFeature_Common_ConfigOneSkuVariant>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>   
     <CscFeature_Common_ConfigOperatorDrmReq>blockWMDRM</CscFeature_Common_ConfigOperatorDrmReq>
     <CscFeature_Common_ConfigSwis>-1</CscFeature_Common_ConfigSwis>
     <CscFeature_Common_DisableMenu4GalSearch>TRUE</CscFeature_Common_DisableMenu4GalSearch>
@@ -154,6 +154,7 @@
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>SS</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
     <CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
+	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>

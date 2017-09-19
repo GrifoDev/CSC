@@ -147,6 +147,7 @@
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>FALSE</CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>
     <CscFeature_VoiceRecorder_SupportRecordingQualitySetting>FALSE</CscFeature_VoiceRecorder_SupportRecordingQualitySetting>
     <CscFeature_VoiceRecorder_SupportShowCallRejectCount>FALSE</CscFeature_VoiceRecorder_SupportShowCallRejectCount>
