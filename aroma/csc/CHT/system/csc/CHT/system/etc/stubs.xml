@@ -1,0 +1,25 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+	<Stubs>
+		<application name="Napster">
+		<stub>	
+			<classname>com.sec.android.app.latin.napster.Launcher</classname>
+			<packagename>com.sec.android.app.latin.napster</packagename>
+		</stub>
+		<full>
+			<classname></classname>
+			<packagename>com.rhapsody.napster</packagename>
+		</full>
+		</application>
+		
+		<application name="OutraApp">
+		<stub>	
+			<classname>OutraApp.classNameStub</classname>
+			<packagename>OutraApp.packageNameStub</packagename>
+		</stub>
+		<full>
+			<packagename>OutraApp.classNameFull</packagename>
+		</full>
+		</application>
+	</Stubs>
+</CustomerData>

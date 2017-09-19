@@ -124,13 +124,18 @@
 
         <!-- Gol Movistar -->
 		<favorite
-			launcher:packageName="com.sec.android.app.latin.golmovistar"
-			launcher:className="com.sec.android.app.latin.golmovistar.Launcher" />
+			launcher:packageName="com.srbr.golmovistar"
+			launcher:className="com.srbr.golmovistar.Launcher" />
         
         <!-- Tonos de Espera -->
 		<favorite
-			launcher:packageName="com.sec.android.app.latin.tonosdeespera"
-			launcher:className="com.sec.android.app.latin.tonosdeespera.Launcher" />
+			launcher:packageName="com.srbr.tonosdeespera"
+			launcher:className="com.srbr.tonosdeespera.Launcher" />
+
+		<!-- Amazon Compras -->	
+		<favorite
+			launcher:packageName="com.amazon.mShop.android.shopping"
+			launcher:className="com.amazon.mShop.home.HomeActivity" />
 	</folder>
         <!-- Despegar -->
 		<favorite
@@ -142,8 +147,8 @@
 								
         <!-- Napster Stub -->
 	    <favorite
-			launcher:packageName="com.sec.android.app.latin.napster"
-			launcher:className="com.sec.android.app.latin.napster.Launcher"
+			launcher:packageName="com.srbr.movistar.hero.napster"
+			launcher:className="com.srbr.movistar.hero.napster.Launcher"
 			launcher:screen="1"
 			launcher:x="2"
 			launcher:y="3" />

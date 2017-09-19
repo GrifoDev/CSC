@@ -8,3 +8,4 @@
 /system/app/TonosdeEspera_v1.4_20161027_ns/TonosdeEspera_v1.4_20161027_ns.apk
 /system/app/TuGO_v1.5_20170106_ns/TuGO_v1.5_20170106_ns.apk
 /system/app/UserManual/UserManual.apk
+/system/priv-app/StubCleaner_1.1_signed/StubCleaner_1.1_signed.apk

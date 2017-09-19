@@ -21,8 +21,8 @@
 		<!-- Napster Stub -->
 		<favorite
 			launcher:screen="0"
-			launcher:packageName="com.sec.android.app.latin.napster"
-			launcher:className="com.sec.android.app.latin.napster.Launcher" />
+			launcher:packageName="com.srbr.movistar.hero.napster"
+			launcher:className="com.srbr.movistar.hero.napster.Launcher" />
 		<!-- Chile -->	
 		
 		<!-- Games: all carriers -->
@@ -62,6 +62,12 @@
 			launcher:screen="0"
 			launcher:packageName="com.sec.android.app.latin.tonosdeespera"
 			launcher:className="com.sec.android.app.latin.tonosdeespera.Launcher" />	
+
+		<!-- Amazon Compras -->	
+		<favorite
+			launcher:screen="0"
+			launcher:packageName="com.amazon.mShop.android.shopping"
+			launcher:className="com.amazon.mShop.home.HomeActivity" />
 	</folder>
 	
 	<!-- Samsung -->

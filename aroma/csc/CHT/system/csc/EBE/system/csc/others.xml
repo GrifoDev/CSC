@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00004</Version>
+  <Version>ED00005</Version>
   <Country>ECUADOR</Country>
   <CountryISO>EC</CountryISO>
   <SalesCode>EBE</SalesCode>
@@ -50,7 +50,6 @@
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
     <CscFeature_Web_EnableAutoBookmarkSetBySim>TRUE</CscFeature_Web_EnableAutoBookmarkSetBySim>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_DefaultSsidNPwd>MOVISTAR WIFI</CscFeature_Wifi_DefaultSsidNPwd>

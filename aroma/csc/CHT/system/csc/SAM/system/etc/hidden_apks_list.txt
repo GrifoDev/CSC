@@ -1,8 +1,9 @@
 /hidden/app/app-despegar-telefonica-release-v4.6.1.apk
 /hidden/app/CarsRacing_Samsung_Hero_IGP_TS_LATAM_ML_100_CS11.apk
 /hidden/app/Contenidos_v5.4_20161111.apk
-/hidden/app/DynamicCatalog_movistarRegional_PA65_AndroidM_GAND_v201al.apk
+/hidden/app/DynamicCatalog_movistarRegional_PA65_AndroidM_GAND_v207.apk
 /hidden/app/IceAgeScratVentures_Samsung_Hero_IGP_LATAM_ML_101.apk
+/hidden/app/MovistarPlayPE_stub_v1.0_20170703_ns.apk
 /hidden/app/nfsmw_v1.0.60_2G-3G-4G_androidm_110615.apk
 /hidden/app/pvz_v2.3.71_2G-3G-4G_androidm.apk
 /hidden/app/SpiderManUltimatePower_Samsung_Hero_IGP_LATAM_ML_101_CS13.apk

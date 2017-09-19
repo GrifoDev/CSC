@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Mexico</Country>
     <CountryISO>MX</CountryISO>
     <Region>LA</Region>
@@ -127,6 +127,7 @@
       <SMS>
         <DeliveryReport>off</DeliveryReport>
         <MsgTypeThreshold>
+          <ThresholdValue>6</ThresholdValue>
           <ThresholdType>pagecount</ThresholdType>
         </MsgTypeThreshold>
         <CharSupport>gsmalpha</CharSupport>
@@ -171,7 +172,7 @@
       <Profile>
         <NetworkName>movistar_MX</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Movistar INTERNET</ProfileName>
         <URL>http://wap.movistar.com.mx</URL>
         <Auth>normal</Auth>
@@ -186,7 +187,7 @@
       <Profile>
         <NetworkName>movistar_MX</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Movistar MMS</ProfileName>
         <URL>http://mms.movistar.mx</URL>
         <Auth>normal</Auth>

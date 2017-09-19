@@ -21,8 +21,8 @@
 		<!-- Napster Stub -->
 		<favorite
 			launcher:screen="0"
-			launcher:packageName="com.sec.android.app.latin.napster"
-			launcher:className="com.sec.android.app.latin.napster.Launcher" />
+			launcher:packageName="com.srbr.movistar.hero.napster"
+			launcher:className="com.srbr.movistar.hero.napster.Launcher" />
 		<!-- Chile -->
 		<!-- Games: all carriers -->
 		<favorite

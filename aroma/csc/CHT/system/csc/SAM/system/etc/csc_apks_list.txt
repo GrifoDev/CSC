@@ -1,6 +1,5 @@
 /system/app/FutbolMovistar_20161017_v1.1/FutbolMovistar_20161017_v1.1.apk
 /system/app/MiMovistarPeru_v1.3_20161107_ns/MiMovistarPeru_v1.3_20161107_ns.apk
-/system/app/Napster_v1.4_20170106_ns/Napster_v1.4_20170106_ns.apk
+/system/app/Napster_stub_v1.0_heroes_only/Napster_stub_v1.0_heroes_only.apk
 /system/app/Priority_v1.3_20161017_ns/Priority_v1.3_20161017_ns.apk
 /system/app/TuGO_v1.5_20170106_ns/TuGO_v1.5_20170106_ns.apk
-/system/app/UWT_STK_RRO_v1.1_20160113/UWT_STK_RRO_v1.1_20160113.apk

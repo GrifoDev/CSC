@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>COSTA RICA</Country>
     <CountryISO>CR</CountryISO>
     <Region>LA</Region>
@@ -135,7 +135,7 @@
       <Profile>
         <NetworkName>movistar_CR</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Movistar INTERNET</ProfileName>
         <URL>http://www.movistar.co.cr</URL>
         <Bearer>ps</Bearer>

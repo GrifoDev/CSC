@@ -231,6 +231,10 @@
 		<favorite
 			launcher:packageName="com.sec.android.app.latin.tonosdeespera"
 			launcher:className="com.sec.android.app.latin.tonosdeespera.Launcher" />
+		<!-- Amazon Compras -->	
+		<favorite
+			launcher:packageName="com.amazon.mShop.android.shopping"
+			launcher:className="com.amazon.mShop.home.HomeActivity" />
 	</folder>
         <!-- Despegar -->
 		<favorite
@@ -326,14 +330,9 @@
             launcher:screen="1" />
 
         <!-- Internet -->
-        <!-- <favorite
+        <favorite
             launcher:packageName="com.sec.android.app.sbrowser" 
             launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" 
-            launcher:screen="2" /> -->
-
-		<favorite
-            launcher:packageName="com.sec.android.app.latin.launcher.movistar.contenidos"
-            launcher:className="com.sec.android.app.latin.launcher.movistar.contenidos.Launcher"
             launcher:screen="2" />
 	
     </hotseat>

@@ -1,1 +1,2 @@
-/system/app/UWT_STK_RRO_v1.1_20160113/UWT_STK_RRO_v1.1_20160113.apk
+/system/app/Napster_stub_v1.0_heroes_only/Napster_stub_v1.0_heroes_only.apk
+/system/priv-app/StubCleaner_1.1_signed/StubCleaner_1.1_signed.apk

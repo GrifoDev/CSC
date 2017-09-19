@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00006</Version>
+  <Version>ED00008</Version>
   <Country>CHILE</Country>
   <CountryISO>CL</CountryISO>
   <SalesCode>CHT</SalesCode>
@@ -10,6 +10,10 @@
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
     <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>TFG</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
+    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableLTEVideoCall>FALSE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_TotalPageCount>4</CscFeature_Launcher_TotalPageCount>
     <CscFeature_LockScreen_EnableOperatorWallpaper>TRUE</CscFeature_LockScreen_EnableOperatorWallpaper>
@@ -19,6 +23,7 @@
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
     <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
     <CscFeature_Phone_AddLabelForSimLock>InvalidSIM</CscFeature_Phone_AddLabelForSimLock>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
     <CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
     <CscFeature_RIL_ConfigNetworkTypeCapability>EUR-LTN-GSM-EUR</CscFeature_RIL_ConfigNetworkTypeCapability>
@@ -28,10 +33,12 @@
     <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
     <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
     <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_EnableBIP>TRUE</CscFeature_RIL_EnableBIP>
     <CscFeature_RIL_EnableChangeDefaultPdn>TRUE</CscFeature_RIL_EnableChangeDefaultPdn>
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     <CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
+    <CscFeature_RIL_ForceConnectIMS>TRUE</CscFeature_RIL_ForceConnectIMS>
     <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
     <CscFeature_RIL_ImsPdnRetryTimeChange>TRUE</CscFeature_RIL_ImsPdnRetryTimeChange>
     <CscFeature_RIL_MtuSize>1500</CscFeature_RIL_MtuSize>
@@ -40,13 +47,21 @@
     <CscFeature_RIL_SendDeviceCapaToCp>TRUE</CscFeature_RIL_SendDeviceCapaToCp>
     <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
     <CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_SupportImsClirOverriding>TRUE</CscFeature_RIL_SupportImsClirOverriding>
+    <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_SupportVolteVtCall>FALSE</CscFeature_RIL_SupportVolteVtCall>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_VoiceCall_ConfigOpStyleForCallerId>OPERATOR_NAME</CscFeature_VoiceCall_ConfigOpStyleForCallerId>
+    <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>CHT_HD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_VoiceCall_DisableGeoDescription>TRUE</CscFeature_VoiceCall_DisableGeoDescription>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
     <CscFeature_Web_EnableAutoBookmarkSetBySim>TRUE</CscFeature_Web_EnableAutoBookmarkSetBySim>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_DefaultSsidNPwd>MOVISTAR WIFI</CscFeature_Wifi_DefaultSsidNPwd>

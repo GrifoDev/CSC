@@ -1,3 +1,2 @@
-/system/app/Napster_v1.4_20170106_ns/Napster_v1.4_20170106_ns.apk
+/system/app/Napster_stub_v1.0_heroes_only/Napster_stub_v1.0_heroes_only.apk
 /system/app/TonosdeEspera_v1.4_20161027_ns/TonosdeEspera_v1.4_20161027_ns.apk
-/system/app/UWT_STK_RRO_v1.1_20160113/UWT_STK_RRO_v1.1_20160113.apk

@@ -21,8 +21,8 @@
 		<!-- Napster Stub -->
 		<favorite
 			launcher:screen="0"
-			launcher:packageName="com.sec.android.app.latin.napster"
-			launcher:className="com.sec.android.app.latin.napster.Launcher" />
+			launcher:packageName="com.srbr.movistar.hero.napster"
+			launcher:className="com.srbr.movistar.hero.napster.Launcher" />
 
 		<!-- Games: all carriers -->
 		<favorite
@@ -59,14 +59,20 @@
         <!-- Gol Movistar -->
 		<favorite
 			launcher:screen="0"
-			launcher:packageName="com.sec.android.app.latin.golmovistar"
-			launcher:className="com.sec.android.app.latin.golmovistar.Launcher" />
+			launcher:packageName="com.srbr.golmovistar"
+			launcher:className="com.srbr.golmovistar.Launcher" />
                
         <!-- Tonos de Espera -->
 		<favorite
 			launcher:screen="0"
-			launcher:packageName="com.sec.android.app.latin.tonosdeespera"
-			launcher:className="com.sec.android.app.latin.tonosdeespera.Launcher" />
+			launcher:packageName="com.srbr.tonosdeespera"
+			launcher:className="com.srbr.tonosdeespera.Launcher" />
+		
+		<!-- Amazon Compras -->	
+		<favorite
+			launcher:screen="0"
+			launcher:packageName="com.amazon.mShop.android.shopping"
+			launcher:className="com.amazon.mShop.home.HomeActivity" />
 	</folder>
 	
 	<!-- Samsung -->

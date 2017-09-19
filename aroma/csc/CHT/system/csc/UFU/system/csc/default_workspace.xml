@@ -116,6 +116,11 @@
 		<favorite
 			launcher:packageName="com.popcap.pvz_embed_latam"
 			launcher:className="com.popcap.pvz_embed_latam.Main" />
+
+		<!-- Mi Movistar UFU -->
+		<favorite
+			launcher:packageName="com.srbr.movistar.mimovistar_uy"
+			launcher:className="com.srbr.movistar.mimovistar_uy.Launcher" />
 		
         <!-- Tonos de Espera -->
 		<favorite
@@ -126,6 +131,12 @@
 		<favorite
 			launcher:packageName="com.sec.android.app.latin.movistarplayuy"
 			launcher:className="com.sec.android.app.latin.movistarplayuy.Launcher" />
+			
+		<!-- Estacionamiento Tarifado -->
+		<favorite
+			launcher:packageName="com.srbr.movistar.estacionamientotarifado"
+			launcher:className="com.srbr.movistar.estacionamientotarifado.Launcher" />
+			
 	</folder>
         <!-- Despegar -->
 		<favorite
@@ -137,8 +148,8 @@
 								
         <!-- Napster Stub -->
 	    <favorite
-			launcher:packageName="com.sec.android.app.latin.napster"
-			launcher:className="com.sec.android.app.latin.napster.Launcher"
+			launcher:packageName="com.srbr.movistar.hero.napster"
+			launcher:className="com.srbr.movistar.hero.napster.Launcher"
 			launcher:screen="1"
 			launcher:x="2"
 			launcher:y="3" />

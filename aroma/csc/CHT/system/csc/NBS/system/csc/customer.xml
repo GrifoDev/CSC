@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Nicaragua</Country>
     <CountryISO>NI</CountryISO>
     <Region>LA</Region>
@@ -164,7 +164,7 @@
       <Profile>
         <NetworkName>movistar_NI</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
+        <Editable>no</Editable>
         <ProfileName>Movistar INTERNET</ProfileName>
         <URL>http://www.movistar.com.ni</URL>
         <Bearer>ps</Bearer>

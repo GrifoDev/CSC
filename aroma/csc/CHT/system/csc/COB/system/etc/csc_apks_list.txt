@@ -1,4 +1,3 @@
-/system/app/Napster_v1.4_20170106_ns/Napster_v1.4_20170106_ns.apk
+/system/app/Napster_stub_v1.0_heroes_only/Napster_stub_v1.0_heroes_only.apk
 /system/app/TuGO_v1.5_20170106_ns/TuGO_v1.5_20170106_ns.apk
 /system/app/UserManual/UserManual.apk
-/system/app/UWT_STK_RRO_v1.1_20160113/UWT_STK_RRO_v1.1_20160113.apk

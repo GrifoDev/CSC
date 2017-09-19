@@ -148,8 +148,8 @@
 								
         <!-- Napster Stub -->
 	    <favorite
-			launcher:packageName="com.sec.android.app.latin.napster"
-			launcher:className="com.sec.android.app.latin.napster.Launcher"
+			launcher:packageName="com.srbr.movistar.hero.napster"
+			launcher:className="com.srbr.movistar.hero.napster.Launcher"
 			launcher:screen="1"
 			launcher:x="2"
 			launcher:y="3" />

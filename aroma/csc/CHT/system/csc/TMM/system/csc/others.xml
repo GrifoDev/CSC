@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00004</Version>
+  <Version>ED00006</Version>
   <Country>MEXICO</Country>
   <CountryISO>MX</CountryISO>
   <SalesCode>TMM</SalesCode>
@@ -54,6 +54,7 @@
     <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
     <CscFeature_RIL_ImsPdnRetryTimeChange>TRUE</CscFeature_RIL_ImsPdnRetryTimeChange>
     <CscFeature_RIL_MtuSize>1500</CscFeature_RIL_MtuSize>
+    <CscFeature_RIL_PLMNFaking4Mvno>TRUE</CscFeature_RIL_PLMNFaking4Mvno>
     <CscFeature_RIL_ReferEonsWithoutLac>TRUE</CscFeature_RIL_ReferEonsWithoutLac>
     <CscFeature_RIL_SendDeviceCapaToCp>TRUE</CscFeature_RIL_SendDeviceCapaToCp>
     <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
@@ -65,7 +66,6 @@
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>LTE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
     <CscFeature_Web_EnableAutoBookmarkSetBySim>TRUE</CscFeature_Web_EnableAutoBookmarkSetBySim>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_DefaultSsidNPwd>MOVISTAR WIFI</CscFeature_Wifi_DefaultSsidNPwd>

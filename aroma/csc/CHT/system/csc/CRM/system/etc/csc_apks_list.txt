@@ -1,3 +1,2 @@
 /system/app/MiMovistar_v1.3_20161020_ns/MiMovistar_v1.3_20161020_ns.apk
-/system/app/Napster_v1.4_20170106_ns/Napster_v1.4_20170106_ns.apk
-/system/app/UWT_STK_RRO_v1.1_20160113/UWT_STK_RRO_v1.1_20160113.apk
+/system/app/Napster_stub_v1.0_heroes_only/Napster_stub_v1.0_heroes_only.apk
