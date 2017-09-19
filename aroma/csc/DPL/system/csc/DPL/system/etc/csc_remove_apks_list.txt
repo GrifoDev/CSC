@@ -1,3 +1,3 @@
 /system/app/(HRS)_HRS_Telekom_Keysource/(HRS)_HRS_Telekom_Keysource.apk
-/system/app/(MiBOA_PL)_Moj_T-Mobile_3.2.0/(MiBOA_PL)_Moj_T-Mobile_3.2.0.apk
+/system/app/(MiBOA_PL)_Moj_T-Mobile_3.2.1/(MiBOA_PL)_Moj_T-Mobile_3.2.1.apk
 /system/priv-app/(MyBox_PL)_MyBox_3.0.4/(MyBox_PL)_MyBox_3.0.4.apk

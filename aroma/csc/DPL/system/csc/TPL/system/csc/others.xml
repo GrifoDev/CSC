@@ -98,7 +98,7 @@
     <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
 	
     <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
-    <CscFeature_Setting_HideApnList>IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>IMS,hos,HOS</CscFeature_Setting_HideApnList>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigFixedApn>xcap</CscFeature_RIL_ConfigFixedApn>
 	
@@ -108,7 +108,6 @@
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_UseMpsForImsSetting>true</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_PDPRetryMechanism4>DTR</CscFeature_RIL_PDPRetryMechanism4>
-    <CscFeature_RIL_BlockUssdDuringVolteCall>true</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_ConfigNetworkNameForEpdg>T-Mobile.pl WiFi</CscFeature_RIL_ConfigNetworkNameForEpdg>
     <CscFeature_RIL_ConfigVolteRedialPolicy>DTM</CscFeature_RIL_ConfigVolteRedialPolicy>
