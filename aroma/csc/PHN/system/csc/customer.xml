@@ -309,22 +309,22 @@
         <ProfXCAP>Vodafone Internet</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>NL Telfort</NetworkName>
         <ProfBrowser>Telfort Internet</ProfBrowser>
-        <ProfMMS>Telfort MMS</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>T-Mobile NL</NetworkName>
-        <ProfBrowser>T-Mobile Internet</ProfBrowser>
-        <ProfMMS>T-Mobile MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <ProfBrowser>T-Mobile Internet</ProfBrowser>
+        <ProfMMS>T-Mobile MMS</ProfMMS>
+        <ProfIMS>T-Mobile IMS</ProfIMS>
+        <ProfXCAP>T-Mobile HOS</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>NL KPN</NetworkName>
         <ProfBrowser>KPN Internet</ProfBrowser>
-        <ProfMMS>KPN MMS</ProfMMS>
         <ProfIMS>KPN IMS</ProfIMS>
         <ProfXCAP>KPN XCAP</ProfXCAP>
       </ProfileHandle>
@@ -396,25 +396,8 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>NL Telfort</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Telfort MMS</ProfileName>
-        <URL>http://mms</URL>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.10.100.20</ServAddr>
-          <Port>5080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>T-Mobile NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>T-Mobile Internet</ProfileName>
         <URL>http://mmm.samsung.nl/t-mobile</URL>
@@ -431,6 +414,7 @@
       </Profile>
       <Profile>
         <NetworkName>T-Mobile NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>T-Mobile MMS</ProfileName>
         <URL>http://t-mobilemms</URL>
@@ -460,24 +444,6 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>portalmmm.nl</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>NL KPN</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>KPN MMS</ProfileName>
-        <URL>http://mp.mobiel.kpn/mmsc</URL>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.10.100.20</ServAddr>
-          <Port>5080</Port>
         </Proxy>
         <PSparam>
           <APN>portalmmm.nl</APN>
@@ -584,9 +550,43 @@
           <APN>ut</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>T-Mobile IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>T-Mobile HOS</ProfileName>
+        <URL>http://t-mobilemms</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.11</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>hos</APN>
+          <UserId>tmobilemms</UserId>
+          <Password>tmobilemms</Password>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>3</NbSetting>
+      <NbSetting>4</NbSetting>
       <Setting>
         <NetworkName>Tele2</NetworkName>
         <Version>3.0</Version>
@@ -600,7 +600,7 @@
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SRVCCversion>8</SRVCCversion>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
@@ -611,10 +611,6 @@
         <NetworkName>vodafone NL</NetworkName>
         <Version>3.0</Version>
         <EnableIMS>true</EnableIMS>
-        <RCS>
-          <EnableRCS>true</EnableRCS>
-          <EnableRCSchat>true</EnableRCSchat>
-        </RCS>
         <VoLTE>
           <EnableSMSoverIP>false</EnableSMSoverIP>
           <EnableVoLTE>true</EnableVoLTE>
@@ -650,6 +646,28 @@
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+        <VoLTE>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>8</SRVCCversion>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>

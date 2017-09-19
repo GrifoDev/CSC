@@ -6,7 +6,7 @@
   <SalesCode>PHN</SalesCode>
   <FeatureSet>
     <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
-    <CscFeature_Setting_HideApnList>ims,IMS,xcap,XCAP,KPN XCAP</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>ims,IMS,xcap,XCAP,KPN XCAP,KPN IMS,T-Mobile IMS,T-Mobile HOS</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Launcher_ConfigMagazineHome>off</CscFeature_Launcher_ConfigMagazineHome>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
@@ -34,7 +34,7 @@
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_RIL_UpdateHplmnForDualSimException>TRUE</CscFeature_RIL_UpdateHplmnForDualSimException>
-    <CscFeature_RIL_ConfigAlwaysOnApn>ims,IMS,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigAlwaysOnApn>mms_20416,mms_20420,ims,IMS,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
@@ -45,14 +45,11 @@
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
-    <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe> 
-    <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence> 
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
-    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED|RCS_UI_FOR_OPEN|RCS_CPR</CscFeature_IMS_ConfigRcsFeatures>
     <CscFeature_Contact_ConfigImsOpStyle>PHN</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_AOD_ConfigDefStatus>OFF</CscFeature_AOD_ConfigDefStatus>
-    <CscFeature_RIL_ConfigVolteRedialPolicy>VD2</CscFeature_RIL_ConfigVolteRedialPolicy>
+    <CscFeature_RIL_ConfigVolteRedialPolicy>DTM</CscFeature_RIL_ConfigVolteRedialPolicy>
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
     <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
@@ -60,8 +57,8 @@
     <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,MobilePrefSim_20404;,ShowPrefModeMenuSim_20404;</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
     <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>PHN_HD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
-    <CscFeature_RIL_ConfigFixedApn>ims,xcap</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   </FeatureSet>
 </SamsungMobileFeature>
