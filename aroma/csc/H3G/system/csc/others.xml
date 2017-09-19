@@ -92,6 +92,6 @@
     <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,DefaultOnNoSimCheck,MobilePrefNoSimCheck</CscFeature_RIL_ConfigEpdgExtraFunction>
 	<CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>Call</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode> 
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
-
+    <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
   </FeatureSet>
 </SamsungMobileFeature>

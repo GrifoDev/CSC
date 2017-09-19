@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>UK</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -262,7 +262,7 @@
           <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
         <RCS>
