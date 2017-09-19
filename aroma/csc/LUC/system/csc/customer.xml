@@ -99,25 +99,6 @@
           <TimezoneUpdate>on</TimezoneUpdate>
         </DateTimeFormat>
       </Phone>
-      <Display>
-        <NbWallpaper>4</NbWallpaper>
-        <Wallpaper src="/Customer/LUC/Wallpaper/wallpaper_01.png" width="2440" height="2440">
-          <Position>13</Position>
-          <FileType>PNG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/LUC/Wallpaper/wallpaper_02.png" width="2440" height="2440">
-          <Position>14</Position>
-          <FileType>PNG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/LUC/Wallpaper/wallpaper_03.png" width="2440" height="2440">
-          <Position>15</Position>
-          <FileType>PNG</FileType>
-        </Wallpaper>
-        <Wallpaper src="/Customer/LUC/Wallpaper/wallpaper_04.png" width="2440" height="2440">
-          <Position>16</Position>
-          <FileType>PNG</FileType>
-        </Wallpaper>
-      </Display>
     </Main>
     <Messages>
       <SMS>

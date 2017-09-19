@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00009</Version>
+  <Version>ED00010</Version>
   <Country>KOREA, REPUBLIC OF</Country>
   <CountryISO>KR</CountryISO>
   <SalesCode>LUC</SalesCode>
@@ -31,7 +31,6 @@
     <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>lg.uplusbox,com.lguplus.appstore,com.lguplus.downloader,com.lguplus.installer,com.lguplus.pushagent,com.skt.skaf.OA00018282</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
     <CscFeature_Common_ConfigEmergencyModePackages>com.sec.android.fido.uaf.asm,com.sec.android.fido.uaf.client,com.samsung.android.authservice,com.samsung.android.pass,com.samsung.android.samsungpass</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Common_ConfigNetworkModeDuringEmergency>NOCHANGE</CscFeature_Common_ConfigNetworkModeDuringEmergency>
-    <CscFeature_Common_ConfigRcsVendorApp>Joyn</CscFeature_Common_ConfigRcsVendorApp>
     <CscFeature_Common_EnableHDVoiceDuring3GConnection>FALSE</CscFeature_Common_EnableHDVoiceDuring3GConnection>
     <CscFeature_Common_EnableOneTouchReport>TRUE</CscFeature_Common_EnableOneTouchReport>
     <CscFeature_Common_EnableUiDisplayMirroring>TRUE</CscFeature_Common_EnableUiDisplayMirroring>
@@ -75,12 +74,10 @@
     <CscFeature_GPS_SupportGoogleSupl2>TRUE</CscFeature_GPS_SupportGoogleSupl2>
     <CscFeature_Gallery_SkipOmaDrm>TRUE</CscFeature_Gallery_SkipOmaDrm>
     <CscFeature_Gallery_SupportVideoCallCrop>TRUE</CscFeature_Gallery_SupportVideoCallCrop>
-    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
     <CscFeature_IMS_ConfigVerUICCMobilitySpec>2.0</CscFeature_IMS_ConfigVerUICCMobilitySpec>
     <CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
-    <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_IMS_SupportVolteDuringRoaming>TRUE</CscFeature_IMS_SupportVolteDuringRoaming>
