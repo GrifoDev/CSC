@@ -75,15 +75,15 @@
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
     	
     <CscFeature_Sip_ApplyAutoCorrectionPatent>true</CscFeature_Sip_ApplyAutoCorrectionPatent>
-	
-	<CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
+    <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
+    <CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableRCSe>true</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_EnableLTEVideoCall>false</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
-    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
+    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED|RCS_CPR</CscFeature_IMS_ConfigRcsFeatures>
 
     <CscFeature_Common_AutoConfigurationType>DDE,DT</CscFeature_Common_AutoConfigurationType>
     <CscFeature_Contact_ConfigImsOpStyle>DT</CscFeature_Contact_ConfigImsOpStyle>
@@ -108,6 +108,7 @@
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
 
+    <CscFeature_RIL_SupportSmsFallbackForIms>TRUE</CscFeature_RIL_SupportSmsFallbackForIms>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
     <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
