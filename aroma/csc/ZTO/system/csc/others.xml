@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00006</Version>
+  <Version>ED00011</Version>
   <Country>BRAZIL</Country>
   <CountryISO>BR</CountryISO>
   <SalesCode>ZTO</SalesCode>
@@ -69,6 +69,7 @@
     <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_StkCallControlwithIMS>TRUE</CscFeature_RIL_StkCallControlwithIMS>
     <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgDuringRoaming>TRUE</CscFeature_RIL_SupportEpdgDuringRoaming>
     <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
     <CscFeature_RIL_SupportImsClirOverriding>TRUE</CscFeature_RIL_SupportImsClirOverriding>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
@@ -86,6 +87,5 @@
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_EnablePrefix4LongDistanceCallAs>0</CscFeature_VoiceCall_EnablePrefix4LongDistanceCallAs>
-    <CscFeature_Web_BookmarkPreloadOnChrome>NONE</CscFeature_Web_BookmarkPreloadOnChrome>
   </FeatureSet>
 </SamsungMobileFeature>
