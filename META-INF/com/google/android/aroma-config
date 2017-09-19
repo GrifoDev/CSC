@@ -22,10 +22,10 @@ ini_set("force_colorspace","rgba");
 #
 
 ini_set("rom_name",             "CSC Selection™ ");
-ini_set("rom_version",          "V2.4.0");
+ini_set("rom_version",          "V2.4.5");
 ini_set("rom_author",           "Tkkg1994");
 ini_set("rom_device",           "SM-G93XF/FD/K/L/S/W8");
-ini_set("rom_date",             "12.06.2017");
+ini_set("rom_date",             "20.09.2017");
 
 ##
 # Show Simple Splash

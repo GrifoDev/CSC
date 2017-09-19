@@ -9,7 +9,7 @@ getprop ro.boot.bootloader >> /tmp/variant
 ACTUAL_CSC=`cat /efs/imei/mps_code.dat`
 SALES_CODE=`cat /system/csc/sales_code.dat`
 
-if grep -q  'CSC=BTU\|CSC=CHT\|CSC=DDE\|CSC=DHR\|CSC=DPL\|CSC=ILO\|CSC=INS\|CSC=SER\|CSC=TTR\|CSC=THL\|CSC=UPO\|CSC=VD2\|CSC=VIA\|CSC=XAA\|CSC=XAC\|CSC=XEO\|CSC=XSG' /tmp/aroma/csc.prop; then
+if grep -q  'CSC=BTU\|CSC=CHT\|CSC=DDE\|CSC=DHR\|CSC=DNL\|CSC=DPL\|CSC=ILO\|CSC=INS\|CSC=SER\|CSC=TTR\|CSC=THL\|CSC=UPO\|CSC=VD2\|CSC=VIA\|CSC=XAA\|CSC=XAC\|CSC=XEO\|CSC=XSG' /tmp/aroma/csc.prop; then
 	echo "cscmulti.prop found"
 	sed -i -- "s/CSC=//g" /tmp/aroma/cscmulti.prop
 	NEW_CSC=`cat /tmp/aroma/cscmulti.prop`
@@ -32,14 +32,8 @@ else
 fi
 fi
 
-if grep -q  'CSC=ATT\|CSC=TMB\|CSC=XAA' /tmp/aroma/csc.prop; then
-	echo "US csc found, appling ZTO as default"
-	sed -i -- "s/$ACTUAL_CSC/ZTO/g" /efs/imei/mps_code.dat
-	sed -i -- "s/$SALES_CODE/$NEW_CSC/g" /system/csc/sales_code.dat
-else
-	sed -i -- "s/$ACTUAL_CSC/$NEW_CSC/g" /efs/imei/mps_code.dat
-	sed -i -- "s/$SALES_CODE/$NEW_CSC/g" /system/csc/sales_code.dat
-	echo "flashing selected CSC"
-fi
+sed -i -- "s/$ACTUAL_CSC/$NEW_CSC/g" /efs/imei/mps_code.dat
+sed -i -- "s/$SALES_CODE/$NEW_CSC/g" /system/csc/sales_code.dat
+echo "flashing selected CSC"
 
 exit 10
