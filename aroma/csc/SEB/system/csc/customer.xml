@@ -774,7 +774,7 @@
       <Setting>
         <NetworkName>LT Omnitel</NetworkName>
         <Version>3.0</Version>
-        <EnableIMS>false</EnableIMS>
+        <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
@@ -783,7 +783,7 @@
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -797,12 +797,12 @@
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
           <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>false</EnableVideocall>
+          <EnableVideocall>true</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
