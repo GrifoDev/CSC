@@ -98,6 +98,7 @@
 	<CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
 	<CscFeature_IMS_SupportGeoLocation>TRUE</CscFeature_IMS_SupportGeoLocation>
 	<CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
-
+    <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
+	<CscFeature_RIL_Display4gPlusIconBandwidth>19</CscFeature_RIL_Display4gPlusIconBandwidth>
   </FeatureSet>
 </SamsungMobileFeature>
