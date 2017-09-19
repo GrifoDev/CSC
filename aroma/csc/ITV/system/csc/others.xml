@@ -64,5 +64,6 @@
     
     <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>ITV_HD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
+    <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   </FeatureSet>
 </SamsungMobileFeauture>

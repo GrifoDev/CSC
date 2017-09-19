@@ -5,7 +5,7 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>G935FITV</CSCName>
-	<CSCVersion>1DQA8</CSCVersion>
+	<CSCVersion>1DQD1</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/ITV/customer.xml" />
 	</CustomerDataSet>
