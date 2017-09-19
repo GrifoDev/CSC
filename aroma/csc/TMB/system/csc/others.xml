@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00032</Version>
+  <Version>ED00050</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>TMB</SalesCode>
@@ -16,6 +16,7 @@
     <CscFeature_Calendar_SetColorOfDays>XXXXXXX</CscFeature_Calendar_SetColorOfDays>
     <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+    <CscFeature_Common_ConfigAllowedPackagesDuringDataSaving>com.samsung.android.smartcallprovider</CscFeature_Common_ConfigAllowedPackagesDuringDataSaving>
     <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.samsung.android.email.provider</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon,com.samsung.tmowfc.wfcutils,com.samsung.tmowfc.wfccontroller,com.samsung.tmowfc.wfcpref</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_Common_ConfigMarketInfoVariation>Disable</CscFeature_Common_ConfigMarketInfoVariation>
@@ -47,7 +48,6 @@
     <CscFeature_Framework_ConfigBlockNotiOperation>Longpress</CscFeature_Framework_ConfigBlockNotiOperation>
     <CscFeature_Framework_ConfigDefTrayPosition>LEFT</CscFeature_Framework_ConfigDefTrayPosition>
     <CscFeature_Framework_ConfigOpStyleSwitchButtonWidget>us</CscFeature_Framework_ConfigOpStyleSwitchButtonWidget>
-    <CscFeature_Framework_DisableConfirmGlobalAction>TRUE</CscFeature_Framework_DisableConfirmGlobalAction>
     <CscFeature_Framework_DisableDoubleTapTextSelection>TRUE</CscFeature_Framework_DisableDoubleTapTextSelection>
     <CscFeature_Framework_SupportResolverActivityGuide>TRUE</CscFeature_Framework_SupportResolverActivityGuide>
     <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
@@ -65,7 +65,6 @@
     <CscFeature_IMS_ConfigMdmnType>Jansky</CscFeature_IMS_ConfigMdmnType>
     <CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
-    <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
@@ -117,6 +116,7 @@
     <CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
     <CscFeature_RIL_ConfigNetworkNameForEpdg>T-Mobile</CscFeature_RIL_ConfigNetworkNameForEpdg>
     <CscFeature_RIL_ConfigNetworkTypeCapability>TMO-TMO-GSM-USA</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_ConfigOpDeviceLogging>tmo</CscFeature_RIL_ConfigOpDeviceLogging>
     <CscFeature_RIL_ConfigSIMswap>QCOM</CscFeature_RIL_ConfigSIMswap>
     <CscFeature_RIL_ConfigVolteRedialPolicy>tmo</CscFeature_RIL_ConfigVolteRedialPolicy>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
@@ -176,12 +176,12 @@
     <CscFeature_SSRM_ConfigStandbyTime>280000,933</CscFeature_SSRM_ConfigStandbyTime>
     <CscFeature_SSRM_SupportGmsBundling>TRUE</CscFeature_SSRM_SupportGmsBundling>
     <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
-    <CscFeature_Setting_ConfigForbidAppDisableButton>com.tmobile.pr.mytmobile,com.tmobile.pr.adapt</CscFeature_Setting_ConfigForbidAppDisableButton>
+    <CscFeature_Setting_ConfigBlockNotiAppList>com.tmobile.pr.adapt</CscFeature_Setting_ConfigBlockNotiAppList>
+    <CscFeature_Setting_ConfigForbidAppDisableButton>com.tmobile.pr.mytmobile,com.tmobile.pr.adapt,com.tmobile.simlock</CscFeature_Setting_ConfigForbidAppDisableButton>
     <CscFeature_Setting_ConfigOpMenuStructure>TMB</CscFeature_Setting_ConfigOpMenuStructure>
     <CscFeature_Setting_ConfigTypeHelp>2</CscFeature_Setting_ConfigTypeHelp>
-    <CscFeature_Setting_DisableIsraelCountry>FALSE</CscFeature_Setting_DisableIsraelCountry>
     <CscFeature_Setting_HideApnList>pcweb.tmobile.com,ims,tmus</CscFeature_Setting_HideApnList>
-    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_SupportHAC>TRUE</CscFeature_Setting_SupportHAC>
     <CscFeature_Sip_ConfigCMKey>OFF</CscFeature_Sip_ConfigCMKey>
     <CscFeature_Sip_ConfigOpBranding>TMO</CscFeature_Sip_ConfigOpBranding>
@@ -232,11 +232,11 @@
     <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceCall_ConfigOpStyleForPopupCall>TRUE</CscFeature_VoiceCall_ConfigOpStyleForPopupCall>
     <CscFeature_VoiceCall_ConfigOpStyleForRingBackTone>USACDMA</CscFeature_VoiceCall_ConfigOpStyleForRingBackTone>
-    <CscFeature_VoiceCall_ConfigOpStyleForVolte>TMB_VOLTE,USA_VOLTE,ADD_VOLTE_OUTGOING_SETTING</CscFeature_VoiceCall_ConfigOpStyleForVolte>
+    <CscFeature_VoiceCall_ConfigOpStyleForVolte>TMB_VOLTE,USA_VOLTE,ADD_VOLTE_OUTGOING_SETTING,WIRELESS_PRI_SVC_FOR_PSCALL</CscFeature_VoiceCall_ConfigOpStyleForVolte>
     <CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>-cdmasystemselect</CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>
+    <CscFeature_VoiceCall_ConfigOptStyleForCallBarring>RemoveAll</CscFeature_VoiceCall_ConfigOptStyleForCallBarring>
     <CscFeature_VoiceCall_ConfigSoundPathVolte>US</CscFeature_VoiceCall_ConfigSoundPathVolte>
     <CscFeature_VoiceCall_DisableCallTransfer>TRUE</CscFeature_VoiceCall_DisableCallTransfer>
-    <CscFeature_VoiceCall_DisableImsConfManage>disable</CscFeature_VoiceCall_DisableImsConfManage>
     <CscFeature_VoiceCall_DisableVolteHoldTone>TRUE</CscFeature_VoiceCall_DisableVolteHoldTone>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportHoldUiForVolte>TRUE</CscFeature_VoiceCall_SupportHoldUiForVolte>
