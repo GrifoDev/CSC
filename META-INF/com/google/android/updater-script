@@ -274,6 +274,25 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "DNL"
+	then
+		ui_print("Installing DNL CSC...");
+		package_extract_dir("aroma/csc/DNL/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "DNL"
+	then
+		ui_print("Installing DNL CSC...");
+		package_extract_dir("aroma/csc/DNL/system/csc/DNL/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "TNL"
+	then
+		ui_print("Installing TNL CSC...");
+		package_extract_dir("aroma/csc/DNL/system/csc/TNL/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "DPL"
 	then
 		ui_print("Installing DPL CSC...");

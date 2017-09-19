@@ -288,8 +288,9 @@ form(
 	"CHT",		"CHT",			"South America branded Multi-CSC contains: CHT, COB, CRM, EBE, MMO, NBS, PBS, SAM, TGU, TMM, UFN, UFU",	"select",
 	"COS",		"COS",			"Greece Cosmote branded",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
-	"DDE",		"DDE",			"Germany Multi-CSC contains: DCO, DDE, DTM",		"select",
-	"DHR",		"DHR",			"Croatia Multi-CSC contains: CRO, DHR",			"select",
+	"DDE",		"DDE",			"Germany branded Multi-CSC contains: DCO, DDE, DTM",	"select",
+	"DHR",		"DHR",			"Croatia branded Multi-CSC contains: CRO, DHR",		"select",
+	"DNL",		"DNL",			"Netherland branded Multi-CSC contains: DNL, TNL",	"select",
 	"DPL",		"DPL",			"Poland branded Multi-CSC contains: DPL, TPL",		"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
@@ -461,6 +462,29 @@ form(
 	"CSC",		"Croatia Multi-CSC",	"",							"group",
 	"CRO",		"CRO",			"Croatia T-Mobile branded",				"select",
 	"DHR",		"DHR",			"Croatia bonbon branded (default)",			"select.selected"
+);
+endif;
+if prop("csc.prop","CSC")=="DNL" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Netherland Multi-CSC",	"",							"group",
+	"DNL",		"DNL",			"Netherland Ben branded (default)",			"select.selected",
+	"TNL",		"TNL",			"Netherland T-Mobile branded",				"select"
 );
 endif;
 if prop("csc.prop","CSC")=="DPL" then
