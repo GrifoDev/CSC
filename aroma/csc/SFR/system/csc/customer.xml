@@ -562,7 +562,7 @@
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <SMSoIP_Domain>cs</SMSoIP_Domain>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
         <RCS>
           <EnableRCS>false</EnableRCS>
