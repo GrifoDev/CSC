@@ -6,6 +6,7 @@
   <SalesCode>ORO</SalesCode>
   <FeatureSet>
     <CscFeature_Common_Vibration4NotiDuringCall>TRUE</CscFeature_Common_Vibration4NotiDuringCall>
+    <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.orange.update</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>ORANGE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigQuickSettingPopup>ORO</CscFeature_SystemUI_ConfigQuickSettingPopup>
     <CscFeature_Framework_AddProductRoField>BRAND1-orange</CscFeature_Framework_AddProductRoField>
@@ -14,6 +15,7 @@
     <CscFeature_Setting_SkipStepsDuringSamsungSetupWizard>SamsungAccount,SamsungBackup</CscFeature_Setting_SkipStepsDuringSamsungSetupWizard>
     <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_BlockToSelectDunApnType>TRUE</CscFeature_Setting_BlockToSelectDunApnType>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_VoiceCall_DisableUssdCancelPopup>TRUE</CscFeature_VoiceCall_DisableUssdCancelPopup>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_EnableCallButtonInFdnList>TRUE</CscFeature_VoiceCall_EnableCallButtonInFdnList>
