@@ -12,7 +12,6 @@
     <CscFeature_Framework_FilterExtraPackage>TRUE</CscFeature_Framework_FilterExtraPackage>
     <CscFeature_LockScreen_DisplayPlmn>TRUE</CscFeature_LockScreen_DisplayPlmn>
     <CscFeature_LockScreen_DirectCallToEcc>TRUE</CscFeature_LockScreen_DirectCallToEcc>
-    <CscFeature_Contact_ConfigReplaceLabelSet>telstra</CscFeature_Contact_ConfigReplaceLabelSet>
     <CscFeature_LockScreen_ConfigClockDisplayPolicy>IgnoreNationalRoamingWithOptus</CscFeature_LockScreen_ConfigClockDisplayPolicy>
     <CscFeature_Contact_DisableContactPhoto>FALSE</CscFeature_Contact_DisableContactPhoto>    
     <CscFeature_Contact_ConfigImsOpStyle>VTDISABLE</CscFeature_Contact_ConfigImsOpStyle>
@@ -84,10 +83,14 @@
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
     <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
-    <CscFeature_RIL_ConfigEmergencyApn>sos,IPV6,IPV4V6,LTE</CscFeature_RIL_ConfigEmergencyApn>
-    <CscFeature_Setting_HideApnList>Optus IMS,Optus Emergency</CscFeature_Setting_HideApnList>
+    <CscFeature_RIL_ConfigEmergencyApn>ims,IPV4V6,IPV4V6,IWLAN</CscFeature_RIL_ConfigEmergencyApn>
     <CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
-    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag> 
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+    <CscFeature_Setting_DisableNetworkMode>gsmonly</CscFeature_Setting_DisableNetworkMode>
+    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,SilentMode,Bluetooth,RotationLock,Flashlight,AirplaneMode,PowerSaving,MobileData,Performance,BlueLightFilter,WifiHotspot,SecureFolder,Location,Nfc,Aod,AllShareCast,DeviceVisibility,DormantMode,Sync</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_SystemUI_ConfigQuickSettingPopup>XSA</CscFeature_SystemUI_ConfigQuickSettingPopup>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>	
   </FeatureSet>
 </SamsungMobileFeauture>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>Australia</Country>
     <CountryISO>AU</CountryISO>
     <Region>SEA</Region>
@@ -219,7 +219,6 @@
         <NetworkName>Telstra</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Telstra Internet</ProfileName>
-        <URL>http://www.samsung.com/au/dlp/</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -268,7 +267,6 @@
         <NetworkName>YES OPTUS</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Optus Yes Internet</ProfileName>
-        <URL>http://www.samsung.com/au/dlp/</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -316,7 +314,6 @@
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vodafone AU</ProfileName>
-        <URL>http://www.samsung.com/au/dlp/</URL>
         <Bearer>psfirst</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -350,7 +347,6 @@
         <NetworkName>Virgin Mobile</NetworkName>
         <Editable>no</Editable>
         <ProfileName>Virgin Internet</ProfileName>
-        <URL>http://www.samsung.com/au/dlp/</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -506,7 +502,7 @@
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
         <RCS>
           <EnableRCS>false</EnableRCS>
@@ -545,7 +541,7 @@
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
