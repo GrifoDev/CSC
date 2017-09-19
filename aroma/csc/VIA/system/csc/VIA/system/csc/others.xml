@@ -81,7 +81,9 @@
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_VoiceCall_ConfigOpStyleForWfc>WFC_PREF_ADD_WIFI_ONLY</CscFeature_VoiceCall_ConfigOpStyleForWfc>
     <CscFeature_VoiceCall_ConfigOptStyleForCallBarring>Disable</CscFeature_VoiceCall_ConfigOptStyleForCallBarring>
+    <CscFeature_Weather_ConfigCpType>TWC</CscFeature_Weather_ConfigCpType>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_RIL_DisplayRatInfoInManualNetSearchList>TRUE</CscFeature_RIL_DisplayRatInfoInManualNetSearchList>
   </FeatureSet>
 </SamsungMobileFeature>

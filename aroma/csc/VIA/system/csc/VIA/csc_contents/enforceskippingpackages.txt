@@ -1,5 +1,5 @@
-21
-CatchFavorites_N.apk
+22
+YahooEdgeNews.apk
 FlipboardBriefing.apk
 SamsungPayStub.apk
 GalaxyCare.apk
@@ -13,6 +13,7 @@ FBAppManager.apk
 FBInstaller.apk
 FBAppManager_NS.apk
 FBInstaller_NS.apk
+FBServices.apk
 FBInstagram_stub.apk
 FBMessenger_stub.apk
 Facebook_stub.apk

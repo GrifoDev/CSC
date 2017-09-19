@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0009</CSCEdition>
+    <CSCEdition>ED0011</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
@@ -171,7 +171,7 @@
         <Editable>yes</Editable>
         <Index>4</Index>
         <BookmarkName>Priority</BookmarkName>
-        <URL>http://www.o2priority.co.uk</URL>
+        <URL>https://priority.o2.co.uk</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
@@ -265,15 +265,15 @@
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>O2 Pay Monthly</NetworkName>
-        <ProfBrowser>O2 Mobile Web</ProfBrowser>
+        <ProfBrowser>O2 Pay Monthly</ProfBrowser>
         <ProfMMS>O2 MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
-        <ProfXCAP>O2 Mobile Web</ProfXCAP>
+        <ProfXCAP>O2 Pay Monthly</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>O2 Pay &amp; Go</NetworkName>
-        <ProfBrowser>O2 Pay &amp; Go</ProfBrowser>
+        <ProfBrowser>O2 Pay As You Go</ProfBrowser>
         <ProfMMS>O2 MMS</ProfMMS>
       </ProfileHandle>
       <NbProfile>5</NbProfile>
@@ -290,14 +290,14 @@
         </Proxy>
         <PSparam>
           <APN>mobile.o2.co.uk</APN>
-          <UserId>o2wap</UserId>
-          <Password>password</Password>
+          <UserId>o2</UserId>
+          <Password>p</Password>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>O2 Pay Monthly</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>O2 Mobile Web</ProfileName>
+        <ProfileName>O2 Pay Monthly</ProfileName>
         <URL>http://www.o2.co.uk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -307,8 +307,8 @@
         </Proxy>
         <PSparam>
           <APN>mobile.o2.co.uk</APN>
-          <UserId>o2web</UserId>
-          <Password>password</Password>
+          <UserId>o2</UserId>
+          <Password>p</Password>
         </PSparam>
       </Profile>
       <Profile>
@@ -326,7 +326,7 @@
       <Profile>
         <NetworkName>O2 Pay &amp; Go</NetworkName>
         <Editable>no</Editable>
-        <ProfileName>O2 Pay &amp; Go</ProfileName>
+        <ProfileName>O2 Pay As You Go</ProfileName>
         <URL>http://www.o2.co.uk</URL>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -336,8 +336,8 @@
         </Proxy>
         <PSparam>
           <APN>payandgo.o2.co.uk</APN>
-          <UserId>payandgo</UserId>
-          <Password>password</Password>
+          <UserId>o2</UserId>
+          <Password>p</Password>
         </PSparam>
       </Profile>
       <Profile>
@@ -353,8 +353,8 @@
         </Proxy>
         <PSparam>
           <APN>payandgo.o2.co.uk</APN>
-          <UserId>payandgo</UserId>
-          <Password>password</Password>
+          <UserId>o2</UserId>
+          <Password>p</Password>
         </PSparam>
       </Profile>
     </Connections>

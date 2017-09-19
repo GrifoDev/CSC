@@ -78,5 +78,6 @@
     <CscFeature_Web_DisableChooser4>TRUE</CscFeature_Web_DisableChooser4>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigHotSpotActionForSimStatus>turn off</CscFeature_Wifi_ConfigHotSpotActionForSimStatus>
+	<CscFeature_VoiceCall_ConfigOpStyleForLogs>SkipLog_214/016</CscFeature_VoiceCall_ConfigOpStyleForLogs>
   </FeatureSet>
 </SamsungMobileFeature>

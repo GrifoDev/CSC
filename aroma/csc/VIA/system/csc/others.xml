@@ -84,5 +84,6 @@
     <CscFeature_Weather_ConfigCpType>TWC</CscFeature_Weather_ConfigCpType>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_RIL_DisplayRatInfoInManualNetSearchList>TRUE</CscFeature_RIL_DisplayRatInfoInManualNetSearchList>
   </FeatureSet>
 </SamsungMobileFeature>
