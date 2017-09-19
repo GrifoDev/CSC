@@ -85,15 +85,15 @@
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
 
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
-    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe> 
+    <CscFeature_IMS_EnableRCSe>true</CscFeature_IMS_EnableRCSe> 
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE> 
     <CscFeature_IMS_EnableLTEVideoCall>false</CscFeature_IMS_EnableLTEVideoCall> 
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence> 
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
-    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
+    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED|RCS_CPR</CscFeature_IMS_ConfigRcsFeatures>
 	
     <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
-    <CscFeature_Setting_HideApnList>IMS</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>IMS,hos,HOS</CscFeature_Setting_HideApnList>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigFixedApn>xcap</CscFeature_RIL_ConfigFixedApn>
 	
