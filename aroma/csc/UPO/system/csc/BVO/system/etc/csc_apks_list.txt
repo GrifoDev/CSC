@@ -1,2 +1,1 @@
 /system/app/CLUB3_24/CLUB3_24.apk
-/system/app/VivaElFutbol110/VivaElFutbol110.apk

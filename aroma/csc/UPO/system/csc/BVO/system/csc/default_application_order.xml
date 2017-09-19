@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <!-- Screen [0] -->
-	<!-- Samsung Club  -->
-    <favorite
-        launcher:screen="0" 
-        launcher:packageName="com.gogress.todotix" 
-        launcher:className="ws.edgemedia.club2.activities.AClubSplash" />
+	
 	<!-- Samsung -->
     <folder
         launcher:screen="0" 
@@ -50,7 +46,11 @@
                 launcher:screen="7" 
                 launcher:packageName="com.sec.android.app.samsungapps" 
                 launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" />
-			                                                                    	
+			<!-- Samsung Club  -->
+		<favorite
+        launcher:screen="8" 
+        launcher:packageName="com.gogress.todotix" 
+        launcher:className="ws.edgemedia.club2.activities.AClubSplash" />                                                                    	
     </folder>
 	
     <!-- Google -->

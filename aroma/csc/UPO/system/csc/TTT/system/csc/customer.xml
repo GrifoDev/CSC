@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>TRINIDAD AND TOBAGO</Country>
     <CountryISO>TT</CountryISO>
     <Region>LA</Region>
@@ -119,7 +119,7 @@
   <Settings>
     <Main>
       <Security>
-        <OneSIMLock>off</OneSIMLock>
+        <OneSIMLock>none</OneSIMLock>
         <NbNetworkLock>45</NbNetworkLock>
         <NetworkLock>460BB</NetworkLock>
         <NetworkLock>454BB</NetworkLock>
@@ -204,7 +204,6 @@
         <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
         <T9Enabling>disable</T9Enabling>
         <DateTimeFormat>
-          <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>12h</TimeFormat>
         </DateTimeFormat>
       </Phone>

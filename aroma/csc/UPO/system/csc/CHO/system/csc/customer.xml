@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Chile</Country>
     <CountryISO>CL</CountryISO>
     <Region>LA</Region>
@@ -345,16 +345,14 @@
     <Connections>
       <NbProfileHandle>13</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>Movistar</NetworkName>
         <ProfBrowser>Movistar APLICACIONES</ProfBrowser>
-        <ProfMMS>Movistar MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>ENTEL</NetworkName>
         <ProfBrowser>Internet Movil</ProfBrowser>
-        <ProfMMS>MMS Entel</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -419,7 +417,7 @@
         <ProfBrowser>Internet Móvil Falabella</ProfBrowser>
         <ProfMMS>Falabella Chile MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>25</NbProfile>
+      <NbProfile>23</NbProfile>
       <Profile>
         <NetworkName>Movistar</NetworkName>
         <Editable>yes</Editable>
@@ -434,25 +432,6 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Movistar</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Movistar MMS</ProfileName>
-        <URL>http://mms.movistar.cl</URL>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>172.17.8.10</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.tmovil.cl</APN>
-          <UserId>mms</UserId>
-          <Password>mms</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>ENTEL</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Internet Movil</ProfileName>
@@ -462,26 +441,6 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>bam.entelpcs.cl</APN>
-          <UserId>entelpcs</UserId>
-          <Password>entelpcs</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>ENTEL</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>MMS Entel</ProfileName>
-        <URL>http://mmsc.entelpcs.cl</URL>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>10.99.0.10</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.entelpcs.cl</APN>
           <UserId>entelpcs</UserId>
           <Password>entelpcs</Password>
         </PSparam>
