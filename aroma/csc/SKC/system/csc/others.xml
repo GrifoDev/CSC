@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00010</Version>
+  <Version>ED00011</Version>
   <Country>KOREA, REPUBLIC OF</Country>
   <CountryISO>KR</CountryISO>
   <SalesCode>SKC</SalesCode>
@@ -73,12 +73,10 @@
     <CscFeature_GPS_SupportGoogleSupl2>TRUE</CscFeature_GPS_SupportGoogleSupl2>
     <CscFeature_Gallery_SkipOmaDrm>TRUE</CscFeature_Gallery_SkipOmaDrm>
     <CscFeature_Gallery_SupportVideoCallCrop>TRUE</CscFeature_Gallery_SupportVideoCallCrop>
-    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED</CscFeature_IMS_ConfigRcsFeatures>
     <CscFeature_IMS_ConfigVerUICCMobilitySpec>2.0</CscFeature_IMS_ConfigVerUICCMobilitySpec>
     <CscFeature_IMS_EnableEVS>TRUE</CscFeature_IMS_EnableEVS>
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
-    <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
     <CscFeature_IMS_SupportVolteDuringRoaming>TRUE</CscFeature_IMS_SupportVolteDuringRoaming>
