@@ -1,11 +1,11 @@
-/hidden/Common_app/AmazonShopping_Android_8.4.1.100_8.4.84.0-patron-release-signed-tagged-ao.apk
 /hidden/Common_app/app-official-googlePlayStore-release.5.3.12.148.apk
 /hidden/Common_app/DragonMania_FULL_Android_Generic_IGP_ORGL_ML_IAP_120_AQ49.apk
 /hidden/Common_app/ePresse-prod-googlePlay-release-4.2.7.apk
+/hidden/Common_app/MShopAndroidPhoneApp-8.9.99.1-patron-release-signed-mshop-android-orangefr-all-all-all-ao.apk
 /hidden/Common_app/mvv4.2.2-prod-release-signed-aligned.apk
 /hidden/Common_app/OCC-V7.2_192_prod_release_signed_aligned.apk
 /hidden/Common_app/orange-wallet-orange_fr-prod-release-signed-aligned-319.apk
 /hidden/Common_app/otvp-v14-20160810-6.1.1-signed-aligned.apk
 /hidden/Common_app/pocket-oem-release-signed_aligned-3.1.0-3100-61.apk
 /hidden/Common_app/PuzzlePets_FULL_Android_Generic_IGP_ORGL_ML_IAP_112_AW51.apk
-/hidden/Common_app/SpiderManUltimatePower_FULL_Android_Generic_IGP_ORGL_ML_IAP_120_AO03.apk
+/hidden/Common_app/SpiderManUltimatePower_FULL_Android_Generic_IGP_ORGL_ML_IAP_125_AO03.apk

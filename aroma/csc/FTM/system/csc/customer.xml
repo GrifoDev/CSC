@@ -582,7 +582,7 @@
       </Email>
     </Messages>
     <Wifi>
-      <SleepPolicy>plugged</SleepPolicy>
+      <SleepPolicy>always</SleepPolicy>
     </Wifi>
     <GPS>
       <GPSActivation>off</GPSActivation>
@@ -688,11 +688,14 @@
     <Connections>
       <NbProfileHandle>3</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>6</NbNetProfile>
         <NetworkName>Orange F</NetworkName>
         <ProfBrowser>Orange World</ProfBrowser>
         <ProfMMS>Orange MMS</ProfMMS>
         <ProfIntSharing>Orange Internet</ProfIntSharing>
+        <ProfIMS>Orange F IMS</ProfIMS>
+        <ProfEpdg>Orange F VoWiFi</ProfEpdg>
+        <ProfXCAP>Orange World</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -743,6 +746,23 @@
       <Profile>
         <NetworkName>Orange F</NetworkName>
         <Editable>no</Editable>
+        <ProfileName>Orange MMS</ProfileName>
+        <URL>http://mms.orange.fr/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>orange</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange F</NetworkName>
+        <Editable>no</Editable>
         <ProfileName>Orange entreprises</ProfileName>
         <URL>http://www.orange.fr/</URL>
         <Auth>normal</Auth>
@@ -767,21 +787,33 @@
       </Profile>
       <Profile>
         <NetworkName>Orange F</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
-        <ProfileName>Orange MMS</ProfileName>
-        <URL>http://mms.orange.fr/</URL>
+        <ProfileName>Orange F IMS</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange F</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Orange F VoWiFi</ProfileName>
+        <URL>http://mms.orange.fr/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1360</MTUSize>
+        <Bearer>iwlan</Bearer>
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>192.168.10.200</ServAddr>
           <Port>8080</Port>
         </Proxy>
         <PSparam>
-          <APN>orange.acte</APN>
-          <UserId>orange</UserId>
-          <Password>orange</Password>
+          <APN>vowifiorange</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -851,5 +883,32 @@
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>Orange F</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+        <VoLTE>
+          <EnableVoLTE>TRUE</EnableVoLTE>
+          <EnableVideocall>FALSE</EnableVideocall>
+          <EnableVoiceoverWIFI>TRUE</EnableVoiceoverWIFI>
+          <EnableVoLTEindicator>FALSE</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>IMSPSVoicePreferred</Voice_Domain_Preference_EUTRAN>
+          <Voice_Domain_Preference_UTRAN>CSVoiceOnly</Voice_Domain_Preference_UTRAN>
+          <Emregencycall_Domain>PS</Emregencycall_Domain>
+	  <SRVCCversion>10</SRVCCversion>
+
+          <SS_Domain_Preference>PS_ONLY_PSREGIED</SS_Domain_Preference>
+          <SS_PS_Control_Preference>XCAP</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>FALSE</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>CS</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>
