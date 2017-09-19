@@ -5,7 +5,7 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>G935FODD</CSCName>
-	<CSCVersion>1DQAZ</CSCVersion>
+	<CSCVersion>1DQE1</CSCVersion>
 	<NbCustomer>6</NbCustomer>
 	<CustomerData src="/Customer/INU/customer.xml" />
 	<CustomerData src="/Customer/INS/customer.xml" />

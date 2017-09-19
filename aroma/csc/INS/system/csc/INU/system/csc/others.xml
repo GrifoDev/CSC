@@ -31,6 +31,7 @@
     <CscFeature_RIL_DisableEons>TRUE</CscFeature_RIL_DisableEons>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
     <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
+    <CscFeature_RIL_SupportEmbms>TRUE</CscFeature_RIL_SupportEmbms>
 
    <!-- IMS -->
    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>

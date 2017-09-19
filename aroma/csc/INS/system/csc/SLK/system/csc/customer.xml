@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Sri Lanka</Country>
     <CountryISO>LK</CountryISO>
     <Region>SWA</Region>
@@ -72,9 +72,9 @@
         <NetworkName>Dhiraagu</NetworkName>
         <TelNum>700</TelNum>
       </Voicemail>
-<SMS>
-<ImeiTracker>on</ImeiTracker>
-</SMS>
+      <SMS>
+        <ImeiTracker>on</ImeiTracker>
+      </SMS>
       <MMS>
         <NbMMSView>1</NbMMSView>
         <MMSView>
@@ -99,10 +99,11 @@
     <Connections>
       <NbProfileHandle>7</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Dialog</NetworkName>
         <ProfBrowser>Dialog internet</ProfBrowser>
         <ProfMMS>KIT MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -139,7 +140,7 @@
         <ProfBrowser>DhiWAP</ProfBrowser>
         <ProfMMS>DhiMMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>13</NbProfile>
+      <NbProfile>14</NbProfile>
       <Profile>
         <NetworkName>Dialog</NetworkName>
         <Editable>yes</Editable>
@@ -154,6 +155,17 @@
         </Proxy>
         <PSparam>
           <APN>dialogbb</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Dialog</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -317,5 +329,26 @@
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>Dialog</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <SMSoIP_Domain>ps</SMSoIP_Domain>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>
