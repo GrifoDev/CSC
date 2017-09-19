@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Switzerland</Country>
     <CountryISO>CH</CountryISO>
     <Region>EUR</Region>
@@ -140,25 +140,10 @@
           <NetworkName>default</NetworkName>
           <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
-        <NbSOSNumber>2</NbSOSNumber>
-        <SOSNumber>112</SOSNumber>
-        <SOSNumber>117</SOSNumber>
-        <NbSOSNumberNoSIM>5</NbSOSNumberNoSIM>
-        <SOSNumberNoSIM>118</SOSNumberNoSIM>
-        <SOSNumberNoSIM>144</SOSNumberNoSIM>
-        <SOSNumberNoSIM>143</SOSNumberNoSIM>
-        <SOSNumberNoSIM>147</SOSNumberNoSIM>
-        <SOSNumberNoSIM>911</SOSNumberNoSIM>
       </Network>
-      <Sound>
-        <RngVolume>4</RngVolume>
-        <KeyTone>
-          <KeyVolume>2</KeyVolume>
-        </KeyTone>
-      </Sound>
       <Phone>
-        <DefLanguage>de_CH</DefLanguage>
-        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>de_DE</DefLanguageNoSIM>
         <T9Enabling>disable</T9Enabling>
         <DateTimeFormat>
           <DateFormat>ddmmyyyy</DateFormat>
@@ -281,6 +266,7 @@
         <IpVersion>ipv6</IpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom IMS</ProfileName>
+        <URL>ims</URL>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -524,11 +510,10 @@
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
         <RCS>
           <EnableRCS>false</EnableRCS>
-          <EnableRCSchat>false</EnableRCSchat>
         </RCS>
       </Setting>
       <Setting>
@@ -542,10 +527,12 @@
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
       <Setting>
@@ -561,15 +548,10 @@
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>cs_always</SS_Domain_Preference>
-          <SS_PS_Control_Preference>sip</SS_PS_Control_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
-        <RCS>
-          <EnableRCS>false</EnableRCS>
-          <EnableRCSchat>false</EnableRCSchat>
-        </RCS>
       </Setting>
       <Setting>
         <NetworkName>Sunrise</NetworkName>
@@ -582,7 +564,8 @@
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <EnableSMSoverIP>true</EnableSMSoverIP>
