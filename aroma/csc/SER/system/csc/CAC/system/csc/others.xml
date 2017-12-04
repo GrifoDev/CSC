@@ -34,5 +34,11 @@
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_RIL_DefTimeZoneHandling>ENABLE</CscFeature_RIL_DefTimeZoneHandling>
     <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
+    
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+       
+    
+    
   </FeatureSet>
 </SamsungMobileFeature>

@@ -47,9 +47,10 @@
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_Setting_SupportWifiCall>true</CscFeature_Setting_SupportWifiCall>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,ShowPrefModeMenuSim_25001;</CscFeature_RIL_ConfigEpdgExtraFunction> 
-
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS,ShowPrefModeMenuSim_25001_25002;</CscFeature_RIL_ConfigEpdgExtraFunction> 
+  
     <CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>false</CscFeature_RIL_SupportEpdgOnAirplaneMode> 
     <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe> 
@@ -59,15 +60,18 @@
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
     
     <CscFeature_RIL_ConfigProvideCellInfo>enable</CscFeature_RIL_ConfigProvideCellInfo>
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     
     <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
 
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,SilentMode,Bluetooth,RotationLock,Flashlight,PowerSaving,MobileData,WifiCalling,AirplaneMode,Performance,BlueLightFilter,WifiHotspot,PersonalMode,Location,Nfc,Aod,AllShareCast,DeviceVisibility,DormantMode,Sync</CscFeature_SystemUI_ConfigDefQuickSettingItem>  
-
+		<CscFeature_SystemUI_ConfigQuickSettingPopup>SER</CscFeature_SystemUI_ConfigQuickSettingPopup>
+    
     <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
     
     <CscFeature_VoiceCall_SupportShowVowifiEndCall>true</CscFeature_VoiceCall_SupportShowVowifiEndCall>
+    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
 
   </FeatureSet>
 </SamsungMobileFeature>
