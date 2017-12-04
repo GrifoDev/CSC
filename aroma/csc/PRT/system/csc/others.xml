@@ -19,6 +19,7 @@
 	<CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
 	<CscFeature_Contact_ConfigImsOpStyle>PRT</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,Location,SilentMode,RotationLock,Bluetooth,MobileData,WifiCalling,PowerSaving,AirplaneMode,Flashlight,DormantMode,UltraPowerSaving,WifiHotspot,PersonalMode,AllShareCast,Nfc,Sync,SFinder</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+    <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>All</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>

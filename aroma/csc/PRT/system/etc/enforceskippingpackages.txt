@@ -1,5 +1,5 @@
 12
-CatchFavorites_N.apk
+YahooEdgeNews.apk
 FlipboardBriefing.apk
 SamsungPayStub.apk
 smartcallprovider-open-release.apk

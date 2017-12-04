@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Poland</Country>
     <CountryISO>PL</CountryISO>
     <Region>EUR</Region>
     <SalesCode>PRT</SalesCode>
-    <NbNetworkInfo>1</NbNetworkInfo>
+    <NbNetworkInfo>2</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>26006</MCCMNC>
       <NetworkName>PLAY</NetworkName>
+      <NWID>NW01006</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26098</MCCMNC>
+      <NetworkName>PLAY</NetworkName>
+      <NWID>NW01006</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -164,12 +170,13 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>PLAY</NetworkName>
         <ProfBrowser>PLAY Internet</ProfBrowser>
         <ProfMMS>PLAY MMS</ProfMMS>
         <ProfIntSharing>PLAY Internet</ProfIntSharing>
         <ProfIMS>PLAY IMS</ProfIMS>
+        <ProfXCAP>PLAY XCAP</ProfXCAP>
       </ProfileHandle>
       <NbProfile>4</NbProfile>
       <Profile>
@@ -221,8 +228,12 @@
         <Editable>yes</Editable>
         <ProfileName>PLAY XCAP</ProfileName>
         <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1400</MTUSize>
+        <Bearer>ps</Bearer>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
         <PSparam>
           <APN>xcap</APN>
         </PSparam>
@@ -242,7 +253,7 @@
           <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
