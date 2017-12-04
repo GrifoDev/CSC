@@ -1,1 +1,2 @@
+/system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk
 /system/app/TelstraOne_Telstra_release_5_1_0_12085a_signed_za/TelstraOne_Telstra_release_5_1_0_12085a_signed_za.apk

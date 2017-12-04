@@ -83,14 +83,15 @@
     <CscFeature_RIL_ConfigFixedApn>dun</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
-    <CscFeature_RIL_ConfigEmergencyApn>,IPV4V6,IPV4V6,LTE</CscFeature_RIL_ConfigEmergencyApn>
+    <CscFeature_RIL_ConfigEmergencyApn>ims,IPV4V6,IPV4V6,IWLAN</CscFeature_RIL_ConfigEmergencyApn>
     <CscFeature_RIL_ConfigNetworkNameForEpdg>Telstra</CscFeature_RIL_ConfigNetworkNameForEpdg>
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
-    <CscFeature_IMS_EnableRCSe>FALSE</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableRCSPresence>FALSE</CscFeature_IMS_EnableRCSPresence>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED|BASIC_PROFILE</CscFeature_IMS_ConfigRcsFeatures>
     <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
     <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
     <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
@@ -120,5 +121,14 @@
     <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>TEL</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
+    <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
+    <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_RIL_SupportRegistrationLocationInfo>TRUE</CscFeature_RIL_SupportRegistrationLocationInfo>
+    <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
+    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_Setting_HideApnList>sos</CscFeature_Setting_HideApnList>
+    <CscFeature_RIL_ConfigEccListDuringEncryptionMode>505</CscFeature_RIL_ConfigEccListDuringEncryptionMode>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>EndPreviousCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>	
   </FeatureSet>
 </SamsungMobileFeauture>

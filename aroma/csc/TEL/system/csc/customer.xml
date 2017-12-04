@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Australia</Country>
     <CountryISO>AU</CountryISO>
     <Region>SEA</Region>
@@ -435,14 +435,13 @@
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <SMSoIP_Domain>cs</SMSoIP_Domain>
           <EnableSMSoverIP>false</EnableSMSoverIP>
         </VoLTE>
         <RCS>
-          <EnableRCS>false</EnableRCS>
-          <EnableRCSchat>false</EnableRCSchat>
+          <EnableRCS>true</EnableRCS>
+          <EnableRCSchat>true</EnableRCSchat>
         </RCS>
       </Setting>
     </IMSSetting>
