@@ -534,7 +534,7 @@
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>false</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <USSD_Domain_Preference>pscs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>
       <Setting>

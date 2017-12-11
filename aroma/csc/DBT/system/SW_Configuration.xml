@@ -5,7 +5,7 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>G935FDBT</CSCName>
-	<CSCVersion>1DQD1</CSCVersion>
+	<CSCVersion>1DQJ1</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/DBT/customer.xml" />
 	</CustomerDataSet>
