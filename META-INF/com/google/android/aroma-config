@@ -277,6 +277,7 @@ form(
   # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
   #-------------+--------+-------------------------------------------------------+---------------#
 	"CSC",		"CSC Selection",	"",							"group",
+	"3IE",		"3IE",			"Ireland Three branded",				"select",
 	"AMO",		"AMO",			"Spain orange branded",					"select",
 	"ATO",		"ATO",			"Austria Open unbranded",				"select",
 	"AUT",		"AUT",			"Switzerland unbranded",				"select",

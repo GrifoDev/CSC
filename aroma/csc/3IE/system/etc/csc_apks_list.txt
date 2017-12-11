@@ -1,0 +1,4 @@
+/system/priv-app/3Plus_release_v1.3.8(27)/3Plus_release_v1.3.8(27).apk
+/system/priv-app/appcloud_oobe_hutchison-release_V2.15/appcloud_oobe_hutchison-release_V2.15.apk
+/system/priv-app/eBayMobile-5.7.0.10-normal-release/eBayMobile-5.7.0.10-normal-release.apk
+/system/priv-app/i-1.0.0.7-77.apk/idapk-1.0.0.7-77.apk

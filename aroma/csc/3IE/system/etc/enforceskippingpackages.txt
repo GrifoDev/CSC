@@ -1,0 +1,17 @@
+16
+FlipboardBriefing.apk
+SamsungPayStub.apk
+GalaxyCare.apk
+smartcallprovider-open-release.apk
+CnnPanel.apk
+NaverV_N.apk
+AuthService_v1.apk
+FidoUafAsm_v15.apk
+FidoUafClient_v15.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk
+ImsTelephonyService.apk
+SamsungUpdates.apk
+OMCAgent.apk
+vsimservice.apk

@@ -1,0 +1,51 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeature>
+  <Version>ED00004</Version>
+  <Country>IRELAND</Country>
+  <CountryISO>IE</CountryISO>
+  <SalesCode>3IE</SalesCode>
+  <FeatureSet>
+    <CscFeature_Contact_ANRConfig>1</CscFeature_Contact_ANRConfig>
+    <CscFeature_GMS_SetClientIDBaseAm>android-h3g-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseGmm>android-samsung</CscFeature_GMS_SetClientIDBaseGmm>
+    <CscFeature_GMS_SetClientIDBaseMs>android-h3g-{country}</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBaseYt>android-samsung</CscFeature_GMS_SetClientIDBaseYt>
+    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
+    <CscFeature_RIL_CallCsVtSupport>TRUE</CscFeature_RIL_CallCsVtSupport>
+    <CscFeature_RIL_ConfigAlwaysOnApn>mms_home</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigFixedApn>mms</CscFeature_RIL_ConfigFixedApn>    
+    <CscFeature_RIL_ConfigNetworkTypeCapability>EUR-EUR-GSM-EUR</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_CpBaseFd>FALSE</CscFeature_RIL_CpBaseFd>
+    <CscFeature_RIL_DataPrefDataTechSnapShot>FALSE</CscFeature_RIL_DataPrefDataTechSnapShot>
+    <CscFeature_RIL_DisableEditingVMNumber>TRUE</CscFeature_RIL_DisableEditingVMNumber>
+    <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
+    <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
+    <CscFeature_RIL_DisplayRatInfoInManualNetSearchList>TRUE</CscFeature_RIL_DisplayRatInfoInManualNetSearchList>
+    <CscFeature_RIL_EnableChangeDefaultPdn>FALSE</CscFeature_RIL_EnableChangeDefaultPdn>
+    <CscFeature_RIL_FakeRoamingOption4>2GNRP</CscFeature_RIL_FakeRoamingOption4>
+    <CscFeature_RIL_GcfSor>TRUE</CscFeature_RIL_GcfSor>
+    <CscFeature_RIL_ImsPdnRetryTimeChange>FALSE</CscFeature_RIL_ImsPdnRetryTimeChange>
+    <CscFeature_RIL_PDPRetryMechanism4>H3G</CscFeature_RIL_PDPRetryMechanism4>
+    <CscFeature_RIL_ReferEonsWithoutLac>TRUE</CscFeature_RIL_ReferEonsWithoutLac>
+    <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
+    <CscFeature_RIL_SignalstrengthPolicy>0</CscFeature_RIL_SignalstrengthPolicy>
+    <CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>TRUE</CscFeature_RIL_SmsLoadShortcodeFromResourceOnly>
+    <CscFeature_RIL_SupportImsClirOverriding>TRUE</CscFeature_RIL_SupportImsClirOverriding>
+    <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
+    <CscFeature_Setting_DataRoamingOption>national</CscFeature_Setting_DataRoamingOption>
+    <CscFeature_Setting_EnableDataRoamingMenuInDetail>TRUE</CscFeature_Setting_EnableDataRoamingMenuInDetail>
+    <CscFeature_Setting_EnableModemResetDuringFactoryReset>TRUE</CscFeature_Setting_EnableModemResetDuringFactoryReset>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Web_SetUAProfile>http://wap.samsungmobile.com/uaprof/uaprof.rdf</CscFeature_Web_SetUAProfile>
+
+	<CscFeature_Launcher_DefaultPageNumber>1</CscFeature_Launcher_DefaultPageNumber>  
+    <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
+	<CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
+
+  </FeatureSet>
+</SamsungMobileFeature>
