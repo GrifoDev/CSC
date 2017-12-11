@@ -10,9 +10,13 @@ if grep -q "ro.build.version.release=6.0.1" /tmp/version; then
 else if grep -q "ro.build.version.release=7.0" /tmp/version; then
 	echo "Android 7.0 detected"
 	sed -i -- "s/MM/N/g" /tmp/aroma/android.prop
+else if grep -q "ro.build.version.release=7.1.1" /tmp/version; then
+	echo "Android 7.1.1 detected"
+	sed -i -- "s/MM/N/g" /tmp/aroma/android.prop
 else
 	echo "Android version could not be found"
 	sed -i -- "s/MM/nothing/g" /tmp/aroma/android.prop
+fi
 fi
 fi
 
