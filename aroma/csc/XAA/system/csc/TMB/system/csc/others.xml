@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00018</Version>
+  <Version>ED00020</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>TMB</SalesCode>
@@ -182,16 +182,16 @@
     <CscFeature_VoiceCall_ConfigOpStyleForCallerId>ECID</CscFeature_VoiceCall_ConfigOpStyleForCallerId>
     <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,BlockAddCall,CSRetry,E911Wificall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>NOHD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
+    <CscFeature_VoiceCall_ConfigOpStyleForImsFunction>VoLTE_preferred_in_EPS_Only</CscFeature_VoiceCall_ConfigOpStyleForImsFunction>
     <CscFeature_VoiceCall_ConfigOpStyleForLocalDtmf>ALWAYS</CscFeature_VoiceCall_ConfigOpStyleForLocalDtmf>
     <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingTMO</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification,NetworkSetting_TMO</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceCall_ConfigOpStyleForRingBackTone>USACDMA</CscFeature_VoiceCall_ConfigOpStyleForRingBackTone>
-    <CscFeature_VoiceCall_ConfigOpStyleForVolte>TMB_VOLTE,USA_VOLTE</CscFeature_VoiceCall_ConfigOpStyleForVolte>
+    <CscFeature_VoiceCall_ConfigOpStyleForVolte>TMB_VOLTE,USA_VOLTE,ADD_VOLTE_OUTGOING_SETTING,WIRELESS_PRI_SVC_FOR_PSCALL</CscFeature_VoiceCall_ConfigOpStyleForVolte>
     <CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>-cdmasystemselect</CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>
     <CscFeature_VoiceCall_ConfigVolteCallWaitingSource>network</CscFeature_VoiceCall_ConfigVolteCallWaitingSource>
     <CscFeature_VoiceCall_DisableCallTransfer>TRUE</CscFeature_VoiceCall_DisableCallTransfer>
-    <CscFeature_VoiceCall_DisableImsConfManage>disable</CscFeature_VoiceCall_DisableImsConfManage>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportHoldUiForVolte>TRUE</CscFeature_VoiceCall_SupportHoldUiForVolte>
     <CscFeature_VoiceCall_SupportMenuForVoicePrivacy>TRUE</CscFeature_VoiceCall_SupportMenuForVoicePrivacy>

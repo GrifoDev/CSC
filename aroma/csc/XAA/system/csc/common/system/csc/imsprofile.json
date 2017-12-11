@@ -1,5 +1,5 @@
 {
-  "version": 161,
+  "version": 162,
   "profile": [
     {
       "name": "default",
@@ -3438,6 +3438,7 @@
       "publish_expiry": 21600,
       "anonymous_fetch": true,
       "sip_mobility": 1,
+      "support_roaming": true,
       "network": [
         {
           "type": "lte,wifi",

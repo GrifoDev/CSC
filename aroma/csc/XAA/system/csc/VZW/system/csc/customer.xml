@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>USA</Country>
     <CountryISO>US</CountryISO>
     <Region>NA</Region>
     <SalesCode>VZW</SalesCode>
-    <NbNetworkInfo>15</NbNetworkInfo>
+    <NbNetworkInfo>21</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>311480</MCCMNC>
       <NetworkName>VZW</NetworkName>
@@ -87,6 +87,42 @@
       <MCCMNC>311390</MCCMNC>
       <NetworkName>VZW</NetworkName>
       <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01240000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01460000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01480000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01390000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01420000000000</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>VZW</NetworkName>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01500000000000</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>

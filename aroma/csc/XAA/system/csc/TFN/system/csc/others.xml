@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00016</Version>
+  <Version>ED00017</Version>
   <Country>USA</Country>
   <CountryISO>US</CountryISO>
   <SalesCode>TFN</SalesCode>
@@ -39,6 +39,7 @@
     <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,on</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Common_SupportHuxAppDirectedSms>TRUE</CscFeature_Common_SupportHuxAppDirectedSms>
     <CscFeature_Common_SupportMinimizedSip>TRUE</CscFeature_Common_SupportMinimizedSip>
     <CscFeature_Common_SupportNextRadio>TRUE</CscFeature_Common_SupportNextRadio>
     <CscFeature_Common_SupportSamsungAdId>TRUE</CscFeature_Common_SupportSamsungAdId>
