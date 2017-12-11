@@ -247,14 +247,28 @@ endif;
 if prop("menu.prop","selected")=="1" then
 # Write tmp file Android check
 writetmpfile("android.prop","version=MM");
+# Write tmp file Rom check
+writetmpfile("rom.prop","version=s7");
 # Execute script to check android version
 resexec("check/androidcheck.sh");
+# Execute script to check rom
+resexec("check/romcheck.sh");
 
 if prop("android.prop","version")=="MM" then
 alert("Warning", "I've detected that you run a 6.0.1 Marshmallow build. Please be aware that this CSC selection is made for 7.0 and may have some issues with MM!");
 endif;
 if prop("android.prop","version")=="nothing" then
-alert("Warning", "You are not running MM (6.0.1) on your phone. Please note that you will may have issues with this tool since your Android version is not supported!");
+alert("Warning", "Your android version could be verified, that means your setup may not be supported by this selection!");
+endif;
+
+if prop("rom.prop","version")=="s8" then
+alert("Warning", "I've detected that you run a S8 Ported rom, however this csc selection has been made for s7 based roms! Flashing this on S8 roms will result in not working features/force closes!");
+endif;
+if prop("rom.prop","version")=="n8" then
+alert("Warning", "I've detected that you run a N8 Ported rom, however this csc selection has been made for s7 based roms! Flashing this on N8 roms will result in not working features/force closes!");
+endif;
+if prop("android.prop","version")=="nothing" then
+alert("Warning", "Your rom version couldn't be verified, please note that this csc selection maybe isn't fully compatible with your setup.");
 endif;
 
 alert( "Attention", "I'm not responsible for any bloatware you may get on your phone, depending on which csc you choose!");
