@@ -1,0 +1,5 @@
+/hidden/Common_app/MShopAndroidPhoneApp-6.8.59.0-patron-release-releasesigned_6.8.0.100.apk
+/hidden/Common_app/MyTIM_Mobile_4.2.4[SMARTPHONE+TABLET]6Ready.apk
+/hidden/Common_app/SelectedbyTim_3.0.2[SMARTPHONE+TABLET]6Ready.apk
+/hidden/Common_app/Serie_A_TIM_v4.10.1[SMARTPHONE+TABLET]6Ready.apk
+/hidden/Common_app/TIMVision_6.0.17[SMARTPHONE+TABLET]6Ready.apk

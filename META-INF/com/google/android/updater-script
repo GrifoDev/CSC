@@ -688,6 +688,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "TIM"
+	then
+		ui_print("Installing TIM CSC...");
+		package_extract_dir("aroma/csc/TIM/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "TMH"
 	then
 		ui_print("Installing TMH CSC...");

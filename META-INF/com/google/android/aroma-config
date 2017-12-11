@@ -326,6 +326,7 @@ form(
 	"TEN",		"TEN",			"Norway Telenor branded",				"select",
 	"TGY",		"TGY",			"HongKong unbranded",					"select",
 	"THL",		"THL",			"Thailand Multi-CSC contains: CAM, GLB, MM1, MYM, SIN, SMA, STH, THL, XME, XSP, XTC, XTE, XXV",		"select",
+	"TIM",		"TIM",			"Italy Tim branded",					"select",
 	"TMH",		"TMH",			"Hungary Telekom branded",				"select",
 	"TMS",		"TMS",			"Slovak unbranded",					"select",
 	"TMZ",		"TMZ",			"Czech T-Mobile branded",				"select",
