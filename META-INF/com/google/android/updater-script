@@ -312,6 +312,12 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "DRE"
+	then
+		ui_print("Installing DRE CSC...");
+		package_extract_dir("aroma/csc/DRE/system", "/system");
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "ETL"
 	then
 		ui_print("Installing ETL CSC...");

@@ -292,6 +292,7 @@ form(
 	"DHR",		"DHR",			"Croatia branded Multi-CSC contains: CRO, DHR",		"select",
 	"DNL",		"DNL",			"Netherland branded Multi-CSC contains: DNL, TNL",	"select",
 	"DPL",		"DPL",			"Poland branded Multi-CSC contains: DPL, TPL",		"select",
+	"DRE",		"DRE",			"Austria 3 Hutchison branded",				"select",
 	"ETL",		"ETL",			"Czech Republic unbranded",				"select",
 	"EUR",		"EUR",			"Greece unbranded",					"select",
 	"EVR",		"EVR",			"United Kingdom EE branded",				"select",

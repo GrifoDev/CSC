@@ -1,0 +1,7 @@
+/system/priv-app/1_Planet3Launcher-v2.0.0-vc14/1_Planet3Launcher-v2.0.0-vc14.apk
+/system/priv-app/2_3Kundenzone-v2.2.0-vc35/2_3Kundenzone-v2.2.0-vc35.apk
+/system/priv-app/3_3MobileTV-v3.2.1-b20000026-signed_aligned/3_3MobileTV-v3.2.1-b20000026-signed_aligned.apk
+/system/priv-app/4_3Film-production-release-v3.2.2-b44-signed_aligned/4_3Film-production-release-v3.2.2-b44-signed_aligned.apk
+/system/priv-app/5_3Kiosk-v1.3.5-vc16/5_3Kiosk-v1.3.5-vc16.apk
+/system/priv-app/6_3_Spotify_v1.1-vc4/6_3_Spotify_v1.1-vc4.apk
+/system/priv-app/appcloud_oobe_hutchison-release_V2.15/appcloud_oobe_hutchison-release_V2.15.apk
