@@ -1,0 +1,3 @@
+/hidden/app/CarsRacing_Samsung_Hero2_IGP_TS_LATAM_ML_101.apk
+/hidden/app/IceAgeScratVentures_Samsung_Hero2_IGP_LATAM_ML_102.apk
+/hidden/app/SpiderManUltimatePower_Samsung_Hero2_IGP_LATAM_ML_101_CU21.apk

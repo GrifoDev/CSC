@@ -218,6 +218,37 @@ if
 endif;
 endif;
 if
+	file_getprop("/tmp/aroma/csc.prop","CSC") == "CHV"
+	then
+		ui_print("Installing CHV CSC...");
+		package_extract_dir("aroma/csc/CHV/system", "/system");
+		delete_recursive("/system/csc");
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "CHV"
+	then
+		ui_print("Installing CHV CSC...");
+		package_extract_dir("aroma/csc/CHV/system/csc/CHV/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "CHX"
+	then
+		ui_print("Installing CHX CSC...");
+		package_extract_dir("aroma/csc/CHV/system/csc/CHX/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "COD"
+	then
+		ui_print("Installing COD CSC...");
+		package_extract_dir("aroma/csc/CHV/system/csc/COD/system", "/system");
+endif;
+if
+	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "COE"
+	then
+		ui_print("Installing COE CSC...");
+		package_extract_dir("aroma/csc/CHV/system/csc/COE/system", "/system");
+endif;
+endif;
+if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "COS"
 	then
 		ui_print("Installing COS CSC...");

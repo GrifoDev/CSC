@@ -286,6 +286,7 @@ form(
 	"BTU",		"BTU",			"Europe Multi-CSC contains: BTU, CPW, DBT, ITV, KOR, NEE, XEF, XEO, XEU",	"select",
 	"CHC",		"CHC",			"Chinese unbranded (Qualcom, make EFS backup!)",	"select",
 	"CHT",		"CHT",			"South America branded Multi-CSC contains: CHT, COB, CRM, EBE, MMO, NBS, PBS, SAM, TGU, TMM, UFN, UFU",	"select",
+	"CHV",		"CHV",			"Chile branded Multi-CSC contains: CHV, CHX, COD, COE",	"select",
 	"COS",		"COS",			"Greece Cosmote branded",				"select",
 	"DBT",		"DBT",			"Germany unbranded",					"select",
 	"DDE",		"DDE",			"Germany branded Multi-CSC contains: DCO, DDE, DTM",	"select",
@@ -416,6 +417,32 @@ form(
 	"TMM",		"TMM",			"Mexico Movistar branded",				"select",
 	"UFN",		"UFN",			"Argentina Movistar branded",				"select",
 	"UFU",		"UFU",			"Uruguay Movistar branded",				"select"
+);
+endif;
+if prop("csc.prop","CSC")=="CHV" then
+form(
+    "Multi-CSC",
+    "You have selected a multi-csc!",
+    "icons/install",
+    "cscmulti.prop",
+  #
+  # Type:
+  #  - group              = Group
+  #  - select             = Select Item
+  #  - select.selected    = Selected Select Item
+  #  - check              = Checkbox Item
+  #  - check.checked      = Checked Checkbox Item
+  #  - hide               = Hidden
+  #
+  #-------------+-----------------------[ Selectbox Without Group ]------------------------------#
+  # PROP ID     | TITLE            |  SUBTITLE                                   |    Type       #
+  #-------------+--------+-------------------------------------------------------+---------------#
+	"CSC",		"Chile branded Multi-CSC",	"",						"group",
+	"CHV",		"CHV",			"Chile VTR branded (default)",				"select.selected",
+	"CHX",		"CHX",			"Chile WOM branded",					"select",
+	"COD",		"COD",			"Colombia branded (unknown)",				"select",
+	"COE",		"COE",			"Colombia ETB branded",					"select"
+
 );
 endif;
 if prop("csc.prop","CSC")=="DDE" then
