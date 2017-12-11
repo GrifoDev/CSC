@@ -1,12 +1,12 @@
 12
 SamsungPayStub.apk
+AxelSpringer.apk
 smartcallprovider-open-release.apk
 CnnPanel.apk
 NaverV_N.apk
 AuthService_v1.apk
 FidoUafAsm_v15.apk
 FidoUafClient_v15.apk
-AxelSpringer.apk
 MSSkype_stub.apk
 SamsungUpdates.apk
 OMCAgent.apk

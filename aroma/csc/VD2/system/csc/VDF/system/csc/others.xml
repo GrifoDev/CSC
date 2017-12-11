@@ -78,5 +78,7 @@
   <CscFeature_Setting_HideApnList>IMS,ims</CscFeature_Setting_HideApnList>
   <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+  <CscFeature_IMS_EnableEVS>true</CscFeature_IMS_EnableEVS>
+  <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
  </FeatureSet>
 </SamsungMobileFeauture>
