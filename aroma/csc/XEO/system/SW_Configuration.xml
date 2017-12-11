@@ -4,17 +4,9 @@
 	<PublicName>SM-G935F</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>G935FOXX</CSCName>
-	<CSCVersion>1DQB1</CSCVersion>
-	<NbCustomer>9</NbCustomer>
-	<CustomerData src="/Customer/BGL/customer.xml" />
-	<CustomerData src="/Customer/CYO/customer.xml" />
-	<CustomerData src="/Customer/ROM/customer.xml" />
-	<CustomerData src="/Customer/SEE/customer.xml" />
-	<CustomerData src="/Customer/SIO/customer.xml" />
-	<CustomerData src="/Customer/TWO/customer.xml" />
-	<CustomerData src="/Customer/XEH/customer.xml" />
+	<CSCName>G935FXEO</CSCName>
+	<CSCVersion>1DQJ3</CSCVersion>
+	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/XEO/customer.xml" />
-	<CustomerData src="/Customer/VIM/customer.xml" />
 	</CustomerDataSet>
 </SW-Configuration>

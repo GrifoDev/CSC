@@ -1220,61 +1220,6 @@ if
 	then
 		ui_print("Installing XEO CSC...");
 		package_extract_dir("aroma/csc/XEO/system", "/system");
-		delete_recursive("/system/csc");
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "BGL"
-	then
-		ui_print("Installing BGL CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/BGL/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "CYO"
-	then
-		ui_print("Installing CYO CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/CYO/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "ROM"
-	then
-		ui_print("Installing ROM CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/ROM/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "SEE"
-	then
-		ui_print("Installing SEE CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/SEE/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "SIO"
-	then
-		ui_print("Installing SIO CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/SIO/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "TWO"
-	then
-		ui_print("Installing TWO CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/TWO/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "VIM"
-	then
-		ui_print("Installing VIM CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/VIM/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "XEH"
-	then
-		ui_print("Installing XEH CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/XEH/system", "/system");
-endif;
-if
-	file_getprop("/tmp/aroma/cscmulti.prop","CSC") == "XEO"
-	then
-		ui_print("Installing XEO CSC...");
-		package_extract_dir("aroma/csc/XEO/system/csc/XEO/system", "/system");
-endif;
 endif;
 if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "XID"

@@ -9,7 +9,7 @@ getprop ro.boot.bootloader >> /tmp/variant
 ACTUAL_CSC=`cat /efs/imei/mps_code.dat`
 SALES_CODE=`cat /system/csc/sales_code.dat`
 
-if grep -q  'CSC=BTU\|CSC=CHT\|CSC=DDE\|CSC=DHR\|CSC=DNL\|CSC=DPL\|CSC=ILO\|CSC=INS\|CSC=SER\|CSC=TTR\|CSC=THL\|CSC=UPO\|CSC=VD2\|CSC=VIA\|CSC=XAA\|CSC=XAC\|CSC=XEO\|CSC=XSG' /tmp/aroma/csc.prop; then
+if grep -q  'CSC=BTU\|CSC=CHT\|CSC=DDE\|CSC=DHR\|CSC=DNL\|CSC=DPL\|CSC=ILO\|CSC=INS\|CSC=SER\|CSC=TTR\|CSC=THL\|CSC=UPO\|CSC=VD2\|CSC=VIA\|CSC=XAA\|CSC=XAC\|CSC=XSG' /tmp/aroma/csc.prop; then
 	echo "cscmulti.prop found"
 	sed -i -- "s/CSC=//g" /tmp/aroma/cscmulti.prop
 	NEW_CSC=`cat /tmp/aroma/cscmulti.prop`

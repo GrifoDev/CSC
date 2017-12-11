@@ -1,2 +1,0 @@
-/system/priv-app/legimi-samsung-stub-20160406/legimi-samsung-stub-20160406.apk
-/system/priv-app/player-production-release-3.3.3-newSDK_23/player-production-release-3.3.3-newSDK_23.apk
