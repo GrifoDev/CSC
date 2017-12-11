@@ -48,12 +48,6 @@ if
 		package_extract_dir("aroma/csc/ATO/system", "/system");
 endif;
 if
-	file_getprop("/tmp/aroma/csc.prop","CSC") == "ATT"
-	then
-		ui_print("Installing ATT CSC...");
-		package_extract_dir("aroma/csc/ATT/system", "/system");
-endif;
-if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "AUT"
 	then
 		ui_print("Installing AUT CSC...");
@@ -686,12 +680,6 @@ if
 		ui_print("Installing XXV CSC...");
 		package_extract_dir("aroma/csc/THL/system/csc/XXV/system", "/system");
 endif;
-endif;
-if
-	file_getprop("/tmp/aroma/csc.prop","CSC") == "TMB"
-	then
-		ui_print("Installing TMB CSC...");
-		package_extract_dir("aroma/csc/TMB/system", "/system");
 endif;
 if
 	file_getprop("/tmp/aroma/csc.prop","CSC") == "TMH"
