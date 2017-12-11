@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0017</CSCEdition>
+    <CSCEdition>ED0020</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,181 +10,217 @@
     <NetworkInfo>
       <MCCMNC>302610</MCCMNC>
       <NetworkName>Bell-Internet</NetworkName>
+      <NWID>NW00205</NWID>
       <SubsetCode>61</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302780</MCCMNC>
       <NetworkName>SaskTel</NetworkName>
+      <NWID>NW01084</NWID>
       <SubsetCode>90</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Koodo</NetworkName>
+      <NWID>NW00660</NWID>
       <SubsetCode>75</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Koodo</NetworkName>
+      <NWID>NW00660</NWID>
       <SubsetCode>75</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>PC mobile</NetworkName>
+      <NWID>NW00967</NWID>
       <SubsetCode>80</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>PC mobile</NetworkName>
+      <NWID>NW00967</NWID>
       <SubsetCode>80</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Telus</NetworkName>
+      <NWID>NW01279</NWID>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Telus</NetworkName>
+      <NWID>NW01279</NWID>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>Rogers</NetworkName>
+      <NWID>NW01066</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>30272</MCCMNC>
       <NetworkName>Rogers</NetworkName>
+      <NWID>NW01066</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302370</MCCMNC>
       <NetworkName>Fido</NetworkName>
+      <NWID>NW00509</NWID>
       <SubsetCode>221</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>30237</MCCMNC>
       <NetworkName>Fido</NetworkName>
+      <NWID>NW00509</NWID>
       <SubsetCode>221</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302660</MCCMNC>
       <NetworkName>MTA</NetworkName>
+      <NWID>NW00803</NWID>
       <SubsetCode>44</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302370</MCCMNC>
       <NetworkName>MTA</NetworkName>
+      <NWID>NW00803</NWID>
       <SubsetCode>44</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Public Mobile</NetworkName>
+      <NWID>NW01034</NWID>
       <SubsetCode>77</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Public Mobile</NetworkName>
+      <NWID>NW01034</NWID>
       <SubsetCode>77</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>CTF</NetworkName>
+      <NWID>NW00367</NWID>
       <SubsetCode>204</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>TBT</NetworkName>
+      <NWID>NW01210</NWID>
       <SubsetCode>186</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302490</MCCMNC>
       <NetworkName>WIND Mobile</NetworkName>
+      <NWID>NW01546</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22201</MCCMNC>
       <NetworkName>WIND Mobile</NetworkName>
+      <NWID>NW01546</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22288</MCCMNC>
       <NetworkName>WIND Mobile</NetworkName>
+      <NWID>NW01546</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302500</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20404</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302510</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302500</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302270</MCCMNC>
       <NetworkName>Eastlink</NetworkName>
+      <NWID>NW00452</NWID>
       <SubsetCode>182</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20601</MCCMNC>
       <NetworkName>Eastlink</NetworkName>
+      <NWID>NW00452</NWID>
       <SubsetCode>182</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302320</MCCMNC>
       <NetworkName>Mobilicity</NetworkName>
+      <NWID>NW00750</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20404</MCCMNC>
       <NetworkName>Mobilicity</NetworkName>
+      <NWID>NW00750</NWID>
       <SubsetCode>82</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302320</MCCMNC>
       <NetworkName>Mobilicity</NetworkName>
+      <NWID>NW00750</NWID>
       <SubsetCode>82</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>chatr</NetworkName>
+      <NWID>NW00231</NWID>
       <SPCode>94</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>chatr</NetworkName>
+      <NWID>NW00231</NWID>
       <SubsetCode>210</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>ztar</NetworkName>
+      <NWID>NW01581</NWID>
       <SPCode>98</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>ztar</NetworkName>
+      <NWID>NW01581</NWID>
       <SubsetCode>212</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302520</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>ztar</NetworkName>
+      <NWID>NW01581</NWID>
       <SubsetCode>212</SubsetCode>
       <SPCode>98</SPCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>  
+      <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
@@ -441,7 +477,7 @@
         <Editable>yes</Editable>
         <Index>1</Index>
         <BookmarkName>TELUS Web</BookmarkName>
-        <URL>http://m.telusmobility.com</URL>
+        <URL>http://www.telusmobility.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Telus</NetworkName>
@@ -817,7 +853,7 @@
         <NetworkName>Telus</NetworkName>
         <Editable>no</Editable>
         <ProfileName>TELUS SP</ProfileName>
-        <URL>http://m.telusmobility.com</URL>
+        <URL>http://www.telusmobility.com</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1458,9 +1494,6 @@
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
-        <Proxy>
-          <Port>off</Port>
-        </Proxy>
         <PSparam>
           <APN>chatrweb.apn</APN>
           <TrafficClass>subscribed</TrafficClass>

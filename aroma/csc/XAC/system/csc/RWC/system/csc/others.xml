@@ -56,6 +56,7 @@
     <CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>FALSE</CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>
     <CscFeature_Launcher_SupportGuideTextForEmptyPage>FALSE</CscFeature_Launcher_SupportGuideTextForEmptyPage>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
     <CscFeature_Message_DisplayMmsTimeAs>phone</CscFeature_Message_DisplayMmsTimeAs>
@@ -84,10 +85,11 @@
     <CscFeature_RIL_CheckTtyModeWhenE911>TRUE</CscFeature_RIL_CheckTtyModeWhenE911>
     <CscFeature_RIL_ConfigApnForHideDataIcon>ims,xcap,cbs,mms</CscFeature_RIL_ConfigApnForHideDataIcon>
     <CscFeature_RIL_ConfigEmergencyApn>sos,IPV4V6,IPV4V6,IWLAN</CscFeature_RIL_ConfigEmergencyApn>
-    <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
     <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck,MMSOVERWIFI,SUPPORTWEAKSIGNALHO</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_ConfigFixedApn>cbs,ims,xcap</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_RIL_ConfigNetCapability>6</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>6</CscFeature_RIL_ConfigSVNVersion>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-RWC-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigNvSim>FALSE</CscFeature_RIL_ConfigNvSim>
     <CscFeature_RIL_ConfigVolteRedialPolicy>BMC</CscFeature_RIL_ConfigVolteRedialPolicy>
@@ -122,7 +124,7 @@
     <CscFeature_RIL_SetVolteCalllistToQcCp>TRUE</CscFeature_RIL_SetVolteCalllistToQcCp>
     <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
     <CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
-    <CscFeature_RIL_SrvccRel>8</CscFeature_RIL_SrvccRel>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_SsRoutingPolicy>ps-always</CscFeature_RIL_SsRoutingPolicy>
     <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
     <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
@@ -180,7 +182,7 @@
     <CscFeature_VT_SupportMerge>TRUE</CscFeature_VT_SupportMerge>
     <CscFeature_VoiceCall_ConfigLabelForCallForward>TRUE</CscFeature_VoiceCall_ConfigLabelForCallForward>
     <CscFeature_VoiceCall_ConfigNetworkList>NetworkModeInCan</CscFeature_VoiceCall_ConfigNetworkList>
-    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_VoiceCall_ConfigOpStyleForImsFunction>display_weak_rssi_alert_dialog</CscFeature_VoiceCall_ConfigOpStyleForImsFunction>
     <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
     <CscFeature_VoiceCall_ConfigOpStyleForVolte>RWC_VOLTE,CANADA_VOLTE,ADD_VOLTE_OUTGOING_SETTING</CscFeature_VoiceCall_ConfigOpStyleForVolte>
@@ -189,8 +191,8 @@
     <CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>TRUE</CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>SS</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+    <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
-	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>FALSE</CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>
     <CscFeature_VoiceRecorder_SupportRecordingQualitySetting>FALSE</CscFeature_VoiceRecorder_SupportRecordingQualitySetting>
     <CscFeature_VoiceRecorder_SupportShowCallRejectCount>FALSE</CscFeature_VoiceRecorder_SupportShowCallRejectCount>

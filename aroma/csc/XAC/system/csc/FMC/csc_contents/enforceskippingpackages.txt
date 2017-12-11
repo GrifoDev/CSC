@@ -1,5 +1,4 @@
-7
-SamsungPayStub.apk
+6
 AndroidPay_erasable_Hero.apk
 NaverV_N.apk
 AxelSpringer.apk

@@ -127,6 +127,11 @@
                 launcher:screen="8"
                 launcher:packageName="com.google.android.apps.photos" 
                 launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+            <!-- Android Pay -->
+            <favorite 
+                launcher:screen="9" 
+                launcher:packageName="com.google.android.apps.walletnfcrel" 
+                launcher:className="com.google.commerce.tapandpay.android.cardlist.CardListActivity" />
     </folder> 
 
     <!-- Social -->

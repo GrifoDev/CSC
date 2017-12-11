@@ -1,6 +1,5 @@
 /system/app/BellMobileTVStub/BellMobileTVStub.apk
 /system/app/BellTVWidget-1.0_2615-release/BellTVWidget-1.0_2615-release.apk
-/system/app/Koodo_SelfServe_Virtual_PreLoad_Signed/Koodo_SelfServe_Virtual_PreLoad_Signed.apk
 /system/app/MyAccount_StubApp_5_Feb/MyAccount_StubApp_5_Feb.apk
 /system/app/MyAccount_v1.0.14/MyAccount_v1.0.14.apk
 /system/app/MyBell_StubApp_5_Feb/MyBell_StubApp_5_Feb.apk

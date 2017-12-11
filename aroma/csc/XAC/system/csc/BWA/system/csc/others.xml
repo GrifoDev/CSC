@@ -41,6 +41,7 @@
     <CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>FALSE</CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>
     <CscFeature_Launcher_SupportGuideTextForEmptyPage>FALSE</CscFeature_Launcher_SupportGuideTextForEmptyPage>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
     <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
@@ -68,6 +69,7 @@
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
     <CscFeature_RIL_ConfigFixedApn>cbs,ims,xcap,bip</CscFeature_RIL_ConfigFixedApn>
     <CscFeature_RIL_ConfigNetCapability>8</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>8</CscFeature_RIL_ConfigSVNVersion>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-BWA-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigNvSim>FALSE</CscFeature_RIL_ConfigNvSim>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
@@ -110,7 +112,6 @@
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_CustNetworkSelMenu4>CHARACTER</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
-    <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON,Google,Internet,Camera</CscFeature_Setting_ShortcutListInLockScreen>
     <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
@@ -142,6 +143,7 @@
     <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
     <CscFeature_VT_ConfigOpStyleForDependency>BWA_PSVT</CscFeature_VT_ConfigOpStyleForDependency>
     <CscFeature_Video_SupportPromptWifiConnectionDuringChangePlayer>FALSE</CscFeature_Video_SupportPromptWifiConnectionDuringChangePlayer>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_VoiceCall_ConfigNetworkList>NetworkModeInCan</CscFeature_VoiceCall_ConfigNetworkList>
     <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>

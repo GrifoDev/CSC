@@ -58,6 +58,8 @@
     <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
     <CscFeature_RIL_ConfigNetCapability>8</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>6</CscFeature_RIL_ConfigSVNVersion>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-KDO-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigNvSim>FALSE</CscFeature_RIL_ConfigNvSim>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
@@ -147,5 +149,7 @@
     <CscFeature_Wifi_SupportMobileApOnTrigger>TRUE</CscFeature_Wifi_SupportMobileApOnTrigger>
     <CscFeature_Wifi_SupportNotificationMenu>TRUE</CscFeature_Wifi_SupportNotificationMenu>
     <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
+	<CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
+	<CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>NoWaitInSvcE911,DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
   </FeatureSet>
 </SamsungMobileFeature>

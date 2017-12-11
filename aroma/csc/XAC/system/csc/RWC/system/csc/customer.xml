@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0015</CSCEdition>
+    <CSCEdition>ED0017</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,15 +10,17 @@
     <NetworkInfo>
       <MCCMNC>302720</MCCMNC>
       <NetworkName>Rogers</NetworkName>
+      <NWID>NW01066</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302370</MCCMNC>
       <NetworkName>Fido</NetworkName>
+      <NWID>NW00509</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>	  
+      <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
@@ -449,7 +451,7 @@
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SRVCCversion>8</SRVCCversion>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -471,7 +473,7 @@
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SRVCCversion>8</SRVCCversion>
+          <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>

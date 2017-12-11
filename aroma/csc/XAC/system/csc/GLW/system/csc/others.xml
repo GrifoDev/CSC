@@ -55,6 +55,7 @@
     <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
     <CscFeature_GPS_ConfigAgpsMode>3</CscFeature_GPS_ConfigAgpsMode>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
+    <CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
     <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
@@ -76,6 +77,8 @@
     <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
     <CscFeature_RIL_ConfigNetCapability>4</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>4</CscFeature_RIL_ConfigSVNVersion>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-GLW-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
     <CscFeature_RIL_CurrentDataTechNotReset>TRUE</CscFeature_RIL_CurrentDataTechNotReset>
@@ -141,12 +144,13 @@
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>VID</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_VoiceCall_ConfigNetworkList>NetworkModeInCan</CscFeature_VoiceCall_ConfigNetworkList>
     <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
-	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
+    <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>
@@ -154,6 +158,6 @@
     <CscFeature_Wifi_SupportMobileApOnTrigger>TRUE</CscFeature_Wifi_SupportMobileApOnTrigger>
     <CscFeature_Wifi_SupportNotificationMenu>TRUE</CscFeature_Wifi_SupportNotificationMenu>
     <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
-	<CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
+    <CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
   </FeatureSet>
 </SamsungMobileFeature>

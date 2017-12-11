@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,17 +10,19 @@
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Koodo</NetworkName>
+      <NWID>NW00660</NWID>
       <SubsetCode>75</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Koodo</NetworkName>
+      <NWID>NW00660</NWID>
       <SubsetCode>75</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>  
+      <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
@@ -556,46 +558,32 @@
     </Wifi>
     <Browser>
       <CookieOption>accept</CookieOption>
-      <NbBookmark>6</NbBookmark>
-      <Bookmark>
-        <NetworkName>Koodo</NetworkName>
-        <Editable>no</Editable>
-        <Index>1</Index>
-        <BookmarkName>Google</BookmarkName>
-        <URL>http://www.google.ca</URL>
-      </Bookmark>
+      <NbBookmark>4</NbBookmark>
       <Bookmark>
         <NetworkName>Koodo</NetworkName>
         <Editable>yes</Editable>
-        <Index>2</Index>
+        <Index>1</Index>
         <BookmarkName>Help</BookmarkName>
         <URL>http://help.koodomobile.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Koodo</NetworkName>
         <Editable>yes</Editable>
-        <Index>3</Index>
+        <Index>2</Index>
         <BookmarkName>Community</BookmarkName>
         <URL>http://community.koodomobile.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Koodo</NetworkName>
         <Editable>yes</Editable>
-        <Index>4</Index>
-        <BookmarkName>Koodo: What’s New</BookmarkName>
-        <URL>http://whatsnew.koodomobile.com</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Koodo</NetworkName>
-        <Editable>yes</Editable>
-        <Index>5</Index>
+        <Index>3</Index>
         <BookmarkName>Self Serve</BookmarkName>
         <URL>https://selfserve.koodomobile.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Koodo</NetworkName>
         <Editable>yes</Editable>
-        <Index>6</Index>
+        <Index>4</Index>
         <BookmarkName>Self Serve for Prepaid</BookmarkName>
         <URL>https://prepaidselfserve.koodomobile.com/</URL>
       </Bookmark>

@@ -56,8 +56,16 @@
     <CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>VID</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
     <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
     <CscFeature_GPS_ConfigAgpsMode>3</CscFeature_GPS_ConfigAgpsMode>
+    <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+    <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
+    <CscFeature_IMS_EnableRCSPresence>FALSE</CscFeature_IMS_EnableRCSPresence>
+    <CscFeature_IMS_EnableRCSe>FALSE</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+    <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_IMS_SupportNoSIME911>TRUE</CscFeature_IMS_SupportNoSIME911>
     <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
     <CscFeature_Launcher_TotalPageCount>2</CscFeature_Launcher_TotalPageCount>
+	<CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
     <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
@@ -77,11 +85,20 @@
     <CscFeature_RIL_AlwaysDisplayGeodescription>TRUE</CscFeature_RIL_AlwaysDisplayGeodescription>
     <CscFeature_RIL_BlockCSIMimsi>TRUE</CscFeature_RIL_BlockCSIMimsi>
     <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
+    <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
-    <CscFeature_RIL_ConfigNetCapability>4</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigAlwaysOnApn>bip,mms,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigNetCapability>7</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>7</CscFeature_RIL_ConfigSVNVersion>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-VTR-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+    <CscFeature_RIL_ConfigVolteRedialPolicy>BMC</CscFeature_RIL_ConfigVolteRedialPolicy>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
     <CscFeature_RIL_CurrentDataTechNotReset>TRUE</CscFeature_RIL_CurrentDataTechNotReset>
+    <CscFeature_RIL_ConfigEmergencyApn>sos,IPV4V6,IPV4V6,IWLAN</CscFeature_RIL_ConfigEmergencyApn>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>ShowPrefModeMenuNoSimCheck,DefaultOnNoSimCheck,MobilePrefNoSimCheck,MMSOVERWIFI,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_RIL_DataPrefDataTechSnapShot>TRUE</CscFeature_RIL_DataPrefDataTechSnapShot>
     <CscFeature_RIL_DisableEditingVMNumber>TRUE</CscFeature_RIL_DisableEditingVMNumber>
     <CscFeature_RIL_DisplayAntennaLimited>TRUE</CscFeature_RIL_DisplayAntennaLimited>
@@ -106,17 +123,26 @@
     <CscFeature_RIL_SendDeviceCapaToCp>TRUE</CscFeature_RIL_SendDeviceCapaToCp>
     <CscFeature_RIL_ShowRescandialog>TRUE</CscFeature_RIL_ShowRescandialog>
     <CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
+    <CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
     <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+    <CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
+    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
     <CscFeature_RIL_UpdateCallstateDuringModifyCall>TRUE</CscFeature_RIL_UpdateCallstateDuringModifyCall>
     <CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>TRUE</CscFeature_RIL_UpdateCscApnAfterSwitchingImsi>
+    <CscFeature_RIL_UseMpsForImsSetting>TRUE</CscFeature_RIL_UseMpsForImsSetting>
+    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>
+    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>
+    <CscFeature_RIL_SupportEpdgDuringRoaming>TRUE</CscFeature_RIL_SupportEpdgDuringRoaming>
     <CscFeature_Setting_ConfigAccessibilityInHearingAids>1</CscFeature_Setting_ConfigAccessibilityInHearingAids>
     <CscFeature_Setting_ConfigAirView>+webpage</CscFeature_Setting_ConfigAirView>
     <CscFeature_Setting_ConfigTypeHelp>0</CscFeature_Setting_ConfigTypeHelp>
     <CscFeature_Setting_CustNetworkSelMenu4>CHARACTER</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_DefConfigForLockScreenMultipleWidget>off</CscFeature_Setting_DefConfigForLockScreenMultipleWidget>
     <CscFeature_Setting_EditOption4ApnType>List</CscFeature_Setting_EditOption4ApnType>
-    <CscFeature_Setting_HideApnList>IMS,XCAP,Videotron EPDG</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>Videotron EPDG</CscFeature_Setting_HideApnList>
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Setting_ShortcutListInLockScreen>Phone,ChatON, Google, Internet, Camera</CscFeature_Setting_ShortcutListInLockScreen>
     <CscFeature_Setting_SkipWifiActvDuringSetupWizard>TRUE</CscFeature_Setting_SkipWifiActvDuringSetupWizard>
@@ -151,11 +177,15 @@
     <CscFeature_VT_ConfigOpStyleForDependency>VTR_PSVT</CscFeature_VT_ConfigOpStyleForDependency>    
     <CscFeature_VoiceCall_ConfigNetworkList>NetworkModeInCan</CscFeature_VoiceCall_ConfigNetworkList>
     <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>    
+    <CscFeature_VoiceCall_ConfigOpStyleForWfc>WFC_ROGERS</CscFeature_VoiceCall_ConfigOpStyleForWfc>    
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
-	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
+    <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>SS</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
+    <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
+    <CscFeature_VoiceCall_ConfigOpStyleForVolte>VTR_VOLTE,CANADA_VOLTE,ADD_VOLTE_OUTGOING_SETTING</CscFeature_VoiceCall_ConfigOpStyleForVolte>
     <CscFeature_VoiceCall_ConfigLabelForCallForward>TRUE</CscFeature_VoiceCall_ConfigLabelForCallForward>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
     <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
     <CscFeature_Wifi_ConfigMobileApDefaultSSID>ModelName,Random4Digits</CscFeature_Wifi_ConfigMobileApDefaultSSID>

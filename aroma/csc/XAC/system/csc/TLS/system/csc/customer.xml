@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0015</CSCEdition>
+    <CSCEdition>ED0017</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,17 +10,19 @@
     <NetworkInfo>
       <MCCMNC>302220</MCCMNC>
       <NetworkName>Telus</NetworkName>
+      <NWID>NW01279</NWID>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302221</MCCMNC>
       <NetworkName>Telus</NetworkName>
+      <NWID>NW01279</NWID>
       <SubsetCode>84</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security> 
+      <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
@@ -570,7 +572,7 @@
         <Editable>yes</Editable>
         <Index>1</Index>
         <BookmarkName>TELUS Web</BookmarkName>
-        <URL>http://m.telusmobility.com</URL>
+        <URL>http://www.telusmobility.com</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>Telus</NetworkName>
@@ -616,7 +618,7 @@
         <Editable>no</Editable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>TELUS SP</ProfileName>
-        <URL>http://m.telusmobility.com</URL>
+        <URL>http://www.telusmobility.com</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>

@@ -42,6 +42,7 @@
     <CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>FALSE</CscFeature_Launcher_SupportFolderSubMenuDuringEditMode>
     <CscFeature_Launcher_SupportGuideTextForEmptyPage>FALSE</CscFeature_Launcher_SupportGuideTextForEmptyPage>
     <CscFeature_Launcher_TotalPageCount>3</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
     <CscFeature_Message_DiscardWapPush4SameTimeStamp>TRUE</CscFeature_Message_DiscardWapPush4SameTimeStamp>
@@ -71,6 +72,8 @@
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
     <CscFeature_RIL_ConfigAlwaysOnApn>ims</CscFeature_RIL_ConfigAlwaysOnApn>
     <CscFeature_RIL_ConfigNetCapability>6</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>6</CscFeature_RIL_ConfigSVNVersion>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-TLS-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigNvSim>FALSE</CscFeature_RIL_ConfigNvSim>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
@@ -150,6 +153,7 @@
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
     <CscFeature_Video_SupportPromptWifiConnectionDuringChangePlayer>FALSE</CscFeature_Video_SupportPromptWifiConnectionDuringChangePlayer>
+    <CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>NoWaitInSvcE911,DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
     <CscFeature_VoiceCall_ConfigNetworkList>NetworkModeInCan</CscFeature_VoiceCall_ConfigNetworkList>
     <CscFeature_VoiceCall_ConfigOpStyleForLogs>CnapLog</CscFeature_VoiceCall_ConfigOpStyleForLogs>
     <CscFeature_VoiceCall_ConfigOpStyleForVolte>TLS_VOLTE,ADD_VOLTE_OUTGOING_SETTING</CscFeature_VoiceCall_ConfigOpStyleForVolte>
@@ -157,7 +161,7 @@
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>TRUE</CscFeature_VoiceCall_SupportImsCapabilityOnCallEnd>
     <CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
-	<CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
+    <CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>NetworkSetting_CAN</CscFeature_VoiceCall_ConfigOpStyleForNetworkSetting>
     <CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>FALSE</CscFeature_VoiceRecorder_SupportPrivacyPolicyPrompt>
     <CscFeature_VoiceRecorder_SupportRecordingQualitySetting>FALSE</CscFeature_VoiceRecorder_SupportRecordingQualitySetting>
     <CscFeature_VoiceRecorder_SupportShowCallRejectCount>FALSE</CscFeature_VoiceRecorder_SupportShowCallRejectCount>

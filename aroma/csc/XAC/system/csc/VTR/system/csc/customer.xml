@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0009</CSCEdition>
     <Country>CANADA</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,31 +10,36 @@
     <NetworkInfo>
       <MCCMNC>302500</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20404</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302510</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302500</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>302520</MCCMNC>
       <NetworkName>Videotron</NetworkName>
+      <NWID>NW01434</NWID>
       <SubsetCode>83</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>  
+      <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
@@ -107,6 +112,7 @@
         <MmsReceiving>
           <Home>auto</Home>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
         <MMSView>
           <MessageUserAgent>SAMSUNG-ANDROID-MMS/1.2.0</MessageUserAgent>
           <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFA.xml</MessageUaProfUrl>
@@ -160,7 +166,7 @@
         <ProfMMS>VideotronMMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>XCAP</ProfXCAP>
-        <ProfEpdgMMS>Videotron EPDG</ProfEpdgMMS>
+        <ProfEpdg>Videotron EPDG</ProfEpdg>
       </ProfileHandle>
       <NbProfile>5</NbProfile>
       <Profile>
@@ -171,7 +177,7 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1460</MTUSize>
         <PSparam>
           <APN>media.ng</APN>
         </PSparam>
@@ -184,15 +190,15 @@
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1460</MTUSize>
         <PSparam>
           <APN>media.ng</APN>
         </PSparam>
       </Profile>
       <Profile>
         <NetworkName>Videotron</NetworkName>
-        <IpVersion>ipv6</IpVersion> 
-	<RoamingIpVersion>ipv6</RoamingIpVersion>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>IMS</ProfileName>
         <MTUSize>1460</MTUSize>
@@ -225,5 +231,30 @@
         </PSparam>
       </Profile>
     </Connections>
+    <IMSSetting>
+      <NbSetting>1</NbSetting>
+      <Setting>
+        <NetworkName>Videotron</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SS_Domain_Preference>ps_only_psregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>ps</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+          <EnableRCSchat>false</EnableRCSchat>
+        </RCS>
+      </Setting>
+    </IMSSetting>
   </Settings>
 </CustomerData>

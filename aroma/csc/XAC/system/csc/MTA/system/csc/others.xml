@@ -71,6 +71,8 @@
     <CscFeature_RIL_CallerIdMatchingDigit>9</CscFeature_RIL_CallerIdMatchingDigit>
     <CscFeature_RIL_CheckTtyModeWhenE911>TRUE</CscFeature_RIL_CheckTtyModeWhenE911>
     <CscFeature_RIL_ConfigNetCapability>6</CscFeature_RIL_ConfigNetCapability>
+    <CscFeature_RIL_ConfigSVNVersion>6</CscFeature_RIL_ConfigSVNVersion>
+    <CscFeature_RIL_SendDynamicSVN>TRUE</CscFeature_RIL_SendDynamicSVN>
     <CscFeature_RIL_ConfigNetworkTypeCapability>BMC-MTA-GSM-CAN</CscFeature_RIL_ConfigNetworkTypeCapability>
     <CscFeature_RIL_ConfigNvSim>FALSE</CscFeature_RIL_ConfigNvSim>
     <CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
@@ -82,7 +84,7 @@
     <CscFeature_RIL_DisplayPlmnByLuRejectCause>TRUE</CscFeature_RIL_DisplayPlmnByLuRejectCause>
     <CscFeature_RIL_DisplayPlmnnameSimload>TRUE</CscFeature_RIL_DisplayPlmnnameSimload>
     <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
-    <CscFeature_RIL_E911RoutingPolicy>fullsrchmdm</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_E911RoutingPolicy>cs</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_EmergencyOnlyWithNoSim>TRUE</CscFeature_RIL_EmergencyOnlyWithNoSim>
     <CscFeature_RIL_EmergencycallonlyNotDisplay>TRUE</CscFeature_RIL_EmergencycallonlyNotDisplay>
     <CscFeature_RIL_EnableChangeDefaultPdn>TRUE</CscFeature_RIL_EnableChangeDefaultPdn>
@@ -165,5 +167,7 @@
     <CscFeature_Wifi_SupportNotificationMenu>TRUE</CscFeature_Wifi_SupportNotificationMenu>
     <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
 	<CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
+	<CscFeature_Message_CMASOperator>bmc</CscFeature_Message_CMASOperator>
+	<CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>DisableMuteHold,EndPreviousCall,BlockAddCall</CscFeature_VoiceCall_ConfigOpStyleForEmergencyDialCall>
   </FeatureSet>
 </SamsungMobileFeature>

@@ -109,6 +109,11 @@
                 launcher:screen="10"	    
                 launcher:packageName="com.google.android.apps.walletnfcrel" 
                 launcher:className="com.google.android.apps.wallet.entrypoint.WalletRootActivity" />
+            <!-- Android Pay -->
+            <favorite 
+                launcher:screen="11" 
+                launcher:packageName="com.google.android.apps.walletnfcrel" 
+                launcher:className="com.google.commerce.tapandpay.android.cardlist.CardListActivity" />
         </folder> 
 
 

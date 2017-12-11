@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0006</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>Canada</Country>
     <CountryISO>CA</CountryISO>
     <Region>NA</Region>
@@ -10,17 +10,19 @@
     <NetworkInfo>
       <MCCMNC>302780</MCCMNC>
       <NetworkName>SaskTel</NetworkName>
+      <NWID>NW01084</NWID>
       <SubsetCode>90</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>20404</MCCMNC>
       <NetworkName>SaskTel</NetworkName>
+      <NWID>NW01084</NWID>
       <SubsetCode>90</SubsetCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
-      <Security>  
+      <Security>
         <OneSIMLock>none</OneSIMLock>
       </Security>
       <Network>
@@ -164,6 +166,7 @@
       <NbProfile>2</NbProfile>
       <Profile>
         <NetworkName>SaskTel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>Browser</ProfileName>
@@ -179,6 +182,7 @@
       </Profile>
       <Profile>
         <NetworkName>SaskTel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>no</Editable>
         <EnableStatus>enable</EnableStatus>
         <ProfileName>SaskTel-MMS</ProfileName>
