@@ -49,16 +49,16 @@
 45500SmarTone"SmarTone
 
 45501CTM"CTM
-7
-45502China Telecom (Macau)"China Telecom (Macau)
+
+45502China Telecom"CTC
 
 455033 Macau"3 Macau
 
 45504CTM"CTM
 
 455053 Macau"3 Macau
-7
-45507China Telecom (Macau)"China Telecom (Macau)
+
+45507China Telecom"CTC
 
 46000CHINA MOBILE"CMCC
 
@@ -68,6 +68,8 @@ CHN-UNICOM"UNICOM
 46002CHINA MOBILE"CMCC
 
 46003China Telecom"CTC
+
+46004CHINA MOBILE"CMCC
 
 46007CHINA MOBILE"CMCC
 

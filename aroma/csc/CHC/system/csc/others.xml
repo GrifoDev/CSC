@@ -1,6 +1,6 @@
 ﻿<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeature>
-  <Version>ED00030</Version>
+  <Version>ED00043</Version>
   <Country>CHINA</Country>
   <CountryISO>CN</CountryISO>
   <SalesCode>CHC</SalesCode>
@@ -35,7 +35,6 @@
     <CscFeature_Common_ReplaceStringWifi>wlan</CscFeature_Common_ReplaceStringWifi>
     <CscFeature_Common_SupportActivationDate>TRUE</CscFeature_Common_SupportActivationDate>
     <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
-    <CscFeature_Common_SupportFestival>TRUE</CscFeature_Common_SupportFestival>
     <CscFeature_Common_SupportGmsAlarmManager>TRUE</CscFeature_Common_SupportGmsAlarmManager>
     <CscFeature_Common_SupportSamsungAdId>TRUE</CscFeature_Common_SupportSamsungAdId>
     <CscFeature_Common_SupportWcdmaInSlave>TRUE</CscFeature_Common_SupportWcdmaInSlave>
@@ -66,6 +65,8 @@
     <CscFeature_Contact_SeparateLookupTable4ChinaDialerSearch>TRUE</CscFeature_Contact_SeparateLookupTable4ChinaDialerSearch>
     <CscFeature_Contact_UseSeparateAddressField>TRUE</CscFeature_Contact_UseSeparateAddressField>
     <CscFeature_Contact_UseUniNameField>TRUE</CscFeature_Contact_UseUniNameField>
+    <CscFeature_DeviceManagement_ConfigOperator>25</CscFeature_DeviceManagement_ConfigOperator>
+    <CscFeature_DeviceManagement_SupportDisplayMultiMmc>TRUE</CscFeature_DeviceManagement_SupportDisplayMultiMmc>
     <CscFeature_Dictionary_ConfigDataUsageWarning>TRUE</CscFeature_Dictionary_ConfigDataUsageWarning>
     <CscFeature_Email_UseFixedSmtpPortAs>25</CscFeature_Email_UseFixedSmtpPortAs>
     <CscFeature_FMRadio_DisableMenuAf>TRUE</CscFeature_FMRadio_DisableMenuAf>
@@ -170,7 +171,7 @@
     <CscFeature_SSRM_ConfigStandbyTime>280000,933</CscFeature_SSRM_ConfigStandbyTime>
     <CscFeature_SSRM_SupportGmsBundling>TRUE</CscFeature_SSRM_SupportGmsBundling>
     <CscFeature_Setting_ConfigActivationModeForPreloadInstaller>TRUE</CscFeature_Setting_ConfigActivationModeForPreloadInstaller>
-    <CscFeature_Setting_ConfigApkListForPreloadInstaller>-com.samsung.multidevicecloud Alipay_V9.9_Deletable.apk BaiduMap_V9.0_Deletable.apk Excel_SamsungStub.apk GalaxyCare_CHN_Deletable.apk OneNote.apk PowerPoint_SamsungStub.apk SAssistant_downloadable.apk SecCalculator_N.apk SecMemo3.apk Sinamicroblog_V6.0_Deletable.apk SmartSwitch.apk SohuNewsEdge_V2.0_Deletable.apk VoiceNote_5.0.apk WeChat_V6.0_Deletable.apk Word_SamsungStub.apk !SohuNews_V5.0_S7.apk SohuNews_V5.0_S7.apk DictDiotek.apk</CscFeature_Setting_ConfigApkListForPreloadInstaller>
+    <CscFeature_Setting_ConfigApkListForPreloadInstaller>SRoaming_v12_N_Deletable.apk !SRoaming_v12_N_Deletable.apk SecEmail_N_R.apk SHealthDeletable5.9.apk !SamsungOnlineVideo.apk SamsungOnlineVideo.apk !OnlineMusicChina.apk OnlineMusicChina.apk -com.samsung.multidevicecloud Alipay_V9.9_Deletable.apk BaiduMap_V9.0_Deletable.apk Excel_SamsungStub.apk GalaxyCare_CHN_Deletable.apk OneNote.apk PowerPoint_SamsungStub.apk SAssistant_downloadable.apk SecCalculator_N.apk SecMemo3.apk Sinamicroblog_V6.0_Deletable.apk SmartSwitch.apk SohuNewsEdge_V2.0_Deletable.apk VoiceNote_5.0.apk WeChat_V6.0_Deletable.apk Word_SamsungStub.apk !SohuNews_V5.0_S7.apk SohuNews_V5.0_S7.apk DictDiotek.apk</CscFeature_Setting_ConfigApkListForPreloadInstaller>
     <CscFeature_Setting_ConfigBlockNotiAppList>NULL</CscFeature_Setting_ConfigBlockNotiAppList>
     <CscFeature_Setting_ConfigForbidAppDisableButton>com.android.vending</CscFeature_Setting_ConfigForbidAppDisableButton>
     <CscFeature_Setting_ConfigOpMenuStructure>CHC</CscFeature_Setting_ConfigOpMenuStructure>
@@ -187,7 +188,7 @@
     <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
     <CscFeature_Setting_SupportTdsCdma>TRUE</CscFeature_Setting_SupportTdsCdma>
     <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
-    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autolaunch|autorestart|storageclean|backgroundapp|applock|trafficmanager|notificationmanager|data_compression|cstyle|fake_base_station|appclean|devicesecurity</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autolaunch|autorestart|storageclean|backgroundapp|applock|trafficmanager|notificationmanager|data_compression|cstyle|fake_base_station|appclean|devicesecurity|aboutpage</CscFeature_SmartManager_ConfigSubFeatures>
     <CscFeature_SmartcardSvc_ConfigAccessRuleCheckPoint>Session, Channel</CscFeature_SmartcardSvc_ConfigAccessRuleCheckPoint>
     <CscFeature_SmartcardSvc_ConfigSetArfList>PKCS#15, NULL</CscFeature_SmartcardSvc_ConfigSetArfList>
     <CscFeature_SmartcardSvc_SetAccessControlType>GPAC, GAC, ReturnNullForMissingResource, AllowAccessAra</CscFeature_SmartcardSvc_SetAccessControlType>

@@ -943,7 +943,7 @@ ini_set("icon_next", "@next");
 install(
   "CSC-Selection™ Installation",
   getvar("rom_name") + "\n" +
-  "Please wait while CSC-Selection is conquering your phone" +
+  "Please wait while CSC-Selection is being applied to your phone" +
   "",
   "icons/install"
 );
