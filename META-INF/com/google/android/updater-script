@@ -1457,7 +1457,7 @@ unmount("/preload");
 unmount("/efs");
 set_progress(1.000000);
 ui_print(" ");
-ui_print("Your CSC is successfully installed");
+ui_print("Your CSC has been successfully installed");
 ui_print(" ");
 endif;
 ui_print("Please Reboot now");

@@ -246,28 +246,28 @@ endif;
 
 if prop("menu.prop","selected")=="1" then
 # Write tmp file Android check
-writetmpfile("android.prop","version=MM");
+writetmpfile("androidcheck.prop","version=MM");
 # Write tmp file Rom check
-writetmpfile("rom.prop","version=s7");
+writetmpfile("romcheck.prop","version=s7");
 # Execute script to check android version
 resexec("check/androidcheck.sh");
 # Execute script to check rom
 resexec("check/romcheck.sh");
 
-if prop("android.prop","version")=="MM" then
+if prop("androidcheck.prop","version")=="MM" then
 alert("Warning", "I've detected that you run a 6.0.1 Marshmallow build. Please be aware that this CSC selection is made for 7.0 and may have some issues with MM!");
 endif;
-if prop("android.prop","version")=="nothing" then
-alert("Warning", "Your android version could be verified, that means your setup may not be supported by this selection!");
+if prop("androidcheck.prop","version")=="nothing" then
+alert("Warning", "Your android version couldn't be verified, that means your setup may not be supported by this selection!");
 endif;
 
-if prop("rom.prop","version")=="s8" then
+if prop("romcheck.prop","version")=="s8" then
 alert("Warning", "I've detected that you run a S8 Ported rom, however this csc selection has been made for s7 based roms! Flashing this on S8 roms will result in not working features/force closes!");
 endif;
-if prop("rom.prop","version")=="n8" then
+if prop("romcheck.prop","version")=="n8" then
 alert("Warning", "I've detected that you run a N8 Ported rom, however this csc selection has been made for s7 based roms! Flashing this on N8 roms will result in not working features/force closes!");
 endif;
-if prop("android.prop","version")=="nothing" then
+if prop("romcheck.prop","version")=="nothing" then
 alert("Warning", "Your rom version couldn't be verified, please note that this csc selection maybe isn't fully compatible with your setup.");
 endif;
 
