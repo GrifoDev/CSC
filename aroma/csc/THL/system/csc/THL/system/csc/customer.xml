@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>THAILAND</Country>
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
@@ -297,7 +297,7 @@
       </Profile>
       <Profile>
         <NetworkName>dtac TriNet</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <IpVersion>ipv6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>dtac IMS</ProfileName>
         <Auth>normal</Auth>
