@@ -1,0 +1,70 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Adding EVS setup for Sweden Telia, Norway Telia, Finland DNA",
+  "imsprofile_update": {
+    "profile": [
+      {
+      "name": "S Telia VoLTE",
+      "mnoname": "Telia_se",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_receive": "5.9-24.4",
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_codec_mode_request": "1"
+      },
+      {
+      "name": "S Telia E911",
+      "mnoname": "Telia_se",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_receive": "5.9-24.4",
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_codec_mode_request": "1"
+      },
+      {
+      "name": "Telia Norway Volte",
+      "mnoname": "Telia_no",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_receive": "5.9-24.4",
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_codec_mode_request": "1"
+      },
+      {
+      "name": "Telia Norway Emergency",
+      "mnoname": "Telia_no",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_receive": "5.9-24.4",
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_codec_mode_request": "1"
+      },
+      {
+      "name": "DNA VoLTE IMS",
+      "mnoname": "DNA_fi",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_receive": "5.9-24.4",
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_codec_mode_request": "1"
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

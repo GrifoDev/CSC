@@ -1,1 +1,2 @@
 /system/app/aligned_mySamsung_Stub/aligned_mySamsung_Stub.apk
+/system/app/aligned_signed_secRCS_BB/aligned_signed_secRCS_BB.apk

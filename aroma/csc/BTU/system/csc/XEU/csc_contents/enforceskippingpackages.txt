@@ -1,5 +1,5 @@
 13
-CatchFavorites_N.apk
+YahooEdgeNews.apk
 FlipboardBriefing.apk
 GalaxyCare.apk
 NaverV_N.apk

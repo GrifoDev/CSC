@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0012</CSCEdition>
+    <CSCEdition>ED0015</CSCEdition>
     <Country>ITALY</Country>
     <CountryISO>IT</CountryISO>
     <Region>EUR</Region>
     <SalesCode>ITV</SalesCode>
-    <NbNetworkInfo>12</NbNetworkInfo>
+    <NbNetworkInfo>15</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>22201</MCCMNC>
       <NetworkName>TIM</NetworkName>
@@ -30,8 +30,22 @@
       <SPName>FASTWEB</SPName>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>22208</MCCMNC>
+      <NetworkName>FASTWEB1</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22801</MCCMNC>
+      <NetworkName>FASTWEB2</NetworkName>
+      <SPName>FASTWEB</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>22233</MCCMNC>
       <NetworkName>Poste Mobile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22201</MCCMNC>
+      <NetworkName>Tiscali</NetworkName>
+      <SPName>tiscali mobile</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>22201</MCCMNC>
@@ -277,7 +291,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>12</NbProfileHandle>
+      <NbProfileHandle>15</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>5</NbNetProfile>
         <NetworkName>TIM</NetworkName>
@@ -288,11 +302,13 @@
         <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>Vodafone</NetworkName>
         <ProfBrowser>Vodafone Internet</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
         <ProfIntSharing>Vodafone WEB</ProfIntSharing>
+	<ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Acc. Internet da cell</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -314,9 +330,27 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
+        <NetworkName>FASTWEB1</NetworkName>
+        <ProfBrowser>FW WEB</ProfBrowser>
+        <ProfMMS>FW MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>FASTWEB2</NetworkName>
+        <ProfBrowser>FW WEB</ProfBrowser>
+        <ProfMMS>FW MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>Poste Mobile</NetworkName>
         <ProfBrowser>PosteMobile WAP</ProfBrowser>
         <ProfMMS>PosteMobile MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Tiscali</NetworkName>
+        <ProfBrowser>Tiscali INTERNET</ProfBrowser>
+        <ProfMMS>Tiscali MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -354,12 +388,11 @@
         <ProfBrowser>BT Internet</ProfBrowser>
         <ProfMMS>BT MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>28</NbProfile>
+      <NbProfile>36</NbProfile>
       <Profile>
         <NetworkName>TIM</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>TIM WAP</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -395,7 +428,6 @@
         <NetworkName>TIM</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>TIM WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>other</Protocol>
@@ -408,11 +440,36 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>TIM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap.tim.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Vodafone</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vodafone MMS</ProfileName>
         <URL>http://mms.vodafone.it/servlets/mms</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -428,8 +485,8 @@
         <NetworkName>Vodafone</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vodafone WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>other</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -443,7 +500,6 @@
         <NetworkName>Vodafone</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>Vodafone Internet</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -459,7 +515,6 @@
         <NetworkName>WIND</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>WIND Internet</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>other</Protocol>
@@ -493,8 +548,8 @@
         <NetworkName>H3G</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>3 WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
+        <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
         <Proxy>
@@ -526,7 +581,6 @@
         <NetworkName>FASTWEB</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>FASTWEB WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -557,10 +611,79 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>FASTWEB1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>FW WEB</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>apn.fastweb.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>FASTWEB1</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>FW MMS</ProfileName>
+        <URL>http://mms.fastweb.it/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>85.18.189.217</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>apn.fastweb.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>FASTWEB2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>FW WEB</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>apn.fastweb.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>FASTWEB2</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>FW MMS</ProfileName>
+        <URL>http://mms.fastweb.it/mms/wapenc</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>85.18.189.217</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>apn.fastweb.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Poste Mobile</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>PosteMobile WAP</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>other</Protocol>
@@ -591,10 +714,42 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Tiscali</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tiscali INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>tiscalimobileinternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tiscali</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tiscali MMS</ProfileName>
+        <URL>http://mms.tiscali.mobi/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>213.230.130.89</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>tiscalimobilemms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>CoopVoce1</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>CoopVoce WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -628,7 +783,6 @@
         <NetworkName>CoopVoce2</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>CoopVoce WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -662,7 +816,6 @@
         <NetworkName>CoopVoce3</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>CoopVoce WEB</ProfileName>
-        <URL>http://m.samsung.com/it</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -792,32 +945,54 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>TIM</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <NetworkName>Vodafone</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>IMS</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1350</MTUSize>
         <PSparam>
           <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>TIM</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
+        <NetworkName>Vodafone</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>XCAP</ProfileName>
+        <ProfileName>Acc. Internet da cell</ProfileName>
+        <URL>http://start.vodafone.com/ssp/homepage/IT</URL>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
+        <MTUSize>1350</MTUSize>
         <PSparam>
-          <APN>xcap.tim.it</APN>
+          <APN>mobile.vodafone.it</APN>
         </PSparam>
       </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>1</NbSetting>
+      <NbSetting>2</NbSetting>
+      <Setting>
+        <NetworkName>Vodafone</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+	  <EnableVoLTEindicator>false</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>true</EnableRCS>
+          <EnableRCSchat>true</EnableRCSchat>
+        </RCS>
+      </Setting>
       <Setting>
         <NetworkName>TIM</NetworkName>
         <Version>3.0</Version>

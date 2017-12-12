@@ -26,7 +26,7 @@
     <CscFeature_RIL_BlockUssdDuringVolteCall>TRUE</CscFeature_RIL_BlockUssdDuringVolteCall>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigAlwaysOnApn>cbs,ims,xcap</CscFeature_RIL_ConfigAlwaysOnApn>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_24002_24412_24413_24201_23802_23806;,ShowPrefModeMenuSim_23802_23877_23801_23810_24412_24201_24001;,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
+    <CscFeature_RIL_ConfigEpdgExtraFunction>MobilePrefSim_24002_24412_24413_24201_23802_23806;,ShowPrefModeMenuSim_23802_23877_23801_23810_24412_24201_24001_24008;,ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
     <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
@@ -66,9 +66,12 @@
     <CscFeature_RIL_SupportImsClirOverriding>TRUE</CscFeature_RIL_SupportImsClirOverriding>
     <CscFeature_RIL_SsacInfoToIms>TRUE</CscFeature_RIL_SsacInfoToIms>
     <CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>All</CscFeature_VoiceCall_SupportSettingVoWifiRegiDuringAirplaneMode>
-    <CscFeature_Common_ConfigOnCircle>off</CscFeature_Common_ConfigOnCircle>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
     <CSCFEATURE_SETTING_CUSTNETWORKSELMENU4>NUMERIC</CSCFEATURE_SETTING_CUSTNETWORKSELMENU4>
+    <CscFeature_RIL_SupportSmsFallbackForIms>true</CscFeature_RIL_SupportSmsFallbackForIms>
+    <CscFeature_IMS_EnableEVS>true</CscFeature_IMS_EnableEVS>
+    <CscFeature_Audio_ConfigDefCallSampleRate>SWB</CscFeature_Audio_ConfigDefCallSampleRate>
+    <CscFeature_RIL_SupportEpdgDuringRoaming>TRUE</CscFeature_RIL_SupportEpdgDuringRoaming>
   </FeatureSet>
 </SamsungMobileFeauture>

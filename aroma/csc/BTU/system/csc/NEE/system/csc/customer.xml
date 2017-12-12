@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0009</CSCEdition>
+    <CSCEdition>ED0015</CSCEdition>
     <Country>Nordic</Country>
     <CountryISO>SE</CountryISO>
     <Region>EUR</Region>
@@ -47,11 +47,6 @@
       <NetworkName>OneCall</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
-      <MCCMNC>24007</MCCMNC>
-      <NetworkName>Tele2 No</NetworkName>
-      <SPCode>68</SPCode>
-    </NetworkInfo>
-    <NetworkInfo>
       <MCCMNC>24412</MCCMNC>
       <NetworkName>DNA</NetworkName>
     </NetworkInfo>
@@ -74,7 +69,7 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24491</MCCMNC>
-      <NetworkName>FIN SONERA</NetworkName>
+      <NetworkName>Telia FI</NetworkName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>24421</MCCMNC>
@@ -196,6 +191,13 @@
       <MCCMNC>24214</MCCMNC>
       <NetworkName>ice.net</NetworkName>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>24007</MCCMNC>
+      <NetworkName>Tele2comviq</NetworkName>
+      <SubsetCode>73</SubsetCode>
+      <SPCode>06</SPCode>
+      <SPName>Comviq</SPName>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -309,6 +311,10 @@
           <Home>auto</Home>
           <Roaming>manual</Roaming>
         </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/SAMSUNGUAPROFD.xml</MessageUaProfUrl>
+        </MMSView>
       </MMS>
     </Messages>
     <Browser>
@@ -347,7 +353,7 @@
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
     <Connections>
-      <NbProfileHandle>34</NbProfileHandle>
+      <NbProfileHandle>33</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Ålcom</NetworkName>
@@ -355,16 +361,20 @@
         <ProfMMS>Ålcom MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Halebop</NetworkName>
         <ProfBrowser>Halebop Internet</ProfBrowser>
         <ProfMMS>Halebop MMS</ProfMMS>
+        <ProfIMS>Halebop IMS</ProfIMS>
+        <ProfXCAP>Halebop XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Halebop S</NetworkName>
         <ProfBrowser>Halebop Internet</ProfBrowser>
         <ProfMMS>Halebop MMS</ProfMMS>
+        <ProfIMS>Halebop IMS</ProfIMS>
+        <ProfXCAP>Halebop XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -439,35 +449,31 @@
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
-        <NetworkName>FIN SONERA</NetworkName>
-        <ProfBrowser>Sonera Internet</ProfBrowser>
-        <ProfMMS>Sonera MMS</ProfMMS>
+        <NetworkName>Telia FI</NetworkName>
+        <ProfBrowser>Telia FI Internet</ProfBrowser>
+        <ProfMMS>Telia FI MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Telenor SE</NetworkName>
         <ProfBrowser>TelenorMobilsurf</ProfBrowser>
         <ProfMMS>Telenor MMS</ProfMMS>
+        <ProfIMS>Telenor IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>Telia N</NetworkName>
         <ProfBrowser>Telia Mobil</ProfBrowser>
         <ProfMMS>Telia MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>XCAP</ProfXCAP>
+        <ProfEpdgMMS>Telia EPDG</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>OneCall</NetworkName>
         <ProfBrowser>OneCall Internett</ProfBrowser>
         <ProfMMS>OneCall MMS</ProfMMS>
-      </ProfileHandle>
-      <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
-        <NetworkName>Tele2 No</NetworkName>
-        <ProfBrowser>Tele2 Internet</ProfBrowser>
-        <ProfMMS>Tele2 MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -521,6 +527,7 @@
         <ProfBrowser>Nova net</ProfBrowser>
         <ProfMMS>Nova MMS</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Nova net</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -528,7 +535,9 @@
         <ProfBrowser>3 Locked</ProfBrowser>
         <ProfMMS>3mms</ProfMMS>
         <ProfIMS>ims</ProfIMS>
-        <ProfXCAP>services</ProfXCAP>
+        <ProfXCAP>3 Locked</ProfXCAP>
+        <ProfEpdgXCAP>services</ProfEpdgXCAP>
+        <ProfEpdgMMS>services</ProfEpdgMMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -575,7 +584,7 @@
         <ProfBrowser>ice.net</ProfBrowser>
         <ProfMMS>mms.ice.net</ProfMMS>
       </ProfileHandle>
-      <NbProfile>91</NbProfile>
+      <NbProfile>95</NbProfile>
       <Profile>
         <NetworkName>Ålcom</NetworkName>
         <Editable>yes</Editable>
@@ -974,9 +983,9 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>FIN SONERA</NetworkName>
+        <NetworkName>Telia FI</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Sonera Internet</ProfileName>
+        <ProfileName>Telia FI Internet</ProfileName>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -989,10 +998,10 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>FIN SONERA</NetworkName>
+        <NetworkName>Telia FI</NetworkName>
         <Editable>yes</Editable>
-        <ProfileName>Sonera MMS</ProfileName>
-        <URL>http://mms.sonera.fi:8002</URL>
+        <ProfileName>Telia FI MMS</ProfileName>
+        <URL>http://mms/</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1000,7 +1009,7 @@
         <Proxy>
           <EnableFlag>on</EnableFlag>
           <ServAddr>195.156.25.33</ServAddr>
-          <Port>80</Port>
+          <Port>8080</Port>
         </Proxy>
         <PSparam>
           <APN>mms</APN>
@@ -1198,32 +1207,6 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Telia N</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>IMS</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1300</MTUSize>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
-	  <Profile>
-        <NetworkName>Telia N</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>XCAP</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1300</MTUSize>
-        <PSparam>
-          <APN>hos</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>OneCall</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>OneCall Internett</ProfileName>
@@ -1251,36 +1234,6 @@
         </Proxy>
         <PSparam>
           <APN>mms</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tele2 No</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tele2 Internet</ProfileName>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <PSparam>
-          <APN>internet.tele2.no</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Tele2 No</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Tele2 MMS</ProfileName>
-        <URL>http://mmsc.tele2.no</URL>
-        <Auth>normal</Auth>
-        <Bearer>ps</Bearer>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>193.12.40.14</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>internet.tele2.no</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1540,7 +1493,7 @@
         <MTUSize>1500</MTUSize>
         <Proxy>
           <EnableFlag>on</EnableFlag>
-          <ServAddr>172.16.53.12</ServAddr>
+          <ServAddr>mmsproxy.3.dk</ServAddr>
           <Port>8799</Port>
         </Proxy>
         <PSparam>
@@ -1754,18 +1707,6 @@
         </PSparam>
       </Profile>
       <Profile>
-        <NetworkName>Nova</NetworkName>
-        <IpVersion>ipv4</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>IMS</ProfileName>
-        <Auth>none</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1280</MTUSize>
-        <PSparam>
-          <APN>ims</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
         <NetworkName>3 DK</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
@@ -1775,21 +1716,6 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>ims</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>3 DK</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>services</ProfileName>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <MTUSize>1500</MTUSize>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
-        <PSparam>
-          <APN>services</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1965,9 +1891,149 @@
           <APN>services</APN>
         </PSparam>
       </Profile>
+      <Profile>
+        <NetworkName>Telia N</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Telia EPDG</ProfileName>
+        <URL>http://mm</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.169.66.4</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telia N</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telia N</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nova</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3 DK</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>services</ProfileName>
+        <URL>http://mms.3.dk</URL>
+        <Auth>normal</Auth>
+        <Bearer>iwlan</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsproxy.3.dk</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>services</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telenor SE</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Telenor IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Halebop</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Halebop IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Halebop</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Halebop XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Halebop S</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Halebop IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Halebop S</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Halebop XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
     </Connections>
     <IMSSetting>
-      <NbSetting>13</NbSetting>
+      <NbSetting>16</NbSetting>
       <Setting>
         <NetworkName>Tele2comviq</NetworkName>
         <Version>3.0</Version>
@@ -2043,32 +2109,10 @@
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>true</EnableSMSoverIP>
-        </VoLTE>
-        <RCS>
-          <EnableRCS>false</EnableRCS>
-        </RCS>
-      </Setting>
-      <Setting>
-        <NetworkName>Nova</NetworkName>
-        <Version>3.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
-          <EnableVideocall>true</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
-          <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
@@ -2087,7 +2131,7 @@
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
           <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>false</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>csvoiceonly</Voice_Domain_Preference_EUTRAN>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
@@ -2160,30 +2204,11 @@
         <EnableIMS>true</EnableIMS>
         <VoLTE>
           <EnableVoLTE>true</EnableVoLTE>
-          <EnableVideocall>false</EnableVideocall>
           <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
           <EnableVoLTEindicator>true</EnableVoLTEindicator>
           <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
           <Emregencycall_Domain>ps</Emregencycall_Domain>
-          <SRVCCversion>10</SRVCCversion>
-          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
-          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
-          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
-          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
-          <EnableSMSoverIP>false</EnableSMSoverIP>
-        </VoLTE>
-      </Setting>
-      <Setting>
-        <NetworkName>Telia N</NetworkName>
-        <Version>1.0</Version>
-        <EnableIMS>true</EnableIMS>
-        <VoLTE>
-          <EnableVoLTE>true</EnableVoLTE>
-          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
-          <EnableVideocall>true</EnableVideocall>
-          <EnableVoLTEindicator>true</EnableVoLTEindicator>
-          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
-          <Emregencycall_Domain>cs</Emregencycall_Domain>
           <SRVCCversion>10</SRVCCversion>
           <SS_Domain_Preference>ps_always</SS_Domain_Preference>
           <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
@@ -2228,6 +2253,104 @@
           <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
           <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Nova</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>false</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_only_volteregied</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+        <RCS>
+          <EnableRCS>false</EnableRCS>
+        </RCS>
+      </Setting>
+      <Setting>
+        <NetworkName>Telia N</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Telenor SE</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>true</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>cs</Emregencycall_Domain>
+          <SRVCCversion>8</SRVCCversion>
+          <SS_Domain_Preference>cs_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>false</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Halebop</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
+        </VoLTE>
+      </Setting>
+      <Setting>
+        <NetworkName>Halebop S</NetworkName>
+        <Version>3.0</Version>
+        <EnableIMS>true</EnableIMS>
+        <VoLTE>
+          <EnableVoLTE>true</EnableVoLTE>
+          <EnableVoiceoverWIFI>true</EnableVoiceoverWIFI>
+          <EnableVideocall>false</EnableVideocall>
+          <EnableVoLTEindicator>true</EnableVoLTEindicator>
+          <Voice_Domain_Preference_EUTRAN>imspsvoicepreferred</Voice_Domain_Preference_EUTRAN>
+          <Emregencycall_Domain>ps</Emregencycall_Domain>
+          <SRVCCversion>10</SRVCCversion>
+          <SS_Domain_Preference>ps_always</SS_Domain_Preference>
+          <SS_PS_Control_Preference>xcap</SS_PS_Control_Preference>
+          <SS_CSFBwithIMSerror>true</SS_CSFBwithIMSerror>
+          <USSD_Domain_Preference>cs</USSD_Domain_Preference>
+          <EnableSMSoverIP>true</EnableSMSoverIP>
         </VoLTE>
       </Setting>
     </IMSSetting>

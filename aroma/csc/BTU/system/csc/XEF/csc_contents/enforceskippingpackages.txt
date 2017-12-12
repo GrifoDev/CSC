@@ -1,5 +1,5 @@
 12
-CatchFavorites_N.apk
+YahooEdgeNews.apk
 FlipboardBriefing.apk
 SamsungPayStub.apk
 AndroidPay_erasable_Hero.apk

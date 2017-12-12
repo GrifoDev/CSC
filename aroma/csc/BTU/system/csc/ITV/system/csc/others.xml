@@ -35,11 +35,12 @@
     <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
 
     <CscFeature_IMS_EnableIMS>true</CscFeature_IMS_EnableIMS>
-    <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
+    <CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
     <CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
     <CscFeature_IMS_FrameworkVersion>6.0</CscFeature_IMS_FrameworkVersion>
+    <CscFeature_IMS_ConfigRcsFeatures>PARTIAL_BRANDED|RCS_UI_FOR_OPEN|RCS_CPR</CscFeature_IMS_ConfigRcsFeatures>
     <CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
     <CscFeature_RIL_ConfigVolteRedialPolicy>TIM</CscFeature_RIL_ConfigVolteRedialPolicy>
     <CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
@@ -56,13 +57,8 @@
     <CscFeature_Contact_ConfigImsOpStyle>TIM</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_Setting_IncludeApn4SwUpdate>true</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_LockScreen_ConfigClockDisplayPolicy>IgnoreNationalRoamingWithoutMNC</CscFeature_LockScreen_ConfigClockDisplayPolicy>
-    
-    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
-    <CscFeature_RIL_SupportEpdg>TRUE</CscFeature_RIL_SupportEpdg>
-    <CscFeature_RIL_SupportEpdgOnAirplaneMode>TRUE</CscFeature_RIL_SupportEpdgOnAirplaneMode>
-    <CscFeature_RIL_ConfigEpdgExtraFunction>ERIS</CscFeature_RIL_ConfigEpdgExtraFunction>        
+      
     <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>ITV_HD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
-    <CscFeature_Common_ConfigOnCircle>off</CscFeature_Common_ConfigOnCircle>
     <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
     <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
   </FeatureSet>
