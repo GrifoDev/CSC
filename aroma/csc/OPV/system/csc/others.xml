@@ -6,6 +6,7 @@
   <SalesCode>OPV</SalesCode>
   <FeatureSet>
     <CscFeature_Common_Vibration4NotiDuringCall>TRUE</CscFeature_Common_Vibration4NotiDuringCall>
+    <CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>com.orange.update</CscFeature_Common_ConfigAllowedPackagesDuringPowerSaving>
     <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>ORANGE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
     <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
     <CscFeature_SystemUI_ConfigQuickSettingPopup>OPV</CscFeature_SystemUI_ConfigQuickSettingPopup>
@@ -16,6 +17,7 @@
     <CscFeature_Setting_SkipStepsDuringSamsungSetupWizard>SamsungAccount,SamsungBackup</CscFeature_Setting_SkipStepsDuringSamsungSetupWizard>
     <CscFeature_Setting_CustNetworkSelMenu4>NUMERIC</CscFeature_Setting_CustNetworkSelMenu4>
     <CscFeature_Setting_BlockToSelectDunApnType>TRUE</CscFeature_Setting_BlockToSelectDunApnType>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_VoiceCall_DisableUssdCancelPopup>TRUE</CscFeature_VoiceCall_DisableUssdCancelPopup>
     <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
     <CscFeature_VoiceCall_EnableCallButtonInFdnList>TRUE</CscFeature_VoiceCall_EnableCallButtonInFdnList>
@@ -56,7 +58,6 @@
     <CscFeature_RIL_HandleUnsupportedDns64DuringDownBooster>TRUE</CscFeature_RIL_HandleUnsupportedDns64DuringDownBooster>
     <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
     <CscFeature_VoiceCall_ConfigOpStyleForCallerId>forwarding_number</CscFeature_VoiceCall_ConfigOpStyleForCallerId>
-
 	
     <!-- IMS service: Common -->
     <CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
@@ -67,7 +68,7 @@
     <CscFeature_Contact_ConfigImsOpStyle>OPV</CscFeature_Contact_ConfigImsOpStyle>
     <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
     <CscFeature_RIL_ConfigEpdgE911RoutingPolicy>NoService</CscFeature_RIL_ConfigEpdgE911RoutingPolicy>
-    <CscFeature_Setting_HideApnList>Orange SERVICES</CscFeature_Setting_HideApnList>
+    <CscFeature_Setting_HideApnList>Orange SERVICES,Orange IMS</CscFeature_Setting_HideApnList>
     <!-- IMS service: VoLTE -->
     <CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>TRUE</CscFeature_VoiceCall_DisablePopupMsgWhenDeactivatingCallForwarding>
 	<CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,voltesettingEUR</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>
@@ -94,6 +95,7 @@
 	<CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
 	<CscFeature_RIL_ConfigEmergencyApn>ims,IPV4V6,IPV4V6,LTE</CscFeature_RIL_ConfigEmergencyApn> 
     <CscFeature_RIL_ConfigNetworkNameForEpdg>WiFi Calling</CscFeature_RIL_ConfigNetworkNameForEpdg>
+    <CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>TRUE</CscFeature_Wifi_SupportRssiPollStateDuringWifiCalling>
     <!-- IMS service: RCS -->
     <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
     <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
